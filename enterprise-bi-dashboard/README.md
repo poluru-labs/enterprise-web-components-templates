@@ -8,6 +8,11 @@ on a **light background** with brand **`#DA0037`**.
 [![License: MIT](https://img.shields.io/badge/License-MIT-DA0037.svg)](./LICENSE)
 [![Node.js 20+](https://img.shields.io/badge/node-%3E%3D20-1a2430.svg)](./package.json)
 
+## Screeshot
+
+<img width="3360" height="3572" alt="image" src="https://github.com/user-attachments/assets/61e287f7-d443-4d0d-adb7-92de80d78332" />
+
+
 ## Features
 
 - App shell with side navigation, sticky toolbar, breadcrumbs, search, and account menu
