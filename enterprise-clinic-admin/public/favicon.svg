@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Halo Clinic">
+  <rect width="32" height="32" rx="9" fill="#427AB5"/>
+  <path d="M15.1 7.2h1.8v17.6h-1.8z" fill="#fff"/>
+  <path d="M7.2 15.1h17.6v1.8H7.2z" fill="#fff"/>
+</svg>
