@@ -11,6 +11,7 @@ metrics live in `src/data.js`.
 | `src/main.js` | Token import, app shell, routing, global overlays |
 | `src/views.js` | View markup and per-route hydration |
 | `src/features.js` | Goals, forecasts, sources, usage, team, and overview extras |
+| `src/insights.js` | Watchlist, anomalies, quality, Ask, subscriptions, audit |
 | `src/data.js` | Fictional workspace, reports, SQL, nav |
 | `src/style.css` | Brand token overrides and layout |
 | `vite.config.js` | Relative `base`, ports, sourcemaps |

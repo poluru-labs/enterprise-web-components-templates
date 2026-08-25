@@ -6,6 +6,8 @@ import {
   kpis,
   onboardingSteps,
   ownerOptions,
+  queryResultColumns,
+  queryResultRows,
   querySteps,
   rangeOptions,
   recentWorkbooks,
@@ -13,6 +15,7 @@ import {
   reportRows,
   reportSuggestions,
   sqlSample,
+  timezoneOptions,
   treeItems,
   currentUser,
   productName,
@@ -33,6 +36,20 @@ import {
   renderTeam,
   renderUsage,
 } from './features.js';
+import {
+  hydrateAnomalies,
+  hydrateAsk,
+  hydrateAudit,
+  hydrateQuality,
+  hydrateSubscriptions,
+  hydrateWatchlist,
+  renderAnomalies,
+  renderAsk,
+  renderAudit,
+  renderQuality,
+  renderSubscriptions,
+  renderWatchlist,
+} from './insights.js';
 
 const PAGE_SIZE = 5;
 
@@ -79,6 +96,13 @@ export function renderOverview() {
       message="Last successful refresh ${workspace.freshness}. ${workspace.sources} sources certified."
       dismissible
       icon="check-circle"
+    ></eds-alert>
+    <eds-alert
+      class="mt-2"
+      variant="warning"
+      title="1 quality fail"
+      message="Support tickets freshness is 18m. Open Anomalies or Quality for owners."
+      dismissible
     ></eds-alert>
     <section class="row g-3 mt-1" aria-label="Key metrics">
       ${kpis
@@ -151,6 +175,7 @@ export function renderReports() {
       'Search, filter, and page through certified scorecards.',
       `
         <eds-button id="open-filters" variant="secondary" icon="filter">Filters</eds-button>
+        <eds-button id="subscribe-report" variant="secondary" icon="mail">Subscribe</eds-button>
         <eds-button id="refresh-reports" variant="tertiary" icon="refresh">Reload</eds-button>
       `,
     )}
@@ -306,6 +331,13 @@ export function renderQuery() {
         </eds-card>
       </div>
     </div>
+    <eds-card id="query-results-card" class="mt-3" elevated padded hidden>
+      <div class="section-title">
+        <h2>Results</h2>
+        <eds-badge label="5 rows" variant="brand" pill></eds-badge>
+      </div>
+      <eds-data-table id="query-results" sortable striped compact></eds-data-table>
+    </eds-card>
   `;
 }
 
@@ -360,6 +392,18 @@ export function renderSettings() {
           <eds-input class="mt-3" type="email" label="Notification email" value="${currentUser.email}" icon="mail"></eds-input>
           <eds-switch class="mt-3" id="live-refresh" label="Live refresh on Overview" checked></eds-switch>
           <eds-switch class="mt-3" id="compact-density" label="Compact density"></eds-switch>
+        </eds-card>
+      </div>
+      <div class="col-lg-6">
+        <eds-card elevated padded>
+          <div class="section-title"><h2>Workspace</h2></div>
+          <eds-select id="tz-select" label="Timezone"></eds-select>
+          <eds-radio-group id="week-start" class="mt-3" label="Week starts on" name="week" value="monday" orientation="horizontal">
+            <eds-radio label="Monday" value="monday"></eds-radio>
+            <eds-radio label="Sunday" value="sunday"></eds-radio>
+          </eds-radio-group>
+          <eds-input class="mt-3" id="api-token" label="Personal access token" value="hx_live_7f3a9c2e" icon="lock" readonly></eds-input>
+          <eds-button id="copy-token" class="mt-3" variant="secondary" icon="copy">Copy token</eds-button>
         </eds-card>
       </div>
       <div class="col-lg-6">
@@ -420,6 +464,12 @@ const views = {
   usage: renderUsage,
   team: renderTeam,
   alerts: renderAlerts,
+  watchlist: renderWatchlist,
+  anomalies: renderAnomalies,
+  quality: renderQuality,
+  ask: renderAsk,
+  subscriptions: renderSubscriptions,
+  audit: renderAudit,
   settings: renderSettings,
   legal: renderLegal,
 };
@@ -543,6 +593,10 @@ export function hydrateView(root, name) {
         showToast({ message: 'Catalog reloaded', variant: 'success' });
       }, 700);
     });
+    root.querySelector('#subscribe-report')?.addEventListener('eds-click', () => {
+      window.location.hash = '#/subscriptions';
+      showToast({ message: 'Open a subscription for this catalog', variant: 'info' });
+    });
   }
 
   if (name === 'explorer') {
@@ -579,7 +633,14 @@ export function hydrateView(root, name) {
       showToast({ message: 'Query cost is within budget', variant: 'success' });
     });
     root.querySelector('#run-query')?.addEventListener('eds-click', () => {
-      showToast({ message: 'Query submitted to the warehouse', variant: 'info' });
+      const card = root.querySelector('#query-results-card');
+      const table = root.querySelector('#query-results');
+      if (table) {
+        table.columns = queryResultColumns;
+        table.rows = queryResultRows;
+      }
+      if (card) card.hidden = false;
+      showToast({ message: 'Query returned 5 rows', variant: 'success' });
     });
     root.querySelector('#publish-pin')?.addEventListener('eds-complete', () => {
       showToast({ message: 'PIN accepted. Ready to publish.', variant: 'success' });
@@ -620,6 +681,17 @@ export function hydrateView(root, name) {
       const checked = event.detail?.checked ?? event.target.checked;
       showToast({ message: checked ? 'Live refresh enabled' : 'Live refresh paused', variant: 'info' });
     });
+    const tz = root.querySelector('#tz-select');
+    if (tz) {
+      tz.options = timezoneOptions;
+      tz.value = 'ny';
+    }
+    root.querySelector('#copy-token')?.addEventListener('eds-click', () => {
+      showToast({ message: 'Token copied to clipboard', variant: 'success' });
+    });
+    root.querySelector('#week-start')?.addEventListener('eds-change', (event) => {
+      showToast({ message: `Week starts on ${event.detail?.value ?? event.target.value}`, variant: 'info' });
+    });
   }
 
   if (name === 'goals') hydrateGoals(root);
@@ -627,4 +699,10 @@ export function hydrateView(root, name) {
   if (name === 'sources') hydrateSources(root);
   if (name === 'usage') hydrateUsage(root);
   if (name === 'team') hydrateTeam(root);
+  if (name === 'watchlist') hydrateWatchlist(root);
+  if (name === 'anomalies') hydrateAnomalies(root);
+  if (name === 'quality') hydrateQuality(root);
+  if (name === 'ask') hydrateAsk(root);
+  if (name === 'subscriptions') hydrateSubscriptions(root);
+  if (name === 'audit') hydrateAudit(root);
 }

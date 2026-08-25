@@ -20,7 +20,9 @@ on a **light background** with brand **`#DA0037`**.
 - Report catalog with search, autocomplete, combobox, date range, tags, table, and pagination
 - Explorer with folder tree, workbook list, tabs, SQL snippet, and lineage accordion
 - Query lab with stepper, SQL authoring, limits, schedule, PIN publish gate, and file upload
-- Goals, forecasts, sources, usage, and team directories
+- Goals, forecasts, sources, usage, team, watchlist, anomalies, quality, and Ask
+- Subscriptions and audit log for deliveries and access
+- Query lab results table after run; report subscribe jumps to deliveries
 - Global jump-to search and a dedicated inbox drawer
 - Alerts with rating, popover, modal create flow, and toast confirmations
 - Settings for profile, density, live refresh, and accessibility helpers
@@ -49,6 +51,12 @@ Open the URL Vite prints (default http://localhost:5173). Routes are hash-based:
 | `#/sources` | Connector health |
 | `#/usage` | Warehouse spend |
 | `#/team` | Analysts and roles |
+| `#/watchlist` | Live followed metrics |
+| `#/anomalies` | Detection feed |
+| `#/quality` | Tests and freshness |
+| `#/ask` | Natural-language questions |
+| `#/subscriptions` | Email and Slack deliveries |
+| `#/audit` | Access log |
 | `#/alerts` | Monitors |
 | `#/settings` | Preferences |
 | `#/legal` | Copyright and notices |

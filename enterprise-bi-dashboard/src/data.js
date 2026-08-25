@@ -45,6 +45,24 @@ export const navItems = [
     ],
   },
   { label: 'Alerts', href: '#/alerts', icon: 'bell' },
+  {
+    label: 'Insights',
+    icon: 'eye',
+    children: [
+      { label: 'Watchlist', href: '#/watchlist' },
+      { label: 'Anomalies', href: '#/anomalies' },
+      { label: 'Quality', href: '#/quality' },
+      { label: 'Ask', href: '#/ask' },
+    ],
+  },
+  {
+    label: 'Deliver',
+    icon: 'mail',
+    children: [
+      { label: 'Subscriptions', href: '#/subscriptions' },
+      { label: 'Audit', href: '#/audit' },
+    ],
+  },
   { label: 'Settings', href: '#/settings', icon: 'settings' },
 ];
 
@@ -122,6 +140,54 @@ export const routes = {
     crumbs: [
       { label: 'Workspace', href: '#/overview' },
       { label: 'Alerts' },
+    ],
+  },
+  watchlist: {
+    title: 'Watchlist',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Insights', href: '#/watchlist' },
+      { label: 'Watchlist' },
+    ],
+  },
+  anomalies: {
+    title: 'Anomalies',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Insights', href: '#/anomalies' },
+      { label: 'Anomalies' },
+    ],
+  },
+  quality: {
+    title: 'Quality',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Insights', href: '#/quality' },
+      { label: 'Quality' },
+    ],
+  },
+  ask: {
+    title: 'Ask',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Insights', href: '#/ask' },
+      { label: 'Ask' },
+    ],
+  },
+  subscriptions: {
+    title: 'Subscriptions',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Deliver', href: '#/subscriptions' },
+      { label: 'Subscriptions' },
+    ],
+  },
+  audit: {
+    title: 'Audit',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Deliver', href: '#/audit' },
+      { label: 'Audit' },
     ],
   },
   settings: {
@@ -399,5 +465,123 @@ export const commandItems = [
   { label: 'Sources', description: 'Connector health', href: '#/sources', icon: 'link' },
   { label: 'Usage', description: 'Warehouse spend', href: '#/usage', icon: 'clock' },
   { label: 'Team', description: 'Analysts and roles', href: '#/team', icon: 'user' },
+  { label: 'Watchlist', description: 'Live metrics', href: '#/watchlist', icon: 'eye' },
+  { label: 'Anomalies', description: 'Detection feed', href: '#/anomalies', icon: 'alert-triangle' },
+  { label: 'Quality', description: 'Tests and freshness', href: '#/quality', icon: 'check' },
+  { label: 'Ask', description: 'Natural-language questions', href: '#/ask', icon: 'search' },
+  { label: 'Subscriptions', description: 'Scheduled deliveries', href: '#/subscriptions', icon: 'mail' },
+  { label: 'Audit', description: 'Access log', href: '#/audit', icon: 'lock' },
   { label: 'Ananya Reddy', description: 'Workspace admin', href: '#/team', icon: 'user' },
+];
+
+export const watchMetrics = [
+  { label: 'NRR', value: '112%', delta: '+1.4 pts', trend: 'up' },
+  { label: 'Activation', value: '38%', delta: '-0.8 pts', trend: 'down' },
+  { label: 'Pipeline SLA', value: '99.6%', delta: 'On target', trend: 'flat' },
+  { label: 'CSAT', value: '4.7', delta: '+0.1', trend: 'up' },
+  { label: 'Warehouse $', value: '$142k', delta: '79% of cap', trend: 'up' },
+  { label: 'Active accounts', value: '17.1k', delta: '-1.3k vs goal', trend: 'down' },
+];
+
+export const anomalyRows = [
+  { metric: 'Zendesk latency', owner: 'Diya Shah', severity: 'High', change: '+210%', window: '8m ago' },
+  { metric: 'Activation rate', owner: 'Meera Nair', severity: 'Medium', change: '-4.2 pts', window: '2h ago' },
+  { metric: 'Adhoc warehouse spend', owner: 'Sahana Rao', severity: 'Medium', change: '+38%', window: '5h ago' },
+  { metric: 'Invoice null rate', owner: 'Ananya Reddy', severity: 'Low', change: '+0.4 pts', window: '1d ago' },
+];
+
+export const anomalyColumns = [
+  { key: 'metric', label: 'Metric', sortable: true },
+  { key: 'owner', label: 'Owner', sortable: true },
+  { key: 'severity', label: 'Severity', sortable: true },
+  { key: 'change', label: 'Change', sortable: true },
+  { key: 'window', label: 'Detected', sortable: true },
+];
+
+export const qualityRows = [
+  { test: 'not_null account_id', model: 'subscription_facts', owner: 'Vikram Iyer', result: 'Pass', runtime: '12s' },
+  { test: 'accepted_values status', model: 'subscription_facts', owner: 'Vikram Iyer', result: 'Pass', runtime: '9s' },
+  { test: 'relationships accounts', model: 'crm_accounts', owner: 'Meera Nair', result: 'Pass', runtime: '21s' },
+  { test: 'freshness < 15m', model: 'support_tickets', owner: 'Diya Shah', result: 'Fail', runtime: '4s' },
+  { test: 'unique invoice_id', model: 'billing_ledger', owner: 'Ananya Reddy', result: 'Pass', runtime: '18s' },
+  { test: 'schema drift', model: 'product_events', owner: 'Rohan Kapoor', result: 'Warn', runtime: '7s' },
+];
+
+export const qualityColumns = [
+  { key: 'test', label: 'Test', sortable: true },
+  { key: 'model', label: 'Model', sortable: true },
+  { key: 'owner', label: 'Owner', sortable: true },
+  { key: 'result', label: 'Result', sortable: true },
+  { key: 'runtime', label: 'Runtime', sortable: true },
+];
+
+export const askPrompts = [
+  'Why did activation drop this week?',
+  'Which region missed NRR target?',
+  'What is warehouse spend vs cap?',
+  'Show Zendesk latency vs SLA',
+];
+
+export const askAnswers = {
+  'Why did activation drop this week?':
+    'Activation fell 0.8 pts to 38%. The largest gap is APAC trial-to-paid (31% vs 42% target). Meera Nair flagged a billing experiment that paused dunning for 4 days.',
+  'Which region missed NRR target?':
+    'EMEA NRR is 109% against an 118% goal. Contraction is concentrated in 14 mid-market accounts that downgraded seats after the April price change.',
+  'What is warehouse spend vs cap?':
+    'Month-to-date spend is $142k of $180k (79%). HELIX_WH_XL is 54% of credits. Auto-suspend is healthy; adhoc warehouse is the fastest-growing line.',
+  'Show Zendesk latency vs SLA':
+    'Support tickets source is degraded at 18m latency versus a 10m freshness test. Diya Shah is the owner. An anomaly fired 8 minutes ago.',
+};
+
+export const subscriptionRows = [
+  { name: 'Friday board pack', channel: 'Email', cadence: 'Weekly 08:00', owner: 'Ananya Reddy', status: 'Active' },
+  { name: 'Pipeline health digest', channel: 'Slack', cadence: 'Weekdays 09:30', owner: 'Vikram Iyer', status: 'Active' },
+  { name: 'NRR watch', channel: 'Email', cadence: 'Daily 07:00', owner: 'Meera Nair', status: 'Paused' },
+  { name: 'CX backlog', channel: 'Slack', cadence: 'Hourly', owner: 'Diya Shah', status: 'Active' },
+];
+
+export const subscriptionColumns = [
+  { key: 'name', label: 'Subscription', sortable: true },
+  { key: 'channel', label: 'Channel', sortable: true },
+  { key: 'cadence', label: 'Cadence', sortable: true },
+  { key: 'owner', label: 'Owner', sortable: true },
+  { key: 'status', label: 'Status', sortable: true },
+];
+
+export const auditRows = [
+  { actor: 'Ananya Reddy', action: 'Exported board pack PDF', target: 'Overview', when: '12 minutes ago' },
+  { actor: 'Vikram Iyer', action: 'Published SQL', target: 'Query lab', when: '41 minutes ago' },
+  { actor: 'Meera Nair', action: 'Shared forecast', target: 'Forecasts', when: '1 hour ago' },
+  { actor: 'Diya Shah', action: 'Acknowledged anomaly', target: 'Zendesk latency', when: '2 hours ago' },
+  { actor: 'Rohan Kapoor', action: 'Pinned workbook', target: 'Product adoption', when: 'Yesterday' },
+  { actor: 'Sahana Rao', action: 'Raised budget cap', target: 'Usage', when: 'Yesterday' },
+];
+
+export const auditColumns = [
+  { key: 'actor', label: 'Actor', sortable: true },
+  { key: 'action', label: 'Action', sortable: true },
+  { key: 'target', label: 'Target', sortable: true },
+  { key: 'when', label: 'When', sortable: true },
+];
+
+export const queryResultColumns = [
+  { key: 'week', label: 'Week', sortable: true },
+  { key: 'cohort', label: 'Cohort', sortable: true },
+  { key: 'accounts', label: 'Active accounts', sortable: true },
+  { key: 'nrr', label: 'NRR', sortable: true },
+];
+
+export const queryResultRows = [
+  { week: '2026-08-17', cohort: '2025-Q4', accounts: 1840, nrr: '114%' },
+  { week: '2026-08-17', cohort: '2026-Q1', accounts: 2214, nrr: '109%' },
+  { week: '2026-08-10', cohort: '2025-Q4', accounts: 1792, nrr: '113%' },
+  { week: '2026-08-10', cohort: '2026-Q1', accounts: 2166, nrr: '108%' },
+  { week: '2026-08-03', cohort: '2025-Q4', accounts: 1760, nrr: '112%' },
+];
+
+export const timezoneOptions = [
+  { label: 'America/New_York', value: 'ny' },
+  { label: 'America/Chicago', value: 'chi' },
+  { label: 'Europe/London', value: 'lon' },
+  { label: 'Asia/Kolkata', value: 'ist' },
 ];

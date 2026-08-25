@@ -9,7 +9,7 @@ This project uses [Semantic Versioning](https://semver.org/).
 
 ### Added
 
-- Full Helix Analytics workspace: Overview, Reports, Explorer, Query lab, Goals, Forecasts, Sources, Usage, Team, Alerts, Settings, and Legal
+- Full Helix Analytics workspace including Insights (watchlist, anomalies, quality, Ask) and Deliver (subscriptions, audit)
 - Brand theme `#DA0037` on a light canvas, overriding EDS brand tokens
 - Hash-routed app shell using `eds-side-nav`, `eds-toolbar`, `eds-breadcrumb`, drawers, and modals
 - Demonstration of the published `eds-*` component set from `@poluru-labs/enterprise-design-system-wc`

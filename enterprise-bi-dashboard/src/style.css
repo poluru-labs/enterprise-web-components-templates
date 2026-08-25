@@ -296,6 +296,15 @@ body {
   background: linear-gradient(90deg, var(--eds-color-brand-400), var(--bi-brand));
 }
 
+.ask-answer {
+  min-height: 6rem;
+  line-height: 1.55;
+}
+
+.ask-prompt {
+  cursor: pointer;
+}
+
 @media (max-width: 960px) {
   .app-shell {
     grid-template-columns: 1fr;
