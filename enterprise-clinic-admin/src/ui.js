@@ -44,7 +44,7 @@ export function chartPanel({ title, action = '', body }) {
 
 let sparkId = 0;
 
-export function sparkline(points, label, color = '#427AB5') {
+export function sparkline(points, label, color = '#D90000') {
   const max = Math.max(...points);
   const coords = points
     .map((value, index) => {

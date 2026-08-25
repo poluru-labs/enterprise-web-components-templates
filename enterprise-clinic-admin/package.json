@@ -2,7 +2,7 @@
   "name": "enterprise-clinic-admin",
   "private": true,
   "version": "1.0.0",
-  "description": "Halo Clinic — appointments, charts, census, orders, and care-team operations. Light theme, brand #427AB5.",
+  "description": "Halo Clinic — appointments, charts, census, orders, and care-team operations. Light theme, brand #D90000.",
   "type": "module",
   "license": "MIT",
   "scripts": {
