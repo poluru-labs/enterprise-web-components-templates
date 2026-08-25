@@ -1,8 +1,10 @@
 {
   "name": "enterprise-billing-dashboard",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Verdant Billing — premium SaaS finance and billing workspace. Light theme, brand #1D4533.",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,5 +17,8 @@
   },
   "devDependencies": {
     "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
