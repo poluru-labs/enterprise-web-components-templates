@@ -1,8 +1,10 @@
 {
   "name": "enterprise-crm-dashboard",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Lyra CRM — pipeline, deals, leads, and forecast workspace. Light theme, brand #1055C9.",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,5 +17,8 @@
   },
   "devDependencies": {
     "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
