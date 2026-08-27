@@ -1,6 +1,6 @@
 export const productName = 'Lyra';
 export const productLine = 'CRM';
-export const workspaceName = 'Poluru Labs';
+export const workspaceName = 'Lyra';
 
 export const currentUser = {
   name: 'Aisha Poluru',
@@ -11,7 +11,7 @@ export const currentUser = {
 };
 
 export const company = {
-  name: 'Poluru Labs, Inc.',
+  name: 'Lyra, Inc.',
   region: 'Americas · EMEA',
   fiscal: 'FY26 Q3',
   currency: 'USD',

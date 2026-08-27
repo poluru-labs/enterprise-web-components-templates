@@ -93,7 +93,7 @@ export function renderOverview() {
         ${chartPanel({
           title: 'Pipeline trend',
           action: '<eds-badge label="T12M" variant="brand" pill></eds-badge>',
-          body: sparkline(pipelineMonths, 'Open pipeline in millions for the last twelve months') + '<p class="muted mb-0 mt-2">Open pipeline, unweighted. August is in progress at $4.86M across the Poluru Labs book.</p>',
+          body: sparkline(pipelineMonths, 'Open pipeline in millions for the last twelve months') + '<p class="muted mb-0 mt-2">Open pipeline, unweighted. August is in progress at $4.86M.</p>',
         })}
       </div>
       <div class="col-lg-4">
