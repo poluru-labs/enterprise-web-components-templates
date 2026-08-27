@@ -15,6 +15,7 @@ import {
   productName,
   workspaceName,
 } from './data.js';
+import { themeCards } from './ui.js';
 import { hydrateView, renderView, viewState } from './views.js';
 
 const app = document.querySelector('#app');
@@ -61,7 +62,7 @@ function crumbItems(route) {
 function renderShell() {
   app.innerHTML = `
     <header class="saas-header">
-      <eds-toolbar bordered>
+      <eds-toolbar>
         <div slot="start" class="header-start">
           <eds-button id="nav-toggle" variant="tertiary" icon="menu" icon-only accessible-label="Open menu"></eds-button>
           <a class="wordmark" href="#/overview">
@@ -348,8 +349,10 @@ function renderRoute() {
   try {
     view.innerHTML = renderView(route);
     hydrateView(view, route);
+    themeCards(view);
   } catch (error) {
     view.innerHTML = `<eds-card padded><h1>This page could not load</h1><p class="muted">${error.message}</p></eds-card>`;
+    themeCards(view);
     console.error(error);
   }
   view.scrollTop = 0;
@@ -363,6 +366,7 @@ function boot() {
   setDensity('comfortable');
   renderShell();
   hydrateShell();
+  themeCards();
   renderRoute();
   window.addEventListener('hashchange', renderRoute);
 }

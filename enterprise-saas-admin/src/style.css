@@ -84,7 +84,6 @@ body {
   width: 100%;
   min-height: var(--helio-header);
   background: var(--helio-brand);
-  box-shadow: 0 1px 0 rgb(26 26 18 / 0.08);
 }
 
 .saas-header eds-toolbar {

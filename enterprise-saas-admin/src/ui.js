@@ -33,6 +33,28 @@ export function hydrateStats(root, items, prefix = 'kpi') {
   items.forEach((item, index) => Object.assign(root.querySelector(`#${prefix}-${index}`) ?? {}, item));
 }
 
+const cardSheet = new CSSStyleSheet();
+cardSheet.replaceSync(`
+  .padded .header,
+  .padded .footer,
+  .padded .media ::slotted(*) {
+    border: 0;
+  }
+`);
+
+export function themeCards(root = document) {
+  const apply = () => {
+    root.querySelectorAll('eds-card').forEach((card) => {
+      const shadow = card.shadowRoot;
+      if (!shadow || card.dataset.cardTheme === '1') return;
+      shadow.adoptedStyleSheets = [...shadow.adoptedStyleSheets, cardSheet];
+      card.dataset.cardTheme = '1';
+    });
+  };
+  apply();
+  requestAnimationFrame(apply);
+}
+
 export function sheet({ title, action = '', body }) {
   return `
     <eds-card padded>
