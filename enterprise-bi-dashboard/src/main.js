@@ -4,7 +4,7 @@ import '@poluru-labs/enterprise-design-system-wc/tokens.css';
 import '@poluru-labs/enterprise-design-system-wc';
 import { showToast, setDensity } from '@poluru-labs/enterprise-design-system-wc';
 import './style.css';
-import { currentUser, navItems, notifications, productName, routes } from './data.js';
+import { currentUser, navItems, notifications, productName, routes, workspace } from './data.js';
 import { filterCommands } from './features.js';
 import { hydrateView, renderView } from './views.js';
 
@@ -40,21 +40,32 @@ function renderShell() {
           </div>
         </div>
         <eds-side-nav id="side-nav"></eds-side-nav>
-        <p class="footer-meta px-2 mb-0">© 2026 ${productName} · MIT</p>
+        <div class="sidebar-foot">
+          <eds-avatar name="${currentUser.name}" size="sm"></eds-avatar>
+          <div class="brand-copy">
+            <strong>${currentUser.name}</strong>
+            <small>${currentUser.role}</small>
+          </div>
+        </div>
       </aside>
       <div class="app-main">
         <eds-toolbar bordered sticky>
           <div slot="start" class="toolbar-start">
             <eds-button id="nav-toggle" variant="tertiary" icon="menu" icon-only accessible-label="Toggle navigation"></eds-button>
             <eds-search id="global-search" class="toolbar-search" placeholder="Search reports, metrics, people" clearable></eds-search>
+            <span class="toolbar-kbd"><eds-kbd keys="⌘K"></eds-kbd></span>
           </div>
           <div slot="end" class="toolbar-end">
+            <eds-status class="fresh-pill" label="Fresh ${workspace.freshness}" variant="success"></eds-status>
             <eds-badge id="inbox-count" label="${notifications.length}" variant="danger" pill></eds-badge>
             <eds-tooltip content="Open inbox">
               <eds-button id="notify-btn" variant="tertiary" icon="bell" icon-only accessible-label="Notifications"></eds-button>
             </eds-tooltip>
             <eds-dropdown-menu id="user-menu" placement="bottom">
-              <eds-button slot="trigger" variant="tertiary" icon="user">${currentUser.name}</eds-button>
+              <button slot="trigger" class="profile-trigger" type="button">
+                <eds-avatar name="${currentUser.name}" size="sm"></eds-avatar>
+                <span>${currentUser.name}</span>
+              </button>
               <eds-menu-item label="Settings" value="settings" icon="settings"></eds-menu-item>
               <eds-menu-item label="Legal & copyright" value="legal" icon="file"></eds-menu-item>
               <eds-menu-item label="Sign out" value="signout" icon="lock" danger></eds-menu-item>
@@ -194,6 +205,16 @@ function hydrateShell() {
   });
   document.querySelector('#close-alert')?.addEventListener('eds-click', () => {
     document.querySelector('#share-modal')?.close();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+      event.preventDefault();
+      const search = document.querySelector('#global-search');
+      const commandList = document.querySelector('#command-list');
+      if (commandList) commandList.items = filterCommands(search?.value ?? '');
+      document.querySelector('#command-modal')?.show();
+    }
   });
 }
 

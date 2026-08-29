@@ -1,5 +1,6 @@
 import { showToast } from '@poluru-labs/enterprise-design-system-wc';
 import {
+  collections,
   commandItems,
   compareOptions,
   currentUser,
@@ -9,6 +10,9 @@ import {
   goalColumns,
   goalMeters,
   goalRows,
+  jobColumns,
+  jobRows,
+  lineageLayers,
   sourceColumns,
   sourceRows,
   teamMembers,
@@ -369,6 +373,116 @@ export function hydrateTeam(root) {
   root.querySelector('#invite-member')?.addEventListener('eds-click', () => {
     document.querySelector('#share-modal')?.show();
     showToast({ message: `Invite from ${currentUser.name}`, variant: 'info' });
+  });
+}
+
+export function renderLineage() {
+  return `
+    ${header(
+      'Explorer',
+      'Lineage',
+      'How the executive scorecard is built — sources, staging, marts, and the published workbook.',
+      `<eds-button id="open-explorer" variant="secondary" icon="folder">Open workbook</eds-button>`,
+    )}
+    <eds-card padded>
+      <div class="lineage-board" role="img" aria-label="Lineage from sources to the executive scorecard">
+        ${lineageLayers
+          .map(
+            (layer) => `
+          <section class="lineage-col">
+            <h2>${layer.title}</h2>
+            ${layer.nodes
+              .map(
+                (node) => `
+              <article class="lineage-node">
+                <strong>${node.label}</strong>
+                <span>${node.meta}</span>
+              </article>`,
+              )
+              .join('')}
+          </section>`,
+          )
+          .join('')}
+      </div>
+    </eds-card>
+    <section class="row g-3 mt-1">
+      <div class="col-lg-6">
+        <eds-card padded>
+          <div class="section-title"><h2>Impact</h2></div>
+          <p class="muted mb-0">A fail on <strong>support_tickets</strong> does not block this scorecard. A fail on <strong>subscription_facts</strong> would.</p>
+        </eds-card>
+      </div>
+      <div class="col-lg-6">
+        <eds-card padded>
+          <div class="section-title"><h2>Owners</h2></div>
+          <p class="muted mb-0">Vikram Iyer owns the mart. Ananya Reddy owns the published pack. Tests run with the 15-minute finance job.</p>
+        </eds-card>
+      </div>
+    </section>
+  `;
+}
+
+export function hydrateLineage(root) {
+  root.querySelector('#open-explorer')?.addEventListener('eds-click', () => {
+    window.location.hash = '#/explorer';
+  });
+}
+
+export function renderCollections() {
+  return `
+    ${header(
+      'Deliver',
+      'Collections',
+      'Saved sets of certified reports. Share a collection instead of a folder of links.',
+      `<eds-button id="new-collection" variant="primary" icon="plus">New collection</eds-button>`,
+    )}
+    <div class="row g-3">
+      ${collections
+        .map(
+          (item) => `
+        <div class="col-md-6 col-xl-3">
+          <eds-card padded>
+            <span class="eyebrow">${item.status}</span>
+            <h2 class="mt-2">${item.name}</h2>
+            <p class="muted">${item.reports} reports · ${item.owner}</p>
+            <p class="muted mb-3">${item.updated}</p>
+            <eds-link href="#/reports" variant="default">Open catalog</eds-link>
+          </eds-card>
+        </div>`,
+        )
+        .join('')}
+    </div>
+  `;
+}
+
+export function hydrateCollections(root) {
+  root.querySelector('#new-collection')?.addEventListener('eds-click', () => {
+    showToast({ message: 'Collection draft saved to Deliver', variant: 'success' });
+  });
+}
+
+export function renderJobs() {
+  return `
+    ${header(
+      'Platform',
+      'Jobs',
+      'Scheduled refreshes behind the certified marts. Support freshness is the only fail.',
+      `<eds-button id="run-job" variant="primary" icon="refresh">Run selected</eds-button>`,
+    )}
+    <eds-card padded>
+      <eds-data-table id="job-table" sortable striped></eds-data-table>
+    </eds-card>
+  `;
+}
+
+export function hydrateJobs(root) {
+  const table = root.querySelector('#job-table');
+  if (table) {
+    table.columns = jobColumns;
+    table.rows = jobRows;
+  }
+  root.querySelector('#run-job')?.addEventListener('eds-click', () => {
+    showToast({ message: 'harborline_finance queued', variant: 'success' });
   });
 }
 

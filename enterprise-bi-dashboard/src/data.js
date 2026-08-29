@@ -23,7 +23,7 @@ export const navItems = [
     icon: 'folder',
     children: [
       { label: 'Workbooks', href: '#/explorer' },
-      { label: 'Lineage', href: '#/explorer' },
+      { label: 'Lineage', href: '#/lineage' },
     ],
   },
   { label: 'Query lab', href: '#/query', icon: 'search' },
@@ -40,6 +40,7 @@ export const navItems = [
     icon: 'link',
     children: [
       { label: 'Sources', href: '#/sources' },
+      { label: 'Jobs', href: '#/jobs' },
       { label: 'Usage', href: '#/usage' },
       { label: 'Team', href: '#/team' },
     ],
@@ -59,6 +60,7 @@ export const navItems = [
     label: 'Deliver',
     icon: 'mail',
     children: [
+      { label: 'Collections', href: '#/collections' },
       { label: 'Subscriptions', href: '#/subscriptions' },
       { label: 'Audit', href: '#/audit' },
     ],
@@ -86,6 +88,30 @@ export const routes = {
     crumbs: [
       { label: 'Workspace', href: '#/overview' },
       { label: 'Explorer' },
+    ],
+  },
+  lineage: {
+    title: 'Lineage',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Explorer', href: '#/explorer' },
+      { label: 'Lineage' },
+    ],
+  },
+  jobs: {
+    title: 'Jobs',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Platform', href: '#/sources' },
+      { label: 'Jobs' },
+    ],
+  },
+  collections: {
+    title: 'Collections',
+    crumbs: [
+      { label: 'Workspace', href: '#/overview' },
+      { label: 'Deliver', href: '#/subscriptions' },
+      { label: 'Collections' },
     ],
   },
   query: {
@@ -460,6 +486,9 @@ export const notifications = [
 export const commandItems = [
   { label: 'Overview', description: 'Workspace pulse', href: '#/overview', icon: 'home' },
   { label: 'Reports catalog', description: 'Search certified scorecards', href: '#/reports', icon: 'file' },
+  { label: 'Lineage', description: 'Upstream and downstream', href: '#/lineage', icon: 'link' },
+  { label: 'Collections', description: 'Saved report sets', href: '#/collections', icon: 'folder' },
+  { label: 'Jobs', description: 'Scheduled refreshes', href: '#/jobs', icon: 'clock' },
   { label: 'Goals', description: 'OKR progress', href: '#/goals', icon: 'star' },
   { label: 'Forecasts', description: 'Six-month scenarios', href: '#/forecasts', icon: 'calendar' },
   { label: 'Sources', description: 'Connector health', href: '#/sources', icon: 'link' },
@@ -577,6 +606,67 @@ export const queryResultRows = [
   { week: '2026-08-10', cohort: '2025-Q4', accounts: 1792, nrr: '113%' },
   { week: '2026-08-10', cohort: '2026-Q1', accounts: 2166, nrr: '108%' },
   { week: '2026-08-03', cohort: '2025-Q4', accounts: 1760, nrr: '112%' },
+];
+
+export const briefItems = [
+  { label: 'Board pack is ready', description: 'Friday 08:00 export · Ananya Reddy', icon: 'file', href: '#/reports' },
+  { label: 'Support freshness failed', description: 'Zendesk 18m vs 10m test', icon: 'alert-triangle', href: '#/quality' },
+  { label: 'EMEA NRR still short', description: '109% vs 118% goal', icon: 'star', href: '#/goals' },
+];
+
+export const collections = [
+  { name: 'Friday board', owner: 'Ananya Reddy', reports: 6, updated: '12 minutes ago', status: 'Shared' },
+  { name: 'Growth weekly', owner: 'Meera Nair', reports: 4, updated: '2 hours ago', status: 'Private' },
+  { name: 'Platform health', owner: 'Vikram Iyer', reports: 5, updated: 'Yesterday', status: 'Shared' },
+  { name: 'CX standup', owner: 'Diya Shah', reports: 3, updated: 'Yesterday', status: 'Shared' },
+];
+
+export const jobColumns = [
+  { key: 'name', label: 'Job', sortable: true },
+  { key: 'model', label: 'Model', sortable: true },
+  { key: 'cadence', label: 'Cadence', sortable: true },
+  { key: 'owner', label: 'Owner', sortable: true },
+  { key: 'last', label: 'Last run', sortable: true },
+  { key: 'status', label: 'Status', sortable: true },
+];
+
+export const jobRows = [
+  { name: 'harborline_finance', model: 'subscription_facts', cadence: 'Every 15m', owner: 'Vikram Iyer', last: '2m ago', status: 'Succeeded' },
+  { name: 'product_events_hourly', model: 'product.account_dim', cadence: 'Hourly', owner: 'Rohan Kapoor', last: '18m ago', status: 'Succeeded' },
+  { name: 'support_freshness', model: 'support_tickets', cadence: 'Every 10m', owner: 'Diya Shah', last: '8m ago', status: 'Failed' },
+  { name: 'board_pack_pdf', model: 'executive_scorecard', cadence: 'Fri 08:00', owner: 'Ananya Reddy', last: 'Last Friday', status: 'Scheduled' },
+  { name: 'nrr_cohorts', model: 'subscription_facts', cadence: 'Nightly 02:00', owner: 'Meera Nair', last: 'Tonight', status: 'Queued' },
+  { name: 'people_roster', model: 'workday_roster', cadence: 'Daily 06:00', owner: 'Nikhil Menon', last: 'Paused', status: 'Paused' },
+];
+
+export const lineageLayers = [
+  {
+    title: 'Sources',
+    nodes: [
+      { id: 'stripe', label: 'Stripe', meta: 'Billing' },
+      { id: 'sfdc', label: 'Salesforce', meta: 'CRM' },
+      { id: 'segment', label: 'Segment', meta: 'Events' },
+    ],
+  },
+  {
+    title: 'Staging',
+    nodes: [
+      { id: 'invoices', label: 'billing.invoices', meta: '6m' },
+      { id: 'accounts', label: 'crm.accounts', meta: '11m' },
+      { id: 'events', label: 'product.events', meta: '4m' },
+    ],
+  },
+  {
+    title: 'Marts',
+    nodes: [
+      { id: 'facts', label: 'subscription_facts', meta: 'Certified' },
+      { id: 'dim', label: 'account_dim', meta: 'Certified' },
+    ],
+  },
+  {
+    title: 'Published',
+    nodes: [{ id: 'scorecard', label: 'Executive scorecard', meta: 'Live' }],
+  },
 ];
 
 export const timezoneOptions = [

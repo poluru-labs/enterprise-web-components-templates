@@ -2,6 +2,7 @@ import { showToast, todayISO, formatCount, setDensity } from '@poluru-labs/enter
 import {
   activity,
   alertItems,
+  briefItems,
   datasetOptions,
   kpis,
   onboardingSteps,
@@ -23,14 +24,20 @@ import {
   workspaceFacts,
 } from './data.js';
 import {
+  hydrateCollections,
   hydrateForecasts,
   hydrateGoals,
+  hydrateJobs,
+  hydrateLineage,
   hydrateOverviewExtras,
   hydrateSources,
   hydrateTeam,
   hydrateUsage,
+  renderCollections,
   renderForecasts,
   renderGoals,
+  renderJobs,
+  renderLineage,
   renderOverviewExtras,
   renderSources,
   renderTeam,
@@ -76,9 +83,9 @@ function header(eyebrow, title, lead, actions = '') {
 export function renderOverview() {
   return `
     ${header(
-      'Workspace pulse',
-      '<i class="bi bi-bar-chart-line me-2" aria-hidden="true"></i>Business intelligence',
-      `Certified metrics for ${workspace.name}. Light canvas, brand ${'#DA0037'}.`,
+      workspace.name,
+      'Overview',
+      `Certified metrics, one quality watch, and the Friday board pack. Warehouse refreshed ${workspace.freshness}.`,
       `
         <eds-split-button id="overview-export" label="Export pack" variant="primary" icon="download">
           <eds-menu-item label="PDF board pack" value="pdf" icon="file"></eds-menu-item>
@@ -91,34 +98,24 @@ export function renderOverview() {
       `,
     )}
     <eds-alert
-      variant="info"
-      title="Warehouse is current"
-      message="Last successful refresh ${workspace.freshness}. ${workspace.sources} sources certified."
-      dismissible
-      icon="check-circle"
-    ></eds-alert>
-    <eds-alert
-      class="mt-2"
       variant="warning"
-      title="1 quality fail"
-      message="Support tickets freshness is 18m. Open Anomalies or Quality for owners."
+      title="Support freshness failed"
+      message="Zendesk is 18 minutes behind a 10-minute test. The finance mart is current. Diya Shah owns the ticket source."
       dismissible
     ></eds-alert>
-    <section class="row g-3 mt-1" aria-label="Key metrics">
+    <section class="metric-strip" aria-label="Key metrics">
       ${kpis
         .map(
-          (kpi, index) => `
-        <div class="col-sm-6 col-xl-3">
-          <eds-card elevated padded>
-            <eds-stat id="kpi-${index}"></eds-stat>
-          </eds-card>
+          (_kpi, index) => `
+        <div class="metric-cell">
+          <eds-stat id="kpi-${index}"></eds-stat>
         </div>`,
         )
         .join('')}
     </section>
     <section class="row g-3 mt-1">
       <div class="col-lg-8">
-        <eds-card class="chart-card" elevated padded>
+        <eds-card class="chart-card" padded>
           <div class="section-title">
             <h2>Net revenue run-rate</h2>
             <eds-badge label="Live" variant="brand" pill></eds-badge>
@@ -158,8 +155,23 @@ export function renderOverview() {
           <div class="section-title"><h2>Workspace</h2></div>
           <eds-description-list id="workspace-facts"></eds-description-list>
           <eds-divider label="or" spacing="md"></eds-divider>
-          <p class="muted mb-2">Open the full catalog in Explorer or jump to a saved report.</p>
-          <eds-link href="#/explorer" variant="default">Browse certified models</eds-link>
+          <p class="muted mb-2">Open lineage, collections, or a saved report.</p>
+          <div class="inline-actions">
+            <eds-link href="#/lineage" variant="default">Lineage</eds-link>
+            <eds-link href="#/collections" variant="subtle">Collections</eds-link>
+            <eds-link href="#/jobs" variant="subtle">Jobs</eds-link>
+          </div>
+        </eds-card>
+      </div>
+    </section>
+    <section class="row g-3 mt-1">
+      <div class="col-12">
+        <eds-card padded>
+          <div class="section-title">
+            <h2>Today’s brief</h2>
+            <eds-link href="#/alerts" variant="subtle">Alerts</eds-link>
+          </div>
+          <eds-list id="brief-list" divided></eds-list>
         </eds-card>
       </div>
     </section>
@@ -464,6 +476,9 @@ const views = {
   usage: renderUsage,
   team: renderTeam,
   alerts: renderAlerts,
+  lineage: renderLineage,
+  collections: renderCollections,
+  jobs: renderJobs,
   watchlist: renderWatchlist,
   anomalies: renderAnomalies,
   quality: renderQuality,
@@ -522,6 +537,12 @@ export function hydrateView(root, name) {
       facts.items = workspaceFacts;
       facts.columns = 2;
     }
+    const brief = root.querySelector('#brief-list');
+    if (brief) brief.items = briefItems;
+    brief?.addEventListener('eds-select', (event) => {
+      const href = event.detail?.href ?? event.detail?.item?.href;
+      if (href) window.location.hash = href;
+    });
     root.querySelector('#overview-export')?.addEventListener('eds-click', () => {
       showToast({ message: 'Board pack exported', variant: 'success' });
     });
@@ -705,4 +726,7 @@ export function hydrateView(root, name) {
   if (name === 'ask') hydrateAsk(root);
   if (name === 'subscriptions') hydrateSubscriptions(root);
   if (name === 'audit') hydrateAudit(root);
+  if (name === 'lineage') hydrateLineage(root);
+  if (name === 'collections') hydrateCollections(root);
+  if (name === 'jobs') hydrateJobs(root);
 }

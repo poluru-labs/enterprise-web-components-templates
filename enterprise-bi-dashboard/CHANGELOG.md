@@ -5,6 +5,21 @@ All notable changes to the Enterprise BI Dashboard template are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/).
 This project uses [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] — 2026-08-29
+
+### Added
+
+- Lineage map for the executive scorecard
+- Collections of saved reports
+- Scheduled jobs register
+- Today’s brief on Overview
+- Command palette shortcut `⌘K`
+
+### Changed
+
+- Cleaner light canvas, flatter cards, and a tighter sidebar
+- Overview uses a metric strip instead of stacked cards
+
 ## [1.0.0] — 2026-08-23
 
 ### Added
