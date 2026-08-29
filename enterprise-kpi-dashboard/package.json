@@ -1,8 +1,10 @@
 {
   "name": "enterprise-kpi-dashboard",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,5 +17,8 @@
   },
   "devDependencies": {
     "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
