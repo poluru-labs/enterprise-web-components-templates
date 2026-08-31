@@ -1,8 +1,10 @@
 {
   "name": "enterprise-inventory-dashboard",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Nimbus — inventory, purchase orders, and warehouse capacity for Poluru Supply Co. Full-width sticky header, brand #5C3E94.",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,5 +17,8 @@
   },
   "devDependencies": {
     "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

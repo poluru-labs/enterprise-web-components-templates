@@ -3,10 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enterprise Inventory Dashboard</title>
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#5C3E94" />
+    <meta
+      name="description"
+      content="Nimbus — inventory, purchase orders, and warehouse capacity for Poluru Supply Co."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nimbus Inventory</title>
+    <style>
+      .boot-msg,
+      .boot-error {
+        max-width: 40rem;
+        margin: 3rem auto;
+        padding: 1.25rem 1.4rem;
+        border: 1px solid #e2d8f0;
+        border-radius: 10px;
+        background: #fff;
+        color: #161616;
+        font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+      }
+      .boot-error pre {
+        overflow: auto;
+        white-space: pre-wrap;
+        color: #6b5a5a;
+      }
+    </style>
   </head>
   <body>
-    <main id="app"></main>
-    <script type="module" src="/src/main.js"></script>
+    <a class="skip-link" href="#view">Skip to main content</a>
+    <div id="app"><p class="boot-msg">Loading Nimbus…</p></div>
+    <script type="module">
+      import('/src/main.js').catch((error) => {
+        const app = document.querySelector('#app');
+        const message = error?.stack || error?.message || String(error);
+        if (app) {
+          app.innerHTML = `<div class="boot-error"><strong>Nimbus could not start</strong><pre>${message}</pre></div>`;
+        }
+        console.error(error);
+      });
+    </script>
   </body>
 </html>
