@@ -1,0 +1,434 @@
+.helio-tenancy-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  width: 100%;
+  min-height: var(--helio-header);
+  border-bottom: 1px solid rgb(248 222 34 / 0.18);
+  background: var(--helio-ink);
+  color: #f5f4eb;
+}
+
+.helio-tenancy-bar__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0;
+  width: 100%;
+  min-height: var(--helio-header);
+  padding-inline: 0.85rem;
+}
+
+.helio-nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0.55rem 0.45rem 0.55rem 0;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid rgb(248 222 34 / 0.35);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--helio-brand);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.helio-tenancy-bar__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.75rem 1rem 0.75rem 0;
+  border-right: 1px solid rgb(248 222 34 / 0.14);
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+}
+
+.helio-brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  flex-shrink: 0;
+  border-radius: 0.7rem;
+  background: var(--helio-brand);
+  color: var(--helio-ink);
+  font-family: 'Sora', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.helio-brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+  min-width: 0;
+}
+
+.helio-brand-copy strong {
+  font-family: 'Sora', sans-serif;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.helio-brand-copy small {
+  color: rgb(245 244 235 / 0.62);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.helio-tenancy-center {
+  display: flex;
+  flex: 1 1 16rem;
+  align-items: center;
+  gap: 1rem;
+  min-width: 0;
+  padding: 0.55rem 1rem;
+}
+
+.helio-org-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgb(248 222 34 / 0.45);
+  border-radius: 999px;
+  background: rgb(248 222 34 / 0.1);
+  color: var(--helio-brand);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 650;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.helio-org-chip i {
+  font-size: 0.65rem;
+  opacity: 0.85;
+}
+
+.helio-seat-meter {
+  display: flex;
+  flex: 1 1 12rem;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+  max-width: 22rem;
+}
+
+.helio-seat-meter__label {
+  flex-shrink: 0;
+  color: rgb(245 244 235 / 0.72);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.helio-seat-meter__track {
+  flex: 1 1 auto;
+  height: 0.45rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.12);
+}
+
+.helio-seat-meter__fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--helio-brand);
+  box-shadow: 0 0 12px rgb(248 222 34 / 0.45);
+}
+
+.helio-seat-meter__value {
+  flex-shrink: 0;
+  color: var(--helio-brand);
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.helio-tenancy-actions {
+  display: flex;
+  align-items: stretch;
+  margin-left: auto;
+  border-left: 1px solid rgb(248 222 34 / 0.14);
+}
+
+.helio-header-search {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+  padding: 0 0.85rem;
+  color: rgb(245 244 235 / 0.65);
+}
+
+.helio-header-search input {
+  width: 11rem;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: #f5f4eb;
+  font: inherit;
+  font-size: 0.84rem;
+  outline: none;
+}
+
+.helio-header-search input::placeholder {
+  color: rgb(245 244 235 / 0.45);
+}
+
+.helio-header-kbd {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.4rem;
+  border: 1px solid rgb(248 222 34 / 0.35);
+  background: rgb(248 222 34 / 0.08);
+  color: var(--helio-brand);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  border-radius: 6px;
+}
+
+.helio-header-action,
+.helio-header-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  border: 0;
+  border-left: 1px solid rgb(248 222 34 / 0.14);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.helio-header-action {
+  padding: 0 0.95rem;
+  color: var(--helio-brand);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.helio-header-action--primary {
+  background: var(--helio-brand);
+  color: var(--helio-ink);
+}
+
+.helio-header-action--primary:hover {
+  background: var(--helio-brand-deep);
+}
+
+.helio-header-action:hover,
+.helio-header-profile:hover,
+.helio-header-profile[aria-expanded='true'] {
+  background: rgb(248 222 34 / 0.08);
+}
+
+.helio-header-profile-wrap {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.helio-header-profile {
+  height: 100%;
+  padding: 0.42rem 0.8rem 0.42rem 0.65rem;
+  text-align: left;
+}
+
+.helio-header-avatar {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  background: var(--helio-brand);
+  color: var(--helio-ink);
+  font-family: 'Sora', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  border-radius: 10px;
+}
+
+.helio-header-profile-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08rem;
+  line-height: 1.15;
+}
+
+.helio-header-profile-copy strong {
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.helio-header-profile-copy small {
+  max-width: 10rem;
+  overflow: hidden;
+  color: rgb(245 244 235 / 0.62);
+  font-size: 0.66rem;
+  text-overflow: ellipsis;
+}
+
+.helio-profile-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.45rem);
+  z-index: 50;
+  display: grid;
+  min-width: 16.5rem;
+  padding: 0.35rem 0;
+  border: 1px solid var(--helio-rule);
+  background: var(--helio-sheet);
+  color: var(--helio-ink);
+  box-shadow: 0 16px 36px rgb(26 26 18 / 0.18);
+  border-radius: var(--eds-radius-md);
+}
+
+.helio-profile-menu[hidden] {
+  display: none;
+}
+
+.helio-profile-menu-head {
+  display: grid;
+  gap: 0.15rem;
+  margin: 0 0 0.35rem;
+  padding: 0.55rem 0.9rem 0.7rem;
+  border-bottom: 1px solid var(--helio-rule);
+}
+
+.helio-profile-menu-head span {
+  color: var(--helio-mute);
+  font-size: 0.78rem;
+}
+
+.helio-profile-menu a,
+.helio-profile-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.88rem;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.helio-profile-menu a:hover,
+.helio-profile-menu button:hover {
+  background: var(--helio-soft);
+}
+
+.helio-org-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.35rem);
+  z-index: 50;
+  display: grid;
+  min-width: 14rem;
+  padding: 0.35rem 0;
+  border: 1px solid rgb(248 222 34 / 0.35);
+  background: #242418;
+  color: #f5f4eb;
+  box-shadow: 0 12px 28px rgb(0 0 0 / 0.35);
+  border-radius: var(--eds-radius-md);
+}
+
+.helio-org-menu[hidden] {
+  display: none;
+}
+
+.helio-org-menu button {
+  display: grid;
+  gap: 0.1rem;
+  width: 100%;
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.helio-org-menu button:hover,
+.helio-org-menu button[aria-current='true'] {
+  background: rgb(248 222 34 / 0.12);
+}
+
+.helio-org-menu button small {
+  color: rgb(245 244 235 / 0.58);
+  font-size: 0.68rem;
+}
+
+.helio-org-switcher {
+  position: relative;
+}
+
+@media (max-width: 1100px) {
+  .helio-header-profile-copy,
+  .helio-header-kbd {
+    display: none;
+  }
+
+  .helio-seat-meter__label {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .helio-tenancy-center {
+    flex: 1 1 100%;
+    order: 3;
+    border-top: 1px solid rgb(248 222 34 / 0.14);
+  }
+
+  .helio-tenancy-actions {
+    flex: 1 1 100%;
+    order: 2;
+    margin-left: 0;
+    border-left: 0;
+    border-top: 1px solid rgb(248 222 34 / 0.14);
+  }
+
+  .helio-header-search input {
+    width: 100%;
+    flex: 1;
+  }
+
+  .helio-nav-toggle {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 720px) {
+  .helio-header-search {
+    display: none;
+  }
+
+  .helio-header-action span:not(.bi) {
+    display: none;
+  }
+}

@@ -1,0 +1,104 @@
+:root {
+  --alder-brand: #0f766e;
+  --alder-brand-deep: #0d5f58;
+  --alder-brand-light: #14b8a6;
+  --alder-canvas: #f0fdfa;
+  --alder-ink: #134e4a;
+  --alder-mute: #64748b;
+  --alder-paper: #f8fafc;
+  --alder-sheet: #ffffff;
+  --alder-rule: #ccfbf1;
+  --alder-soft: #ecfeff;
+  --alder-sidebar: 14.5rem;
+  --alder-header: 4.5rem;
+
+  --eds-color-brand-900: #042f2e;
+  --eds-color-brand-800: #064e3b;
+  --eds-color-brand-700: #0d5f58;
+  --eds-color-brand-600: #0f766e;
+  --eds-color-brand-500: #14b8a6;
+  --eds-color-brand-400: #2dd4bf;
+  --eds-color-brand-300: #5eead4;
+  --eds-color-brand-200: #99f6e4;
+  --eds-color-brand-100: #ccfbf1;
+  --eds-color-brand-50: #f0fdfa;
+  --eds-color-bg: var(--alder-paper);
+  --eds-color-surface: var(--alder-sheet);
+  --eds-color-focus: var(--alder-brand);
+  --eds-color-primary: var(--alder-brand);
+  --eds-color-primary-hover: var(--alder-brand-deep);
+  --eds-color-primary-active: #115e59;
+  --eds-shadow-focus: 0 0 0 3px rgb(15 118 110 / 0.28);
+  --eds-font-sans: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Outfit', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--alder-ink);
+  background: var(--alder-paper);
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--alder-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--alder-mute);
+}
+
+.kicker {
+  color: var(--alder-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--alder-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--alder-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--alder-mute);
+}

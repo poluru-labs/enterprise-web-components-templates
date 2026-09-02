@@ -1,0 +1,35 @@
+:root {
+  --crm-brand: #1055c9;
+  --crm-brand-deep: #0c48a8;
+  --crm-brand-ink: #072f73;
+  --crm-brand-soft: #e8f0fb;
+  --crm-sidebar: #1055c9;
+  --crm-sidebar-width: 17.25rem;
+  --crm-ink: #142033;
+  --crm-mute: #5b6b7c;
+  --crm-paper: #f3f6fb;
+  --crm-sheet: #ffffff;
+  --crm-rule: #d7e0ee;
+
+  --eds-color-brand-900: #062a63;
+  --eds-color-brand-800: #083a87;
+  --eds-color-brand-700: #0c48a8;
+  --eds-color-brand-600: #1055c9;
+  --eds-color-brand-500: #2a6dd6;
+  --eds-color-brand-400: #4a86e0;
+  --eds-color-brand-300: #7aa8ea;
+  --eds-color-brand-200: #b3cdf4;
+  --eds-color-brand-100: #d6e6fa;
+  --eds-color-brand-50: #eef4fc;
+  --eds-color-bg: var(--crm-paper);
+  --eds-color-surface: var(--crm-sheet);
+  --eds-color-focus: var(--crm-brand);
+  --eds-color-primary: var(--crm-brand);
+  --eds-color-primary-hover: var(--crm-brand-deep);
+  --eds-color-primary-active: var(--crm-brand-ink);
+  --eds-shadow-focus: 0 0 0 3px rgb(16 85 201 / 0.28);
+  --eds-font-sans: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Outfit', 'Segoe UI', sans-serif;
+  --eds-radius-md: 12px;
+  --eds-radius-lg: 16px;
+}

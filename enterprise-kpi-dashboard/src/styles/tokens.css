@@ -1,0 +1,103 @@
+:root {
+  --sig-brand: #dd0303;
+  --sig-brand-deep: #b10202;
+  --sig-ink: #161616;
+  --sig-mute: #6b5a5a;
+  --sig-paper: #f4f4f4;
+  --sig-sheet: #ffffff;
+  --sig-rule: #e4d8d8;
+  --sig-soft: #f8ecec;
+  --sig-sidebar: 14.5rem;
+  --sig-header: 7.45rem;
+  --sig-ticker: 3.45rem;
+
+  --eds-color-brand-900: #6b0101;
+  --eds-color-brand-800: #8c0202;
+  --eds-color-brand-700: #b10202;
+  --eds-color-brand-600: #dd0303;
+  --eds-color-brand-500: #e83333;
+  --eds-color-brand-400: #ee6666;
+  --eds-color-brand-300: #f39999;
+  --eds-color-brand-200: #f8c4c4;
+  --eds-color-brand-100: #fbe3e3;
+  --eds-color-brand-50: #fdf4f4;
+  --eds-color-bg: var(--sig-paper);
+  --eds-color-surface: var(--sig-sheet);
+  --eds-color-focus: var(--sig-brand);
+  --eds-color-primary: var(--sig-brand);
+  --eds-color-primary-hover: var(--sig-brand-deep);
+  --eds-color-primary-active: #8c0202;
+  --eds-shadow-focus: 0 0 0 3px rgb(221 3 3 / 0.28);
+  --eds-font-sans: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--sig-ink);
+  background: var(--sig-paper);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--sig-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--sig-mute);
+}
+
+.kicker {
+  color: var(--sig-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #ead0d0;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--sig-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--sig-mute);
+}

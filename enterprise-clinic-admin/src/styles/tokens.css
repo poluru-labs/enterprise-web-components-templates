@@ -1,0 +1,115 @@
+:root {
+  --halo-brand: #d90000;
+  --halo-brand-deep: #b80000;
+  --halo-ink: #1c1212;
+  --halo-mute: #6b5555;
+  --halo-paper: #fbf5f5;
+  --halo-sheet: #ffffff;
+  --halo-rule: #edd6d6;
+  --halo-mist: #fceaea;
+  --halo-good: #2f7d62;
+  --halo-sidebar: 15rem;
+
+  --eds-color-brand-900: #5c0000;
+  --eds-color-brand-800: #7a0000;
+  --eds-color-brand-700: #9c0000;
+  --eds-color-brand-600: #b80000;
+  --eds-color-brand-500: #d90000;
+  --eds-color-brand-400: #e83333;
+  --eds-color-brand-300: #f07a7a;
+  --eds-color-brand-200: #f7b3b3;
+  --eds-color-brand-100: #fce4e4;
+  --eds-color-brand-50: #fff5f5;
+  --eds-color-bg: var(--halo-paper);
+  --eds-color-surface: var(--halo-sheet);
+  --eds-color-focus: var(--halo-brand);
+  --eds-color-primary: var(--halo-brand);
+  --eds-color-primary-hover: #b80000;
+  --eds-color-primary-active: #9c0000;
+  --eds-shadow-focus: 0 0 0 3px rgb(217 0 0 / 0.28);
+  --eds-font-sans: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Fraunces', Georgia, serif;
+  --eds-radius-md: 14px;
+  --eds-radius-lg: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--halo-ink);
+  background:
+    radial-gradient(1200px 480px at 8% -10%, rgb(217 0 0 / 0.12), transparent 58%),
+    radial-gradient(900px 420px at 100% 0%, rgb(184 0 0 / 0.08), transparent 52%),
+    var(--halo-paper);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 20;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--halo-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.halo-kicker {
+  color: var(--halo-brand);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.halo-muted {
+  color: var(--halo-mute);
+}
+
+.halo-inline-actions,
+.halo-filter-bar,
+.halo-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.halo-filter-bar,
+.halo-stack {
+  align-items: end;
+}
+
+.halo-stack {
+  flex-direction: column;
+  align-items: stretch;
+}

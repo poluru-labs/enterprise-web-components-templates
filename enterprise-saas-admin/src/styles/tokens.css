@@ -1,0 +1,38 @@
+:root {
+  --helio-brand: #f8de22;
+  --helio-brand-deep: #e4c91a;
+  --helio-ink: #1a1a12;
+  --helio-mute: #6b6a5c;
+  --helio-paper: #f7f6ef;
+  --helio-sheet: #ffffff;
+  --helio-rule: #e6e4d6;
+  --helio-soft: #fff8cc;
+  --helio-sidebar: 15.5rem;
+  --helio-header: 4.15rem;
+
+  --eds-color-brand-900: #3d3708;
+  --eds-color-brand-800: #5c530c;
+  --eds-color-brand-700: #8a7c12;
+  --eds-color-brand-600: #c4b01a;
+  --eds-color-brand-500: #f8de22;
+  --eds-color-brand-400: #fbe65a;
+  --eds-color-brand-300: #fcee8a;
+  --eds-color-brand-200: #fdf4b5;
+  --eds-color-brand-100: #fef9d6;
+  --eds-color-brand-50: #fffcec;
+  --eds-color-bg: var(--helio-paper);
+  --eds-color-surface: var(--helio-sheet);
+  --eds-color-focus: var(--helio-brand);
+  --eds-color-primary: var(--helio-brand);
+  --eds-color-primary-hover: var(--helio-brand-deep);
+  --eds-color-primary-active: #c9b116;
+  --eds-shadow-focus: 0 0 0 3px rgb(248 222 34 / 0.55);
+  --eds-font-sans: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Sora', 'Segoe UI', sans-serif;
+  --eds-radius-md: 12px;
+  --eds-radius-lg: 16px;
+}
+
+eds-button[variant='primary'] {
+  --eds-color-text-inverse: var(--helio-ink);
+}

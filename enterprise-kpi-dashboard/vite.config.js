@@ -5,4 +5,8 @@ export default defineConfig({
   server: { port: 5178, host: true },
   preview: { port: 4178, host: true },
   build: { sourcemap: true, target: 'es2022' },
+  test: {
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.js',
+  },
 });

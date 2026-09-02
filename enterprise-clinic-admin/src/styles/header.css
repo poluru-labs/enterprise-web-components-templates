@@ -1,0 +1,424 @@
+halo-app-header {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.halo-shift-board {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--halo-rule);
+  background: var(--halo-paper);
+  color: var(--halo-ink);
+}
+
+.halo-shift-strip {
+  display: grid;
+  grid-template-columns: minmax(12rem, 18rem) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem 1.25rem;
+  min-height: 3.6rem;
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid var(--halo-rule);
+  border-left: 4px solid var(--halo-brand);
+  background: var(--halo-sheet);
+}
+
+.halo-occupancy-wrap {
+  min-width: 0;
+}
+
+.halo-occupancy-label {
+  display: block;
+  margin-bottom: 0.32rem;
+  color: var(--halo-mute);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.halo-occupancy-bar {
+  height: 0.5rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(217 0 0 / 0.12);
+}
+
+.halo-occupancy-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #f07a7a, var(--halo-brand));
+}
+
+.halo-appt-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.halo-appt-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--halo-rule);
+  border-radius: 999px;
+  background: var(--halo-mist);
+  color: var(--halo-brand-deep);
+  font-size: 0.78rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.halo-appt-chip span {
+  font-family: 'Fraunces', serif;
+}
+
+.halo-appt-chip:hover {
+  border-color: #f07a7a;
+  background: #fff;
+}
+
+.halo-shift-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+  color: var(--halo-mute);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+
+.halo-shift-toolbar {
+  display: grid;
+  grid-template-columns: var(--halo-sidebar) minmax(0, 1fr);
+  align-items: stretch;
+  min-height: 3.85rem;
+  background: var(--halo-paper);
+}
+
+.halo-shift-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  padding: 0.45rem 0.85rem;
+  border-right: 1px solid var(--halo-rule);
+  background: var(--halo-sheet);
+}
+
+.halo-nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--halo-rule);
+  border-radius: 0.75rem;
+  background: var(--halo-paper);
+  color: var(--halo-brand-deep);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.halo-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.halo-cross-mark {
+  flex-shrink: 0;
+}
+
+.halo-wordmark strong {
+  display: block;
+  font-family: 'Fraunces', serif;
+  font-size: 1.22rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.halo-wordmark small {
+  display: block;
+  overflow: hidden;
+  color: var(--halo-mute);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.halo-shift-end {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+  padding: 0.45rem 0.75rem;
+}
+
+.halo-now {
+  margin: 0;
+  padding-right: 0.35rem;
+  color: var(--halo-mute);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.halo-now-label {
+  color: var(--halo-brand-deep);
+  font-weight: 700;
+}
+
+.halo-header-search {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.35rem 0.55rem 0.35rem 0.75rem;
+  border: 1px solid var(--halo-rule);
+  border-radius: 999px;
+  background: var(--halo-sheet);
+  color: var(--halo-mute);
+}
+
+.halo-header-search input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: var(--halo-ink);
+  font: inherit;
+  font-size: 0.86rem;
+  outline: none;
+}
+
+.halo-header-search input::placeholder {
+  color: #b08989;
+}
+
+.halo-kbd-btn {
+  margin: 0;
+  padding: 0.15rem 0.35rem;
+  border: 0;
+  border-radius: 0.45rem;
+  background: var(--halo-mist);
+  cursor: pointer;
+}
+
+.halo-kbd-btn kbd {
+  color: var(--halo-brand-deep);
+  font-size: 0.72rem;
+  font-family: inherit;
+}
+
+.halo-header-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.48rem 0.9rem;
+  border: 1px solid var(--halo-brand);
+  border-radius: 999px;
+  background: var(--halo-brand);
+  color: #fff;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.halo-header-action:hover {
+  background: var(--halo-brand-deep);
+  border-color: var(--halo-brand-deep);
+}
+
+.halo-inbox-btn {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--halo-rule);
+  border-radius: 999px;
+  background: var(--halo-sheet);
+  color: var(--halo-brand-deep);
+  cursor: pointer;
+}
+
+.halo-inbox-count {
+  position: absolute;
+  top: -0.2rem;
+  right: -0.15rem;
+  min-width: 1.05rem;
+  padding: 0.05rem 0.28rem;
+  border-radius: 999px;
+  background: var(--halo-brand);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+
+.halo-profile-wrap {
+  position: relative;
+}
+
+.halo-profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 0.3rem 0.65rem 0.3rem 0.4rem;
+  border: 1px solid var(--halo-rule);
+  border-radius: 999px;
+  background: var(--halo-sheet);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.halo-profile-btn:hover,
+.halo-profile-btn[aria-expanded='true'] {
+  background: var(--halo-mist);
+}
+
+.halo-avatar {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: var(--halo-brand);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.halo-profile-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08rem;
+  line-height: 1.15;
+  text-align: left;
+}
+
+.halo-profile-copy strong {
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.halo-profile-copy small {
+  max-width: 11rem;
+  overflow: hidden;
+  color: var(--halo-mute);
+  font-size: 0.66rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.halo-profile-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.45rem);
+  z-index: 50;
+  display: grid;
+  min-width: 16.5rem;
+  padding: 0.35rem 0;
+  border: 1px solid var(--halo-rule);
+  border-radius: 1rem;
+  background: var(--halo-sheet);
+  box-shadow: 0 18px 40px rgb(26 40 54 / 0.14);
+}
+
+.halo-profile-menu[hidden] {
+  display: none;
+}
+
+.halo-profile-menu-head {
+  display: grid;
+  gap: 0.15rem;
+  margin: 0 0 0.35rem;
+  padding: 0.55rem 0.95rem 0.75rem;
+  border-bottom: 1px solid var(--halo-rule);
+}
+
+.halo-profile-menu-head span {
+  color: var(--halo-mute);
+  font-size: 0.78rem;
+}
+
+.halo-profile-menu a,
+.halo-profile-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.55rem 0.95rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.88rem;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.halo-profile-menu a:hover,
+.halo-profile-menu button:hover {
+  background: var(--halo-mist);
+}
+
+@media (max-width: 1100px) {
+  .halo-shift-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .halo-shift-meta {
+    display: none;
+  }
+
+  .halo-shift-toolbar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .halo-shift-brand {
+    border-right: 0;
+    border-bottom: 1px solid var(--halo-rule);
+  }
+
+  .halo-nav-toggle {
+    display: inline-flex;
+  }
+
+  .halo-now,
+  .halo-header-action span,
+  .halo-profile-copy {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .halo-appt-chips {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.15rem;
+  }
+}

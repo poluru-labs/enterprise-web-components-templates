@@ -1,0 +1,233 @@
+nimbus-header {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.header-shell {
+  background: var(--nim-paper, #f6f4fb);
+  border-bottom: 1px solid var(--nim-rule, #e2dcef);
+  box-shadow: 0 2px 14px rgb(29 26 43 / 0.04);
+}
+
+.header-status {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  min-height: var(--nim-status, 3.25rem);
+  padding: 0.45rem 1rem;
+  border-bottom: 1px solid var(--nim-rule, #e2dcef);
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.72) 0%, rgb(246 244 251 / 0.95) 100%);
+}
+
+.status-kicker {
+  flex-shrink: 0;
+  color: var(--nim-brand, #5c3e94);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.health-rings {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+}
+
+.health-ring {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+}
+
+.ring-svg {
+  width: 2.25rem;
+  height: 2.25rem;
+  transform: rotate(-90deg);
+}
+
+.ring-track {
+  fill: none;
+  stroke: rgb(92 62 148 / 0.12);
+  stroke-width: 3;
+}
+
+.ring-fill {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.4s ease;
+}
+
+.ring-fill.success {
+  stroke: #2f9e44;
+}
+
+.ring-fill.warning {
+  stroke: #e67700;
+}
+
+.ring-fill.danger {
+  stroke: #e03131;
+}
+
+.ring-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.ring-copy strong {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--nim-ink, #1d1a2b);
+}
+
+.ring-copy small {
+  color: var(--nim-mute, #6a6478);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.dock-countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgb(92 62 148 / 0.14);
+  border-radius: 0.55rem;
+  background: rgb(255 255 255 / 0.82);
+}
+
+.dock-kicker {
+  color: var(--nim-mute, #6a6478);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dock-countdown strong {
+  color: var(--nim-brand-deep, #46306f);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.header-bar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  min-height: var(--nim-toolbar, 4rem);
+  padding: 0.55rem 1rem 0.65rem;
+}
+
+.header-start,
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border-radius: 0.45rem;
+  background: var(--nim-brand, #5c3e94);
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.brand-copy strong,
+.brand-copy small {
+  display: block;
+}
+
+.brand-copy strong {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.brand-copy small {
+  margin-top: 0.04rem;
+  color: var(--nim-mute, #6a6478);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.header-search {
+  width: min(34rem, 100%);
+  margin-inline: auto;
+}
+
+.header-end {
+  gap: 0.55rem;
+}
+
+.header-kbd {
+  color: var(--nim-mute, #6a6478);
+}
+
+@media (max-width: 960px) {
+  .header-status {
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .dock-countdown {
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-search {
+    display: none;
+  }
+
+  .health-rings {
+    gap: 0.65rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .status-kicker {
+    width: 100%;
+  }
+
+  .ring-copy small {
+    display: none;
+  }
+}

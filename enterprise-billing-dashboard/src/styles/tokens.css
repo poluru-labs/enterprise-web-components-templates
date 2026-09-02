@@ -1,0 +1,31 @@
+:root {
+  --vd-brand: #1d4533;
+  --vd-ink: #1a211c;
+  --vd-paper: #f4efe6;
+  --vd-sheet: #fffcf7;
+  --vd-rule: #d9d0c3;
+  --vd-mute: #6d675c;
+  --vd-sidebar: 15.5rem;
+
+  --eds-color-brand-900: #0b1f17;
+  --eds-color-brand-800: #122c20;
+  --eds-color-brand-700: #1d4533;
+  --eds-color-brand-600: #1d4533;
+  --eds-color-brand-500: #2a5c45;
+  --eds-color-brand-400: #3a7358;
+  --eds-color-brand-300: #8bb5a0;
+  --eds-color-brand-200: #c4dcd0;
+  --eds-color-brand-100: #e4f0ea;
+  --eds-color-brand-50: #f3f8f5;
+  --eds-color-bg: var(--vd-paper);
+  --eds-color-surface: var(--vd-sheet);
+  --eds-color-focus: var(--vd-brand);
+  --eds-color-primary: var(--vd-brand);
+  --eds-color-primary-hover: #163628;
+  --eds-color-primary-active: #0b1f17;
+  --eds-shadow-focus: 0 0 0 3px rgb(29 69 51 / 0.28);
+  --eds-font-sans: 'Inter', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Manrope', Georgia, serif;
+  --eds-radius-md: 2px;
+  --eds-radius-lg: 2px;
+}

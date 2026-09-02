@@ -1,0 +1,103 @@
+:root {
+  --ves-brand: #a0153e;
+  --ves-brand-deep: #7a1030;
+  --ves-ink: #1f1518;
+  --ves-mute: #6f5b61;
+  --ves-paper: #f7f4f5;
+  --ves-sheet: #ffffff;
+  --ves-rule: #ead7dc;
+  --ves-soft: #f8e8ed;
+  --ves-sidebar: 14.25rem;
+  --ves-header: 4.75rem;
+  --ves-sprint-strip: 2.35rem;
+
+  --eds-color-brand-900: #4a0a1c;
+  --eds-color-brand-800: #6b1029;
+  --eds-color-brand-700: #7a1030;
+  --eds-color-brand-600: #a0153e;
+  --eds-color-brand-500: #c43a5e;
+  --eds-color-brand-400: #d56a84;
+  --eds-color-brand-300: #e49aad;
+  --eds-color-brand-200: #f0c4ce;
+  --eds-color-brand-100: #f7e4ea;
+  --eds-color-brand-50: #fbf3f5;
+  --eds-color-bg: var(--ves-paper);
+  --eds-color-surface: var(--ves-sheet);
+  --eds-color-focus: var(--ves-brand);
+  --eds-color-primary: var(--ves-brand);
+  --eds-color-primary-hover: var(--ves-brand-deep);
+  --eds-color-primary-active: #5c0c24;
+  --eds-shadow-focus: 0 0 0 3px rgb(160 21 62 / 0.28);
+  --eds-font-sans: 'Figtree', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Syne', 'Segoe UI', sans-serif;
+  --eds-radius-md: 10px;
+  --eds-radius-lg: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ves-ink);
+  background: var(--ves-paper);
+  font-family: 'Figtree', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--ves-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--ves-mute);
+}
+
+.kicker {
+  color: var(--ves-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--ves-rule);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--ves-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--ves-mute);
+}

@@ -15,17 +15,20 @@ on a **light background** with brand **`#DA0037`**.
 
 ## Features
 
-- App shell with side navigation, sticky toolbar, breadcrumbs, search, and account menu
-- Overview KPIs, bookmarks, goal snapshot, regional mix, pipeline health, and activity
+- Insight ribbon header with live refresh clock, anomaly badge, and Ask Helix console search
+- App shell with side navigation, breadcrumbs, ⌘K jump-to palette, subscriptions link, and profile menu
+- Overview KPIs, bookmarks, goal snapshot, regional mix, certified sources, pipeline health, and activity
 - Report catalog with search, autocomplete, combobox, date range, tags, table, and pagination
+- Workspace search page grouping reports, insights, people, and platform objects
 - Explorer with folder tree, workbook list, tabs, SQL snippet, and lineage accordion
 - Query lab with stepper, SQL authoring, limits, schedule, PIN publish gate, and file upload
-- Goals, forecasts, sources, usage, team, watchlist, anomalies, quality, and Ask
+- Goals, forecasts, sources, usage, team, watchlist (8 metrics), anomalies, quality, and Ask
+- Equal-height card grids via `hx-content-card` and `stretch-row` layouts
 - Subscriptions and audit log for deliveries and access
 - Query lab results table after run; report subscribe jumps to deliveries
-- Global jump-to search and a dedicated inbox drawer
-- Alerts with rating, popover, modal create flow, and toast confirmations
+- Inbox drawer, alerts with rating, popover, modal create flow, and toast confirmations
 - Settings for profile, density, live refresh, and accessibility helpers
+- Vitest unit tests for format, search, status helpers and component smoke tests
 - In-app Legal page plus LICENSE, NOTICE, AUTHORS, COPYRIGHT, and security policy
 
 ## Quick start
@@ -43,6 +46,7 @@ Open the URL Vite prints (default http://localhost:5173). Routes are hash-based:
 | Route | View |
 | --- | --- |
 | `#/overview` | KPI workspace |
+| `#/search` | Workspace search |
 | `#/reports` | Catalog and filters |
 | `#/explorer` | Folders, SQL, lineage |
 | `#/query` | Author and publish |
@@ -64,11 +68,12 @@ Open the URL Vite prints (default http://localhost:5173). Routes are hash-based:
 ```bash
 npm run build
 npm run preview
+npm test
 ```
 
 ## Brand
 
-Default theme is light. Brand tokens in `src/style.css` remap the design-system
+Default theme is light. Brand tokens in `src/styles/tokens.css` remap the design-system
 teal scale to `#DA0037` and a rose-tinted canvas `#FFF7F8`.
 
 See [docs/theming.md](./docs/theming.md).

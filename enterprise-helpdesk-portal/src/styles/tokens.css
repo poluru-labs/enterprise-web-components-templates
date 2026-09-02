@@ -1,0 +1,104 @@
+:root {
+  --relay-brand: #03346e;
+  --relay-brand-deep: #02244d;
+  --relay-brand-soft: #dfe9f8;
+  --relay-ink: #10213e;
+  --relay-mute: #60708c;
+  --relay-paper: #f5f8fc;
+  --relay-sheet: #ffffff;
+  --relay-rule: rgba(3, 52, 110, 0.12);
+  --relay-soft: #eef3f9;
+  --relay-sidebar: 14.5rem;
+  --relay-header: 7.35rem;
+  --relay-ribbon: 3.35rem;
+
+  --eds-color-brand-900: #011a38;
+  --eds-color-brand-800: #02244d;
+  --eds-color-brand-700: #022a5c;
+  --eds-color-brand-600: #03346e;
+  --eds-color-brand-500: #1a4d8a;
+  --eds-color-brand-400: #3d6ba8;
+  --eds-color-brand-300: #6b8fc4;
+  --eds-color-brand-200: #a8bddb;
+  --eds-color-brand-100: #d4e0ef;
+  --eds-color-brand-50: #eef3f9;
+  --eds-color-bg: var(--relay-paper);
+  --eds-color-surface: var(--relay-sheet);
+  --eds-color-focus: var(--relay-brand);
+  --eds-color-primary: var(--relay-brand);
+  --eds-color-primary-hover: var(--relay-brand-deep);
+  --eds-color-primary-active: #011a38;
+  --eds-shadow-focus: 0 0 0 3px rgb(3 52 110 / 0.28);
+  --eds-font-sans: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--relay-ink);
+  background: var(--relay-paper);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--relay-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--relay-mute);
+}
+
+.kicker {
+  color: var(--relay-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #c8d6ea;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--relay-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--relay-mute);
+}

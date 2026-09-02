@@ -1,0 +1,104 @@
+:root {
+  --nim-brand: #5c3e94;
+  --nim-brand-deep: #46306f;
+  --nim-brand-soft: #efe9f8;
+  --nim-ink: #1d1a2b;
+  --nim-mute: #6a6478;
+  --nim-paper: #f6f4fb;
+  --nim-sheet: #ffffff;
+  --nim-rule: #e2dcef;
+  --nim-sidebar: 15rem;
+  --nim-status: 3.25rem;
+  --nim-toolbar: 4rem;
+  --nim-header: calc(var(--nim-status) + var(--nim-toolbar));
+
+  --eds-color-brand-900: #322150;
+  --eds-color-brand-800: #402a67;
+  --eds-color-brand-700: #46306f;
+  --eds-color-brand-600: #5c3e94;
+  --eds-color-brand-500: #7657ad;
+  --eds-color-brand-400: #9179c0;
+  --eds-color-brand-300: #ac9dd2;
+  --eds-color-brand-200: #cabfe4;
+  --eds-color-brand-100: #e4ddf2;
+  --eds-color-brand-50: #f4f1fa;
+  --eds-color-bg: var(--nim-paper);
+  --eds-color-surface: var(--nim-sheet);
+  --eds-color-focus: var(--nim-brand);
+  --eds-color-primary: var(--nim-brand);
+  --eds-color-primary-hover: var(--nim-brand-deep);
+  --eds-color-primary-active: #3a2a5e;
+  --eds-shadow-focus: 0 0 0 3px rgb(92 62 148 / 0.28);
+  --eds-font-sans: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--nim-ink);
+  background: var(--nim-paper);
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 60;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--nim-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--nim-mute);
+}
+
+.kicker {
+  color: var(--nim-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--nim-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--nim-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--nim-mute);
+}
