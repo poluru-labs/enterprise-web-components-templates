@@ -1,6 +1,5 @@
 {
   "name": "enterprise-hrms-portal",
-  "private": true,
   "version": "1.0.0",
   "description": "Alder — people operations portal for Poluru People. Light theme, brand #0F766E, hash routing.",
   "type": "module",

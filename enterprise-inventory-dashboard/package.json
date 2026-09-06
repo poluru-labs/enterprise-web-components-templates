@@ -1,6 +1,5 @@
 {
   "name": "enterprise-inventory-dashboard",
-  "private": true,
   "version": "1.0.0",
   "description": "Nimbus — inventory, purchase orders, and warehouse capacity for Poluru Supply Co. Warehouse-status header, brand #5C3E94.",
   "type": "module",

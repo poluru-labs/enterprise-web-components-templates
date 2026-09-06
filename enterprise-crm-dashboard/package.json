@@ -1,6 +1,5 @@
 {
   "name": "enterprise-crm-dashboard",
-  "private": true,
   "version": "1.1.0",
   "description": "Lyra CRM — pipeline, deals, leads, and forecast workspace. Light theme, brand #1055C9.",
   "type": "module",

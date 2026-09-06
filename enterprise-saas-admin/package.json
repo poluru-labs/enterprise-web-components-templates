@@ -1,6 +1,5 @@
 {
   "name": "enterprise-saas-admin",
-  "private": true,
   "version": "1.0.0",
   "description": "Helio — SaaS admin for organizations, seats, flags, and uptime. Light theme, brand #F8DE22.",
   "type": "module",

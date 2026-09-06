@@ -1,6 +1,5 @@
 {
   "name": "enterprise-project-dashboard",
-  "private": true,
   "version": "1.0.0",
   "description": "Vespera — project delivery workspace. Light theme, brand #A0153E, sprint strip header.",
   "type": "module",

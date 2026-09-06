@@ -1,6 +1,5 @@
 {
   "name": "enterprise-helpdesk-portal",
-  "private": true,
   "version": "1.0.0",
   "description": "Relay — enterprise helpdesk workspace for Poluru Support. Light theme, navy #03346E, dispatch header with SLA clock and queue lanes.",
   "type": "module",

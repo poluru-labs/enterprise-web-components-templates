@@ -1,6 +1,5 @@
 {
   "name": "enterprise-kpi-dashboard",
-  "private": true,
   "version": "1.0.0",
   "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
   "type": "module",

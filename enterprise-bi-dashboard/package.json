@@ -1,6 +1,5 @@
 {
   "name": "enterprise-bi-dashboard",
-  "private": true,
   "version": "1.0.0",
   "description": "Enterprise business-intelligence workspace template built on @poluru-labs/enterprise-design-system-wc, Bootstrap 5, and Vite. Brand color #DA0037 on a light canvas.",
   "type": "module",

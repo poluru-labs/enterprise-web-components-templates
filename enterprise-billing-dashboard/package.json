@@ -1,6 +1,5 @@
 {
   "name": "enterprise-billing-dashboard",
-  "private": true,
   "version": "1.0.0",
   "description": "Verdant Billing — premium SaaS finance and billing workspace. Light theme, brand #1D4533.",
   "type": "module",
