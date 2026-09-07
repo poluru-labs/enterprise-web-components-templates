@@ -1,8 +1,17 @@
 # Enterprise Web Components Templates
 
-Starter enterprise interfaces built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
+Ten standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
 
-Each template is an independent Vite application. Layout chrome is vanilla custom elements (Open WC-style folders). Forms, tables, drawers, and toasts use `eds-*` design-system tags.
+Every template is an independent Vite application with its own `package.json`, mock data, routes, tests, and build output. Layout chrome uses vanilla custom elements in an Open WC-style structure. Forms, tables, drawers, and toasts use `eds-*` design-system tags.
+
+## At a glance
+
+- 10 focused enterprise workflows, from executive KPIs to helpdesk queues
+- Vanilla custom elements for reusable application chrome
+- Hash-based routing with a built-in search view
+- Responsive Bootstrap grids with shared design-system controls
+- Vitest and jsdom tests in each application
+- Publishable package manifests for distributing templates independently
 
 ## Templates
 
@@ -19,11 +28,11 @@ Each template is an independent Vite application. Layout chrome is vanilla custo
 | Helix | Reports, quality, and insights | Crimson Ask Helix console | 5173 | [enterprise-bi-dashboard](enterprise-bi-dashboard/) |
 | Helio | Orgs, seats, and uptime | Dark tenancy bar + seat meter | 5176 | [enterprise-saas-admin](enterprise-saas-admin/) |
 
-Each header is a distinct custom element — ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, or tenancy bar.
+Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, or tenancy bar.
 
 ## Folder structure
 
-Templates follow the Open WC / web-components layout:
+Templates follow the same Open WC / web-components layout:
 
 ```
 src/
@@ -41,11 +50,11 @@ src/
   test/setup.js
 ```
 
-Content cards sit in stretch grids (`align-items: stretch`) so rows share a height. Overview pages use even card counts (4 / 6 / 8).
+Content cards sit in stretch grids (`align-items: stretch`) so rows share a height. Overview pages use even card counts (4, 6, or 8).
 
 ## Getting started
 
-Requirements: Node.js 20 or newer.
+Requirements: Node.js 20 or newer and npm.
 
 ```bash
 cd enterprise-bi-dashboard
@@ -53,7 +62,7 @@ npm install
 npm run dev
 ```
 
-Replace `enterprise-bi-dashboard` with any folder from the table.
+Replace `enterprise-bi-dashboard` with any folder from the table. Run the commands below from that template's directory.
 
 | Script | Purpose |
 | --- | --- |
@@ -62,7 +71,30 @@ Replace `enterprise-bi-dashboard` with any folder from the table.
 | `npm run build` | Production build (`base: './'`) |
 | `npm run preview` | Preview the production build |
 
-Jump around a template with `⌘K`. Search from the header goes to `#/search`.
+Use `Cmd+K` on macOS or `Ctrl+K` on other platforms to jump around a template. Search from the header opens `#/search`.
+
+## Test and build
+
+Run the complete local check for one template:
+
+```bash
+npm test
+npm run build
+```
+
+The production build uses `base: './'`, so the generated `dist/` directory can be served from a subdirectory or static hosting path.
+
+## Publish a template
+
+Each application has its own publishable package manifest. To publish one template, authenticate with npm, choose the application directory, and run:
+
+```bash
+cd enterprise-bi-dashboard
+npm install
+npm publish
+```
+
+Repeat with another template directory when you want to release it independently. Confirm the package name and version in `package.json` before publishing; npm will reject a version that has already been released.
 
 ## Shared stack
 
@@ -73,4 +105,4 @@ Jump around a template with `⌘K`. Search from the header goes to `#/search`.
 - Vite 7, Vitest, jsdom
 - Hash routing
 
-Dependencies and `dist/` are excluded from Git through the root [.gitignore](.gitignore).
+Dependencies and build output are excluded from Git through the root [.gitignore](.gitignore). There is no root `package.json`; install and run commands are intentionally scoped to an individual template.
