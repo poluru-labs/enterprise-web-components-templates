@@ -13,9 +13,9 @@ describe('content-card', () => {
   it('renders header, default, and footer slots when connected', () => {
     document.body.innerHTML = `
       <content-card>
-        <div slot="header"><h2>Finance</h2></div>
-        <p>Margin and cash</p>
-        <div slot="footer"><span>Updated</span></div>
+        <div slot="header"><h2>PR-1042</h2></div>
+        <p>Laptop fleet</p>
+        <div slot="footer"><span>Pending</span></div>
       </content-card>
     `;
     const card = document.querySelector('content-card');

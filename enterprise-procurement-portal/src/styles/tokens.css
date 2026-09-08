@@ -1,0 +1,104 @@
+:root {
+  --atlas-brand: #ff5722;
+  --atlas-brand-deep: #e64a19;
+  --atlas-brand-light: #ff8a65;
+  --atlas-canvas: #fff4f0;
+  --atlas-ink: #3e2723;
+  --atlas-mute: #8d6e63;
+  --atlas-paper: #faf6f4;
+  --atlas-sheet: #ffffff;
+  --atlas-rule: #ffccbc;
+  --atlas-soft: #fbe9e7;
+  --atlas-sidebar: 14.5rem;
+  --atlas-header: 5.75rem;
+
+  --eds-color-brand-900: #bf360c;
+  --eds-color-brand-800: #d84315;
+  --eds-color-brand-700: #e64a19;
+  --eds-color-brand-600: #ff5722;
+  --eds-color-brand-500: #ff7043;
+  --eds-color-brand-400: #ff8a65;
+  --eds-color-brand-300: #ffab91;
+  --eds-color-brand-200: #ffccbc;
+  --eds-color-brand-100: #fbe9e7;
+  --eds-color-brand-50: #fff4f0;
+  --eds-color-bg: var(--atlas-paper);
+  --eds-color-surface: var(--atlas-sheet);
+  --eds-color-focus: var(--atlas-brand);
+  --eds-color-primary: var(--atlas-brand);
+  --eds-color-primary-hover: var(--atlas-brand-deep);
+  --eds-color-primary-active: #bf360c;
+  --eds-shadow-focus: 0 0 0 3px rgb(255 87 34 / 0.28);
+  --eds-font-sans: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Barlow', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--atlas-ink);
+  background: var(--atlas-paper);
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--atlas-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--atlas-mute);
+}
+
+.kicker {
+  color: var(--atlas-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--atlas-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--atlas-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--atlas-mute);
+}

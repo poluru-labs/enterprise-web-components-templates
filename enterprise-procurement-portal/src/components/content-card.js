@@ -9,10 +9,10 @@ const cardStyles = `
     display: flex;
     flex-direction: column;
     height: 100%;
-    border: 1px solid var(--sig-rule, #e4d8d8);
+    border: 1px solid var(--atlas-rule, #ffccbc);
     border-radius: 12px;
-    background: var(--sig-sheet, #fff);
-    box-shadow: 0 1px 0 rgb(22 22 22 / 0.03);
+    background: var(--atlas-sheet, #fff);
+    box-shadow: 0 1px 0 rgb(62 39 35 / 0.03);
   }
 
   header {
@@ -46,12 +46,12 @@ const cardStyles = `
 
   ::slotted(h2) {
     margin: 0;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-size: 1.02rem;
   }
 
   ::slotted(.muted) {
-    color: var(--sig-mute, #6b5a5a);
+    color: var(--atlas-mute, #8d6e63);
   }
 `;
 
@@ -72,7 +72,7 @@ export class ContentCard extends HTMLElement {
       if (!href || event.defaultPrevented) return;
       const target = event.target;
       if (target instanceof Element && target.closest('a, button, eds-button, eds-link, input, textarea, select')) return;
-      window.location.hash = href.replace(/^#/, '');
+      window.location.hash = href.startsWith('#') ? href : `#${href}`;
     });
   }
 

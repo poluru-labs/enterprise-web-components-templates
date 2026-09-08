@@ -1,12 +1,12 @@
 # Enterprise Web Components Templates
 
-Ten standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
+Eleven standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
 
 Every template is an independent Vite application with its own `package.json`, mock data, routes, tests, and build output. Layout chrome uses vanilla custom elements in an Open WC-style structure. Forms, tables, drawers, and toasts use `eds-*` design-system tags.
 
 ## At a glance
 
-- 10 focused enterprise workflows, from executive KPIs to helpdesk queues
+- 11 focused enterprise workflows, from executive KPIs to procurement
 - Vanilla custom elements for reusable application chrome
 - Hash-based routing with a built-in search view
 - Responsive Bootstrap grids with shared design-system controls
@@ -27,8 +27,9 @@ Every template is an independent Vite application with its own `package.json`, m
 | Relay | Tickets, SLA, and queues | Navy SLA countdown + severity dots | 5180 | [enterprise-helpdesk-portal](enterprise-helpdesk-portal/) |
 | Helix | Reports, quality, and insights | Crimson Ask Helix console | 5173 | [enterprise-bi-dashboard](enterprise-bi-dashboard/) |
 | Helio | Orgs, seats, and uptime | Dark tenancy bar + seat meter | 5176 | [enterprise-saas-admin](enterprise-saas-admin/) |
+| Atlas | Purchase requests, approvals, suppliers, contracts, spend | Orange PO pipeline + budget chip | 5184 | [enterprise-procurement-portal](enterprise-procurement-portal/) |
 
-Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, or tenancy bar.
+Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, tenancy bar, or purchase pipeline.
 
 ## Folder structure
 

@@ -1,14 +1,11 @@
 export const titles = {
   overview: 'Overview',
-  scorecards: 'Scorecards',
-  scorecard: 'Scorecard',
-  goals: 'Goals',
-  trends: 'Trends',
-  teams: 'Teams',
-  alerts: 'Alerts',
-  reviews: 'Reviews',
-  benchmarks: 'Benchmarks',
-  reports: 'Reports',
+  requests: 'Requests',
+  request: 'Request',
+  approvals: 'Approvals',
+  suppliers: 'Suppliers',
+  contracts: 'Contracts',
+  spend: 'Spend',
   settings: 'Settings',
   search: 'Search',
 };
@@ -16,22 +13,21 @@ export const titles = {
 export function parseRoute(hash = window.location.hash) {
   const raw = String(hash).replace(/^#\/?/, '');
   const [name, ...rest] = raw.split('/');
-  const id = rest.join('/') || undefined;
-  return { name: name || 'overview', id };
+  return { name: name || 'overview', id: rest.join('/') || undefined };
 }
 
 export function activeHref(route) {
-  if (route.name === 'scorecard') return '#/scorecards';
+  if (route.name === 'request') return '#/requests';
   return `#/${route.name || 'overview'}`;
 }
 
-export function crumbItems(route, { scorecards, workspaceName }) {
-  if (route.name === 'scorecard') {
-    const card = scorecards.find((item) => item.id === route.id);
+export function crumbItems(route, { requests, workspaceName }) {
+  if (route.name === 'request') {
+    const item = requests.find((entry) => entry.id === route.id);
     return [
       { label: workspaceName, href: '#/overview' },
-      { label: 'Scorecards', href: '#/scorecards' },
-      { label: card?.name || 'Scorecard', current: true },
+      { label: 'Requests', href: '#/requests' },
+      { label: item?.number || 'Request', current: true },
     ];
   }
   if (route.name === 'search') {
