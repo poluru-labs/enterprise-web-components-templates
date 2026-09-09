@@ -1,7 +1,7 @@
 {
-  "name": "enterprise-kpi-dashboard",
+  "name": "enterprise-compliance-dashboard",
   "version": "1.0.0",
-  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
+  "description": "Aegis — compliance workspace for Poluru Trust. Policies, regulatory controls, audit readiness, and tasks. Light theme, brand #C08552.",
   "type": "module",
   "license": "MIT",
   "scripts": {

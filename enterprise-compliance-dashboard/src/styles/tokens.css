@@ -1,0 +1,104 @@
+:root {
+  --aegis-brand: #c08552;
+  --aegis-brand-deep: #a06b3f;
+  --aegis-brand-light: #d4a574;
+  --aegis-canvas: #f8f1e8;
+  --aegis-ink: #3a2718;
+  --aegis-mute: #8a6f58;
+  --aegis-paper: #faf6f1;
+  --aegis-sheet: #ffffff;
+  --aegis-rule: #e6d4c2;
+  --aegis-soft: #f3e8db;
+  --aegis-sidebar: 14.5rem;
+  --aegis-header: 5.75rem;
+
+  --eds-color-brand-900: #5c3a22;
+  --eds-color-brand-800: #7a4e2e;
+  --eds-color-brand-700: #a06b3f;
+  --eds-color-brand-600: #c08552;
+  --eds-color-brand-500: #c99768;
+  --eds-color-brand-400: #d4a574;
+  --eds-color-brand-300: #e0c09a;
+  --eds-color-brand-200: #e6d4c2;
+  --eds-color-brand-100: #f3e8db;
+  --eds-color-brand-50: #f8f1e8;
+  --eds-color-bg: var(--aegis-paper);
+  --eds-color-surface: var(--aegis-sheet);
+  --eds-color-focus: var(--aegis-brand);
+  --eds-color-primary: var(--aegis-brand);
+  --eds-color-primary-hover: var(--aegis-brand-deep);
+  --eds-color-primary-active: #7a4e2e;
+  --eds-shadow-focus: 0 0 0 3px rgb(192 133 82 / 0.28);
+  --eds-font-sans: 'Open Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Roboto', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--aegis-ink);
+  background: var(--aegis-paper);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--aegis-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--aegis-mute);
+}
+
+.kicker {
+  color: var(--aegis-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--aegis-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--aegis-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--aegis-mute);
+}

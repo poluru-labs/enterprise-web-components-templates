@@ -1,24 +1,26 @@
 import { showToast, setDensity } from '@poluru-labs/enterprise-design-system-wc';
 import {
+  addPolicy,
   commandItems,
-  createSteps,
   currentUser,
+  frameworkOptions,
+  frameworks,
   inboxItems,
   people,
+  policies,
   productName,
-  scorecards,
-  tickerItems,
   workspace,
   workspaceName,
 } from '../data/index.js';
 import { activeHref, crumbItems, parseRoute, searchHref, titles } from '../lib/router.js';
+import { searchGroups } from '../lib/search.js';
 import { themeCards } from './widgets.js';
 import { paintNav, sidebarTemplate } from './app-sidebar.js';
 import './app-header.js';
 import './content-card.js';
 import { hydrateView, renderView } from '../pages/index.js';
 
-export class SignalShell extends HTMLElement {
+export class AegisShell extends HTMLElement {
   connectedCallback() {
     if (this.dataset.ready === '1') return;
     this.dataset.ready = '1';
@@ -39,21 +41,26 @@ export class SignalShell extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <div class="sig-shell">
+      <div class="aegis-shell">
         ${sidebarTemplate()}
-        <div class="sig-main">
-          <signal-header product="${productName}" workspace="${workspaceName}" period="${workspace.period}" inbox-count="${inboxItems.length}">
+        <div class="aegis-main">
+          <aegis-header
+            product="${productName}"
+            workspace="${workspaceName}"
+            inbox-count="${inboxItems.length}"
+            audit-label="${workspace.nextAudit.replace(' Type II', '')}"
+          >
             <eds-tooltip slot="nav-toggle" content="Show sidebar">
               <eds-button id="nav-toggle" variant="tertiary" icon="menu" icon-only accessible-label="Show sidebar"></eds-button>
             </eds-tooltip>
             <eds-breadcrumb slot="crumbs" id="crumbs"></eds-breadcrumb>
-            <eds-visually-hidden slot="search">Search scorecards</eds-visually-hidden>
-            <eds-search slot="search" id="global-search" placeholder="Find a KPI, goal, or owner" clearable></eds-search>
+            <eds-visually-hidden slot="search">Search policies</eds-visually-hidden>
+            <eds-search slot="search" id="global-search" placeholder="Find a policy, control, or task" clearable></eds-search>
             <eds-kbd slot="kbd" keys="⌘K"></eds-kbd>
+            <eds-button slot="add" id="header-add" variant="primary" icon="plus">New policy</eds-button>
             <eds-tooltip slot="inbox" content="Inbox" placement="bottom">
               <eds-button id="notify-btn" variant="tertiary" icon="bell" icon-only accessible-label="Notifications"></eds-button>
             </eds-tooltip>
-            <eds-button slot="alert" id="header-alert" variant="primary" icon="plus">New alert</eds-button>
             <eds-dropdown-menu slot="profile" id="profile-menu" placement="left">
               <button slot="trigger" class="profile-trigger" type="button">
                 <eds-avatar name="${currentUser.name}" size="sm"></eds-avatar>
@@ -63,127 +70,88 @@ export class SignalShell extends HTMLElement {
                 </span>
                 <eds-icon name="chevron-down" size="sm"></eds-icon>
               </button>
-              <eds-menu-item label="Inbox" value="inbox" icon="bell"></eds-menu-item>
               <eds-menu-item label="Settings" value="settings" icon="settings"></eds-menu-item>
+              <eds-menu-item label="Command palette" value="palette" icon="search"></eds-menu-item>
               <eds-menu-item label="Sign out" value="signout" icon="external-link" danger></eds-menu-item>
             </eds-dropdown-menu>
-          </signal-header>
+          </aegis-header>
           <main id="view" tabindex="-1"></main>
         </div>
       </div>
-      <button class="sig-backdrop" id="sig-backdrop" type="button" aria-label="Hide sidebar" hidden></button>
+      <button class="aegis-backdrop" id="aegis-backdrop" type="button" aria-label="Hide sidebar" hidden></button>
       <eds-drawer id="inbox-drawer" heading="Inbox" side="right" size="md">
         <eds-list id="inbox-list" divided></eds-list>
         <div slot="footer">
           <eds-button id="close-inbox" variant="tertiary">Close</eds-button>
         </div>
       </eds-drawer>
-      <eds-drawer id="filter-drawer" heading="Scorecard filters" side="right" size="md">
-        <div class="stack">
-          <eds-combobox id="filter-owner" label="Owner" placeholder="Any owner"></eds-combobox>
-          <eds-checkbox label="Only my scorecards" checked></eds-checkbox>
-          <eds-switch label="Hide on-track"></eds-switch>
-          <eds-slider id="filter-health" label="Min health" min="0" max="100" value="70" show-value></eds-slider>
-        </div>
-        <div slot="footer" class="inline-actions">
-          <eds-button id="apply-filters" variant="primary">Apply</eds-button>
-          <eds-button id="close-filters" variant="tertiary">Cancel</eds-button>
-        </div>
-      </eds-drawer>
-      <eds-modal id="command-modal" heading="Jump to" close-on-backdrop close-on-escape>
-        <eds-list id="command-list" divided></eds-list>
+      <eds-modal id="command-modal" heading="Jump to anything" close-on-backdrop close-on-escape>
+        <eds-search id="command-search" placeholder="Policies, controls, audits…" clearable></eds-search>
+        <eds-list id="command-list" divided class="mt-3"></eds-list>
         <div slot="footer">
           <eds-button id="close-command" variant="tertiary">Close</eds-button>
         </div>
       </eds-modal>
-      <eds-modal id="alert-modal" heading="New alert" close-on-backdrop close-on-escape>
-        <eds-stepper id="alert-stepper"></eds-stepper>
-        <div class="stack mt-4">
-          <eds-input label="Name" placeholder="Fulfillment SLA below 96%" icon="bell"></eds-input>
-          <eds-combobox id="alert-card" label="Scorecard" placeholder="Choose a scorecard"></eds-combobox>
-          <eds-select id="alert-owner" label="Owner"></eds-select>
-          <eds-number-input id="alert-threshold" label="Threshold" value="96" min="1" max="100"></eds-number-input>
-          <eds-date-picker id="alert-from" label="Start watching"></eds-date-picker>
-          <eds-radio-group id="alert-sev" label="Severity" name="alert-sev" value="amber">
-            <eds-radio value="green" label="Info"></eds-radio>
-            <eds-radio value="amber" label="Amber"></eds-radio>
-            <eds-radio value="red" label="Red"></eds-radio>
-          </eds-radio-group>
-          <eds-textarea label="Runbook" rows="3" placeholder="Who to page and what to check first."></eds-textarea>
-          <eds-pin-input id="alert-pin" length="4" type="number" label="Confirm with staff PIN"></eds-pin-input>
-        </div>
-        <div slot="footer" class="inline-actions">
-          <eds-button id="save-alert" variant="primary">Create alert</eds-button>
-          <eds-button id="close-alert" variant="tertiary">Cancel</eds-button>
-        </div>
-      </eds-modal>
-      <eds-modal id="scorecard-modal" heading="New scorecard" close-on-backdrop close-on-escape>
+      <eds-modal id="policy-modal" heading="New policy" close-on-backdrop close-on-escape>
         <div class="stack">
-          <eds-input label="Name" placeholder="Finance" icon="star"></eds-input>
-          <eds-select id="new-owner" label="Owner"></eds-select>
-          <eds-select id="new-focus" label="Focus"></eds-select>
-          <eds-textarea label="Purpose" rows="3" placeholder="What this scorecard is the source of truth for."></eds-textarea>
+          <eds-input id="pol-name" label="Name" placeholder="Data classification policy" icon="file"></eds-input>
+          <eds-select id="pol-owner" label="Owner"></eds-select>
+          <eds-select id="pol-framework" label="Primary framework"></eds-select>
         </div>
         <div slot="footer" class="inline-actions">
-          <eds-button id="save-card" variant="primary">Create</eds-button>
-          <eds-button id="close-card" variant="tertiary">Cancel</eds-button>
+          <eds-button id="save-policy" variant="primary">Create draft</eds-button>
+          <eds-button id="close-policy" variant="tertiary">Cancel</eds-button>
         </div>
       </eds-modal>
     `;
 
-    const header = this.querySelector('signal-header');
-    if (header) header.tickerItems = tickerItems;
+    const header = this.querySelector('aegis-header');
+    if (header) header.frameworks = frameworks;
   }
 
   hydrate() {
     const inbox = this.querySelector('#inbox-list');
-    if (inbox) inbox.items = inboxItems;
-
-    const stepper = this.querySelector('#alert-stepper');
-    if (stepper) {
-      stepper.steps = createSteps;
-      stepper.current = 0;
+    if (inbox) {
+      inbox.items = inboxItems.map((item) => ({
+        label: item.label,
+        description: item.description,
+        icon: item.icon,
+        href: item.href,
+      }));
     }
 
-    const alertCard = this.querySelector('#alert-card');
-    if (alertCard) {
-      alertCard.options = scorecards.map((item) => ({ label: item.name, value: item.id }));
+    const owner = this.querySelector('#pol-owner');
+    if (owner) {
+      owner.options = people.map((item) => ({ label: item.name, value: item.name }));
+      owner.value = currentUser.name;
     }
-
-    const ownerOptions = people.map((item) => ({ label: item.name, value: item.name }));
-    const alertOwner = this.querySelector('#alert-owner');
-    if (alertOwner) {
-      alertOwner.options = ownerOptions;
-      alertOwner.value = people[0].name;
-    }
-    const newOwner = this.querySelector('#new-owner');
-    if (newOwner) {
-      newOwner.options = ownerOptions;
-      newOwner.value = people[0].name;
-    }
-    const filterOwner = this.querySelector('#filter-owner');
-    if (filterOwner) filterOwner.options = ownerOptions;
-
-    const newFocus = this.querySelector('#new-focus');
-    if (newFocus) {
-      newFocus.options = [
-        { label: 'Revenue', value: 'revenue' },
-        { label: 'Quality', value: 'quality' },
-        { label: 'People', value: 'people' },
-      ];
-      newFocus.value = 'revenue';
+    const framework = this.querySelector('#pol-framework');
+    if (framework) {
+      framework.options = frameworkOptions;
+      framework.value = 'SOC 2';
     }
 
     const search = this.querySelector('#global-search');
+    const commandSearch = this.querySelector('#command-search');
 
-    const runSearch = (value) => {
+    const paintCommand = (value) => {
       const query = (value || '').trim().toLowerCase();
+      const groups = searchGroups(
+        [{ group: 'All', items: commandItems.map((item) => ({ ...item, hint: item.description })) }],
+        query,
+      );
       const list = this.querySelector('#command-list');
       if (list) {
-        list.items = commandItems.filter(
-          (item) => `${item.label} ${item.description}`.toLowerCase().includes(query) || !query,
-        );
+        list.items = (groups[0]?.items || []).map((item) => ({
+          label: item.label,
+          description: item.hint || item.description,
+          icon: item.icon,
+        }));
       }
+    };
+
+    const runSearch = (value) => {
+      paintCommand(value);
       this.querySelector('#command-modal')?.show();
     };
 
@@ -195,7 +163,7 @@ export class SignalShell extends HTMLElement {
       this.setSidebarOpen(!document.body.classList.contains('sidebar-open'));
     });
     this.querySelector('#sidebar-close')?.addEventListener('click', () => this.setSidebarOpen(false));
-    this.querySelector('#sig-backdrop')?.addEventListener('click', () => this.setSidebarOpen(false));
+    this.querySelector('#aegis-backdrop')?.addEventListener('click', () => this.setSidebarOpen(false));
     this.querySelector('#side-nav')?.addEventListener('eds-navigate', (event) => {
       const href = event.detail?.href ?? event.detail?.item?.href;
       if (href) window.location.hash = href;
@@ -209,39 +177,51 @@ export class SignalShell extends HTMLElement {
       }
     });
 
+    commandSearch?.addEventListener('eds-input', (event) => paintCommand(event.detail?.value ?? ''));
     this.querySelector('#command-list')?.addEventListener('eds-select', (event) => {
       const item = commandItems.find((entry) => entry.label === event.detail?.label);
       this.querySelector('#command-modal')?.close();
+      if (item?.href === '#add-policy') {
+        this.querySelector('#policy-modal')?.show();
+        return;
+      }
       if (item) window.location.hash = item.href;
     });
 
     this.querySelector('#notify-btn')?.addEventListener('eds-click', () => this.querySelector('#inbox-drawer')?.show());
     this.querySelector('#close-inbox')?.addEventListener('eds-click', () => this.querySelector('#inbox-drawer')?.close());
     this.querySelector('#close-command')?.addEventListener('eds-click', () => this.querySelector('#command-modal')?.close());
-    this.querySelector('#header-alert')?.addEventListener('eds-click', () => this.querySelector('#alert-modal')?.show());
+    this.querySelector('#header-add')?.addEventListener('eds-click', () => this.querySelector('#policy-modal')?.show());
 
     this.querySelector('#profile-menu')?.addEventListener('eds-select', (event) => {
       const value = event.detail?.value;
-      if (value === 'inbox') this.querySelector('#inbox-drawer')?.show();
       if (value === 'settings') window.location.hash = '#/settings';
-      if (value === 'signout') showToast({ message: 'Signed out of Clearline Holdings', variant: 'warning' });
+      if (value === 'palette') runSearch('');
+      if (value === 'signout') showToast({ message: 'Signed out of Poluru Trust', variant: 'warning' });
     });
 
-    this.querySelector('#save-alert')?.addEventListener('eds-click', () => {
-      this.querySelector('#alert-modal')?.close();
-      showToast({ message: 'Alert added to the register', variant: 'success' });
+    this.querySelector('#save-policy')?.addEventListener('eds-click', () => {
+      const name = this.querySelector('#pol-name')?.value;
+      if (!name?.trim()) {
+        showToast({ message: 'Name required', variant: 'warning' });
+        return;
+      }
+      const record = addPolicy({
+        name,
+        owner: this.querySelector('#pol-owner')?.value,
+        framework: this.querySelector('#pol-framework')?.value,
+      });
+      this.querySelector('#policy-modal')?.close();
+      showToast({ message: `${record.code} drafted`, variant: 'success' });
+      window.location.hash = `#/policy/${record.id}`;
     });
-    this.querySelector('#close-alert')?.addEventListener('eds-click', () => this.querySelector('#alert-modal')?.close());
-    this.querySelector('#save-card')?.addEventListener('eds-click', () => {
-      this.querySelector('#scorecard-modal')?.close();
-      showToast({ message: 'Scorecard added to the portfolio', variant: 'success' });
+    this.querySelector('#close-policy')?.addEventListener('eds-click', () => this.querySelector('#policy-modal')?.close());
+
+    this.querySelector('#inbox-list')?.addEventListener('eds-select', (event) => {
+      const item = inboxItems.find((entry) => entry.label === event.detail?.label);
+      this.querySelector('#inbox-drawer')?.close();
+      if (item?.href) window.location.hash = item.href;
     });
-    this.querySelector('#close-card')?.addEventListener('eds-click', () => this.querySelector('#scorecard-modal')?.close());
-    this.querySelector('#apply-filters')?.addEventListener('eds-click', () => {
-      this.querySelector('#filter-drawer')?.close();
-      showToast({ message: 'Filters applied', variant: 'success' });
-    });
-    this.querySelector('#close-filters')?.addEventListener('eds-click', () => this.querySelector('#filter-drawer')?.close());
 
     this.onKeydown = (event) => {
       if (event.key === 'Escape') this.setSidebarOpen(false);
@@ -255,11 +235,13 @@ export class SignalShell extends HTMLElement {
       }
     };
     document.addEventListener('keydown', this.onKeydown);
+
+    paintCommand('');
   }
 
   setSidebarOpen(open) {
     document.body.classList.toggle('sidebar-open', open);
-    const backdrop = this.querySelector('#sig-backdrop');
+    const backdrop = this.querySelector('#aegis-backdrop');
     if (backdrop) backdrop.hidden = !open;
     const toggle = this.querySelector('#nav-toggle');
     if (toggle) toggle.setAttribute('accessible-label', open ? 'Hide sidebar' : 'Show sidebar');
@@ -268,7 +250,7 @@ export class SignalShell extends HTMLElement {
   paintCrumbs(route) {
     const crumbs = this.querySelector('#crumbs');
     if (!crumbs) return;
-    crumbs.items = crumbItems(route, { scorecards, workspaceName });
+    crumbs.items = crumbItems(route, { policies, workspaceName });
   }
 
   renderRoute() {
@@ -292,6 +274,6 @@ export class SignalShell extends HTMLElement {
   }
 }
 
-if (!customElements.get('signal-shell')) {
-  customElements.define('signal-shell', SignalShell);
+if (!customElements.get('aegis-shell')) {
+  customElements.define('aegis-shell', AegisShell);
 }

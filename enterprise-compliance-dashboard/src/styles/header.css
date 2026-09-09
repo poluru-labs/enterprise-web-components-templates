@@ -1,0 +1,204 @@
+:host {
+  display: block;
+}
+
+.header-shell {
+  background: var(--aegis-canvas, #f8f1e8);
+  border-bottom: 1px solid var(--aegis-rule, #e6d4c2);
+}
+
+.header-bar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem 1.25rem;
+  min-height: 4.35rem;
+  padding: 0.65rem 1.25rem 0.35rem;
+}
+
+.header-start,
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+}
+
+.header-end {
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+  color: var(--aegis-ink, #3a2718);
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  flex-shrink: 0;
+  border-radius: 0.55rem;
+  background: var(--aegis-brand, #c08552);
+  color: #fff;
+}
+
+.brand-mark svg {
+  display: block;
+}
+
+.brand-copy strong,
+.brand-copy small {
+  display: block;
+}
+
+.brand-copy strong {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.brand-copy small {
+  margin-top: 0.04rem;
+  color: var(--aegis-mute, #8a6f58);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.header-search {
+  min-width: min(16rem, 46vw);
+}
+
+.inbox-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
+.inbox-count {
+  position: absolute;
+  top: -0.15rem;
+  right: -0.1rem;
+  display: grid;
+  place-items: center;
+  min-width: 1.1rem;
+  height: 1.1rem;
+  padding: 0 0.25rem;
+  border-radius: 999px;
+  background: var(--aegis-brand, #c08552);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.framework-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
+  gap: 0.45rem;
+  padding: 0 1.25rem 0.75rem;
+}
+
+.fw-cell {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.5rem 0.8rem 0.55rem;
+  border: 1px solid var(--aegis-rule, #e6d4c2);
+  border-radius: 10px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.fw-cell:hover,
+.fw-cell.is-hot {
+  border-color: var(--aegis-brand, #c08552);
+  box-shadow: 0 2px 8px rgb(192 133 82 / 0.14);
+}
+
+.fw-cell small,
+.audit-chip small {
+  display: block;
+  color: var(--aegis-mute, #8a6f58);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fw-cell strong,
+.audit-chip strong {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.fw-meter {
+  display: block;
+  height: 0.28rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--aegis-soft, #f3e8db);
+}
+
+.fw-meter i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--aegis-brand, #c08552);
+}
+
+.fw-cell.is-hot .fw-meter i {
+  background: #a06b3f;
+}
+
+.audit-chip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 9.5rem;
+  padding: 0.55rem 0.85rem;
+  border-radius: 10px;
+  background: var(--aegis-brand, #c08552);
+  color: #fff;
+}
+
+.audit-chip small {
+  color: rgb(255 255 255 / 0.82);
+}
+
+::slotted([slot='crumbs']) {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .framework-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .audit-chip {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 960px) {
+  .header-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .header-end {
+    justify-content: flex-start;
+  }
+}

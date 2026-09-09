@@ -1,20 +1,24 @@
 export const STATUS_TONE = {
-  active: 'brand',
-  on_track: 'success',
-  ahead: 'success',
-  green: 'success',
-  approved: 'success',
-  healthy: 'success',
-  ok: 'success',
-  watch: 'warning',
-  amber: 'warning',
+  active: 'success',
+  published: 'success',
+  mapped: 'success',
+  ready: 'success',
+  current: 'success',
+  done: 'success',
+  closed: 'success',
+  passed: 'success',
+  scheduled: 'info',
+  in_progress: 'info',
+  submitted: 'info',
   pending: 'warning',
-  behind: 'danger',
-  at_risk: 'danger',
-  red: 'danger',
-  denied: 'danger',
-  closed: 'neutral',
+  in_review: 'warning',
+  watch: 'warning',
+  open: 'warning',
   draft: 'neutral',
+  gap: 'danger',
+  overdue: 'danger',
+  failed: 'danger',
+  expired: 'danger',
   inactive: 'neutral',
 };
 
@@ -42,12 +46,14 @@ export function severityTone(severity) {
 
 export function slaTone(status) {
   const key = String(status || '').toLowerCase();
-  if (key === 'breach' || key === 'breached' || key === 'error' || key === 'at risk') return 'danger';
+  if (key === 'breach' || key === 'breached' || key === 'error' || key === 'at risk' || key === 'overdue' || key === 'gap') {
+    return 'danger';
+  }
   if (key === 'risk' || key === 'at_risk' || key === 'warn' || key === 'watch') return 'warning';
   return 'success';
 }
 
 export function badgeVariant(status) {
   const tone = statusTone(status);
-  return tone === 'brand' ? 'brand' : tone;
+  return tone === 'brand' ? 'info' : tone;
 }
