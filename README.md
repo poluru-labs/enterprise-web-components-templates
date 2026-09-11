@@ -1,4 +1,4 @@
-# Enterprise Web Components Templates
+# Download Free Enterprise Web Components Templates
 
 Thirteen standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
 
