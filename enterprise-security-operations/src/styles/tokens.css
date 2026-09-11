@@ -1,0 +1,102 @@
+:root {
+  --sn-brand: #d10056;
+  --sn-brand-deep: #a80045;
+  --sn-brand-ink: #2a1018;
+  --sn-mute: #7a5360;
+  --sn-paper: #faf6f8;
+  --sn-sheet: #ffffff;
+  --sn-rule: #e8cfd9;
+  --sn-soft: #f6e8ee;
+  --sn-sidebar: 14.5rem;
+
+  --eds-color-brand-900: #5a1028;
+  --eds-color-brand-800: #7a1636;
+  --eds-color-brand-700: #a80045;
+  --eds-color-brand-600: #d10056;
+  --eds-color-brand-500: #de3a78;
+  --eds-color-brand-400: #e56b97;
+  --eds-color-brand-300: #ed9bb8;
+  --eds-color-brand-200: #e8cfd9;
+  --eds-color-brand-100: #f6e8ee;
+  --eds-color-brand-50: #faf6f8;
+  --eds-color-bg: var(--sn-paper);
+  --eds-color-surface: var(--sn-sheet);
+  --eds-color-focus: var(--sn-brand);
+  --eds-color-primary: var(--sn-brand);
+  --eds-color-primary-hover: var(--sn-brand-deep);
+  --eds-color-primary-active: #7a1636;
+  --eds-shadow-focus: 0 0 0 3px rgb(209 0 86 / 0.22);
+  --eds-font-sans: 'Open Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Roboto', 'Segoe UI', sans-serif;
+  --eds-radius-sm: 0;
+  --eds-radius-md: 0;
+  --eds-radius-lg: 0;
+  --eds-radius-xl: 0;
+  --eds-radius-full: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--sn-brand-ink);
+  background: var(--sn-paper);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  background: var(--sn-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--sn-mute);
+}
+
+.kicker {
+  color: var(--sn-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--sn-rule);
+  background: #fff;
+  color: var(--sn-brand-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--sn-mute);
+}

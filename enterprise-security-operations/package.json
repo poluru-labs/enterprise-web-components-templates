@@ -1,7 +1,7 @@
 {
-  "name": "enterprise-kpi-dashboard",
+  "name": "enterprise-security-operations",
   "version": "1.0.0",
-  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
+  "description": "Sentinel — security operations workspace for Poluru Shield. Alerts, incidents, vulnerabilities, investigations, and response. Light theme, brand #D10056.",
   "type": "module",
   "license": "MIT",
   "scripts": {

@@ -2,23 +2,21 @@ import headerCss from '../styles/header.css?inline';
 
 function brandMark() {
   return `
-    <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
-      <rect width="32" height="32" rx="8" fill="#DD0303"></rect>
-      <rect x="6.5" y="17" width="3.2" height="8" rx="1.2" fill="#fff"></rect>
-      <rect x="11.8" y="11" width="3.2" height="14" rx="1.2" fill="#fff"></rect>
-      <rect x="17.1" y="7" width="3.2" height="18" rx="1.2" fill="#fff"></rect>
-      <rect x="22.4" y="13.5" width="3.2" height="11.5" rx="1.2" fill="#fff"></rect>
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+      <rect width="32" height="32" fill="#D10056"></rect>
+      <path d="M16 6.2 23.5 9.4v7.6c0 4.2-3.2 7.6-7.5 9.6-4.3-2-7.5-5.4-7.5-9.6V9.4L16 6.2z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"></path>
+      <path d="M16 11.2v9.2" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="square"></path>
+      <circle cx="16" cy="21.6" r="1.15" fill="#fff"></circle>
     </svg>
   `;
 }
 
-export class SignalHeader extends HTMLElement {
+export class SentinelHeader extends HTMLElement {
   static get observedAttributes() {
-    return ['product', 'workspace', 'period', 'inbox-count'];
+    return ['product', 'workspace', 'inbox-count', 'mtta-label'];
   }
 
-  #ticker = null;
-  #bound = false;
+  #queues = [];
 
   constructor() {
     super();
@@ -27,13 +25,10 @@ export class SignalHeader extends HTMLElement {
 
   connectedCallback() {
     this.render();
-    if (!this.#bound) {
-      this.#bound = true;
-      this.shadowRoot.addEventListener('click', (event) => {
-        const cell = event.target.closest('.kpi-cell');
-        if (cell?.dataset.href) window.location.hash = cell.dataset.href;
-      });
-    }
+    this.shadowRoot.addEventListener('click', (event) => {
+      const cell = event.target.closest('.queue-cell');
+      if (cell?.dataset.href) window.location.hash = cell.dataset.href;
+    });
   }
 
   attributeChangedCallback() {
@@ -41,91 +36,88 @@ export class SignalHeader extends HTMLElement {
   }
 
   get product() {
-    return this.getAttribute('product') || 'Signal';
+    return this.getAttribute('product') || 'Sentinel';
   }
 
   get workspace() {
-    return this.getAttribute('workspace') || 'Clearline Holdings';
-  }
-
-  get period() {
-    return this.getAttribute('period') || 'FY26 Q3 · week 9';
+    return this.getAttribute('workspace') || 'Poluru Shield';
   }
 
   get inboxCount() {
-    return this.getAttribute('inbox-count') || '3';
+    return this.getAttribute('inbox-count') || '4';
   }
 
-  set tickerItems(value) {
-    this.#ticker = value;
+  get mttaLabel() {
+    return this.getAttribute('mtta-label') || '14m';
+  }
+
+  set queues(value) {
+    this.#queues = Array.isArray(value) ? value : [];
     if (this.isConnected) this.render();
   }
 
-  get tickerItems() {
-    return this.#ticker;
-  }
-
-  renderBoard(items) {
-    return items
-      .map(
-        (item) => `
-          <button class="kpi-cell" type="button" data-href="${item.href || '#/trends'}" title="${item.label}">
-            <small>${item.label}</small>
-            <strong>${item.value}</strong>
-            <span class="kpi-delta ${item.trend || 'flat'}">${item.delta || ''}</span>
-          </button>`,
-      )
-      .join('');
+  get queues() {
+    return this.#queues;
   }
 
   render() {
-    const items = this.#ticker?.length
-      ? this.#ticker
+    const items = this.#queues.length
+      ? this.#queues
       : [
-          { label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' },
+          { id: 'alerts', label: 'Alerts', value: '18', href: '#/alerts', hot: true },
+          { id: 'incidents', label: 'Incidents', value: '6', href: '#/incidents' },
+          { id: 'vulns', label: 'Vulns', value: '11', href: '#/vulnerabilities' },
+          { id: 'cases', label: 'Cases', value: '4', href: '#/investigations' },
         ];
 
     this.shadowRoot.innerHTML = `
       <style>${headerCss}</style>
-      <div class="board-shell">
-        <div class="live-led" aria-hidden="true"></div>
-        <div class="command-bar">
-          <div class="command-start">
+      <div class="header-shell">
+        <div class="header-bar">
+          <div class="header-start">
             <slot name="nav-toggle"></slot>
             <a class="header-brand" href="#/overview" part="brand">
               <span class="brand-mark">${brandMark()}</span>
               <span class="brand-copy">
                 <strong>${this.product}</strong>
-                <small>${this.workspace} · ${this.period}</small>
+                <small>${this.workspace}</small>
               </span>
             </a>
             <slot name="crumbs"></slot>
           </div>
-          <div class="command-search">
+          <div class="header-search">
             <slot name="search"></slot>
           </div>
-          <div class="command-end">
+          <div class="header-end">
             <span class="search-hint"><slot name="kbd"></slot></span>
+            <slot name="add"></slot>
             <div class="inbox-wrap">
               <slot name="inbox"></slot>
               <span class="inbox-count" aria-label="${this.inboxCount} unread">${this.inboxCount}</span>
             </div>
-            <slot name="alert"></slot>
             <slot name="profile"></slot>
           </div>
         </div>
-        <div class="scoreboard" aria-label="Live KPI scoreboard">
-          <div class="live-chip">
-            <span><span class="live-dot" aria-hidden="true"></span> Live</span>
-            ${this.period}
+        <div class="queue-strip" aria-label="Security queues">
+          ${items
+            .map(
+              (item) => `
+            <button class="queue-cell${item.hot ? ' is-hot' : ''}" type="button" data-href="${item.href}">
+              <small>${item.label}</small>
+              <strong>${item.value}</strong>
+            </button>`,
+            )
+            .join('')}
+          <div class="mtta-chip">
+            <small>MTTA</small>
+            <strong>${this.mttaLabel}</strong>
           </div>
-          ${this.renderBoard(items)}
         </div>
       </div>
     `;
   }
 }
 
-if (!customElements.get('signal-header')) {
-  customElements.define('signal-header', SignalHeader);
+if (!customElements.get('sentinel-header')) {
+  customElements.define('sentinel-header', SentinelHeader);
 }

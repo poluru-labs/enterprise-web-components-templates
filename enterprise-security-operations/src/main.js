@@ -10,7 +10,7 @@ const app = document.querySelector('#app');
 
 function boot() {
   if (!app) throw new Error('Missing #app root');
-  app.innerHTML = '<signal-shell></signal-shell>';
+  app.innerHTML = '<sentinel-shell></sentinel-shell>';
 }
 
 try {
@@ -18,6 +18,6 @@ try {
 } catch (error) {
   console.error(error);
   if (app) {
-    app.innerHTML = `<div class="boot-error"><strong>Signal could not start</strong><pre>${error?.stack || error.message}</pre></div>`;
+    app.innerHTML = `<div class="boot-error"><strong>Sentinel could not start</strong><pre>${error?.stack || error.message}</pre></div>`;
   }
 }

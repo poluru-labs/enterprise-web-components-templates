@@ -4,47 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#DD0303" />
+    <meta name="theme-color" content="#D10056" />
     <meta
       name="description"
-      content="Signal — scorecards, goals, and executive KPIs for Clearline Holdings."
+      content="Sentinel — security alerts, incidents, vulnerabilities, investigations, and response workflows for Poluru Shield."
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Signal KPIs</title>
+    <title>Sentinel · Poluru Shield</title>
     <style>
       .boot-msg,
       .boot-error {
         max-width: 40rem;
         margin: 3rem auto;
         padding: 1.25rem 1.4rem;
-        border: 1px solid #ead0d0;
-        border-radius: 10px;
+        border: 1px solid #e8cfd9;
         background: #fff;
-        color: #161616;
-        font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+        color: #2a1018;
+        font-family: 'Open Sans', 'Segoe UI', sans-serif;
       }
       .boot-error pre {
         overflow: auto;
         white-space: pre-wrap;
-        color: #6b5a5a;
+        color: #7a5360;
       }
     </style>
   </head>
   <body>
     <a class="skip-link" href="#view">Skip to main content</a>
-    <div id="app"><p class="boot-msg">Loading Signal…</p></div>
+    <div id="app"><p class="boot-msg">Loading Sentinel…</p></div>
     <script type="module">
       import('/src/main.js').catch((error) => {
         const app = document.querySelector('#app');
         const message = error?.stack || error?.message || String(error);
         if (app) {
-          app.innerHTML = `<div class="boot-error"><strong>Signal could not start</strong><pre>${message}</pre></div>`;
+          app.innerHTML = `<div class="boot-error"><strong>Sentinel could not start</strong><pre>${message}</pre></div>`;
         }
         console.error(error);
       });
