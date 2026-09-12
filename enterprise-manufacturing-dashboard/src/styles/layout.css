@@ -1,6 +1,8 @@
 :root { --sidebar-width: 240px; }
 .sig-shell { display: flex; min-height: 100vh; }
 .sig-sidebar { width: var(--sidebar-width); flex: 0 0 var(--sidebar-width); min-height: 100vh; display: flex; flex-direction: column; padding: 25px 14px 16px; background: #14191f; color: #e8edf1; }
+.sidebar-collapsed .sig-sidebar { width: 0; flex-basis: 0; padding-left: 0; padding-right: 0; overflow: hidden; }
+.sidebar-collapsed .sig-main { width: 100%; }
 .sidebar-head, .sidebar-foot, .wordmark, .profile-trigger { display: flex; align-items: center; }
 .sidebar-head { justify-content: space-between; padding: 0 10px 30px; }
 .wordmark { gap: 10px; }

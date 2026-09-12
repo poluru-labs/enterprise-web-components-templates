@@ -191,9 +191,15 @@ export class SignalShell extends HTMLElement {
       window.location.hash = searchHref(value);
     };
 
-    this.querySelector('#nav-toggle')?.addEventListener('eds-click', () => {
-      this.setSidebarOpen(!document.body.classList.contains('sidebar-open'));
-    });
+    const toggleSidebar = () => {
+      if (window.matchMedia('(max-width: 1000px)').matches) {
+        this.setSidebarOpen(!document.body.classList.contains('sidebar-open'));
+        return;
+      }
+      const collapsed = document.body.classList.toggle('sidebar-collapsed');
+      this.querySelector('#nav-toggle')?.setAttribute('accessible-label', collapsed ? 'Show sidebar' : 'Hide sidebar');
+    };
+    this.querySelector('#nav-toggle')?.addEventListener('click', toggleSidebar);
     this.querySelector('#sidebar-close')?.addEventListener('click', () => this.setSidebarOpen(false));
     this.querySelector('#sig-backdrop')?.addEventListener('click', () => this.setSidebarOpen(false));
     this.querySelector('#side-nav')?.addEventListener('eds-navigate', (event) => {
