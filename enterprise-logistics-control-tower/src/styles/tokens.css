@@ -1,0 +1,18 @@
+:root {
+	--logi-ink: #17343a;
+	--logi-muted: #60777a;
+	--logi-paper: #f5f8f6;
+	--logi-panel: #ffffff;
+	--logi-line: #dce8e4;
+	--logi-teal: #0b6e69;
+	--logi-teal-soft: #e0f2ee;
+	--logi-green: #27734a;
+	--logi-green-soft: #e4f3e8;
+	--logi-amber: #a36b16;
+	--logi-amber-soft: #fff1d5;
+	--logi-red: #b4453d;
+	--logi-red-soft: #fbe8e5;
+	--logi-blue: #3c6892;
+	--logi-blue-soft: #e6eef7;
+	--logi-shadow: 0 10px 28px rgba(23, 52, 58, 0.06);
+}

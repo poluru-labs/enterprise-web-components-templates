@@ -1,0 +1,34 @@
+:host, body {
+	background: var(--logi-paper);
+	color: var(--logi-ink);
+}
+
+.sig-main { min-width: 0; }
+#view { min-height: calc(100vh - 148px); padding: 2rem clamp(1rem, 3vw, 3.5rem) 4rem; }
+.logi-overview { max-width: 1440px; margin: 0 auto; }
+.logi-page-head, .logi-panel-head, .logi-route-row, .logi-carrier-row, .logi-exception-row, .logi-handoff-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.logi-page-head { align-items: flex-end; margin-bottom: 1.75rem; }
+.logi-kicker, .logi-eyebrow { margin: 0 0 .35rem; color: var(--logi-teal); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.logi-page-head h1, .logi-panel h2 { margin: 0; letter-spacing: 0; }
+.logi-page-head h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.8rem, 3vw, 2.65rem); }
+.logi-lede { max-width: 42rem; margin: .65rem 0 0; color: var(--logi-muted); }
+.logi-head-actions { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; justify-content: flex-end; }
+.logi-updated { color: var(--logi-muted); font-size: .82rem; }
+.logi-updated span, .logi-status span { display: inline-block; width: .45rem; height: .45rem; margin-right: .4rem; border-radius: 50%; background: currentColor; }
+.logi-action, .logi-panel-head a { color: var(--logi-teal); font-size: .82rem; font-weight: 700; text-decoration: none; }
+.logi-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1rem; }
+.logi-metric, .logi-panel { border: 1px solid var(--logi-line); background: var(--logi-panel); box-shadow: var(--logi-shadow); }
+.logi-metric { position: relative; overflow: hidden; min-height: 8.5rem; padding: 1.2rem 1.25rem; border-radius: 6px; }
+.logi-metric::before { position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--logi-teal); content: ''; }
+.logi-metric-green::before { background: var(--logi-green); }.logi-metric-amber::before { background: var(--logi-amber); }.logi-metric-red::before { background: var(--logi-red); }
+.logi-metric strong { display: block; margin: .35rem 0 .4rem; font-family: 'Space Grotesk', sans-serif; font-size: 2rem; }
+.logi-metric small, .logi-route-row small, .logi-carrier-row small, .logi-exception-row small, .logi-handoff-row small { display: block; color: var(--logi-muted); font-size: .78rem; }
+.logi-grid { display: grid; gap: 1rem; margin-bottom: 1rem; }.logi-grid-primary { grid-template-columns: minmax(0, 1.45fr) minmax(20rem, .8fr); }.logi-grid-secondary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.logi-panel { min-width: 0; padding: 1.3rem; border-radius: 6px; }.logi-panel-head { align-items: flex-start; padding-bottom: 1rem; border-bottom: 1px solid var(--logi-line); }.logi-panel h2 { font-size: 1.05rem; }
+.logi-route-list, .logi-carrier-list, .logi-exception-list, .logi-handoff-list { display: grid; }.logi-route-row, .logi-carrier-row, .logi-exception-row, .logi-handoff-row { min-height: 4.5rem; padding: .75rem 0; border-bottom: 1px solid var(--logi-line); }.logi-route-row:last-child, .logi-carrier-row:last-child, .logi-exception-row:last-child, .logi-handoff-row:last-child { border-bottom: 0; }
+.logi-route-row > div:first-child, .logi-carrier-row > div, .logi-exception-row > div, .logi-handoff-row > div { min-width: 0; flex: 1; }.logi-route-row strong, .logi-carrier-row strong, .logi-exception-row strong, .logi-handoff-row strong { display: block; font-size: .88rem; }.logi-route-eta { min-width: 5.5rem; text-align: right; }.logi-route-eta strong, .logi-carrier-row b { color: var(--logi-teal); font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; }
+.logi-status { white-space: nowrap; color: var(--logi-muted); font-size: .75rem; font-weight: 700; }.logi-status-green { color: var(--logi-green); }.logi-status-amber { color: var(--logi-amber); }.logi-status-red { color: var(--logi-red); }.logi-status-blue { color: var(--logi-blue); }
+.logi-exception-icon { display: grid; flex: 0 0 1.8rem; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; font-weight: 700; }.logi-exception-red { color: var(--logi-red); background: var(--logi-red-soft); }.logi-exception-amber { color: var(--logi-amber); background: var(--logi-amber-soft); }.logi-exception-blue { color: var(--logi-blue); background: var(--logi-blue-soft); }
+.logi-exception-row time, .logi-handoff-row time { color: var(--logi-muted); font-size: .75rem; white-space: nowrap; }
+@media (max-width: 900px) { .logi-metrics { grid-template-columns: repeat(2, 1fr); }.logi-grid-primary, .logi-grid-secondary { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { #view { padding: 1.25rem .9rem 3rem; }.logi-page-head { align-items: flex-start; flex-direction: column; }.logi-head-actions { justify-content: flex-start; }.logi-metrics { gap: .65rem; }.logi-metric { min-height: 7.5rem; padding: 1rem; }.logi-metric strong { font-size: 1.55rem; }.logi-panel { padding: 1rem; }.logi-route-row, .logi-handoff-row { align-items: flex-start; flex-wrap: wrap; }.logi-route-row > div:last-child, .logi-handoff-row > .logi-status { margin-left: 2rem; } }
