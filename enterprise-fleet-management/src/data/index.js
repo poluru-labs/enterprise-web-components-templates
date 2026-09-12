@@ -1,344 +1,191 @@
-export const productName = 'Signal';
-export const productLine = 'KPIs';
-export const workspaceName = 'Clearline Holdings';
+export const productName = 'Orbit';
+export const productLine = 'Fleet';
+export const workspaceName = 'Poluru Yards';
 
 export const currentUser = {
-  name: 'Mira Poluru',
-  email: 'mira.poluru@clearline.example',
-  role: 'Head of performance',
+  name: 'Subbu Poluru',
+  email: 'subbu.poluru@poluruyards.example',
+  role: 'Fleet director',
 };
 
 export const workspace = {
   name: workspaceName,
-  period: 'FY26 Q3 · week 9',
+  period: 'Yard day · 12 Sep 2026',
   timezone: 'America / Chicago',
-  close: 'Books close 4 Sep 2026',
+  yards: 'Austin · Dallas',
 };
 
-export const tickerItems = [
-  { label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' },
-  { label: 'NRR', value: '118%', delta: '+4 pts', trend: 'up', href: '#/scorecards' },
-  { label: 'Margin', value: '71.2%', delta: '+1.2 pts', trend: 'up', href: '#/scorecards' },
-  { label: 'NPS', value: '62', delta: '+5', trend: 'up', href: '#/benchmarks' },
-  { label: 'Pipeline', value: '3.4x', delta: 'On plan', trend: 'flat', href: '#/goals' },
-  { label: 'Uptime', value: '99.97%', delta: 'SLO hold', trend: 'flat', href: '#/alerts' },
+export const people = [
+  { name: 'Subbu Poluru', role: 'Fleet director', squad: 'Yard desk' },
+  { name: 'Subra Poluru', role: 'Shop lead', squad: 'Maintenance' },
+  { name: 'Kavya Poluru', role: 'Dispatcher', squad: 'Control' },
+  { name: 'Maya Poluru', role: 'Driver', squad: 'Austin' },
+  { name: 'Arjun Poluru', role: 'Driver', squad: 'Dallas' },
+  { name: 'Leela Poluru', role: 'Driver', squad: 'Austin' },
+  { name: 'Nikhil Poluru', role: 'Driver', squad: 'Dallas' },
+  { name: 'Rohan Poluru', role: 'Linehaul driver', squad: 'Austin' },
+  { name: 'Priya Poluru', role: 'Fuel clerk', squad: 'Yard desk' },
+  { name: 'Ishaan Poluru', role: 'Inspector', squad: 'Compliance' },
+  { name: 'Asha Poluru', role: 'Driver', squad: 'Austin' },
+  { name: 'Dev Poluru', role: 'Night dispatcher', squad: 'Control' },
+];
+
+export const drivers = [
+  { id: 'drv-kavya', name: 'Kavya Poluru', yard: 'Austin', license: 'CDL-A', status: 'on_route', vehicle: 'ORB-104', hours: 7.4, phone: '512-555-0140' },
+  { id: 'drv-maya', name: 'Maya Poluru', yard: 'Austin', license: 'CDL-B', status: 'on_route', vehicle: 'ORB-509', hours: 6.1, phone: '512-555-0141' },
+  { id: 'drv-arjun', name: 'Arjun Poluru', yard: 'Dallas', license: 'CDL-A', status: 'assigned', vehicle: 'ORB-218', hours: 4.8, phone: '214-555-0188' },
+  { id: 'drv-leela', name: 'Leela Poluru', yard: 'Austin', license: 'CDL-B', status: 'on_route', vehicle: 'ORB-627', hours: 8.0, phone: '512-555-0144' },
+  { id: 'drv-nikhil', name: 'Nikhil Poluru', yard: 'Dallas', license: 'CDL-B', status: 'idle', vehicle: 'ORB-851', hours: 2.2, phone: '214-555-0190' },
+  { id: 'drv-rohan', name: 'Rohan Poluru', yard: 'Austin', license: 'CDL-A', status: 'assigned', vehicle: 'ORB-740', hours: 5.6, phone: '512-555-0148' },
+  { id: 'drv-asha', name: 'Asha Poluru', yard: 'Austin', license: 'Class C', status: 'idle', vehicle: '—', hours: 0, phone: '512-555-0152' },
+  { id: 'drv-dev', name: 'Dev Poluru', yard: 'Dallas', license: 'CDL-A', status: 'off_duty', vehicle: '—', hours: 0, phone: '214-555-0194' },
+];
+
+export let vehicles = [
+  { id: 'orb-104', unit: 'ORB-104', make: 'Ford Transit 350', type: 'Van', yard: 'Austin', status: 'on_route', driver: 'Kavya Poluru', miles: 42180, fuel: 62, nextService: '2026-09-18', vin: '1FTBW3XM4LKA104' },
+  { id: 'orb-218', unit: 'ORB-218', make: 'Freightliner M2', type: 'Box truck', yard: 'Dallas', status: 'assigned', driver: 'Arjun Poluru', miles: 88420, fuel: 71, nextService: '2026-09-22', vin: '3ALACWDT8HDJA218' },
+  { id: 'orb-331', unit: 'ORB-331', make: 'Toyota Highlander', type: 'Pool SUV', yard: 'Austin', status: 'yard', driver: '—', miles: 19640, fuel: 88, nextService: '2026-10-04', vin: '5TDKZRFH5NS331' },
+  { id: 'orb-412', unit: 'ORB-412', make: 'Isuzu NPR', type: 'Box truck', yard: 'Dallas', status: 'in_shop', driver: 'Subra Poluru', miles: 61200, fuel: 24, nextService: '2026-09-12', vin: 'JALC4W165G7412' },
+  { id: 'orb-509', unit: 'ORB-509', make: 'Ford F-150', type: 'Pickup', yard: 'Austin', status: 'on_route', driver: 'Maya Poluru', miles: 33810, fuel: 54, nextService: '2026-09-28', vin: '1FTEW1EP5NFA509' },
+  { id: 'orb-627', unit: 'ORB-627', make: 'Mercedes Sprinter', type: 'Van', yard: 'Austin', status: 'on_route', driver: 'Leela Poluru', miles: 27450, fuel: 47, nextService: '2026-10-01', vin: 'WD3PE8CD5NP627' },
+  { id: 'orb-740', unit: 'ORB-740', make: 'Peterbilt 579', type: 'Tractor', yard: 'Austin', status: 'assigned', driver: 'Rohan Poluru', miles: 142900, fuel: 81, nextService: '2026-09-16', vin: '1XPBD49X0ND740' },
+  { id: 'orb-851', unit: 'ORB-851', make: 'Chevy Express', type: 'Van', yard: 'Dallas', status: 'inspection_due', driver: 'Nikhil Poluru', miles: 50880, fuel: 39, nextService: '2026-09-13', vin: '1GCWGAFG8N1851' },
+];
+
+export const workOrders = [
+  { id: 'wo-441', vehicle: 'ORB-412', title: 'Brake drums and shoes', shop: 'Dallas bay 2', owner: 'Subra Poluru', due: '2026-09-12', status: 'in_shop', hours: 6 },
+  { id: 'wo-438', vehicle: 'ORB-740', title: 'PM-C 15k service', shop: 'Austin bay 1', owner: 'Subra Poluru', due: '2026-09-16', status: 'scheduled', hours: 4 },
+  { id: 'wo-436', vehicle: 'ORB-104', title: 'Cabin A/C recharge', shop: 'Austin bay 3', owner: 'Subra Poluru', due: '2026-09-18', status: 'scheduled', hours: 2 },
+  { id: 'wo-429', vehicle: 'ORB-218', title: 'Lift-gate hydraulics', shop: 'Dallas bay 1', owner: 'Subra Poluru', due: '2026-09-22', status: 'parts_hold', hours: 5 },
+  { id: 'wo-421', vehicle: 'ORB-509', title: 'Tire rotation', shop: 'Austin bay 4', owner: 'Ishaan Poluru', due: '2026-09-28', status: 'scheduled', hours: 1 },
+  { id: 'wo-418', vehicle: 'ORB-331', title: 'Oil and filter', shop: 'Austin bay 2', owner: 'Subra Poluru', due: '2026-10-04', status: 'scheduled', hours: 1 },
+  { id: 'wo-410', vehicle: 'ORB-627', title: 'Sliding-door latch', shop: 'Austin bay 3', owner: 'Subra Poluru', due: '2026-09-09', status: 'complete', hours: 2 },
+  { id: 'wo-404', vehicle: 'ORB-851', title: 'DOT inspection prep', shop: 'Dallas bay 3', owner: 'Ishaan Poluru', due: '2026-09-13', status: 'due', hours: 3 },
+];
+
+export const fuelLogs = [
+  { id: 'fuel-1', vehicle: 'ORB-104', driver: 'Kavya Poluru', gallons: 18.4, cost: 68, mpg: 14.2, yard: 'Austin', when: '12 Sep 06:40' },
+  { id: 'fuel-2', vehicle: 'ORB-509', driver: 'Maya Poluru', gallons: 16.1, cost: 59, mpg: 18.6, yard: 'Austin', when: '12 Sep 07:05' },
+  { id: 'fuel-3', vehicle: 'ORB-627', driver: 'Leela Poluru', gallons: 21.0, cost: 77, mpg: 16.1, yard: 'Austin', when: '12 Sep 07:22' },
+  { id: 'fuel-4', vehicle: 'ORB-740', driver: 'Rohan Poluru', gallons: 62.8, cost: 241, mpg: 6.8, yard: 'Austin', when: '11 Sep 18:10' },
+  { id: 'fuel-5', vehicle: 'ORB-218', driver: 'Arjun Poluru', gallons: 34.2, cost: 128, mpg: 9.4, yard: 'Dallas', when: '11 Sep 19:02' },
+  { id: 'fuel-6', vehicle: 'ORB-851', driver: 'Nikhil Poluru', gallons: 19.6, cost: 71, mpg: 13.0, yard: 'Dallas', when: '11 Sep 20:14' },
+  { id: 'fuel-7', vehicle: 'ORB-412', driver: 'Subra Poluru', gallons: 8.2, cost: 30, mpg: 8.1, yard: 'Dallas', when: '10 Sep 14:40' },
+  { id: 'fuel-8', vehicle: 'ORB-331', driver: 'Asha Poluru', gallons: 12.4, cost: 45, mpg: 22.4, yard: 'Austin', when: '10 Sep 09:18' },
+];
+
+export const fuelTrend = [412, 428, 441, 398, 454, 470, 438, 461, 449, 482, 468, 451];
+
+export const inspections = [
+  { id: 'ins-881', vehicle: 'ORB-851', inspector: 'Ishaan Poluru', type: 'DOT annual', due: '2026-09-13', status: 'due', result: 'Open', notes: 'Lights and brakes before the stamp.' },
+  { id: 'ins-874', vehicle: 'ORB-412', inspector: 'Subra Poluru', type: 'Post-repair', due: '2026-09-12', status: 'in_shop', result: 'Hold', notes: 'Brake drums still on the bench.' },
+  { id: 'ins-868', vehicle: 'ORB-104', inspector: 'Ishaan Poluru', type: 'Pre-trip', due: '2026-09-12', status: 'passed', result: 'Pass', notes: 'Kavya Poluru signed the book.' },
+  { id: 'ins-861', vehicle: 'ORB-509', inspector: 'Ishaan Poluru', type: 'Pre-trip', due: '2026-09-12', status: 'passed', result: 'Pass', notes: 'Maya Poluru, 06:50 Austin.' },
+  { id: 'ins-852', vehicle: 'ORB-627', inspector: 'Kavya Poluru', type: 'Pre-trip', due: '2026-09-12', status: 'passed', result: 'Pass', notes: 'Sliding door noted, still legal.' },
+  { id: 'ins-844', vehicle: 'ORB-740', inspector: 'Ishaan Poluru', type: 'Level 1', due: '2026-09-16', status: 'scheduled', result: 'Open', notes: 'Scale house at 09:00.' },
+  { id: 'ins-830', vehicle: 'ORB-218', inspector: 'Subra Poluru', type: 'Pre-trip', due: '2026-09-11', status: 'passed', result: 'Pass', notes: 'Arjun Poluru, Dallas gate.' },
+  { id: 'ins-821', vehicle: 'ORB-331', inspector: 'Asha Poluru', type: 'Walkaround', due: '2026-09-10', status: 'passed', result: 'Pass', notes: 'Pool car, no defects.' },
+];
+
+export const dispatchStages = [
+  { id: 'yard', label: 'Yard', count: 18, href: '#/vehicles' },
+  { id: 'assigned', label: 'Assigned', count: 12, href: '#/drivers' },
+  { id: 'on_route', label: 'On route', count: 96, href: '#/vehicles' },
+  { id: 'shop', label: 'Shop', count: 8, href: '#/maintenance', hot: true },
 ];
 
 export const navItems = [
   { label: 'Overview', href: '#/overview', icon: 'home' },
-  { label: 'Scorecards', href: '#/scorecards', icon: 'star' },
-  { label: 'Goals', href: '#/goals', icon: 'check' },
-  { label: 'Trends', href: '#/trends', icon: 'file' },
-  { label: 'Teams', href: '#/teams', icon: 'user' },
-  { label: 'Alerts', href: '#/alerts', icon: 'bell' },
-  { label: 'Reviews', href: '#/reviews', icon: 'eye' },
-  { label: 'Benchmarks', href: '#/benchmarks', icon: 'folder' },
-  { label: 'Reports', href: '#/reports', icon: 'download' },
+  { label: 'Vehicles', href: '#/vehicles', icon: 'folder' },
+  { label: 'Maintenance', href: '#/maintenance', icon: 'check' },
+  { label: 'Drivers', href: '#/drivers', icon: 'user' },
+  { label: 'Fuel', href: '#/fuel', icon: 'star' },
+  { label: 'Inspections', href: '#/inspections', icon: 'file' },
   { label: 'Settings', href: '#/settings', icon: 'settings' },
 ];
 
-export const kpis = [
-  { label: 'Revenue', value: '$18.4M', hint: 'Q3 to date vs $17.1M plan', trend: 'up', trendValue: '+7.6%' },
-  { label: 'Net revenue retain', value: '118%', hint: 'Expansion beating churn', trend: 'up', trendValue: '+4 pts' },
-  { label: 'Gross margin', value: '71.2%', hint: 'Target 70%', trend: 'up', trendValue: '+1.2 pts' },
-  { label: 'NPS', value: '62', hint: 'Promoters 71%', trend: 'up', trendValue: '+5' },
-  { label: 'Pipeline coverage', value: '3.4x', hint: 'Next-quarter quota', trend: 'flat', trendValue: 'On plan' },
-  { label: 'Active accounts', value: '1,284', hint: '42 added this month', trend: 'up', trendValue: '+3.4%' },
-  { label: 'Support CSAT', value: '4.7', hint: 'Trailing 30 days', trend: 'up', trendValue: '+0.2' },
-  { label: 'Uptime', value: '99.97%', hint: 'SLO 99.9%', trend: 'flat', trendValue: 'Hold' },
-];
-
-export const revenueTrend = [12.8, 13.1, 13.4, 14.0, 14.6, 15.1, 15.8, 16.4, 16.9, 17.4, 17.9, 18.4];
-
-export const scorecards = [
-  {
-    id: 'sc_finance',
-    name: 'Finance',
-    owner: 'Arjun Poluru',
-    status: 'On track',
-    health: 92,
-    kpis: 8,
-    updated: '29 Aug 2026',
-    focus: 'Margin and cash',
-  },
-  {
-    id: 'sc_growth',
-    name: 'Growth',
-    owner: 'Kavya Poluru',
-    status: 'On track',
-    health: 88,
-    kpis: 10,
-    updated: '28 Aug 2026',
-    focus: 'Pipeline and NRR',
-  },
-  {
-    id: 'sc_product',
-    name: 'Product',
-    owner: 'Nikhil Poluru',
-    status: 'Watch',
-    health: 74,
-    kpis: 7,
-    updated: '28 Aug 2026',
-    focus: 'Adoption of 1.8',
-  },
-  {
-    id: 'sc_people',
-    name: 'People',
-    owner: 'Elena Poluru',
-    status: 'On track',
-    health: 86,
-    kpis: 6,
-    updated: '27 Aug 2026',
-    focus: 'Attrition under 8%',
-  },
-  {
-    id: 'sc_ops',
-    name: 'Operations',
-    owner: 'Rohan Poluru',
-    status: 'At risk',
-    health: 61,
-    kpis: 9,
-    updated: '29 Aug 2026',
-    focus: 'Fulfillment SLA',
-  },
-  {
-    id: 'sc_customer',
-    name: 'Customer',
-    owner: 'Priya Poluru',
-    status: 'On track',
-    health: 90,
-    kpis: 8,
-    updated: '29 Aug 2026',
-    focus: 'NPS and CSAT',
-  },
-  {
-    id: 'sc_technology',
-    name: 'Technology',
-    owner: 'Dev Poluru',
-    status: 'On track',
-    health: 84,
-    kpis: 7,
-    updated: '30 Aug 2026',
-    focus: 'Platform reliability',
-  },
-  {
-    id: 'sc_security',
-    name: 'Security',
-    owner: 'Anika Poluru',
-    status: 'Watch',
-    health: 78,
-    kpis: 5,
-    updated: '30 Aug 2026',
-    focus: 'SOC 2 readiness',
-  },
-];
-
-export const scorecardColumns = [
-  { key: 'name', label: 'Scorecard', sortable: true },
-  { key: 'owner', label: 'Owner', sortable: true },
-  { key: 'status', label: 'Status' },
-  { key: 'health', label: 'Health' },
-  { key: 'kpis', label: 'KPIs' },
-  { key: 'updated', label: 'Updated' },
-];
-
-export const goals = [
-  { id: 'g1', name: 'Close Q3 at $19.2M', owner: 'Arjun Poluru', scorecard: 'Finance', progress: 86, target: '19 Sep', status: 'On track' },
-  { id: 'g2', name: 'Hold NRR above 115%', owner: 'Kavya Poluru', scorecard: 'Growth', progress: 94, target: '30 Sep', status: 'On track' },
-  { id: 'g3', name: 'Ship adoption to 40%', owner: 'Nikhil Poluru', scorecard: 'Product', progress: 58, target: '12 Oct', status: 'Watch' },
-  { id: 'g4', name: 'Attrition under 8%', owner: 'Elena Poluru', scorecard: 'People', progress: 80, target: '31 Dec', status: 'On track' },
-  { id: 'g5', name: 'Fulfillment SLA 98%', owner: 'Rohan Poluru', scorecard: 'Operations', progress: 64, target: '15 Sep', status: 'At risk' },
-  { id: 'g6', name: 'NPS 65 by year end', owner: 'Priya Poluru', scorecard: 'Customer', progress: 78, target: '31 Dec', status: 'On track' },
-  { id: 'g7', name: 'Platform uptime 99.95%', owner: 'Dev Poluru', scorecard: 'Technology', progress: 91, target: '30 Sep', status: 'On track' },
-  { id: 'g8', name: 'Close SOC 2 Type II', owner: 'Anika Poluru', scorecard: 'Security', progress: 72, target: '15 Nov', status: 'Watch' },
-];
-
-export const goalColumns = [
-  { key: 'name', label: 'Goal', sortable: true },
-  { key: 'owner', label: 'Owner' },
-  { key: 'scorecard', label: 'Scorecard' },
-  { key: 'progress', label: 'Progress' },
-  { key: 'target', label: 'Target' },
-  { key: 'status', label: 'Status' },
-];
-
-export const people = [
-  { name: 'Mira Poluru', role: 'Head of performance', squad: 'Office of the CEO', rating: 5, score: 94 },
-  { name: 'Arjun Poluru', role: 'CFO', squad: 'Finance', rating: 5, score: 92 },
-  { name: 'Kavya Poluru', role: 'VP growth', squad: 'Growth', rating: 5, score: 88 },
-  { name: 'Nikhil Poluru', role: 'VP product', squad: 'Product', rating: 4, score: 74 },
-  { name: 'Elena Poluru', role: 'Chief people officer', squad: 'People', rating: 5, score: 86 },
-  { name: 'Rohan Poluru', role: 'COO', squad: 'Operations', rating: 4, score: 61 },
-  { name: 'Priya Poluru', role: 'VP customer', squad: 'Customer', rating: 5, score: 90 },
-  { name: 'Hana Poluru', role: 'Controller', squad: 'Finance', rating: 4, score: 84 },
-  { name: 'Luca Poluru', role: 'RevOps lead', squad: 'Growth', rating: 4, score: 81 },
-  { name: 'Sahana Poluru', role: 'People analytics', squad: 'People', rating: 4, score: 79 },
-  { name: 'Dev Poluru', role: 'VP engineering', squad: 'Technology', rating: 5, score: 84 },
-  { name: 'Anika Poluru', role: 'CISO', squad: 'Security', rating: 4, score: 78 },
-];
-
-export const alerts = [
-  { id: 'a1', title: 'Fulfillment SLA below 96%', owner: 'Rohan Poluru', scorecard: 'Operations', severity: 'Red', since: '27 Aug', note: 'Two regional hubs missed same-day cut-off.' },
-  { id: 'a2', title: '1.8 adoption stalled at 23%', owner: 'Nikhil Poluru', scorecard: 'Product', severity: 'Amber', since: '24 Aug', note: 'Onboarding tour is shipping in 1.8.1.' },
-  { id: 'a3', title: 'Cash conversion 41 days', owner: 'Hana Poluru', scorecard: 'Finance', severity: 'Amber', since: '22 Aug', note: 'Still inside the 45-day band.' },
-  { id: 'a4', title: 'NPS promoters dipped in EMEA', owner: 'Priya Poluru', scorecard: 'Customer', severity: 'Green', since: '20 Aug', note: 'Recovered after the billing copy fix.' },
-  { id: 'a5', title: 'SOC 2 evidence gap on access reviews', owner: 'Anika Poluru', scorecard: 'Security', severity: 'Amber', since: '30 Aug', note: 'Quarterly attestation due 6 Sep.' },
-  { id: 'a6', title: 'Platform error budget at 72%', owner: 'Dev Poluru', scorecard: 'Technology', severity: 'Green', since: '29 Aug', note: 'Within the 80% burn threshold for September.' },
-];
-
-export const reviews = [
-  { label: 'Weekly ops review', description: 'Rohan Poluru · Mondays 09:00', timestamp: '25 Aug', icon: 'clock', status: 'Done' },
-  { label: 'Growth forecast lock', description: 'Kavya Poluru · pipeline 3.4x', timestamp: '26 Aug', icon: 'star', status: 'Done' },
-  { label: 'Product 1.8 readout', description: 'Nikhil Poluru · adoption 23%', timestamp: '27 Aug', icon: 'file', status: 'Done' },
-  { label: 'Board pack freeze', description: 'Mira Poluru · Thursday 16:00', timestamp: '28 Aug', icon: 'check', status: 'Done' },
-  { label: 'Customer voice hour', description: 'Priya Poluru · NPS 62', timestamp: '29 Aug', icon: 'user', status: 'Done' },
-  { label: 'Q3 close read-through', description: 'Mira Poluru · books close 4 Sep', timestamp: '1 Sep', icon: 'folder', status: 'Today' },
-];
-
-export const benchmarks = [
-  { metric: 'NRR', us: '118%', peer: '112%', gap: '+6 pts', status: 'Ahead' },
-  { metric: 'Gross margin', us: '71.2%', peer: '68.0%', gap: '+3.2 pts', status: 'Ahead' },
-  { metric: 'NPS', us: '62', peer: '58', gap: '+4', status: 'Ahead' },
-  { metric: 'Fulfillment SLA', us: '95.4%', peer: '98.1%', gap: '−2.7 pts', status: 'Behind' },
-  { metric: 'Support CSAT', us: '4.7', peer: '4.5', gap: '+0.2', status: 'Ahead' },
-  { metric: 'Voluntary attrition', us: '7.4%', peer: '9.1%', gap: '−1.7 pts', status: 'Ahead' },
-  { metric: 'Platform uptime', us: '99.97%', peer: '99.92%', gap: '+0.05 pts', status: 'Ahead' },
-  { metric: 'Security incidents', us: '0', peer: '1.2', gap: '−1.2', status: 'Ahead' },
-];
-
-export const benchmarkColumns = [
-  { key: 'metric', label: 'Metric', sortable: true },
-  { key: 'us', label: 'Clearline' },
-  { key: 'peer', label: 'Peer median' },
-  { key: 'gap', label: 'Gap' },
-  { key: 'status', label: 'Status' },
-];
-
-export const reports = [
-  { name: 'Q3 board pack', owner: 'Mira Poluru', updated: '28 Aug 2026', format: 'PDF' },
-  { name: 'Scorecard export', owner: 'Sahana Poluru', updated: '29 Aug 2026', format: 'CSV' },
-  { name: 'Goal progress', owner: 'Arjun Poluru', updated: '27 Aug 2026', format: 'XLSX' },
-  { name: 'Peer benchmarks', owner: 'Luca Poluru', updated: '26 Aug 2026', format: 'PDF' },
-  { name: 'Technology reliability pack', owner: 'Dev Poluru', updated: '30 Aug 2026', format: 'PDF' },
-  { name: 'Security control attestation', owner: 'Anika Poluru', updated: '30 Aug 2026', format: 'XLSX' },
-];
-
 export const inboxItems = [
-  { label: 'Fulfillment SLA is red', description: 'Rohan Poluru · Operations', icon: 'alert-triangle' },
-  { label: 'Board pack due Thursday', description: 'Mira Poluru · 16:00', icon: 'clock' },
-  { label: 'NPS recovered in EMEA', description: 'Priya Poluru · Customer', icon: 'check' },
-  { label: 'SOC 2 evidence due 6 Sep', description: 'Anika Poluru · Security', icon: 'folder' },
+  { label: 'ORB-412 still in Dallas shop', description: 'Subra Poluru · brake drums', icon: 'alert-triangle', href: '#/vehicle/orb-412' },
+  { label: 'ORB-851 DOT due tomorrow', description: 'Ishaan Poluru · annual', icon: 'clock', href: '#/inspections' },
+  { label: 'Fuel exception on ORB-740', description: 'Priya Poluru · 62.8 gal', icon: 'star', href: '#/fuel' },
+  { label: 'Asha Poluru is unassigned', description: 'Austin pool · Class C', icon: 'user', href: '#/drivers' },
 ];
 
 export const commandItems = [
-  { label: 'Overview', description: 'Company pulse', href: '#/overview', icon: 'home' },
-  { label: 'Finance scorecard', description: 'Arjun Poluru', href: '#/scorecard/sc_finance', icon: 'star' },
-  { label: 'Goals', description: 'Company OKRs', href: '#/goals', icon: 'check' },
-  { label: 'Alerts', description: 'Thresholds', href: '#/alerts', icon: 'bell' },
-  { label: 'Teams', description: 'Owners', href: '#/teams', icon: 'user' },
-  { label: 'Technology scorecard', description: 'Dev Poluru', href: '#/scorecard/sc_technology', icon: 'star' },
-  { label: 'Security scorecard', description: 'Anika Poluru', href: '#/scorecard/sc_security', icon: 'star' },
-  { label: 'Settings', description: 'Workspace', href: '#/settings', icon: 'settings' },
+  { label: 'Overview', description: 'Yard pulse', href: '#/overview', icon: 'home' },
+  { label: 'Assign vehicle', description: 'Put a driver on a unit', href: '#assign-vehicle', icon: 'plus' },
+  { label: 'Vehicles', description: 'Units and yards', href: '#/vehicles', icon: 'folder' },
+  { label: 'Maintenance', description: 'Subra Poluru’s board', href: '#/maintenance', icon: 'check' },
+  { label: 'Drivers', description: 'Assignments and hours', href: '#/drivers', icon: 'user' },
+  { label: 'Fuel', description: 'Gallons and MPG', href: '#/fuel', icon: 'star' },
+  { label: 'Inspections', description: 'DOT and pre-trip', href: '#/inspections', icon: 'file' },
+  { label: 'Settings', description: 'Yard defaults', href: '#/settings', icon: 'settings' },
 ];
 
-export const createSteps = [
-  { label: 'Metric', description: 'Name and owner' },
-  { label: 'Target', description: 'Thresholds' },
-  { label: 'Confirm', description: 'Staff PIN' },
+export const typeOptions = [
+  { label: 'Van', value: 'Van' },
+  { label: 'Box truck', value: 'Box truck' },
+  { label: 'Pickup', value: 'Pickup' },
+  { label: 'Tractor', value: 'Tractor' },
+  { label: 'Pool SUV', value: 'Pool SUV' },
 ];
 
-export const scorecardTree = [
-  {
-    id: 'company',
-    label: 'Clearline',
-    children: [
-      { id: 'finance', label: 'Finance', href: '#/scorecard/sc_finance' },
-      { id: 'growth', label: 'Growth', href: '#/scorecard/sc_growth' },
-      { id: 'product', label: 'Product', href: '#/scorecard/sc_product' },
-    ],
-  },
-  {
-    id: 'run',
-    label: 'Run the firm',
-    children: [
-      { id: 'people', label: 'People', href: '#/scorecard/sc_people' },
-      { id: 'ops', label: 'Operations', href: '#/scorecard/sc_ops' },
-      { id: 'customer', label: 'Customer', href: '#/scorecard/sc_customer' },
-    ],
-  },
-  {
-    id: 'platform',
-    label: 'Platform',
-    children: [
-      { id: 'technology', label: 'Technology', href: '#/scorecard/sc_technology' },
-      { id: 'security', label: 'Security', href: '#/scorecard/sc_security' },
-    ],
-  },
-];
+export function overviewStats() {
+  const inShop = vehicles.filter((item) => item.status === 'in_shop').length;
+  const onRoute = vehicles.filter((item) => item.status === 'on_route').length;
+  const dueInspect = inspections.filter((item) => item.status === 'due' || item.status === 'in_shop').length;
+  return [
+    { label: 'Units on the book', value: String(vehicles.length), hint: 'Austin and Dallas yards', trend: 'flat', trendValue: 'Demo set' },
+    { label: 'On route', value: String(onRoute), hint: 'Live assignments this morning', trend: 'up', trendValue: '+3' },
+    { label: 'In shop', value: String(inShop), hint: 'Subra Poluru’s bays', trend: 'down', trendValue: '1 hold' },
+    { label: 'Inspections due', value: String(dueInspect), hint: 'Ishaan Poluru’s queue', trend: 'flat', trendValue: 'Today' },
+  ];
+}
 
-export const metricRows = [
-  { metric: 'Revenue', actual: '$18.4M', target: '$17.1M', variance: '+7.6%', status: 'On track' },
-  { metric: 'Gross margin', actual: '71.2%', target: '70.0%', variance: '+1.2 pts', status: 'On track' },
-  { metric: 'Cash conversion', actual: '41d', target: '45d', variance: '−4d', status: 'Watch' },
-  { metric: 'OpEx ratio', actual: '38%', target: '40%', variance: '−2 pts', status: 'On track' },
-];
-
-export const metricColumns = [
-  { key: 'metric', label: 'Metric', sortable: true },
-  { key: 'actual', label: 'Actual' },
-  { key: 'target', label: 'Target' },
-  { key: 'variance', label: 'Variance' },
-  { key: 'status', label: 'Status' },
-];
-
-export const apiSnippet = `GET /v1/scorecards/sc_finance
-Authorization: Bearer sig_live_****
-
-{
-  "id": "sc_finance",
-  "name": "Finance",
-  "health": 92,
-  "owner": "Arjun Poluru"
-}`;
+export function addAssignment({ vehicle, driver, yard }) {
+  const unit = vehicles.find((item) => item.unit === vehicle || item.id === vehicle);
+  if (unit) {
+    unit.driver = driver;
+    unit.status = 'assigned';
+    if (yard) unit.yard = yard;
+  }
+  return unit || vehicles[0];
+}
 
 export function buildSearchCatalog() {
-  const scorecardHits = scorecards.map((item) => ({
-    label: item.name,
-    description: `${item.focus} · ${item.owner}`,
-    owner: item.owner,
-    type: 'Scorecard',
-    href: `#/scorecard/${item.id}`,
+  const vehicleHits = vehicles.map((item) => ({
+    label: item.unit,
+    description: `${item.make} · ${item.driver} · ${item.yard}`,
+    owner: item.driver,
+    type: 'Vehicle',
+    href: `#/vehicle/${item.id}`,
   }));
-  const goalHits = goals.map((item) => ({
-    label: item.name,
-    description: `${item.scorecard} · ${item.status}`,
-    owner: item.owner,
-    type: 'Goal',
-    href: '#/goals',
-  }));
-  const alertHits = alerts.map((item) => ({
+  const workHits = workOrders.map((item) => ({
     label: item.title,
-    description: `${item.scorecard} · ${item.severity}`,
+    description: `${item.vehicle} · ${item.status}`,
     owner: item.owner,
-    type: 'Alert',
-    href: '#/alerts',
+    type: 'Work order',
+    href: '#/maintenance',
   }));
-  const reportHits = reports.map((item) => ({
+  const driverHits = drivers.map((item) => ({
     label: item.name,
-    description: `${item.format} · ${item.updated}`,
-    owner: item.owner,
-    type: 'Report',
-    href: '#/reports',
-  }));
-  const peopleHits = people.map((item) => ({
-    label: item.name,
-    description: `${item.role} · ${item.squad}`,
+    description: `${item.license} · ${item.yard}`,
     owner: item.name,
-    type: 'Person',
-    href: '#/teams',
+    type: 'Driver',
+    href: '#/drivers',
   }));
-  return [...scorecardHits, ...goalHits, ...alertHits, ...reportHits, ...peopleHits, ...commandItems.map((item) => ({
-    ...item,
-    type: 'Jump',
-  }))];
+  const inspectHits = inspections.map((item) => ({
+    label: `${item.type} · ${item.vehicle}`,
+    description: `${item.inspector} · ${item.status}`,
+    owner: item.inspector,
+    type: 'Inspection',
+    href: '#/inspections',
+  }));
+  return [
+    ...vehicleHits,
+    ...workHits,
+    ...driverHits,
+    ...inspectHits,
+    ...commandItems.map((item) => ({ ...item, type: 'Jump' })),
+  ];
 }

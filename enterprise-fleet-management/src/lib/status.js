@@ -1,21 +1,20 @@
 export const STATUS_TONE = {
-  active: 'brand',
-  on_track: 'success',
-  ahead: 'success',
-  green: 'success',
-  approved: 'success',
-  healthy: 'success',
-  ok: 'success',
+  on_route: 'success',
+  assigned: 'info',
+  passed: 'success',
+  complete: 'success',
+  yard: 'neutral',
+  idle: 'neutral',
+  off_duty: 'neutral',
+  scheduled: 'info',
+  in_shop: 'warning',
+  parts_hold: 'warning',
+  due: 'warning',
+  inspection_due: 'warning',
   watch: 'warning',
-  amber: 'warning',
-  pending: 'warning',
-  behind: 'danger',
-  at_risk: 'danger',
-  red: 'danger',
-  denied: 'danger',
-  closed: 'neutral',
-  draft: 'neutral',
-  inactive: 'neutral',
+  failed: 'danger',
+  overdue: 'danger',
+  hold: 'danger',
 };
 
 export function statusTone(status) {
@@ -49,5 +48,5 @@ export function slaTone(status) {
 
 export function badgeVariant(status) {
   const tone = statusTone(status);
-  return tone === 'brand' ? 'brand' : tone;
+  return tone === 'brand' ? 'info' : tone;
 }

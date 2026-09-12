@@ -1,42 +1,33 @@
 import { renderOverview, hydrateOverview } from './overview.js';
-import { renderScorecards, hydrateScorecards } from './scorecards.js';
-import { renderScorecard, hydrateScorecard } from './scorecard.js';
-import { renderGoals, hydrateGoals } from './goals.js';
-import { renderTrends, hydrateTrends } from './trends.js';
-import { renderTeams, hydrateTeams } from './teams.js';
-import { renderAlerts, hydrateAlerts } from './alerts.js';
-import { renderReviews, hydrateReviews } from './reviews.js';
-import { renderBenchmarks, hydrateBenchmarks } from './benchmarks.js';
-import { renderReports, hydrateReports } from './reports.js';
+import { renderVehicles, hydrateVehicles } from './vehicles.js';
+import { renderVehicle, hydrateVehicle } from './vehicle.js';
+import { renderMaintenance, hydrateMaintenance } from './maintenance.js';
+import { renderDrivers, hydrateDrivers } from './drivers.js';
+import { renderFuel, hydrateFuel } from './fuel.js';
+import { renderInspections, hydrateInspections } from './inspections.js';
 import { renderSettings, hydrateSettings } from './settings.js';
 import { renderSearch, hydrateSearch } from './search.js';
 
 const views = {
   overview: renderOverview,
-  scorecards: renderScorecards,
-  scorecard: renderScorecard,
-  goals: renderGoals,
-  trends: renderTrends,
-  teams: renderTeams,
-  alerts: renderAlerts,
-  reviews: renderReviews,
-  benchmarks: renderBenchmarks,
-  reports: renderReports,
+  vehicles: renderVehicles,
+  vehicle: renderVehicle,
+  maintenance: renderMaintenance,
+  drivers: renderDrivers,
+  fuel: renderFuel,
+  inspections: renderInspections,
   settings: renderSettings,
   search: renderSearch,
 };
 
 const hydrators = {
   overview: hydrateOverview,
-  scorecards: hydrateScorecards,
-  scorecard: hydrateScorecard,
-  goals: hydrateGoals,
-  trends: hydrateTrends,
-  teams: hydrateTeams,
-  alerts: hydrateAlerts,
-  reviews: hydrateReviews,
-  benchmarks: hydrateBenchmarks,
-  reports: hydrateReports,
+  vehicles: hydrateVehicles,
+  vehicle: hydrateVehicle,
+  maintenance: hydrateMaintenance,
+  drivers: hydrateDrivers,
+  fuel: hydrateFuel,
+  inspections: hydrateInspections,
   settings: hydrateSettings,
   search: hydrateSearch,
 };

@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Signal">
-  <rect width="32" height="32" rx="8" fill="#DD0303"/>
-  <path d="M8 21.2V10.8h2.2v10.4H8zm4.6 0v-7.2H15v7.2h-2.4zm4.6 0V8.6h2.4v12.6h-2.4zm4.6 0v-4.8H24v4.8h-2.2z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Orbit Fleet">
+  <rect width="32" height="32" rx="8" fill="#541212"/>
+  <circle cx="16" cy="16" r="8.2" fill="none" stroke="#fff" stroke-width="2"/>
+  <circle cx="16" cy="16" r="3.2" fill="#F3D2D2"/>
+  <path d="M16 6.6v3.2M16 22.2v3.2M6.6 16h3.2M22.2 16h3.2" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
 </svg>

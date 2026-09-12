@@ -1,7 +1,7 @@
 {
-  "name": "enterprise-kpi-dashboard",
+  "name": "enterprise-fleet-management",
   "version": "1.0.0",
-  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
+  "description": "Orbit Fleet — vehicles, maintenance, driver assignments, fuel, and inspections. Light theme, brand #541212, full-width until the sidebar is toggled.",
   "type": "module",
   "license": "MIT",
   "scripts": {

@@ -1,0 +1,104 @@
+:root {
+  --orbit-brand: #541212;
+  --orbit-brand-deep: #3a0c0c;
+  --orbit-brand-light: #8b3a3a;
+  --orbit-canvas: #f7efef;
+  --orbit-ink: #1f1212;
+  --orbit-mute: #6e5555;
+  --orbit-paper: #faf6f6;
+  --orbit-sheet: #ffffff;
+  --orbit-rule: #e4d0d0;
+  --orbit-soft: #f3e8e8;
+  --orbit-sidebar: 14.5rem;
+  --orbit-header: 5.75rem;
+
+  --eds-color-brand-900: #2c0808;
+  --eds-color-brand-800: #3a0c0c;
+  --eds-color-brand-700: #541212;
+  --eds-color-brand-600: #6b1a1a;
+  --eds-color-brand-500: #8b3a3a;
+  --eds-color-brand-400: #a85a5a;
+  --eds-color-brand-300: #c48a8a;
+  --eds-color-brand-200: #e4d0d0;
+  --eds-color-brand-100: #f3e8e8;
+  --eds-color-brand-50: #f7efef;
+  --eds-color-bg: var(--orbit-paper);
+  --eds-color-surface: var(--orbit-sheet);
+  --eds-color-focus: var(--orbit-brand);
+  --eds-color-primary: var(--orbit-brand);
+  --eds-color-primary-hover: var(--orbit-brand-deep);
+  --eds-color-primary-active: #2c0808;
+  --eds-shadow-focus: 0 0 0 3px rgb(84 18 18 / 0.28);
+  --eds-font-sans: Inter, 'Segoe UI', sans-serif;
+  --eds-font-display: Poppins, Inter, sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--orbit-ink);
+  background: var(--orbit-paper);
+  font-family: Inter, sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--orbit-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--orbit-mute);
+}
+
+.kicker {
+  color: var(--orbit-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--orbit-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--orbit-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--orbit-mute);
+}

@@ -1,12 +1,12 @@
 # Download Free Enterprise Web Components Templates
 
-Thirteen standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
+Fourteen standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
 
 Every template is an independent Vite application with its own `package.json`, mock data, routes, tests, and build output. Layout chrome uses vanilla custom elements in an Open WC-style structure. Forms, tables, drawers, and toasts use `eds-*` design-system tags.
 
 ## At a glance
 
-- 13 focused enterprise workflows, from executive KPIs to security operations
+- 14 focused enterprise workflows, from executive KPIs to fleet yards
 - Vanilla custom elements for reusable application chrome
 - Hash-based routing with a built-in search view
 - Responsive Bootstrap grids with shared design-system controls
@@ -30,8 +30,9 @@ Every template is an independent Vite application with its own `package.json`, m
 | Atlas | Purchase requests, approvals, suppliers, contracts, spend | Orange PO pipeline + budget chip | 5184 | [enterprise-procurement-portal](enterprise-procurement-portal/) |
 | Aegis | Policies, controls, audit readiness, and tasks | Copper framework meters + next-audit chip | 5185 | [enterprise-compliance-dashboard](enterprise-compliance-dashboard/) |
 | Sentinel | Alerts, incidents, vulnerabilities, investigations, and response | Magenta queue strip + MTTA chip | 5186 | [enterprise-security-operations](enterprise-security-operations/) |
+| Orbit | Vehicles, maintenance, drivers, fuel, and inspections | Burgundy dispatch board + fuel chip | 5187 | [enterprise-fleet-management](enterprise-fleet-management/) |
 
-Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, tenancy bar, purchase pipeline, framework readiness meters, or security queue strip.
+Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, tenancy bar, purchase pipeline, framework readiness meters, security queue strip, or dispatch board.
 
 ## Folder structure
 
