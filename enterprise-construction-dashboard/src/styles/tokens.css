@@ -1,0 +1,104 @@
+:root {
+  --ks-brand: #347433;
+  --ks-brand-deep: #245024;
+  --ks-brand-light: #4c9a4c;
+  --ks-canvas: #eaf4ea;
+  --ks-ink: #142014;
+  --ks-mute: #5a6e5a;
+  --ks-paper: #f6faf6;
+  --ks-sheet: #ffffff;
+  --ks-rule: #c9dcc9;
+  --ks-soft: #e8f3e8;
+  --ks-sidebar: 14.5rem;
+  --ks-header: 5.75rem;
+
+  --eds-color-brand-900: #173517;
+  --eds-color-brand-800: #245024;
+  --eds-color-brand-700: #347433;
+  --eds-color-brand-600: #3f8a3f;
+  --eds-color-brand-500: #4c9a4c;
+  --eds-color-brand-400: #73b573;
+  --eds-color-brand-300: #9dce9d;
+  --eds-color-brand-200: #c9dcc9;
+  --eds-color-brand-100: #e8f3e8;
+  --eds-color-brand-50: #eaf4ea;
+  --eds-color-bg: var(--ks-paper);
+  --eds-color-surface: var(--ks-sheet);
+  --eds-color-focus: var(--ks-brand);
+  --eds-color-primary: var(--ks-brand);
+  --eds-color-primary-hover: var(--ks-brand-deep);
+  --eds-color-primary-active: #173517;
+  --eds-shadow-focus: 0 0 0 3px rgb(52 116 51 / 0.28);
+  --eds-font-sans: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --eds-font-display: Outfit, 'Source Sans 3', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ks-ink);
+  background: var(--ks-paper);
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--ks-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--ks-mute);
+}
+
+.kicker {
+  color: var(--ks-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--ks-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ks-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--ks-mute);
+}

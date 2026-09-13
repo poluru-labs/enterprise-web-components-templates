@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Signal">
-  <rect width="32" height="32" rx="8" fill="#DD0303"/>
-  <path d="M8 21.2V10.8h2.2v10.4H8zm4.6 0v-7.2H15v7.2h-2.4zm4.6 0V8.6h2.4v12.6h-2.4zm4.6 0v-4.8H24v4.8h-2.2z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Keystone">
+  <rect width="32" height="32" rx="8" fill="#347433"/>
+  <path d="M16 7.2l5.4 4.2v9.2L16 24.8l-5.4-4.2V11.4z" fill="none" stroke="#fff" stroke-width="1.8"/>
+  <path d="M13.2 11.6h5.6L16 15.8z" fill="#D7F0D7"/>
 </svg>

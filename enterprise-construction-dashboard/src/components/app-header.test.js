@@ -1,44 +1,35 @@
 import { describe, expect, it, beforeEach } from 'vitest';
 import './app-header.js';
 
-describe('signal-header', () => {
+describe('keystone-header', () => {
   beforeEach(() => {
     document.body.innerHTML = '';
   });
 
   it('registers the custom element', () => {
-    expect(customElements.get('signal-header')).toBeDefined();
+    expect(customElements.get('keystone-header')).toBeDefined();
   });
 
-  it('renders a live scoreboard with KPI cells', () => {
-    const header = document.createElement('signal-header');
-    header.setAttribute('product', 'Signal');
-    header.setAttribute('workspace', 'Clearline Holdings');
-    document.body.appendChild(header);
-    header.tickerItems = [
-      { label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' },
-      { label: 'NRR', value: '118%', delta: '+4 pts', trend: 'up', href: '#/scorecards' },
+  it('renders the build-stage header with stages and budget chip', () => {
+    const header = document.createElement('keystone-header');
+    header.setAttribute('product', 'Keystone');
+    header.setAttribute('workspace', 'Poluru Builds');
+    header.setAttribute('budget-label', '$92.1M left');
+    header.buildStages = [
+      { id: 'mobilize', label: 'Mobilize', count: 2, href: '#/sites' },
+      { id: 'structure', label: 'Structure', count: 3, href: '#/schedule', hot: true },
     ];
-
-    const shadow = header.shadowRoot?.textContent ?? '';
-    expect(shadow).toContain('Signal');
-    expect(shadow).toContain('Clearline Holdings');
-    expect(shadow).toContain('Revenue');
-    expect(shadow).toContain('$18.4M');
-    expect(shadow).toContain('+7.6%');
-    expect(shadow).toContain('NRR');
-    expect(header.shadowRoot?.querySelector('.scoreboard')).toBeTruthy();
-    expect(header.shadowRoot?.querySelector('.live-led')).toBeTruthy();
-    expect(header.shadowRoot?.querySelectorAll('.kpi-cell').length).toBe(2);
-    expect(header.shadowRoot?.querySelector('.brand-mark svg')).toBeTruthy();
-  });
-
-  it('routes a KPI cell to its scorecard href', () => {
-    const header = document.createElement('signal-header');
     document.body.appendChild(header);
-    header.tickerItems = [{ label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' }];
 
-    header.shadowRoot.querySelector('.kpi-cell').click();
-    expect(window.location.hash).toBe('#/trends');
+    const root = header.shadowRoot;
+    expect(root?.textContent).toContain('Keystone');
+    expect(root?.textContent).toContain('Poluru Builds');
+    expect(root?.textContent).toContain('Mobilize');
+    expect(root?.textContent).toContain('Structure');
+    expect(root?.textContent).toContain('$92.1M left');
+    expect(root?.querySelector('.build-strip')).toBeTruthy();
+    expect(root?.querySelector('.budget-chip')).toBeTruthy();
+    expect(root?.querySelector('.dispatch-strip')).toBeFalsy();
+    expect(root?.querySelector('.pipeline-strip')).toBeFalsy();
   });
 });

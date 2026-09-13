@@ -2,23 +2,20 @@ import headerCss from '../styles/header.css?inline';
 
 function brandMark() {
   return `
-    <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
-      <rect width="32" height="32" rx="8" fill="#DD0303"></rect>
-      <rect x="6.5" y="17" width="3.2" height="8" rx="1.2" fill="#fff"></rect>
-      <rect x="11.8" y="11" width="3.2" height="14" rx="1.2" fill="#fff"></rect>
-      <rect x="17.1" y="7" width="3.2" height="18" rx="1.2" fill="#fff"></rect>
-      <rect x="22.4" y="13.5" width="3.2" height="11.5" rx="1.2" fill="#fff"></rect>
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+      <rect width="32" height="32" rx="9" fill="#347433"></rect>
+      <path d="M16 7.4l5.2 4v9.2L16 24.6l-5.2-4V11.4z" fill="none" stroke="#fff" stroke-width="1.8"></path>
+      <path d="M13.4 11.8h5.2L16 15.6z" fill="#D7F0D7"></path>
     </svg>
   `;
 }
 
-export class SignalHeader extends HTMLElement {
+export class KeystoneHeader extends HTMLElement {
   static get observedAttributes() {
-    return ['product', 'workspace', 'period', 'inbox-count'];
+    return ['product', 'workspace', 'inbox-count', 'budget-label'];
   }
 
-  #ticker = null;
-  #bound = false;
+  #stages = [];
 
   constructor() {
     super();
@@ -27,13 +24,10 @@ export class SignalHeader extends HTMLElement {
 
   connectedCallback() {
     this.render();
-    if (!this.#bound) {
-      this.#bound = true;
-      this.shadowRoot.addEventListener('click', (event) => {
-        const cell = event.target.closest('.kpi-cell');
-        if (cell?.dataset.href) window.location.hash = cell.dataset.href;
-      });
-    }
+    this.shadowRoot.addEventListener('click', (event) => {
+      const cell = event.target.closest('.stage-cell');
+      if (cell?.dataset.href) window.location.hash = cell.dataset.href;
+    });
   }
 
   attributeChangedCallback() {
@@ -41,91 +35,90 @@ export class SignalHeader extends HTMLElement {
   }
 
   get product() {
-    return this.getAttribute('product') || 'Signal';
+    return this.getAttribute('product') || 'Keystone';
   }
 
   get workspace() {
-    return this.getAttribute('workspace') || 'Clearline Holdings';
-  }
-
-  get period() {
-    return this.getAttribute('period') || 'FY26 Q3 · week 9';
+    return this.getAttribute('workspace') || 'Poluru Builds';
   }
 
   get inboxCount() {
-    return this.getAttribute('inbox-count') || '3';
+    return this.getAttribute('inbox-count') || '4';
   }
 
-  set tickerItems(value) {
-    this.#ticker = value;
+  get budgetLabel() {
+    return this.getAttribute('budget-label') || '$92.1M left';
+  }
+
+  set buildStages(value) {
+    this.#stages = Array.isArray(value) ? value : [];
     if (this.isConnected) this.render();
   }
 
-  get tickerItems() {
-    return this.#ticker;
-  }
-
-  renderBoard(items) {
-    return items
-      .map(
-        (item) => `
-          <button class="kpi-cell" type="button" data-href="${item.href || '#/trends'}" title="${item.label}">
-            <small>${item.label}</small>
-            <strong>${item.value}</strong>
-            <span class="kpi-delta ${item.trend || 'flat'}">${item.delta || ''}</span>
-          </button>`,
-      )
-      .join('');
+  get buildStages() {
+    return this.#stages;
   }
 
   render() {
-    const items = this.#ticker?.length
-      ? this.#ticker
+    const stages = this.#stages.length
+      ? this.#stages
       : [
-          { label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' },
+          { id: 'mobilize', label: 'Mobilize', count: 2, href: '#/sites' },
+          { id: 'structure', label: 'Structure', count: 3, href: '#/schedule', hot: true },
+          { id: 'fit_out', label: 'Fit-out', count: 2, href: '#/sites' },
+          { id: 'punch', label: 'Punch', count: 1, href: '#/sites' },
         ];
 
     this.shadowRoot.innerHTML = `
       <style>${headerCss}</style>
-      <div class="board-shell">
-        <div class="live-led" aria-hidden="true"></div>
-        <div class="command-bar">
-          <div class="command-start">
+      <div class="header-shell">
+        <div class="header-bar">
+          <div class="header-start">
             <slot name="nav-toggle"></slot>
             <a class="header-brand" href="#/overview" part="brand">
               <span class="brand-mark">${brandMark()}</span>
               <span class="brand-copy">
                 <strong>${this.product}</strong>
-                <small>${this.workspace} · ${this.period}</small>
+                <small>${this.workspace}</small>
               </span>
             </a>
             <slot name="crumbs"></slot>
           </div>
-          <div class="command-search">
+          <div class="header-search">
             <slot name="search"></slot>
           </div>
-          <div class="command-end">
+          <div class="header-end">
             <span class="search-hint"><slot name="kbd"></slot></span>
+            <slot name="add"></slot>
             <div class="inbox-wrap">
               <slot name="inbox"></slot>
               <span class="inbox-count" aria-label="${this.inboxCount} unread">${this.inboxCount}</span>
             </div>
-            <slot name="alert"></slot>
             <slot name="profile"></slot>
           </div>
         </div>
-        <div class="scoreboard" aria-label="Live KPI scoreboard">
-          <div class="live-chip">
-            <span><span class="live-dot" aria-hidden="true"></span> Live</span>
-            ${this.period}
+        <div class="build-strip" aria-label="Build stages">
+          ${stages
+            .map(
+              (stage) => `
+            <button class="stage-cell${stage.hot ? ' is-hot' : ''}" type="button" data-href="${stage.href}">
+              <span>
+                <small>${stage.label}</small>
+                <strong>${stage.count}</strong>
+              </span>
+            </button>`,
+            )
+            .join('')}
+          <div class="budget-chip">
+            <small>Budget left</small>
+            <strong>${this.budgetLabel}</strong>
           </div>
-          ${this.renderBoard(items)}
         </div>
       </div>
     `;
   }
 }
 
-if (!customElements.get('signal-header')) {
-  customElements.define('signal-header', SignalHeader);
+if (!customElements.get('keystone-header')) {
+  customElements.define('keystone-header', KeystoneHeader);
 }
