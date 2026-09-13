@@ -2,8 +2,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   base: './',
-  server: { port: 5178, host: true },
-  preview: { port: 4178, host: true },
+  server: { port: 5189, host: true },
+  preview: { port: 4189, host: true },
   build: { sourcemap: true, target: 'es2022' },
   test: {
     environment: 'jsdom',

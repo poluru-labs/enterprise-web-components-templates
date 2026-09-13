@@ -1,7 +1,7 @@
 {
-  "name": "enterprise-kpi-dashboard",
+  "name": "enterprise-real-estate-portal",
   "version": "1.0.0",
-  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
+  "description": "Haven Real Estate — properties, leases, occupancy, maintenance requests, and portfolio performance. Light theme, brand #64E2B7, full-width until the sidebar is toggled.",
   "type": "module",
   "license": "MIT",
   "scripts": {

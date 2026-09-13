@@ -1,42 +1,33 @@
 import { renderOverview, hydrateOverview } from './overview.js';
-import { renderScorecards, hydrateScorecards } from './scorecards.js';
-import { renderScorecard, hydrateScorecard } from './scorecard.js';
-import { renderGoals, hydrateGoals } from './goals.js';
-import { renderTrends, hydrateTrends } from './trends.js';
-import { renderTeams, hydrateTeams } from './teams.js';
-import { renderAlerts, hydrateAlerts } from './alerts.js';
-import { renderReviews, hydrateReviews } from './reviews.js';
-import { renderBenchmarks, hydrateBenchmarks } from './benchmarks.js';
-import { renderReports, hydrateReports } from './reports.js';
+import { renderProperties, hydrateProperties } from './properties.js';
+import { renderProperty, hydrateProperty } from './property.js';
+import { renderLeases, hydrateLeases } from './leases.js';
+import { renderOccupancy, hydrateOccupancy } from './occupancy.js';
+import { renderMaintenance, hydrateMaintenance } from './maintenance.js';
+import { renderPerformance, hydratePerformance } from './performance.js';
 import { renderSettings, hydrateSettings } from './settings.js';
 import { renderSearch, hydrateSearch } from './search.js';
 
 const views = {
   overview: renderOverview,
-  scorecards: renderScorecards,
-  scorecard: renderScorecard,
-  goals: renderGoals,
-  trends: renderTrends,
-  teams: renderTeams,
-  alerts: renderAlerts,
-  reviews: renderReviews,
-  benchmarks: renderBenchmarks,
-  reports: renderReports,
+  properties: renderProperties,
+  property: renderProperty,
+  leases: renderLeases,
+  occupancy: renderOccupancy,
+  maintenance: renderMaintenance,
+  performance: renderPerformance,
   settings: renderSettings,
   search: renderSearch,
 };
 
 const hydrators = {
   overview: hydrateOverview,
-  scorecards: hydrateScorecards,
-  scorecard: hydrateScorecard,
-  goals: hydrateGoals,
-  trends: hydrateTrends,
-  teams: hydrateTeams,
-  alerts: hydrateAlerts,
-  reviews: hydrateReviews,
-  benchmarks: hydrateBenchmarks,
-  reports: hydrateReports,
+  properties: hydrateProperties,
+  property: hydrateProperty,
+  leases: hydrateLeases,
+  occupancy: hydrateOccupancy,
+  maintenance: hydrateMaintenance,
+  performance: hydratePerformance,
   settings: hydrateSettings,
   search: hydrateSearch,
 };

@@ -1,0 +1,104 @@
+:root {
+  --hv-brand: #64e2b7;
+  --hv-brand-deep: #14866a;
+  --hv-brand-dark: #0d5c4a;
+  --hv-canvas: #e7f9f2;
+  --hv-ink: #10241c;
+  --hv-mute: #4a6b5e;
+  --hv-paper: #f4fbf8;
+  --hv-sheet: #ffffff;
+  --hv-rule: #c5e8d8;
+  --hv-soft: #d8f6ea;
+  --hv-sidebar: 14.5rem;
+  --hv-header: 5.75rem;
+
+  --eds-color-brand-900: #0d5c4a;
+  --eds-color-brand-800: #12745c;
+  --eds-color-brand-700: #14866a;
+  --eds-color-brand-600: #1a9a7a;
+  --eds-color-brand-500: #64e2b7;
+  --eds-color-brand-400: #86ead0;
+  --eds-color-brand-300: #a8f1de;
+  --eds-color-brand-200: #c5e8d8;
+  --eds-color-brand-100: #d8f6ea;
+  --eds-color-brand-50: #e7f9f2;
+  --eds-color-bg: var(--hv-paper);
+  --eds-color-surface: var(--hv-sheet);
+  --eds-color-focus: var(--hv-brand-deep);
+  --eds-color-primary: var(--hv-brand-deep);
+  --eds-color-primary-hover: var(--hv-brand-dark);
+  --eds-color-primary-active: #084338;
+  --eds-shadow-focus: 0 0 0 3px rgb(100 226 183 / 0.45);
+  --eds-font-sans: Figtree, 'Segoe UI', sans-serif;
+  --eds-font-display: Fraunces, Figtree, serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--hv-ink);
+  background: var(--hv-paper);
+  font-family: Figtree, sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--hv-brand-deep);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--hv-mute);
+}
+
+.kicker {
+  color: var(--hv-brand-deep);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--hv-rule);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--hv-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--hv-mute);
+}
