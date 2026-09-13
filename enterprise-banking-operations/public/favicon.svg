@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Signal">
-  <rect width="32" height="32" rx="8" fill="#DD0303"/>
-  <path d="M8 21.2V10.8h2.2v10.4H8zm4.6 0v-7.2H15v7.2h-2.4zm4.6 0V8.6h2.4v12.6h-2.4zm4.6 0v-4.8H24v4.8h-2.2z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Sterling">
+  <rect width="32" height="32" rx="8" fill="#0B3D5C"/>
+  <path d="M6 13 L16 7.5 L26 13" fill="none" stroke="#E8C97A" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M7.5 13.2h17" stroke="#fff" stroke-width="1.6"/>
+  <path d="M9 13.2v10M16 13.2v10M23 13.2v10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M7 23.5h18" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
 </svg>

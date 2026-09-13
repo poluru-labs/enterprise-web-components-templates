@@ -1,21 +1,25 @@
 export const STATUS_TONE = {
-  active: 'brand',
-  on_track: 'success',
-  ahead: 'success',
-  green: 'success',
-  approved: 'success',
-  healthy: 'success',
-  ok: 'success',
+  settled: 'success',
+  posted: 'success',
+  cleared: 'success',
+  active: 'success',
+  closed: 'success',
+  queued: 'info',
+  received: 'info',
+  dda: 'info',
+  pending: 'info',
+  open: 'warning',
+  held: 'warning',
   watch: 'warning',
-  amber: 'warning',
-  pending: 'warning',
-  behind: 'danger',
-  at_risk: 'danger',
-  red: 'danger',
+  restricted: 'warning',
+  nsf: 'danger',
+  ofac: 'danger',
+  returned: 'danger',
+  frozen: 'danger',
   denied: 'danger',
-  closed: 'neutral',
+  overdue: 'danger',
   draft: 'neutral',
-  inactive: 'neutral',
+  book: 'neutral',
 };
 
 export function statusTone(status) {
@@ -26,6 +30,18 @@ export function statusTone(status) {
 
 export function statusLabel(status) {
   if (!status) return 'Unknown';
+  const key = String(status).toLowerCase().replace(/[\s-]+/g, '_');
+  const acronyms = {
+    ofac: 'OFAC',
+    nsf: 'NSF',
+    ach: 'ACH',
+    rtp: 'RTP',
+    dda: 'DDA',
+    mma: 'MMA',
+    swift: 'SWIFT',
+    fedwire: 'Fedwire',
+  };
+  if (acronyms[key]) return acronyms[key];
   return String(status)
     .replace(/[_-]+/g, ' ')
     .replace(/\b\w/g, (char) => char.toUpperCase());
@@ -49,5 +65,5 @@ export function slaTone(status) {
 
 export function badgeVariant(status) {
   const tone = statusTone(status);
-  return tone === 'brand' ? 'brand' : tone;
+  return tone === 'brand' ? 'info' : tone;
 }

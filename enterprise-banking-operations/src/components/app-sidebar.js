@@ -2,7 +2,7 @@ import { currentUser, navItems, productLine, productName } from '../data/index.j
 
 export function sidebarTemplate() {
   return `
-    <aside class="sig-sidebar" id="sig-sidebar" aria-label="Dashboard">
+    <aside class="st-sidebar" id="st-sidebar" aria-label="Banking">
       <div class="sidebar-head">
         <a class="wordmark" href="#/overview">
           <span class="brand-mark" aria-hidden="true">S</span>
