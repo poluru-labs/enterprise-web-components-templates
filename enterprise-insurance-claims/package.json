@@ -1,7 +1,7 @@
 {
-  "name": "enterprise-kpi-dashboard",
+  "name": "enterprise-insurance-claims",
   "version": "1.0.0",
-  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
+  "description": "Beacon Insurance — claims intake, adjuster assignments, policy verification, fraud flags, and settlements. Light theme, brand #780C28, full-width until the sidebar is toggled.",
   "type": "module",
   "license": "MIT",
   "scripts": {

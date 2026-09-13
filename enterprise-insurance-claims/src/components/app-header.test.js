@@ -1,44 +1,36 @@
 import { describe, expect, it, beforeEach } from 'vitest';
 import './app-header.js';
 
-describe('signal-header', () => {
+describe('beacon-header', () => {
   beforeEach(() => {
     document.body.innerHTML = '';
   });
 
   it('registers the custom element', () => {
-    expect(customElements.get('signal-header')).toBeDefined();
+    expect(customElements.get('beacon-header')).toBeDefined();
   });
 
-  it('renders a live scoreboard with KPI cells', () => {
-    const header = document.createElement('signal-header');
-    header.setAttribute('product', 'Signal');
-    header.setAttribute('workspace', 'Clearline Holdings');
-    document.body.appendChild(header);
-    header.tickerItems = [
-      { label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' },
-      { label: 'NRR', value: '118%', delta: '+4 pts', trend: 'up', href: '#/scorecards' },
+  it('renders the claims-stage header with stages and reserve chip', () => {
+    const header = document.createElement('beacon-header');
+    header.setAttribute('product', 'Beacon');
+    header.setAttribute('workspace', 'Poluru Cover');
+    header.setAttribute('reserve-label', '$4.8M reserved');
+    header.claimStages = [
+      { id: 'intake', label: 'Intake', count: 2, href: '#/claims' },
+      { id: 'assigned', label: 'Assigned', count: 3, href: '#/adjusters', hot: true },
     ];
-
-    const shadow = header.shadowRoot?.textContent ?? '';
-    expect(shadow).toContain('Signal');
-    expect(shadow).toContain('Clearline Holdings');
-    expect(shadow).toContain('Revenue');
-    expect(shadow).toContain('$18.4M');
-    expect(shadow).toContain('+7.6%');
-    expect(shadow).toContain('NRR');
-    expect(header.shadowRoot?.querySelector('.scoreboard')).toBeTruthy();
-    expect(header.shadowRoot?.querySelector('.live-led')).toBeTruthy();
-    expect(header.shadowRoot?.querySelectorAll('.kpi-cell').length).toBe(2);
-    expect(header.shadowRoot?.querySelector('.brand-mark svg')).toBeTruthy();
-  });
-
-  it('routes a KPI cell to its scorecard href', () => {
-    const header = document.createElement('signal-header');
     document.body.appendChild(header);
-    header.tickerItems = [{ label: 'Revenue', value: '$18.4M', delta: '+7.6%', trend: 'up', href: '#/trends' }];
 
-    header.shadowRoot.querySelector('.kpi-cell').click();
-    expect(window.location.hash).toBe('#/trends');
+    const root = header.shadowRoot;
+    expect(root?.textContent).toContain('Beacon');
+    expect(root?.textContent).toContain('Poluru Cover');
+    expect(root?.textContent).toContain('Intake');
+    expect(root?.textContent).toContain('Assigned');
+    expect(root?.textContent).toContain('$4.8M reserved');
+    expect(root?.querySelector('.claim-strip')).toBeTruthy();
+    expect(root?.querySelector('.reserve-chip')).toBeTruthy();
+    expect(root?.querySelector('.build-strip')).toBeFalsy();
+    expect(root?.querySelector('.mix-strip')).toBeFalsy();
+    expect(root?.querySelector('.dispatch-strip')).toBeFalsy();
   });
 });

@@ -1,12 +1,12 @@
 # Download Free Enterprise Web Components Templates
 
-Sixteen standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
+Seventeen standalone enterprise interface templates built with [Bootstrap](https://getbootstrap.com/), [Bootstrap Icons](https://icons.getbootstrap.com/), [Vite](https://vite.dev/), and [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
 
 Every template is an independent Vite application with its own `package.json`, mock data, routes, tests, and build output. Layout chrome uses vanilla custom elements in an Open WC-style structure. Forms, tables, drawers, and toasts use `eds-*` design-system tags.
 
 ## At a glance
 
-- 16 focused enterprise workflows, from executive KPIs to real-estate portfolios
+- 17 focused enterprise workflows, from executive KPIs to insurance claims
 - Vanilla custom elements for reusable application chrome
 - Hash-based routing with a built-in search view
 - Responsive Bootstrap grids with shared design-system controls
@@ -33,8 +33,9 @@ Every template is an independent Vite application with its own `package.json`, m
 | Orbit | Vehicles, maintenance, drivers, fuel, and inspections | Burgundy dispatch board + fuel chip | 5187 | [enterprise-fleet-management](enterprise-fleet-management/) |
 | Keystone | Job sites, budgets, schedules, RFIs, subcontractors, safety | Green build-stage rail + budget chip | 5188 | [enterprise-construction-dashboard](enterprise-construction-dashboard/) |
 | Haven | Properties, leases, occupancy, maintenance, portfolio performance | Mint asset-mix rail + occupancy chip | 5189 | [enterprise-real-estate-portal](enterprise-real-estate-portal/) |
+| Beacon | Claims intake, adjusters, policy verification, fraud, settlements | Wine claims-stage rail + reserve chip | 5190 | [enterprise-insurance-claims](enterprise-insurance-claims/) |
 
-Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, tenancy bar, purchase pipeline, framework readiness meters, security queue strip, dispatch board, build-stage rail, or asset-mix rail.
+Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, tenancy bar, purchase pipeline, framework readiness meters, security queue strip, dispatch board, build-stage rail, asset-mix rail, or claims-stage rail.
 
 ## Folder structure
 
