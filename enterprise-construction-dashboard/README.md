@@ -1,6 +1,8 @@
-# Keystone · Poluru Builds
+# Keystone Construction
 
-Construction workspace for **Poluru Builds**. Light theme, brand `#347433`, hash routing.
+Keystone Construction is an enterprise workspace for job sites, budgets, schedules, RFIs, subcontractors, and safety reports. It gives project teams one place to track field progress, cost exposure, schedule commitments, information requests, trade partners, and site safety.
+
+The starter is built for **Poluru Builds** with a light theme, brand `#347433`, and hash-based routing.
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
@@ -41,9 +43,9 @@ src/
   test/setup.js
 ```
 
-## Pages
+## Workspace Pages
 
-Overview, Job sites (and site detail), Budgets, Schedule, RFIs, Subcontractors, Safety, Settings, **Search** (`#/search`).
+Overview, Job sites (and site detail), Budgets, Schedule, RFIs, Subcontractors, Safety reports, Settings, and **Search** (`#/search`).
 
 Jump with `⌘K` (command palette) or the header search (routes to `#/search`).
 
