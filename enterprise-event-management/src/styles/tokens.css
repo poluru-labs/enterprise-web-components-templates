@@ -1,0 +1,103 @@
+:root {
+  --ev-brand: #129990;
+  --ev-brand-deep: #0e827b;
+  --ev-ink: #101c1b;
+  --ev-mute: #546665;
+  --ev-paper: #f2f8f7;
+  --ev-sheet: #ffffff;
+  --ev-rule: #d5e4e2;
+  --ev-soft: #e5f4f2;
+  --ev-sidebar: 14.5rem;
+  --ev-header: 7.45rem;
+  --ev-ticker: 3.45rem;
+
+  --eds-color-brand-900: #043330;
+  --eds-color-brand-800: #074a46;
+  --eds-color-brand-700: #0a635d;
+  --eds-color-brand-600: #129990;
+  --eds-color-brand-500: #2aaba2;
+  --eds-color-brand-400: #4dbdb5;
+  --eds-color-brand-300: #7ad0ca;
+  --eds-color-brand-200: #b0e4e0;
+  --eds-color-brand-100: #d8f2f0;
+  --eds-color-brand-50: #eef9f8;
+  --eds-color-bg: var(--ev-paper);
+  --eds-color-surface: var(--ev-sheet);
+  --eds-color-focus: var(--ev-brand);
+  --eds-color-primary: var(--ev-brand);
+  --eds-color-primary-hover: var(--ev-brand-deep);
+  --eds-color-primary-active: #0a635d;
+  --eds-shadow-focus: 0 0 0 3px rgb(18 153 144 / 0.28);
+  --eds-font-sans: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Outfit', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ev-ink);
+  background: var(--ev-paper);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--ev-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--ev-mute);
+}
+
+.kicker {
+  color: var(--ev-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #d5e4e2;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ev-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--ev-mute);
+}
