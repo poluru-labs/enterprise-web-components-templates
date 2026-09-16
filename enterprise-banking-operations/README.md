@@ -4,7 +4,9 @@ Core banking operations workspace for **Poluru National**. Light theme, brand `#
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
-Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Head of operations.
+## Demo
+
+[Live demo](https://enterprise-banking-operations-qx4j9dx6r-polurus.vercel.app/#/overview)
 
 ## Run
 
