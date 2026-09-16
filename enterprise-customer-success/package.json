@@ -1,0 +1,26 @@
+{
+  "name": "enterprise-customer-success",
+  "version": "1.0.0",
+    "description": "Pulse — customer success workspace for accounts, health scores, renewals, onboarding, and expansion. Light theme, brand #3396D3, full-width until the sidebar is toggled.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@poluru-labs/enterprise-design-system-wc": "^1.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

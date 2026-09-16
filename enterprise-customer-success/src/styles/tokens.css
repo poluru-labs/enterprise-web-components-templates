@@ -1,0 +1,103 @@
+:root {
+  --pulse-brand: #3396d3;
+  --pulse-brand-deep: #2578b0;
+  --pulse-ink: #12181c;
+  --pulse-mute: #5a6872;
+  --pulse-paper: #f4f7fa;
+  --pulse-sheet: #ffffff;
+  --pulse-rule: #dce5ec;
+  --pulse-soft: #eaf4fb;
+  --pulse-sidebar: 14.5rem;
+  --pulse-header: 7.45rem;
+  --pulse-ticker: 3.45rem;
+
+  --eds-color-brand-900: #0e3a58;
+  --eds-color-brand-800: #164d70;
+  --eds-color-brand-700: #1c5f8c;
+  --eds-color-brand-600: #3396d3;
+  --eds-color-brand-500: #4aa5db;
+  --eds-color-brand-400: #6bb8e4;
+  --eds-color-brand-300: #93cdec;
+  --eds-color-brand-200: #c2e3f5;
+  --eds-color-brand-100: #e3f3fb;
+  --eds-color-brand-50: #f3f9fd;
+  --eds-color-bg: var(--pulse-paper);
+  --eds-color-surface: var(--pulse-sheet);
+  --eds-color-focus: var(--pulse-brand);
+  --eds-color-primary: var(--pulse-brand);
+  --eds-color-primary-hover: var(--pulse-brand-deep);
+  --eds-color-primary-active: #1c5f8c;
+  --eds-shadow-focus: 0 0 0 3px rgb(51 150 211 / 0.28);
+  --eds-font-sans: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Outfit', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--pulse-ink);
+  background: var(--pulse-paper);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--pulse-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--pulse-mute);
+}
+
+.kicker {
+  color: var(--pulse-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #dce5ec;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--pulse-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--pulse-mute);
+}
