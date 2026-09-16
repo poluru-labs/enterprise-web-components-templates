@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="CivicWorks">
+  <rect width="32" height="32" rx="8" fill="#129990"/>
+  <path fill="none" stroke="#fff" stroke-width="1.7" stroke-linejoin="round" d="M16 6.2 25.2 10.4v7.1c0 4.4-4 7.7-9.2 9.3-5.2-1.6-9.2-4.9-9.2-9.3v-7.1Z"/>
+  <rect x="14.2" y="15.2" width="3.6" height="7.2" rx="0.4" fill="#fff"/>
+  <rect x="9.6" y="17.4" width="3.2" height="5" rx="0.3" fill="#fff" fill-opacity="0.7"/>
+  <rect x="19.2" y="17.4" width="3.2" height="5" rx="0.3" fill="#fff" fill-opacity="0.7"/>
+  <path fill="#fff" d="M16 8.6 22.4 11.4v1.1L16 9.9 9.6 12.5V11.4Z"/>
+</svg>
