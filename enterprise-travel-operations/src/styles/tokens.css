@@ -1,0 +1,103 @@
+:root {
+  --way-brand: #1581bf;
+  --way-brand-deep: #116ea3;
+  --way-ink: #10181e;
+  --way-mute: #566570;
+  --way-paper: #f2f7fb;
+  --way-sheet: #ffffff;
+  --way-rule: #d7e2ea;
+  --way-soft: #e6f3fa;
+  --way-sidebar: 14.5rem;
+  --way-header: 7.45rem;
+  --way-ticker: 3.45rem;
+
+  --eds-color-brand-900: #052a40;
+  --eds-color-brand-800: #083d5c;
+  --eds-color-brand-700: #0c527a;
+  --eds-color-brand-600: #1581bf;
+  --eds-color-brand-500: #2b92cc;
+  --eds-color-brand-400: #4ea8d8;
+  --eds-color-brand-300: #7bc0e5;
+  --eds-color-brand-200: #b0daf1;
+  --eds-color-brand-100: #d9eef8;
+  --eds-color-brand-50: #eef7fc;
+  --eds-color-bg: var(--way-paper);
+  --eds-color-surface: var(--way-sheet);
+  --eds-color-focus: var(--way-brand);
+  --eds-color-primary: var(--way-brand);
+  --eds-color-primary-hover: var(--way-brand-deep);
+  --eds-color-primary-active: #0c527a;
+  --eds-shadow-focus: 0 0 0 3px rgb(21 129 191 / 0.28);
+  --eds-font-sans: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  --eds-font-display: 'Outfit', 'Segoe UI', sans-serif;
+  --eds-radius-md: 8px;
+  --eds-radius-lg: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--way-ink);
+  background: var(--way-paper);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  z-index: 50;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--way-brand);
+  color: #fff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+.muted {
+  color: var(--way-mute);
+}
+
+.kicker {
+  color: var(--way-brand);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.boot-error {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #d7e2ea;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--way-ink);
+}
+
+.boot-error pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  color: var(--way-mute);
+}
