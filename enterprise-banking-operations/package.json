@@ -1,7 +1,7 @@
 {
   "name": "enterprise-banking-operations",
   "version": "1.0.0",
-  "description": "Sterling — core banking operations for Poluru National. Payments, accounts, exceptions, AML screening, and clearing. Light theme, brand #0B3D5C, full-width until the sidebar is toggled.",
+  "description": "Aurevia — core banking operations for Poluru National. Payments, accounts, exceptions, AML screening, and clearing. Light theme, brand #0B3D5C, full-width until the sidebar is toggled.",
   "type": "module",
   "license": "MIT",
   "scripts": {

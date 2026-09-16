@@ -7,7 +7,7 @@ export function renderSettings() {
     ${pageHeader({
       eyebrow: 'Workspace',
       title: 'Settings',
-      lead: 'Poluru National desk defaults, cutoff hours, and Sterling notifications.',
+      lead: 'Poluru National desk defaults, cutoff hours, and Aurevia notifications.',
     })}
     <div class="row g-3">
       <div class="col-lg-6">
@@ -57,6 +57,6 @@ export function hydrateSettings(root) {
     showToast({ message: `Density set to ${value}`, variant: 'info' });
   });
   root.querySelector('#save-settings')?.addEventListener('eds-click', () => {
-    showToast({ message: 'Sterling settings saved', variant: 'success' });
+    showToast({ message: 'Aurevia settings saved', variant: 'success' });
   });
 }

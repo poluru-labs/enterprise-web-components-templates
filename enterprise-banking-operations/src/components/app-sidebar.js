@@ -5,7 +5,7 @@ export function sidebarTemplate() {
     <aside class="st-sidebar" id="st-sidebar" aria-label="Banking">
       <div class="sidebar-head">
         <a class="wordmark" href="#/overview">
-          <span class="brand-mark" aria-hidden="true">S</span>
+          <span class="brand-mark" aria-hidden="true">A</span>
           <span class="brand-copy">
             <strong>${productName}</strong>
             <small>${productLine}</small>

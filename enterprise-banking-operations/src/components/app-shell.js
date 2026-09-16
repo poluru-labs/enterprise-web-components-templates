@@ -19,7 +19,7 @@ import './app-header.js';
 import './content-card.js';
 import { hydrateView, renderView } from '../pages/index.js';
 
-export class SterlingShell extends HTMLElement {
+export class AureviaShell extends HTMLElement {
   connectedCallback() {
     if (this.dataset.ready === '1') return;
     this.dataset.ready = '1';
@@ -43,7 +43,7 @@ export class SterlingShell extends HTMLElement {
       <div class="st-shell">
         ${sidebarTemplate()}
         <div class="st-main">
-          <sterling-header
+          <aurevia-header
             product="${productName}"
             workspace="${workspaceName}"
             inbox-count="${inboxItems.length}"
@@ -73,8 +73,19 @@ export class SterlingShell extends HTMLElement {
               <eds-menu-item label="Command palette" value="palette" icon="search"></eds-menu-item>
               <eds-menu-item label="Sign out" value="signout" icon="external-link" danger></eds-menu-item>
             </eds-dropdown-menu>
-          </sterling-header>
+          </aurevia-header>
           <main id="view" tabindex="-1"></main>
+          <footer class="app-footer">
+            <p class="app-footer-author">
+              <span class="app-footer-kicker">Author</span>
+              <strong>Subrahmanyam Poluru</strong>
+              <a href="https://polurus.com" target="_blank" rel="noopener noreferrer">polurus.com</a>
+            </p>
+            <p class="app-footer-built">
+              Built with
+              <a href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc" target="_blank" rel="noopener noreferrer">@poluru-labs/enterprise-design-system-wc</a>
+            </p>
+          </footer>
         </div>
       </div>
       <button class="st-backdrop" id="st-backdrop" type="button" aria-label="Hide sidebar" hidden></button>
@@ -105,7 +116,7 @@ export class SterlingShell extends HTMLElement {
       </eds-modal>
     `;
 
-    const header = this.querySelector('sterling-header');
+    const header = this.querySelector('aurevia-header');
     if (header) header.clearingStages = clearingStages;
   }
 
@@ -274,6 +285,6 @@ export class SterlingShell extends HTMLElement {
   }
 }
 
-if (!customElements.get('sterling-shell')) {
-  customElements.define('sterling-shell', SterlingShell);
+if (!customElements.get('aurevia-shell')) {
+  customElements.define('aurevia-shell', AureviaShell);
 }

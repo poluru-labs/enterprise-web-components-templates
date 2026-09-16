@@ -34,7 +34,7 @@ Every template is an independent Vite application with its own `package.json`, m
 | Keystone | Job sites, budgets, schedules, RFIs, subcontractors, safety | Green build-stage rail + budget chip | 5188 | [enterprise-construction-dashboard](enterprise-construction-dashboard/) |
 | Haven | Properties, leases, occupancy, maintenance, portfolio performance | Mint asset-mix rail + occupancy chip | 5189 | [enterprise-real-estate-portal](enterprise-real-estate-portal/) |
 | Beacon | Claims intake, adjusters, policy verification, fraud, settlements | Wine claims-stage rail + reserve chip | 5190 | [enterprise-insurance-claims](enterprise-insurance-claims/) |
-| Sterling | Payments, accounts, exceptions, AML screening, and clearing | Navy clearing rail + gold liquidity chip | 5191 | [enterprise-banking-operations](enterprise-banking-operations/) |
+| Aurevia| Payments, accounts, exceptions, AML screening, and clearing | Navy clearing rail + gold liquidity chip | 5191 | [enterprise-banking-operations](enterprise-banking-operations/) |
 | Loom | Editorial planning, approvals, localization, publishing schedules, and asset libraries | Amber week strip + next-ship chip | 5192 | [enterprise-content-operations](enterprise-content-operations/) |
 
 Each header is a distinct custom element: ticker, pipeline pills, people cluster, sprint meter, ledger blotter, warehouse rings, shift board, queue ribbon, insight console, tenancy bar, purchase pipeline, framework readiness meters, security queue strip, dispatch board, build-stage rail, asset-mix rail, claims-stage rail, clearing rail, or editorial-week strip.

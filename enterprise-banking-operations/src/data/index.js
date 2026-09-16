@@ -1,4 +1,4 @@
-export const productName = 'Sterling';
+export const productName = 'Aurevia';
 export const productLine = 'Banking';
 export const workspaceName = 'Poluru National';
 
@@ -120,7 +120,7 @@ export const commandItems = [
   { label: 'Exceptions', description: 'Kavya Poluru’s queue', href: '#/exceptions', icon: 'alert-triangle' },
   { label: 'Screening', description: 'Nikhil Poluru’s AML', href: '#/screening', icon: 'star' },
   { label: 'Clearing', description: 'Arjun Poluru’s windows', href: '#/clearing', icon: 'check' },
-  { label: 'Settings', description: 'Sterling desk defaults', href: '#/settings', icon: 'settings' },
+  { label: 'Settings', description: 'Aurevia desk defaults', href: '#/settings', icon: 'settings' },
 ];
 
 export const channelOptions = [

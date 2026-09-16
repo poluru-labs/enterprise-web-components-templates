@@ -1,18 +1,18 @@
 import { describe, expect, it, beforeEach } from 'vitest';
 import './app-header.js';
 
-describe('sterling-header', () => {
+describe('aurevia-header', () => {
   beforeEach(() => {
     document.body.innerHTML = '';
   });
 
   it('registers the custom element', () => {
-    expect(customElements.get('sterling-header')).toBeDefined();
+    expect(customElements.get('aurevia-header')).toBeDefined();
   });
 
   it('renders the clearing-rail header with stages and liquidity chip', () => {
-    const header = document.createElement('sterling-header');
-    header.setAttribute('product', 'Sterling');
+    const header = document.createElement('aurevia-header');
+    header.setAttribute('product', 'Aurevia');
     header.setAttribute('workspace', 'Poluru National');
     header.setAttribute('liquidity-label', '$2.4B available');
     header.clearingStages = [
@@ -22,7 +22,7 @@ describe('sterling-header', () => {
     document.body.appendChild(header);
 
     const root = header.shadowRoot;
-    expect(root?.textContent).toContain('Sterling');
+    expect(root?.textContent).toContain('Aurevia');
     expect(root?.textContent).toContain('Poluru National');
     expect(root?.textContent).toContain('Received');
     expect(root?.textContent).toContain('Held');

@@ -12,7 +12,7 @@ function brandMark() {
   `;
 }
 
-export class SterlingHeader extends HTMLElement {
+export class AureviaHeader extends HTMLElement {
   static get observedAttributes() {
     return ['product', 'workspace', 'inbox-count', 'liquidity-label'];
   }
@@ -37,7 +37,7 @@ export class SterlingHeader extends HTMLElement {
   }
 
   get product() {
-    return this.getAttribute('product') || 'Sterling';
+    return this.getAttribute('product') || 'Aurevia';
   }
 
   get workspace() {
@@ -121,6 +121,6 @@ export class SterlingHeader extends HTMLElement {
   }
 }
 
-if (!customElements.get('sterling-header')) {
-  customElements.define('sterling-header', SterlingHeader);
+if (!customElements.get('aurevia-header')) {
+  customElements.define('aurevia-header', AureviaHeader);
 }
