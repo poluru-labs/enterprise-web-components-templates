@@ -1,0 +1,26 @@
+{
+  "name": "enterprise-developer-platform",
+  "version": "1.0.0",
+  "description": "Circuit — developer platform for internal services, deployments, environments, API health, and engineering ownership. Light theme, brand #129990, sticky header, simple sidebar.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@poluru-labs/enterprise-design-system-wc": "^1.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
