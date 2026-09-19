@@ -107,8 +107,15 @@ export class VerityShell extends HTMLElement {
           <div class="v-main">
             <main id="view" tabindex="-1"></main>
             <footer class="page-footer">
-              <span>© 2026 Verity · Helix Markets catalog</span>
-              <span>Sample governance data · All names end in Poluru</span>
+              <p class="page-footer-author">
+                <span class="page-footer-kicker">Author</span>
+                <strong>Subrahmanyam Poluru</strong>
+                <a href="https://polurus.com" target="_blank" rel="noopener noreferrer">polurus.com</a>
+              </p>
+              <p class="page-footer-built">
+                Built with
+                <a href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc" target="_blank" rel="noopener noreferrer">@poluru-labs/enterprise-design-system-wc</a>
+              </p>
             </footer>
           </div>
         </div>
@@ -442,6 +449,8 @@ export class VerityShell extends HTMLElement {
       themeCards(view);
       console.error(error);
     }
+    const scroller = this.querySelector('.v-main');
+    if (scroller) scroller.scrollTop = 0;
     view.scrollTop = 0;
     document.title = `${titles[route.name] || 'Overview'} · ${productName}`;
   }

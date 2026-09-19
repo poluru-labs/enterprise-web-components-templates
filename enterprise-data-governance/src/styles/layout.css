@@ -7,12 +7,20 @@
 html,
 body {
   margin: 0;
-  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
   background: var(--v-paper);
   color: var(--v-ink);
   font-family: var(--eds-font-sans);
   font-size: 15px;
   line-height: 1.5;
+}
+
+#app,
+verity-shell {
+  display: block;
+  height: 100%;
+  min-height: 0;
 }
 
 body.mega-open {
@@ -51,10 +59,14 @@ a {
 }
 
 .v-shell {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
 }
 
 verity-header {
+  flex: none;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -185,14 +197,19 @@ verity-header {
 .v-body {
   display: grid;
   grid-template-columns: var(--v-sidebar-w) minmax(0, 1fr);
-  min-height: calc(100vh - var(--v-header-h));
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .v-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  padding: 1.15rem 0.85rem 1rem;
+  gap: 0.45rem;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  padding: 0.85rem 0.85rem 0.5rem;
   background: #fff;
   border-right: 1px solid var(--v-rule);
 }
@@ -260,6 +277,8 @@ verity-header {
 
 .v-sidebar eds-side-nav {
   flex: 1;
+  min-height: 0;
+  overflow: auto;
 }
 
 .sidebar-foot {
@@ -267,18 +286,21 @@ verity-header {
   align-items: center;
   gap: 0.65rem;
   margin-top: auto;
-  padding: 0.85rem 0.45rem 0;
+  padding: 0.55rem 0.45rem 0.15rem;
   border-top: 1px solid var(--v-rule);
 }
 
 .v-main {
   min-width: 0;
+  min-height: 0;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+  overscroll-behavior: contain;
 }
 
 #view {
-  flex: 1;
+  flex: 1 0 auto;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -354,9 +376,15 @@ verity-header {
 .metric-cell,
 .hero,
 .banner,
-.content-card,
+content-card,
 eds-card {
   min-width: 0;
+}
+
+.split > content-card,
+.card-grid > content-card,
+.triple > content-card {
+  height: 100%;
 }
 
 .hero {
@@ -615,13 +643,51 @@ eds-card {
 
 .page-footer {
   display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.45rem 1.25rem;
+  flex: none;
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 1.6rem 1.4rem;
+  padding: 0.95rem 1.6rem 1.4rem;
+  border-top: 1px solid var(--v-rule);
   color: var(--v-mute);
-  font-size: 0.75rem;
+  font-size: 0.82rem;
+}
+
+.page-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem 0.75rem;
+  margin: 0;
+}
+
+.page-footer-kicker {
+  color: var(--eds-color-brand-700);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.page-footer strong {
+  color: var(--v-ink);
+  font-family: var(--v-display);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.page-footer a {
+  color: var(--eds-color-brand-700);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
 }
 
 .v-backdrop {
@@ -713,8 +779,7 @@ eds-tab {
     display: inline-flex;
   }
 
-  .profile-copy,
-  .page-footer span:last-child {
+  .profile-copy {
     display: none;
   }
 

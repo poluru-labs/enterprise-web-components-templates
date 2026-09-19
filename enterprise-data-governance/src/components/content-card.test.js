@@ -30,6 +30,6 @@ describe('content-card', () => {
     document.body.innerHTML = '<content-card><p>Body</p></content-card>';
     const styles = document.querySelector('content-card')?.shadowRoot?.querySelector('style')?.textContent ?? '';
     expect(styles).toContain('display: flex');
-    expect(styles).toContain('height: 100%');
+    expect(styles).toContain('flex: 1');
   });
 });

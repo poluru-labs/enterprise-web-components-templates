@@ -2,13 +2,14 @@ const cardStyles = `
   :host {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 0;
   }
 
   article {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    flex: 1;
+    min-height: 0;
     border: 1px solid var(--v-rule, #e2e8de);
     border-radius: 14px;
     background: var(--v-sheet, #fff);
