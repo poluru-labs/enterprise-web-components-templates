@@ -1,0 +1,26 @@
+{
+  "name": "verity-data-governance",
+  "version": "1.0.0",
+  "description": "Verity — data catalog, ownership, lineage, quality rules, classifications, and access requests. Light theme, brand #D2FF72.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@poluru-labs/enterprise-design-system-wc": "^1.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
