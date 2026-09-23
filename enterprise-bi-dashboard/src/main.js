@@ -25,6 +25,9 @@ function renderRoute() {
   if (!view) return;
   view.innerHTML = renderView(route);
   hydrateView(view, route);
+  const page = document.querySelector('.hx-app-page');
+  if (page) page.scrollTop = 0;
+  view.scrollTop = 0;
   document.title = `${routes[route].title} · ${productName}`;
 }
 
