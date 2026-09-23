@@ -1,0 +1,12 @@
+import { beforeEach, afterEach, describe, expect, it } from 'vitest';
+import './meridian-shell.js';
+let shell;
+beforeEach(()=>{window.location.hash='#/overview';shell=document.createElement('meridian-shell');document.body.append(shell);});
+afterEach(()=>{document.body.innerHTML='';});
+describe('Meridian workspace',()=>{
+ it('starts full width and toggles an accessible sidebar',()=>{expect(shell.classList.contains('sidebar-open')).toBe(false);shell.handleAction('sidebar');expect(shell.querySelector('.sidebar').inert).toBe(false);expect(shell.querySelector('#sidebar-toggle').getAttribute('aria-expanded')).toBe('true');shell.toggleSidebar(false);expect(shell.querySelector('.sidebar').inert).toBe(true);});
+ it('filters campaigns by search and status',()=>{shell.status='Active';shell.query='everyday';const markup=shell.campaignTable(false);expect(markup).toContain('Made for your everyday');expect(markup).not.toContain('The next chapter');shell.query='missing';expect(shell.campaignTable(false)).toContain('No campaigns match');});
+ it('requires a name and creates a campaign with escaped user content',()=>{shell.saveCampaign();expect(shell.campaigns).toHaveLength(5);expect(shell.querySelector('#new-name').invalid).toBe(true);shell.querySelector('#new-name').value='<script>Campaign</script>';shell.saveCampaign();expect(shell.campaigns).toHaveLength(6);expect(shell.campaigns[0].status).toBe('Draft');expect(shell.querySelector('#page-content script')).toBe(null);expect(shell.querySelector('#page-content').textContent).toContain('<script>Campaign</script>');});
+ it('renders every marketing section',()=>{for(const route of ['campaigns','audiences','calendar','budgets','channels']){location.hash='#/'+route;shell.renderPage();expect(shell.querySelector('#page-content').children.length).toBeGreaterThan(0);expect(shell.querySelector(`[data-route="${route}"]`).getAttribute('aria-current')).toBe('page');}});
+ it('selects all visible campaign rows',()=>{const all=shell.querySelector('#select-all');all.dispatchEvent(new CustomEvent('eds-change',{detail:{checked:true},bubbles:true}));expect([...shell.querySelectorAll('.row-check')].every(c=>c.checked)).toBe(true);expect(shell.querySelector('#selection-count').textContent).toBe('5 campaigns selected');});
+});
