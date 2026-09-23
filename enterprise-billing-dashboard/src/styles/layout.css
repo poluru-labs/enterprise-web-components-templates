@@ -25,7 +25,9 @@ body {
   font-feature-settings: 'tnum' 1, 'ss01' 1;
 }
 
-#app {
+#app,
+vd-app-shell {
+  display: block;
   min-height: 100vh;
 }
 
@@ -75,6 +77,44 @@ vd-app-sidebar {
 .vd-main-inner {
   width: min(1180px, 100%);
   margin-inline: auto;
+}
+
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.45rem 1.25rem;
+  margin-top: 2rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--vd-rule);
+  color: var(--vd-mute);
+  font-size: 0.82rem;
+}
+
+.app-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+}
+
+.app-footer strong {
+  color: var(--vd-ink);
+  font-family: 'Manrope', Georgia, serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.app-footer a {
+  color: var(--vd-brand);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
 }
 
 .vd-sidebar-nav {
