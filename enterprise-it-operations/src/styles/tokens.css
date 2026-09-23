@@ -1,0 +1,52 @@
+:root {
+  --ts-brand: #88bda4;
+  --ts-brand-hover: #74ad93;
+  --ts-brand-deep: #4f8a73;
+  --ts-brand-ink: #1e3a32;
+  --ts-wash: #eef6f2;
+  --ts-soft: #d7ebe3;
+  --ts-ink: #15241e;
+  --ts-ink-2: #1e322b;
+  --ts-paper: #f3f7f5;
+  --ts-sheet: #ffffff;
+  --ts-mute: #5d7269;
+  --ts-rule: #dce8e2;
+  --ts-header-h: 104px;
+  --ts-sidebar-w: 220px;
+  --ts-display: 'Plus Jakarta Sans', 'IBM Plex Sans', sans-serif;
+
+  --eds-font-sans: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --eds-color-primary: #88bda4;
+  --eds-color-primary-hover: #74ad93;
+  --eds-color-primary-active: #4f8a73;
+  --eds-color-text-inverse: #15241e;
+  --eds-color-text: #15241e;
+  --eds-color-text-muted: #5d7269;
+  --eds-color-border: #dce8e2;
+  --eds-color-border-strong: #c5d8ce;
+  --eds-color-bg: #f3f7f5;
+  --eds-color-surface: #ffffff;
+  --eds-color-ink-50: #f3f7f5;
+  --eds-color-ink-100: #e4eee9;
+  --eds-color-brand-50: #eef6f2;
+  --eds-color-brand-100: #d7ebe3;
+  --eds-color-brand-400: #88bda4;
+  --eds-color-brand-500: #88bda4;
+  --eds-color-brand-600: #4f8a73;
+  --eds-color-brand-700: #1e3a32;
+  --eds-color-focus: #4f8a73;
+  --eds-color-success-600: #2f7a45;
+  --eds-radius-md: 10px;
+  --eds-radius-lg: 14px;
+  --eds-shadow-xs: none;
+  --eds-shadow-sm: 0 8px 24px rgb(21 36 30 / 0.05);
+}
+
+eds-button[variant='primary'] {
+  --eds-color-text-inverse: #15241e;
+}
+
+eds-avatar {
+  --eds-color-brand-100: #d7ebe3;
+  --eds-color-brand-700: #1e3a32;
+}
