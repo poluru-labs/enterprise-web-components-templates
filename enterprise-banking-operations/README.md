@@ -8,6 +8,11 @@ The canvas starts **full width**. Use the menu control (or `⌘\`) to open the s
 
 [Live demo](https://enterprise-banking-operations-qx4j9dx6r-polurus.vercel.app/#/overview)
 
+## Screenshot
+
+<img width="3360" height="3462" alt="enterprise-banking-operations" src="https://github.com/user-attachments/assets/6fee9256-bc2b-4cec-b4a5-f2d6f2279cd6" />
+
+
 ## Run
 
 ```bash
