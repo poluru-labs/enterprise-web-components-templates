@@ -27,6 +27,44 @@ halo-app-sidebar {
   padding: 1.5rem 0 3.4rem;
 }
 
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.45rem 1.25rem;
+  margin-top: 2rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--halo-rule);
+  color: var(--halo-mute);
+  font-size: 0.82rem;
+}
+
+.app-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+}
+
+.app-footer strong {
+  color: var(--halo-ink);
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 0.95rem;
+  font-weight: 560;
+}
+
+.app-footer a {
+  color: var(--halo-brand);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
 .halo-app-sidebar nav {
   display: grid;
   gap: 0.15rem;
