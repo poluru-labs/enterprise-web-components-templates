@@ -50,3 +50,10 @@ eds-avatar {
   --eds-color-brand-100: #d7ebe3;
   --eds-color-brand-700: #1e3a32;
 }
+
+#app,
+techstar-shell {
+  display: block;
+  min-height: 100vh;
+  min-height: 100dvh;
+}

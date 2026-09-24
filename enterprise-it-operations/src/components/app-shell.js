@@ -124,9 +124,15 @@ export class TechstarShell extends HTMLElement {
           ${sidebarTemplate()}
           <div class="ts-main">
             <main id="view" tabindex="-1"></main>
-            <footer class="page-footer">
-              <span>© 2026 TechStar · Northline Systems</span>
-              <span>Sample operations data · All names end in Poluru</span>
+            <footer class="app-footer">
+              <p class="app-footer-author">
+                Created by
+                <a href="https://polurus.com" target="_blank" rel="noopener noreferrer"><strong>Subrahmanyam Poluru</strong></a>
+              </p>
+              <p class="app-footer-built">
+                Built with
+                <a href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc" target="_blank" rel="noopener noreferrer">@poluru-labs/enterprise-design-system-wc</a>
+              </p>
             </footer>
           </div>
         </div>

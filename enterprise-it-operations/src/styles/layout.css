@@ -301,8 +301,48 @@ techstar-header {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 1.5rem 1.6rem 2.5rem;
+  padding: 1.5rem 1.6rem 1.5rem;
   outline: none;
+}
+
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.45rem 1.25rem;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.95rem 1.6rem 1.25rem;
+  border-top: 1px solid var(--ts-rule);
+  color: var(--ts-mute);
+  font-size: 0.82rem;
+}
+
+.app-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+}
+
+.app-footer strong {
+  color: var(--ts-ink);
+  font-family: var(--ts-display);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.app-footer a {
+  color: var(--ts-brand-deep);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
 }
 
 .page-header {
@@ -632,17 +672,6 @@ eds-card {
   margin: 0.35rem 0 0.4rem;
 }
 
-.page-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1.6rem 1.4rem;
-  color: var(--ts-mute);
-  font-size: 0.75rem;
-}
-
 .ts-backdrop {
   position: fixed;
   inset: 0;
@@ -760,9 +789,12 @@ eds-tab {
   }
 
   .profile-copy,
-  .page-footer span:last-child,
   .mega-nav {
     display: none;
+  }
+
+  .app-footer {
+    padding: 0.95rem 1rem 1.25rem;
   }
 
   .mega-menu {
