@@ -36,3 +36,10 @@
 eds-button[variant='primary'] {
   --eds-color-text-inverse: var(--helio-ink);
 }
+
+#app,
+helio-app-shell {
+  display: block;
+  min-height: 100vh;
+  min-height: 100dvh;
+}

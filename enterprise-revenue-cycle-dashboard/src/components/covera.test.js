@@ -10,8 +10,8 @@ describe('Covera revenue cycle workflows',()=>{
  it('renders later account pages',()=>{app.querySelector('#pagination').dispatchEvent(new CustomEvent('eds-change',{detail:{page:2}}));expect(app.querySelector('#account-rows').textContent).toContain('Neha Poluru');expect(app.querySelector('#table-summary').textContent).toBe('Showing 6–8 of 8 accounts');});
  it('credits the author and design system in the footer',()=>{
   const footer=app.querySelector('.page-footer');
-  expect(footer.textContent).toContain('Subrahmanyam Poluru');
-  expect(footer.querySelector('a[href="https://polurus.com"]')?.textContent).toBe('polurus.com');
+  expect(footer.textContent).toContain('Created by');
+  expect(footer.querySelector('a[href="https://polurus.com"]')?.textContent).toBe('Subrahmanyam Poluru');
   expect(footer.querySelector('a[href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc"]')?.textContent).toBe('@poluru-labs/enterprise-design-system-wc');
  });
 });

@@ -87,8 +87,47 @@
 
 #view {
   flex: 1;
-  padding: 1.15rem 1.5rem 2.75rem;
+  padding: 1.15rem 1.5rem 1.5rem;
 }
+
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.45rem 1.25rem;
+  width: 100%;
+  padding: 0.95rem 1.5rem 1.25rem;
+  border-top: 1px solid var(--ves-rule);
+  color: var(--ves-mute);
+  font-size: 0.82rem;
+}
+
+.app-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+}
+
+.app-footer strong {
+  color: var(--ves-ink);
+  font-family: 'Syne', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.app-footer a {
+  color: var(--ves-brand);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
 
 .page-header {
   display: grid;
