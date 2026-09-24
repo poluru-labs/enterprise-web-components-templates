@@ -69,7 +69,10 @@ export class WayShell extends HTMLElement {
             </eds-dropdown-menu>
           </way-header>
           <main id="view" tabindex="-1"></main>
-          <footer class="app-credits"><span>Created by <a href="https://polurus.com" target="_blank" rel="noopener noreferrer">Subrahmanyam Poluru</a></span><span>Built with <a href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc" target="_blank" rel="noopener noreferrer">@poluru-labs/enterprise-design-system-wc</a></span></footer>
+          <footer class="app-credits">
+            <span>Created by <a href="https://polurus.com" target="_blank" rel="noopener noreferrer">Subrahmanyam Poluru</a></span>
+            <span>Built with <a href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc" target="_blank" rel="noopener noreferrer">@poluru-labs/enterprise-design-system-wc</a></span>
+          </footer>
         </div>
       </div>
       <button class="way-backdrop" id="way-backdrop" type="button" aria-label="Hide sidebar" hidden></button>
