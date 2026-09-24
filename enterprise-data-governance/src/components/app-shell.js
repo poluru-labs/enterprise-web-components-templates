@@ -108,9 +108,8 @@ export class VerityShell extends HTMLElement {
             <main id="view" tabindex="-1"></main>
             <footer class="page-footer">
               <p class="page-footer-author">
-                <span class="page-footer-kicker">Author</span>
-                <strong>Subrahmanyam Poluru</strong>
-                <a href="https://polurus.com" target="_blank" rel="noopener noreferrer">polurus.com</a>
+                Created by
+                <a href="https://polurus.com" target="_blank" rel="noopener noreferrer"><strong>Subrahmanyam Poluru</strong></a>
               </p>
               <p class="page-footer-built">
                 Built with
