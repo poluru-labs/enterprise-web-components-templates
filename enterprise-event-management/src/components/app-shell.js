@@ -70,6 +70,16 @@ export class GatherShell extends HTMLElement {
             </eds-dropdown-menu>
           </gather-header>
           <main id="view" tabindex="-1"></main>
+          <footer class="app-footer">
+            <p class="app-footer-author">
+              Created by
+              <a href="https://polurus.com" target="_blank" rel="noopener noreferrer"><strong>Subrahmanyam Poluru</strong></a>
+            </p>
+            <p class="app-footer-built">
+              Built with
+              <a href="https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc" target="_blank" rel="noopener noreferrer">@poluru-labs/enterprise-design-system-wc</a>
+            </p>
+          </footer>
         </div>
       </div>
       <button class="gather-backdrop" id="gather-backdrop" type="button" aria-label="Hide sidebar" hidden></button>
