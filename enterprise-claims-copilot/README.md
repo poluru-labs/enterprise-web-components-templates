@@ -1,23 +1,20 @@
-# Signal — performance workspace
+# Vista Hospitality
 
-A responsive enterprise dashboard built with Vite and `@poluru-labs/enterprise-design-system-wc`, themed in #006199.
+A responsive hospitality portfolio dashboard built with Vite and `@poluru-labs/enterprise-design-system-wc`, using the #31AAA9 theme.
 
-## Run
+## Run and validate
 
 ```sh
 npm ci
 npm run dev
-```
-
-## Validate
-
-```sh
 npm test
 npm run build
 ```
 
-Includes a sticky header with a keyboard-dismissible mega menu, compact sidebar, quarterly revenue chart, portfolio health, searchable and filterable scorecards, team directory, goals, notification drawer, report export, and settings. All sample people use the surname Poluru. There are no AI features or content.
+Includes a sticky header and mega menu, simple sidebar, illustrated property cards, revenue and occupancy charts, property filters, reservation search, check-in and checkout, housekeeping workflows, guest issue resolution, and CSV export.
 
-The demo uses fictional data. Created scorecards and preferences persist in local storage on this browser. Exports contain current scorecard data as CSV; no backend or email delivery is connected.
+The fictional portfolio uses a September 23, 2026 snapshot. Creating reservations, updating housekeeping tasks, and resolving guest issues persist in browser local storage. Portfolio metrics are illustrative snapshots and are not recalculated from the small demo reservation register. No live hotel systems or email service are connected. All sample people have the surname Poluru; no AI features are included.
 
-Main implementation: `src/components/dashboard.js`. Theme and responsive layout: `src/styles/tokens.css` and `src/styles/layout.css`.
+Main implementation: `src/components/vista-dashboard.js`. Styling: `src/styles/vista.css`, `src/styles/layout.css`, and `src/styles/tokens.css`.
+
+Created by [Subrahmanyam Poluru](https://polurus.com). Built with [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).

@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#006199" />
+    <meta name="theme-color" content="#31AAA9" />
     <meta
       name="description"
-      content="Signal — scorecards, goals, and executive KPIs for Clearline Holdings."
+      content="Vista Hospitality — properties, reservations, occupancy, housekeeping, guest service, and revenue."
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Signal KPIs</title>
+    <title>Vista Hospitality</title>
     <style>
       .boot-msg,
       .boot-error {
@@ -38,13 +38,13 @@
   </head>
   <body>
     <a class="skip-link" href="#view">Skip to main content</a>
-    <div id="app"><p class="boot-msg">Loading Signal…</p></div>
+    <div id="app"><p class="boot-msg">Loading Vista…</p></div>
     <script type="module">
       import('/src/main.js').catch((error) => {
         const app = document.querySelector('#app');
         const message = error?.stack || error?.message || String(error);
         if (app) {
-          app.innerHTML = `<div class="boot-error"><strong>Signal could not start</strong><pre>${message}</pre></div>`;
+          app.innerHTML = `<div class="boot-error"><strong>Vista could not start</strong><pre>${message}</pre></div>`;
         }
         console.error(error);
       });

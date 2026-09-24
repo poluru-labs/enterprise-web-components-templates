@@ -4,13 +4,14 @@ import '@poluru-labs/enterprise-design-system-wc/tokens.css';
 import '@poluru-labs/enterprise-design-system-wc';
 import './styles/tokens.css';
 import './styles/layout.css';
-import './components/dashboard.js';
+import './components/vista-dashboard.js';
+import './styles/vista.css';
 
 const app = document.querySelector('#app');
 
 function boot() {
   if (!app) throw new Error('Missing #app root');
-  app.innerHTML = '<signal-dashboard></signal-dashboard>';
+  app.innerHTML = '<vista-dashboard></vista-dashboard>';
 }
 
 try {
@@ -18,6 +19,6 @@ try {
 } catch (error) {
   console.error(error);
   if (app) {
-    app.innerHTML = `<div class="boot-error"><strong>Signal could not start</strong><pre>${error?.stack || error.message}</pre></div>`;
+    app.innerHTML = `<div class="boot-error"><strong>Vista could not start</strong><pre>${error?.stack || error.message}</pre></div>`;
   }
 }

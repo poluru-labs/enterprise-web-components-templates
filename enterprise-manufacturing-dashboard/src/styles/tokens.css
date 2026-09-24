@@ -13,7 +13,8 @@
 }
 
 * { box-sizing: border-box; }
-html, body { margin: 0; min-width: 320px; background: #f7f8f9; color: var(--ink); font-family: 'DM Sans', sans-serif; }
+html, body { margin: 0; min-width: 320px; min-height: 100%; background: #f7f8f9; color: var(--ink); font-family: 'DM Sans', sans-serif; }
+#app, signal-shell { display: block; min-height: 100vh; min-height: 100dvh; }
 body { font-size: 14px; }
 a { color: inherit; text-decoration: none; }
 button, input { font: inherit; }

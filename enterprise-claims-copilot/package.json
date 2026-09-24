@@ -1,7 +1,7 @@
 {
   "name": "enterprise-kpi-dashboard",
   "version": "1.0.0",
-  "description": "Signal — executive KPI and scorecard workspace. Light theme, brand #DD0303, full-width until the sidebar is toggled.",
+  "description": "Vista Hospitality \u2014 properties, reservations, occupancy, housekeeping, guest service, and revenue. Theme #31AAA9.",
   "type": "module",
   "license": "MIT",
   "scripts": {
