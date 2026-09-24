@@ -723,3 +723,26 @@ way-header .profile-copy small {
     display: none;
   }
 }
+
+.app-credits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 18px;
+  padding: 22px 0;
+  margin-top: 26px;
+  border-top: 1px solid #e5e7eb;
+  color: #667085;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.app-credits a {
+  color: var(--way-brand);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.app-credits a:hover { text-decoration: underline; }
+.app-credits a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+
+.way-main > .app-credits { margin: 0 1.5rem; }
