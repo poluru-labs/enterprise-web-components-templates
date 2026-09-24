@@ -17,7 +17,9 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-#app {
+#app,
+lyra-shell {
+  display: block;
   min-height: 100vh;
 }
 
@@ -342,7 +344,46 @@ body {
   gap: 1.1rem;
   width: min(1360px, calc(100% - 2.5rem));
   margin-inline: auto;
-  padding: 1.35rem 0 2.75rem;
+  padding: 1.35rem 0 1.5rem;
+}
+
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.45rem 1.25rem;
+  width: min(1360px, calc(100% - 2.5rem));
+  margin-inline: auto;
+  padding: 0.95rem 0 1.25rem;
+  border-top: 1px solid var(--crm-rule);
+  color: var(--crm-mute);
+  font-size: 0.82rem;
+}
+
+.app-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+}
+
+.app-footer strong {
+  color: var(--crm-ink);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.app-footer a {
+  color: var(--crm-brand);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
 }
 
 .page-header {
@@ -836,6 +877,10 @@ body.sidebar-collapsed .sidebar-compose {
     width: calc(100% - 1.5rem);
     gap: 0.95rem;
     padding-top: 1.1rem;
+  }
+
+  .app-footer {
+    width: calc(100% - 1.5rem);
   }
 
   .dash-grid {
