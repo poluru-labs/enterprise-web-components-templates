@@ -2,6 +2,11 @@
 
 Project delivery workspace for **Fieldline Studio**. Light theme, brand `#A0153E`, sprint strip header, and `@poluru-labs/enterprise-design-system-wc` throughout.
 
+## Screenshot
+
+<img width="3360" height="4214" alt="enterprise-project-dashboard" src="https://github.com/user-attachments/assets/a2aaf6b3-5b2a-4f54-97e8-bed84fd27848" />
+
+
 Demo people use the surname **Poluru** (Ananya, Kavya, Arjun, Meera, and others). The product name is Vespera.
 
 ## Run
