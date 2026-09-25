@@ -2,6 +2,11 @@
 
 Vite + vanilla web components clinic operations demo for **San Jose**. Uses Bootstrap 5, bootstrap-icons, and `@poluru-labs/enterprise-design-system-wc`.
 
+## Screenshot
+
+<img width="3360" height="4116" alt="enterprise-clinic-admin" src="https://github.com/user-attachments/assets/01f26e9c-607d-4ef3-aeeb-3fe1fef6f13d" />
+
+
 ## Stack
 
 - Hash routing (`#/overview`, `#/schedule`, …)
