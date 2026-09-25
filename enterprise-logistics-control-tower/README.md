@@ -10,6 +10,11 @@ Meridian Logistics is an enterprise logistics control tower starter for monitori
 - Delivery exceptions: prioritize delayed, damaged, or held shipments.
 - Warehouse handoffs: monitor dock queues and transfer readiness.
 
+## Screenshot
+
+<img width="3360" height="2454" alt="enterprise-logistics-control-tower" src="https://github.com/user-attachments/assets/7c24c3ec-46ae-48c8-88a7-e2b4be904b09" />
+
+
 ## Local setup
 
 Requires Node.js 20 or newer.
