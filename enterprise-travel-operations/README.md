@@ -4,6 +4,11 @@ Travel operations workspace for **Meridian Group**. Light theme, brand `#1581BF`
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open a simple sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4886" alt="enterprise-travel-operations" src="https://github.com/user-attachments/assets/f78f3ec2-d218-4463-a274-81243a695eeb" />
+
+
 Demo people use the surname **Poluru**. The product name is Waypoint. Signed in as **Mira Poluru**, Head of travel.
 
 ## Run
