@@ -431,6 +431,8 @@ export class TechstarShell extends HTMLElement {
       themeCards(view);
       console.error(error);
     }
+    const scroller = this.querySelector('.ts-main');
+    if (scroller) scroller.scrollTop = 0;
     view.scrollTop = 0;
     document.title = `${titles[route.name] || 'Overview'} · ${productName}`;
   }

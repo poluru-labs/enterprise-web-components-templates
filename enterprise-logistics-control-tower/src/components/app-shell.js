@@ -297,6 +297,8 @@ export class SignalShell extends HTMLElement {
       themeCards(view);
       console.error(error);
     }
+    const scroller = this.querySelector('.sig-main');
+    if (scroller) scroller.scrollTop = 0;
     view.scrollTop = 0;
     document.title = `${titles[route.name] || 'Overview'} · ${productName}`;
   }

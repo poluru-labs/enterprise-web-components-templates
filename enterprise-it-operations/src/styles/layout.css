@@ -7,7 +7,8 @@
 html,
 body {
   margin: 0;
-  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
   background: var(--ts-paper);
   color: var(--ts-ink);
   font-family: var(--eds-font-sans);
@@ -51,12 +52,15 @@ a {
 }
 
 .ts-shell {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
 }
 
 techstar-header {
-  position: sticky;
-  top: 0;
+  flex: none;
+  position: relative;
   z-index: 50;
   display: block;
   background: rgb(255 255 255 / 0.94);
@@ -213,13 +217,18 @@ techstar-header {
 .ts-body {
   display: grid;
   grid-template-columns: var(--ts-sidebar-w) minmax(0, 1fr);
-  min-height: calc(100vh - var(--ts-header-h));
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .ts-sidebar {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
   padding: 1rem 0.75rem 1rem;
   background: #fff;
   border-right: 1px solid var(--ts-rule);
@@ -279,6 +288,8 @@ techstar-header {
 
 .ts-sidebar eds-side-nav {
   flex: 1;
+  min-height: 0;
+  overflow: auto;
 }
 
 .sidebar-foot {
@@ -292,25 +303,30 @@ techstar-header {
 
 .ts-main {
   min-width: 0;
+  min-height: 0;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+  overscroll-behavior: contain;
 }
 
 #view {
-  flex: 1;
+  flex: 1 0 auto;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 1.5rem 1.6rem 1.5rem;
+  padding: 1.5rem 1.6rem 1.75rem;
   outline: none;
 }
 
 .app-footer {
   display: flex;
+  flex: none;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 0.45rem 1.25rem;
+  box-sizing: border-box;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -791,6 +807,10 @@ eds-tab {
   .profile-copy,
   .mega-nav {
     display: none;
+  }
+
+  #view {
+    padding: 1.15rem 1rem 1.5rem;
   }
 
   .app-footer {
