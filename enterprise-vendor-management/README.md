@@ -4,6 +4,11 @@ A responsive vendor workspace built with Vite and `@poluru-labs/enterprise-desig
 
 Includes a sticky mega-menu header, simple sidebar, portfolio metrics, onboarding pipeline, risk distribution, vendor search and filters, vendor creation, review notes, renewal details, contract register, and CSV export. Sample people use the Poluru surname.
 
+## Screenshot
+
+<img width="3360" height="3228" alt="enterprise-vendor-management" src="https://github.com/user-attachments/assets/2e65059b-07d2-4375-b7a0-0d8dd5eafa72" />
+
+
 ## Run locally
 
 ```sh
