@@ -4,6 +4,11 @@ Civic administration workspace for **Harbor City**. Light theme, brand `#129990`
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open a simple sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4686" alt="enterprise-public-sector-portal" src="https://github.com/user-attachments/assets/fc8e419e-da32-4281-9d44-c27ee696942c" />
+
+
 Demo people use the surname **Poluru**. The product name is CivicWorks. Signed in as **Mira Poluru**, City administrator.
 
 ## Run
