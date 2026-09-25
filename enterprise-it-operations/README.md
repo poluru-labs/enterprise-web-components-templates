@@ -4,6 +4,11 @@ IT operations workspace for **Northline Systems**. Light theme, brand `#88BDA4`,
 
 Signed in as **Mira Poluru**, Operations manager. Demo people use the surname **Poluru**. Snapshot: **week of 16 Sep 2026**.
 
+## Screenshot
+
+<img width="3360" height="3706" alt="enterprise-it-operations" src="https://github.com/user-attachments/assets/8c9f5246-bec3-4a57-afb0-7a3b1f59bb34" />
+
+
 ## Run
 
 Requires Node.js 20+.
