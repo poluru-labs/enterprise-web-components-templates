@@ -4,6 +4,11 @@ Procurement workspace for **Poluru Works**. Light theme, brand `#FF5722`, hash r
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="3540" alt="enterprise-procurement-portal" src="https://github.com/user-attachments/assets/3ce6a9cd-0c73-4dd4-b0db-f6f2e421d8d4" />
+
+
 Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Head of procurement.
 
 ## Run
