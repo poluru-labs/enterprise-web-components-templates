@@ -4,6 +4,11 @@ Real-estate workspace for **Poluru Homes**. Light theme, brand `#64E2B7`, hash r
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="3462" alt="enterprise-real-estate-portal" src="https://github.com/user-attachments/assets/d17907a0-24cd-4191-875c-105aa6a3d590" />
+
+
 Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Portfolio director. Property manager is **Subra Poluru**.
 
 ## Run
