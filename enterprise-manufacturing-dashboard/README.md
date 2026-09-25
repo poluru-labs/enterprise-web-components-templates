@@ -4,6 +4,11 @@ Security command center for the **Threat command center** workspace. Light theme
 
 Signed in as **Mira Poluru**, Security administrator. Snapshot date: **Friday 11 September 2026**.
 
+## Screenshot
+
+<img width="3360" height="3326" alt="enterprise-manufacturing-dashboard" src="https://github.com/user-attachments/assets/69ef1a0b-f758-4d11-b920-0fb0f83ddcf5" />
+
+
 ## Run
 
 Requires Node.js 20+.
