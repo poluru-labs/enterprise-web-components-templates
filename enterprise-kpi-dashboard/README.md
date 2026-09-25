@@ -4,6 +4,11 @@ Executive scorecard workspace for **Clearline Holdings**. Light theme, brand `#D
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open a simple sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4654" alt="enterprise-kpi-dashboard" src="https://github.com/user-attachments/assets/47da0262-993b-4827-a918-d5eff3f55440" />
+
+
 Demo people use the surname **Poluru**. The product name is Signal. Signed in as **Mira Poluru**, Head of performance.
 
 ## Run
