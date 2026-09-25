@@ -6,6 +6,11 @@ The canvas starts **full width**. Use the menu control (or `⌘\`) to open the s
 
 Demo people use the surname **Poluru**. Signed in as **Meera Poluru**, managing editor. Copy chief is **Kavya Poluru**.
 
+## Screenshot
+
+<img width="3360" height="3566" alt="enterprise-content-operations" src="https://github.com/user-attachments/assets/28455623-3660-47fe-b19c-c2694492ba31" />
+
+
 ## Run
 
 ```bash
