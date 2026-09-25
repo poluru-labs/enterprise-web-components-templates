@@ -4,6 +4,11 @@ Enterprise sales workspace with a **pipeline command header**, full-height stick
 sidebar, kanban pipeline, deals, leads, accounts, global search, and forecast.
 Light theme with brand **`#1055C9`**.
 
+## Screenshot
+
+<img width="3360" height="5108" alt="enterprise-crm-dashboard" src="https://github.com/user-attachments/assets/fd1b7747-5072-4351-aa3a-de6d4d67823f" />
+
+
 ## Run
 
 Requires Node.js 20+.
