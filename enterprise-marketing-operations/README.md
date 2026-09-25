@@ -4,6 +4,11 @@ Marketing operations workspace for **Meridian Studio**. Light theme, brand `#1A2
 
 Signed in as **Anika Poluru**, Marketing director. Demo people use the surname **Poluru**. Reporting period: **September 2026**.
 
+## Screenshot
+
+<img width="3360" height="4196" alt="enterprise-marketing-operations" src="https://github.com/user-attachments/assets/44c547f5-c450-4edb-b553-4287b182c3f9" />
+
+
 ## Run
 
 Requires Node.js 20+.
