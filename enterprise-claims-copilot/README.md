@@ -1,20 +1,59 @@
 # Vista Hospitality
 
-A responsive hospitality portfolio dashboard built with Vite and `@poluru-labs/enterprise-design-system-wc`, using the #31AAA9 theme.
+Hospitality portfolio workspace for **Vista Hospitality**. Light theme, brand `#31AAA9`, hash routing.
 
-## Run and validate
+Demo people use the surname **Poluru**. Signed in as **Mira Poluru**, Portfolio manager. Portfolio snapshot date: **23 Sep 2026**.
 
-```sh
-npm ci
+## Run
+
+```bash
+npm install
 npm run dev
 npm test
 npm run build
 ```
 
-Includes a sticky header and mega menu, simple sidebar, illustrated property cards, revenue and occupancy charts, property filters, reservation search, check-in and checkout, housekeeping workflows, guest issue resolution, and CSV export.
+Opens at [http://localhost:5178](http://localhost:5178). Preview build at port **4178**.
 
-The fictional portfolio uses a September 23, 2026 snapshot. Creating reservations, updating housekeeping tasks, and resolving guest issues persist in browser local storage. Portfolio metrics are illustrative snapshots and are not recalculated from the small demo reservation register. No live hotel systems or email service are connected. All sample people have the surname Poluru; no AI features are included.
+## Hospitality workspace header
 
-Main implementation: `src/components/vista-dashboard.js`. Styling: `src/styles/vista.css`, `src/styles/layout.css`, and `src/styles/tokens.css`.
+Vista uses a **sticky topbar** with the `vista.` wordmark, a **Hospitality workspace** mega menu, guest/reservation search (`⌘K`), guest-issues inbox, and profile. The left sidebar lists Overview through Revenue, plus Settings and Help. Implemented as the `<vista-dashboard>` custom element.
 
-Created by [Subrahmanyam Poluru](https://polurus.com). Built with [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
+## Folder map
+
+```
+src/
+  main.js                      # boot: tokens, DS, styles, mount <vista-dashboard>
+  components/
+    vista-dashboard.js         # <vista-dashboard> shell, routes, and workflows
+    vista-dashboard.test.js
+  styles/
+    tokens.css                 # brand #31AAA9 and EDS overrides
+    layout.css
+    vista.css                  # hospitality layout, cards, charts
+  test/setup.js
+```
+
+## Pages
+
+Overview, Properties, Reservations, Occupancy, Housekeeping, Guest issues, Revenue, Settings, Help.
+
+Jump with `⌘K` (focuses search) or the mega menu / sidebar.
+
+Interactive demo workflows: create reservations, check guests in/out, progress housekeeping tasks, resolve guest issues, and export a CSV. Reservation, housekeeping, and issue changes persist in browser `localStorage`. Portfolio KPIs are a fixed September 23 snapshot and are not recalculated from the demo register. No live PMS or email service is connected.
+
+## Tests
+
+Vitest + jsdom unit tests cover hospitality routes, mega menu, property filters, reservation search, booking/check-in, housekeeping, and guest-issue workflows:
+
+```bash
+npm test
+```
+
+## Author
+
+**Subrahmanyam Poluru**
+
+Website: https://polurus.com
+
+Built with [@poluru-labs/enterprise-design-system-wc](https://www.npmjs.com/package/@poluru-labs/enterprise-design-system-wc).
