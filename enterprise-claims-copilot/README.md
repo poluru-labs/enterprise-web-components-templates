@@ -4,6 +4,13 @@ Hospitality portfolio workspace for **Vista Hospitality**. Light theme, brand `#
 
 Demo people use the surname **Poluru**. Signed in as **Mira Poluru**, Portfolio manager. Portfolio snapshot date: **23 Sep 2026**.
 
+## Screenshot
+
+<img width="3360" height="3090" alt="enterprise-claims-copilot" src="https://github.com/user-attachments/assets/6832be7f-e8cd-42bc-add2-438c6052e072" />
+
+
+
+
 ## Run
 
 ```bash
