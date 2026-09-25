@@ -4,6 +4,11 @@ SaaS control plane for **Poluru Cloud** with a **dark ink tenancy bar**, chrome-
 seat meter, org switcher, and sidebar navigation for organizations, seats, plans,
 feature flags, usage, and uptime. Light workspace theme with brand **`#F8DE22`**.
 
+## Screenshot
+
+<img width="3360" height="3510" alt="enterprise-saas-admin" src="https://github.com/user-attachments/assets/21abc2a7-60cd-48ed-9ba8-f178312f3276" />
+
+
 ## Run
 
 Requires Node.js 20+.
