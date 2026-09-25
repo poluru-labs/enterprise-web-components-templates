@@ -4,6 +4,10 @@ Premium SaaS finance and billing workspace for **Northshore Cloud, Inc.** — in
 payments, subscriptions, customers, analytics, and reports. Light theme with brand
 **`#1D4533`** on cream **`#F4EFE6`**.
 
+## Screenshot
+
+<img width="3360" height="3902" alt="enterprise-billing-dashboard" src="https://github.com/user-attachments/assets/d8af59b8-e32c-4b2e-b352-da46ca4cbb13" />
+
 ## Stack
 
 - Vite 7 + Bootstrap 5 + bootstrap-icons
