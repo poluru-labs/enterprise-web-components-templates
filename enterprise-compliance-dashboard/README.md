@@ -4,6 +4,11 @@ Compliance workspace for **Poluru Trust**. Light theme, brand `#C08552`, hash ro
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4472" alt="enterprise-compliance-dashboard" src="https://github.com/user-attachments/assets/31f9486c-23f9-4956-a276-01bec533a6a3" />
+
+
 Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Chief compliance officer.
 
 ## Run
