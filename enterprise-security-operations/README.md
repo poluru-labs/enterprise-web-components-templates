@@ -4,6 +4,11 @@ Security operations workspace for **Poluru Shield**. Light theme, brand `#D10056
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4604" alt="enterprise-security-operations" src="https://github.com/user-attachments/assets/19a6cbab-6830-4ecd-9bbc-535cd41328e4" />
+
+
 Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Chief information security officer.
 
 ## Run
