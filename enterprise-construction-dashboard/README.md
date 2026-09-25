@@ -8,6 +8,11 @@ The canvas starts **full width**. Use the menu control (or `⌘\`) to open the s
 
 Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Project director. Superintendent is **Subra Poluru**.
 
+## Screenshot
+
+<img width="3360" height="3462" alt="enterprise-construction-dashboard" src="https://github.com/user-attachments/assets/6c1a0cb0-c4b9-4804-97ea-384d653780ac" />
+
+
 ## Run
 
 ```bash
