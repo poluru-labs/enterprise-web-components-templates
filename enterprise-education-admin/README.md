@@ -4,6 +4,11 @@ Campus administration workspace for **Westbridge University**, main campus. Ligh
 
 Signed in as **Mira Poluru**, Campus administrator. Demo people use the surname **Poluru**. Term: **Fall semester 2026** (Sep 01 – Dec 18), week 3 of 16. Snapshot date: **Wednesday, September 16, 2026**.
 
+## Screenshot
+
+<img width="3360" height="3598" alt="enterprise-education-admin" src="https://github.com/user-attachments/assets/a7d7c48b-1a1d-4cf9-88e5-f3047d994cdb" />
+
+
 ## Run
 
 Requires Node.js 20+.
