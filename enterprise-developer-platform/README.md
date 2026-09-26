@@ -4,6 +4,11 @@ Developer platform for **Lattice Forge**. Light theme, brand `#129990`.
 
 The **top menu stays sticky** (scoreboard header with icons). The canvas starts **full width**. Use the menu control (or `⌘\`) to open a simple icon sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4738" alt="enterprise-developer-platform" src="https://github.com/user-attachments/assets/e95fb75e-7586-455d-bc25-24ee153a9105" />
+
+
 Demo people use the surname **Poluru**. The product name is Circuit. Signed in as **Nikhil Poluru**, Head of platform.
 
 ## Run
