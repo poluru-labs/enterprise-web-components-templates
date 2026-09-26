@@ -4,6 +4,10 @@ Inventory, purchase orders, and warehouse capacity for **Poluru Supply Co.** Lig
 
 Signed in as **Aditi Poluru**, inventory operations lead. Demo people use the surname **Poluru**. Dates span Aug–Sep 2026.
 
+## Screenshot
+
+<img width="3360" height="3494" alt="enterprise-inventory-dashboard" src="https://github.com/user-attachments/assets/e43bf37f-8495-4a7e-b077-a3a62167ae16" />
+
 ## Run
 
 ```bash
