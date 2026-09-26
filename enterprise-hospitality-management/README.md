@@ -2,6 +2,11 @@
 
 A responsive hospitality portfolio dashboard built with Vite and `@poluru-labs/enterprise-design-system-wc`, using the #31AAA9 theme.
 
+## Screenshot
+
+<img width="3360" height="3590" alt="enterprise-hospitality-management" src="https://github.com/user-attachments/assets/78d967d1-3985-4f1e-ae2b-55d4800d56b5" />
+
+
 ## Run and validate
 
 ```sh
