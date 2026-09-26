@@ -2,6 +2,11 @@
 
 Hash-routed helpdesk workspace for **Poluru Support**, built with Vite, Bootstrap 5, and `@poluru-labs/enterprise-design-system-wc`.
 
+## Screenshot
+
+<img width="3360" height="3726" alt="enterprise-helpdesk-portal" src="https://github.com/user-attachments/assets/99f8210c-f421-4b6a-a51e-96c22fa71483" />
+
+
 ## Product
 
 - **Product:** Relay
