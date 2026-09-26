@@ -4,6 +4,11 @@ Insurance workspace for **Poluru Cover**. Light theme, brand `#780C28`, hash rou
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="3462" alt="enterprise-insurance-claims" src="https://github.com/user-attachments/assets/a9c35c31-26e0-4295-ba1d-5bc8e30a0132" />
+
+
 Demo people use the surname **Poluru**. Signed in as **Subbu Poluru**, Claims director. Senior adjuster is **Subra Poluru**.
 
 ## Run
