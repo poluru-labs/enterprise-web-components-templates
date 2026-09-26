@@ -4,6 +4,11 @@ Energy operations workspace for the **Terra Energy** enterprise portfolio. Light
 
 Signed in as **Aditya Poluru**, Operations manager. Demo people use the surname **Poluru**. Portfolio updated **Sep 16, 2026 · 09:41 AM**.
 
+## Screenshot
+
+<img width="3360" height="4122" alt="enterprise-energy-operations" src="https://github.com/user-attachments/assets/7e1db327-d105-4f0a-9520-f87400911af2" />
+
+
 ## Run
 
 Requires Node.js 20+.
