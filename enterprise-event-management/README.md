@@ -4,6 +4,11 @@ Events workspace for **Alder Hall**. Light theme, brand `#129990`.
 
 The **top menu stays sticky** (scoreboard header with icons). The canvas starts **full width**. Use the menu control (or `⌘\`) to open a simple icon sidebar; hide it again to return to full width.
 
+## Screenshot
+
+<img width="3360" height="4738" alt="enterprise-event-management" src="https://github.com/user-attachments/assets/86cdd314-63f0-4ec8-863b-a5d05323d6cc" />
+
+
 Demo people use the surname **Poluru**. The product name is Gather. Signed in as **Mira Poluru**, Head of events.
 
 ## Run
