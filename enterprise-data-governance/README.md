@@ -4,6 +4,10 @@ Catalog, ownership, lineage, quality rules, classifications, and access requests
 
 Brand color: `#D2FF72`. Built with `@poluru-labs/enterprise-design-system-wc`.
 
+## Live Demo
+
+https://enterprise-data-governance.vercel.app
+
 ## Screenshot
 
 <img width="3360" height="3630" alt="enterprise-data-governance" src="https://github.com/user-attachments/assets/30dae01f-745f-41bf-8238-34ea1c126a6b" />
