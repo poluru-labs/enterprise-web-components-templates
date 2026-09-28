@@ -4,6 +4,10 @@ Revenue cycle workspace for **Covera Medical Group**. Light theme, brand `#E87F2
 
 Signed in as **Priya Poluru**, Billing administrator. Demo patients use the surname **Poluru**. Reporting period: **September 2026**.
 
+## Live Demo
+
+https://enterprise-revenue-cycle-dashboard.vercel.app
+
 ## Screenshot
 
 <img width="3360" height="3070" alt="enterprise-revenue-cycle-dashboard" src="https://github.com/user-attachments/assets/debf6285-6837-4ddc-960d-429b5c91d472" />
