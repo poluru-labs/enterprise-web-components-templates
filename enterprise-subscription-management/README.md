@@ -4,6 +4,10 @@ Subscription operations workspace for the **Poluru workspace**. Light theme, bra
 
 Signed in as **Alex Poluru**, Workspace admin. Demo people use the surname **Poluru**. Portfolio snapshot: **September 2026**.
 
+## Live Demo
+
+https://enterprise-subscription-management.vercel.app
+
 ## Screenshot
 
 <img width="3360" height="4068" alt="enterprise-subscription-management" src="https://github.com/user-attachments/assets/2431b717-7146-400f-aafd-2d42a0a9ca83" />
