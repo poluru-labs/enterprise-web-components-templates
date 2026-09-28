@@ -6,6 +6,10 @@ The canvas starts **full width**. Use the menu control (or `⌘\`) to open a sim
 
 Demo people use the surname **Poluru**. The product name is Pulse. Signed in as **Priya Poluru**, VP customer success.
 
+## Live Demo
+
+https://enterprise-customer-success.vercel.app
+
 ## Screenshot
 
 <img width="3360" height="4754" alt="enterprise-customer-success" src="https://github.com/user-attachments/assets/e7dbe687-095e-495b-b520-dc55276c82fe" />
