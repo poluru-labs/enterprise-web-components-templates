@@ -4,6 +4,11 @@ Fleet workspace for **Poluru Yards**. Light theme, brand `#541212`, hash routing
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Live Demo
+
+https://enterprise-fleet-management-pink.vercel.app
+
+
 ## Screenshot
 
 <img width="3360" height="3634" alt="enterprise-fleet-management" src="https://github.com/user-attachments/assets/a8f2ca08-432e-4835-b404-8a91e44374a3" />
