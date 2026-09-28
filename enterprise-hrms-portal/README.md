@@ -4,6 +4,11 @@ People operations portal for **Poluru People**. Light theme, brand `#0F766E`, ha
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Live Demo
+
+https://enterprise-hrms-portal.vercel.app
+
+
 ## Screenshot
 
 <img width="3360" height="4080" alt="enterprise-hrms-portal" src="https://github.com/user-attachments/assets/1b14e00c-b5e1-4801-98d6-b369ac6ed0d8" />
