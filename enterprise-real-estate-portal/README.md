@@ -4,6 +4,10 @@ Real-estate workspace for **Poluru Homes**. Light theme, brand `#64E2B7`, hash r
 
 The canvas starts **full width**. Use the menu control (or `⌘\`) to open the sidebar; hide it again to return to full width.
 
+## Live Demo
+
+https://enterprise-real-estate-portal.vercel.app
+
 ## Screenshot
 
 <img width="3360" height="3462" alt="enterprise-real-estate-portal" src="https://github.com/user-attachments/assets/d17907a0-24cd-4191-875c-105aa6a3d590" />
