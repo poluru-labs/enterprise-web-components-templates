@@ -53,11 +53,33 @@ src/
     content-card.js       # equal-height card custom element + tests
     widgets.js
   pages/                  # one module per hash route, plus search
-  data/                   # mock catalogs
+  data/                   # in-app mock catalogs
   lib/                    # format, search, status, router + unit tests
   styles/                 # tokens, layout, header
   test/setup.js
 ```
+
+Aurevia ([enterprise-banking-operations](enterprise-banking-operations/)) also ships a top-level `mock-data/` folder of JSON files that mirror the demo catalog in `src/data/index.js`:
+
+```
+mock-data/
+  product.json            # product, current user, workspace
+  people.json             # desk roster
+  payments.json           # payment instructions
+  accounts.json           # deposit and correspondent accounts
+  exceptions.json         # exception queue
+  screening.json          # AML and OFAC flags
+  clearing.json           # settlement windows
+  clearing-stages.json    # received, posted, held, settled rail
+  liquidity-trend.json    # year-to-date liquidity series
+  navigation.json         # sidebar links
+  inbox.json              # header notifications
+  commands.json           # command palette
+  channels.json           # Fedwire, ACH, RTP, SWIFT, book
+  settings.json           # cutoff, density, cities, notifications
+```
+
+The running app still reads `src/data/index.js`. The JSON files are a standalone mock set.
 
 Content cards sit in stretch grids (`align-items: stretch`) so rows share a height. Overview pages use even card counts (4, 6, or 8).
 
