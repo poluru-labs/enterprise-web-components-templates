@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Reports viewed",
+    "value": "4,862",
+    "hint": "Across 48 analysts",
+    "trend": "up",
+    "trendValue": "+21.4%"
+  },
+  {
+    "label": "Data quality",
+    "value": "99.1%",
+    "hint": "18 connected sources",
+    "trend": "up",
+    "trendValue": "+0.4 pts"
+  },
+  {
+    "label": "Insights shared",
+    "value": "326",
+    "hint": "Slack, email, embeds",
+    "trend": "up",
+    "trendValue": "+14.8%"
+  },
+  {
+    "label": "Pipeline SLA",
+    "value": "99.6%",
+    "hint": "Last 30 days",
+    "trend": "flat",
+    "trendValue": "On target"
+  }
+]

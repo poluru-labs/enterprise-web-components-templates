@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Finance mart rebuilt",
+    "description": "dbt job harborline_finance completed",
+    "timestamp": "2 minutes ago",
+    "status": "complete"
+  },
+  {
+    "title": "Quality checks passing",
+    "description": "18 of 18 tests green on product_events",
+    "timestamp": "9 minutes ago",
+    "status": "complete"
+  },
+  {
+    "title": "Board pack generating",
+    "description": "Scheduled export to PDF for Friday 08:00",
+    "timestamp": "In progress",
+    "status": "current"
+  },
+  {
+    "title": "Retention model",
+    "description": "Weekly cohort refresh queued",
+    "timestamp": "Tonight 02:00",
+    "status": "upcoming"
+  }
+]

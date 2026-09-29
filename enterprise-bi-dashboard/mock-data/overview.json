@@ -1,0 +1,16 @@
+{
+  "pipelineSuccess": 96,
+  "dataQuality": 99.1,
+  "warehouseCapacity": 68,
+  "scorecard": {
+    "badge": "Live",
+    "statuses": [
+      "Models healthy",
+      "12 weeks loaded"
+    ],
+    "tags": [
+      "Finance",
+      "Certified"
+    ]
+  }
+}

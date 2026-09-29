@@ -1,0 +1,79 @@
+{
+  "passingTests": "14/16",
+  "suiteSuccess": 87,
+  "status": "1 freshness fail · 1 schema warn",
+  "modelsCertified": 18,
+  "modelsNeedingReview": 2,
+  "lastRun": "Aug 31, 2026 at 22:10",
+  "columns": [
+    {
+      "key": "test",
+      "label": "Test",
+      "sortable": true
+    },
+    {
+      "key": "model",
+      "label": "Model",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "result",
+      "label": "Result",
+      "sortable": true
+    },
+    {
+      "key": "runtime",
+      "label": "Runtime",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "test": "not_null account_id",
+      "model": "subscription_facts",
+      "owner": "Vikram Iyer",
+      "result": "Pass",
+      "runtime": "12s"
+    },
+    {
+      "test": "accepted_values status",
+      "model": "subscription_facts",
+      "owner": "Vikram Iyer",
+      "result": "Pass",
+      "runtime": "9s"
+    },
+    {
+      "test": "relationships accounts",
+      "model": "crm_accounts",
+      "owner": "Meera Nair",
+      "result": "Pass",
+      "runtime": "21s"
+    },
+    {
+      "test": "freshness < 15m",
+      "model": "support_tickets",
+      "owner": "Diya Shah",
+      "result": "Fail",
+      "runtime": "4s"
+    },
+    {
+      "test": "unique invoice_id",
+      "model": "billing_ledger",
+      "owner": "Ananya Reddy",
+      "result": "Pass",
+      "runtime": "18s"
+    },
+    {
+      "test": "schema drift",
+      "model": "product_events",
+      "owner": "Rohan Kapoor",
+      "result": "Warn",
+      "runtime": "7s"
+    }
+  ]
+}

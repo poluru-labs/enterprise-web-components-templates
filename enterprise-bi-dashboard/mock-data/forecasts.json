@@ -1,0 +1,68 @@
+{
+  "scenarios": [
+    {
+      "label": "Base",
+      "value": "base"
+    },
+    {
+      "label": "Upside",
+      "value": "upside"
+    },
+    {
+      "label": "Downside",
+      "value": "downside"
+    }
+  ],
+  "bars": {
+    "base": [
+      42,
+      48,
+      51,
+      58,
+      61,
+      66
+    ],
+    "upside": [
+      44,
+      52,
+      58,
+      67,
+      74,
+      82
+    ],
+    "downside": [
+      40,
+      43,
+      45,
+      47,
+      49,
+      50
+    ]
+  },
+  "facts": [
+    {
+      "term": "Horizon",
+      "description": "6 months"
+    },
+    {
+      "term": "Method",
+      "description": "Holt-Winters + analyst overlay"
+    },
+    {
+      "term": "Owner",
+      "description": "Meera Nair"
+    },
+    {
+      "term": "Last published",
+      "description": "Yesterday 16:40"
+    },
+    {
+      "term": "Confidence",
+      "description": "82%"
+    },
+    {
+      "term": "Next review",
+      "description": "Monday 09:00"
+    }
+  ]
+}

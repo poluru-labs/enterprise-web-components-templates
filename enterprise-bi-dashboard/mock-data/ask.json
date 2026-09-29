@@ -1,0 +1,31 @@
+{
+  "prompts": [
+    "Why did activation drop this week?",
+    "Which region missed NRR target?",
+    "What is warehouse spend vs cap?",
+    "Show Zendesk latency vs SLA"
+  ],
+  "answers": {
+    "Why did activation drop this week?": "Activation fell 0.8 pts to 38%. The largest gap is APAC trial-to-paid (31% vs 42% target). Meera Nair flagged a billing experiment that paused dunning for 4 days.",
+    "Which region missed NRR target?": "EMEA NRR is 109% against an 118% goal. Contraction is concentrated in 14 mid-market accounts that downgraded seats after the April price change.",
+    "What is warehouse spend vs cap?": "Month-to-date spend is $142k of $180k (79%). HELIX_WH_XL is 54% of credits. Auto-suspend is healthy; adhoc warehouse is the fastest-growing line.",
+    "Show Zendesk latency vs SLA": "Support tickets source is degraded at 18m latency versus a 10m freshness test. Diya Shah is the owner. An anomaly fired 8 minutes ago."
+  },
+  "grounding": [
+    {
+      "label": "subscription_facts",
+      "description": "Certified · Finance",
+      "icon": "check"
+    },
+    {
+      "label": "product_events",
+      "description": "Certified · Product",
+      "icon": "check"
+    },
+    {
+      "label": "support_tickets",
+      "description": "Degraded freshness",
+      "icon": "warning"
+    }
+  ]
+}

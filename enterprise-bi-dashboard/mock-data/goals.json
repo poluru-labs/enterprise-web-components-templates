@@ -1,0 +1,106 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Goal",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "domain",
+      "label": "Domain",
+      "sortable": true
+    },
+    {
+      "key": "target",
+      "label": "Target",
+      "sortable": true
+    },
+    {
+      "key": "actual",
+      "label": "Actual",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "Net revenue retention",
+      "owner": "Ananya Reddy",
+      "domain": "Finance",
+      "target": "118%",
+      "actual": "112%",
+      "status": "Watch"
+    },
+    {
+      "name": "Pipeline SLA",
+      "owner": "Vikram Iyer",
+      "domain": "Platform",
+      "target": "99.5%",
+      "actual": "99.6%",
+      "status": "On track"
+    },
+    {
+      "name": "Activation rate",
+      "owner": "Meera Nair",
+      "domain": "Growth",
+      "target": "42%",
+      "actual": "38%",
+      "status": "Behind"
+    },
+    {
+      "name": "Support CSAT",
+      "owner": "Diya Shah",
+      "domain": "CX",
+      "target": "4.6",
+      "actual": "4.7",
+      "status": "On track"
+    },
+    {
+      "name": "Warehouse budget",
+      "owner": "Sahana Rao",
+      "domain": "Ops",
+      "target": "$180k",
+      "actual": "$142k",
+      "status": "On track"
+    },
+    {
+      "name": "Weekly active accounts",
+      "owner": "Rohan Kapoor",
+      "domain": "Product",
+      "target": "18.4k",
+      "actual": "17.1k",
+      "status": "Watch"
+    }
+  ],
+  "meters": [
+    {
+      "label": "NRR",
+      "value": 95,
+      "hint": "112% of 118% target"
+    },
+    {
+      "label": "Activation",
+      "value": 90,
+      "hint": "38% of 42% target"
+    },
+    {
+      "label": "Budget",
+      "value": 79,
+      "hint": "$142k of $180k"
+    },
+    {
+      "label": "CSAT",
+      "value": 88,
+      "hint": "4.7 of 4.6 target"
+    }
+  ]
+}

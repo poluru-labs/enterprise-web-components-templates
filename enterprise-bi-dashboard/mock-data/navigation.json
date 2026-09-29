@@ -1,0 +1,123 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "file"
+  },
+  {
+    "label": "Search",
+    "href": "#/search",
+    "icon": "search"
+  },
+  {
+    "label": "Explorer",
+    "href": "#/explorer",
+    "icon": "folder",
+    "children": [
+      {
+        "label": "Workbooks",
+        "href": "#/explorer"
+      },
+      {
+        "label": "Lineage",
+        "href": "#/lineage"
+      }
+    ]
+  },
+  {
+    "label": "Query lab",
+    "href": "#/query",
+    "icon": "search"
+  },
+  {
+    "label": "Planning",
+    "icon": "star",
+    "children": [
+      {
+        "label": "Goals",
+        "href": "#/goals"
+      },
+      {
+        "label": "Forecasts",
+        "href": "#/forecasts"
+      }
+    ]
+  },
+  {
+    "label": "Platform",
+    "icon": "link",
+    "children": [
+      {
+        "label": "Sources",
+        "href": "#/sources"
+      },
+      {
+        "label": "Jobs",
+        "href": "#/jobs"
+      },
+      {
+        "label": "Usage",
+        "href": "#/usage"
+      },
+      {
+        "label": "Team",
+        "href": "#/team"
+      }
+    ]
+  },
+  {
+    "label": "Alerts",
+    "href": "#/alerts",
+    "icon": "bell"
+  },
+  {
+    "label": "Insights",
+    "icon": "eye",
+    "children": [
+      {
+        "label": "Watchlist",
+        "href": "#/watchlist"
+      },
+      {
+        "label": "Anomalies",
+        "href": "#/anomalies"
+      },
+      {
+        "label": "Quality",
+        "href": "#/quality"
+      },
+      {
+        "label": "Ask",
+        "href": "#/ask"
+      }
+    ]
+  },
+  {
+    "label": "Deliver",
+    "icon": "mail",
+    "children": [
+      {
+        "label": "Collections",
+        "href": "#/collections"
+      },
+      {
+        "label": "Subscriptions",
+        "href": "#/subscriptions"
+      },
+      {
+        "label": "Audit",
+        "href": "#/audit"
+      }
+    ]
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

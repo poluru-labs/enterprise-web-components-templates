@@ -1,0 +1,17 @@
+{
+  "liveRefresh": true,
+  "density": "comfortable",
+  "timezone": "ny",
+  "weekStart": "monday",
+  "weekStarts": [
+    {
+      "label": "Monday",
+      "value": "monday"
+    },
+    {
+      "label": "Sunday",
+      "value": "sunday"
+    }
+  ],
+  "personalAccessToken": "hx_live_7f3a9c2e"
+}

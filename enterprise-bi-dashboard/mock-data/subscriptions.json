@@ -1,0 +1,59 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Subscription",
+      "sortable": true
+    },
+    {
+      "key": "channel",
+      "label": "Channel",
+      "sortable": true
+    },
+    {
+      "key": "cadence",
+      "label": "Cadence",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "Friday board pack",
+      "channel": "Email",
+      "cadence": "Weekly 08:00",
+      "owner": "Ananya Reddy",
+      "status": "Active"
+    },
+    {
+      "name": "Pipeline health digest",
+      "channel": "Slack",
+      "cadence": "Weekdays 09:30",
+      "owner": "Vikram Iyer",
+      "status": "Active"
+    },
+    {
+      "name": "NRR watch",
+      "channel": "Email",
+      "cadence": "Daily 07:00",
+      "owner": "Meera Nair",
+      "status": "Paused"
+    },
+    {
+      "name": "CX backlog",
+      "channel": "Slack",
+      "cadence": "Hourly",
+      "owner": "Diya Shah",
+      "status": "Active"
+    }
+  ]
+}

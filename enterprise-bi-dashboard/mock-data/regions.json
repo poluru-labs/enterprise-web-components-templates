@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Americas",
+    "share": 46,
+    "value": "$4.2M"
+  },
+  {
+    "name": "EMEA",
+    "share": 31,
+    "value": "$2.8M"
+  },
+  {
+    "name": "APAC",
+    "share": 23,
+    "value": "$2.1M"
+  }
+]

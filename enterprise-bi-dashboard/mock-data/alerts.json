@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Pipeline SLA below 99%",
+    "description": "Pager + Slack · Critical",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "NRR drop > 3% WoW",
+    "description": "Email · Finance",
+    "icon": "bell"
+  },
+  {
+    "label": "Warehouse spend > $8k/day",
+    "description": "Slack · Platform",
+    "icon": "warning"
+  }
+]

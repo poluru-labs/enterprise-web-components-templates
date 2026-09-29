@@ -1,0 +1,96 @@
+{
+  "name": "Weekly NRR by cohort",
+  "sql": "SELECT\n  date_trunc('week', occurred_at) AS week,\n  cohort,\n  count(distinct account_id) AS active_accounts,\n  sum(net_revenue) AS nrr\nFROM analytics.finance.subscription_facts\nWHERE occurred_at >= dateadd('day', -90, current_date)\nGROUP BY 1, 2\nORDER BY 1 DESC;",
+  "steps": [
+    {
+      "label": "Draft",
+      "description": "Author SQL"
+    },
+    {
+      "label": "Validate",
+      "description": "Cost + tests"
+    },
+    {
+      "label": "Schedule",
+      "description": "Refresh window"
+    },
+    {
+      "label": "Publish",
+      "description": "Share + pin"
+    }
+  ],
+  "rowLimit": 500,
+  "timeoutSeconds": 60,
+  "scheduleTime": "08:00",
+  "dryRun": true,
+  "cacheResults": true,
+  "materialization": "view",
+  "materializations": [
+    {
+      "label": "View",
+      "value": "view"
+    },
+    {
+      "label": "Table",
+      "value": "table"
+    },
+    {
+      "label": "Incremental",
+      "value": "incremental"
+    }
+  ],
+  "columns": [
+    {
+      "key": "week",
+      "label": "Week",
+      "sortable": true
+    },
+    {
+      "key": "cohort",
+      "label": "Cohort",
+      "sortable": true
+    },
+    {
+      "key": "accounts",
+      "label": "Active accounts",
+      "sortable": true
+    },
+    {
+      "key": "nrr",
+      "label": "NRR",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "week": "2026-08-17",
+      "cohort": "2025-Q4",
+      "accounts": 1840,
+      "nrr": "114%"
+    },
+    {
+      "week": "2026-08-17",
+      "cohort": "2026-Q1",
+      "accounts": 2214,
+      "nrr": "109%"
+    },
+    {
+      "week": "2026-08-10",
+      "cohort": "2025-Q4",
+      "accounts": 1792,
+      "nrr": "113%"
+    },
+    {
+      "week": "2026-08-10",
+      "cohort": "2026-Q1",
+      "accounts": 2166,
+      "nrr": "108%"
+    },
+    {
+      "week": "2026-08-03",
+      "cohort": "2025-Q4",
+      "accounts": 1760,
+      "nrr": "112%"
+    }
+  ]
+}

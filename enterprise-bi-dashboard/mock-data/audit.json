@@ -1,0 +1,62 @@
+{
+  "columns": [
+    {
+      "key": "actor",
+      "label": "Actor",
+      "sortable": true
+    },
+    {
+      "key": "action",
+      "label": "Action",
+      "sortable": true
+    },
+    {
+      "key": "target",
+      "label": "Target",
+      "sortable": true
+    },
+    {
+      "key": "when",
+      "label": "When",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "actor": "Ananya Reddy",
+      "action": "Exported board pack PDF",
+      "target": "Overview",
+      "when": "12 minutes ago"
+    },
+    {
+      "actor": "Vikram Iyer",
+      "action": "Published SQL",
+      "target": "Query lab",
+      "when": "41 minutes ago"
+    },
+    {
+      "actor": "Meera Nair",
+      "action": "Shared forecast",
+      "target": "Forecasts",
+      "when": "1 hour ago"
+    },
+    {
+      "actor": "Diya Shah",
+      "action": "Acknowledged anomaly",
+      "target": "Zendesk latency",
+      "when": "2 hours ago"
+    },
+    {
+      "actor": "Rohan Kapoor",
+      "action": "Pinned workbook",
+      "target": "Product adoption",
+      "when": "Yesterday"
+    },
+    {
+      "actor": "Sahana Rao",
+      "action": "Raised budget cap",
+      "target": "Usage",
+      "when": "Yesterday"
+    }
+  ]
+}

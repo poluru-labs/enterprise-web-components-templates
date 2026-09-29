@@ -1,0 +1,17 @@
+{
+  "productName": "Helix Analytics",
+  "currentUser": {
+    "name": "Ananya Reddy",
+    "email": "ananya.reddy@harborline.example",
+    "role": "Workspace admin · Finance"
+  },
+  "workspace": {
+    "name": "Harborline Analytics",
+    "region": "US-East",
+    "warehouse": "HELIX_WH_XL",
+    "freshness": "2 minutes ago",
+    "lastRefresh": "2026-09-01T20:38:00.000Z",
+    "sources": 18
+  },
+  "anomalyCount": 4
+}

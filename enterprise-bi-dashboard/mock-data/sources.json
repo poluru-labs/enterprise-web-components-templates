@@ -1,0 +1,92 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Source",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "latency",
+      "label": "Latency",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "Harborline warehouse",
+      "type": "Snowflake",
+      "owner": "Vikram Iyer",
+      "latency": "2m",
+      "status": "Healthy"
+    },
+    {
+      "name": "Billing ledger",
+      "type": "Stripe",
+      "owner": "Ananya Reddy",
+      "latency": "6m",
+      "status": "Healthy"
+    },
+    {
+      "name": "CRM accounts",
+      "type": "Salesforce",
+      "owner": "Meera Nair",
+      "latency": "11m",
+      "status": "Healthy"
+    },
+    {
+      "name": "Support tickets",
+      "type": "Zendesk",
+      "owner": "Diya Shah",
+      "latency": "18m",
+      "status": "Degraded"
+    },
+    {
+      "name": "Product events",
+      "type": "Segment",
+      "owner": "Rohan Kapoor",
+      "latency": "4m",
+      "status": "Healthy"
+    },
+    {
+      "name": "People roster",
+      "type": "Workday",
+      "owner": "Nikhil Menon",
+      "latency": "1h",
+      "status": "Paused"
+    },
+    {
+      "name": "Marketing spend",
+      "type": "HubSpot",
+      "owner": "Kiran Bose",
+      "latency": "22m",
+      "status": "Healthy"
+    },
+    {
+      "name": "Object store",
+      "type": "S3",
+      "owner": "Sahana Rao",
+      "latency": "9m",
+      "status": "Healthy"
+    }
+  ],
+  "health": {
+    "healthy": 17,
+    "degraded": 1,
+    "degradedLabel": "1 degraded · Zendesk"
+  }
+}

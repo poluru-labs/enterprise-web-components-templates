@@ -1,0 +1,138 @@
+{
+  "datasets": [
+    {
+      "label": "Finance warehouse",
+      "value": "finance"
+    },
+    {
+      "label": "Product events",
+      "value": "product"
+    },
+    {
+      "label": "Support tickets",
+      "value": "support"
+    },
+    {
+      "label": "People analytics",
+      "value": "people"
+    }
+  ],
+  "owners": [
+    {
+      "label": "Any owner",
+      "value": ""
+    },
+    {
+      "label": "Ananya Reddy",
+      "value": "reddy"
+    },
+    {
+      "label": "Vikram Iyer",
+      "value": "iyer"
+    },
+    {
+      "label": "Meera Nair",
+      "value": "nair"
+    }
+  ],
+  "ranges": [
+    {
+      "label": "7D",
+      "value": "7d"
+    },
+    {
+      "label": "30D",
+      "value": "30d"
+    },
+    {
+      "label": "90D",
+      "value": "90d"
+    },
+    {
+      "label": "YTD",
+      "value": "ytd"
+    }
+  ],
+  "compare": [
+    {
+      "label": "vs 7D",
+      "value": "7d"
+    },
+    {
+      "label": "vs 30D",
+      "value": "30d"
+    },
+    {
+      "label": "vs QOQ",
+      "value": "qoq"
+    }
+  ],
+  "timezones": [
+    {
+      "label": "America/New_York",
+      "value": "ny"
+    },
+    {
+      "label": "America/Chicago",
+      "value": "chi"
+    },
+    {
+      "label": "Europe/London",
+      "value": "lon"
+    },
+    {
+      "label": "Asia/Kolkata",
+      "value": "ist"
+    }
+  ],
+  "domains": [
+    {
+      "label": "All domains",
+      "value": ""
+    },
+    {
+      "label": "Finance",
+      "value": "finance"
+    },
+    {
+      "label": "Growth",
+      "value": "growth"
+    },
+    {
+      "label": "Platform",
+      "value": "platform"
+    }
+  ],
+  "channels": [
+    {
+      "label": "Slack",
+      "value": "slack"
+    },
+    {
+      "label": "Email",
+      "value": "email"
+    },
+    {
+      "label": "Pager",
+      "value": "pager"
+    }
+  ],
+  "severities": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "High",
+      "value": "high"
+    },
+    {
+      "label": "Medium",
+      "value": "medium"
+    },
+    {
+      "label": "Low",
+      "value": "low"
+    }
+  ]
+}

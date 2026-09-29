@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Sources",
+    "nodes": [
+      {
+        "id": "stripe",
+        "label": "Stripe",
+        "meta": "Billing"
+      },
+      {
+        "id": "sfdc",
+        "label": "Salesforce",
+        "meta": "CRM"
+      },
+      {
+        "id": "segment",
+        "label": "Segment",
+        "meta": "Events"
+      }
+    ]
+  },
+  {
+    "title": "Staging",
+    "nodes": [
+      {
+        "id": "invoices",
+        "label": "billing.invoices",
+        "meta": "6m"
+      },
+      {
+        "id": "accounts",
+        "label": "crm.accounts",
+        "meta": "11m"
+      },
+      {
+        "id": "events",
+        "label": "product.events",
+        "meta": "4m"
+      }
+    ]
+  },
+  {
+    "title": "Marts",
+    "nodes": [
+      {
+        "id": "facts",
+        "label": "subscription_facts",
+        "meta": "Certified"
+      },
+      {
+        "id": "dim",
+        "label": "account_dim",
+        "meta": "Certified"
+      }
+    ]
+  },
+  {
+    "title": "Published",
+    "nodes": [
+      {
+        "id": "scorecard",
+        "label": "Executive scorecard",
+        "meta": "Live"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Friday board",
+    "owner": "Ananya Reddy",
+    "reports": 6,
+    "updated": "12 minutes ago",
+    "status": "Shared"
+  },
+  {
+    "name": "Growth weekly",
+    "owner": "Meera Nair",
+    "reports": 4,
+    "updated": "2 hours ago",
+    "status": "Private"
+  },
+  {
+    "name": "Platform health",
+    "owner": "Vikram Iyer",
+    "reports": 5,
+    "updated": "Yesterday",
+    "status": "Shared"
+  },
+  {
+    "name": "CX standup",
+    "owner": "Diya Shah",
+    "reports": 3,
+    "updated": "Yesterday",
+    "status": "Shared"
+  },
+  {
+    "name": "Finance close",
+    "owner": "Arjun Deshmukh",
+    "reports": 8,
+    "updated": "Aug 28, 2026",
+    "status": "Shared"
+  },
+  {
+    "name": "Exec insights",
+    "owner": "Ananya Reddy",
+    "reports": 6,
+    "updated": "Aug 30, 2026",
+    "status": "Shared"
+  }
+]

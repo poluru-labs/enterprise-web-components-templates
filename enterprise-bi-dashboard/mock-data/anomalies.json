@@ -1,0 +1,60 @@
+{
+  "count": 4,
+  "columns": [
+    {
+      "key": "metric",
+      "label": "Metric",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "severity",
+      "label": "Severity",
+      "sortable": true
+    },
+    {
+      "key": "change",
+      "label": "Change",
+      "sortable": true
+    },
+    {
+      "key": "window",
+      "label": "Detected",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "metric": "Zendesk latency",
+      "owner": "Diya Shah",
+      "severity": "High",
+      "change": "+210%",
+      "window": "8m ago"
+    },
+    {
+      "metric": "Activation rate",
+      "owner": "Meera Nair",
+      "severity": "Medium",
+      "change": "-4.2 pts",
+      "window": "2h ago"
+    },
+    {
+      "metric": "Adhoc warehouse spend",
+      "owner": "Sahana Rao",
+      "severity": "Medium",
+      "change": "+38%",
+      "window": "5h ago"
+    },
+    {
+      "metric": "Invoice null rate",
+      "owner": "Ananya Reddy",
+      "severity": "Low",
+      "change": "+0.4 pts",
+      "window": "1d ago"
+    }
+  ]
+}

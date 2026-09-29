@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ananya Reddy",
+    "role": "Workspace admin",
+    "domain": "Finance",
+    "lastSeen": "Online"
+  },
+  {
+    "name": "Vikram Iyer",
+    "role": "Analytics engineer",
+    "domain": "Platform",
+    "lastSeen": "12m ago"
+  },
+  {
+    "name": "Meera Nair",
+    "role": "Growth analyst",
+    "domain": "Growth",
+    "lastSeen": "28m ago"
+  },
+  {
+    "name": "Rohan Kapoor",
+    "role": "Product analyst",
+    "domain": "Product",
+    "lastSeen": "1h ago"
+  },
+  {
+    "name": "Diya Shah",
+    "role": "CX analyst",
+    "domain": "CX",
+    "lastSeen": "2h ago"
+  },
+  {
+    "name": "Kiran Bose",
+    "role": "Marketing analyst",
+    "domain": "Growth",
+    "lastSeen": "Yesterday"
+  },
+  {
+    "name": "Sahana Rao",
+    "role": "Ops analyst",
+    "domain": "Ops",
+    "lastSeen": "Yesterday"
+  },
+  {
+    "name": "Nikhil Menon",
+    "role": "People analyst",
+    "domain": "People",
+    "lastSeen": "2d ago"
+  }
+]

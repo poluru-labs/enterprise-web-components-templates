@@ -1,0 +1,159 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Report",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "domain",
+      "label": "Domain",
+      "sortable": true
+    },
+    {
+      "key": "freshness",
+      "label": "Freshness",
+      "sortable": true
+    },
+    {
+      "key": "views",
+      "label": "Views",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "Executive scorecard",
+      "owner": "Ananya Reddy",
+      "domain": "Finance",
+      "freshness": "2m",
+      "views": 1842,
+      "status": "Live"
+    },
+    {
+      "name": "Pipeline health",
+      "owner": "Vikram Iyer",
+      "domain": "Platform",
+      "freshness": "4m",
+      "views": 966,
+      "status": "Live"
+    },
+    {
+      "name": "Customer retention",
+      "owner": "Meera Nair",
+      "domain": "Growth",
+      "freshness": "11m",
+      "views": 721,
+      "status": "Live"
+    },
+    {
+      "name": "Product adoption",
+      "owner": "Rohan Kapoor",
+      "domain": "Product",
+      "freshness": "18m",
+      "views": 640,
+      "status": "Scheduled"
+    },
+    {
+      "name": "Support backlog",
+      "owner": "Diya Shah",
+      "domain": "CX",
+      "freshness": "1h",
+      "views": 412,
+      "status": "Live"
+    },
+    {
+      "name": "Marketing mix",
+      "owner": "Kiran Bose",
+      "domain": "Growth",
+      "freshness": "3h",
+      "views": 388,
+      "status": "Draft"
+    },
+    {
+      "name": "Inventory turns",
+      "owner": "Sahana Rao",
+      "domain": "Ops",
+      "freshness": "6h",
+      "views": 274,
+      "status": "Live"
+    },
+    {
+      "name": "Workforce pulse",
+      "owner": "Nikhil Menon",
+      "domain": "People",
+      "freshness": "1d",
+      "views": 198,
+      "status": "Scheduled"
+    },
+    {
+      "name": "Security posture",
+      "owner": "Tara Joshi",
+      "domain": "Risk",
+      "freshness": "2d",
+      "views": 156,
+      "status": "Live"
+    },
+    {
+      "name": "Board pack Q3",
+      "owner": "Arjun Deshmukh",
+      "domain": "Finance",
+      "freshness": "5d",
+      "views": 91,
+      "status": "Archived"
+    },
+    {
+      "name": "Churn cohort drilldown",
+      "owner": "Meera Nair",
+      "domain": "Growth",
+      "freshness": "22m",
+      "views": 512,
+      "status": "Live"
+    },
+    {
+      "name": "Warehouse efficiency",
+      "owner": "Sahana Rao",
+      "domain": "Ops",
+      "freshness": "35m",
+      "views": 334,
+      "status": "Live"
+    }
+  ],
+  "suggestions": [
+    "Executive scorecard",
+    "Pipeline health",
+    "Customer retention",
+    "Product adoption",
+    "Support backlog",
+    "Board pack Q3"
+  ],
+  "filters": [
+    "Certified only",
+    "Finance",
+    "Last 30 days"
+  ],
+  "export": [
+    {
+      "label": "PDF board pack",
+      "value": "pdf"
+    },
+    {
+      "label": "CSV metrics",
+      "value": "csv"
+    },
+    {
+      "label": "Copy share link",
+      "value": "link"
+    }
+  ]
+}

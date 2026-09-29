@@ -1,0 +1,62 @@
+{
+  "kpis": [
+    {
+      "label": "Month-to-date spend",
+      "value": "$142k",
+      "hint": "Of $180k budget",
+      "trend": "up",
+      "trendValue": "+8.2%"
+    },
+    {
+      "label": "Query minutes",
+      "value": "18,440",
+      "hint": "Across 4 warehouses",
+      "trend": "down",
+      "trendValue": "-3.1%"
+    },
+    {
+      "label": "Idle credits",
+      "value": "6.4%",
+      "hint": "Auto-suspend healthy",
+      "trend": "flat",
+      "trendValue": "Stable"
+    },
+    {
+      "label": "Cost per query",
+      "value": "$0.41",
+      "hint": "Median last 7 days",
+      "trend": "down",
+      "trendValue": "-$0.04"
+    }
+  ],
+  "warehouses": [
+    {
+      "name": "HELIX_WH_XL",
+      "share": 54
+    },
+    {
+      "name": "HELIX_WH_M",
+      "share": 28
+    },
+    {
+      "name": "HELIX_WH_DEV",
+      "share": 12
+    },
+    {
+      "name": "HELIX_WH_ADHOC",
+      "share": 6
+    }
+  ],
+  "capacity": {
+    "value": 68,
+    "low": 40,
+    "high": 80,
+    "optimum": 55,
+    "label": "Warehouse capacity"
+  },
+  "pipelineSuccess": {
+    "value": 96,
+    "max": 100,
+    "label": "Pipeline success"
+  }
+}

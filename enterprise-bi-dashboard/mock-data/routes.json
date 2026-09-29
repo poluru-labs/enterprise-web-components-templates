@@ -1,0 +1,322 @@
+{
+  "overview": {
+    "title": "Overview",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Overview"
+      }
+    ]
+  },
+  "reports": {
+    "title": "Reports",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Reports"
+      }
+    ]
+  },
+  "search": {
+    "title": "Search",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Search"
+      }
+    ]
+  },
+  "explorer": {
+    "title": "Explorer",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Explorer"
+      }
+    ]
+  },
+  "lineage": {
+    "title": "Lineage",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Explorer",
+        "href": "#/explorer"
+      },
+      {
+        "label": "Lineage"
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Jobs",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Platform",
+        "href": "#/sources"
+      },
+      {
+        "label": "Jobs"
+      }
+    ]
+  },
+  "collections": {
+    "title": "Collections",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Deliver",
+        "href": "#/subscriptions"
+      },
+      {
+        "label": "Collections"
+      }
+    ]
+  },
+  "query": {
+    "title": "Query lab",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Query lab"
+      }
+    ]
+  },
+  "goals": {
+    "title": "Goals",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Planning",
+        "href": "#/goals"
+      },
+      {
+        "label": "Goals"
+      }
+    ]
+  },
+  "forecasts": {
+    "title": "Forecasts",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Planning",
+        "href": "#/forecasts"
+      },
+      {
+        "label": "Forecasts"
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Platform",
+        "href": "#/sources"
+      },
+      {
+        "label": "Sources"
+      }
+    ]
+  },
+  "usage": {
+    "title": "Usage",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Platform",
+        "href": "#/usage"
+      },
+      {
+        "label": "Usage"
+      }
+    ]
+  },
+  "team": {
+    "title": "Team",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Platform",
+        "href": "#/team"
+      },
+      {
+        "label": "Team"
+      }
+    ]
+  },
+  "alerts": {
+    "title": "Alerts",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Alerts"
+      }
+    ]
+  },
+  "watchlist": {
+    "title": "Watchlist",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Insights",
+        "href": "#/watchlist"
+      },
+      {
+        "label": "Watchlist"
+      }
+    ]
+  },
+  "anomalies": {
+    "title": "Anomalies",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Insights",
+        "href": "#/anomalies"
+      },
+      {
+        "label": "Anomalies"
+      }
+    ]
+  },
+  "quality": {
+    "title": "Quality",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Insights",
+        "href": "#/quality"
+      },
+      {
+        "label": "Quality"
+      }
+    ]
+  },
+  "ask": {
+    "title": "Ask",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Insights",
+        "href": "#/ask"
+      },
+      {
+        "label": "Ask"
+      }
+    ]
+  },
+  "subscriptions": {
+    "title": "Subscriptions",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Deliver",
+        "href": "#/subscriptions"
+      },
+      {
+        "label": "Subscriptions"
+      }
+    ]
+  },
+  "audit": {
+    "title": "Audit",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Deliver",
+        "href": "#/audit"
+      },
+      {
+        "label": "Audit"
+      }
+    ]
+  },
+  "settings": {
+    "title": "Settings",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Settings"
+      }
+    ]
+  },
+  "legal": {
+    "title": "Legal",
+    "crumbs": [
+      {
+        "label": "Workspace",
+        "href": "#/overview"
+      },
+      {
+        "label": "Legal"
+      }
+    ]
+  }
+}

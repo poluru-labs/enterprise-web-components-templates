@@ -1,0 +1,84 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Job",
+      "sortable": true
+    },
+    {
+      "key": "model",
+      "label": "Model",
+      "sortable": true
+    },
+    {
+      "key": "cadence",
+      "label": "Cadence",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "last",
+      "label": "Last run",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "name": "harborline_finance",
+      "model": "subscription_facts",
+      "cadence": "Every 15m",
+      "owner": "Vikram Iyer",
+      "last": "2m ago",
+      "status": "Succeeded"
+    },
+    {
+      "name": "product_events_hourly",
+      "model": "product.account_dim",
+      "cadence": "Hourly",
+      "owner": "Rohan Kapoor",
+      "last": "18m ago",
+      "status": "Succeeded"
+    },
+    {
+      "name": "support_freshness",
+      "model": "support_tickets",
+      "cadence": "Every 10m",
+      "owner": "Diya Shah",
+      "last": "8m ago",
+      "status": "Failed"
+    },
+    {
+      "name": "board_pack_pdf",
+      "model": "executive_scorecard",
+      "cadence": "Fri 08:00",
+      "owner": "Ananya Reddy",
+      "last": "Last Friday",
+      "status": "Scheduled"
+    },
+    {
+      "name": "nrr_cohorts",
+      "model": "subscription_facts",
+      "cadence": "Nightly 02:00",
+      "owner": "Meera Nair",
+      "last": "Tonight",
+      "status": "Queued"
+    },
+    {
+      "name": "people_roster",
+      "model": "workday_roster",
+      "cadence": "Daily 06:00",
+      "owner": "Nikhil Menon",
+      "last": "Paused",
+      "status": "Paused"
+    }
+  ]
+}

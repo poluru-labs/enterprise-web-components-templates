@@ -1,0 +1,50 @@
+[
+  {
+    "label": "NRR",
+    "value": "112%",
+    "delta": "+1.4 pts",
+    "trend": "up"
+  },
+  {
+    "label": "Activation",
+    "value": "38%",
+    "delta": "-0.8 pts",
+    "trend": "down"
+  },
+  {
+    "label": "Pipeline SLA",
+    "value": "99.6%",
+    "delta": "On target",
+    "trend": "flat"
+  },
+  {
+    "label": "CSAT",
+    "value": "4.7",
+    "delta": "+0.1",
+    "trend": "up"
+  },
+  {
+    "label": "Warehouse $",
+    "value": "$142k",
+    "delta": "79% of cap",
+    "trend": "up"
+  },
+  {
+    "label": "Active accounts",
+    "value": "17.1k",
+    "delta": "-1.3k vs goal",
+    "trend": "down"
+  },
+  {
+    "label": "Trial conversion",
+    "value": "31%",
+    "delta": "-2.1 pts APAC",
+    "trend": "down"
+  },
+  {
+    "label": "Query latency",
+    "value": "1.8s",
+    "delta": "P95 last hour",
+    "trend": "flat"
+  }
+]

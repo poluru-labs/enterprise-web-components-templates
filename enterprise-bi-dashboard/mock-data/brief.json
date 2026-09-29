@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Board pack is ready",
+    "description": "Friday 08:00 export · Ananya Reddy",
+    "icon": "file",
+    "href": "#/reports"
+  },
+  {
+    "label": "Support freshness failed",
+    "description": "Zendesk 18m vs 10m test",
+    "icon": "alert-triangle",
+    "href": "#/quality"
+  },
+  {
+    "label": "EMEA NRR still short",
+    "description": "109% vs 118% goal",
+    "icon": "star",
+    "href": "#/goals"
+  }
+]

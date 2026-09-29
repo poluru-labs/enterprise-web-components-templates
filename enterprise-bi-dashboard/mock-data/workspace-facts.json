@@ -1,0 +1,26 @@
+[
+  {
+    "term": "Workspace",
+    "description": "Harborline Analytics"
+  },
+  {
+    "term": "Region",
+    "description": "US-East"
+  },
+  {
+    "term": "Warehouse",
+    "description": "HELIX_WH_XL"
+  },
+  {
+    "term": "Sources",
+    "description": "18 certified"
+  },
+  {
+    "term": "Last refresh",
+    "description": "2 minutes ago"
+  },
+  {
+    "term": "Compliance",
+    "description": "SOC 2 · GDPR template"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "tree": [
+    {
+      "id": "finance",
+      "label": "Finance",
+      "children": [
+        {
+          "id": "finance-scorecard",
+          "label": "Executive scorecard"
+        },
+        {
+          "id": "finance-cash",
+          "label": "Cash runway"
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "label": "Growth",
+      "children": [
+        {
+          "id": "growth-retention",
+          "label": "Customer retention"
+        },
+        {
+          "id": "growth-mix",
+          "label": "Marketing mix"
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform",
+      "children": [
+        {
+          "id": "platform-health",
+          "label": "Pipeline health"
+        },
+        {
+          "id": "platform-lineage",
+          "label": "Lineage map"
+        }
+      ]
+    }
+  ],
+  "recentWorkbooks": [
+    {
+      "label": "Q3 board pack",
+      "description": "Edited 12 minutes ago",
+      "icon": "file"
+    },
+    {
+      "label": "NRR deep dive",
+      "description": "Shared with Finance",
+      "icon": "star"
+    },
+    {
+      "label": "SLA burn-down",
+      "description": "Pinned by ops",
+      "icon": "bell"
+    }
+  ]
+}

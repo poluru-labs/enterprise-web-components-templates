@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Support tickets source degraded",
+    "description": "Zendesk latency 18m · 8 minutes ago",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Q3 forecast published",
+    "description": "Meera Nair shared base + upside · 1 hour ago",
+    "icon": "star"
+  },
+  {
+    "label": "Pipeline SLA recovered",
+    "description": "99.6% after the 14:10 rebuild · 3 hours ago",
+    "icon": "check-circle"
+  },
+  {
+    "label": "Board pack reminder",
+    "description": "Friday 08:00 export is scheduled",
+    "icon": "bell"
+  }
+]

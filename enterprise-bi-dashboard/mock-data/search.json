@@ -1,0 +1,100 @@
+[
+  {
+    "group": "Reports",
+    "items": [
+      {
+        "label": "Executive scorecard",
+        "hint": "Finance · Live",
+        "href": "#/reports",
+        "icon": "file"
+      },
+      {
+        "label": "Pipeline health",
+        "hint": "Platform · Live",
+        "href": "#/reports",
+        "icon": "file"
+      },
+      {
+        "label": "Churn cohort drilldown",
+        "hint": "Growth · Live",
+        "href": "#/reports",
+        "icon": "file"
+      },
+      {
+        "label": "Warehouse efficiency",
+        "hint": "Ops · Live",
+        "href": "#/reports",
+        "icon": "file"
+      }
+    ]
+  },
+  {
+    "group": "Insights",
+    "items": [
+      {
+        "label": "Watchlist",
+        "hint": "8 live metrics",
+        "href": "#/watchlist",
+        "icon": "eye"
+      },
+      {
+        "label": "Anomalies",
+        "hint": "4 open breaks",
+        "href": "#/anomalies",
+        "icon": "alert-triangle"
+      },
+      {
+        "label": "Ask Helix",
+        "hint": "Natural language",
+        "href": "#/ask",
+        "icon": "search"
+      }
+    ]
+  },
+  {
+    "group": "People",
+    "items": [
+      {
+        "label": "Ananya Reddy",
+        "hint": "Workspace admin · Finance",
+        "href": "#/team",
+        "icon": "user"
+      },
+      {
+        "label": "Vikram Iyer",
+        "hint": "Analytics engineer · Platform",
+        "href": "#/team",
+        "icon": "user"
+      },
+      {
+        "label": "Meera Nair",
+        "hint": "Growth analyst",
+        "href": "#/team",
+        "icon": "user"
+      }
+    ]
+  },
+  {
+    "group": "Platform",
+    "items": [
+      {
+        "label": "Sources",
+        "hint": "Connector health",
+        "href": "#/sources",
+        "icon": "link"
+      },
+      {
+        "label": "Jobs",
+        "hint": "Scheduled refreshes",
+        "href": "#/jobs",
+        "icon": "clock"
+      },
+      {
+        "label": "Usage",
+        "hint": "Warehouse spend",
+        "href": "#/usage",
+        "icon": "clock"
+      }
+    ]
+  }
+]

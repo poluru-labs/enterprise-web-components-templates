@@ -1,0 +1,110 @@
+[
+  {
+    "label": "Search workspace",
+    "description": "Reports, metrics, people",
+    "href": "#/search",
+    "icon": "search"
+  },
+  {
+    "label": "Overview",
+    "description": "Workspace pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Reports catalog",
+    "description": "Search certified scorecards",
+    "href": "#/reports",
+    "icon": "file"
+  },
+  {
+    "label": "Lineage",
+    "description": "Upstream and downstream",
+    "href": "#/lineage",
+    "icon": "link"
+  },
+  {
+    "label": "Collections",
+    "description": "Saved report sets",
+    "href": "#/collections",
+    "icon": "folder"
+  },
+  {
+    "label": "Jobs",
+    "description": "Scheduled refreshes",
+    "href": "#/jobs",
+    "icon": "clock"
+  },
+  {
+    "label": "Goals",
+    "description": "OKR progress",
+    "href": "#/goals",
+    "icon": "star"
+  },
+  {
+    "label": "Forecasts",
+    "description": "Six-month scenarios",
+    "href": "#/forecasts",
+    "icon": "calendar"
+  },
+  {
+    "label": "Sources",
+    "description": "Connector health",
+    "href": "#/sources",
+    "icon": "link"
+  },
+  {
+    "label": "Usage",
+    "description": "Warehouse spend",
+    "href": "#/usage",
+    "icon": "clock"
+  },
+  {
+    "label": "Team",
+    "description": "Analysts and roles",
+    "href": "#/team",
+    "icon": "user"
+  },
+  {
+    "label": "Watchlist",
+    "description": "Live metrics",
+    "href": "#/watchlist",
+    "icon": "eye"
+  },
+  {
+    "label": "Anomalies",
+    "description": "Detection feed",
+    "href": "#/anomalies",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Quality",
+    "description": "Tests and freshness",
+    "href": "#/quality",
+    "icon": "check"
+  },
+  {
+    "label": "Ask",
+    "description": "Natural-language questions",
+    "href": "#/ask",
+    "icon": "search"
+  },
+  {
+    "label": "Subscriptions",
+    "description": "Scheduled deliveries",
+    "href": "#/subscriptions",
+    "icon": "mail"
+  },
+  {
+    "label": "Audit",
+    "description": "Access log",
+    "href": "#/audit",
+    "icon": "lock"
+  },
+  {
+    "label": "Ananya Reddy",
+    "description": "Workspace admin",
+    "href": "#/team",
+    "icon": "user"
+  }
+]

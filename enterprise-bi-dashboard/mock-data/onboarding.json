@@ -1,0 +1,17 @@
+{
+  "steps": [
+    {
+      "label": "Connect sources",
+      "description": "Warehouse + SaaS"
+    },
+    {
+      "label": "Certify models",
+      "description": "Owners + tests"
+    },
+    {
+      "label": "Publish workspace",
+      "description": "Roles + embeds"
+    }
+  ],
+  "current": 2
+}
