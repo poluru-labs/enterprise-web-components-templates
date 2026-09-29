@@ -1,0 +1,20 @@
+{
+  "cutoffHour": 16,
+  "density": "comfortable",
+  "defaultCity": "Austin",
+  "cities": [
+    { "label": "Austin", "value": "Austin" },
+    { "label": "Dallas", "value": "Dallas" },
+    { "label": "Houston", "value": "Houston" }
+  ],
+  "notifications": [
+    { "label": "AML digest to Nikhil Poluru", "enabled": true },
+    { "label": "NSF alerts to Kavya Poluru", "enabled": true }
+  ],
+  "fedwireWindow": {
+    "value": 68,
+    "max": 100,
+    "status": "On window",
+    "label": "68% of wires inside the 16:00 window"
+  }
+}

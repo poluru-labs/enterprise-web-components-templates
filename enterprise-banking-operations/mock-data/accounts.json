@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dda-1048",
+    "number": "DDA-1048",
+    "name": "Harborwell operating",
+    "type": "dda",
+    "city": "Austin",
+    "balance": 84200,
+    "status": "restricted",
+    "owner": "Leela Poluru"
+  },
+  {
+    "id": "dda-2218",
+    "number": "DDA-2218",
+    "name": "Alder Hall rent",
+    "type": "dda",
+    "city": "Dallas",
+    "balance": 186400,
+    "status": "active",
+    "owner": "Leela Poluru"
+  },
+  {
+    "id": "dda-3310",
+    "number": "DDA-3310",
+    "name": "Quill Studio ops",
+    "type": "dda",
+    "city": "Austin",
+    "balance": 412000,
+    "status": "active",
+    "owner": "Leela Poluru"
+  },
+  {
+    "id": "dda-4127",
+    "number": "DDA-4127",
+    "name": "Cedar Yard payables",
+    "type": "dda",
+    "city": "Houston",
+    "balance": 268000,
+    "status": "active",
+    "owner": "Arjun Poluru"
+  },
+  {
+    "id": "dda-4182",
+    "number": "DDA-4182",
+    "name": "Folio Mechanical treasury",
+    "type": "mma",
+    "city": "Houston",
+    "balance": 6400000,
+    "status": "watch",
+    "owner": "Dev Poluru"
+  },
+  {
+    "id": "dda-5094",
+    "number": "DDA-5094",
+    "name": "Lotline Partners ops",
+    "type": "dda",
+    "city": "Austin",
+    "balance": 1284000,
+    "status": "active",
+    "owner": "Leela Poluru"
+  },
+  {
+    "id": "dda-6271",
+    "number": "DDA-6271",
+    "name": "Stride payroll",
+    "type": "dda",
+    "city": "Dallas",
+    "balance": 96400,
+    "status": "active",
+    "owner": "Hana Poluru"
+  },
+  {
+    "id": "dda-8512",
+    "number": "DDA-8512",
+    "name": "Nimbus correspondent",
+    "type": "nostro",
+    "city": "Round Rock",
+    "balance": 2150000,
+    "status": "active",
+    "owner": "Ishaan Poluru"
+  }
+]

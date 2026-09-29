@@ -1,0 +1,82 @@
+[
+  {
+    "id": "clr-6271",
+    "payment": "ST-6271",
+    "counterparty": "Stride Staffing",
+    "amount": 38400,
+    "window": "RTP instant",
+    "owner": "Hana Poluru",
+    "date": "2026-09-13",
+    "status": "settled"
+  },
+  {
+    "id": "clr-2218",
+    "payment": "ST-2218",
+    "counterparty": "Alder Hall",
+    "amount": 42000,
+    "window": "ACH same-day",
+    "owner": "Rohan Poluru",
+    "date": "2026-09-13",
+    "status": "posted"
+  },
+  {
+    "id": "clr-4127",
+    "payment": "ST-4127",
+    "counterparty": "Cedar Yard",
+    "amount": 64000,
+    "window": "ACH same-day",
+    "owner": "Rohan Poluru",
+    "date": "2026-09-13",
+    "status": "posted"
+  },
+  {
+    "id": "clr-5094",
+    "payment": "ST-5094",
+    "counterparty": "Lotline Partners",
+    "amount": 840000,
+    "window": "Fedwire",
+    "owner": "Priya Poluru",
+    "date": "2026-09-12",
+    "status": "posted"
+  },
+  {
+    "id": "clr-2401",
+    "payment": "ST-2401",
+    "counterparty": "Folio Mechanical",
+    "amount": 2400000,
+    "window": "Fedwire",
+    "owner": "Nikhil Poluru",
+    "date": "2026-09-13",
+    "status": "held"
+  },
+  {
+    "id": "clr-1840",
+    "payment": "ST-1840",
+    "counterparty": "Harborwell LLC",
+    "amount": 186400,
+    "window": "ACH next-day",
+    "owner": "Kavya Poluru",
+    "date": "2026-09-12",
+    "status": "returned"
+  },
+  {
+    "id": "clr-3310",
+    "payment": "ST-3310",
+    "counterparty": "Quill Studio LLC",
+    "amount": 128000,
+    "window": "Fedwire",
+    "owner": "Priya Poluru",
+    "date": "2026-09-13",
+    "status": "queued"
+  },
+  {
+    "id": "clr-8512",
+    "payment": "ST-8512",
+    "counterparty": "Nimbus Low Voltage",
+    "amount": 215000,
+    "window": "SWIFT MT103",
+    "owner": "Ishaan Poluru",
+    "date": "2026-09-13",
+    "status": "queued"
+  }
+]

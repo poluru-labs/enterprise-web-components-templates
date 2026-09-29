@@ -1,0 +1,7 @@
+[
+  { "label": "Fedwire", "value": "fedwire" },
+  { "label": "ACH", "value": "ach" },
+  { "label": "RTP", "value": "rtp" },
+  { "label": "SWIFT", "value": "swift" },
+  { "label": "Book", "value": "book" }
+]

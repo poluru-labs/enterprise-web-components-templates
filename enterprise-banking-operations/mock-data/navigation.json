@@ -1,0 +1,9 @@
+[
+  { "label": "Overview", "href": "#/overview", "icon": "home" },
+  { "label": "Payments", "href": "#/payments", "icon": "folder" },
+  { "label": "Accounts", "href": "#/accounts", "icon": "user" },
+  { "label": "Exceptions", "href": "#/exceptions", "icon": "alert-triangle" },
+  { "label": "Screening", "href": "#/screening", "icon": "star" },
+  { "label": "Clearing", "href": "#/clearing", "icon": "check" },
+  { "label": "Settings", "href": "#/settings", "icon": "settings" }
+]

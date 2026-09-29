@@ -1,0 +1,17 @@
+{
+  "productName": "Aurevia",
+  "productLine": "Banking",
+  "workspaceName": "Poluru National",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@polurunational.example",
+    "role": "Head of operations"
+  },
+  "workspace": {
+    "name": "Poluru National",
+    "period": "Value date · 13 Sep 2026",
+    "timezone": "America / Chicago",
+    "markets": "Austin · Dallas · Houston",
+    "cutoff": "Fedwire 16:00 CT"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  { "label": "Overview", "description": "Operations pulse", "href": "#/overview", "icon": "home" },
+  { "label": "Release payment", "description": "Queue a wire or ACH", "href": "#release-payment", "icon": "plus" },
+  { "label": "Payments", "description": "Priya Poluru’s desk", "href": "#/payments", "icon": "folder" },
+  { "label": "Accounts", "description": "Leela Poluru’s book", "href": "#/accounts", "icon": "user" },
+  { "label": "Exceptions", "description": "Kavya Poluru’s queue", "href": "#/exceptions", "icon": "alert-triangle" },
+  { "label": "Screening", "description": "Nikhil Poluru’s AML", "href": "#/screening", "icon": "star" },
+  { "label": "Clearing", "description": "Arjun Poluru’s windows", "href": "#/clearing", "icon": "check" },
+  { "label": "Settings", "description": "Aurevia desk defaults", "href": "#/settings", "icon": "settings" }
+]

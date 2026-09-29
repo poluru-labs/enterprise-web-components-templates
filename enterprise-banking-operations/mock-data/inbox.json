@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Folio Fedwire is OFAC held",
+    "description": "Nikhil Poluru · ST-2401",
+    "icon": "alert-triangle",
+    "href": "#/payment/st-folio"
+  },
+  {
+    "label": "Harborwell payroll returned NSF",
+    "description": "Kavya Poluru · ST-1840",
+    "icon": "clock",
+    "href": "#/exceptions"
+  },
+  {
+    "label": "Stride RTP settled",
+    "description": "Hana Poluru · $38,400",
+    "icon": "check",
+    "href": "#/clearing"
+  },
+  {
+    "label": "Fedwire cutoff 16:00 CT",
+    "description": "Priya Poluru · wire desk",
+    "icon": "file",
+    "href": "#/payments"
+  }
+]

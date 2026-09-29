@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ex-2401",
+    "payment": "ST-2401",
+    "title": "OFAC name match on Folio",
+    "property": "Folio Mechanical Fedwire",
+    "owner": "Nikhil Poluru",
+    "date": "2026-09-13",
+    "status": "open",
+    "severity": "high"
+  },
+  {
+    "id": "ex-1840",
+    "payment": "ST-1840",
+    "title": "NSF return on Harborwell payroll",
+    "property": "Harborwell payroll ACH",
+    "owner": "Kavya Poluru",
+    "date": "2026-09-12",
+    "status": "open",
+    "severity": "high"
+  },
+  {
+    "id": "ex-8512",
+    "payment": "ST-8512",
+    "title": "SWIFT BIC mismatch",
+    "property": "Nimbus SWIFT credit",
+    "owner": "Ishaan Poluru",
+    "date": "2026-09-13",
+    "status": "watch",
+    "severity": "medium"
+  },
+  {
+    "id": "ex-3310",
+    "payment": "ST-3310",
+    "title": "Duplicate vendor invoice",
+    "property": "Quill Studio vendor wire",
+    "owner": "Priya Poluru",
+    "date": "2026-09-13",
+    "status": "watch",
+    "severity": "medium"
+  },
+  {
+    "id": "ex-2218",
+    "payment": "ST-2218",
+    "title": "Late addenda on rent ACH",
+    "property": "Alder Hall rent ACH",
+    "owner": "Rohan Poluru",
+    "date": "2026-09-12",
+    "status": "closed",
+    "severity": "low"
+  },
+  {
+    "id": "ex-4127",
+    "payment": "ST-4127",
+    "title": "Same-day cutoff risk",
+    "property": "Cedar Yard same-day ACH",
+    "owner": "Rohan Poluru",
+    "date": "2026-09-13",
+    "status": "closed",
+    "severity": "low"
+  },
+  {
+    "id": "ex-5094",
+    "payment": "ST-5094",
+    "title": "Memo vs amount mismatch",
+    "property": "Lotline Partners Fedwire",
+    "owner": "Asha Poluru",
+    "date": "2026-09-12",
+    "status": "open",
+    "severity": "medium"
+  },
+  {
+    "id": "ex-6271",
+    "payment": "ST-6271",
+    "title": "RTP confirmation delayed",
+    "property": "Stride payroll RTP",
+    "owner": "Hana Poluru",
+    "date": "2026-09-13",
+    "status": "closed",
+    "severity": "low"
+  }
+]

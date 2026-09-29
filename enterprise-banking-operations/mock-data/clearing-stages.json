@@ -1,0 +1,6 @@
+[
+  { "id": "received", "label": "Received", "count": 2, "href": "#/payments" },
+  { "id": "posted", "label": "Posted", "count": 3, "href": "#/accounts" },
+  { "id": "held", "label": "Held", "count": 2, "href": "#/exceptions", "hot": true },
+  { "id": "settled", "label": "Settled", "count": 1, "href": "#/clearing" }
+]

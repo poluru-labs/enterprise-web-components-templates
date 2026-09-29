@@ -1,0 +1,14 @@
+[
+  { "name": "Subbu Poluru", "role": "Head of operations", "squad": "Ops" },
+  { "name": "Priya Poluru", "role": "Wire desk lead", "squad": "Payments" },
+  { "name": "Kavya Poluru", "role": "Exceptions lead", "squad": "Exceptions" },
+  { "name": "Nikhil Poluru", "role": "AML officer", "squad": "Screening" },
+  { "name": "Arjun Poluru", "role": "Clearing controller", "squad": "Clearing" },
+  { "name": "Leela Poluru", "role": "Deposit ops", "squad": "Accounts" },
+  { "name": "Rohan Poluru", "role": "ACH specialist", "squad": "Payments" },
+  { "name": "Maya Poluru", "role": "OFAC analyst", "squad": "Screening" },
+  { "name": "Dev Poluru", "role": "Liquidity desk", "squad": "Treasury" },
+  { "name": "Asha Poluru", "role": "Returns clerk", "squad": "Exceptions" },
+  { "name": "Ishaan Poluru", "role": "Correspondent ops", "squad": "Clearing" },
+  { "name": "Hana Poluru", "role": "Book-transfer lead", "squad": "Payments" }
+]

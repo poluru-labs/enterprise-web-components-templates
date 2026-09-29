@@ -1,0 +1,82 @@
+[
+  {
+    "id": "scr-2401",
+    "payment": "ST-2401",
+    "title": "Possible OFAC hit · Folio Mechanical",
+    "subject": "Folio Mechanical",
+    "owner": "Maya Poluru",
+    "date": "2026-09-13",
+    "status": "open",
+    "severity": "high"
+  },
+  {
+    "id": "scr-1840",
+    "payment": "ST-1840",
+    "title": "Repeated NSF pattern",
+    "subject": "Harborwell LLC",
+    "owner": "Nikhil Poluru",
+    "date": "2026-09-12",
+    "status": "watch",
+    "severity": "medium"
+  },
+  {
+    "id": "scr-8512",
+    "payment": "ST-8512",
+    "title": "Correspondent high-risk corridor",
+    "subject": "Nimbus Low Voltage",
+    "owner": "Maya Poluru",
+    "date": "2026-09-13",
+    "status": "open",
+    "severity": "high"
+  },
+  {
+    "id": "scr-3310",
+    "payment": "ST-3310",
+    "title": "Vendor not on approved list",
+    "subject": "Quill Studio LLC",
+    "owner": "Nikhil Poluru",
+    "date": "2026-09-13",
+    "status": "watch",
+    "severity": "medium"
+  },
+  {
+    "id": "scr-5094",
+    "payment": "ST-5094",
+    "title": "Large-value wire after hours",
+    "subject": "Lotline Partners",
+    "owner": "Maya Poluru",
+    "date": "2026-09-12",
+    "status": "closed",
+    "severity": "low"
+  },
+  {
+    "id": "scr-4182",
+    "payment": "DDA-4182",
+    "title": "Unusual MMA drawdown",
+    "subject": "Folio Mechanical treasury",
+    "owner": "Dev Poluru",
+    "date": "2026-09-13",
+    "status": "open",
+    "severity": "medium"
+  },
+  {
+    "id": "scr-2218",
+    "payment": "ST-2218",
+    "title": "New originator on rent ACH",
+    "subject": "Alder Hall",
+    "owner": "Rohan Poluru",
+    "date": "2026-09-11",
+    "status": "closed",
+    "severity": "low"
+  },
+  {
+    "id": "scr-6271",
+    "payment": "ST-6271",
+    "title": "RTP payroll name variation",
+    "subject": "Stride Staffing",
+    "owner": "Hana Poluru",
+    "date": "2026-09-13",
+    "status": "closed",
+    "severity": "low"
+  }
+]
