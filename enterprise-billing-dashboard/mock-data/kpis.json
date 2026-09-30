@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Total revenue",
+    "value": "$2.48M",
+    "hint": "Trailing 12 months",
+    "trend": "up",
+    "trendValue": "+12.4%"
+  },
+  {
+    "label": "Monthly recurring",
+    "value": "$186.4K",
+    "hint": "Recognized this period",
+    "trend": "up",
+    "trendValue": "+6.1%"
+  },
+  {
+    "label": "Annual recurring",
+    "value": "$2.24M",
+    "hint": "Contracted ARR",
+    "trend": "up",
+    "trendValue": "+9.8%"
+  },
+  {
+    "label": "Outstanding",
+    "value": "$41.6K",
+    "hint": "14 open invoices",
+    "trend": "down",
+    "trendValue": "-$6.2K"
+  },
+  {
+    "label": "Collected",
+    "value": "$174.9K",
+    "hint": "This month",
+    "trend": "up",
+    "trendValue": "+8.3%"
+  },
+  {
+    "label": "Failed payments",
+    "value": "$4.18K",
+    "hint": "7 retries in flight",
+    "trend": "down",
+    "trendValue": "-11%"
+  },
+  {
+    "label": "Active subscriptions",
+    "value": "318",
+    "hint": "20 on trial",
+    "trend": "up",
+    "trendValue": "+14"
+  },
+  {
+    "label": "Churn rate",
+    "value": "1.8%",
+    "hint": "Logo churn, 30 days",
+    "trend": "down",
+    "trendValue": "-0.3 pts"
+  }
+]

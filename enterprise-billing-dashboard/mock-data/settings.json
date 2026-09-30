@@ -1,0 +1,98 @@
+{
+  "displayName": "Northshore Cloud",
+  "taxRate": "8.25%",
+  "collectSalesTax": true,
+  "showVatId": true,
+  "currency": "usd",
+  "currencies": [
+    {
+      "label": "USD",
+      "value": "usd"
+    },
+    {
+      "label": "EUR",
+      "value": "eur"
+    },
+    {
+      "label": "GBP",
+      "value": "gbp"
+    },
+    {
+      "label": "INR",
+      "value": "inr"
+    }
+  ],
+  "terms": "15",
+  "paymentTerms": [
+    {
+      "label": "Due on receipt",
+      "value": "0"
+    },
+    {
+      "label": "Net 15",
+      "value": "15"
+    },
+    {
+      "label": "Net 30",
+      "value": "30"
+    }
+  ],
+  "footer": "Thank you for building with Northshore. Questions: billing@northshore.example",
+  "gateways": [
+    {
+      "label": "Stripe connected",
+      "variant": "success"
+    },
+    {
+      "label": "ACH via Plaid",
+      "variant": "success"
+    }
+  ],
+  "notifications": [
+    {
+      "label": "Email customers when invoices are issued",
+      "enabled": true
+    },
+    {
+      "label": "Slack #revops on failed payments",
+      "enabled": true
+    },
+    {
+      "label": "Dunning sequence (3 reminders)",
+      "enabled": true
+    }
+  ],
+  "dunning": [
+    {
+      "label": "Reminder 1",
+      "value": "Day 1 · invoice issued"
+    },
+    {
+      "label": "Reminder 2",
+      "value": "Day 8 · polite follow-up"
+    },
+    {
+      "label": "Reminder 3",
+      "value": "Day 15 · pause auto-renew"
+    }
+  ],
+  "copyRevopsOnReminder3": true,
+  "fiscalYearStart": "1 February",
+  "closeDay": "last",
+  "closeDays": [
+    {
+      "label": "Last business day",
+      "value": "last"
+    },
+    {
+      "label": "Fifth of the month",
+      "value": "5"
+    },
+    {
+      "label": "Tenth of the month",
+      "value": "10"
+    }
+  ],
+  "lockPostedPeriods": true,
+  "booksClosedThrough": "31 Jul 2026"
+}

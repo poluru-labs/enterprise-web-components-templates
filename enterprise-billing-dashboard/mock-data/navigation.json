@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "house"
+  },
+  {
+    "label": "Search",
+    "href": "#/search",
+    "icon": "search"
+  },
+  {
+    "label": "Invoices",
+    "href": "#/invoices",
+    "icon": "file-earmark-text"
+  },
+  {
+    "label": "Payments",
+    "href": "#/payments",
+    "icon": "check-circle"
+  },
+  {
+    "label": "Subscriptions",
+    "href": "#/subscriptions",
+    "icon": "arrow-repeat"
+  },
+  {
+    "label": "Customers",
+    "href": "#/customers",
+    "icon": "people"
+  },
+  {
+    "label": "Analytics",
+    "href": "#/analytics",
+    "icon": "graph-up"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "gear"
+  }
+]

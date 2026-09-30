@@ -1,0 +1,16 @@
+{
+  "productName": "Verdant",
+  "productLine": "Billing",
+  "currentUser": {
+    "name": "Priya Poluru",
+    "email": "priya.poluru@northshore.example",
+    "role": "Revenue operations lead"
+  },
+  "company": {
+    "name": "Northshore Cloud, Inc.",
+    "address": "410 Market Street, Suite 12, Austin, TX 78701",
+    "taxId": "EIN 84-2291840",
+    "currency": "USD",
+    "terms": "Net 15"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Nimbus Retail",
+    "amount": "$8,400",
+    "hint": "INV-2840 · ACH return R01",
+    "href": "#/invoice/INV-2840",
+    "tone": "Overdue"
+  },
+  {
+    "title": "Lumen Health",
+    "amount": "$18,200",
+    "hint": "INV-2839 · originating bank review",
+    "href": "#/invoice/INV-2839",
+    "tone": "Disputed"
+  },
+  {
+    "title": "Kite Studio",
+    "amount": "$540",
+    "hint": "Starter trial ends 28 Aug",
+    "href": "#/customer/cus_kite",
+    "tone": "Trial"
+  },
+  {
+    "title": "Fieldwork Inc",
+    "amount": "$2,160",
+    "hint": "INV-2836 due 19 Aug",
+    "href": "#/invoice/INV-2836",
+    "tone": "Pending"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Invoice aging",
+    "description": "Open AR by 0–30 / 31–60 / 61–90 / 90+",
+    "owner": "Priya Poluru",
+    "updated": "Today 07:10"
+  },
+  {
+    "name": "Payment reconciliation",
+    "description": "Gateway captures vs general ledger",
+    "owner": "Arjun Poluru",
+    "updated": "Today 06:40"
+  },
+  {
+    "name": "Subscription retention",
+    "description": "Cohort logos and NRR by plan",
+    "owner": "Meera Poluru",
+    "updated": "Yesterday"
+  },
+  {
+    "name": "Tax summary",
+    "description": "Sales tax and VAT collected by region",
+    "owner": "Sahana Rao",
+    "updated": "Monday"
+  },
+  {
+    "name": "Dunning effectiveness",
+    "description": "Reminder sequences and recovery rate",
+    "owner": "Priya Poluru",
+    "updated": "Friday"
+  },
+  {
+    "name": "Revenue recognition",
+    "description": "Deferred vs recognized by contract",
+    "owner": "Sravani Poluru",
+    "updated": "Thursday"
+  },
+  {
+    "name": "Collections forecast",
+    "description": "Expected cash from open invoices by week",
+    "owner": "Vikram Poluru",
+    "updated": "Wednesday"
+  },
+  {
+    "name": "Plan mix",
+    "description": "MRR concentration across Starter through Enterprise",
+    "owner": "Nikhil Poluru",
+    "updated": "Tuesday"
+  }
+]

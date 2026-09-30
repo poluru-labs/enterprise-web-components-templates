@@ -1,0 +1,32 @@
+[
+  {
+    "title": "INV-2841 collected",
+    "description": "Harbor & Co. · Mastercard 8891",
+    "timestamp": "2 minutes ago",
+    "status": "complete"
+  },
+  {
+    "title": "ACH return on INV-2840",
+    "description": "Nimbus Retail · R01 insufficient funds",
+    "timestamp": "1 hour ago",
+    "status": "current"
+  },
+  {
+    "title": "Trial started",
+    "description": "Kite Studio · Starter, 14 days remaining",
+    "timestamp": "Yesterday",
+    "status": "complete"
+  },
+  {
+    "title": "Dunning email queued",
+    "description": "Lumen Health · reminder 2 of 3",
+    "timestamp": "Yesterday",
+    "status": "upcoming"
+  },
+  {
+    "title": "INV-2842 collected",
+    "description": "Cedar Analytics · Visa 7788",
+    "timestamp": "20 Aug",
+    "status": "complete"
+  }
+]

@@ -1,0 +1,265 @@
+{
+  "columns": [
+    {
+      "key": "id",
+      "label": "Invoice",
+      "sortable": true
+    },
+    {
+      "key": "customer",
+      "label": "Customer",
+      "sortable": true
+    },
+    {
+      "key": "issued",
+      "label": "Issued",
+      "sortable": true
+    },
+    {
+      "key": "due",
+      "label": "Due",
+      "sortable": true
+    },
+    {
+      "key": "amount",
+      "label": "Amount",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    },
+    {
+      "key": "method",
+      "label": "Method",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "INV-2841",
+      "customer": "Harbor & Co.",
+      "customerId": "cus_harbor",
+      "issued": "2026-08-01",
+      "due": "2026-08-15",
+      "amount": "$18,400",
+      "status": "Paid",
+      "method": "Mastercard · 8891"
+    },
+    {
+      "id": "INV-2840",
+      "customer": "Nimbus Retail",
+      "customerId": "cus_nimbus",
+      "issued": "2026-08-01",
+      "due": "2026-08-15",
+      "amount": "$8,400",
+      "status": "Overdue",
+      "method": "ACH"
+    },
+    {
+      "id": "INV-2839",
+      "customer": "Lumen Health",
+      "customerId": "cus_lumen",
+      "issued": "2026-07-28",
+      "due": "2026-08-12",
+      "amount": "$18,200",
+      "status": "Overdue",
+      "method": "Wire"
+    },
+    {
+      "id": "INV-2838",
+      "customer": "Brightline Labs",
+      "customerId": "cus_brightline",
+      "issued": "2026-08-01",
+      "due": "2026-08-15",
+      "amount": "$2,400",
+      "status": "Paid",
+      "method": "Visa · 4242"
+    },
+    {
+      "id": "INV-2837",
+      "customer": "Oak & Pine",
+      "customerId": "cus_oak",
+      "issued": "2026-08-01",
+      "due": "2026-08-15",
+      "amount": "$6,800",
+      "status": "Paid",
+      "method": "ACH"
+    },
+    {
+      "id": "INV-2836",
+      "customer": "Fieldwork Inc",
+      "customerId": "cus_field",
+      "issued": "2026-08-04",
+      "due": "2026-08-19",
+      "amount": "$2,160",
+      "status": "Pending",
+      "method": "Amex · 3004"
+    },
+    {
+      "id": "INV-2835",
+      "customer": "Kite Studio",
+      "customerId": "cus_kite",
+      "issued": "2026-08-06",
+      "due": "2026-08-21",
+      "amount": "$540",
+      "status": "Pending",
+      "method": "Visa · 5512"
+    },
+    {
+      "id": "INV-2834",
+      "customer": "Paperplane",
+      "customerId": "cus_paper",
+      "issued": "2026-07-01",
+      "due": "2026-07-15",
+      "amount": "$390",
+      "status": "Cancelled",
+      "method": "Visa · 0019"
+    },
+    {
+      "id": "INV-2833",
+      "customer": "Harbor & Co.",
+      "customerId": "cus_harbor",
+      "issued": "2026-07-01",
+      "due": "2026-07-15",
+      "amount": "$18,400",
+      "status": "Paid",
+      "method": "Mastercard · 8891"
+    },
+    {
+      "id": "INV-2832",
+      "customer": "Brightline Labs",
+      "customerId": "cus_brightline",
+      "issued": "2026-08-12",
+      "due": "2026-08-27",
+      "amount": "$2,400",
+      "status": "Draft",
+      "method": "—"
+    },
+    {
+      "id": "INV-2842",
+      "customer": "Cedar Analytics",
+      "customerId": "cus_cedar",
+      "issued": "2026-08-18",
+      "due": "2026-09-02",
+      "amount": "$5,360",
+      "status": "Paid",
+      "method": "Visa · 7788"
+    },
+    {
+      "id": "INV-2843",
+      "customer": "Summit Forge",
+      "customerId": "cus_summit",
+      "issued": "2026-08-22",
+      "due": "2026-09-06",
+      "amount": "$1,280",
+      "status": "Pending",
+      "method": "ACH"
+    },
+    {
+      "id": "INV-2844",
+      "customer": "Cedar Analytics",
+      "customerId": "cus_cedar",
+      "issued": "2026-09-01",
+      "due": "2026-09-16",
+      "amount": "$5,360",
+      "status": "Pending",
+      "method": "Visa · 7788"
+    },
+    {
+      "id": "INV-2845",
+      "customer": "Nimbus Retail",
+      "customerId": "cus_nimbus",
+      "issued": "2026-09-01",
+      "due": "2026-09-16",
+      "amount": "$8,400",
+      "status": "Pending",
+      "method": "ACH"
+    }
+  ],
+  "lines": {
+    "INV-2841": [
+      {
+        "item": "Enterprise platform · Aug 2026",
+        "qty": 1,
+        "rate": "$16,000",
+        "total": "$16,000"
+      },
+      {
+        "item": "Priority support",
+        "qty": 1,
+        "rate": "$1,500",
+        "total": "$1,500"
+      },
+      {
+        "item": "SSO add-on",
+        "qty": 1,
+        "rate": "$900",
+        "total": "$900"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "title": "Invoice issued",
+      "description": "Sent to billing@harborco.example",
+      "timestamp": "1 Aug · 09:12",
+      "status": "complete"
+    },
+    {
+      "title": "Viewed by customer",
+      "description": "Meera Poluru opened the hosted invoice",
+      "timestamp": "1 Aug · 11:40",
+      "status": "complete"
+    },
+    {
+      "title": "Payment captured",
+      "description": "Mastercard · 8891 · AUTH 9F32",
+      "timestamp": "2 Aug · 08:04",
+      "status": "complete"
+    },
+    {
+      "title": "Receipt delivered",
+      "description": "PDF stored in customer vault",
+      "timestamp": "2 Aug · 08:05",
+      "status": "current"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Paid",
+      "value": "paid"
+    },
+    {
+      "label": "Pending",
+      "value": "pending"
+    },
+    {
+      "label": "Overdue",
+      "value": "overdue"
+    },
+    {
+      "label": "Draft",
+      "value": "draft"
+    },
+    {
+      "label": "Cancelled",
+      "value": "cancelled"
+    }
+  ],
+  "preview": {
+    "id": "INV-2841",
+    "customer": "Harbor & Co.",
+    "issued": "1 Aug 2026",
+    "due": "15 Aug 2026",
+    "amount": "$18,400",
+    "method": "Mastercard 8891",
+    "status": "Paid",
+    "summary": "Enterprise platform, priority support, and SSO for August."
+  }
+}

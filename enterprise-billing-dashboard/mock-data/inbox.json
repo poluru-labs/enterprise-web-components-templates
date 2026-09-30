@@ -1,0 +1,22 @@
+[
+  {
+    "label": "INV-2840 overdue",
+    "description": "Nimbus Retail · $8,400",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "INV-2839 disputed",
+    "description": "Lumen Health · wire",
+    "icon": "warning"
+  },
+  {
+    "label": "Trial ending",
+    "description": "Kite Studio in 6 days",
+    "icon": "clock"
+  },
+  {
+    "label": "INV-2845 pending",
+    "description": "Nimbus Retail · Sep cycle",
+    "icon": "file"
+  }
+]

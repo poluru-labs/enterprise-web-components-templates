@@ -1,0 +1,17 @@
+[
+  {
+    "label": "MRR",
+    "value": "$186.4K",
+    "hint": "Recognized Sep 2026"
+  },
+  {
+    "label": "Open AR",
+    "value": "$41.6K",
+    "hint": "14 open invoices"
+  },
+  {
+    "label": "Dunning",
+    "value": "3",
+    "hint": "Reminders in flight"
+  }
+]

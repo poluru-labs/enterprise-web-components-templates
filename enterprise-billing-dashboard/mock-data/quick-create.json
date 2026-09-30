@@ -1,0 +1,19 @@
+{
+  "customerPlaceholder": "Harbor & Co.",
+  "amount": 2400,
+  "kinds": [
+    {
+      "label": "Invoice",
+      "value": "invoice"
+    },
+    {
+      "label": "Payment",
+      "value": "payment"
+    },
+    {
+      "label": "Customer",
+      "value": "customer"
+    }
+  ],
+  "memoPlaceholder": "August platform fee plus support."
+}

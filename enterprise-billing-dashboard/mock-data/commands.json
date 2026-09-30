@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Search ledger",
+    "description": "Invoices, customers, payments",
+    "href": "#/search",
+    "icon": "search"
+  },
+  {
+    "label": "Create invoice",
+    "description": "Draft a new receivable",
+    "href": "#/invoices",
+    "icon": "plus"
+  },
+  {
+    "label": "Record payment",
+    "description": "Apply cash to an invoice",
+    "href": "#/payments",
+    "icon": "check"
+  },
+  {
+    "label": "Add customer",
+    "description": "Open the directory",
+    "href": "#/customers",
+    "icon": "user"
+  },
+  {
+    "label": "Export report",
+    "description": "Aging, recon, tax",
+    "href": "#/reports",
+    "icon": "download"
+  }
+]

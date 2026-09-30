@@ -1,0 +1,171 @@
+{
+  "columns": [
+    {
+      "key": "company",
+      "label": "Company",
+      "sortable": true
+    },
+    {
+      "key": "contact",
+      "label": "Contact",
+      "sortable": true
+    },
+    {
+      "key": "plan",
+      "label": "Plan",
+      "sortable": true
+    },
+    {
+      "key": "ltv",
+      "label": "LTV",
+      "sortable": true
+    },
+    {
+      "key": "invoices",
+      "label": "Invoices",
+      "sortable": true
+    },
+    {
+      "key": "outstanding",
+      "label": "Outstanding",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "cus_brightline",
+      "company": "Brightline Labs",
+      "contact": "Kavya Poluru",
+      "email": "kavya@brightline.example",
+      "plan": "Growth",
+      "ltv": "$48,200",
+      "invoices": 14,
+      "outstanding": "$0",
+      "status": "Active",
+      "address": "88 Folsom St, San Francisco, CA 94105",
+      "method": "Visa · 4242"
+    },
+    {
+      "id": "cus_nimbus",
+      "company": "Nimbus Retail",
+      "contact": "Arjun Poluru",
+      "email": "arjun@nimbus.example",
+      "plan": "Scale",
+      "ltv": "$126,400",
+      "invoices": 22,
+      "outstanding": "$8,400",
+      "status": "Past due",
+      "address": "200 West Lake, Chicago, IL 60601",
+      "method": "ACH · Bank of the Lake"
+    },
+    {
+      "id": "cus_harbor",
+      "company": "Harbor & Co.",
+      "contact": "Meera Poluru",
+      "email": "billing@harborco.example",
+      "plan": "Enterprise",
+      "ltv": "$312,000",
+      "invoices": 36,
+      "outstanding": "$0",
+      "status": "Active",
+      "address": "1 Canada Square, London E14 5AB",
+      "method": "Mastercard · 8891"
+    },
+    {
+      "id": "cus_kite",
+      "company": "Kite Studio",
+      "contact": "Rohan Kapoor",
+      "email": "rohan@kitestudio.example",
+      "plan": "Starter",
+      "ltv": "$6,480",
+      "invoices": 8,
+      "outstanding": "$540",
+      "status": "Trial",
+      "address": "14 Banjara Hills, Hyderabad 500034",
+      "method": "Visa · 5512"
+    },
+    {
+      "id": "cus_oak",
+      "company": "Oak & Pine",
+      "contact": "Sahana Rao",
+      "email": "finance@oakpine.example",
+      "plan": "Scale",
+      "ltv": "$91,750",
+      "invoices": 19,
+      "outstanding": "$0",
+      "status": "Active",
+      "address": "500 Boren Ave, Seattle, WA 98109",
+      "method": "ACH · First National"
+    },
+    {
+      "id": "cus_lumen",
+      "company": "Lumen Health",
+      "contact": "Nikhil Poluru",
+      "email": "ap@lumenhealth.example",
+      "plan": "Enterprise",
+      "ltv": "$248,900",
+      "invoices": 28,
+      "outstanding": "$18,200",
+      "status": "Past due",
+      "address": "77 Massachusetts Ave, Cambridge, MA 02139",
+      "method": "Wire · pending"
+    },
+    {
+      "id": "cus_paper",
+      "company": "Paperplane",
+      "contact": "Diya Shah",
+      "email": "diya@paperplane.example",
+      "plan": "Starter",
+      "ltv": "$3,120",
+      "invoices": 4,
+      "outstanding": "$0",
+      "status": "Cancelled",
+      "address": "9 King St W, Toronto ON M5H 1A1",
+      "method": "Visa · 0019"
+    },
+    {
+      "id": "cus_field",
+      "company": "Fieldwork Inc",
+      "contact": "Tara Joshi",
+      "email": "tara@fieldwork.example",
+      "plan": "Growth",
+      "ltv": "$22,680",
+      "invoices": 11,
+      "outstanding": "$2,160",
+      "status": "Active",
+      "address": "3300 N Central, Phoenix, AZ 85012",
+      "method": "Amex · 3004"
+    },
+    {
+      "id": "cus_cedar",
+      "company": "Cedar Analytics",
+      "contact": "Sravani Poluru",
+      "email": "sravani@cedaranalytics.example",
+      "plan": "Scale",
+      "ltv": "$64,300",
+      "invoices": 12,
+      "outstanding": "$0",
+      "status": "Active",
+      "address": "1200 Peachtree St, Atlanta, GA 30309",
+      "method": "Visa · 7788"
+    },
+    {
+      "id": "cus_summit",
+      "company": "Summit Forge",
+      "contact": "Vikram Poluru",
+      "email": "vikram@summitforge.example",
+      "plan": "Growth",
+      "ltv": "$18,960",
+      "invoices": 6,
+      "outstanding": "$1,280",
+      "status": "Active",
+      "address": "45 Fremont St, San Francisco, CA 94105",
+      "method": "ACH · Summit Bank"
+    }
+  ]
+}

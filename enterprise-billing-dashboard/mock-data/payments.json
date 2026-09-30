@@ -1,0 +1,263 @@
+{
+  "columns": [
+    {
+      "key": "id",
+      "label": "Transaction",
+      "sortable": true
+    },
+    {
+      "key": "customer",
+      "label": "Customer",
+      "sortable": true
+    },
+    {
+      "key": "amount",
+      "label": "Amount",
+      "sortable": true
+    },
+    {
+      "key": "method",
+      "label": "Method",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    },
+    {
+      "key": "date",
+      "label": "Date",
+      "sortable": true
+    },
+    {
+      "key": "invoice",
+      "label": "Invoice",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "pay_9f32",
+      "customer": "Harbor & Co.",
+      "amount": "$18,400",
+      "method": "Card",
+      "status": "Collected",
+      "date": "2026-08-02",
+      "invoice": "INV-2841"
+    },
+    {
+      "id": "pay_8c11",
+      "customer": "Brightline Labs",
+      "amount": "$2,400",
+      "method": "Card",
+      "status": "Collected",
+      "date": "2026-08-02",
+      "invoice": "INV-2838"
+    },
+    {
+      "id": "pay_7b20",
+      "customer": "Oak & Pine",
+      "amount": "$6,800",
+      "method": "ACH",
+      "status": "Collected",
+      "date": "2026-08-03",
+      "invoice": "INV-2837"
+    },
+    {
+      "id": "pay_6a44",
+      "customer": "Nimbus Retail",
+      "amount": "$8,400",
+      "method": "ACH",
+      "status": "Failed",
+      "date": "2026-08-15",
+      "invoice": "INV-2840"
+    },
+    {
+      "id": "pay_5d90",
+      "customer": "Kite Studio",
+      "amount": "$120",
+      "method": "Card",
+      "status": "Refunded",
+      "date": "2026-08-08",
+      "invoice": "INV-2820"
+    },
+    {
+      "id": "pay_4e18",
+      "customer": "Fieldwork Inc",
+      "amount": "$2,160",
+      "method": "Card",
+      "status": "Pending",
+      "date": "2026-08-19",
+      "invoice": "INV-2836"
+    },
+    {
+      "id": "pay_3c77",
+      "customer": "Lumen Health",
+      "amount": "$18,200",
+      "method": "Wire",
+      "status": "Disputed",
+      "date": "2026-08-12",
+      "invoice": "INV-2839"
+    },
+    {
+      "id": "pay_2b01",
+      "customer": "Harbor & Co.",
+      "amount": "$18,400",
+      "method": "Card",
+      "status": "Collected",
+      "date": "2026-07-02",
+      "invoice": "INV-2833"
+    },
+    {
+      "id": "pay_1a88",
+      "customer": "Cedar Analytics",
+      "amount": "$5,360",
+      "method": "Card",
+      "status": "Collected",
+      "date": "2026-08-20",
+      "invoice": "INV-2842"
+    },
+    {
+      "id": "pay_0f55",
+      "customer": "Summit Forge",
+      "amount": "$640",
+      "method": "ACH",
+      "status": "Collected",
+      "date": "2026-08-25",
+      "invoice": "INV-2830"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Collected",
+      "value": "$174.9K",
+      "hint": "August to date",
+      "trend": "up",
+      "trendValue": "+8.3%"
+    },
+    {
+      "label": "Refunds",
+      "value": "$1.24K",
+      "hint": "3 credits issued",
+      "trend": "flat",
+      "trendValue": "Stable"
+    },
+    {
+      "label": "Failed",
+      "value": "$4.18K",
+      "hint": "Retry window 3 days",
+      "trend": "down",
+      "trendValue": "-11%"
+    },
+    {
+      "label": "Average ticket",
+      "value": "$2,860",
+      "hint": "Successful charges",
+      "trend": "up",
+      "trendValue": "+$90"
+    }
+  ],
+  "exceptions": [
+    {
+      "title": "Dispute open",
+      "message": "Lumen Health INV-2839 · $18,200 wire is in review with the originating bank.",
+      "variant": "danger"
+    },
+    {
+      "title": "ACH return",
+      "message": "Nimbus Retail INV-2840 failed with R01. Next retry 26 Aug.",
+      "variant": "warning"
+    },
+    {
+      "title": "Retry window",
+      "message": "Seven failed charges totaling $4.18K retry automatically over the next 72 hours.",
+      "variant": "warning"
+    },
+    {
+      "title": "Refund issued",
+      "message": "Kite Studio $120 goodwill credit posted against INV-2820.",
+      "variant": "neutral"
+    }
+  ],
+  "mix": [
+    {
+      "label": "Cards",
+      "value": "61%",
+      "hint": "Visa, Mastercard, Amex · fastest settlement"
+    },
+    {
+      "label": "ACH",
+      "value": "27%",
+      "hint": "Bank of the Lake and Summit Bank returns sit here"
+    },
+    {
+      "label": "Wire",
+      "value": "12%",
+      "hint": "Enterprise invoices above $10k"
+    },
+    {
+      "label": "Average ticket",
+      "value": "$2,860",
+      "hint": "Successful captures in August"
+    }
+  ],
+  "methods": [
+    {
+      "label": "All methods",
+      "value": ""
+    },
+    {
+      "label": "Card",
+      "value": "card"
+    },
+    {
+      "label": "ACH",
+      "value": "ach"
+    },
+    {
+      "label": "Wire",
+      "value": "wire"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Collected",
+      "value": "collected"
+    },
+    {
+      "label": "Failed",
+      "value": "failed"
+    },
+    {
+      "label": "Refunded",
+      "value": "refunded"
+    },
+    {
+      "label": "Disputed",
+      "value": "disputed"
+    }
+  ],
+  "outcomes": [
+    {
+      "label": "Collected",
+      "share": 88
+    },
+    {
+      "label": "Pending",
+      "share": 7
+    },
+    {
+      "label": "Failed",
+      "share": 3
+    },
+    {
+      "label": "Refunded",
+      "share": 2
+    }
+  ]
+}

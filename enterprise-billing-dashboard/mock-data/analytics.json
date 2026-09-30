@@ -1,0 +1,100 @@
+{
+  "pulse": [
+    {
+      "label": "Net new MRR",
+      "value": "+$9.5K",
+      "hint": "New + expansion − churn this month"
+    },
+    {
+      "label": "Net revenue retain",
+      "value": "118%",
+      "hint": "Trailing twelve months"
+    },
+    {
+      "label": "Expansion",
+      "value": "+$12.6K",
+      "hint": "Seat and plan upgrades"
+    },
+    {
+      "label": "Refunds",
+      "value": "$1.24K",
+      "hint": "Three credits issued in August"
+    }
+  ],
+  "revenueMonths": [
+    142,
+    148,
+    151,
+    158,
+    162,
+    169,
+    174,
+    179,
+    181,
+    184,
+    186,
+    188
+  ],
+  "planMix": [
+    {
+      "plan": "Enterprise",
+      "amount": "$36.6k MRR",
+      "share": 44
+    },
+    {
+      "plan": "Scale",
+      "amount": "$15.2k",
+      "share": 28
+    },
+    {
+      "plan": "Growth",
+      "amount": "$11.0k",
+      "share": 18
+    },
+    {
+      "plan": "Starter",
+      "amount": "$3.6k",
+      "share": 10
+    }
+  ],
+  "regions": [
+    {
+      "name": "Americas",
+      "share": 46
+    },
+    {
+      "name": "EMEA",
+      "share": 31
+    },
+    {
+      "name": "APAC",
+      "share": 23
+    }
+  ],
+  "movement": [
+    {
+      "term": "MRR",
+      "description": "$186.4k"
+    },
+    {
+      "term": "ARR",
+      "description": "$2.24M"
+    },
+    {
+      "term": "New / expansion",
+      "description": "+$12.6k"
+    },
+    {
+      "term": "Churned",
+      "description": "-$3.1k"
+    },
+    {
+      "term": "Refunds",
+      "description": "$1.24k"
+    },
+    {
+      "term": "Net new",
+      "description": "+$9.5k"
+    }
+  ]
+}
