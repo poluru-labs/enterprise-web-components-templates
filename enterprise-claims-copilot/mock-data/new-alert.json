@@ -1,0 +1,20 @@
+{
+  "namePlaceholder": "Fulfillment SLA below 96%",
+  "threshold": 96,
+  "severity": "amber",
+  "severities": [
+    {
+      "label": "Info",
+      "value": "green"
+    },
+    {
+      "label": "Amber",
+      "value": "amber"
+    },
+    {
+      "label": "Red",
+      "value": "red"
+    }
+  ],
+  "runbookPlaceholder": "Who to page and what to check first."
+}

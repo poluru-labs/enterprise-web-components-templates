@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Mira Poluru",
+    "role": "Head of performance",
+    "squad": "Office of the CEO",
+    "rating": 5,
+    "score": 94
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "CFO",
+    "squad": "Finance",
+    "rating": 5,
+    "score": 92
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "VP growth",
+    "squad": "Growth",
+    "rating": 5,
+    "score": 88
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "VP product",
+    "squad": "Product",
+    "rating": 4,
+    "score": 74
+  },
+  {
+    "name": "Elena Poluru",
+    "role": "Chief people officer",
+    "squad": "People",
+    "rating": 5,
+    "score": 86
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "COO",
+    "squad": "Operations",
+    "rating": 4,
+    "score": 61
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "VP customer",
+    "squad": "Customer",
+    "rating": 5,
+    "score": 90
+  },
+  {
+    "name": "Hana Poluru",
+    "role": "Controller",
+    "squad": "Finance",
+    "rating": 4,
+    "score": 84
+  },
+  {
+    "name": "Luca Poluru",
+    "role": "RevOps lead",
+    "squad": "Growth",
+    "rating": 4,
+    "score": 81
+  },
+  {
+    "name": "Sahana Poluru",
+    "role": "People analytics",
+    "squad": "People",
+    "rating": 4,
+    "score": 79
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "VP engineering",
+    "squad": "Technology",
+    "rating": 5,
+    "score": 84
+  },
+  {
+    "name": "Anika Poluru",
+    "role": "CISO",
+    "squad": "Security",
+    "rating": 4,
+    "score": 78
+  }
+]

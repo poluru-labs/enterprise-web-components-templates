@@ -1,0 +1,52 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Scorecards",
+    "href": "#/scorecards",
+    "icon": "star"
+  },
+  {
+    "label": "Goals",
+    "href": "#/goals",
+    "icon": "check"
+  },
+  {
+    "label": "Trends",
+    "href": "#/trends",
+    "icon": "file"
+  },
+  {
+    "label": "Teams",
+    "href": "#/teams",
+    "icon": "user"
+  },
+  {
+    "label": "Alerts",
+    "href": "#/alerts",
+    "icon": "bell"
+  },
+  {
+    "label": "Reviews",
+    "href": "#/reviews",
+    "icon": "eye"
+  },
+  {
+    "label": "Benchmarks",
+    "href": "#/benchmarks",
+    "icon": "folder"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

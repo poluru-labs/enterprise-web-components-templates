@@ -1,0 +1,33 @@
+{
+  "steps": [
+    {
+      "label": "Metric",
+      "description": "Name and owner"
+    },
+    {
+      "label": "Target",
+      "description": "Thresholds"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "namePlaceholder": "e.g. Customer experience",
+  "startingHealth": 80,
+  "focuses": [
+    {
+      "label": "Revenue",
+      "value": "revenue"
+    },
+    {
+      "label": "Quality",
+      "value": "quality"
+    },
+    {
+      "label": "People",
+      "value": "people"
+    }
+  ],
+  "defaultFocus": "revenue"
+}

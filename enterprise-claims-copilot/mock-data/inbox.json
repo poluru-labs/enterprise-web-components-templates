@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Fulfillment SLA is red",
+    "description": "Rohan Poluru · Operations",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Board pack due Thursday",
+    "description": "Mira Poluru · 16:00",
+    "icon": "clock"
+  },
+  {
+    "label": "NPS recovered in EMEA",
+    "description": "Priya Poluru · Customer",
+    "icon": "check"
+  },
+  {
+    "label": "SOC 2 evidence due 6 Sep",
+    "description": "Anika Poluru · Security",
+    "icon": "folder"
+  }
+]

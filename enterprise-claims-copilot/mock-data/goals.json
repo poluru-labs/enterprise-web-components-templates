@@ -1,0 +1,103 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Goal",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "scorecard",
+      "label": "Scorecard"
+    },
+    {
+      "key": "progress",
+      "label": "Progress"
+    },
+    {
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "id": "g1",
+      "name": "Close Q3 at $19.2M",
+      "owner": "Arjun Poluru",
+      "scorecard": "Finance",
+      "progress": 86,
+      "target": "19 Sep",
+      "status": "On track"
+    },
+    {
+      "id": "g2",
+      "name": "Hold NRR above 115%",
+      "owner": "Kavya Poluru",
+      "scorecard": "Growth",
+      "progress": 94,
+      "target": "30 Sep",
+      "status": "On track"
+    },
+    {
+      "id": "g3",
+      "name": "Ship adoption to 40%",
+      "owner": "Nikhil Poluru",
+      "scorecard": "Product",
+      "progress": 58,
+      "target": "12 Oct",
+      "status": "Watch"
+    },
+    {
+      "id": "g4",
+      "name": "Attrition under 8%",
+      "owner": "Elena Poluru",
+      "scorecard": "People",
+      "progress": 80,
+      "target": "31 Dec",
+      "status": "On track"
+    },
+    {
+      "id": "g5",
+      "name": "Fulfillment SLA 98%",
+      "owner": "Rohan Poluru",
+      "scorecard": "Operations",
+      "progress": 64,
+      "target": "15 Sep",
+      "status": "At risk"
+    },
+    {
+      "id": "g6",
+      "name": "NPS 65 by year end",
+      "owner": "Priya Poluru",
+      "scorecard": "Customer",
+      "progress": 78,
+      "target": "31 Dec",
+      "status": "On track"
+    },
+    {
+      "id": "g7",
+      "name": "Platform uptime 99.95%",
+      "owner": "Dev Poluru",
+      "scorecard": "Technology",
+      "progress": 91,
+      "target": "30 Sep",
+      "status": "On track"
+    },
+    {
+      "id": "g8",
+      "name": "Close SOC 2 Type II",
+      "owner": "Anika Poluru",
+      "scorecard": "Security",
+      "progress": 72,
+      "target": "15 Nov",
+      "status": "Watch"
+    }
+  ]
+}

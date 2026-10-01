@@ -1,0 +1,37 @@
+[
+  {
+    "id": "overview",
+    "label": "Overview",
+    "icon": "grid-1x2"
+  },
+  {
+    "id": "properties",
+    "label": "Properties",
+    "icon": "buildings"
+  },
+  {
+    "id": "reservations",
+    "label": "Reservations",
+    "icon": "calendar2-check"
+  },
+  {
+    "id": "occupancy",
+    "label": "Occupancy",
+    "icon": "door-open"
+  },
+  {
+    "id": "housekeeping",
+    "label": "Housekeeping",
+    "icon": "stars"
+  },
+  {
+    "id": "issues",
+    "label": "Guest issues",
+    "icon": "chat-square-text"
+  },
+  {
+    "id": "revenue",
+    "label": "Revenue",
+    "icon": "graph-up-arrow"
+  }
+]

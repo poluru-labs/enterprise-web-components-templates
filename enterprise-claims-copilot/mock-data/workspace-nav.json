@@ -1,0 +1,47 @@
+[
+  {
+    "id": "overview",
+    "label": "Overview",
+    "icon": "grid"
+  },
+  {
+    "id": "scorecards",
+    "label": "Scorecards",
+    "icon": "clipboard-data"
+  },
+  {
+    "id": "goals",
+    "label": "Goals & targets",
+    "icon": "bullseye"
+  },
+  {
+    "id": "trends",
+    "label": "Analytics",
+    "icon": "graph-up-arrow"
+  },
+  {
+    "id": "teams",
+    "label": "Team",
+    "icon": "people"
+  },
+  {
+    "id": "reports",
+    "label": "Reports",
+    "icon": "file-earmark-bar-graph"
+  },
+  {
+    "id": "alerts",
+    "label": "Notifications",
+    "icon": "bell"
+  },
+  {
+    "id": "settings",
+    "label": "Settings",
+    "icon": "gear"
+  },
+  {
+    "id": "help",
+    "label": "Help & resources",
+    "icon": "question-circle"
+  }
+]

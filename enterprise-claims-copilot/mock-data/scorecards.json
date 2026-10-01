@@ -1,0 +1,172 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Scorecard",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "health",
+      "label": "Health"
+    },
+    {
+      "key": "kpis",
+      "label": "KPIs"
+    },
+    {
+      "key": "updated",
+      "label": "Updated"
+    }
+  ],
+  "rows": [
+    {
+      "id": "sc_finance",
+      "name": "Finance",
+      "owner": "Arjun Poluru",
+      "status": "On track",
+      "health": 92,
+      "kpis": 8,
+      "updated": "29 Aug 2026",
+      "focus": "Margin and cash"
+    },
+    {
+      "id": "sc_growth",
+      "name": "Growth",
+      "owner": "Kavya Poluru",
+      "status": "On track",
+      "health": 88,
+      "kpis": 10,
+      "updated": "28 Aug 2026",
+      "focus": "Pipeline and NRR"
+    },
+    {
+      "id": "sc_product",
+      "name": "Product",
+      "owner": "Nikhil Poluru",
+      "status": "Watch",
+      "health": 74,
+      "kpis": 7,
+      "updated": "28 Aug 2026",
+      "focus": "Adoption of 1.8"
+    },
+    {
+      "id": "sc_people",
+      "name": "People",
+      "owner": "Elena Poluru",
+      "status": "On track",
+      "health": 86,
+      "kpis": 6,
+      "updated": "27 Aug 2026",
+      "focus": "Attrition under 8%"
+    },
+    {
+      "id": "sc_ops",
+      "name": "Operations",
+      "owner": "Rohan Poluru",
+      "status": "At risk",
+      "health": 61,
+      "kpis": 9,
+      "updated": "29 Aug 2026",
+      "focus": "Fulfillment SLA"
+    },
+    {
+      "id": "sc_customer",
+      "name": "Customer",
+      "owner": "Priya Poluru",
+      "status": "On track",
+      "health": 90,
+      "kpis": 8,
+      "updated": "29 Aug 2026",
+      "focus": "NPS and CSAT"
+    },
+    {
+      "id": "sc_technology",
+      "name": "Technology",
+      "owner": "Dev Poluru",
+      "status": "On track",
+      "health": 84,
+      "kpis": 7,
+      "updated": "30 Aug 2026",
+      "focus": "Platform reliability"
+    },
+    {
+      "id": "sc_security",
+      "name": "Security",
+      "owner": "Anika Poluru",
+      "status": "Watch",
+      "health": 78,
+      "kpis": 5,
+      "updated": "30 Aug 2026",
+      "focus": "SOC 2 readiness"
+    }
+  ],
+  "tree": [
+    {
+      "id": "company",
+      "label": "Clearline",
+      "children": [
+        {
+          "id": "finance",
+          "label": "Finance",
+          "href": "#/scorecard/sc_finance"
+        },
+        {
+          "id": "growth",
+          "label": "Growth",
+          "href": "#/scorecard/sc_growth"
+        },
+        {
+          "id": "product",
+          "label": "Product",
+          "href": "#/scorecard/sc_product"
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "label": "Run the firm",
+      "children": [
+        {
+          "id": "people",
+          "label": "People",
+          "href": "#/scorecard/sc_people"
+        },
+        {
+          "id": "ops",
+          "label": "Operations",
+          "href": "#/scorecard/sc_ops"
+        },
+        {
+          "id": "customer",
+          "label": "Customer",
+          "href": "#/scorecard/sc_customer"
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform",
+      "children": [
+        {
+          "id": "technology",
+          "label": "Technology",
+          "href": "#/scorecard/sc_technology"
+        },
+        {
+          "id": "security",
+          "label": "Security",
+          "href": "#/scorecard/sc_security"
+        }
+      ]
+    }
+  ]
+}

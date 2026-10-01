@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Revenue",
+    "value": "$18.4M",
+    "hint": "Q3 to date vs $17.1M plan",
+    "trend": "up",
+    "trendValue": "+7.6%"
+  },
+  {
+    "label": "Net revenue retain",
+    "value": "118%",
+    "hint": "Expansion beating churn",
+    "trend": "up",
+    "trendValue": "+4 pts"
+  },
+  {
+    "label": "Gross margin",
+    "value": "71.2%",
+    "hint": "Target 70%",
+    "trend": "up",
+    "trendValue": "+1.2 pts"
+  },
+  {
+    "label": "NPS",
+    "value": "62",
+    "hint": "Promoters 71%",
+    "trend": "up",
+    "trendValue": "+5"
+  },
+  {
+    "label": "Pipeline coverage",
+    "value": "3.4x",
+    "hint": "Next-quarter quota",
+    "trend": "flat",
+    "trendValue": "On plan"
+  },
+  {
+    "label": "Active accounts",
+    "value": "1,284",
+    "hint": "42 added this month",
+    "trend": "up",
+    "trendValue": "+3.4%"
+  },
+  {
+    "label": "Support CSAT",
+    "value": "4.7",
+    "hint": "Trailing 30 days",
+    "trend": "up",
+    "trendValue": "+0.2"
+  },
+  {
+    "label": "Uptime",
+    "value": "99.97%",
+    "hint": "SLO 99.9%",
+    "trend": "flat",
+    "trendValue": "Hold"
+  }
+]

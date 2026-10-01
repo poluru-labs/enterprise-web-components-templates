@@ -1,0 +1,44 @@
+[
+  {
+    "id": "harbor",
+    "name": "Vista Harbor",
+    "location": "Charleston, SC",
+    "type": "Waterfront retreat",
+    "rooms": 120,
+    "occupied": 108,
+    "revenue": 28440,
+    "adr": 263,
+    "ready": 91,
+    "cleaning": 18,
+    "inspect": 11,
+    "tone": "harbor"
+  },
+  {
+    "id": "palm",
+    "name": "Vista Palm House",
+    "location": "Palm Springs, CA",
+    "type": "Desert hideaway",
+    "rooms": 96,
+    "occupied": 79,
+    "revenue": 19750,
+    "adr": 250,
+    "ready": 76,
+    "cleaning": 12,
+    "inspect": 8,
+    "tone": "palm"
+  },
+  {
+    "id": "alpine",
+    "name": "Vista Alpine Lodge",
+    "location": "Aspen, CO",
+    "type": "Mountain escape",
+    "rooms": 84,
+    "occupied": 72,
+    "revenue": 20880,
+    "adr": 290,
+    "ready": 65,
+    "cleaning": 10,
+    "inspect": 9,
+    "tone": "alpine"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "a1",
+    "title": "Fulfillment SLA below 96%",
+    "owner": "Rohan Poluru",
+    "scorecard": "Operations",
+    "severity": "Red",
+    "since": "27 Aug",
+    "note": "Two regional hubs missed same-day cut-off."
+  },
+  {
+    "id": "a2",
+    "title": "1.8 adoption stalled at 23%",
+    "owner": "Nikhil Poluru",
+    "scorecard": "Product",
+    "severity": "Amber",
+    "since": "24 Aug",
+    "note": "Onboarding tour is shipping in 1.8.1."
+  },
+  {
+    "id": "a3",
+    "title": "Cash conversion 41 days",
+    "owner": "Hana Poluru",
+    "scorecard": "Finance",
+    "severity": "Amber",
+    "since": "22 Aug",
+    "note": "Still inside the 45-day band."
+  },
+  {
+    "id": "a4",
+    "title": "NPS promoters dipped in EMEA",
+    "owner": "Priya Poluru",
+    "scorecard": "Customer",
+    "severity": "Green",
+    "since": "20 Aug",
+    "note": "Recovered after the billing copy fix."
+  },
+  {
+    "id": "a5",
+    "title": "SOC 2 evidence gap on access reviews",
+    "owner": "Anika Poluru",
+    "scorecard": "Security",
+    "severity": "Amber",
+    "since": "30 Aug",
+    "note": "Quarterly attestation due 6 Sep."
+  },
+  {
+    "id": "a6",
+    "title": "Platform error budget at 72%",
+    "owner": "Dev Poluru",
+    "scorecard": "Technology",
+    "severity": "Green",
+    "since": "29 Aug",
+    "note": "Within the 80% burn threshold for September."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Revenue",
+    "value": "$18.4M",
+    "delta": "+7.6%",
+    "trend": "up",
+    "href": "#/trends"
+  },
+  {
+    "label": "NRR",
+    "value": "118%",
+    "delta": "+4 pts",
+    "trend": "up",
+    "href": "#/scorecards"
+  },
+  {
+    "label": "Margin",
+    "value": "71.2%",
+    "delta": "+1.2 pts",
+    "trend": "up",
+    "href": "#/scorecards"
+  },
+  {
+    "label": "NPS",
+    "value": "62",
+    "delta": "+5",
+    "trend": "up",
+    "href": "#/benchmarks"
+  },
+  {
+    "label": "Pipeline",
+    "value": "3.4x",
+    "delta": "On plan",
+    "trend": "flat",
+    "href": "#/goals"
+  },
+  {
+    "label": "Uptime",
+    "value": "99.97%",
+    "delta": "SLO hold",
+    "trend": "flat",
+    "href": "#/alerts"
+  }
+]

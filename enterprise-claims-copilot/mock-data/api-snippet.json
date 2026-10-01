@@ -1,0 +1,5 @@
+{
+  "method": "GET",
+  "path": "/v1/scorecards/sc_finance",
+  "snippet": "GET /v1/scorecards/sc_finance\nAuthorization: Bearer sig_live_****\n\n{\n  \"id\": \"sc_finance\",\n  \"name\": \"Finance\",\n  \"health\": 92,\n  \"owner\": \"Arjun Poluru\"\n}"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Overview",
+    "description": "Company pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Finance scorecard",
+    "description": "Arjun Poluru",
+    "href": "#/scorecard/sc_finance",
+    "icon": "star"
+  },
+  {
+    "label": "Goals",
+    "description": "Company OKRs",
+    "href": "#/goals",
+    "icon": "check"
+  },
+  {
+    "label": "Alerts",
+    "description": "Thresholds",
+    "href": "#/alerts",
+    "icon": "bell"
+  },
+  {
+    "label": "Teams",
+    "description": "Owners",
+    "href": "#/teams",
+    "icon": "user"
+  },
+  {
+    "label": "Technology scorecard",
+    "description": "Dev Poluru",
+    "href": "#/scorecard/sc_technology",
+    "icon": "star"
+  },
+  {
+    "label": "Security scorecard",
+    "description": "Anika Poluru",
+    "href": "#/scorecard/sc_security",
+    "icon": "star"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

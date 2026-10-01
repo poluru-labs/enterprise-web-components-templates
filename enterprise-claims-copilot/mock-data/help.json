@@ -1,0 +1,14 @@
+[
+  {
+    "heading": "How do scorecards work?",
+    "body": "Scorecards group metrics under a single owner. Open a scorecard to review its health and focus."
+  },
+  {
+    "heading": "How do I export my data?",
+    "body": "Select Export report to download the workspace scorecards as a CSV file."
+  },
+  {
+    "heading": "Where is my data saved?",
+    "body": "This is a demo workspace. New scorecards and preferences are saved in this browser."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Weekly ops review",
+    "description": "Rohan Poluru · Mondays 09:00",
+    "timestamp": "25 Aug",
+    "icon": "clock",
+    "status": "Done"
+  },
+  {
+    "label": "Growth forecast lock",
+    "description": "Kavya Poluru · pipeline 3.4x",
+    "timestamp": "26 Aug",
+    "icon": "star",
+    "status": "Done"
+  },
+  {
+    "label": "Product 1.8 readout",
+    "description": "Nikhil Poluru · adoption 23%",
+    "timestamp": "27 Aug",
+    "icon": "file",
+    "status": "Done"
+  },
+  {
+    "label": "Board pack freeze",
+    "description": "Mira Poluru · Thursday 16:00",
+    "timestamp": "28 Aug",
+    "icon": "check",
+    "status": "Done"
+  },
+  {
+    "label": "Customer voice hour",
+    "description": "Priya Poluru · NPS 62",
+    "timestamp": "29 Aug",
+    "icon": "user",
+    "status": "Done"
+  },
+  {
+    "label": "Q3 close read-through",
+    "description": "Mira Poluru · books close 4 Sep",
+    "timestamp": "1 Sep",
+    "icon": "folder",
+    "status": "Today"
+  }
+]

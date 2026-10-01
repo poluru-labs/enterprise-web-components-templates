@@ -1,0 +1,68 @@
+[
+  {
+    "id": "VT-2048",
+    "name": "Arjun Poluru",
+    "property": "harbor",
+    "room": "Ocean Suite · 402",
+    "arrival": "2026-09-23",
+    "departure": "2026-09-26",
+    "guests": 2,
+    "status": "Confirmed",
+    "amount": 789
+  },
+  {
+    "id": "VT-2047",
+    "name": "Kavya Poluru",
+    "property": "palm",
+    "room": "Garden King · 208",
+    "arrival": "2026-09-23",
+    "departure": "2026-09-25",
+    "guests": 2,
+    "status": "Checked in",
+    "amount": 500
+  },
+  {
+    "id": "VT-2046",
+    "name": "Nikhil Poluru",
+    "property": "alpine",
+    "room": "Mountain Suite · 306",
+    "arrival": "2026-09-23",
+    "departure": "2026-09-27",
+    "guests": 3,
+    "status": "Confirmed",
+    "amount": 1160
+  },
+  {
+    "id": "VT-2045",
+    "name": "Priya Poluru",
+    "property": "harbor",
+    "room": "Deluxe King · 215",
+    "arrival": "2026-09-21",
+    "departure": "2026-09-23",
+    "guests": 1,
+    "status": "Checked in",
+    "amount": 526
+  },
+  {
+    "id": "VT-2044",
+    "name": "Rohan Poluru",
+    "property": "palm",
+    "room": "Poolside Suite · 112",
+    "arrival": "2026-09-20",
+    "departure": "2026-09-23",
+    "guests": 2,
+    "status": "Checked in",
+    "amount": 750
+  },
+  {
+    "id": "VT-2043",
+    "name": "Elena Poluru",
+    "property": "alpine",
+    "room": "Alpine King · 204",
+    "arrival": "2026-09-24",
+    "departure": "2026-09-26",
+    "guests": 2,
+    "status": "Confirmed",
+    "amount": 580
+  }
+]

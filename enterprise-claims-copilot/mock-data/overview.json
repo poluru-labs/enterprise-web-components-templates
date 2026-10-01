@@ -1,0 +1,116 @@
+{
+  "period": "Jul 1 – Sep 30, 2026",
+  "badge": "Q3 2026",
+  "quarterElapsed": 86,
+  "quarterLabel": "Q3 is in motion",
+  "stats": [
+    {
+      "label": "Total revenue",
+      "value": "$18.4M",
+      "trend": "+7.6%",
+      "hint": "vs. $17.1M target",
+      "icon": "currency-dollar",
+      "series": [
+        35,
+        42,
+        39,
+        51,
+        46,
+        63,
+        61,
+        78,
+        73,
+        88
+      ]
+    },
+    {
+      "label": "Net revenue retention",
+      "value": "118%",
+      "trend": "+4 pts",
+      "hint": "vs. previous quarter",
+      "icon": "arrow-repeat",
+      "series": [
+        30,
+        43,
+        38,
+        54,
+        52,
+        61,
+        58,
+        76,
+        73,
+        84
+      ]
+    },
+    {
+      "label": "Gross margin",
+      "value": "71.2%",
+      "trend": "+1.2 pts",
+      "hint": "vs. 70% target",
+      "icon": "pie-chart",
+      "series": [
+        34,
+        40,
+        42,
+        39,
+        56,
+        52,
+        67,
+        61,
+        74,
+        82
+      ]
+    },
+    {
+      "label": "Customer satisfaction",
+      "value": "4.7",
+      "trend": "+0.2",
+      "hint": "out of 5 · last 30 days",
+      "icon": "emoji-smile",
+      "series": [
+        44,
+        42,
+        50,
+        48,
+        61,
+        60,
+        66,
+        70,
+        72,
+        84
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "name": "Arjun Poluru",
+      "action": "updated the Finance scorecard",
+      "time": "12 min ago",
+      "icon": "clipboard-data"
+    },
+    {
+      "name": "Kavya Poluru",
+      "action": "reached 94% of the retention goal",
+      "time": "38 min ago",
+      "icon": "bullseye"
+    },
+    {
+      "name": "Priya Poluru",
+      "action": "published the customer voice report",
+      "time": "1 hour ago",
+      "icon": "file-earmark-text"
+    }
+  ],
+  "nextReview": {
+    "title": "Quarterly business review",
+    "when": "Sep 28 · 10:00 AM",
+    "owner": "Mira Poluru"
+  },
+  "filters": [
+    "All scorecards",
+    "On track",
+    "Watch",
+    "At risk"
+  ],
+  "nextCheckIn": "September 28"
+}

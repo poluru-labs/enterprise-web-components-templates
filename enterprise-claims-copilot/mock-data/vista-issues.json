@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "property": "harbor",
+    "room": "318",
+    "name": "Meera Poluru",
+    "title": "Air conditioning needs attention",
+    "priority": "High",
+    "status": "Open",
+    "owner": "Dev Poluru",
+    "time": "12 min ago"
+  },
+  {
+    "id": 2,
+    "property": "palm",
+    "room": "104",
+    "name": "Neha Poluru",
+    "title": "Extra towels requested",
+    "priority": "Normal",
+    "status": "Open",
+    "owner": "Hana Poluru",
+    "time": "24 min ago"
+  },
+  {
+    "id": 3,
+    "property": "alpine",
+    "room": "220",
+    "name": "Aarav Poluru",
+    "title": "Late checkout request",
+    "priority": "Normal",
+    "status": "Open",
+    "owner": "Sahana Poluru",
+    "time": "38 min ago"
+  }
+]

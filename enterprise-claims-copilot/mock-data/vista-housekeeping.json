@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "property": "harbor",
+    "room": "402",
+    "type": "Departure clean",
+    "owner": "Sahana Poluru",
+    "status": "In progress"
+  },
+  {
+    "id": 2,
+    "property": "palm",
+    "room": "208",
+    "type": "Stayover refresh",
+    "owner": "Hana Poluru",
+    "status": "To do"
+  },
+  {
+    "id": 3,
+    "property": "alpine",
+    "room": "306",
+    "type": "Final inspection",
+    "owner": "Dev Poluru",
+    "status": "Inspection"
+  },
+  {
+    "id": 4,
+    "property": "harbor",
+    "room": "215",
+    "type": "Departure clean",
+    "owner": "Anika Poluru",
+    "status": "To do"
+  },
+  {
+    "id": 5,
+    "property": "palm",
+    "room": "112",
+    "type": "Linen refresh",
+    "owner": "Luca Poluru",
+    "status": "Ready"
+  }
+]

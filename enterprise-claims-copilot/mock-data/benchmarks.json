@@ -1,0 +1,83 @@
+{
+  "columns": [
+    {
+      "key": "metric",
+      "label": "Metric",
+      "sortable": true
+    },
+    {
+      "key": "us",
+      "label": "Clearline"
+    },
+    {
+      "key": "peer",
+      "label": "Peer median"
+    },
+    {
+      "key": "gap",
+      "label": "Gap"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "metric": "NRR",
+      "us": "118%",
+      "peer": "112%",
+      "gap": "+6 pts",
+      "status": "Ahead"
+    },
+    {
+      "metric": "Gross margin",
+      "us": "71.2%",
+      "peer": "68.0%",
+      "gap": "+3.2 pts",
+      "status": "Ahead"
+    },
+    {
+      "metric": "NPS",
+      "us": "62",
+      "peer": "58",
+      "gap": "+4",
+      "status": "Ahead"
+    },
+    {
+      "metric": "Fulfillment SLA",
+      "us": "95.4%",
+      "peer": "98.1%",
+      "gap": "−2.7 pts",
+      "status": "Behind"
+    },
+    {
+      "metric": "Support CSAT",
+      "us": "4.7",
+      "peer": "4.5",
+      "gap": "+0.2",
+      "status": "Ahead"
+    },
+    {
+      "metric": "Voluntary attrition",
+      "us": "7.4%",
+      "peer": "9.1%",
+      "gap": "−1.7 pts",
+      "status": "Ahead"
+    },
+    {
+      "metric": "Platform uptime",
+      "us": "99.97%",
+      "peer": "99.92%",
+      "gap": "+0.05 pts",
+      "status": "Ahead"
+    },
+    {
+      "metric": "Security incidents",
+      "us": "0",
+      "peer": "1.2",
+      "gap": "−1.2",
+      "status": "Ahead"
+    }
+  ]
+}

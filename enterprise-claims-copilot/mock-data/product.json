@@ -1,0 +1,19 @@
+{
+  "productName": "Signal",
+  "productLine": "KPIs",
+  "workspaceName": "Clearline Holdings",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@clearline.example",
+    "role": "Head of performance"
+  },
+  "workspace": {
+    "name": "Clearline Holdings",
+    "period": "FY26 Q3 · week 9",
+    "timezone": "America / Chicago",
+    "close": "Books close 4 Sep 2026"
+  },
+  "members": 12,
+  "plan": "Enterprise workspace",
+  "systemStatus": "All systems operational"
+}
