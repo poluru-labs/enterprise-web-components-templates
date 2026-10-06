@@ -1,0 +1,55 @@
+{
+  "header": [
+    {
+      "id": "soc2",
+      "label": "SOC 2",
+      "value": "88%",
+      "ready": 88,
+      "href": "#/audits",
+      "hot": true
+    },
+    {
+      "id": "iso",
+      "label": "ISO 27001",
+      "value": "81%",
+      "ready": 81,
+      "href": "#/controls"
+    },
+    {
+      "id": "gdpr",
+      "label": "GDPR",
+      "value": "74%",
+      "ready": 74,
+      "href": "#/policies"
+    },
+    {
+      "id": "hipaa",
+      "label": "HIPAA",
+      "value": "92%",
+      "ready": 92,
+      "href": "#/controls"
+    }
+  ],
+  "options": [
+    {
+      "label": "SOC 2",
+      "value": "SOC 2"
+    },
+    {
+      "label": "ISO 27001",
+      "value": "ISO 27001"
+    },
+    {
+      "label": "GDPR",
+      "value": "GDPR"
+    },
+    {
+      "label": "HIPAA",
+      "value": "HIPAA"
+    },
+    {
+      "label": "SOX",
+      "value": "SOX"
+    }
+  ]
+}

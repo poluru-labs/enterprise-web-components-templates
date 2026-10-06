@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "id": "tsk-1",
+      "title": "Close access review for Lit 11 production",
+      "owner": "Maya Poluru",
+      "due": "2026-09-12",
+      "status": "open",
+      "framework": "SOC 2",
+      "control": "CC6.1"
+    },
+    {
+      "id": "tsk-2",
+      "title": "Attach Art. 30 processing records",
+      "owner": "Elena Poluru",
+      "due": "2026-09-16",
+      "status": "overdue",
+      "framework": "GDPR",
+      "control": "Art. 30"
+    },
+    {
+      "id": "tsk-3",
+      "title": "Re-test privileged access exceptions",
+      "owner": "Dev Poluru",
+      "due": "2026-09-14",
+      "status": "open",
+      "framework": "ISO 27001",
+      "control": "A.8.2"
+    },
+    {
+      "id": "tsk-4",
+      "title": "Upload Q3 change tickets to the locker",
+      "owner": "Leela Poluru",
+      "due": "2026-09-11",
+      "status": "in_progress",
+      "framework": "SOX",
+      "control": "ITGC-CH"
+    },
+    {
+      "id": "tsk-5",
+      "title": "Vendor questionnaire for Helio Cloud",
+      "owner": "Ishaan Poluru",
+      "due": "2026-09-18",
+      "status": "open",
+      "framework": "SOC 2",
+      "control": "CC9.2"
+    },
+    {
+      "id": "tsk-6",
+      "title": "Publish retention policy v1.9",
+      "owner": "Anika Poluru",
+      "due": "2026-09-18",
+      "status": "in_review",
+      "framework": "GDPR",
+      "control": "Art. 32"
+    },
+    {
+      "id": "tsk-7",
+      "title": "Tabletop the incident runbook",
+      "owner": "Dev Poluru",
+      "due": "2026-09-22",
+      "status": "open",
+      "framework": "SOC 2",
+      "control": "CC7.4"
+    },
+    {
+      "id": "tsk-8",
+      "title": "Confirm HIPAA unique-ID evidence",
+      "owner": "Leela Poluru",
+      "due": "2026-09-10",
+      "status": "done",
+      "framework": "HIPAA",
+      "control": "164.312(a)"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Open",
+      "value": "open"
+    },
+    {
+      "label": "In progress",
+      "value": "in_progress"
+    },
+    {
+      "label": "In review",
+      "value": "in_review"
+    },
+    {
+      "label": "Overdue",
+      "value": "overdue"
+    },
+    {
+      "label": "Done",
+      "value": "done"
+    }
+  ],
+  "defaultFramework": "SOC 2",
+  "defaultOwner": "Subbu Poluru"
+}

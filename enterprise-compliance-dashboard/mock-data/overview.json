@@ -1,0 +1,41 @@
+{
+  "stats": [
+    {
+      "label": "SOC 2 readiness",
+      "value": "88%",
+      "hint": "Fieldwork 18 Sep · Priya Poluru",
+      "trend": "up",
+      "trendValue": "+4 pts"
+    },
+    {
+      "label": "Published policies",
+      "value": "5",
+      "hint": "8 on the register",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    {
+      "label": "Control gaps",
+      "value": "2",
+      "hint": "ISO A.8.2 and GDPR Art. 30",
+      "trend": "down",
+      "trendValue": "−1"
+    },
+    {
+      "label": "Open tasks",
+      "value": "7",
+      "hint": "5 findings still open",
+      "trend": "down",
+      "trendValue": "−2"
+    }
+  ],
+  "readiness": {
+    "value": 88,
+    "label": "88% mapped",
+    "audit": "SOC 2 Type II · 18 Sep"
+  },
+  "alert": {
+    "title": "Fieldwork in ten days",
+    "message": "Priya Poluru needs the Q3 access review and Art. 30 records in the locker before Alder Advisory arrives."
+  }
+}

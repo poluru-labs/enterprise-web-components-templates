@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Exam 2 turnover",
+    "hint": "Cleaning · 3 min · next in-person open at 16:20",
+    "href": "#/census",
+    "tone": "Turnover"
+  },
+  {
+    "title": "Critical A1C",
+    "hint": "Luis Poluru 9.4% · same-day review still open",
+    "href": "#/orders",
+    "tone": "Critical"
+  },
+  {
+    "title": "No-show risk",
+    "hint": "Leila Poluru has not confirmed the 10:20 urgent slot",
+    "href": "#/schedule",
+    "tone": "Watch"
+  },
+  {
+    "title": "Refill waiting",
+    "hint": "Maya Poluru · albuterol · chart already open in Exam 1",
+    "href": "#/messages",
+    "tone": "Refill"
+  }
+]

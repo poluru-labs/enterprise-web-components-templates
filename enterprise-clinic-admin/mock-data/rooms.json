@@ -1,0 +1,74 @@
+[
+  {
+    "id": "exam-1",
+    "name": "Exam 1",
+    "provider": "Dr. Elena Poluru",
+    "patient": "Maya Poluru",
+    "status": "In visit",
+    "occupancy": 88,
+    "eta": "12 min remaining"
+  },
+  {
+    "id": "exam-2",
+    "name": "Exam 2",
+    "provider": "Dr. Elena Poluru",
+    "patient": "Ready for next",
+    "status": "Turnover",
+    "occupancy": 22,
+    "eta": "Cleaning · 3 min"
+  },
+  {
+    "id": "exam-3",
+    "name": "Exam 3",
+    "provider": "Dr. Marcus Poluru",
+    "patient": "James Chen",
+    "status": "In visit",
+    "occupancy": 76,
+    "eta": "18 min remaining"
+  },
+  {
+    "id": "exam-4",
+    "name": "Exam 4",
+    "provider": "Dr. Priya Poluru",
+    "patient": "Noah Poluru",
+    "status": "Waiting",
+    "occupancy": 44,
+    "eta": "MA in room"
+  },
+  {
+    "id": "exam-5",
+    "name": "Exam 5",
+    "provider": "Dr. Nadia Poluru",
+    "patient": "Anika Patel",
+    "status": "In visit",
+    "occupancy": 68,
+    "eta": "20 min remaining"
+  },
+  {
+    "id": "proc",
+    "name": "Procedure",
+    "provider": "Jordan Poluru, NP",
+    "patient": "Open",
+    "status": "Available",
+    "occupancy": 0,
+    "eta": "Next at 10:20"
+  },
+  {
+    "id": "tele-a",
+    "name": "Telehealth A",
+    "provider": "Dr. Samir Poluru",
+    "patient": "Connecting",
+    "status": "Virtual",
+    "occupancy": 52,
+    "eta": "11:30 start"
+  },
+  {
+    "id": "tele-b",
+    "name": "Telehealth B",
+    "provider": "Float",
+    "patient": "Open",
+    "status": "Available",
+    "occupancy": 0,
+    "eta": "Two slots open"
+  }
+]

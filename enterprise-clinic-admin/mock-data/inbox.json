@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Critical A1C",
+    "description": "Luis Poluru · 9.4%",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Inhaler refill",
+    "description": "Maya Poluru · Exam 1",
+    "icon": "mail"
+  },
+  {
+    "label": "No-show risk",
+    "description": "Leila Poluru · 10:20",
+    "icon": "clock"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "rows": [
+    {
+      "id": "ctl-cc61",
+      "code": "CC6.1",
+      "name": "Logical access",
+      "framework": "SOC 2",
+      "owner": "Maya Poluru",
+      "status": "mapped",
+      "coverage": 94,
+      "evidence": 12
+    },
+    {
+      "id": "ctl-a82",
+      "code": "A.8.2",
+      "name": "Privileged access rights",
+      "framework": "ISO 27001",
+      "owner": "Maya Poluru",
+      "status": "gap",
+      "coverage": 61,
+      "evidence": 4
+    },
+    {
+      "id": "ctl-art32",
+      "code": "Art. 32",
+      "name": "Security of processing",
+      "framework": "GDPR",
+      "owner": "Anika Poluru",
+      "status": "watch",
+      "coverage": 72,
+      "evidence": 7
+    },
+    {
+      "id": "ctl-hipaa",
+      "code": "164.312(a)",
+      "name": "Unique user identification",
+      "framework": "HIPAA",
+      "owner": "Dev Poluru",
+      "status": "mapped",
+      "coverage": 96,
+      "evidence": 9
+    },
+    {
+      "id": "ctl-cc71",
+      "code": "CC7.1",
+      "name": "Detection of anomalies",
+      "framework": "SOC 2",
+      "owner": "Dev Poluru",
+      "status": "mapped",
+      "coverage": 88,
+      "evidence": 11
+    },
+    {
+      "id": "ctl-sox",
+      "code": "ITGC-CH",
+      "name": "Change management",
+      "framework": "SOX",
+      "owner": "Arjun Poluru",
+      "status": "watch",
+      "coverage": 79,
+      "evidence": 6
+    },
+    {
+      "id": "ctl-a51",
+      "code": "A.5.1",
+      "name": "Policies for information security",
+      "framework": "ISO 27001",
+      "owner": "Kavya Poluru",
+      "status": "mapped",
+      "coverage": 91,
+      "evidence": 8
+    },
+    {
+      "id": "ctl-art30",
+      "code": "Art. 30",
+      "name": "Records of processing",
+      "framework": "GDPR",
+      "owner": "Elena Poluru",
+      "status": "gap",
+      "coverage": 54,
+      "evidence": 3
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Mapped",
+      "value": "mapped"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "Gap",
+      "value": "gap"
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "All frameworks",
+      "value": ""
+    },
+    {
+      "label": "SOC 2",
+      "value": "SOC 2"
+    },
+    {
+      "label": "ISO 27001",
+      "value": "ISO 27001"
+    },
+    {
+      "label": "GDPR",
+      "value": "GDPR"
+    },
+    {
+      "label": "HIPAA",
+      "value": "HIPAA"
+    },
+    {
+      "label": "SOX",
+      "value": "SOX"
+    }
+  ]
+}

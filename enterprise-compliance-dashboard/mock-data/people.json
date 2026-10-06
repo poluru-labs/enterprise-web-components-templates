@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Subbu Poluru",
+    "role": "Chief compliance officer",
+    "squad": "Office of compliance"
+  },
+  {
+    "name": "Anika Poluru",
+    "role": "Head of privacy",
+    "squad": "Privacy"
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Policy manager",
+    "squad": "Governance"
+  },
+  {
+    "name": "Maya Poluru",
+    "role": "Control owner · access",
+    "squad": "Security"
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Security engineering",
+    "squad": "Technology"
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Internal audit",
+    "squad": "Audit"
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "Enterprise risk",
+    "squad": "Risk"
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "CFO · SOX owner",
+    "squad": "Finance"
+  },
+  {
+    "name": "Ishaan Poluru",
+    "role": "Vendor risk",
+    "squad": "Third party"
+  },
+  {
+    "name": "Leela Poluru",
+    "role": "Evidence librarian",
+    "squad": "Audit"
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "COO",
+    "squad": "Operations"
+  },
+  {
+    "name": "Elena Poluru",
+    "role": "General counsel",
+    "squad": "Legal"
+  }
+]

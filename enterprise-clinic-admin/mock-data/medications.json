@@ -1,0 +1,48 @@
+{
+  "pt_maya": [
+    "Fluticasone 110 mcg BID",
+    "Albuterol PRN",
+    "Sumatriptan 50 mg"
+  ],
+  "pt_luis": [
+    "Metformin 1000 mg BID",
+    "Lisinopril 20 mg",
+    "Atorvastatin 40 mg"
+  ],
+  "pt_noah": [
+    "Cetirizine 5 mg daily",
+    "Epinephrine auto-injector"
+  ],
+  "pt_hana": [
+    "Prenatal vitamin",
+    "Docusate 100 mg"
+  ],
+  "pt_owen": [
+    "Apixaban 5 mg BID",
+    "Metoprolol 25 mg",
+    "Losartan 50 mg"
+  ],
+  "pt_leila": [
+    "Sertraline 50 mg daily"
+  ],
+  "pt_ravi": [
+    "Rosuvastatin 20 mg",
+    "Aspirin 81 mg"
+  ],
+  "pt_sofia": [
+    "Levothyroxine 75 mcg"
+  ],
+  "pt_anika": [
+    "Multivitamin daily"
+  ],
+  "pt_james": [
+    "Metformin 500 mg daily"
+  ],
+  "pt_kiran": [
+    "None active"
+  ],
+  "pt_elena_c": [
+    "Acetaminophen PRN",
+    "Vitamin D3 2000 IU"
+  ]
+}

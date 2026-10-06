@@ -1,0 +1,21 @@
+{
+  "productName": "Halo",
+  "productLine": "Clinic",
+  "clinicName": "San Jose",
+  "currentUser": {
+    "name": "Aisha Poluru",
+    "email": "aisha.poluru@San Jose.example",
+    "role": "Practice administrator"
+  },
+  "clinic": {
+    "name": "San Jose",
+    "npi": "1841723901",
+    "address": "220 Riverfront Drive, Suite 400, Austin, TX 78701",
+    "phone": "(512) 555-0148",
+    "hours": "Mon–Fri 7:30–18:00 · Sat 8:00–12:00",
+    "timezone": "America / Chicago"
+  },
+  "roomOccupancy": 82,
+  "today": "2026-09-01",
+  "overviewDate": "Tuesday, 1 September 2026"
+}

@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Calm, on time, and nearly full.",
+    "summary": "20 patients already seen. Next open in-person slot is 16:20 in Exam 2. Telehealth A is held for Dr. Samir Poluru at 11:30.",
+    "pills": [
+      "Lobby wait 10 min",
+      "5 labs to review",
+      "2 no-show risks"
+    ]
+  },
+  "waitMinutes": [
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    11,
+    10,
+    10,
+    11,
+    10,
+    9
+  ]
+}

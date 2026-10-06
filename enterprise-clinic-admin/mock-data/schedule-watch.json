@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Exam 1",
+    "hint": "Maya Poluru · in visit · 12 min remaining",
+    "href": "#/census",
+    "tone": "In visit"
+  },
+  {
+    "title": "Exam 2",
+    "hint": "Turnover · next in-person open at 16:20",
+    "href": "#/census",
+    "tone": "Turnover"
+  },
+  {
+    "title": "Lobby",
+    "hint": "4 waiting · average door-to-room 10 min",
+    "href": "#/census",
+    "tone": "Busy"
+  },
+  {
+    "title": "Telehealth A",
+    "hint": "Connecting · Dr. Samir Poluru at 11:30",
+    "href": "#/census",
+    "tone": "Virtual"
+  }
+]

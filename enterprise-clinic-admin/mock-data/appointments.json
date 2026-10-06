@@ -1,0 +1,321 @@
+{
+  "columns": [
+    {
+      "key": "time",
+      "label": "Time",
+      "sortable": true
+    },
+    {
+      "key": "patient",
+      "label": "Patient",
+      "sortable": true
+    },
+    {
+      "key": "provider",
+      "label": "Provider",
+      "sortable": true
+    },
+    {
+      "key": "room",
+      "label": "Room",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Visit type",
+      "sortable": true
+    },
+    {
+      "key": "mode",
+      "label": "Mode",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "apt_1041",
+      "time": "08:00",
+      "end": "08:30",
+      "patient": "Maya Poluru",
+      "patientId": "pt_maya",
+      "provider": "Dr. Elena Poluru",
+      "room": "Exam 1",
+      "type": "Follow-up",
+      "mode": "In person",
+      "status": "In visit",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1042",
+      "time": "08:30",
+      "end": "09:00",
+      "patient": "Anika Patel",
+      "patientId": "pt_anika",
+      "provider": "Dr. Nadia Poluru",
+      "room": "Exam 5",
+      "type": "Annual",
+      "mode": "In person",
+      "status": "In visit",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1043",
+      "time": "09:00",
+      "end": "09:30",
+      "patient": "James Chen",
+      "patientId": "pt_james",
+      "provider": "Dr. Marcus Poluru",
+      "room": "Exam 3",
+      "type": "Chronic care",
+      "mode": "In person",
+      "status": "In visit",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1044",
+      "time": "09:20",
+      "end": "09:50",
+      "patient": "Noah Poluru",
+      "patientId": "pt_noah",
+      "provider": "Dr. Priya Poluru",
+      "room": "Exam 4",
+      "type": "Well child",
+      "mode": "In person",
+      "status": "Waiting",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1045",
+      "time": "09:40",
+      "end": "10:10",
+      "patient": "Hana Poluru",
+      "patientId": "pt_hana",
+      "provider": "Dr. Elena Poluru",
+      "room": "Exam 2",
+      "type": "Prenatal",
+      "mode": "In person",
+      "status": "Checked in",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1046",
+      "time": "10:00",
+      "end": "10:30",
+      "patient": "Owen Poluru",
+      "patientId": "pt_owen",
+      "provider": "Dr. Marcus Poluru",
+      "room": "Exam 3",
+      "type": "New patient",
+      "mode": "In person",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1047",
+      "time": "10:20",
+      "end": "10:40",
+      "patient": "Leila Poluru",
+      "patientId": "pt_leila",
+      "provider": "Jordan Poluru, NP",
+      "room": "Procedure",
+      "type": "Urgent",
+      "mode": "In person",
+      "status": "No-show risk",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1048",
+      "time": "11:00",
+      "end": "11:20",
+      "patient": "Sofia Poluru",
+      "patientId": "pt_sofia",
+      "provider": "Dr. Elena Poluru",
+      "room": "Exam 1",
+      "type": "Lab review",
+      "mode": "In person",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1049",
+      "time": "11:30",
+      "end": "12:00",
+      "patient": "Ravi Poluru",
+      "patientId": "pt_ravi",
+      "provider": "Dr. Samir Poluru",
+      "room": "Telehealth A",
+      "type": "Consult",
+      "mode": "Telehealth",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1050",
+      "time": "13:00",
+      "end": "13:30",
+      "patient": "Maya Poluru",
+      "patientId": "pt_maya",
+      "provider": "Dr. Elena Poluru",
+      "room": "Exam 2",
+      "type": "Spirometry",
+      "mode": "In person",
+      "status": "Completed",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1051",
+      "time": "14:00",
+      "end": "14:30",
+      "patient": "Luis Poluru",
+      "patientId": "pt_luis",
+      "provider": "Dr. Marcus Poluru",
+      "room": "Exam 3",
+      "type": "A1C review",
+      "mode": "In person",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1052",
+      "time": "14:20",
+      "end": "14:50",
+      "patient": "Sofia Poluru",
+      "patientId": "pt_sofia",
+      "provider": "Dr. Elena Poluru",
+      "room": "Exam 1",
+      "type": "Follow-up",
+      "mode": "In person",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1053",
+      "time": "15:00",
+      "end": "15:30",
+      "patient": "Ravi Poluru",
+      "patientId": "pt_ravi",
+      "provider": "Dr. Samir Poluru",
+      "room": "Telehealth A",
+      "type": "Echo review",
+      "mode": "Telehealth",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1054",
+      "time": "15:10",
+      "end": "15:40",
+      "patient": "Noah Poluru",
+      "patientId": "pt_noah",
+      "provider": "Dr. Priya Poluru",
+      "room": "Exam 4",
+      "type": "Vaccine",
+      "mode": "In person",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1055",
+      "time": "15:40",
+      "end": "16:00",
+      "patient": "Leila Poluru",
+      "patientId": "pt_leila",
+      "provider": "Jordan Poluru, NP",
+      "room": "Procedure",
+      "type": "Laceration",
+      "mode": "Walk-in",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "apt_1056",
+      "time": "08:15",
+      "end": "08:45",
+      "patient": "Kiran Poluru",
+      "patientId": "pt_kiran",
+      "provider": "Jordan Poluru, NP",
+      "room": "Procedure",
+      "type": "Sports physical",
+      "mode": "In person",
+      "status": "Completed",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "apt_1057",
+      "time": "10:30",
+      "end": "11:00",
+      "patient": "Elena Chen-Poluru",
+      "patientId": "pt_elena_c",
+      "provider": "Dr. Elena Poluru",
+      "room": "Exam 2",
+      "type": "Joint pain",
+      "mode": "In person",
+      "status": "Completed",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "apt_1058",
+      "time": "16:20",
+      "end": "16:50",
+      "patient": "Anika Patel",
+      "patientId": "pt_anika",
+      "provider": "Dr. Nadia Poluru",
+      "room": "Exam 5",
+      "type": "Follow-up",
+      "mode": "In person",
+      "status": "Scheduled",
+      "date": "2026-09-01"
+    }
+  ],
+  "board": {
+    "hours": [
+      "08:00",
+      "09:00",
+      "10:00",
+      "11:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "rooms": [
+      "Exam 1",
+      "Exam 2",
+      "Exam 3",
+      "Exam 4",
+      "Exam 5",
+      "Telehealth A"
+    ]
+  },
+  "statuses": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Scheduled",
+      "value": "scheduled"
+    },
+    {
+      "label": "Waiting",
+      "value": "waiting"
+    },
+    {
+      "label": "In visit",
+      "value": "in visit"
+    },
+    {
+      "label": "Completed",
+      "value": "completed"
+    }
+  ],
+  "nextOpenSlot": {
+    "time": "16:20",
+    "room": "Exam 2"
+  }
+}

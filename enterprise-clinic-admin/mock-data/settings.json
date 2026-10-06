@@ -1,0 +1,45 @@
+{
+  "sameDayOnlineBooking": true,
+  "telehealthDefaultFollowUps": false,
+  "defaultVisitLength": "30 minutes",
+  "publishedRooms": "8 exam and telehealth rooms",
+  "turnoverTarget": "8 minutes",
+  "showOccupancyOnBoard": true,
+  "holdExam2Overflow": true,
+  "notifications": {
+    "pingMaOnCheckIn": true,
+    "flagWaitOver20Min": true,
+    "criticalLabBanners": true,
+    "eveningNoShowSms": true
+  },
+  "afterHours": {
+    "saturdayClinic": "8:00–12:00",
+    "answeringService": "After 18:00 weekdays",
+    "onCall": "Dr. Elena Poluru",
+    "routePortalMessages": true
+  },
+  "privacy": {
+    "auditLog": true,
+    "breakTheGlass": true,
+    "autoTimeoutMinutes": 8
+  },
+  "timezones": [
+    {
+      "label": "America / Chicago",
+      "value": "chicago"
+    },
+    {
+      "label": "America / New York",
+      "value": "ny"
+    },
+    {
+      "label": "America / Denver",
+      "value": "denver"
+    },
+    {
+      "label": "America / Los Angeles",
+      "value": "la"
+    }
+  ],
+  "timezone": "chicago"
+}

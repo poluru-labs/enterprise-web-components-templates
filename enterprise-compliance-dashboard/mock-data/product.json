@@ -1,0 +1,16 @@
+{
+  "productName": "Aegis",
+  "productLine": "Compliance",
+  "workspaceName": "Poluru Trust",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@polurutrust.example",
+    "role": "Chief compliance officer"
+  },
+  "workspace": {
+    "name": "Poluru Trust",
+    "period": "FY26 · September",
+    "timezone": "America / Chicago",
+    "nextAudit": "SOC 2 Type II · 18 Sep"
+  }
+}

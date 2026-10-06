@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "id": "fnd-1",
+      "title": "Privileged access reviews skipped in July",
+      "owner": "Maya Poluru",
+      "severity": "high",
+      "status": "open",
+      "audit": "ISO 27001 surveillance",
+      "due": "2026-09-14"
+    },
+    {
+      "id": "fnd-2",
+      "title": "RoPA missing two processors",
+      "owner": "Elena Poluru",
+      "severity": "medium",
+      "status": "open",
+      "audit": "GDPR DPIA review",
+      "due": "2026-09-16"
+    },
+    {
+      "id": "fnd-3",
+      "title": "Vendor Helio Cloud questionnaire stale",
+      "owner": "Ishaan Poluru",
+      "severity": "medium",
+      "status": "watch",
+      "audit": "Vendor sample test",
+      "due": "2026-09-18"
+    },
+    {
+      "id": "fnd-4",
+      "title": "Change tickets lack rollback notes",
+      "owner": "Arjun Poluru",
+      "severity": "low",
+      "status": "in_progress",
+      "audit": "SOX Q3 ITGC",
+      "due": "2026-10-01"
+    },
+    {
+      "id": "fnd-5",
+      "title": "MFA coverage 99.2% on contractor accounts",
+      "owner": "Dev Poluru",
+      "severity": "low",
+      "status": "closed",
+      "audit": "SOC 2 Type II",
+      "due": "2026-08-20"
+    },
+    {
+      "id": "fnd-6",
+      "title": "Retention schedule not linked to POL-03",
+      "owner": "Anika Poluru",
+      "severity": "high",
+      "status": "open",
+      "audit": "GDPR DPIA review",
+      "due": "2026-09-18"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Open",
+      "value": "open"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "In progress",
+      "value": "in_progress"
+    },
+    {
+      "label": "Closed",
+      "value": "closed"
+    }
+  ]
+}

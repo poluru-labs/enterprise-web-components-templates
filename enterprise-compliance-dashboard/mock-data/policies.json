@@ -1,0 +1,132 @@
+{
+  "rows": [
+    {
+      "id": "pol-isp",
+      "code": "POL-01",
+      "name": "Information security policy",
+      "owner": "Kavya Poluru",
+      "status": "published",
+      "version": "3.2",
+      "updated": "2026-08-12",
+      "framework": "SOC 2",
+      "review": "2026-11-12"
+    },
+    {
+      "id": "pol-access",
+      "code": "POL-02",
+      "name": "Access control policy",
+      "owner": "Maya Poluru",
+      "status": "published",
+      "version": "2.4",
+      "updated": "2026-07-28",
+      "framework": "ISO 27001",
+      "review": "2026-10-28"
+    },
+    {
+      "id": "pol-retain",
+      "code": "POL-03",
+      "name": "Data retention policy",
+      "owner": "Anika Poluru",
+      "status": "in_review",
+      "version": "1.9",
+      "updated": "2026-09-04",
+      "framework": "GDPR",
+      "review": "2026-09-18"
+    },
+    {
+      "id": "pol-ir",
+      "code": "POL-04",
+      "name": "Incident response policy",
+      "owner": "Dev Poluru",
+      "status": "published",
+      "version": "2.1",
+      "updated": "2026-06-19",
+      "framework": "SOC 2",
+      "review": "2026-12-19"
+    },
+    {
+      "id": "pol-vendor",
+      "code": "POL-05",
+      "name": "Vendor risk policy",
+      "owner": "Ishaan Poluru",
+      "status": "watch",
+      "version": "1.4",
+      "updated": "2026-08-30",
+      "framework": "SOC 2",
+      "review": "2026-09-20"
+    },
+    {
+      "id": "pol-aup",
+      "code": "POL-06",
+      "name": "Acceptable use policy",
+      "owner": "Kavya Poluru",
+      "status": "published",
+      "version": "4.0",
+      "updated": "2026-05-02",
+      "framework": "ISO 27001",
+      "review": "2027-05-02"
+    },
+    {
+      "id": "pol-privacy",
+      "code": "POL-07",
+      "name": "Privacy notice",
+      "owner": "Anika Poluru",
+      "status": "published",
+      "version": "2.8",
+      "updated": "2026-08-01",
+      "framework": "GDPR",
+      "review": "2027-02-01"
+    },
+    {
+      "id": "pol-bcp",
+      "code": "POL-08",
+      "name": "Business continuity policy",
+      "owner": "Nikhil Poluru",
+      "status": "draft",
+      "version": "0.6",
+      "updated": "2026-09-02",
+      "framework": "SOC 2",
+      "review": "2026-10-01"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Published",
+      "value": "published"
+    },
+    {
+      "label": "In review",
+      "value": "in_review"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "Draft",
+      "value": "draft"
+    }
+  ],
+  "frameworks": [
+    {
+      "label": "All frameworks",
+      "value": ""
+    },
+    {
+      "label": "SOC 2",
+      "value": "SOC 2"
+    },
+    {
+      "label": "ISO 27001",
+      "value": "ISO 27001"
+    },
+    {
+      "label": "GDPR",
+      "value": "GDPR"
+    }
+  ]
+}

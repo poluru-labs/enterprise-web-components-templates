@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Maya Poluru roomed",
+    "description": "Exam 1 · asthma follow-up",
+    "timestamp": "2 min ago",
+    "status": "current"
+  },
+  {
+    "title": "Critical lab flagged",
+    "description": "Luis Poluru A1C 9.4%",
+    "timestamp": "28 min ago",
+    "status": "complete"
+  },
+  {
+    "title": "No-show outreach sent",
+    "description": "Leila Poluru · 10:20 urgent",
+    "timestamp": "1 hr ago",
+    "status": "complete"
+  },
+  {
+    "title": "Telehealth link issued",
+    "description": "Ravi Poluru · 11:30 consult",
+    "timestamp": "This morning",
+    "status": "upcoming"
+  }
+]

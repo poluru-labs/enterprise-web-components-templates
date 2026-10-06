@@ -1,0 +1,53 @@
+{
+  "apt_1041": {
+    "reason": "Asthma follow-up after summer flare",
+    "vitals": [
+      {
+        "term": "BP",
+        "description": "118 / 74"
+      },
+      {
+        "term": "HR",
+        "description": "72"
+      },
+      {
+        "term": "Temp",
+        "description": "36.6 °C"
+      },
+      {
+        "term": "SpO2",
+        "description": "98%"
+      },
+      {
+        "term": "Weight",
+        "description": "64.2 kg"
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Arrived",
+        "description": "Self check-in kiosk",
+        "timestamp": "07:48",
+        "status": "complete"
+      },
+      {
+        "title": "Roomed",
+        "description": "MA Lena Poluru · Exam 1",
+        "timestamp": "07:56",
+        "status": "complete"
+      },
+      {
+        "title": "Provider in room",
+        "description": "Dr. Elena Poluru",
+        "timestamp": "08:04",
+        "status": "current"
+      },
+      {
+        "title": "Checkout",
+        "description": "Pending after-visit summary",
+        "timestamp": "—",
+        "status": "upcoming"
+      }
+    ]
+  }
+}

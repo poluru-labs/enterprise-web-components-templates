@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "id": "ev-1",
+      "name": "Q3 access review export",
+      "control": "CC6.1",
+      "owner": "Maya Poluru",
+      "status": "current",
+      "collected": "2026-09-03",
+      "type": "CSV"
+    },
+    {
+      "id": "ev-2",
+      "name": "Okta MFA screenshot pack",
+      "control": "CC6.1",
+      "owner": "Leela Poluru",
+      "status": "current",
+      "collected": "2026-08-28",
+      "type": "PDF"
+    },
+    {
+      "id": "ev-3",
+      "name": "Change ticket sample CH-4412",
+      "control": "ITGC-CH",
+      "owner": "Arjun Poluru",
+      "status": "watch",
+      "collected": "2026-08-19",
+      "type": "PDF"
+    },
+    {
+      "id": "ev-4",
+      "name": "DPIA for member portal",
+      "control": "Art. 32",
+      "owner": "Anika Poluru",
+      "status": "in_review",
+      "collected": "2026-09-01",
+      "type": "DOCX"
+    },
+    {
+      "id": "ev-5",
+      "name": "Privileged access exceptions",
+      "control": "A.8.2",
+      "owner": "Dev Poluru",
+      "status": "gap",
+      "collected": "2026-07-22",
+      "type": "XLSX"
+    },
+    {
+      "id": "ev-6",
+      "name": "HIPAA unique ID config",
+      "control": "164.312(a)",
+      "owner": "Leela Poluru",
+      "status": "current",
+      "collected": "2026-09-08",
+      "type": "PNG"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Current",
+      "value": "current"
+    },
+    {
+      "label": "In review",
+      "value": "in_review"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "Gap",
+      "value": "gap"
+    }
+  ]
+}

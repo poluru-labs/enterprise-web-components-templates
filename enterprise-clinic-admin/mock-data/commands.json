@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Book appointment",
+    "description": "Find a slot and schedule",
+    "href": "#/schedule",
+    "icon": "plus"
+  },
+  {
+    "label": "Check in patient",
+    "description": "Open today's board",
+    "href": "#/schedule",
+    "icon": "check"
+  },
+  {
+    "label": "Find a chart",
+    "description": "Search the directory",
+    "href": "#/patients",
+    "icon": "user"
+  },
+  {
+    "label": "Global search",
+    "description": "Patients, visits, orders",
+    "href": "#/search",
+    "icon": "search"
+  },
+  {
+    "label": "Review labs",
+    "description": "Orders needing attention",
+    "href": "#/orders",
+    "icon": "star"
+  },
+  {
+    "label": "Open inbox",
+    "description": "Refills, results, referrals",
+    "href": "#/messages",
+    "icon": "mail"
+  },
+  {
+    "label": "Clinic insights",
+    "description": "Wait time, no-show, census",
+    "href": "#/insights",
+    "icon": "star"
+  }
+]

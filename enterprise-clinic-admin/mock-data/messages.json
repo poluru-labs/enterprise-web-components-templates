@@ -1,0 +1,135 @@
+{
+  "rows": [
+    {
+      "id": "msg_1",
+      "from": "Maya Poluru",
+      "subject": "Inhaler refill",
+      "preview": "Albuterol is empty. Can we refill before Thursday?",
+      "time": "12 min",
+      "unread": true,
+      "queue": "Refills"
+    },
+    {
+      "id": "msg_2",
+      "from": "Lab · Quest",
+      "subject": "Critical A1C",
+      "preview": "Luis Poluru A1C 9.4%. Flagged for same-day review.",
+      "time": "28 min",
+      "unread": true,
+      "queue": "Results"
+    },
+    {
+      "id": "msg_3",
+      "from": "Hana Poluru",
+      "subject": "Prenatal questions",
+      "preview": "Is travel in the second trimester okay for a 4-hour flight?",
+      "time": "1 hr",
+      "unread": true,
+      "queue": "Clinical"
+    },
+    {
+      "id": "msg_4",
+      "from": "Referral desk",
+      "subject": "Cardiology slot",
+      "preview": "Dr. Samir Poluru has a cancellation Friday 09:20.",
+      "time": "2 hr",
+      "unread": false,
+      "queue": "Referrals"
+    },
+    {
+      "id": "msg_5",
+      "from": "Owen Poluru",
+      "subject": "Pharmacy hold",
+      "preview": "CVS needs a prior auth on apixaban.",
+      "time": "3 hr",
+      "unread": false,
+      "queue": "Auth"
+    },
+    {
+      "id": "msg_6",
+      "from": "Leila Poluru",
+      "subject": "Running late",
+      "preview": "Parking garage is full. ETA 12 minutes.",
+      "time": "Yesterday",
+      "unread": false,
+      "queue": "Front desk"
+    },
+    {
+      "id": "msg_7",
+      "from": "Anika Patel",
+      "subject": "Mammogram scheduling",
+      "preview": "Can imaging call me back about the order from last week?",
+      "time": "Yesterday",
+      "unread": false,
+      "queue": "Referrals"
+    },
+    {
+      "id": "msg_8",
+      "from": "James Chen",
+      "subject": "Lab results",
+      "preview": "HbA1c came back at 6.1. Should I adjust diet before follow-up?",
+      "time": "2 days",
+      "unread": false,
+      "queue": "Clinical"
+    }
+  ],
+  "queues": [
+    {
+      "title": "Refills",
+      "value": "1 unread",
+      "hint": "Maya Poluru inhaler before Thursday",
+      "href": "#/messages",
+      "tone": "Unread"
+    },
+    {
+      "title": "Results",
+      "value": "1 unread",
+      "hint": "Luis Poluru A1C 9.4% flagged",
+      "href": "#/orders",
+      "tone": "Critical"
+    },
+    {
+      "title": "Clinical",
+      "value": "1 unread",
+      "hint": "Hana Poluru prenatal travel question",
+      "href": "#/messages",
+      "tone": "Unread"
+    },
+    {
+      "title": "Referrals",
+      "value": "2 open",
+      "hint": "Cardiology Friday 09:20 and mammogram",
+      "href": "#/messages",
+      "tone": "Open"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Refills",
+      "value": "refills"
+    },
+    {
+      "label": "Results",
+      "value": "results"
+    },
+    {
+      "label": "Clinical",
+      "value": "clinical"
+    },
+    {
+      "label": "Referrals",
+      "value": "referrals"
+    }
+  ],
+  "preview": {
+    "queue": "Refill",
+    "from": "Maya Poluru",
+    "subject": "Inhaler refill",
+    "body": "Albuterol is empty. Can we refill before Thursday?",
+    "context": "Chart is open in Exam 1. Coverage is Blue Cross PPO. Last fill 18 Aug 2026."
+  }
+}

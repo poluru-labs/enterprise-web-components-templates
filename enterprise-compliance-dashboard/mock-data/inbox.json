@@ -1,0 +1,26 @@
+[
+  {
+    "label": "SOC 2 fieldwork starts 18 Sep",
+    "description": "Priya Poluru · Alder Advisory",
+    "icon": "clock",
+    "href": "#/audits"
+  },
+  {
+    "label": "Art. 30 records still a gap",
+    "description": "Elena Poluru · GDPR",
+    "icon": "alert-triangle",
+    "href": "#/findings"
+  },
+  {
+    "label": "Access review due Friday",
+    "description": "Maya Poluru · CC6.1",
+    "icon": "check",
+    "href": "#/tasks"
+  },
+  {
+    "label": "Retention policy in legal",
+    "description": "Anika Poluru · POL-03",
+    "icon": "folder",
+    "href": "#/policy/pol-retain"
+  }
+]

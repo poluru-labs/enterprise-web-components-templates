@@ -1,0 +1,25 @@
+{
+  "preferredTime": "16:20",
+  "reasonPlaceholder": "Follow-up, new concern, or procedure.",
+  "visitTypes": [
+    {
+      "label": "Follow-up",
+      "value": "follow"
+    },
+    {
+      "label": "New patient",
+      "value": "new"
+    },
+    {
+      "label": "Telehealth",
+      "value": "tele"
+    },
+    {
+      "label": "Urgent / walk-in",
+      "value": "urgent"
+    }
+  ],
+  "defaultVisitType": "follow",
+  "defaultProvider": "prv_elena",
+  "defaultPatient": "pt_maya"
+}

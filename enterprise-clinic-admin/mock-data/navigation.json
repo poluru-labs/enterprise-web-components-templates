@@ -1,0 +1,52 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "grid"
+  },
+  {
+    "label": "Schedule",
+    "href": "#/schedule",
+    "icon": "calendar3"
+  },
+  {
+    "label": "Patients",
+    "href": "#/patients",
+    "icon": "people"
+  },
+  {
+    "label": "Providers",
+    "href": "#/providers",
+    "icon": "heart-pulse"
+  },
+  {
+    "label": "Census",
+    "href": "#/census",
+    "icon": "building"
+  },
+  {
+    "label": "Orders",
+    "href": "#/orders",
+    "icon": "clipboard2-pulse"
+  },
+  {
+    "label": "Messages",
+    "href": "#/messages",
+    "icon": "chat-dots"
+  },
+  {
+    "label": "Insights",
+    "href": "#/insights",
+    "icon": "graph-up"
+  },
+  {
+    "label": "Search",
+    "href": "#/search",
+    "icon": "search"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "sliders"
+  }
+]

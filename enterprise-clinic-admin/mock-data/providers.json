@@ -1,0 +1,107 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Provider",
+      "sortable": true
+    },
+    {
+      "key": "role",
+      "label": "Specialty",
+      "sortable": true
+    },
+    {
+      "key": "panel",
+      "label": "Panel",
+      "sortable": true
+    },
+    {
+      "key": "today",
+      "label": "Today",
+      "sortable": true
+    },
+    {
+      "key": "rooms",
+      "label": "Rooms",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    },
+    {
+      "key": "next",
+      "label": "Next",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "prv_elena",
+      "name": "Dr. Elena Poluru",
+      "role": "Family medicine",
+      "npi": "1487210044",
+      "panel": 612,
+      "today": 12,
+      "rooms": "Exam 1 · Exam 2",
+      "status": "In clinic",
+      "next": "09:40 · prenatal"
+    },
+    {
+      "id": "prv_marcus",
+      "name": "Dr. Marcus Poluru",
+      "role": "Internal medicine",
+      "npi": "1679038815",
+      "panel": 548,
+      "today": 10,
+      "rooms": "Exam 3",
+      "status": "In clinic",
+      "next": "09:00 · chronic care"
+    },
+    {
+      "id": "prv_priya",
+      "name": "Dr. Priya Poluru",
+      "role": "Pediatrics",
+      "npi": "1295742208",
+      "panel": 490,
+      "today": 9,
+      "rooms": "Exam 4",
+      "status": "In clinic",
+      "next": "09:20 · well child"
+    },
+    {
+      "id": "prv_jordan",
+      "name": "Jordan Poluru, NP",
+      "role": "Urgent care",
+      "npi": "1023384414",
+      "panel": 210,
+      "today": 7,
+      "rooms": "Procedure",
+      "status": "On break",
+      "next": "10:20 · urgent"
+    },
+    {
+      "id": "prv_samir",
+      "name": "Dr. Samir Poluru",
+      "role": "Cardiology consult",
+      "npi": "1982641102",
+      "panel": 86,
+      "today": 4,
+      "rooms": "Telehealth A",
+      "status": "Telehealth",
+      "next": "11:30 · consult"
+    },
+    {
+      "id": "prv_nadia",
+      "name": "Dr. Nadia Poluru",
+      "role": "Women's health",
+      "npi": "1562840091",
+      "panel": 378,
+      "today": 8,
+      "rooms": "Exam 5",
+      "status": "In clinic",
+      "next": "10:00 · annual"
+    }
+  ]
+}

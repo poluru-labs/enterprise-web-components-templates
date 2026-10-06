@@ -1,0 +1,56 @@
+[
+  {
+    "label": "Overview",
+    "description": "Readiness pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "New policy",
+    "description": "Open a draft",
+    "href": "#add-policy",
+    "icon": "plus"
+  },
+  {
+    "label": "Policies",
+    "description": "Living register",
+    "href": "#/policies",
+    "icon": "file"
+  },
+  {
+    "label": "Controls",
+    "description": "Framework mapping",
+    "href": "#/controls",
+    "icon": "check"
+  },
+  {
+    "label": "Audits",
+    "description": "Fieldwork calendar",
+    "href": "#/audits",
+    "icon": "eye"
+  },
+  {
+    "label": "Tasks",
+    "description": "Open work",
+    "href": "#/tasks",
+    "icon": "star"
+  },
+  {
+    "label": "Evidence",
+    "description": "Locker",
+    "href": "#/evidence",
+    "icon": "folder"
+  },
+  {
+    "label": "Findings",
+    "description": "Exceptions",
+    "href": "#/findings",
+    "icon": "bell"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

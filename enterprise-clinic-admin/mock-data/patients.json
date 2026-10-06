@@ -1,0 +1,233 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Patient",
+      "sortable": true
+    },
+    {
+      "key": "mrn",
+      "label": "MRN",
+      "sortable": true
+    },
+    {
+      "key": "age",
+      "label": "Age",
+      "sortable": true
+    },
+    {
+      "key": "pcp",
+      "label": "PCP",
+      "sortable": true
+    },
+    {
+      "key": "coverage",
+      "label": "Coverage",
+      "sortable": true
+    },
+    {
+      "key": "lastVisit",
+      "label": "Last visit",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "pt_maya",
+      "name": "Maya Poluru",
+      "mrn": "RFM-10482",
+      "dob": "12 Mar 1988",
+      "age": 38,
+      "sex": "F",
+      "phone": "(512) 555-2190",
+      "email": "maya.poluru@example.com",
+      "pcp": "Dr. Elena Poluru",
+      "coverage": "Blue Cross PPO",
+      "allergies": "Penicillin",
+      "conditions": "Asthma, migraine",
+      "lastVisit": "18 Aug 2026",
+      "status": "In visit"
+    },
+    {
+      "id": "pt_luis",
+      "name": "Luis Poluru",
+      "mrn": "RFM-09811",
+      "dob": "4 Nov 1974",
+      "age": 51,
+      "sex": "M",
+      "phone": "(512) 555-4412",
+      "email": "luis.poluru@example.com",
+      "pcp": "Dr. Marcus Poluru",
+      "coverage": "Aetna HMO",
+      "allergies": "NKDA",
+      "conditions": "Hypertension, T2D",
+      "lastVisit": "22 Aug 2026",
+      "status": "Checked in"
+    },
+    {
+      "id": "pt_noah",
+      "name": "Noah Poluru",
+      "mrn": "RFM-12209",
+      "dob": "19 Aug 2018",
+      "age": 8,
+      "sex": "M",
+      "phone": "(512) 555-8801",
+      "email": "caregiver.poluru@example.com",
+      "pcp": "Dr. Priya Poluru",
+      "coverage": "United Healthcare",
+      "allergies": "Peanuts",
+      "conditions": "Seasonal allergies",
+      "lastVisit": "29 Aug 2026",
+      "status": "Waiting"
+    },
+    {
+      "id": "pt_hana",
+      "name": "Hana Poluru",
+      "mrn": "RFM-08744",
+      "dob": "28 Jan 1996",
+      "age": 30,
+      "sex": "F",
+      "phone": "(512) 555-3308",
+      "email": "hana.poluru@example.com",
+      "pcp": "Dr. Elena Poluru",
+      "coverage": "Cigna Open Access",
+      "allergies": "Sulfa",
+      "conditions": "Prenatal · 24w",
+      "lastVisit": "4 Sep 2026",
+      "status": "Scheduled"
+    },
+    {
+      "id": "pt_owen",
+      "name": "Owen Poluru",
+      "mrn": "RFM-11002",
+      "dob": "9 May 1961",
+      "age": 65,
+      "sex": "M",
+      "phone": "(512) 555-7721",
+      "email": "owen.poluru@example.com",
+      "pcp": "Dr. Marcus Poluru",
+      "coverage": "Medicare Advantage",
+      "allergies": "Codeine",
+      "conditions": "AFib, CKD stage 2",
+      "lastVisit": "30 Aug 2026",
+      "status": "Scheduled"
+    },
+    {
+      "id": "pt_leila",
+      "name": "Leila Poluru",
+      "mrn": "RFM-13118",
+      "dob": "2 Feb 2003",
+      "age": 23,
+      "sex": "F",
+      "phone": "(512) 555-0199",
+      "email": "leila.poluru@example.com",
+      "pcp": "Jordan Poluru, NP",
+      "coverage": "Self-pay",
+      "allergies": "NKDA",
+      "conditions": "Anxiety",
+      "lastVisit": "18 Aug 2026",
+      "status": "No-show risk"
+    },
+    {
+      "id": "pt_ravi",
+      "name": "Ravi Poluru",
+      "mrn": "RFM-07620",
+      "dob": "14 Dec 1982",
+      "age": 43,
+      "sex": "M",
+      "phone": "(512) 555-6640",
+      "email": "ravi.poluru@example.com",
+      "pcp": "Dr. Samir Poluru",
+      "coverage": "Humana PPO",
+      "allergies": "Iodine contrast",
+      "conditions": "Hyperlipidemia",
+      "lastVisit": "9 Aug 2026",
+      "status": "Telehealth"
+    },
+    {
+      "id": "pt_sofia",
+      "name": "Sofia Poluru",
+      "mrn": "RFM-09433",
+      "dob": "21 Sep 1991",
+      "age": 34,
+      "sex": "F",
+      "phone": "(512) 555-2284",
+      "email": "sofia.poluru@example.com",
+      "pcp": "Dr. Elena Poluru",
+      "coverage": "Blue Cross PPO",
+      "allergies": "Latex",
+      "conditions": "Hypothyroid",
+      "lastVisit": "2 Sep 2026",
+      "status": "Scheduled"
+    },
+    {
+      "id": "pt_anika",
+      "name": "Anika Patel",
+      "mrn": "RFM-14201",
+      "dob": "15 Jul 1990",
+      "age": 36,
+      "sex": "F",
+      "phone": "(512) 555-3310",
+      "email": "anika.patel@example.com",
+      "pcp": "Dr. Nadia Poluru",
+      "coverage": "Blue Cross PPO",
+      "allergies": "NKDA",
+      "conditions": "Annual wellness",
+      "lastVisit": "20 Aug 2026",
+      "status": "In visit"
+    },
+    {
+      "id": "pt_james",
+      "name": "James Chen",
+      "mrn": "RFM-14202",
+      "dob": "3 Apr 1978",
+      "age": 48,
+      "sex": "M",
+      "phone": "(512) 555-3311",
+      "email": "james.chen@example.com",
+      "pcp": "Dr. Marcus Poluru",
+      "coverage": "Aetna HMO",
+      "allergies": "Shellfish",
+      "conditions": "Prediabetes",
+      "lastVisit": "28 Aug 2026",
+      "status": "In visit"
+    },
+    {
+      "id": "pt_kiran",
+      "name": "Kiran Poluru",
+      "mrn": "RFM-11880",
+      "dob": "6 Jun 2000",
+      "age": 26,
+      "sex": "M",
+      "phone": "(512) 555-5520",
+      "email": "kiran.poluru@example.com",
+      "pcp": "Jordan Poluru, NP",
+      "coverage": "United Healthcare",
+      "allergies": "NKDA",
+      "conditions": "Sports physical",
+      "lastVisit": "1 Sep 2026",
+      "status": "Scheduled"
+    },
+    {
+      "id": "pt_elena_c",
+      "name": "Elena Chen-Poluru",
+      "mrn": "RFM-11550",
+      "dob": "11 Oct 1968",
+      "age": 57,
+      "sex": "F",
+      "phone": "(512) 555-5521",
+      "email": "elena.chen-poluru@example.com",
+      "pcp": "Dr. Elena Poluru",
+      "coverage": "Medicare Advantage",
+      "allergies": "Aspirin",
+      "conditions": "Osteoarthritis",
+      "lastVisit": "27 Aug 2026",
+      "status": "Scheduled"
+    }
+  ]
+}

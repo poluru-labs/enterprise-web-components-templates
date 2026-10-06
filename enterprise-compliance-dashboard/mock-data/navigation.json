@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Policies",
+    "href": "#/policies",
+    "icon": "file"
+  },
+  {
+    "label": "Controls",
+    "href": "#/controls",
+    "icon": "check"
+  },
+  {
+    "label": "Audits",
+    "href": "#/audits",
+    "icon": "eye"
+  },
+  {
+    "label": "Tasks",
+    "href": "#/tasks",
+    "icon": "star"
+  },
+  {
+    "label": "Evidence",
+    "href": "#/evidence",
+    "icon": "folder"
+  },
+  {
+    "label": "Findings",
+    "href": "#/findings",
+    "icon": "bell"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

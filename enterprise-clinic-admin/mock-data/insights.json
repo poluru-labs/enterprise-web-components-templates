@@ -1,0 +1,100 @@
+{
+  "pulse": [
+    {
+      "label": "Kept rate",
+      "value": "77%",
+      "hint": "Completed visits this week"
+    },
+    {
+      "label": "No-show",
+      "value": "6%",
+      "hint": "Outreach cut this by one today"
+    },
+    {
+      "label": "Avg wait",
+      "value": "10 min",
+      "hint": "Door to room after 10:00"
+    },
+    {
+      "label": "Same-day fill",
+      "value": "66%",
+      "hint": "Open slots claimed by noon"
+    }
+  ],
+  "volumeWeeks": [
+    148,
+    151,
+    155,
+    160,
+    166,
+    171,
+    168,
+    174,
+    180,
+    176,
+    182,
+    188
+  ],
+  "visitMix": [
+    {
+      "label": "Follow-up",
+      "share": 44
+    },
+    {
+      "label": "New / consult",
+      "share": 18
+    },
+    {
+      "label": "Pediatrics",
+      "share": 21
+    },
+    {
+      "label": "Telehealth",
+      "share": 17
+    }
+  ],
+  "access": [
+    {
+      "label": "Kept",
+      "share": 77
+    },
+    {
+      "label": "Cancelled",
+      "share": 14
+    },
+    {
+      "label": "No-show",
+      "share": 6
+    },
+    {
+      "label": "Late",
+      "share": 3
+    }
+  ],
+  "facts": [
+    {
+      "term": "Kept rate",
+      "description": "77%"
+    },
+    {
+      "term": "No-show",
+      "description": "6%"
+    },
+    {
+      "term": "Avg wait",
+      "description": "10 min"
+    },
+    {
+      "term": "Same-day fill",
+      "description": "66%"
+    },
+    {
+      "term": "Telehealth",
+      "description": "17%"
+    },
+    {
+      "term": "Panel growth",
+      "description": "+9.1%"
+    }
+  ]
+}

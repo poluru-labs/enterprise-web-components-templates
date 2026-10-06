@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Appointments today",
+    "value": "36",
+    "hint": "6 remaining this afternoon",
+    "trend": "up",
+    "trendValue": "+4 vs typical"
+  },
+  {
+    "label": "Checked in",
+    "value": "20",
+    "hint": "Average wait 10 min",
+    "trend": "down",
+    "trendValue": "-2 min"
+  },
+  {
+    "label": "Open slots",
+    "value": "8",
+    "hint": "2 same-day available",
+    "trend": "flat",
+    "trendValue": "Stable"
+  },
+  {
+    "label": "No-show risk",
+    "value": "2",
+    "hint": "Outreach sent at 07:45",
+    "trend": "down",
+    "trendValue": "-1"
+  },
+  {
+    "label": "Lab results",
+    "value": "14",
+    "hint": "5 need clinician review",
+    "trend": "up",
+    "trendValue": "+3"
+  },
+  {
+    "label": "Messages",
+    "value": "31",
+    "hint": "Inbox under 90 min",
+    "trend": "down",
+    "trendValue": "-12%"
+  },
+  {
+    "label": "Room occupancy",
+    "value": "82%",
+    "hint": "6 of 8 rooms in use",
+    "trend": "up",
+    "trendValue": "+6 pts"
+  },
+  {
+    "label": "Patient panel",
+    "value": "2,912",
+    "hint": "Active in 12 months",
+    "trend": "up",
+    "trendValue": "+9.1%"
+  }
+]
