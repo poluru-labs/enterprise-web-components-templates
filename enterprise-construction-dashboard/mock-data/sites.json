@@ -1,0 +1,160 @@
+{
+  "rows": [
+    {
+      "id": "ks-harbor",
+      "code": "KS-104",
+      "name": "Harborwell Clinic",
+      "city": "Austin",
+      "phase": "fit_out",
+      "status": "on_track",
+      "pm": "Kavya Poluru",
+      "super": "Subra Poluru",
+      "budget": 18200000,
+      "spent": 12400000,
+      "complete": 68,
+      "finish": "2026-12-18"
+    },
+    {
+      "id": "ks-alder",
+      "code": "KS-218",
+      "name": "Alder Hall addition",
+      "city": "Dallas",
+      "phase": "structure",
+      "status": "watch",
+      "pm": "Kavya Poluru",
+      "super": "Rohan Poluru",
+      "budget": 24600000,
+      "spent": 9800000,
+      "complete": 41,
+      "finish": "2027-04-02"
+    },
+    {
+      "id": "ks-quill",
+      "code": "KS-331",
+      "name": "Quill Campus studio",
+      "city": "Austin",
+      "phase": "mobilize",
+      "status": "on_track",
+      "pm": "Maya Poluru",
+      "super": "Subra Poluru",
+      "budget": 9400000,
+      "spent": 1200000,
+      "complete": 12,
+      "finish": "2027-06-15"
+    },
+    {
+      "id": "ks-cedar",
+      "code": "KS-412",
+      "name": "Cedar Yard warehouse",
+      "city": "Houston",
+      "phase": "structure",
+      "status": "at_risk",
+      "pm": "Dev Poluru",
+      "super": "Rohan Poluru",
+      "budget": 15800000,
+      "spent": 9100000,
+      "complete": 54,
+      "finish": "2026-11-20"
+    },
+    {
+      "id": "ks-lotline",
+      "code": "KS-509",
+      "name": "Lotline offices",
+      "city": "Austin",
+      "phase": "punch",
+      "status": "on_track",
+      "pm": "Kavya Poluru",
+      "super": "Asha Poluru",
+      "budget": 7200000,
+      "spent": 6900000,
+      "complete": 94,
+      "finish": "2026-09-30"
+    },
+    {
+      "id": "ks-stride",
+      "code": "KS-627",
+      "name": "Stride gym",
+      "city": "Dallas",
+      "phase": "fit_out",
+      "status": "on_track",
+      "pm": "Maya Poluru",
+      "super": "Subra Poluru",
+      "budget": 6100000,
+      "spent": 3800000,
+      "complete": 62,
+      "finish": "2026-10-28"
+    },
+    {
+      "id": "ks-flare",
+      "code": "KS-740",
+      "name": "Flare hotel wing",
+      "city": "Galveston",
+      "phase": "structure",
+      "status": "watch",
+      "pm": "Dev Poluru",
+      "super": "Rohan Poluru",
+      "budget": 31200000,
+      "spent": 14100000,
+      "complete": 38,
+      "finish": "2027-08-06"
+    },
+    {
+      "id": "ks-nimbus",
+      "code": "KS-851",
+      "name": "Nimbus DC",
+      "city": "Round Rock",
+      "phase": "mobilize",
+      "status": "on_track",
+      "pm": "Kavya Poluru",
+      "super": "Subra Poluru",
+      "budget": 41000000,
+      "spent": 4200000,
+      "complete": 9,
+      "finish": "2027-11-12"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "On track",
+      "value": "on_track"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "At risk",
+      "value": "at_risk"
+    }
+  ],
+  "cities": [
+    {
+      "label": "All cities",
+      "value": ""
+    },
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Dallas",
+      "value": "Dallas"
+    },
+    {
+      "label": "Houston",
+      "value": "Houston"
+    },
+    {
+      "label": "Galveston",
+      "value": "Galveston"
+    },
+    {
+      "label": "Round Rock",
+      "value": "Round Rock"
+    }
+  ]
+}

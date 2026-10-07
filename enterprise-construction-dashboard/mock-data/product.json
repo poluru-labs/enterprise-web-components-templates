@@ -1,0 +1,16 @@
+{
+  "productName": "Keystone",
+  "productLine": "Construction",
+  "workspaceName": "Poluru Builds",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@polurubuilds.example",
+    "role": "Project director"
+  },
+  "workspace": {
+    "name": "Poluru Builds",
+    "period": "Jobs · 12 Sep 2026",
+    "timezone": "America / Chicago",
+    "yards": "Austin · Dallas · Houston"
+  }
+}

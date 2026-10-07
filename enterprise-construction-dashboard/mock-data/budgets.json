@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bd-harbor",
+    "site": "Harborwell Clinic",
+    "code": "KS-104",
+    "original": 17600000,
+    "approved": 18200000,
+    "spent": 12400000,
+    "remaining": 5800000,
+    "owner": "Arjun Poluru",
+    "status": "on_track"
+  },
+  {
+    "id": "bd-alder",
+    "site": "Alder Hall addition",
+    "code": "KS-218",
+    "original": 22800000,
+    "approved": 24600000,
+    "spent": 9800000,
+    "remaining": 14800000,
+    "owner": "Arjun Poluru",
+    "status": "watch"
+  },
+  {
+    "id": "bd-quill",
+    "site": "Quill Campus studio",
+    "code": "KS-331",
+    "original": 9100000,
+    "approved": 9400000,
+    "spent": 1200000,
+    "remaining": 8200000,
+    "owner": "Maya Poluru",
+    "status": "on_track"
+  },
+  {
+    "id": "bd-cedar",
+    "site": "Cedar Yard warehouse",
+    "code": "KS-412",
+    "original": 14200000,
+    "approved": 15800000,
+    "spent": 9100000,
+    "remaining": 6700000,
+    "owner": "Arjun Poluru",
+    "status": "at_risk"
+  },
+  {
+    "id": "bd-lotline",
+    "site": "Lotline offices",
+    "code": "KS-509",
+    "original": 6800000,
+    "approved": 7200000,
+    "spent": 6900000,
+    "remaining": 300000,
+    "owner": "Priya Poluru",
+    "status": "watch"
+  },
+  {
+    "id": "bd-stride",
+    "site": "Stride gym",
+    "code": "KS-627",
+    "original": 5900000,
+    "approved": 6100000,
+    "spent": 3800000,
+    "remaining": 2300000,
+    "owner": "Maya Poluru",
+    "status": "on_track"
+  },
+  {
+    "id": "bd-flare",
+    "site": "Flare hotel wing",
+    "code": "KS-740",
+    "original": 28800000,
+    "approved": 31200000,
+    "spent": 14100000,
+    "remaining": 17100000,
+    "owner": "Arjun Poluru",
+    "status": "watch"
+  },
+  {
+    "id": "bd-nimbus",
+    "site": "Nimbus DC",
+    "code": "KS-851",
+    "original": 39000000,
+    "approved": 41000000,
+    "spent": 4200000,
+    "remaining": 36800000,
+    "owner": "Priya Poluru",
+    "status": "on_track"
+  }
+]

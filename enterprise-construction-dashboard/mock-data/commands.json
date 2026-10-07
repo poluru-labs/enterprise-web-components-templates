@@ -1,0 +1,56 @@
+[
+  {
+    "label": "Overview",
+    "description": "Jobs pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Log RFI",
+    "description": "Open a question",
+    "href": "#log-rfi",
+    "icon": "plus"
+  },
+  {
+    "label": "Job sites",
+    "description": "Active work",
+    "href": "#/sites",
+    "icon": "folder"
+  },
+  {
+    "label": "Budgets",
+    "description": "Arjun Poluru’s book",
+    "href": "#/budgets",
+    "icon": "star"
+  },
+  {
+    "label": "Schedule",
+    "description": "Leela Poluru’s calendar",
+    "href": "#/schedule",
+    "icon": "clock"
+  },
+  {
+    "label": "RFIs",
+    "description": "Ishaan Poluru’s queue",
+    "href": "#/rfis",
+    "icon": "file"
+  },
+  {
+    "label": "Subcontractors",
+    "description": "Trades and scores",
+    "href": "#/subcontractors",
+    "icon": "user"
+  },
+  {
+    "label": "Safety",
+    "description": "Nikhil Poluru’s reports",
+    "href": "#/safety",
+    "icon": "check"
+  },
+  {
+    "label": "Settings",
+    "description": "Jobs desk defaults",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

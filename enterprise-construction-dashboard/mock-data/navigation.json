@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Job sites",
+    "href": "#/sites",
+    "icon": "folder"
+  },
+  {
+    "label": "Budgets",
+    "href": "#/budgets",
+    "icon": "star"
+  },
+  {
+    "label": "Schedule",
+    "href": "#/schedule",
+    "icon": "clock"
+  },
+  {
+    "label": "RFIs",
+    "href": "#/rfis",
+    "icon": "file"
+  },
+  {
+    "label": "Subcontractors",
+    "href": "#/subcontractors",
+    "icon": "user"
+  },
+  {
+    "label": "Safety",
+    "href": "#/safety",
+    "icon": "check"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

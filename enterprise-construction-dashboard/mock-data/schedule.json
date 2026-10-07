@@ -1,0 +1,98 @@
+{
+  "rows": [
+    {
+      "id": "sc-1",
+      "site": "Harborwell Clinic",
+      "activity": "Nurse-station millwork",
+      "start": "2026-09-15",
+      "finish": "2026-10-03",
+      "owner": "Subra Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "sc-2",
+      "site": "Alder Hall addition",
+      "activity": "Level 3 deck pour",
+      "start": "2026-09-18",
+      "finish": "2026-09-22",
+      "owner": "Rohan Poluru",
+      "status": "watch"
+    },
+    {
+      "id": "sc-3",
+      "site": "Cedar Yard warehouse",
+      "activity": "Tilt-wall panels",
+      "start": "2026-09-12",
+      "finish": "2026-09-26",
+      "owner": "Rohan Poluru",
+      "status": "at_risk"
+    },
+    {
+      "id": "sc-4",
+      "site": "Lotline offices",
+      "activity": "Punch walk with owner",
+      "start": "2026-09-22",
+      "finish": "2026-09-24",
+      "owner": "Asha Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "sc-5",
+      "site": "Stride gym",
+      "activity": "Rubber flooring",
+      "start": "2026-09-20",
+      "finish": "2026-10-02",
+      "owner": "Subra Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "sc-6",
+      "site": "Flare hotel wing",
+      "activity": "Podium steel",
+      "start": "2026-09-14",
+      "finish": "2026-10-09",
+      "owner": "Dev Poluru",
+      "status": "watch"
+    },
+    {
+      "id": "sc-7",
+      "site": "Quill Campus studio",
+      "activity": "Site fence and trailer",
+      "start": "2026-09-16",
+      "finish": "2026-09-19",
+      "owner": "Leela Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "sc-8",
+      "site": "Nimbus DC",
+      "activity": "Mass excavation",
+      "start": "2026-09-28",
+      "finish": "2026-10-30",
+      "owner": "Leela Poluru",
+      "status": "scheduled"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "On track",
+      "value": "on_track"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "At risk",
+      "value": "at_risk"
+    },
+    {
+      "label": "Scheduled",
+      "value": "scheduled"
+    }
+  ]
+}

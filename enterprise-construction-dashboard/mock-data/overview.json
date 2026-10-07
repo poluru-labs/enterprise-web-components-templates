@@ -1,0 +1,46 @@
+{
+  "stats": [
+    {
+      "label": "Active sites",
+      "value": "8",
+      "hint": "Austin, Dallas, Houston, coast",
+      "trend": "flat",
+      "trendValue": "Book"
+    },
+    {
+      "label": "Spent YTD",
+      "value": "$61.5M",
+      "hint": "Against $153.7M approved",
+      "trend": "up",
+      "trendValue": "+8%"
+    },
+    {
+      "label": "Open RFIs",
+      "value": "5",
+      "hint": "Ishaan Poluru’s queue",
+      "trend": "down",
+      "trendValue": "1 late"
+    },
+    {
+      "label": "Safety open",
+      "value": "3",
+      "hint": "Nikhil Poluru · EHS",
+      "trend": "flat",
+      "trendValue": "Today"
+    }
+  ],
+  "alert": {
+    "title": "Cedar Yard at risk",
+    "message": "Tilt-wall is slipping. Subra Poluru will not pour until the tag-line near miss is closed."
+  },
+  "spend": {
+    "badge": "$61.5M YTD",
+    "note": "Arjun Poluru holds the book. Harborwell and Flare still take the heavy draws."
+  },
+  "budget": {
+    "remainingPercent": 40,
+    "approvedTotal": "$153.7M",
+    "remaining": "$92.1M",
+    "note": "Priya Poluru reviews change orders Fridays."
+  }
+}

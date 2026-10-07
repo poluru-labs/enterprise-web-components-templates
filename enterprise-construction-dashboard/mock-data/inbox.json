@@ -1,0 +1,26 @@
+[
+  {
+    "label": "RFI-429 overdue on Flare wing",
+    "description": "Dev Poluru · podium pour",
+    "icon": "alert-triangle",
+    "href": "#/rfis"
+  },
+  {
+    "label": "Cedar tilt-wall still at risk",
+    "description": "Subra Poluru · KS-412",
+    "icon": "clock",
+    "href": "#/site/ks-cedar"
+  },
+  {
+    "label": "Near miss logged at Cedar Yard",
+    "description": "Nikhil Poluru · safety",
+    "icon": "check",
+    "href": "#/safety"
+  },
+  {
+    "label": "Lotline punch walk Thursday",
+    "description": "Asha Poluru · owner on site",
+    "icon": "star",
+    "href": "#/schedule"
+  }
+]

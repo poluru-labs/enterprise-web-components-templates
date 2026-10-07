@@ -1,0 +1,21 @@
+{
+  "rfiDueDays": 7,
+  "safetyDigest": true,
+  "dailyFieldNotes": true,
+  "density": "comfortable",
+  "defaultCity": "Austin",
+  "cities": [
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Dallas",
+      "value": "Dallas"
+    },
+    {
+      "label": "Houston",
+      "value": "Houston"
+    }
+  ]
+}

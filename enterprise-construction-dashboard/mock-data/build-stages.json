@@ -1,0 +1,27 @@
+[
+  {
+    "id": "mobilize",
+    "label": "Mobilize",
+    "count": 2,
+    "href": "#/sites"
+  },
+  {
+    "id": "structure",
+    "label": "Structure",
+    "count": 3,
+    "href": "#/schedule",
+    "hot": true
+  },
+  {
+    "id": "fit_out",
+    "label": "Fit-out",
+    "count": 2,
+    "href": "#/sites"
+  },
+  {
+    "id": "punch",
+    "label": "Punch",
+    "count": 1,
+    "href": "#/sites"
+  }
+]

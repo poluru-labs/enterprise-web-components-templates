@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "id": "sub-cedar",
+      "name": "Cedar & Bolt",
+      "trade": "Structural steel",
+      "site": "Flare hotel wing",
+      "contact": "Priya Poluru",
+      "score": 91,
+      "status": "active"
+    },
+    {
+      "id": "sub-northline",
+      "name": "Northline Electric",
+      "trade": "Electrical",
+      "site": "Harborwell Clinic",
+      "contact": "Dev Poluru",
+      "score": 88,
+      "status": "active"
+    },
+    {
+      "id": "sub-folio",
+      "name": "Folio Mechanical",
+      "trade": "HVAC",
+      "site": "Stride gym",
+      "contact": "Dev Poluru",
+      "score": 84,
+      "status": "active"
+    },
+    {
+      "id": "sub-alder",
+      "name": "Alder Concrete",
+      "trade": "Foundations",
+      "site": "Alder Hall addition",
+      "contact": "Rohan Poluru",
+      "score": 79,
+      "status": "watch"
+    },
+    {
+      "id": "sub-quill",
+      "name": "Quill Interiors",
+      "trade": "Millwork",
+      "site": "Lotline offices",
+      "contact": "Asha Poluru",
+      "score": 93,
+      "status": "punch"
+    },
+    {
+      "id": "sub-tide",
+      "name": "Tide Waterproofing",
+      "trade": "Envelope",
+      "site": "Cedar Yard warehouse",
+      "contact": "Subra Poluru",
+      "score": 72,
+      "status": "watch"
+    },
+    {
+      "id": "sub-nimbus",
+      "name": "Nimbus Low Voltage",
+      "trade": "IT / AV",
+      "site": "Nimbus DC",
+      "contact": "Kavya Poluru",
+      "score": 86,
+      "status": "mobilizing"
+    },
+    {
+      "id": "sub-harbor",
+      "name": "Harborwell Glass",
+      "trade": "Curtain wall",
+      "site": "Harborwell Clinic",
+      "contact": "Subra Poluru",
+      "score": 90,
+      "status": "active"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Active",
+      "value": "active"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "Punch",
+      "value": "punch"
+    },
+    {
+      "label": "Mobilizing",
+      "value": "mobilizing"
+    }
+  ],
+  "trades": [
+    {
+      "label": "Structural steel",
+      "value": "Structural steel"
+    },
+    {
+      "label": "Electrical",
+      "value": "Electrical"
+    },
+    {
+      "label": "HVAC",
+      "value": "HVAC"
+    },
+    {
+      "label": "Foundations",
+      "value": "Foundations"
+    },
+    {
+      "label": "Millwork",
+      "value": "Millwork"
+    },
+    {
+      "label": "Envelope",
+      "value": "Envelope"
+    }
+  ]
+}

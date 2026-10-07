@@ -1,0 +1,98 @@
+{
+  "rows": [
+    {
+      "id": "sf-881",
+      "site": "Cedar Yard warehouse",
+      "type": "Near miss",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-11",
+      "status": "open",
+      "notes": "Tilt-panel tag line slipped. Crew stood down."
+    },
+    {
+      "id": "sf-874",
+      "site": "Alder Hall addition",
+      "type": "Inspection",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-10",
+      "status": "watch",
+      "notes": "Guardrail gap on level 2. Rohan Poluru to close today."
+    },
+    {
+      "id": "sf-868",
+      "site": "Harborwell Clinic",
+      "type": "Toolbox",
+      "reporter": "Subra Poluru",
+      "date": "2026-09-12",
+      "status": "closed",
+      "notes": "Hot-work permits reviewed. No findings."
+    },
+    {
+      "id": "sf-861",
+      "site": "Flare hotel wing",
+      "type": "Incident",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-08",
+      "status": "open",
+      "notes": "Sprain on podium steel. First aid only."
+    },
+    {
+      "id": "sf-852",
+      "site": "Stride gym",
+      "type": "Inspection",
+      "reporter": "Asha Poluru",
+      "date": "2026-09-09",
+      "status": "closed",
+      "notes": "Housekeeping pass. Dumpster pulled."
+    },
+    {
+      "id": "sf-844",
+      "site": "Lotline offices",
+      "type": "Toolbox",
+      "reporter": "Asha Poluru",
+      "date": "2026-09-12",
+      "status": "closed",
+      "notes": "Punch-walk PPE. Owner on site Thursday."
+    },
+    {
+      "id": "sf-830",
+      "site": "Quill Campus studio",
+      "type": "Inspection",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-11",
+      "status": "closed",
+      "notes": "Fence and trailer set. Temp power pending."
+    },
+    {
+      "id": "sf-821",
+      "site": "Nimbus DC",
+      "type": "Plan",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-07",
+      "status": "scheduled",
+      "notes": "Excavation plan due before mass dig."
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Open",
+      "value": "open"
+    },
+    {
+      "label": "Watch",
+      "value": "watch"
+    },
+    {
+      "label": "Closed",
+      "value": "closed"
+    },
+    {
+      "label": "Scheduled",
+      "value": "scheduled"
+    }
+  ]
+}

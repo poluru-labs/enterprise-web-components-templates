@@ -1,0 +1,34 @@
+{
+  "titlePlaceholder": "Rebar at grid C/4",
+  "defaultSite": "Harborwell Clinic",
+  "defaultAuthor": "Subbu Poluru",
+  "defaultTrade": "Structural steel",
+  "defaultDue": "2026-09-20",
+  "defaultAssignee": "Ishaan Poluru",
+  "trades": [
+    {
+      "label": "Structural steel",
+      "value": "Structural steel"
+    },
+    {
+      "label": "Electrical",
+      "value": "Electrical"
+    },
+    {
+      "label": "HVAC",
+      "value": "HVAC"
+    },
+    {
+      "label": "Foundations",
+      "value": "Foundations"
+    },
+    {
+      "label": "Millwork",
+      "value": "Millwork"
+    },
+    {
+      "label": "Envelope",
+      "value": "Envelope"
+    }
+  ]
+}

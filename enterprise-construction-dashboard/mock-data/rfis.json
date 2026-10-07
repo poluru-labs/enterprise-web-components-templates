@@ -1,0 +1,110 @@
+{
+  "rows": [
+    {
+      "id": "rfi-441",
+      "number": "RFI-441",
+      "site": "Cedar Yard warehouse",
+      "title": "Door hardware at dock 4",
+      "author": "Rohan Poluru",
+      "to": "Asha Poluru",
+      "due": "2026-09-14",
+      "status": "open"
+    },
+    {
+      "id": "rfi-438",
+      "number": "RFI-438",
+      "site": "Alder Hall addition",
+      "title": "Rebar at grid C/4",
+      "author": "Rohan Poluru",
+      "to": "Dev Poluru",
+      "due": "2026-09-16",
+      "status": "open"
+    },
+    {
+      "id": "rfi-436",
+      "number": "RFI-436",
+      "site": "Harborwell Clinic",
+      "title": "Nurse call raceway",
+      "author": "Subra Poluru",
+      "to": "Ishaan Poluru",
+      "due": "2026-09-18",
+      "status": "answered"
+    },
+    {
+      "id": "rfi-429",
+      "number": "RFI-429",
+      "site": "Flare hotel wing",
+      "title": "Podium pour sequence",
+      "author": "Dev Poluru",
+      "to": "Leela Poluru",
+      "due": "2026-09-12",
+      "status": "overdue"
+    },
+    {
+      "id": "rfi-421",
+      "number": "RFI-421",
+      "site": "Stride gym",
+      "title": "HVAC diffuser layout",
+      "author": "Subra Poluru",
+      "to": "Dev Poluru",
+      "due": "2026-09-20",
+      "status": "open"
+    },
+    {
+      "id": "rfi-418",
+      "number": "RFI-418",
+      "site": "Lotline offices",
+      "title": "Lobby stone sample",
+      "author": "Asha Poluru",
+      "to": "Kavya Poluru",
+      "due": "2026-09-10",
+      "status": "closed"
+    },
+    {
+      "id": "rfi-410",
+      "number": "RFI-410",
+      "site": "Quill Campus studio",
+      "title": "Utility pole relocation",
+      "author": "Maya Poluru",
+      "to": "Priya Poluru",
+      "due": "2026-09-22",
+      "status": "open"
+    },
+    {
+      "id": "rfi-404",
+      "number": "RFI-404",
+      "site": "Nimbus DC",
+      "title": "Soil report addendum",
+      "author": "Leela Poluru",
+      "to": "Ishaan Poluru",
+      "due": "2026-09-25",
+      "status": "draft"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Open",
+      "value": "open"
+    },
+    {
+      "label": "Answered",
+      "value": "answered"
+    },
+    {
+      "label": "Overdue",
+      "value": "overdue"
+    },
+    {
+      "label": "Closed",
+      "value": "closed"
+    },
+    {
+      "label": "Draft",
+      "value": "draft"
+    }
+  ]
+}

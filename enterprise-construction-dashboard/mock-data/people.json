@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Subbu Poluru",
+    "role": "Project director",
+    "squad": "Jobs desk"
+  },
+  {
+    "name": "Subra Poluru",
+    "role": "Superintendent",
+    "squad": "Field"
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Project manager",
+    "squad": "Jobs desk"
+  },
+  {
+    "name": "Maya Poluru",
+    "role": "Estimator",
+    "squad": "Precon"
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Controller",
+    "squad": "Finance"
+  },
+  {
+    "name": "Leela Poluru",
+    "role": "Scheduler",
+    "squad": "Planning"
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "Safety lead",
+    "squad": "EHS"
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "Site engineer",
+    "squad": "Field"
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Contracts",
+    "squad": "Buyout"
+  },
+  {
+    "name": "Ishaan Poluru",
+    "role": "RFI coordinator",
+    "squad": "Jobs desk"
+  },
+  {
+    "name": "Asha Poluru",
+    "role": "QA/QC",
+    "squad": "Field"
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "MEP manager",
+    "squad": "Field"
+  }
+]
