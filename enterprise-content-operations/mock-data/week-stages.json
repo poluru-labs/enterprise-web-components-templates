@@ -1,0 +1,27 @@
+[
+  {
+    "id": "draft",
+    "label": "Draft",
+    "count": 2,
+    "href": "#/calendar"
+  },
+  {
+    "id": "copy",
+    "label": "Copy",
+    "count": 2,
+    "href": "#/calendar",
+    "hot": true
+  },
+  {
+    "id": "approve",
+    "label": "Approve",
+    "count": 2,
+    "href": "#/approvals"
+  },
+  {
+    "id": "ship",
+    "label": "Ship",
+    "count": 2,
+    "href": "#/schedule"
+  }
+]

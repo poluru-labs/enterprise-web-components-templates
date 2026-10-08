@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Meera Poluru",
+    "role": "Managing editor",
+    "desk": "Desk"
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Copy chief",
+    "desk": "Copy"
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "News editor",
+    "desk": "News"
+  },
+  {
+    "name": "Leela Poluru",
+    "role": "Features editor",
+    "desk": "Features"
+  },
+  {
+    "name": "Asha Poluru",
+    "role": "Approvals",
+    "desk": "Desk"
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "Locales lead",
+    "desk": "Locales"
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Photo editor",
+    "desk": "Photo"
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "Production",
+    "desk": "Schedule"
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Scheduler",
+    "desk": "Schedule"
+  },
+  {
+    "name": "Ishaan Poluru",
+    "role": "Assets",
+    "desk": "Library"
+  },
+  {
+    "name": "Maya Poluru",
+    "role": "Legal",
+    "desk": "Legal"
+  },
+  {
+    "name": "Anika Poluru",
+    "role": "Reporter",
+    "desk": "News"
+  },
+  {
+    "name": "Mira Poluru",
+    "role": "Reporter",
+    "desk": "Features"
+  },
+  {
+    "name": "Subra Poluru",
+    "role": "Design",
+    "desk": "Photo"
+  }
+]

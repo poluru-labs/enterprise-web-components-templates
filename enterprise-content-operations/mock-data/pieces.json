@@ -1,0 +1,126 @@
+{
+  "rows": [
+    {
+      "id": "lm-harbor",
+      "code": "LM-104",
+      "title": "Harborwell water story",
+      "desk": "features",
+      "stage": "copy",
+      "status": "copy",
+      "owner": "Kavya Poluru",
+      "author": "Mira Poluru",
+      "ship": "2026-09-17",
+      "locale": "EN",
+      "words": 1840
+    },
+    {
+      "id": "lm-alder",
+      "code": "LM-218",
+      "title": "Alder Hall profile",
+      "desk": "features",
+      "stage": "draft",
+      "status": "draft",
+      "owner": "Leela Poluru",
+      "author": "Leela Poluru",
+      "ship": "2026-09-19",
+      "locale": "EN",
+      "words": 2460
+    },
+    {
+      "id": "lm-quill",
+      "code": "LM-331",
+      "title": "Quill studio fire",
+      "desk": "news",
+      "stage": "approve",
+      "status": "in_review",
+      "owner": "Asha Poluru",
+      "author": "Arjun Poluru",
+      "ship": "2026-09-16",
+      "locale": "EN",
+      "words": 920
+    },
+    {
+      "id": "lm-cedar",
+      "code": "LM-412",
+      "title": "Cedar Yard cargo",
+      "desk": "news",
+      "stage": "approve",
+      "status": "approved",
+      "owner": "Arjun Poluru",
+      "author": "Anika Poluru",
+      "ship": "2026-09-16",
+      "locale": "EN",
+      "words": 740
+    },
+    {
+      "id": "lm-lotline",
+      "code": "LM-509",
+      "title": "Lotline partners",
+      "desk": "features",
+      "stage": "ship",
+      "status": "scheduled",
+      "owner": "Dev Poluru",
+      "author": "Mira Poluru",
+      "ship": "2026-09-18",
+      "locale": "EN",
+      "words": 1620
+    },
+    {
+      "id": "lm-stride",
+      "code": "LM-627",
+      "title": "Stride windshield recall",
+      "desk": "news",
+      "stage": "ship",
+      "status": "published",
+      "owner": "Rohan Poluru",
+      "author": "Arjun Poluru",
+      "ship": "2026-09-15",
+      "locale": "EN",
+      "words": 610
+    },
+    {
+      "id": "lm-flare",
+      "code": "LM-740",
+      "title": "Flare waterfront",
+      "desk": "features",
+      "stage": "copy",
+      "status": "translation",
+      "owner": "Nikhil Poluru",
+      "author": "Leela Poluru",
+      "ship": "2026-09-20",
+      "locale": "ES",
+      "words": 1980
+    },
+    {
+      "id": "lm-nimbus",
+      "code": "LM-851",
+      "title": "Nimbus ransomware",
+      "desk": "news",
+      "stage": "draft",
+      "status": "hold",
+      "owner": "Maya Poluru",
+      "author": "Kavya Poluru",
+      "ship": "2026-09-21",
+      "locale": "EN",
+      "words": 1280
+    }
+  ],
+  "desks": [
+    {
+      "label": "News",
+      "value": "news"
+    },
+    {
+      "label": "Features",
+      "value": "features"
+    },
+    {
+      "label": "Photo",
+      "value": "photo"
+    },
+    {
+      "label": "Locales",
+      "value": "locales"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "rows": [
+    {
+      "id": "sch-627",
+      "piece": "LM-627",
+      "title": "Stride windshield recall",
+      "slot": "2026-09-15 06:00",
+      "channel": "Home",
+      "owner": "Rohan Poluru",
+      "status": "published"
+    },
+    {
+      "id": "sch-331",
+      "piece": "LM-331",
+      "title": "Quill studio fire",
+      "slot": "2026-09-16 06:00",
+      "channel": "Home",
+      "owner": "Dev Poluru",
+      "status": "in_review"
+    },
+    {
+      "id": "sch-412",
+      "piece": "LM-412",
+      "title": "Cedar Yard cargo",
+      "slot": "2026-09-16 16:00",
+      "channel": "News",
+      "owner": "Rohan Poluru",
+      "status": "approved"
+    },
+    {
+      "id": "sch-104",
+      "piece": "LM-104",
+      "title": "Harborwell water story",
+      "slot": "2026-09-17 06:00",
+      "channel": "Features",
+      "owner": "Dev Poluru",
+      "status": "copy"
+    },
+    {
+      "id": "sch-509",
+      "piece": "LM-509",
+      "title": "Lotline partners",
+      "slot": "2026-09-18 06:00",
+      "channel": "Home",
+      "owner": "Rohan Poluru",
+      "status": "scheduled"
+    },
+    {
+      "id": "sch-218",
+      "piece": "LM-218",
+      "title": "Alder Hall profile",
+      "slot": "2026-09-19 09:00",
+      "channel": "Weekend",
+      "owner": "Dev Poluru",
+      "status": "draft"
+    },
+    {
+      "id": "sch-740",
+      "piece": "LM-740",
+      "title": "Flare waterfront",
+      "slot": "2026-09-20 08:00",
+      "channel": "Features",
+      "owner": "Nikhil Poluru",
+      "status": "translation"
+    },
+    {
+      "id": "sch-851",
+      "piece": "LM-851",
+      "title": "Nimbus ransomware",
+      "slot": "2026-09-21 06:00",
+      "channel": "News",
+      "owner": "Maya Poluru",
+      "status": "hold"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Published",
+      "value": "published"
+    },
+    {
+      "label": "Scheduled",
+      "value": "scheduled"
+    },
+    {
+      "label": "Approved",
+      "value": "approved"
+    },
+    {
+      "label": "Hold",
+      "value": "hold"
+    }
+  ]
+}

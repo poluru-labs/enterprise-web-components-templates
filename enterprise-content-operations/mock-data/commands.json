@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Overview",
+    "description": "Desk pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "New piece",
+    "description": "Open a draft",
+    "href": "#new-piece",
+    "icon": "plus"
+  },
+  {
+    "label": "Calendar",
+    "description": "Leela Poluru’s week",
+    "href": "#/calendar",
+    "icon": "calendar"
+  },
+  {
+    "label": "Approvals",
+    "description": "Asha Poluru’s queue",
+    "href": "#/approvals",
+    "icon": "check"
+  },
+  {
+    "label": "Locales",
+    "description": "Nikhil Poluru’s packs",
+    "href": "#/locales",
+    "icon": "copy"
+  },
+  {
+    "label": "Schedule",
+    "description": "Dev Poluru’s slots",
+    "href": "#/schedule",
+    "icon": "clock"
+  },
+  {
+    "label": "Assets",
+    "description": "Ishaan Poluru’s library",
+    "href": "#/assets",
+    "icon": "folder"
+  },
+  {
+    "label": "Settings",
+    "description": "Fieldline defaults",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

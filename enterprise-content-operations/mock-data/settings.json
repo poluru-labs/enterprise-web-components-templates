@@ -1,0 +1,18 @@
+{
+  "homeSlotHour": 6,
+  "copyTargetWords": 1800,
+  "legalDigest": true,
+  "localeDigest": true,
+  "holdRansomwareForCounsel": true,
+  "density": "comfortable",
+  "defaultDesk": "news",
+  "defaultOwner": "Kavya Poluru",
+  "ownerSuggestions": [
+    "Kavya Poluru",
+    "Arjun Poluru",
+    "Leela Poluru",
+    "Asha Poluru",
+    "Nikhil Poluru"
+  ],
+  "deskHealthRating": 4
+}

@@ -1,0 +1,46 @@
+{
+  "stats": [
+    {
+      "label": "On the desk",
+      "value": "7",
+      "hint": "Not yet live",
+      "trend": "flat",
+      "trendValue": "Week"
+    },
+    {
+      "label": "Due this week",
+      "value": "4",
+      "hint": "Thu Harborwell, Fri Lotline",
+      "trend": "up",
+      "trendValue": "4"
+    },
+    {
+      "label": "Awaiting Asha",
+      "value": "1",
+      "hint": "Quill studio fire",
+      "trend": "up",
+      "trendValue": "Hot"
+    },
+    {
+      "label": "Locales in flight",
+      "value": "4",
+      "hint": "Nikhil Poluru’s packs",
+      "trend": "flat",
+      "trendValue": "ES 62%"
+    }
+  ],
+  "alert": {
+    "title": "Quill is in review",
+    "message": "Asha Poluru holds LM-331. Arjun Poluru stays off the pad until legal clears the fire photos."
+  },
+  "ships": {
+    "badge": "26 live",
+    "note": "Rohan Poluru holds the home slot. Stride went at 06:00. Quill is next if Asha Poluru signs."
+  },
+  "slotHealth": {
+    "value": 74,
+    "max": 100,
+    "label": "74% of slots hit this week",
+    "note": "Dev Poluru clears the 06:00 window."
+  }
+}

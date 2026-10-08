@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "id": "ap-331",
+      "piece": "LM-331",
+      "title": "Quill studio fire",
+      "requester": "Arjun Poluru",
+      "reviewer": "Asha Poluru",
+      "date": "2026-09-15",
+      "status": "in_review",
+      "desk": "News"
+    },
+    {
+      "id": "ap-412",
+      "piece": "LM-412",
+      "title": "Cedar Yard cargo",
+      "requester": "Anika Poluru",
+      "reviewer": "Asha Poluru",
+      "date": "2026-09-15",
+      "status": "approved",
+      "desk": "News"
+    },
+    {
+      "id": "ap-104",
+      "piece": "LM-104",
+      "title": "Harborwell water story",
+      "requester": "Kavya Poluru",
+      "reviewer": "Meera Poluru",
+      "date": "2026-09-16",
+      "status": "copy",
+      "desk": "Features"
+    },
+    {
+      "id": "ap-509",
+      "piece": "LM-509",
+      "title": "Lotline partners",
+      "requester": "Mira Poluru",
+      "reviewer": "Maya Poluru",
+      "date": "2026-09-14",
+      "status": "scheduled",
+      "desk": "Legal"
+    },
+    {
+      "id": "ap-851",
+      "piece": "LM-851",
+      "title": "Nimbus ransomware",
+      "requester": "Kavya Poluru",
+      "reviewer": "Maya Poluru",
+      "date": "2026-09-15",
+      "status": "hold",
+      "desk": "Legal"
+    },
+    {
+      "id": "ap-740",
+      "piece": "LM-740",
+      "title": "Flare waterfront",
+      "requester": "Leela Poluru",
+      "reviewer": "Nikhil Poluru",
+      "date": "2026-09-16",
+      "status": "translation",
+      "desk": "Locales"
+    },
+    {
+      "id": "ap-218",
+      "piece": "LM-218",
+      "title": "Alder Hall profile",
+      "requester": "Leela Poluru",
+      "reviewer": "Meera Poluru",
+      "date": "2026-09-17",
+      "status": "draft",
+      "desk": "Features"
+    },
+    {
+      "id": "ap-627",
+      "piece": "LM-627",
+      "title": "Stride windshield recall",
+      "requester": "Arjun Poluru",
+      "reviewer": "Asha Poluru",
+      "date": "2026-09-14",
+      "status": "published",
+      "desk": "News"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "In review",
+      "value": "in_review"
+    },
+    {
+      "label": "Approved",
+      "value": "approved"
+    },
+    {
+      "label": "Hold",
+      "value": "hold"
+    },
+    {
+      "label": "Copy",
+      "value": "copy"
+    }
+  ]
+}

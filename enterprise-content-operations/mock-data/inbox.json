@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Quill still needs Asha Poluru",
+    "description": "News · LM-331",
+    "icon": "alert-triangle",
+    "href": "#/approvals"
+  },
+  {
+    "label": "Flare ES pack is 62%",
+    "description": "Nikhil Poluru · Locales",
+    "icon": "clock",
+    "href": "#/locales"
+  },
+  {
+    "label": "Stride shipped at 06:00",
+    "description": "Rohan Poluru · Home",
+    "icon": "check",
+    "href": "#/schedule"
+  },
+  {
+    "label": "Harborwell art is ready",
+    "description": "Priya Poluru · LM-104",
+    "icon": "file",
+    "href": "#/piece/lm-harbor"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "id": "loc-en",
+      "code": "EN",
+      "name": "English",
+      "piece": "Harborwell water story",
+      "owner": "Kavya Poluru",
+      "coverage": 100,
+      "status": "ready"
+    },
+    {
+      "id": "loc-es",
+      "code": "ES",
+      "name": "Spanish",
+      "piece": "Flare waterfront",
+      "owner": "Nikhil Poluru",
+      "coverage": 62,
+      "status": "translation"
+    },
+    {
+      "id": "loc-fr",
+      "code": "FR",
+      "name": "French",
+      "piece": "Lotline partners",
+      "owner": "Nikhil Poluru",
+      "coverage": 40,
+      "status": "draft"
+    },
+    {
+      "id": "loc-de",
+      "code": "DE",
+      "name": "German",
+      "piece": "Cedar Yard cargo",
+      "owner": "Anika Poluru",
+      "coverage": 88,
+      "status": "copy"
+    },
+    {
+      "id": "loc-pt",
+      "code": "PT",
+      "name": "Portuguese",
+      "piece": "Quill studio fire",
+      "owner": "Mira Poluru",
+      "coverage": 24,
+      "status": "hold"
+    },
+    {
+      "id": "loc-ja",
+      "code": "JA",
+      "name": "Japanese",
+      "piece": "Stride windshield recall",
+      "owner": "Subra Poluru",
+      "coverage": 100,
+      "status": "published"
+    },
+    {
+      "id": "loc-it",
+      "code": "IT",
+      "name": "Italian",
+      "piece": "Alder Hall profile",
+      "owner": "Leela Poluru",
+      "coverage": 12,
+      "status": "draft"
+    },
+    {
+      "id": "loc-nl",
+      "code": "NL",
+      "name": "Dutch",
+      "piece": "Nimbus ransomware",
+      "owner": "Maya Poluru",
+      "coverage": 0,
+      "status": "hold"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Ready",
+      "value": "ready"
+    },
+    {
+      "label": "Translation",
+      "value": "translation"
+    },
+    {
+      "label": "Draft",
+      "value": "draft"
+    },
+    {
+      "label": "Hold",
+      "value": "hold"
+    },
+    {
+      "label": "Published",
+      "value": "published"
+    }
+  ]
+}

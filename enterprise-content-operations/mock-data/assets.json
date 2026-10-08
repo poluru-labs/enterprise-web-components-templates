@@ -1,0 +1,136 @@
+{
+  "rows": [
+    {
+      "id": "as-harbor",
+      "name": "Harborwell flood still",
+      "kind": "photo",
+      "owner": "Priya Poluru",
+      "used": "LM-104",
+      "status": "ready",
+      "size": "4.2 MB"
+    },
+    {
+      "id": "as-alder",
+      "name": "Alder Hall portrait",
+      "kind": "photo",
+      "owner": "Subra Poluru",
+      "used": "LM-218",
+      "status": "draft",
+      "size": "3.1 MB"
+    },
+    {
+      "id": "as-quill",
+      "name": "Quill studio exterior",
+      "kind": "photo",
+      "owner": "Priya Poluru",
+      "used": "LM-331",
+      "status": "in_review",
+      "size": "5.8 MB"
+    },
+    {
+      "id": "as-cedar",
+      "name": "Cedar Yard map",
+      "kind": "illustration",
+      "owner": "Subra Poluru",
+      "used": "LM-412",
+      "status": "approved",
+      "size": "1.4 MB"
+    },
+    {
+      "id": "as-lotline",
+      "name": "Lotline skyline",
+      "kind": "photo",
+      "owner": "Priya Poluru",
+      "used": "LM-509",
+      "status": "scheduled",
+      "size": "6.0 MB"
+    },
+    {
+      "id": "as-stride",
+      "name": "Stride glass close-up",
+      "kind": "photo",
+      "owner": "Ishaan Poluru",
+      "used": "LM-627",
+      "status": "published",
+      "size": "2.7 MB"
+    },
+    {
+      "id": "as-flare",
+      "name": "Flare waterfront reel",
+      "kind": "video",
+      "owner": "Ishaan Poluru",
+      "used": "LM-740",
+      "status": "translation",
+      "size": "84 MB"
+    },
+    {
+      "id": "as-nimbus",
+      "name": "Nimbus lock screen",
+      "kind": "illustration",
+      "owner": "Subra Poluru",
+      "used": "LM-851",
+      "status": "hold",
+      "size": "980 KB"
+    }
+  ],
+  "tree": [
+    {
+      "id": "lib",
+      "label": "Fieldline library",
+      "children": [
+        {
+          "id": "photo",
+          "label": "Photos"
+        },
+        {
+          "id": "illustration",
+          "label": "Illustrations"
+        },
+        {
+          "id": "video",
+          "label": "Video"
+        }
+      ]
+    }
+  ],
+  "kinds": [
+    {
+      "label": "All kinds",
+      "value": ""
+    },
+    {
+      "label": "Photo",
+      "value": "photo"
+    },
+    {
+      "label": "Illustration",
+      "value": "illustration"
+    },
+    {
+      "label": "Video",
+      "value": "video"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Ready",
+      "value": "ready"
+    },
+    {
+      "label": "Draft",
+      "value": "draft"
+    },
+    {
+      "label": "Hold",
+      "value": "hold"
+    },
+    {
+      "label": "Published",
+      "value": "published"
+    }
+  ]
+}

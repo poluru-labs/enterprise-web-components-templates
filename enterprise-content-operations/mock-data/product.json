@@ -1,0 +1,16 @@
+{
+  "productName": "Loom",
+  "productLine": "Content",
+  "workspaceName": "Fieldline Press",
+  "currentUser": {
+    "name": "Meera Poluru",
+    "email": "meera.poluru@fieldline.example",
+    "role": "Managing editor"
+  },
+  "workspace": {
+    "name": "Fieldline Press",
+    "period": "Week of 15 Sep 2026",
+    "timezone": "America / Chicago",
+    "desks": "News · Features · Photo · Locales"
+  }
+}

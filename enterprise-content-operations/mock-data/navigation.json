@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Calendar",
+    "href": "#/calendar",
+    "icon": "calendar"
+  },
+  {
+    "label": "Approvals",
+    "href": "#/approvals",
+    "icon": "check"
+  },
+  {
+    "label": "Locales",
+    "href": "#/locales",
+    "icon": "copy"
+  },
+  {
+    "label": "Schedule",
+    "href": "#/schedule",
+    "icon": "clock"
+  },
+  {
+    "label": "Assets",
+    "href": "#/assets",
+    "icon": "folder"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

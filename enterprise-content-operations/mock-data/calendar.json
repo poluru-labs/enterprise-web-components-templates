@@ -1,0 +1,130 @@
+{
+  "weekSlots": [
+    {
+      "id": "slot-mon",
+      "day": "Mon 14",
+      "date": "2026-09-14",
+      "slot": "06:00",
+      "piece": "Stride windshield recall",
+      "owner": "Rohan Poluru",
+      "status": "published"
+    },
+    {
+      "id": "slot-tue-a",
+      "day": "Tue 15",
+      "date": "2026-09-15",
+      "slot": "06:00",
+      "piece": "Stride follow-up brief",
+      "owner": "Arjun Poluru",
+      "status": "published"
+    },
+    {
+      "id": "slot-tue-b",
+      "day": "Tue 15",
+      "date": "2026-09-15",
+      "slot": "12:00",
+      "piece": "Desk notes",
+      "owner": "Meera Poluru",
+      "status": "published"
+    },
+    {
+      "id": "slot-wed-a",
+      "day": "Wed 16",
+      "date": "2026-09-16",
+      "slot": "06:00",
+      "piece": "Quill studio fire",
+      "owner": "Asha Poluru",
+      "status": "in_review"
+    },
+    {
+      "id": "slot-wed-b",
+      "day": "Wed 16",
+      "date": "2026-09-16",
+      "slot": "16:00",
+      "piece": "Cedar Yard cargo",
+      "owner": "Arjun Poluru",
+      "status": "approved"
+    },
+    {
+      "id": "slot-thu",
+      "day": "Thu 17",
+      "date": "2026-09-17",
+      "slot": "06:00",
+      "piece": "Harborwell water story",
+      "owner": "Kavya Poluru",
+      "status": "copy"
+    },
+    {
+      "id": "slot-fri",
+      "day": "Fri 18",
+      "date": "2026-09-18",
+      "slot": "06:00",
+      "piece": "Lotline partners",
+      "owner": "Dev Poluru",
+      "status": "scheduled"
+    },
+    {
+      "id": "slot-sat",
+      "day": "Sat 19",
+      "date": "2026-09-19",
+      "slot": "09:00",
+      "piece": "Alder Hall profile",
+      "owner": "Leela Poluru",
+      "status": "draft"
+    }
+  ],
+  "viewModes": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Month",
+      "value": "month"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All statuses",
+      "value": ""
+    },
+    {
+      "label": "Draft",
+      "value": "draft"
+    },
+    {
+      "label": "Copy",
+      "value": "copy"
+    },
+    {
+      "label": "In review",
+      "value": "in_review"
+    },
+    {
+      "label": "Approved",
+      "value": "approved"
+    },
+    {
+      "label": "Scheduled",
+      "value": "scheduled"
+    },
+    {
+      "label": "Published",
+      "value": "published"
+    }
+  ],
+  "desks": [
+    {
+      "label": "All desks",
+      "value": ""
+    },
+    {
+      "label": "Features",
+      "value": "features"
+    },
+    {
+      "label": "News",
+      "value": "news"
+    }
+  ]
+}

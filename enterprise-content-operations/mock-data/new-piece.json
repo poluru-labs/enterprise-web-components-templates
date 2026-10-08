@@ -1,0 +1,24 @@
+{
+  "titlePlaceholder": "Harborwell water story",
+  "authorPlaceholder": "Anika Poluru",
+  "defaultDesk": "news",
+  "defaultOwner": "Kavya Poluru",
+  "desks": [
+    {
+      "label": "News",
+      "value": "news"
+    },
+    {
+      "label": "Features",
+      "value": "features"
+    },
+    {
+      "label": "Photo",
+      "value": "photo"
+    },
+    {
+      "label": "Locales",
+      "value": "locales"
+    }
+  ]
+}
