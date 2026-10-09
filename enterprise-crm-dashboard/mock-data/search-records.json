@@ -1,0 +1,256 @@
+{
+  "records": [
+    {
+      "type": "Deal",
+      "name": "Harbor platform expansion",
+      "detail": "Harbor & Co. · $184,000",
+      "href": "#/deal/deal_harbor",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Nimbus omnichannel suite",
+      "detail": "Nimbus Retail · $96,000",
+      "href": "#/deal/deal_nimbus",
+      "owner": "Arjun Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Brightline Growth plan",
+      "detail": "Brightline Labs · $28,800",
+      "href": "#/deal/deal_bright",
+      "owner": "Maya Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Lumen EHR integration",
+      "detail": "Lumen Health · $240,000",
+      "href": "#/deal/deal_lumen",
+      "owner": "Jordan Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Oak & Pine field sales",
+      "detail": "Oak & Pine · $64,500",
+      "href": "#/deal/deal_oak",
+      "owner": "Sahana Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Kite Studio starter",
+      "detail": "Kite Studio · $8,400",
+      "href": "#/deal/deal_kite",
+      "owner": "Rohan Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Fieldwork analytics pack",
+      "detail": "Fieldwork Inc · $42,000",
+      "href": "#/deal/deal_field",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Paperplane collaboration",
+      "detail": "Paperplane · $12,600",
+      "href": "#/deal/deal_paper",
+      "owner": "Maya Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Cascade enterprise renewal",
+      "detail": "Cascade Analytics · $156,000",
+      "href": "#/deal/deal_cascade",
+      "owner": "Priya Poluru"
+    },
+    {
+      "type": "Deal",
+      "name": "Vertex security platform",
+      "detail": "Vertex Systems · $118,000",
+      "href": "#/deal/deal_vertex",
+      "owner": "Jordan Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Harbor & Co.",
+      "detail": "Logistics · Aisha Poluru",
+      "href": "#/account/acc_harbor",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Nimbus Retail",
+      "detail": "Retail · Arjun Poluru",
+      "href": "#/account/acc_nimbus",
+      "owner": "Arjun Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Brightline Labs",
+      "detail": "SaaS · Maya Poluru",
+      "href": "#/account/acc_bright",
+      "owner": "Maya Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Lumen Health",
+      "detail": "Healthcare · Jordan Poluru",
+      "href": "#/account/acc_lumen",
+      "owner": "Jordan Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Oak & Pine",
+      "detail": "CPG · Sahana Poluru",
+      "href": "#/account/acc_oak",
+      "owner": "Sahana Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Kite Studio",
+      "detail": "Media · Rohan Poluru",
+      "href": "#/account/acc_kite",
+      "owner": "Rohan Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Fieldwork Inc",
+      "detail": "Construction tech · Aisha Poluru",
+      "href": "#/account/acc_field",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Paperplane",
+      "detail": "Collaboration · Maya Poluru",
+      "href": "#/account/acc_paper",
+      "owner": "Maya Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Cascade Analytics",
+      "detail": "Data platform · Priya Poluru",
+      "href": "#/account/acc_cascade",
+      "owner": "Priya Poluru"
+    },
+    {
+      "type": "Account",
+      "name": "Vertex Systems",
+      "detail": "Cybersecurity · Jordan Poluru",
+      "href": "#/account/acc_vertex",
+      "owner": "Jordan Poluru"
+    },
+    {
+      "type": "Contact",
+      "name": "Meera Poluru",
+      "detail": "VP Operations · Harbor & Co.",
+      "href": "#/contact/con_meera",
+      "owner": "Harbor & Co."
+    },
+    {
+      "type": "Contact",
+      "name": "Arjun Poluru",
+      "detail": "Head of Retail Systems · Nimbus Retail",
+      "href": "#/contact/con_arjun",
+      "owner": "Nimbus Retail"
+    },
+    {
+      "type": "Contact",
+      "name": "Kavya Poluru",
+      "detail": "Director of Product · Brightline Labs",
+      "href": "#/contact/con_kavya",
+      "owner": "Brightline Labs"
+    },
+    {
+      "type": "Contact",
+      "name": "Nikhil Poluru",
+      "detail": "CIO · Lumen Health",
+      "href": "#/contact/con_nikhil",
+      "owner": "Lumen Health"
+    },
+    {
+      "type": "Contact",
+      "name": "Sahana Poluru",
+      "detail": "Procurement lead · Oak & Pine",
+      "href": "#/contact/con_sahana",
+      "owner": "Oak & Pine"
+    },
+    {
+      "type": "Contact",
+      "name": "Rohan Poluru",
+      "detail": "Founder · Kite Studio",
+      "href": "#/contact/con_rohan",
+      "owner": "Kite Studio"
+    },
+    {
+      "type": "Contact",
+      "name": "Priya Poluru",
+      "detail": "VP Data · Cascade Analytics",
+      "href": "#/contact/con_priya",
+      "owner": "Cascade Analytics"
+    },
+    {
+      "type": "Contact",
+      "name": "Vikram Poluru",
+      "detail": "CISO · Vertex Systems",
+      "href": "#/contact/con_vikram",
+      "owner": "Vertex Systems"
+    },
+    {
+      "type": "Lead",
+      "name": "Leila Poluru",
+      "detail": "Northwind Bio · score 88",
+      "href": "#/leads",
+      "owner": "Maya Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Diego Poluru",
+      "detail": "Cinder Transit · score 74",
+      "href": "#/leads",
+      "owner": "Arjun Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Hana Poluru",
+      "detail": "Fold Paper Co · score 91",
+      "href": "#/leads",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Omar Poluru",
+      "detail": "Saffron Bank · score 63",
+      "href": "#/leads",
+      "owner": "Jordan Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Elena Poluru",
+      "detail": "Lattice Energy · score 79",
+      "href": "#/leads",
+      "owner": "Sahana Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Theo Poluru",
+      "detail": "Harborline · score 22",
+      "href": "#/leads",
+      "owner": "Maya Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Anika Poluru",
+      "detail": "Summit Forge · score 85",
+      "href": "#/leads",
+      "owner": "Priya Poluru"
+    },
+    {
+      "type": "Lead",
+      "name": "Dev Poluru",
+      "detail": "Helix Robotics · score 71",
+      "href": "#/leads",
+      "owner": "Rohan Poluru"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "groups": [
+    {
+      "label": "Workspace",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "#/overview",
+          "icon": "bi-grid-1x2"
+        },
+        {
+          "label": "Pipeline",
+          "href": "#/pipeline",
+          "icon": "bi-kanban",
+          "badge": "10"
+        },
+        {
+          "label": "Forecast",
+          "href": "#/forecast",
+          "icon": "bi-graph-up-arrow",
+          "badge": "78%"
+        },
+        {
+          "label": "Search",
+          "href": "#/search",
+          "icon": "bi-search"
+        }
+      ]
+    },
+    {
+      "label": "Records",
+      "items": [
+        {
+          "label": "Deals",
+          "href": "#/deals",
+          "icon": "bi-briefcase",
+          "badge": "74"
+        },
+        {
+          "label": "Leads",
+          "href": "#/leads",
+          "icon": "bi-person-plus",
+          "badge": "14"
+        },
+        {
+          "label": "Contacts",
+          "href": "#/contacts",
+          "icon": "bi-people"
+        },
+        {
+          "label": "Accounts",
+          "href": "#/accounts",
+          "icon": "bi-buildings"
+        }
+      ]
+    },
+    {
+      "label": "Work",
+      "items": [
+        {
+          "label": "Activities",
+          "href": "#/activities",
+          "icon": "bi-calendar-check",
+          "badge": "8"
+        },
+        {
+          "label": "Reports",
+          "href": "#/reports",
+          "icon": "bi-bar-chart-line"
+        },
+        {
+          "label": "Settings",
+          "href": "#/settings",
+          "icon": "bi-sliders"
+        }
+      ]
+    }
+  ],
+  "flat": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "bi-grid-1x2"
+    },
+    {
+      "label": "Pipeline",
+      "href": "#/pipeline",
+      "icon": "bi-kanban",
+      "badge": "10"
+    },
+    {
+      "label": "Forecast",
+      "href": "#/forecast",
+      "icon": "bi-graph-up-arrow",
+      "badge": "78%"
+    },
+    {
+      "label": "Search",
+      "href": "#/search",
+      "icon": "bi-search"
+    },
+    {
+      "label": "Deals",
+      "href": "#/deals",
+      "icon": "bi-briefcase",
+      "badge": "74"
+    },
+    {
+      "label": "Leads",
+      "href": "#/leads",
+      "icon": "bi-person-plus",
+      "badge": "14"
+    },
+    {
+      "label": "Contacts",
+      "href": "#/contacts",
+      "icon": "bi-people"
+    },
+    {
+      "label": "Accounts",
+      "href": "#/accounts",
+      "icon": "bi-buildings"
+    },
+    {
+      "label": "Activities",
+      "href": "#/activities",
+      "icon": "bi-calendar-check",
+      "badge": "8"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "bi-bar-chart-line"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "bi-sliders"
+    }
+  ]
+}

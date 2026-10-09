@@ -1,0 +1,32 @@
+{
+  "coach": {
+    "title": "Harbor needs a working session today",
+    "body": "Meera Poluru has not opened the redline pack in 3 days. Book 15 minutes before 17:00 to keep $184k in commit."
+  },
+  "insights": [
+    {
+      "title": "Harbor needs a working session today",
+      "body": "Meera Poluru has not opened the redline pack in 3 days. Book 15 minutes before 17:00 to keep $184k in commit."
+    },
+    {
+      "title": "Hana Poluru is ready to convert",
+      "body": "Fold Paper Co scored 91 from partner. Convert now and Aisha Poluru stays owner on discovery."
+    }
+  ],
+  "periodOptions": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Month",
+      "value": "month"
+    },
+    {
+      "label": "Quarter",
+      "value": "quarter"
+    }
+  ],
+  "defaultPeriod": "quarter",
+  "pipelineNote": "Open pipeline, unweighted. August is in progress at $4.86M."
+}

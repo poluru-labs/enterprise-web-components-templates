@@ -1,0 +1,151 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Account",
+      "sortable": true
+    },
+    {
+      "key": "industry",
+      "label": "Industry",
+      "sortable": true
+    },
+    {
+      "key": "region",
+      "label": "Region",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "arr",
+      "label": "ARR",
+      "sortable": true
+    },
+    {
+      "key": "health",
+      "label": "Health",
+      "sortable": true
+    },
+    {
+      "key": "next",
+      "label": "Next step",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "acc_harbor",
+      "name": "Harbor & Co.",
+      "industry": "Logistics",
+      "region": "EMEA",
+      "owner": "Aisha Poluru",
+      "employees": "2,400",
+      "arr": "$312k",
+      "health": "Expanding",
+      "next": "QBR · 2 Sep"
+    },
+    {
+      "id": "acc_nimbus",
+      "name": "Nimbus Retail",
+      "industry": "Retail",
+      "region": "Americas",
+      "owner": "Arjun Poluru",
+      "employees": "860",
+      "arr": "$126k",
+      "health": "At risk",
+      "next": "Renewal · 1 Sep"
+    },
+    {
+      "id": "acc_bright",
+      "name": "Brightline Labs",
+      "industry": "SaaS",
+      "region": "Americas",
+      "owner": "Maya Poluru",
+      "employees": "210",
+      "arr": "$48k",
+      "health": "Healthy",
+      "next": "Demo · 27 Aug"
+    },
+    {
+      "id": "acc_lumen",
+      "name": "Lumen Health",
+      "industry": "Healthcare",
+      "region": "Americas",
+      "owner": "Jordan Poluru",
+      "employees": "1,120",
+      "arr": "$249k",
+      "health": "Expanding",
+      "next": "Security review"
+    },
+    {
+      "id": "acc_oak",
+      "name": "Oak & Pine",
+      "industry": "CPG",
+      "region": "Americas",
+      "owner": "Sahana Poluru",
+      "employees": "540",
+      "arr": "$92k",
+      "health": "Healthy",
+      "next": "Pilot wrap · 4 Sep"
+    },
+    {
+      "id": "acc_kite",
+      "name": "Kite Studio",
+      "industry": "Media",
+      "region": "APAC",
+      "owner": "Rohan Poluru",
+      "employees": "48",
+      "arr": "$6k",
+      "health": "New",
+      "next": "Discovery call"
+    },
+    {
+      "id": "acc_field",
+      "name": "Fieldwork Inc",
+      "industry": "Construction tech",
+      "region": "Americas",
+      "owner": "Aisha Poluru",
+      "employees": "320",
+      "arr": "$84k",
+      "health": "Healthy",
+      "next": "Discount approval · 4 Sep"
+    },
+    {
+      "id": "acc_paper",
+      "name": "Paperplane",
+      "industry": "Collaboration",
+      "region": "Americas",
+      "owner": "Maya Poluru",
+      "employees": "95",
+      "arr": "$18k",
+      "health": "Healthy",
+      "next": "Stakeholder map"
+    },
+    {
+      "id": "acc_cascade",
+      "name": "Cascade Analytics",
+      "industry": "Data platform",
+      "region": "Americas",
+      "owner": "Priya Poluru",
+      "employees": "640",
+      "arr": "$156k",
+      "health": "Expanding",
+      "next": "Renewal · 18 Sep"
+    },
+    {
+      "id": "acc_vertex",
+      "name": "Vertex Systems",
+      "industry": "Cybersecurity",
+      "region": "EMEA",
+      "owner": "Jordan Poluru",
+      "employees": "1,480",
+      "arr": "$284k",
+      "health": "At risk",
+      "next": "Security review · 8 Sep"
+    }
+  ]
+}

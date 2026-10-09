@@ -1,0 +1,180 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Lead",
+      "sortable": true
+    },
+    {
+      "key": "company",
+      "label": "Company",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    },
+    {
+      "key": "score",
+      "label": "Score",
+      "sortable": true
+    },
+    {
+      "key": "source",
+      "label": "Source",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "created",
+      "label": "Created",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "lead_01",
+      "name": "Leila Poluru",
+      "company": "Northwind Bio",
+      "email": "leila.poluru@northwind.example",
+      "status": "New",
+      "score": 88,
+      "source": "Webinar",
+      "owner": "Maya Poluru",
+      "created": "2026-08-24"
+    },
+    {
+      "id": "lead_02",
+      "name": "Diego Poluru",
+      "company": "Cinder Transit",
+      "email": "diego.poluru@cinder.example",
+      "status": "Working",
+      "score": 74,
+      "source": "Outbound",
+      "owner": "Arjun Poluru",
+      "created": "2026-08-21"
+    },
+    {
+      "id": "lead_03",
+      "name": "Hana Poluru",
+      "company": "Fold Paper Co",
+      "email": "hana.poluru@foldpaper.example",
+      "status": "Qualified",
+      "score": 91,
+      "source": "Partner",
+      "owner": "Aisha Poluru",
+      "created": "2026-08-19"
+    },
+    {
+      "id": "lead_04",
+      "name": "Omar Poluru",
+      "company": "Saffron Bank",
+      "email": "omar.poluru@saffron.example",
+      "status": "Working",
+      "score": 63,
+      "source": "Inbound",
+      "owner": "Jordan Poluru",
+      "created": "2026-08-18"
+    },
+    {
+      "id": "lead_05",
+      "name": "Elena Poluru",
+      "company": "Lattice Energy",
+      "email": "elena.poluru@lattice.example",
+      "status": "New",
+      "score": 79,
+      "source": "Event",
+      "owner": "Sahana Poluru",
+      "created": "2026-08-25"
+    },
+    {
+      "id": "lead_06",
+      "name": "Theo Poluru",
+      "company": "Harborline",
+      "email": "theo.poluru@harborline.example",
+      "status": "Unqualified",
+      "score": 22,
+      "source": "Content",
+      "owner": "Maya Poluru",
+      "created": "2026-08-12"
+    },
+    {
+      "id": "lead_07",
+      "name": "Anika Poluru",
+      "company": "Summit Forge",
+      "email": "anika.poluru@summitforge.example",
+      "status": "New",
+      "score": 85,
+      "source": "Inbound",
+      "owner": "Priya Poluru",
+      "created": "2026-08-28"
+    },
+    {
+      "id": "lead_08",
+      "name": "Dev Poluru",
+      "company": "Helix Robotics",
+      "email": "dev.poluru@helix.example",
+      "status": "Working",
+      "score": 71,
+      "source": "Partner",
+      "owner": "Rohan Poluru",
+      "created": "2026-08-26"
+    }
+  ],
+  "statuses": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "New",
+      "value": "new"
+    },
+    {
+      "label": "Working",
+      "value": "working"
+    },
+    {
+      "label": "Qualified",
+      "value": "qualified"
+    },
+    {
+      "label": "Unqualified",
+      "value": "unqualified"
+    }
+  ],
+  "convertPreview": {
+    "name": "Hana Poluru",
+    "company": "Fold Paper Co",
+    "score": 91,
+    "source": "partner sourced",
+    "owner": "Aisha Poluru"
+  },
+  "sourceOptions": [
+    {
+      "label": "Inbound",
+      "value": "inbound"
+    },
+    {
+      "label": "Outbound",
+      "value": "outbound"
+    },
+    {
+      "label": "Webinar",
+      "value": "webinar"
+    },
+    {
+      "label": "Partner",
+      "value": "partner"
+    },
+    {
+      "label": "Event",
+      "value": "event"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Deal",
+      "sortable": true
+    },
+    {
+      "key": "account",
+      "label": "Account",
+      "sortable": true
+    },
+    {
+      "key": "value",
+      "label": "Amount",
+      "sortable": true
+    },
+    {
+      "key": "stage",
+      "label": "Stage",
+      "sortable": true
+    },
+    {
+      "key": "probability",
+      "label": "Prob.",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "close",
+      "label": "Close",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "deal_harbor",
+      "name": "Harbor platform expansion",
+      "account": "Harbor & Co.",
+      "accountId": "acc_harbor",
+      "value": "$184,000",
+      "amount": 184000,
+      "stage": "Negotiation",
+      "probability": 70,
+      "owner": "Aisha Poluru",
+      "close": "2026-09-12",
+      "source": "Expansion",
+      "next": "Legal redlines"
+    },
+    {
+      "id": "deal_nimbus",
+      "name": "Nimbus omnichannel suite",
+      "account": "Nimbus Retail",
+      "accountId": "acc_nimbus",
+      "value": "$96,000",
+      "amount": 96000,
+      "stage": "Proposal",
+      "probability": 45,
+      "owner": "Arjun Poluru",
+      "close": "2026-09-28",
+      "source": "Inbound",
+      "next": "Security questionnaire"
+    },
+    {
+      "id": "deal_bright",
+      "name": "Brightline Growth plan",
+      "account": "Brightline Labs",
+      "accountId": "acc_bright",
+      "value": "$28,800",
+      "amount": 28800,
+      "stage": "Discovery",
+      "probability": 30,
+      "owner": "Maya Poluru",
+      "close": "2026-09-08",
+      "source": "Webinar",
+      "next": "Technical demo"
+    },
+    {
+      "id": "deal_lumen",
+      "name": "Lumen EHR integration",
+      "account": "Lumen Health",
+      "accountId": "acc_lumen",
+      "value": "$240,000",
+      "amount": 240000,
+      "stage": "Proposal",
+      "probability": 55,
+      "owner": "Jordan Poluru",
+      "close": "2026-09-21",
+      "source": "Partner",
+      "next": "HIPAA review"
+    },
+    {
+      "id": "deal_oak",
+      "name": "Oak & Pine field sales",
+      "account": "Oak & Pine",
+      "accountId": "acc_oak",
+      "value": "$64,500",
+      "amount": 64500,
+      "stage": "Qualify",
+      "probability": 20,
+      "owner": "Sahana Poluru",
+      "close": "2026-09-04",
+      "source": "Outbound",
+      "next": "Needs analysis"
+    },
+    {
+      "id": "deal_kite",
+      "name": "Kite Studio starter",
+      "account": "Kite Studio",
+      "accountId": "acc_kite",
+      "value": "$8,400",
+      "amount": 8400,
+      "stage": "Closed won",
+      "probability": 100,
+      "owner": "Rohan Poluru",
+      "close": "2026-08-18",
+      "source": "Self-serve",
+      "next": "Kickoff booked"
+    },
+    {
+      "id": "deal_field",
+      "name": "Fieldwork analytics pack",
+      "account": "Fieldwork Inc",
+      "accountId": "acc_field",
+      "value": "$42,000",
+      "amount": 42000,
+      "stage": "Negotiation",
+      "probability": 65,
+      "owner": "Aisha Poluru",
+      "close": "2026-09-04",
+      "source": "Referral",
+      "next": "Discount approval"
+    },
+    {
+      "id": "deal_paper",
+      "name": "Paperplane collaboration",
+      "account": "Paperplane",
+      "accountId": "acc_paper",
+      "value": "$12,600",
+      "amount": 12600,
+      "stage": "Discovery",
+      "probability": 25,
+      "owner": "Maya Poluru",
+      "close": "2026-09-30",
+      "source": "Event",
+      "next": "Stakeholder map"
+    },
+    {
+      "id": "deal_cascade",
+      "name": "Cascade enterprise renewal",
+      "account": "Cascade Analytics",
+      "accountId": "acc_cascade",
+      "value": "$156,000",
+      "amount": 156000,
+      "stage": "Negotiation",
+      "probability": 80,
+      "owner": "Priya Poluru",
+      "close": "2026-09-18",
+      "source": "Expansion",
+      "next": "Renewal terms"
+    },
+    {
+      "id": "deal_vertex",
+      "name": "Vertex security platform",
+      "account": "Vertex Systems",
+      "accountId": "acc_vertex",
+      "value": "$118,000",
+      "amount": 118000,
+      "stage": "Proposal",
+      "probability": 40,
+      "owner": "Jordan Poluru",
+      "close": "2026-09-15",
+      "source": "Outbound",
+      "next": "Security review"
+    }
+  ],
+  "pinned": {
+    "id": "deal_harbor",
+    "name": "Harbor platform expansion",
+    "account": "Harbor & Co.",
+    "accountId": "acc_harbor",
+    "value": "$184,000",
+    "amount": 184000,
+    "stage": "Negotiation",
+    "probability": 70,
+    "owner": "Aisha Poluru",
+    "close": "2026-09-12",
+    "source": "Expansion",
+    "next": "Legal redlines"
+  },
+  "views": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Mine",
+      "value": "mine"
+    },
+    {
+      "label": "Closing",
+      "value": "closing"
+    },
+    {
+      "label": "At risk",
+      "value": "risk"
+    }
+  ],
+  "stageOptions": [
+    {
+      "label": "Qualify",
+      "value": "Qualify"
+    },
+    {
+      "label": "Discovery",
+      "value": "Discovery"
+    },
+    {
+      "label": "Proposal",
+      "value": "Proposal"
+    },
+    {
+      "label": "Negotiation",
+      "value": "Negotiation"
+    }
+  ]
+}

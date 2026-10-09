@@ -1,0 +1,29 @@
+{
+  "fiscalYear": "FY26",
+  "currency": "usd",
+  "currencies": [
+    {
+      "label": "USD",
+      "value": "usd"
+    },
+    {
+      "label": "EUR",
+      "value": "eur"
+    },
+    {
+      "label": "GBP",
+      "value": "gbp"
+    },
+    {
+      "label": "INR",
+      "value": "inr"
+    }
+  ],
+  "requireNextStep": true,
+  "warnIdle14Days": true,
+  "autoFollowUpAfterMeeting": true,
+  "defaultCycleLength": "45 days",
+  "dailyDigest": true,
+  "slackClosedWon": true,
+  "alertChampionQuiet": true
+}

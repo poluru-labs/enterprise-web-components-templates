@@ -1,0 +1,30 @@
+[
+  {
+    "account": "Nimbus Retail",
+    "owner": "Arjun Poluru",
+    "reason": "Champion quiet 14 days",
+    "value": "$96k",
+    "href": "#/deal/deal_nimbus"
+  },
+  {
+    "account": "Oak & Pine",
+    "owner": "Sahana Poluru",
+    "reason": "Stuck in Qualify",
+    "value": "$64.5k",
+    "href": "#/deal/deal_oak"
+  },
+  {
+    "account": "Paperplane",
+    "owner": "Maya Poluru",
+    "reason": "No next meeting set",
+    "value": "$12.6k",
+    "href": "#/deal/deal_paper"
+  },
+  {
+    "account": "Vertex Systems",
+    "owner": "Jordan Poluru",
+    "reason": "Security review stalled",
+    "value": "$118k",
+    "href": "#/deal/deal_vertex"
+  }
+]

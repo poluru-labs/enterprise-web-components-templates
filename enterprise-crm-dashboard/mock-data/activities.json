@@ -1,0 +1,158 @@
+{
+  "columns": [
+    {
+      "key": "type",
+      "label": "Type",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Activity",
+      "sortable": true
+    },
+    {
+      "key": "with",
+      "label": "With",
+      "sortable": true
+    },
+    {
+      "key": "when",
+      "label": "When",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "act_01",
+      "type": "Call",
+      "title": "Harbor legal walkthrough",
+      "with": "Meera Poluru",
+      "when": "Today · 16:20",
+      "status": "Due today",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "id": "act_02",
+      "type": "Meeting",
+      "title": "Brightline technical demo",
+      "with": "Kavya Poluru",
+      "when": "Tomorrow · 10:00",
+      "status": "Scheduled",
+      "owner": "Maya Poluru"
+    },
+    {
+      "id": "act_03",
+      "type": "Email",
+      "title": "Nimbus security pack",
+      "with": "Arjun Poluru",
+      "when": "Today · 09:15",
+      "status": "Sent",
+      "owner": "Arjun Poluru"
+    },
+    {
+      "id": "act_04",
+      "type": "Task",
+      "title": "Discount approval · Fieldwork",
+      "with": "Finance",
+      "when": "Thu · 12:00",
+      "status": "Blocked",
+      "owner": "Aisha Poluru"
+    },
+    {
+      "id": "act_05",
+      "type": "Call",
+      "title": "Lumen HIPAA intro",
+      "with": "Nikhil Poluru",
+      "when": "Fri · 14:30",
+      "status": "Scheduled",
+      "owner": "Jordan Poluru"
+    },
+    {
+      "id": "act_06",
+      "type": "Meeting",
+      "title": "Kite Studio kickoff",
+      "with": "Rohan Poluru",
+      "when": "Mon · 09:00",
+      "status": "Scheduled",
+      "owner": "Rohan Poluru"
+    },
+    {
+      "id": "act_07",
+      "type": "Meeting",
+      "title": "Cascade renewal review",
+      "with": "Priya Poluru",
+      "when": "Mon · 11:00",
+      "status": "Scheduled",
+      "owner": "Priya Poluru"
+    },
+    {
+      "id": "act_08",
+      "type": "Call",
+      "title": "Vertex security walkthrough",
+      "with": "Vikram Poluru",
+      "when": "Tue · 15:30",
+      "status": "Due today",
+      "owner": "Jordan Poluru"
+    }
+  ],
+  "feed": [
+    {
+      "title": "Harbor expansion moved to Negotiation",
+      "description": "Aisha Poluru · $184k · legal in review",
+      "timestamp": "12 minutes ago",
+      "status": "current"
+    },
+    {
+      "title": "Kite Studio closed won",
+      "description": "Rohan Poluru · starter · $8.4k · kickoff Monday",
+      "timestamp": "2 hours ago",
+      "status": "complete"
+    },
+    {
+      "title": "New MQL: Lattice Energy",
+      "description": "Elena Poluru · score 79 · event sourced",
+      "timestamp": "Yesterday",
+      "status": "complete"
+    },
+    {
+      "title": "Nimbus at risk",
+      "description": "Arjun Poluru · no champion activity in 14 days",
+      "timestamp": "Yesterday",
+      "status": "upcoming"
+    },
+    {
+      "title": "Cascade renewal in commit",
+      "description": "Priya Poluru · $156k · terms in review",
+      "timestamp": "Today 08:10",
+      "status": "current"
+    }
+  ],
+  "types": [
+    {
+      "label": "Call",
+      "value": "call"
+    },
+    {
+      "label": "Meeting",
+      "value": "meeting"
+    },
+    {
+      "label": "Email",
+      "value": "email"
+    },
+    {
+      "label": "Task",
+      "value": "task"
+    }
+  ]
+}

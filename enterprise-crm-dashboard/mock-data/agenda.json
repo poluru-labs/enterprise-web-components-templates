@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ag_01",
+    "time": "16:20",
+    "title": "Harbor legal walkthrough",
+    "with": "Meera Poluru",
+    "type": "Call"
+  },
+  {
+    "id": "ag_02",
+    "time": "17:00",
+    "title": "Discount approval · Fieldwork",
+    "with": "Finance",
+    "type": "Task"
+  },
+  {
+    "id": "ag_03",
+    "time": "Tomorrow 10:00",
+    "title": "Brightline technical demo",
+    "with": "Kavya Poluru",
+    "type": "Meeting"
+  },
+  {
+    "id": "ag_04",
+    "time": "Fri 14:30",
+    "title": "Lumen HIPAA intro",
+    "with": "Nikhil Poluru",
+    "type": "Call"
+  },
+  {
+    "id": "ag_05",
+    "time": "Mon 09:00",
+    "title": "Cascade renewal review",
+    "with": "Priya Poluru",
+    "type": "Meeting"
+  },
+  {
+    "id": "ag_06",
+    "time": "Tue 11:30",
+    "title": "Vertex pilot check-in",
+    "with": "Vikram Poluru",
+    "type": "Call"
+  }
+]

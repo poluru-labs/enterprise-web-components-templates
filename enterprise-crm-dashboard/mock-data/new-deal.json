@@ -1,0 +1,7 @@
+{
+  "namePlaceholder": "Harbor platform expansion",
+  "defaultAccount": "acc_harbor",
+  "defaultStage": "Qualify",
+  "defaultAmount": 24000,
+  "nextStepPlaceholder": "Discovery call, security review, or legal."
+}

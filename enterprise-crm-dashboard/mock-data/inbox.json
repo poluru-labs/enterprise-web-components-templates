@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Harbor legal needs a signature",
+    "description": "Meera Poluru · due today · $184k",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Nimbus champion went quiet",
+    "description": "Arjun Poluru · 14 days · $96k",
+    "icon": "clock"
+  },
+  {
+    "label": "Elena Poluru scored 79",
+    "description": "Lattice Energy · event MQL",
+    "icon": "star"
+  },
+  {
+    "label": "Vertex security review stalled",
+    "description": "Vikram Poluru · 6 days · $118k",
+    "icon": "alert-triangle"
+  }
+]

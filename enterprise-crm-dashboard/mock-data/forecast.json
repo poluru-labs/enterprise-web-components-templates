@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Commit",
+    "value": "$936k",
+    "hint": "Closed + late stage",
+    "trend": "up",
+    "trendValue": "78% of quota"
+  },
+  {
+    "label": "Best case",
+    "value": "$1.18M",
+    "hint": "Includes 55%+ deals",
+    "trend": "up",
+    "trendValue": "98% coverage"
+  },
+  {
+    "label": "Pipeline",
+    "value": "$1.64M",
+    "hint": "Open, this quarter",
+    "trend": "up",
+    "trendValue": "1.4× quota"
+  },
+  {
+    "label": "Gap to quota",
+    "value": "$264k",
+    "hint": "Need 2 late-stage wins",
+    "trend": "down",
+    "trendValue": "-$48k vs last week"
+  }
+]

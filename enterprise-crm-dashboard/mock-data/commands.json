@@ -1,0 +1,38 @@
+[
+  {
+    "label": "New deal",
+    "description": "Create an opportunity",
+    "href": "#/deals",
+    "icon": "plus"
+  },
+  {
+    "label": "Log activity",
+    "description": "Call, email, or meeting",
+    "href": "#/activities",
+    "icon": "calendar"
+  },
+  {
+    "label": "Add lead",
+    "description": "Capture a new MQL",
+    "href": "#/leads",
+    "icon": "user"
+  },
+  {
+    "label": "Open pipeline",
+    "description": "Kanban by stage",
+    "href": "#/pipeline",
+    "icon": "folder"
+  },
+  {
+    "label": "Forecast",
+    "description": "Quota vs commit",
+    "href": "#/forecast",
+    "icon": "check-circle"
+  },
+  {
+    "label": "Search records",
+    "description": "Global CRM search",
+    "href": "#/search",
+    "icon": "search"
+  }
+]

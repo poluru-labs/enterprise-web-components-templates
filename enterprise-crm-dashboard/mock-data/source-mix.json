@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Outbound",
+    "value": 34
+  },
+  {
+    "label": "Inbound",
+    "value": 28
+  },
+  {
+    "label": "Partner",
+    "value": 22
+  },
+  {
+    "label": "Event",
+    "value": 16
+  }
+]

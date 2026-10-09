@@ -1,0 +1,41 @@
+{
+  "stages": [
+    "Qualify",
+    "Discovery",
+    "Proposal",
+    "Negotiation",
+    "Closed won"
+  ],
+  "funnel": [
+    {
+      "stage": "Qualify",
+      "count": 20,
+      "width": 100,
+      "value": "$720k"
+    },
+    {
+      "stage": "Discovery",
+      "count": 16,
+      "width": 82,
+      "value": "$580k"
+    },
+    {
+      "stage": "Proposal",
+      "count": 12,
+      "width": 64,
+      "value": "$920k"
+    },
+    {
+      "stage": "Negotiation",
+      "count": 8,
+      "width": 44,
+      "value": "$512k"
+    },
+    {
+      "stage": "Closed won",
+      "count": 5,
+      "width": 28,
+      "value": "$368k"
+    }
+  ]
+}

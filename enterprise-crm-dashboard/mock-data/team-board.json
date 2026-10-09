@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Aisha Poluru",
+    "closed": "$312k",
+    "pipeline": "$1.12M",
+    "quota": 78,
+    "trend": "+12%"
+  },
+  {
+    "name": "Maya Poluru",
+    "closed": "$186k",
+    "pipeline": "$840k",
+    "quota": 71,
+    "trend": "+8%"
+  },
+  {
+    "name": "Arjun Poluru",
+    "closed": "$164k",
+    "pipeline": "$620k",
+    "quota": 64,
+    "trend": "+3%"
+  },
+  {
+    "name": "Jordan Poluru",
+    "closed": "$148k",
+    "pipeline": "$910k",
+    "quota": 61,
+    "trend": "+9%"
+  },
+  {
+    "name": "Sahana Poluru",
+    "closed": "$126k",
+    "pipeline": "$540k",
+    "quota": 54,
+    "trend": "-2%"
+  },
+  {
+    "name": "Rohan Poluru",
+    "closed": "$98k",
+    "pipeline": "$420k",
+    "quota": 48,
+    "trend": "+5%"
+  }
+]

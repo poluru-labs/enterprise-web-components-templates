@@ -1,0 +1,18 @@
+{
+  "productName": "Lyra",
+  "productLine": "CRM",
+  "workspaceName": "Lyra",
+  "currentUser": {
+    "name": "Aisha Poluru",
+    "email": "aisha.poluru@polurulabs.example",
+    "role": "Enterprise sales lead",
+    "quota": "$1.20M",
+    "attained": "78%"
+  },
+  "company": {
+    "name": "Lyra, Inc.",
+    "region": "Americas · EMEA",
+    "fiscal": "FY26 Q3",
+    "currency": "USD"
+  }
+}

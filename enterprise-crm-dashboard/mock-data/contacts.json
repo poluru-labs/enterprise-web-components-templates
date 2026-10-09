@@ -1,0 +1,124 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Contact",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Title",
+      "sortable": true
+    },
+    {
+      "key": "account",
+      "label": "Account",
+      "sortable": true
+    },
+    {
+      "key": "influence",
+      "label": "Role",
+      "sortable": true
+    },
+    {
+      "key": "email",
+      "label": "Email",
+      "sortable": true
+    },
+    {
+      "key": "last",
+      "label": "Last touch",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "con_meera",
+      "name": "Meera Poluru",
+      "title": "VP Operations",
+      "account": "Harbor & Co.",
+      "accountId": "acc_harbor",
+      "email": "meera.poluru@harborco.example",
+      "phone": "+44 20 7946 0182",
+      "influence": "Champion",
+      "last": "Yesterday"
+    },
+    {
+      "id": "con_arjun",
+      "name": "Arjun Poluru",
+      "title": "Head of Retail Systems",
+      "account": "Nimbus Retail",
+      "accountId": "acc_nimbus",
+      "email": "arjun.poluru@nimbus.example",
+      "phone": "+1 312 555 0144",
+      "influence": "Decision maker",
+      "last": "3 days ago"
+    },
+    {
+      "id": "con_kavya",
+      "name": "Kavya Poluru",
+      "title": "Director of Product",
+      "account": "Brightline Labs",
+      "accountId": "acc_bright",
+      "email": "kavya.poluru@brightline.example",
+      "phone": "+1 415 555 0190",
+      "influence": "Champion",
+      "last": "Today"
+    },
+    {
+      "id": "con_nikhil",
+      "name": "Nikhil Poluru",
+      "title": "CIO",
+      "account": "Lumen Health",
+      "accountId": "acc_lumen",
+      "email": "nikhil.poluru@lumenhealth.example",
+      "phone": "+1 617 555 0118",
+      "influence": "Economic buyer",
+      "last": "5 days ago"
+    },
+    {
+      "id": "con_sahana",
+      "name": "Sahana Poluru",
+      "title": "Procurement lead",
+      "account": "Oak & Pine",
+      "accountId": "acc_oak",
+      "email": "sahana.poluru@oakpine.example",
+      "phone": "+1 206 555 0177",
+      "influence": "Influencer",
+      "last": "1 week ago"
+    },
+    {
+      "id": "con_rohan",
+      "name": "Rohan Poluru",
+      "title": "Founder",
+      "account": "Kite Studio",
+      "accountId": "acc_kite",
+      "email": "rohan.poluru@kitestudio.example",
+      "phone": "+91 40 5555 0120",
+      "influence": "Decision maker",
+      "last": "2 hours ago"
+    },
+    {
+      "id": "con_priya",
+      "name": "Priya Poluru",
+      "title": "VP Data",
+      "account": "Cascade Analytics",
+      "accountId": "acc_cascade",
+      "email": "priya.poluru@cascade.example",
+      "phone": "+1 650 555 0162",
+      "influence": "Champion",
+      "last": "Today"
+    },
+    {
+      "id": "con_vikram",
+      "name": "Vikram Poluru",
+      "title": "CISO",
+      "account": "Vertex Systems",
+      "accountId": "acc_vertex",
+      "email": "vikram.poluru@vertex.example",
+      "phone": "+44 161 555 0199",
+      "influence": "Economic buyer",
+      "last": "4 days ago"
+    }
+  ]
+}

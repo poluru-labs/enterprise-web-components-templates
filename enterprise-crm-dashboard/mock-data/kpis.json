@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Pipeline",
+    "value": "$4.86M",
+    "hint": "Weighted $2.41M",
+    "trend": "up",
+    "trendValue": "+18.6%"
+  },
+  {
+    "label": "Open deals",
+    "value": "74",
+    "hint": "16 closing this week",
+    "trend": "up",
+    "trendValue": "+8"
+  },
+  {
+    "label": "New leads",
+    "value": "412",
+    "hint": "MQL conversion 24%",
+    "trend": "up",
+    "trendValue": "+22.4%"
+  },
+  {
+    "label": "Win rate",
+    "value": "31%",
+    "hint": "Trailing 90 days",
+    "trend": "up",
+    "trendValue": "+2.4 pts"
+  },
+  {
+    "label": "Quota attained",
+    "value": "78%",
+    "hint": "$936k of $1.20M",
+    "trend": "up",
+    "trendValue": "+9.4%"
+  },
+  {
+    "label": "Avg cycle",
+    "value": "41d",
+    "hint": "Enterprise median",
+    "trend": "down",
+    "trendValue": "-4d"
+  },
+  {
+    "label": "Follow-ups",
+    "value": "32",
+    "hint": "8 due today",
+    "trend": "flat",
+    "trendValue": "On track"
+  },
+  {
+    "label": "At risk",
+    "value": "9",
+    "hint": "No activity 14 days",
+    "trend": "down",
+    "trendValue": "-3"
+  }
+]

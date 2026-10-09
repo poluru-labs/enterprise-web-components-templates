@@ -1,0 +1,51 @@
+{
+  "stages": [
+    {
+      "label": "Prospect",
+      "stage": "Qualify"
+    },
+    {
+      "label": "Qualified",
+      "stage": "Discovery"
+    },
+    {
+      "label": "Proposal",
+      "stage": "Proposal"
+    },
+    {
+      "label": "Negotiation",
+      "stage": "Negotiation"
+    },
+    {
+      "label": "Won",
+      "stage": "Closed won"
+    }
+  ],
+  "counts": [
+    {
+      "label": "Prospect",
+      "stage": "Qualify",
+      "count": 1
+    },
+    {
+      "label": "Qualified",
+      "stage": "Discovery",
+      "count": 2
+    },
+    {
+      "label": "Proposal",
+      "stage": "Proposal",
+      "count": 3
+    },
+    {
+      "label": "Negotiation",
+      "stage": "Negotiation",
+      "count": 3
+    },
+    {
+      "label": "Won",
+      "stage": "Closed won",
+      "count": 1
+    }
+  ]
+}

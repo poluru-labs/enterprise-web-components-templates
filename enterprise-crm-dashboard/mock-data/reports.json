@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pipeline coverage",
+    "description": "Open pipeline vs remaining quota by owner",
+    "owner": "Aisha Poluru",
+    "updated": "Today 07:40"
+  },
+  {
+    "name": "Win / loss",
+    "description": "Closed deals by competitor, stage, and source",
+    "owner": "Arjun Poluru",
+    "updated": "Today 06:15"
+  },
+  {
+    "name": "Lead conversion",
+    "description": "MQL → SQL → opportunity funnel, 90 days",
+    "owner": "Maya Poluru",
+    "updated": "Yesterday"
+  },
+  {
+    "name": "Activity cadence",
+    "description": "Calls, emails, and meetings per open deal",
+    "owner": "Jordan Poluru",
+    "updated": "Monday"
+  },
+  {
+    "name": "Forecast accuracy",
+    "description": "Commit vs closed by week, FY26 Q3",
+    "owner": "Priya Poluru",
+    "updated": "Today 08:00"
+  },
+  {
+    "name": "Partner sourced",
+    "description": "Partner-influenced pipeline and win rate",
+    "owner": "Sahana Poluru",
+    "updated": "Friday"
+  }
+]
