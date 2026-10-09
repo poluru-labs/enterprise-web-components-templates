@@ -1,0 +1,102 @@
+{
+  "periodOptions": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Q3",
+      "value": "q3"
+    },
+    {
+      "label": "FY26",
+      "value": "fy"
+    }
+  ],
+  "defaultPeriod": "q3",
+  "nrrTrend": {
+    "label": "NRR trend",
+    "unit": "percent",
+    "values": [
+      104,
+      106,
+      107,
+      109,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ]
+  },
+  "watchList": [
+    {
+      "label": "Lattice Energy",
+      "description": "Hana Poluru · health 58",
+      "icon": "alert-triangle",
+      "href": "#/account/ac_lattice"
+    },
+    {
+      "label": "Fold Paper renewal",
+      "description": "Rohan Poluru · 22 Sep",
+      "icon": "clock",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Northline SSO",
+      "description": "Elena Poluru · onboarding",
+      "icon": "file",
+      "href": "#/onboarding"
+    },
+    {
+      "label": "Pine & Copper NPS",
+      "description": "Luca Poluru · 36",
+      "icon": "eye",
+      "href": "#/account/ac_pine"
+    }
+  ],
+  "recentAccountsPreview": [
+    {
+      "id": "ac_harbor",
+      "name": "Harbor & Co.",
+      "csm": "Kavya Poluru",
+      "status": "Healthy",
+      "arr": 840000
+    },
+    {
+      "id": "ac_lumen",
+      "name": "Lumen Forge",
+      "csm": "Kavya Poluru",
+      "status": "Healthy",
+      "arr": 620000
+    },
+    {
+      "id": "ac_fold",
+      "name": "Fold Paper",
+      "csm": "Arjun Poluru",
+      "status": "Watch",
+      "arr": 280000
+    },
+    {
+      "id": "ac_lattice",
+      "name": "Lattice Energy",
+      "csm": "Hana Poluru",
+      "status": "At risk",
+      "arr": 510000
+    },
+    {
+      "id": "ac_field",
+      "name": "Fieldwork Studio",
+      "csm": "Luca Poluru",
+      "status": "Healthy",
+      "arr": 190000
+    }
+  ],
+  "latticeAlert": {
+    "title": "Lattice Energy",
+    "message": "Health 58. Support CSAT and adoption are the two drivers below target. Hana Poluru owns the save plan."
+  }
+}

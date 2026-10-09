@@ -1,0 +1,69 @@
+{
+  "playbookOptions": [
+    {
+      "label": "Health recovery",
+      "value": "pb_risk"
+    },
+    {
+      "label": "90-day renewal",
+      "value": "pb_renew"
+    },
+    {
+      "label": "First 60 days",
+      "value": "pb_onboard"
+    },
+    {
+      "label": "Seat attach",
+      "value": "pb_expand"
+    },
+    {
+      "label": "Detractor save",
+      "value": "pb_nps"
+    }
+  ],
+  "defaultPlaybook": "pb_risk",
+  "accountOptions": [
+    {
+      "label": "Harbor & Co.",
+      "value": "ac_harbor"
+    },
+    {
+      "label": "Lumen Forge",
+      "value": "ac_lumen"
+    },
+    {
+      "label": "Fold Paper",
+      "value": "ac_fold"
+    },
+    {
+      "label": "Lattice Energy",
+      "value": "ac_lattice"
+    },
+    {
+      "label": "Fieldwork Studio",
+      "value": "ac_field"
+    },
+    {
+      "label": "Alder Health",
+      "value": "ac_alder"
+    },
+    {
+      "label": "Pine & Copper",
+      "value": "ac_pine"
+    },
+    {
+      "label": "Rivermark Labs",
+      "value": "ac_river"
+    },
+    {
+      "label": "Northline Freight",
+      "value": "ac_north"
+    },
+    {
+      "label": "Brightwell Bank",
+      "value": "ac_bright"
+    }
+  ],
+  "defaultAccountId": "ac_lattice",
+  "whyNowPlaceholder": "Health dip, renewal window, or expansion signal."
+}

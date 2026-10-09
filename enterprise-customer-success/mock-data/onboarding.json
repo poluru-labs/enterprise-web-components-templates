@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "id": "ob_alder",
+      "accountId": "ac_alder",
+      "account": "Alder Health",
+      "csm": "Elena Poluru",
+      "started": "18 Aug 2026",
+      "target": "18 Oct 2026",
+      "progress": 62,
+      "milestone": "Training",
+      "status": "On track",
+      "steps": [
+        "Kickoff",
+        "Integrations",
+        "Training",
+        "Go-live",
+        "First value"
+      ],
+      "current": 2
+    },
+    {
+      "id": "ob_north",
+      "accountId": "ac_north",
+      "account": "Northline Freight",
+      "csm": "Elena Poluru",
+      "started": "1 Aug 2026",
+      "target": "1 Oct 2026",
+      "progress": 48,
+      "milestone": "Integrations",
+      "status": "Watch",
+      "steps": [
+        "Kickoff",
+        "Integrations",
+        "Training",
+        "Go-live",
+        "First value"
+      ],
+      "current": 1
+    },
+    {
+      "id": "ob_field",
+      "accountId": "ac_field",
+      "account": "Fieldwork Studio",
+      "csm": "Elena Poluru",
+      "started": "4 Jul 2026",
+      "target": "4 Sep 2026",
+      "progress": 100,
+      "milestone": "First value",
+      "status": "Complete",
+      "steps": [
+        "Kickoff",
+        "Integrations",
+        "Training",
+        "Go-live",
+        "First value"
+      ],
+      "current": 4
+    },
+    {
+      "id": "ob_river",
+      "accountId": "ac_river",
+      "account": "Rivermark Labs",
+      "csm": "Elena Poluru",
+      "started": "12 Jun 2026",
+      "target": "12 Aug 2026",
+      "progress": 100,
+      "milestone": "First value",
+      "status": "Complete",
+      "steps": [
+        "Kickoff",
+        "Integrations",
+        "Training",
+        "Go-live",
+        "First value"
+      ],
+      "current": 4
+    }
+  ],
+  "kickoffCsmOptions": [
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    }
+  ],
+  "defaultKickoffCsm": "Elena Poluru"
+}

@@ -1,0 +1,16 @@
+{
+  "productName": "Pulse",
+  "productLine": "Success",
+  "workspaceName": "Aetherline",
+  "currentUser": {
+    "name": "Priya Poluru",
+    "email": "priya.poluru@aetherline.example",
+    "role": "VP customer success"
+  },
+  "workspace": {
+    "name": "Aetherline",
+    "period": "FY26 Q3 · week 9",
+    "timezone": "America / Chicago",
+    "close": "Quarter ends 30 Sep 2026"
+  }
+}

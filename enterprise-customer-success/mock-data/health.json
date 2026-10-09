@@ -1,0 +1,314 @@
+{
+  "scoreBands": "Healthy is 80 and up. Watch is 65–79. At risk is below 65.",
+  "portfolioScore": 84,
+  "drivers": {
+    "columns": [
+      {
+        "key": "metric",
+        "label": "Driver",
+        "sortable": true
+      },
+      {
+        "key": "actual",
+        "label": "Actual"
+      },
+      {
+        "key": "target",
+        "label": "Target"
+      },
+      {
+        "key": "variance",
+        "label": "Variance"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      }
+    ],
+    "rows": [
+      {
+        "metric": "Product usage",
+        "actual": "82",
+        "target": "80",
+        "variance": "+2",
+        "status": "On track"
+      },
+      {
+        "metric": "Support CSAT",
+        "actual": "4.5",
+        "target": "4.6",
+        "variance": "−0.1",
+        "status": "Watch"
+      },
+      {
+        "metric": "Adoption",
+        "actual": "74%",
+        "target": "78%",
+        "variance": "−4 pts",
+        "status": "Watch"
+      },
+      {
+        "metric": "Relationship",
+        "actual": "86",
+        "target": "80",
+        "variance": "+6",
+        "status": "On track"
+      }
+    ]
+  },
+  "tree": [
+    {
+      "id": "book",
+      "label": "Book",
+      "children": [
+        {
+          "id": "enterprise",
+          "label": "Enterprise",
+          "href": "#/accounts"
+        },
+        {
+          "id": "mid",
+          "label": "Mid-market",
+          "href": "#/accounts"
+        },
+        {
+          "id": "smb",
+          "label": "SMB",
+          "href": "#/accounts"
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "label": "Motion",
+      "children": [
+        {
+          "id": "onboard",
+          "label": "Onboarding",
+          "href": "#/onboarding"
+        },
+        {
+          "id": "renew",
+          "label": "Renewals",
+          "href": "#/renewals"
+        },
+        {
+          "id": "expand",
+          "label": "Expansion",
+          "href": "#/expansion"
+        }
+      ]
+    }
+  ],
+  "mix": {
+    "portfolioHealth": 81,
+    "totalAccounts": 10,
+    "groups": [
+      {
+        "key": "Healthy",
+        "count": 7,
+        "percent": 70,
+        "accounts": [
+          {
+            "id": "ac_harbor",
+            "name": "Harbor & Co.",
+            "health": 92
+          },
+          {
+            "id": "ac_lumen",
+            "name": "Lumen Forge",
+            "health": 88
+          },
+          {
+            "id": "ac_field",
+            "name": "Fieldwork Studio",
+            "health": 86
+          },
+          {
+            "id": "ac_alder",
+            "name": "Alder Health",
+            "health": 81
+          },
+          {
+            "id": "ac_river",
+            "name": "Rivermark Labs",
+            "health": 90
+          },
+          {
+            "id": "ac_north",
+            "name": "Northline Freight",
+            "health": 83
+          },
+          {
+            "id": "ac_bright",
+            "name": "Brightwell Bank",
+            "health": 95
+          }
+        ]
+      },
+      {
+        "key": "Watch",
+        "count": 2,
+        "percent": 20,
+        "accounts": [
+          {
+            "id": "ac_fold",
+            "name": "Fold Paper",
+            "health": 71
+          },
+          {
+            "id": "ac_pine",
+            "name": "Pine & Copper",
+            "health": 64
+          }
+        ]
+      },
+      {
+        "key": "At risk",
+        "count": 1,
+        "percent": 10,
+        "accounts": [
+          {
+            "id": "ac_lattice",
+            "name": "Lattice Energy",
+            "health": 58
+          }
+        ]
+      }
+    ]
+  },
+  "watchAndRisk": [
+    {
+      "id": "ac_fold",
+      "name": "Fold Paper",
+      "segment": "Mid-market",
+      "csm": "Arjun Poluru",
+      "health": 71,
+      "status": "Watch",
+      "arr": 280000,
+      "nrr": 97,
+      "renews": "22 Sep 2026",
+      "stage": "Renew",
+      "region": "Americas",
+      "seats": 96,
+      "plan": "Growth",
+      "nps": 41,
+      "lastQbr": "19 Jul 2026",
+      "nextQbr": "21 Oct 2026",
+      "product": 74,
+      "support": 62,
+      "adoption": 68,
+      "relationship": 80
+    },
+    {
+      "id": "ac_lattice",
+      "name": "Lattice Energy",
+      "segment": "Enterprise",
+      "csm": "Hana Poluru",
+      "health": 58,
+      "status": "At risk",
+      "arr": 510000,
+      "nrr": 88,
+      "renews": "30 Sep 2026",
+      "stage": "Renew",
+      "region": "Americas",
+      "seats": 210,
+      "plan": "Enterprise",
+      "nps": 28,
+      "lastQbr": "8 Jun 2026",
+      "nextQbr": "22 Sep 2026",
+      "product": 61,
+      "support": 48,
+      "adoption": 52,
+      "relationship": 71
+    },
+    {
+      "id": "ac_pine",
+      "name": "Pine & Copper",
+      "segment": "SMB",
+      "csm": "Luca Poluru",
+      "health": 64,
+      "status": "Watch",
+      "arr": 150000,
+      "nrr": 91,
+      "renews": "8 Oct 2026",
+      "stage": "Renew",
+      "region": "APAC",
+      "seats": 28,
+      "plan": "Starter",
+      "nps": 36,
+      "lastQbr": "11 May 2026",
+      "nextQbr": "8 Oct 2026",
+      "product": 70,
+      "support": 58,
+      "adoption": 60,
+      "relationship": 68
+    }
+  ],
+  "csmLoad": [
+    {
+      "name": "Kavya Poluru",
+      "role": "Enterprise CSM",
+      "squad": "Enterprise",
+      "rating": 5,
+      "score": 88,
+      "book": 3
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "Mid-market CSM",
+      "squad": "Mid-market",
+      "rating": 4,
+      "score": 80,
+      "book": 2
+    },
+    {
+      "name": "Elena Poluru",
+      "role": "Onboarding lead",
+      "squad": "Onboarding",
+      "rating": 5,
+      "score": 86,
+      "book": 4
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Renewal manager",
+      "squad": "Renewals",
+      "rating": 4,
+      "score": 82,
+      "book": 7
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "Expansion AE",
+      "squad": "Expansion",
+      "rating": 4,
+      "score": 78,
+      "book": 6
+    },
+    {
+      "name": "Hana Poluru",
+      "role": "Technical CSM",
+      "squad": "Enterprise",
+      "rating": 5,
+      "score": 84,
+      "book": 3
+    },
+    {
+      "name": "Luca Poluru",
+      "role": "SMB CSM",
+      "squad": "SMB",
+      "rating": 4,
+      "score": 75,
+      "book": 2
+    },
+    {
+      "name": "Sahana Poluru",
+      "role": "QBR coordinator",
+      "squad": "CS Ops",
+      "rating": 4,
+      "score": 81,
+      "book": 6
+    }
+  ]
+}

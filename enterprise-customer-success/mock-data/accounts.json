@@ -1,0 +1,298 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Account",
+      "sortable": true
+    },
+    {
+      "key": "csm",
+      "label": "CSM",
+      "sortable": true
+    },
+    {
+      "key": "segment",
+      "label": "Segment"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "health",
+      "label": "Health"
+    },
+    {
+      "key": "arr",
+      "label": "ARR"
+    },
+    {
+      "key": "renews",
+      "label": "Renews"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ac_harbor",
+      "name": "Harbor & Co.",
+      "segment": "Enterprise",
+      "csm": "Kavya Poluru",
+      "health": 92,
+      "status": "Healthy",
+      "arr": 840000,
+      "nrr": 124,
+      "renews": "15 Oct 2026",
+      "stage": "Adopt",
+      "region": "Americas",
+      "seats": 420,
+      "plan": "Enterprise",
+      "nps": 72,
+      "lastQbr": "12 Aug 2026",
+      "nextQbr": "18 Nov 2026",
+      "product": 94,
+      "support": 90,
+      "adoption": 91,
+      "relationship": 93
+    },
+    {
+      "id": "ac_lumen",
+      "name": "Lumen Forge",
+      "segment": "Enterprise",
+      "csm": "Kavya Poluru",
+      "health": 88,
+      "status": "Healthy",
+      "arr": 620000,
+      "nrr": 131,
+      "renews": "2 Nov 2026",
+      "stage": "Expand",
+      "region": "EMEA",
+      "seats": 280,
+      "plan": "Enterprise",
+      "nps": 68,
+      "lastQbr": "4 Aug 2026",
+      "nextQbr": "4 Nov 2026",
+      "product": 90,
+      "support": 86,
+      "adoption": 84,
+      "relationship": 92
+    },
+    {
+      "id": "ac_fold",
+      "name": "Fold Paper",
+      "segment": "Mid-market",
+      "csm": "Arjun Poluru",
+      "health": 71,
+      "status": "Watch",
+      "arr": 280000,
+      "nrr": 97,
+      "renews": "22 Sep 2026",
+      "stage": "Renew",
+      "region": "Americas",
+      "seats": 96,
+      "plan": "Growth",
+      "nps": 41,
+      "lastQbr": "19 Jul 2026",
+      "nextQbr": "21 Oct 2026",
+      "product": 74,
+      "support": 62,
+      "adoption": 68,
+      "relationship": 80
+    },
+    {
+      "id": "ac_lattice",
+      "name": "Lattice Energy",
+      "segment": "Enterprise",
+      "csm": "Hana Poluru",
+      "health": 58,
+      "status": "At risk",
+      "arr": 510000,
+      "nrr": 88,
+      "renews": "30 Sep 2026",
+      "stage": "Renew",
+      "region": "Americas",
+      "seats": 210,
+      "plan": "Enterprise",
+      "nps": 28,
+      "lastQbr": "8 Jun 2026",
+      "nextQbr": "22 Sep 2026",
+      "product": 61,
+      "support": 48,
+      "adoption": 52,
+      "relationship": 71
+    },
+    {
+      "id": "ac_field",
+      "name": "Fieldwork Studio",
+      "segment": "SMB",
+      "csm": "Luca Poluru",
+      "health": 86,
+      "status": "Healthy",
+      "arr": 190000,
+      "nrr": 112,
+      "renews": "12 Jan 2027",
+      "stage": "Adopt",
+      "region": "Americas",
+      "seats": 42,
+      "plan": "Growth",
+      "nps": 64,
+      "lastQbr": "2 Sep 2026",
+      "nextQbr": "2 Dec 2026",
+      "product": 88,
+      "support": 84,
+      "adoption": 82,
+      "relationship": 90
+    },
+    {
+      "id": "ac_alder",
+      "name": "Alder Health",
+      "segment": "Enterprise",
+      "csm": "Hana Poluru",
+      "health": 81,
+      "status": "Onboarding",
+      "arr": 430000,
+      "nrr": 100,
+      "renews": "18 Mar 2027",
+      "stage": "Onboard",
+      "region": "Americas",
+      "seats": 160,
+      "plan": "Enterprise",
+      "nps": 0,
+      "lastQbr": "—",
+      "nextQbr": "18 Dec 2026",
+      "product": 78,
+      "support": 85,
+      "adoption": 64,
+      "relationship": 88
+    },
+    {
+      "id": "ac_pine",
+      "name": "Pine & Copper",
+      "segment": "SMB",
+      "csm": "Luca Poluru",
+      "health": 64,
+      "status": "Watch",
+      "arr": 150000,
+      "nrr": 91,
+      "renews": "8 Oct 2026",
+      "stage": "Renew",
+      "region": "APAC",
+      "seats": 28,
+      "plan": "Starter",
+      "nps": 36,
+      "lastQbr": "11 May 2026",
+      "nextQbr": "8 Oct 2026",
+      "product": 70,
+      "support": 58,
+      "adoption": 60,
+      "relationship": 68
+    },
+    {
+      "id": "ac_river",
+      "name": "Rivermark Labs",
+      "segment": "Mid-market",
+      "csm": "Arjun Poluru",
+      "health": 90,
+      "status": "Healthy",
+      "arr": 360000,
+      "nrr": 119,
+      "renews": "4 Dec 2026",
+      "stage": "Expand",
+      "region": "EMEA",
+      "seats": 120,
+      "plan": "Growth",
+      "nps": 70,
+      "lastQbr": "20 Aug 2026",
+      "nextQbr": "20 Nov 2026",
+      "product": 91,
+      "support": 88,
+      "adoption": 89,
+      "relationship": 92
+    },
+    {
+      "id": "ac_north",
+      "name": "Northline Freight",
+      "segment": "Enterprise",
+      "csm": "Kavya Poluru",
+      "health": 83,
+      "status": "Onboarding",
+      "arr": 720000,
+      "nrr": 100,
+      "renews": "1 Apr 2027",
+      "stage": "Onboard",
+      "region": "Americas",
+      "seats": 310,
+      "plan": "Enterprise",
+      "nps": 0,
+      "lastQbr": "—",
+      "nextQbr": "15 Jan 2027",
+      "product": 80,
+      "support": 86,
+      "adoption": 58,
+      "relationship": 90
+    },
+    {
+      "id": "ac_bright",
+      "name": "Brightwell Bank",
+      "segment": "Enterprise",
+      "csm": "Hana Poluru",
+      "health": 95,
+      "status": "Healthy",
+      "arr": 980000,
+      "nrr": 128,
+      "renews": "19 Nov 2026",
+      "stage": "Expand",
+      "region": "EMEA",
+      "seats": 540,
+      "plan": "Enterprise",
+      "nps": 78,
+      "lastQbr": "1 Sep 2026",
+      "nextQbr": "1 Dec 2026",
+      "product": 96,
+      "support": 94,
+      "adoption": 93,
+      "relationship": 97
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "Healthy",
+        "value": "Healthy"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      },
+      {
+        "label": "At risk",
+        "value": "At risk"
+      },
+      {
+        "label": "Onboarding",
+        "value": "Onboarding"
+      }
+    ],
+    "segment": [
+      {
+        "label": "All segments",
+        "value": "all"
+      },
+      {
+        "label": "Enterprise",
+        "value": "Enterprise"
+      },
+      {
+        "label": "Mid-market",
+        "value": "Mid-market"
+      },
+      {
+        "label": "SMB",
+        "value": "SMB"
+      }
+    ]
+  }
+}

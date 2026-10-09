@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Accounts",
+    "href": "#/accounts",
+    "icon": "folder"
+  },
+  {
+    "label": "Health",
+    "href": "#/health",
+    "icon": "star"
+  },
+  {
+    "label": "Renewals",
+    "href": "#/renewals",
+    "icon": "clock"
+  },
+  {
+    "label": "Onboarding",
+    "href": "#/onboarding",
+    "icon": "check"
+  },
+  {
+    "label": "Expansion",
+    "href": "#/expansion",
+    "icon": "plus"
+  },
+  {
+    "label": "Playbooks",
+    "href": "#/playbooks",
+    "icon": "file"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

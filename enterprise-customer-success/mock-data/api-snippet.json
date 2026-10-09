@@ -1,0 +1,3 @@
+{
+  "snippet": "GET /v1/accounts/ac_harbor\nAuthorization: Bearer pulse_live_****\n\n{\n  \"id\": \"ac_harbor\",\n  \"name\": \"Harbor & Co.\",\n  \"health\": 92,\n  \"csm\": \"Kavya Poluru\"\n}"
+}

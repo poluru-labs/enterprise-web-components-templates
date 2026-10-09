@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pb_risk",
+    "name": "Health recovery",
+    "trigger": "Health below 65",
+    "owner": "Mira Poluru",
+    "accounts": 1,
+    "status": "Active",
+    "steps": 5
+  },
+  {
+    "id": "pb_renew",
+    "name": "90-day renewal",
+    "trigger": "Renews in 90 days",
+    "owner": "Rohan Poluru",
+    "accounts": 7,
+    "status": "Active",
+    "steps": 6
+  },
+  {
+    "id": "pb_onboard",
+    "name": "First 60 days",
+    "trigger": "New logo closed",
+    "owner": "Elena Poluru",
+    "accounts": 2,
+    "status": "Active",
+    "steps": 5
+  },
+  {
+    "id": "pb_expand",
+    "name": "Seat attach",
+    "trigger": "Utilization above 85%",
+    "owner": "Nikhil Poluru",
+    "accounts": 3,
+    "status": "Draft",
+    "steps": 4
+  },
+  {
+    "id": "pb_qbr",
+    "name": "Enterprise QBR",
+    "trigger": "Quarter start",
+    "owner": "Sahana Poluru",
+    "accounts": 6,
+    "status": "Active",
+    "steps": 4
+  },
+  {
+    "id": "pb_nps",
+    "name": "Detractor save",
+    "trigger": "NPS below 30",
+    "owner": "Priya Poluru",
+    "accounts": 1,
+    "status": "Active",
+    "steps": 3
+  }
+]

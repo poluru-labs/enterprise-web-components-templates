@@ -1,0 +1,28 @@
+{
+  "workspace": "Aetherline",
+  "timezone": "America / Chicago",
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas",
+  "atRiskFloor": 65,
+  "startFullWidth": true,
+  "fridayQbrReminder": true,
+  "density": "comfortable",
+  "densityOptions": [
+    "comfortable",
+    "compact"
+  ],
+  "staffPinLength": 4
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Harbor QBR locked",
+    "description": "Kavya Poluru · 12 Aug",
+    "timestamp": "12 Aug",
+    "icon": "check",
+    "status": "Done"
+  },
+  {
+    "label": "Lattice support spike",
+    "description": "Dev Poluru · 14 tickets",
+    "timestamp": "27 Aug",
+    "icon": "alert-triangle",
+    "status": "Watch"
+  },
+  {
+    "label": "Northline SSO blocked",
+    "description": "Elena Poluru · IdP wait",
+    "timestamp": "2 Sep",
+    "icon": "clock",
+    "status": "Watch"
+  },
+  {
+    "label": "Brightwell seats signed",
+    "description": "Nikhil Poluru · +120",
+    "timestamp": "4 Sep",
+    "icon": "check",
+    "status": "Done"
+  },
+  {
+    "label": "Fold NPS dip",
+    "description": "Arjun Poluru · 41",
+    "timestamp": "8 Sep",
+    "icon": "eye",
+    "status": "Watch"
+  },
+  {
+    "label": "Alder training scheduled",
+    "description": "Elena Poluru · 22 Sep",
+    "timestamp": "11 Sep",
+    "icon": "calendar",
+    "status": "Done"
+  }
+]

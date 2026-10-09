@@ -1,0 +1,44 @@
+[
+  {
+    "label": "NRR",
+    "value": "118%",
+    "delta": "+4 pts",
+    "trend": "up",
+    "href": "#/health"
+  },
+  {
+    "label": "GRR",
+    "value": "96%",
+    "delta": "+1 pt",
+    "trend": "up",
+    "href": "#/renewals"
+  },
+  {
+    "label": "Health",
+    "value": "84",
+    "delta": "Hold",
+    "trend": "flat",
+    "href": "#/health"
+  },
+  {
+    "label": "At risk",
+    "value": "1",
+    "delta": "Lattice",
+    "trend": "down",
+    "href": "#/health"
+  },
+  {
+    "label": "Renewals",
+    "value": "$3.7M",
+    "delta": "62 days",
+    "trend": "flat",
+    "href": "#/renewals"
+  },
+  {
+    "label": "Expansion",
+    "value": "$1.0M",
+    "delta": "+$240k",
+    "trend": "up",
+    "href": "#/expansion"
+  }
+]

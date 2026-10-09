@@ -1,0 +1,143 @@
+{
+  "columns": [
+    {
+      "key": "account",
+      "label": "Account",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "amount",
+      "label": "Amount"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "stage",
+      "label": "Stage"
+    },
+    {
+      "key": "close",
+      "label": "Close"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ex_lumen",
+      "accountId": "ac_lumen",
+      "account": "Lumen Forge",
+      "type": "Module",
+      "amount": 180000,
+      "owner": "Nikhil Poluru",
+      "stage": "Propose",
+      "close": "20 Oct 2026",
+      "note": "Analytics add-on for EMEA plants."
+    },
+    {
+      "id": "ex_bright",
+      "accountId": "ac_bright",
+      "account": "Brightwell Bank",
+      "type": "Seats",
+      "amount": 240000,
+      "owner": "Nikhil Poluru",
+      "stage": "Commit",
+      "close": "12 Oct 2026",
+      "note": "120 extra seats after the retail merge."
+    },
+    {
+      "id": "ex_harbor",
+      "accountId": "ac_harbor",
+      "account": "Harbor & Co.",
+      "type": "Region",
+      "amount": 160000,
+      "owner": "Nikhil Poluru",
+      "stage": "Qualify",
+      "close": "8 Nov 2026",
+      "note": "APAC workspace for the Singapore desk."
+    },
+    {
+      "id": "ex_river",
+      "accountId": "ac_river",
+      "account": "Rivermark Labs",
+      "type": "Module",
+      "amount": 90000,
+      "owner": "Nikhil Poluru",
+      "stage": "Propose",
+      "close": "30 Oct 2026",
+      "note": "SSO plus audit pack."
+    },
+    {
+      "id": "ex_north",
+      "accountId": "ac_north",
+      "account": "Northline Freight",
+      "type": "Seats",
+      "amount": 110000,
+      "owner": "Nikhil Poluru",
+      "stage": "Discover",
+      "close": "15 Dec 2026",
+      "note": "Yard ops team after go-live."
+    },
+    {
+      "id": "ex_alder",
+      "accountId": "ac_alder",
+      "account": "Alder Health",
+      "type": "Multi-year",
+      "amount": 220000,
+      "owner": "Nikhil Poluru",
+      "stage": "Qualify",
+      "close": "18 Mar 2027",
+      "note": "Three-year after first value."
+    }
+  ],
+  "filters": {
+    "type": [
+      {
+        "label": "All types",
+        "value": "all"
+      },
+      {
+        "label": "Seats",
+        "value": "Seats"
+      },
+      {
+        "label": "Module",
+        "value": "Module"
+      },
+      {
+        "label": "Region",
+        "value": "Region"
+      },
+      {
+        "label": "Multi-year",
+        "value": "Multi-year"
+      }
+    ],
+    "stage": [
+      {
+        "label": "All stages",
+        "value": "all"
+      },
+      {
+        "label": "Discover",
+        "value": "Discover"
+      },
+      {
+        "label": "Qualify",
+        "value": "Qualify"
+      },
+      {
+        "label": "Propose",
+        "value": "Propose"
+      },
+      {
+        "label": "Commit",
+        "value": "Commit"
+      }
+    ]
+  }
+}

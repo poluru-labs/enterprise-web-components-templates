@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Net revenue retain",
+    "value": "118%",
+    "hint": "Expansion beating churn",
+    "trend": "up",
+    "trendValue": "+4 pts"
+  },
+  {
+    "label": "Gross retain",
+    "value": "96%",
+    "hint": "Two logos saved this quarter",
+    "trend": "up",
+    "trendValue": "+1 pt"
+  },
+  {
+    "label": "Portfolio health",
+    "value": "84",
+    "hint": "Ten accounts in the book",
+    "trend": "flat",
+    "trendValue": "Hold"
+  },
+  {
+    "label": "At-risk ARR",
+    "value": "$510k",
+    "hint": "Lattice Energy",
+    "trend": "down",
+    "trendValue": "−$80k"
+  },
+  {
+    "label": "Renewals 90 days",
+    "value": "$3.7M",
+    "hint": "7 logos in the window",
+    "trend": "flat",
+    "trendValue": "On plan"
+  },
+  {
+    "label": "Onboarding",
+    "value": "4",
+    "hint": "Northline blocked on SSO",
+    "trend": "flat",
+    "trendValue": "Week 9"
+  },
+  {
+    "label": "Expansion pipeline",
+    "value": "$1.0M",
+    "hint": "Seat and module attach",
+    "trend": "up",
+    "trendValue": "+$240k"
+  },
+  {
+    "label": "NPS",
+    "value": "62",
+    "hint": "Promoters 71%",
+    "trend": "up",
+    "trendValue": "+5"
+  }
+]

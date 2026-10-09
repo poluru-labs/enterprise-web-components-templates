@@ -1,0 +1,56 @@
+[
+  {
+    "label": "Overview",
+    "description": "Portfolio pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Harbor & Co.",
+    "description": "Kavya Poluru",
+    "href": "#/account/ac_harbor",
+    "icon": "folder"
+  },
+  {
+    "label": "Lattice Energy",
+    "description": "At risk",
+    "href": "#/account/ac_lattice",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Health",
+    "description": "Scores and mix",
+    "href": "#/health",
+    "icon": "star"
+  },
+  {
+    "label": "Renewals",
+    "description": "90-day book",
+    "href": "#/renewals",
+    "icon": "clock"
+  },
+  {
+    "label": "Onboarding",
+    "description": "Milestones",
+    "href": "#/onboarding",
+    "icon": "check"
+  },
+  {
+    "label": "Expansion",
+    "description": "Pipeline",
+    "href": "#/expansion",
+    "icon": "plus"
+  },
+  {
+    "label": "Playbooks",
+    "description": "Runs",
+    "href": "#/playbooks",
+    "icon": "file"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

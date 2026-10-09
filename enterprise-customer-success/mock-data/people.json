@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Priya Poluru",
+    "role": "VP customer success",
+    "squad": "Office of CS",
+    "rating": 5,
+    "score": 94,
+    "book": 10
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Enterprise CSM",
+    "squad": "Enterprise",
+    "rating": 5,
+    "score": 88,
+    "book": 3
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Mid-market CSM",
+    "squad": "Mid-market",
+    "rating": 4,
+    "score": 80,
+    "book": 2
+  },
+  {
+    "name": "Elena Poluru",
+    "role": "Onboarding lead",
+    "squad": "Onboarding",
+    "rating": 5,
+    "score": 86,
+    "book": 4
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "Renewal manager",
+    "squad": "Renewals",
+    "rating": 4,
+    "score": 82,
+    "book": 7
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "Expansion AE",
+    "squad": "Expansion",
+    "rating": 4,
+    "score": 78,
+    "book": 6
+  },
+  {
+    "name": "Hana Poluru",
+    "role": "Technical CSM",
+    "squad": "Enterprise",
+    "rating": 5,
+    "score": 84,
+    "book": 3
+  },
+  {
+    "name": "Luca Poluru",
+    "role": "SMB CSM",
+    "squad": "SMB",
+    "rating": 4,
+    "score": 75,
+    "book": 2
+  },
+  {
+    "name": "Sahana Poluru",
+    "role": "QBR coordinator",
+    "squad": "CS Ops",
+    "rating": 4,
+    "score": 81,
+    "book": 6
+  },
+  {
+    "name": "Mira Poluru",
+    "role": "CS operations",
+    "squad": "CS Ops",
+    "rating": 5,
+    "score": 90,
+    "book": 10
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Support liaison",
+    "squad": "Support",
+    "rating": 4,
+    "score": 77,
+    "book": 10
+  },
+  {
+    "name": "Anika Poluru",
+    "role": "Customer marketing",
+    "squad": "Voice",
+    "rating": 4,
+    "score": 79,
+    "book": 10
+  }
+]

@@ -1,0 +1,424 @@
+{
+  "records": [
+    {
+      "label": "Harbor & Co.",
+      "description": "Enterprise · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Account",
+      "href": "#/account/ac_harbor"
+    },
+    {
+      "label": "Lumen Forge",
+      "description": "Enterprise · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Account",
+      "href": "#/account/ac_lumen"
+    },
+    {
+      "label": "Fold Paper",
+      "description": "Mid-market · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "type": "Account",
+      "href": "#/account/ac_fold"
+    },
+    {
+      "label": "Lattice Energy",
+      "description": "Enterprise · Hana Poluru",
+      "owner": "Hana Poluru",
+      "type": "Account",
+      "href": "#/account/ac_lattice"
+    },
+    {
+      "label": "Fieldwork Studio",
+      "description": "SMB · Luca Poluru",
+      "owner": "Luca Poluru",
+      "type": "Account",
+      "href": "#/account/ac_field"
+    },
+    {
+      "label": "Alder Health",
+      "description": "Enterprise · Hana Poluru",
+      "owner": "Hana Poluru",
+      "type": "Account",
+      "href": "#/account/ac_alder"
+    },
+    {
+      "label": "Pine & Copper",
+      "description": "SMB · Luca Poluru",
+      "owner": "Luca Poluru",
+      "type": "Account",
+      "href": "#/account/ac_pine"
+    },
+    {
+      "label": "Rivermark Labs",
+      "description": "Mid-market · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "type": "Account",
+      "href": "#/account/ac_river"
+    },
+    {
+      "label": "Northline Freight",
+      "description": "Enterprise · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Account",
+      "href": "#/account/ac_north"
+    },
+    {
+      "label": "Brightwell Bank",
+      "description": "Enterprise · Hana Poluru",
+      "owner": "Hana Poluru",
+      "type": "Account",
+      "href": "#/account/ac_bright"
+    },
+    {
+      "label": "Fold Paper renewal",
+      "description": "Commit · 22 Sep 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Lattice Energy renewal",
+      "description": "Negotiate · 30 Sep 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Pine & Copper renewal",
+      "description": "Propose · 8 Oct 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Harbor & Co. renewal",
+      "description": "Commit · 15 Oct 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Lumen Forge renewal",
+      "description": "Forecast · 2 Nov 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Brightwell Bank renewal",
+      "description": "Forecast · 19 Nov 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Rivermark Labs renewal",
+      "description": "Qualify · 4 Dec 2026",
+      "owner": "Rohan Poluru",
+      "type": "Renewal",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Alder Health onboarding",
+      "description": "Training · On track",
+      "owner": "Elena Poluru",
+      "type": "Onboarding",
+      "href": "#/onboarding"
+    },
+    {
+      "label": "Northline Freight onboarding",
+      "description": "Integrations · Watch",
+      "owner": "Elena Poluru",
+      "type": "Onboarding",
+      "href": "#/onboarding"
+    },
+    {
+      "label": "Fieldwork Studio onboarding",
+      "description": "First value · Complete",
+      "owner": "Elena Poluru",
+      "type": "Onboarding",
+      "href": "#/onboarding"
+    },
+    {
+      "label": "Rivermark Labs onboarding",
+      "description": "First value · Complete",
+      "owner": "Elena Poluru",
+      "type": "Onboarding",
+      "href": "#/onboarding"
+    },
+    {
+      "label": "Lumen Forge module",
+      "description": "Propose · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Expansion",
+      "href": "#/expansion"
+    },
+    {
+      "label": "Brightwell Bank seats",
+      "description": "Commit · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Expansion",
+      "href": "#/expansion"
+    },
+    {
+      "label": "Harbor & Co. region",
+      "description": "Qualify · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Expansion",
+      "href": "#/expansion"
+    },
+    {
+      "label": "Rivermark Labs module",
+      "description": "Propose · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Expansion",
+      "href": "#/expansion"
+    },
+    {
+      "label": "Northline Freight seats",
+      "description": "Discover · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Expansion",
+      "href": "#/expansion"
+    },
+    {
+      "label": "Alder Health multi-year",
+      "description": "Qualify · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Expansion",
+      "href": "#/expansion"
+    },
+    {
+      "label": "Health recovery",
+      "description": "Health below 65 · Mira Poluru",
+      "owner": "Mira Poluru",
+      "type": "Playbook",
+      "href": "#/playbooks"
+    },
+    {
+      "label": "90-day renewal",
+      "description": "Renews in 90 days · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Playbook",
+      "href": "#/playbooks"
+    },
+    {
+      "label": "First 60 days",
+      "description": "New logo closed · Elena Poluru",
+      "owner": "Elena Poluru",
+      "type": "Playbook",
+      "href": "#/playbooks"
+    },
+    {
+      "label": "Seat attach",
+      "description": "Utilization above 85% · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Playbook",
+      "href": "#/playbooks"
+    },
+    {
+      "label": "Enterprise QBR",
+      "description": "Quarter start · Sahana Poluru",
+      "owner": "Sahana Poluru",
+      "type": "Playbook",
+      "href": "#/playbooks"
+    },
+    {
+      "label": "Detractor save",
+      "description": "NPS below 30 · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Playbook",
+      "href": "#/playbooks"
+    },
+    {
+      "label": "Portfolio health pack",
+      "description": "PDF · 14 Sep 2026",
+      "owner": "Mira Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Renewal forecast",
+      "description": "XLSX · 15 Sep 2026",
+      "owner": "Rohan Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Onboarding SLA",
+      "description": "CSV · 12 Sep 2026",
+      "owner": "Elena Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Expansion pipeline",
+      "description": "XLSX · 13 Sep 2026",
+      "owner": "Nikhil Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "QBR appendix",
+      "description": "PDF · 11 Sep 2026",
+      "owner": "Sahana Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "NPS roll-up",
+      "description": "CSV · 9 Sep 2026",
+      "owner": "Anika Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "VP customer success · Office of CS",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Enterprise CSM · Enterprise",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Mid-market CSM · Mid-market",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Onboarding lead · Onboarding",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Renewal manager · Renewals",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Expansion AE · Expansion",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Technical CSM · Enterprise",
+      "owner": "Hana Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "SMB CSM · SMB",
+      "owner": "Luca Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "QBR coordinator · CS Ops",
+      "owner": "Sahana Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "CS operations · CS Ops",
+      "owner": "Mira Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Support liaison · Support",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "Customer marketing · Voice",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/health"
+    },
+    {
+      "label": "Overview",
+      "description": "Portfolio pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Harbor & Co.",
+      "description": "Kavya Poluru",
+      "href": "#/account/ac_harbor",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Lattice Energy",
+      "description": "At risk",
+      "href": "#/account/ac_lattice",
+      "icon": "alert-triangle",
+      "type": "Jump"
+    },
+    {
+      "label": "Health",
+      "description": "Scores and mix",
+      "href": "#/health",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Renewals",
+      "description": "90-day book",
+      "href": "#/renewals",
+      "icon": "clock",
+      "type": "Jump"
+    },
+    {
+      "label": "Onboarding",
+      "description": "Milestones",
+      "href": "#/onboarding",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Expansion",
+      "description": "Pipeline",
+      "href": "#/expansion",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Playbooks",
+      "description": "Runs",
+      "href": "#/playbooks",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

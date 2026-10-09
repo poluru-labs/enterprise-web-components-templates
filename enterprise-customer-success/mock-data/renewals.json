@@ -1,0 +1,182 @@
+{
+  "columns": [
+    {
+      "key": "account",
+      "label": "Account",
+      "sortable": true
+    },
+    {
+      "key": "arr",
+      "label": "ARR"
+    },
+    {
+      "key": "close",
+      "label": "Close"
+    },
+    {
+      "key": "stage",
+      "label": "Stage"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "risk",
+      "label": "Risk"
+    },
+    {
+      "key": "probability",
+      "label": "Win %"
+    }
+  ],
+  "rows": [
+    {
+      "id": "rn_fold",
+      "accountId": "ac_fold",
+      "account": "Fold Paper",
+      "arr": 280000,
+      "close": "22 Sep 2026",
+      "stage": "Commit",
+      "owner": "Rohan Poluru",
+      "risk": "Watch",
+      "probability": 70
+    },
+    {
+      "id": "rn_lattice",
+      "accountId": "ac_lattice",
+      "account": "Lattice Energy",
+      "arr": 510000,
+      "close": "30 Sep 2026",
+      "stage": "Negotiate",
+      "owner": "Rohan Poluru",
+      "risk": "At risk",
+      "probability": 45
+    },
+    {
+      "id": "rn_pine",
+      "accountId": "ac_pine",
+      "account": "Pine & Copper",
+      "arr": 150000,
+      "close": "8 Oct 2026",
+      "stage": "Propose",
+      "owner": "Rohan Poluru",
+      "risk": "Watch",
+      "probability": 55
+    },
+    {
+      "id": "rn_harbor",
+      "accountId": "ac_harbor",
+      "account": "Harbor & Co.",
+      "arr": 840000,
+      "close": "15 Oct 2026",
+      "stage": "Commit",
+      "owner": "Rohan Poluru",
+      "risk": "Healthy",
+      "probability": 92
+    },
+    {
+      "id": "rn_lumen",
+      "accountId": "ac_lumen",
+      "account": "Lumen Forge",
+      "arr": 620000,
+      "close": "2 Nov 2026",
+      "stage": "Forecast",
+      "owner": "Rohan Poluru",
+      "risk": "Healthy",
+      "probability": 88
+    },
+    {
+      "id": "rn_bright",
+      "accountId": "ac_bright",
+      "account": "Brightwell Bank",
+      "arr": 980000,
+      "close": "19 Nov 2026",
+      "stage": "Forecast",
+      "owner": "Rohan Poluru",
+      "risk": "Healthy",
+      "probability": 90
+    },
+    {
+      "id": "rn_river",
+      "accountId": "ac_river",
+      "account": "Rivermark Labs",
+      "arr": 360000,
+      "close": "4 Dec 2026",
+      "stage": "Qualify",
+      "owner": "Rohan Poluru",
+      "risk": "Healthy",
+      "probability": 80
+    }
+  ],
+  "filters": {
+    "risk": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Healthy",
+        "value": "Healthy"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      },
+      {
+        "label": "At risk",
+        "value": "At risk"
+      }
+    ],
+    "owner": [
+      {
+        "label": "Priya Poluru",
+        "value": "Priya Poluru"
+      },
+      {
+        "label": "Kavya Poluru",
+        "value": "Kavya Poluru"
+      },
+      {
+        "label": "Arjun Poluru",
+        "value": "Arjun Poluru"
+      },
+      {
+        "label": "Elena Poluru",
+        "value": "Elena Poluru"
+      },
+      {
+        "label": "Rohan Poluru",
+        "value": "Rohan Poluru"
+      },
+      {
+        "label": "Nikhil Poluru",
+        "value": "Nikhil Poluru"
+      },
+      {
+        "label": "Hana Poluru",
+        "value": "Hana Poluru"
+      },
+      {
+        "label": "Luca Poluru",
+        "value": "Luca Poluru"
+      },
+      {
+        "label": "Sahana Poluru",
+        "value": "Sahana Poluru"
+      },
+      {
+        "label": "Mira Poluru",
+        "value": "Mira Poluru"
+      },
+      {
+        "label": "Dev Poluru",
+        "value": "Dev Poluru"
+      },
+      {
+        "label": "Anika Poluru",
+        "value": "Anika Poluru"
+      }
+    ]
+  }
+}

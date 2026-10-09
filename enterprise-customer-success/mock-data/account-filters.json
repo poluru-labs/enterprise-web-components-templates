@@ -1,0 +1,55 @@
+{
+  "csmOptions": [
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    }
+  ],
+  "onlyMyBook": true,
+  "hideHealthy": false,
+  "minHealth": 70
+}

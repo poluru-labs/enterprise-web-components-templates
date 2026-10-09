@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Fold Paper save plan",
+    "description": "Arjun Poluru · support backlog",
+    "timestamp": "18 Sep",
+    "icon": "alert-triangle",
+    "status": "Today"
+  },
+  {
+    "label": "Lattice Energy QBR",
+    "description": "Hana Poluru · health 58",
+    "timestamp": "22 Sep",
+    "icon": "star",
+    "status": "Next"
+  },
+  {
+    "label": "Harbor & Co. exec",
+    "description": "Kavya Poluru · NRR 124%",
+    "timestamp": "15 Oct",
+    "icon": "user",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Lumen Forge expansion",
+    "description": "Nikhil Poluru · module attach",
+    "timestamp": "20 Oct",
+    "icon": "check",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Alder Health first value",
+    "description": "Elena Poluru · training week",
+    "timestamp": "18 Oct",
+    "icon": "clock",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Brightwell Bank QBR",
+    "description": "Hana Poluru · seats +120",
+    "timestamp": "1 Dec",
+    "icon": "folder",
+    "status": "Scheduled"
+  }
+]

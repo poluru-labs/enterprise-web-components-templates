@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Lattice Energy is red",
+    "description": "Hana Poluru · health 58",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Fold Paper renews in 6 days",
+    "description": "Rohan Poluru · $280k",
+    "icon": "clock"
+  },
+  {
+    "label": "Northline SSO still blocked",
+    "description": "Elena Poluru · onboarding",
+    "icon": "file"
+  },
+  {
+    "label": "Brightwell seats committed",
+    "description": "Nikhil Poluru · +$240k",
+    "icon": "check"
+  }
+]

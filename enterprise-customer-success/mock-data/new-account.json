@@ -1,0 +1,100 @@
+{
+  "steps": [
+    {
+      "label": "Account",
+      "description": "Name and CSM"
+    },
+    {
+      "label": "Plan",
+      "description": "Segment and ARR"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "namePlaceholder": "Harbor & Co.",
+  "csmOptions": [
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    }
+  ],
+  "defaultCsm": "Kavya Poluru",
+  "segmentOptions": [
+    {
+      "label": "Enterprise",
+      "value": "Enterprise"
+    },
+    {
+      "label": "Mid-market",
+      "value": "Mid-market"
+    },
+    {
+      "label": "SMB",
+      "value": "SMB"
+    }
+  ],
+  "defaultSegment": "Enterprise",
+  "defaultArr": 240000,
+  "planOptions": [
+    {
+      "label": "Starter",
+      "value": "starter"
+    },
+    {
+      "label": "Growth",
+      "value": "growth"
+    },
+    {
+      "label": "Enterprise",
+      "value": "enterprise"
+    }
+  ],
+  "defaultPlan": "growth",
+  "notesPlaceholder": "Who owns the relationship and what success looks like."
+}
