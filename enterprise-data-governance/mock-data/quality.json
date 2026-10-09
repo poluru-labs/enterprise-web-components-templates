@@ -1,0 +1,139 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Rule",
+      "sortable": true
+    },
+    {
+      "key": "asset",
+      "label": "Asset"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "score",
+      "label": "Score"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "severity",
+      "label": "Severity"
+    },
+    {
+      "key": "next",
+      "label": "Next run"
+    }
+  ],
+  "rows": [
+    {
+      "id": "qr1",
+      "name": "Account completeness",
+      "asset": "core.customer.accounts",
+      "owner": "Priya Poluru",
+      "score": 99,
+      "status": "Passed",
+      "severity": "High",
+      "next": "17 Sep"
+    },
+    {
+      "id": "qr2",
+      "name": "Journal balance",
+      "asset": "finance.ledger.journal",
+      "owner": "Hana Poluru",
+      "score": 100,
+      "status": "Passed",
+      "severity": "Critical",
+      "next": "17 Sep"
+    },
+    {
+      "id": "qr3",
+      "name": "Transfer uniqueness",
+      "asset": "payments.core.transfers",
+      "owner": "Sahana Poluru",
+      "score": 82,
+      "status": "Watch",
+      "severity": "High",
+      "next": "16 Sep"
+    },
+    {
+      "id": "qr4",
+      "name": "Settlement lag < 15m",
+      "asset": "payments.core.transfers",
+      "owner": "Rohan Poluru",
+      "score": 61,
+      "status": "Failing",
+      "severity": "Critical",
+      "next": "16 Sep"
+    },
+    {
+      "id": "qr5",
+      "name": "Exposure freshness",
+      "asset": "risk.credit.exposure",
+      "owner": "Luca Poluru",
+      "score": 74,
+      "status": "Watch",
+      "severity": "Medium",
+      "next": "16 Sep"
+    },
+    {
+      "id": "qr6",
+      "name": "Headcount not null",
+      "asset": "hr.people.headcount",
+      "owner": "Elena Poluru",
+      "score": 98,
+      "status": "Passed",
+      "severity": "Medium",
+      "next": "18 Sep"
+    },
+    {
+      "id": "qr7",
+      "name": "Instrument CUSIP format",
+      "asset": "market.ref.instruments",
+      "owner": "Kavya Poluru",
+      "score": 99,
+      "status": "Passed",
+      "severity": "High",
+      "next": "17 Sep"
+    },
+    {
+      "id": "qr8",
+      "name": "AML owner assigned",
+      "asset": "risk.aml.alerts",
+      "owner": "Anika Poluru",
+      "score": 91,
+      "status": "Passed",
+      "severity": "Critical",
+      "next": "17 Sep"
+    }
+  ],
+  "pageStats": {
+    "passing": {
+      "label": "Passing",
+      "value": "142",
+      "hint": "of 155 checks",
+      "trend": "up",
+      "trendValue": "+4"
+    },
+    "watch": {
+      "label": "Watch",
+      "value": "11",
+      "hint": "Need a rerun",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    "failing": {
+      "label": "Failing",
+      "value": "2",
+      "hint": "Critical path",
+      "trend": "down",
+      "trendValue": "−1"
+    }
+  },
+  "pageSize": 6
+}

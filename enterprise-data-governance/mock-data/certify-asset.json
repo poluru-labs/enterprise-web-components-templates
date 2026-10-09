@@ -1,0 +1,17 @@
+{
+  "checklist": [
+    {
+      "label": "Owner confirmed",
+      "checked": true
+    },
+    {
+      "label": "Quality rules passing",
+      "checked": true
+    },
+    {
+      "label": "Classifications published",
+      "checked": false
+    }
+  ],
+  "note": "Certification needs a named owner, passing rules, and a published classification."
+}

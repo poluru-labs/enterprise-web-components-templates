@@ -1,0 +1,3 @@
+{
+  "snippet": "GET /v1/catalog/ast_accounts\nAuthorization: Bearer vty_live_****\n\n{\n  \"id\": \"ast_accounts\",\n  \"name\": \"core.customer.accounts\",\n  \"owner\": \"Priya Poluru\",\n  \"status\": \"Certified\"\n}"
+}

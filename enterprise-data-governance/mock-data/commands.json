@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Overview",
+    "description": "Catalog pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Customer accounts",
+    "description": "Priya Poluru",
+    "href": "#/asset/ast_accounts",
+    "icon": "folder"
+  },
+  {
+    "label": "Quality rules",
+    "description": "Checks and scores",
+    "href": "#/quality",
+    "icon": "check-circle"
+  },
+  {
+    "label": "Access requests",
+    "description": "Pending grants",
+    "href": "#/access",
+    "icon": "lock"
+  },
+  {
+    "label": "Owners",
+    "description": "Stewards",
+    "href": "#/owners",
+    "icon": "user"
+  },
+  {
+    "label": "AML alerts",
+    "description": "Anika Poluru",
+    "href": "#/asset/ast_alerts",
+    "icon": "folder"
+  },
+  {
+    "label": "Glossary",
+    "description": "Business terms",
+    "href": "#/glossary",
+    "icon": "file"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

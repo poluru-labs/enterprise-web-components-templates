@@ -1,0 +1,84 @@
+{
+  "columns": [
+    {
+      "key": "from",
+      "label": "Upstream"
+    },
+    {
+      "key": "to",
+      "label": "Downstream"
+    },
+    {
+      "key": "kind",
+      "label": "Link"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    }
+  ],
+  "edges": [
+    {
+      "from": "crm.raw.accounts",
+      "to": "core.customer.accounts",
+      "kind": "Transform",
+      "owner": "Priya Poluru"
+    },
+    {
+      "from": "core.customer.accounts",
+      "to": "warehouse.gold.nrr",
+      "kind": "Aggregate",
+      "owner": "Arjun Poluru"
+    },
+    {
+      "from": "ledger.raw.journal",
+      "to": "finance.ledger.journal",
+      "kind": "Transform",
+      "owner": "Hana Poluru"
+    },
+    {
+      "from": "payments.core.transfers",
+      "to": "risk.credit.exposure",
+      "kind": "Join",
+      "owner": "Luca Poluru"
+    },
+    {
+      "from": "core.customer.accounts",
+      "to": "risk.aml.alerts",
+      "kind": "Lookup",
+      "owner": "Anika Poluru"
+    },
+    {
+      "from": "ops.raw.sla",
+      "to": "ops.fulfillment.sla",
+      "kind": "Transform",
+      "owner": "Rohan Poluru"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Sources mapped",
+      "description": "Kavya Poluru · catalog freeze",
+      "timestamp": "12 Sep",
+      "status": "complete"
+    },
+    {
+      "title": "Gold joins reviewed",
+      "description": "Nikhil Poluru",
+      "timestamp": "15 Sep",
+      "status": "complete"
+    },
+    {
+      "title": "Transfers path",
+      "description": "Sahana Poluru · failing rule",
+      "timestamp": "16 Sep",
+      "status": "current"
+    },
+    {
+      "title": "Attestation pack",
+      "description": "Due 24 Sep",
+      "timestamp": "24 Sep",
+      "status": "upcoming"
+    }
+  ]
+}

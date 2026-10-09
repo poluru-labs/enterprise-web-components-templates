@@ -1,0 +1,101 @@
+{
+  "columns": [
+    {
+      "key": "asset",
+      "label": "Asset",
+      "sortable": true
+    },
+    {
+      "key": "requester",
+      "label": "Requester"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "purpose",
+      "label": "Purpose"
+    },
+    {
+      "key": "access",
+      "label": "Access"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ar1",
+      "asset": "risk.aml.alerts",
+      "requester": "Tara Poluru",
+      "owner": "Anika Poluru",
+      "purpose": "Quarterly SAR review",
+      "access": "Read",
+      "status": "Pending",
+      "sla": "18h left",
+      "opened": "15 Sep"
+    },
+    {
+      "id": "ar2",
+      "asset": "finance.ledger.journal",
+      "requester": "Vihaan Poluru",
+      "owner": "Arjun Poluru",
+      "purpose": "Close support for Q3",
+      "access": "Read",
+      "status": "Approved",
+      "sla": "Met",
+      "opened": "14 Sep"
+    },
+    {
+      "id": "ar3",
+      "asset": "payments.core.transfers",
+      "requester": "Ishita Poluru",
+      "owner": "Sahana Poluru",
+      "purpose": "Ops exception report",
+      "access": "Read",
+      "status": "In review",
+      "sla": "6h left",
+      "opened": "16 Sep"
+    },
+    {
+      "id": "ar4",
+      "asset": "hr.people.headcount",
+      "requester": "Dev Poluru",
+      "owner": "Elena Poluru",
+      "purpose": "Platform capacity plan",
+      "access": "Read",
+      "status": "Denied",
+      "sla": "Closed",
+      "opened": "12 Sep"
+    },
+    {
+      "id": "ar5",
+      "asset": "core.customer.accounts",
+      "requester": "Luca Poluru",
+      "owner": "Priya Poluru",
+      "purpose": "Credit model refresh",
+      "access": "Read",
+      "status": "Queued",
+      "sla": "1d left",
+      "opened": "16 Sep"
+    },
+    {
+      "id": "ar6",
+      "asset": "warehouse.gold.nrr",
+      "requester": "Hana Poluru",
+      "owner": "Arjun Poluru",
+      "purpose": "Board pack extract",
+      "access": "Export",
+      "status": "Approved",
+      "sla": "Met",
+      "opened": "13 Sep"
+    }
+  ]
+}

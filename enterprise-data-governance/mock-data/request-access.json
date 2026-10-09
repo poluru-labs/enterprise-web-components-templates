@@ -1,0 +1,97 @@
+{
+  "steps": [
+    {
+      "label": "Asset",
+      "description": "What to open"
+    },
+    {
+      "label": "Need",
+      "description": "Purpose and window"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "assetSuggestions": [
+    "core.customer.accounts",
+    "finance.ledger.journal",
+    "payments.core.transfers",
+    "risk.credit.exposure",
+    "hr.people.headcount",
+    "market.ref.instruments",
+    "customer.support.tickets",
+    "risk.aml.alerts",
+    "warehouse.gold.nrr",
+    "ops.fulfillment.sla"
+  ],
+  "assetPlaceholder": "core.customer.accounts",
+  "ownerOptions": [
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    }
+  ],
+  "defaultApprover": "Anika Poluru",
+  "accessLevels": [
+    {
+      "label": "Read",
+      "value": "read"
+    },
+    {
+      "label": "Export",
+      "value": "export"
+    },
+    {
+      "label": "Write",
+      "value": "write"
+    }
+  ],
+  "defaultAccessLevel": "read",
+  "purposePlaceholder": "Why this gold asset is required.",
+  "staffPinLength": 4
+}

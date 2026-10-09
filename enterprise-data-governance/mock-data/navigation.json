@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Catalog",
+    "href": "#/catalog",
+    "icon": "folder"
+  },
+  {
+    "label": "Owners",
+    "href": "#/owners",
+    "icon": "user"
+  },
+  {
+    "label": "Lineage",
+    "href": "#/lineage",
+    "icon": "link"
+  },
+  {
+    "label": "Quality",
+    "href": "#/quality",
+    "icon": "check-circle"
+  },
+  {
+    "label": "Classify",
+    "href": "#/classifications",
+    "icon": "star"
+  },
+  {
+    "label": "Access",
+    "href": "#/access",
+    "icon": "lock"
+  },
+  {
+    "label": "Glossary",
+    "href": "#/glossary",
+    "icon": "file"
+  }
+]

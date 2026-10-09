@@ -1,0 +1,354 @@
+{
+  "records": [
+    {
+      "label": "core.customer.accounts",
+      "description": "Canonical customer account register for servicing and finance. · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_accounts"
+    },
+    {
+      "label": "finance.ledger.journal",
+      "description": "Posted journal lines used for close and regulatory packs. · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_journal"
+    },
+    {
+      "label": "payments.core.transfers",
+      "description": "In-flight transfer events before settlement confirmation. · Sahana Poluru",
+      "owner": "Sahana Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_transfers"
+    },
+    {
+      "label": "risk.credit.exposure",
+      "description": "Counterparty exposure used by credit and treasury desks. · Luca Poluru",
+      "owner": "Luca Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_exposure"
+    },
+    {
+      "label": "hr.people.headcount",
+      "description": "Active headcount snapshot for finance planning. · Elena Poluru",
+      "owner": "Elena Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_headcount"
+    },
+    {
+      "label": "market.ref.instruments",
+      "description": "Reference instruments shared by trading and risk. · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_instruments"
+    },
+    {
+      "label": "customer.support.tickets",
+      "description": "Raw support tickets pending certification. · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_tickets"
+    },
+    {
+      "label": "risk.aml.alerts",
+      "description": "AML alert register with restricted column access. · Anika Poluru",
+      "owner": "Anika Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_alerts"
+    },
+    {
+      "label": "warehouse.gold.nrr",
+      "description": "Net revenue retain scorecard feed for the board pack. · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_nrr"
+    },
+    {
+      "label": "ops.fulfillment.sla",
+      "description": "Same-day fulfillment SLA used by operations reviews. · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Asset",
+      "href": "#/asset/ast_sla"
+    },
+    {
+      "label": "Account completeness",
+      "description": "core.customer.accounts · Passed",
+      "owner": "Priya Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "Journal balance",
+      "description": "finance.ledger.journal · Passed",
+      "owner": "Hana Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "Transfer uniqueness",
+      "description": "payments.core.transfers · Watch",
+      "owner": "Sahana Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "Settlement lag < 15m",
+      "description": "payments.core.transfers · Failing",
+      "owner": "Rohan Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "Exposure freshness",
+      "description": "risk.credit.exposure · Watch",
+      "owner": "Luca Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "Headcount not null",
+      "description": "hr.people.headcount · Passed",
+      "owner": "Elena Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "Instrument CUSIP format",
+      "description": "market.ref.instruments · Passed",
+      "owner": "Kavya Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "AML owner assigned",
+      "description": "risk.aml.alerts · Passed",
+      "owner": "Anika Poluru",
+      "type": "Rule",
+      "href": "#/quality"
+    },
+    {
+      "label": "risk.aml.alerts",
+      "description": "Tara Poluru · Pending",
+      "owner": "Anika Poluru",
+      "type": "Access",
+      "href": "#/access"
+    },
+    {
+      "label": "finance.ledger.journal",
+      "description": "Vihaan Poluru · Approved",
+      "owner": "Arjun Poluru",
+      "type": "Access",
+      "href": "#/access"
+    },
+    {
+      "label": "payments.core.transfers",
+      "description": "Ishita Poluru · In review",
+      "owner": "Sahana Poluru",
+      "type": "Access",
+      "href": "#/access"
+    },
+    {
+      "label": "hr.people.headcount",
+      "description": "Dev Poluru · Denied",
+      "owner": "Elena Poluru",
+      "type": "Access",
+      "href": "#/access"
+    },
+    {
+      "label": "core.customer.accounts",
+      "description": "Luca Poluru · Queued",
+      "owner": "Priya Poluru",
+      "type": "Access",
+      "href": "#/access"
+    },
+    {
+      "label": "warehouse.gold.nrr",
+      "description": "Hana Poluru · Approved",
+      "owner": "Arjun Poluru",
+      "type": "Access",
+      "href": "#/access"
+    },
+    {
+      "label": "Certified gold",
+      "description": "An asset with a named owner, passing quality rules, and a published classification.",
+      "owner": "Mira Poluru",
+      "type": "Term",
+      "href": "#/glossary"
+    },
+    {
+      "label": "Legal name",
+      "description": "Registered customer name as held on the account opening record.",
+      "owner": "Priya Poluru",
+      "type": "Term",
+      "href": "#/glossary"
+    },
+    {
+      "label": "Posted journal",
+      "description": "A ledger line that has cleared the close controls for the period.",
+      "owner": "Arjun Poluru",
+      "type": "Term",
+      "href": "#/glossary"
+    },
+    {
+      "label": "Settlement lag",
+      "description": "Minutes between a transfer event and confirmed settlement.",
+      "owner": "Sahana Poluru",
+      "type": "Term",
+      "href": "#/glossary"
+    },
+    {
+      "label": "Credit exposure",
+      "description": "Outstanding amount against a counterparty after netting.",
+      "owner": "Luca Poluru",
+      "type": "Term",
+      "href": "#/glossary"
+    },
+    {
+      "label": "NRR",
+      "description": "Net revenue retain for the trailing twelve months.",
+      "owner": "Hana Poluru",
+      "type": "Term",
+      "href": "#/glossary"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "Chief data officer · Office of the CDO",
+      "owner": "Mira Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Finance domain owner · Finance",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Catalog steward · Data office",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Lineage lead · Platform",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Quality steward · People",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Access manager · Operations",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Customer domain owner · Customer",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Ledger steward · Finance",
+      "owner": "Hana Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "Risk domain owner · Risk",
+      "owner": "Luca Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "Payments steward · Payments",
+      "owner": "Sahana Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Platform owner · Technology",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "Privacy officer · Security",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/owners"
+    },
+    {
+      "label": "Overview",
+      "description": "Catalog pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Customer accounts",
+      "description": "Priya Poluru",
+      "href": "#/asset/ast_accounts",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Quality rules",
+      "description": "Checks and scores",
+      "href": "#/quality",
+      "icon": "check-circle",
+      "type": "Jump"
+    },
+    {
+      "label": "Access requests",
+      "description": "Pending grants",
+      "href": "#/access",
+      "icon": "lock",
+      "type": "Jump"
+    },
+    {
+      "label": "Owners",
+      "description": "Stewards",
+      "href": "#/owners",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "AML alerts",
+      "description": "Anika Poluru",
+      "href": "#/asset/ast_alerts",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Glossary",
+      "description": "Business terms",
+      "href": "#/glossary",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

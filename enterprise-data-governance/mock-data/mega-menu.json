@@ -1,0 +1,85 @@
+{
+  "intro": {
+    "eyebrow": "Verity catalog",
+    "title": "Every asset. A named owner.",
+    "description": "Browse gold data, follow lineage, and grant access without leaving the catalog.",
+    "badge": "Helix Markets"
+  },
+  "sections": [
+    {
+      "title": "Catalog",
+      "links": [
+        {
+          "href": "#/catalog",
+          "icon": "folder",
+          "label": "Browse assets"
+        },
+        {
+          "href": "#/glossary",
+          "icon": "file",
+          "label": "Business glossary"
+        },
+        {
+          "href": "#/asset/ast_accounts",
+          "icon": "star",
+          "label": "Certified accounts"
+        },
+        {
+          "href": "#/owners",
+          "icon": "user",
+          "label": "Named owners"
+        }
+      ]
+    },
+    {
+      "title": "Trust",
+      "links": [
+        {
+          "href": "#/quality",
+          "icon": "check-circle",
+          "label": "Quality rules"
+        },
+        {
+          "href": "#/lineage",
+          "icon": "link",
+          "label": "Lineage map"
+        },
+        {
+          "href": "#/classifications",
+          "icon": "eye",
+          "label": "Classifications"
+        },
+        {
+          "href": "#/issues",
+          "icon": "alert-triangle",
+          "label": "Open issues"
+        }
+      ]
+    },
+    {
+      "title": "Control",
+      "links": [
+        {
+          "href": "#/access",
+          "icon": "lock",
+          "label": "Access requests"
+        },
+        {
+          "href": "#/policies",
+          "icon": "file",
+          "label": "Policies"
+        },
+        {
+          "href": "#/settings",
+          "icon": "settings",
+          "label": "Workspace"
+        },
+        {
+          "href": "#/search",
+          "icon": "search",
+          "label": "Search catalog"
+        }
+      ]
+    }
+  ]
+}

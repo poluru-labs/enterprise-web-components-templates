@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Settlement lag is failing",
+    "description": "Sahana Poluru · Payments",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "AML read request pending",
+    "description": "Tara Poluru · 18h left",
+    "icon": "lock"
+  },
+  {
+    "label": "Catalog freeze is today",
+    "description": "Kavya Poluru · 16:00",
+    "icon": "clock"
+  },
+  {
+    "label": "NRR view recertified",
+    "description": "Arjun Poluru · Finance",
+    "icon": "check"
+  }
+]

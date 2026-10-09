@@ -1,0 +1,59 @@
+{
+  "columns": [
+    {
+      "key": "term",
+      "label": "Term",
+      "sortable": true
+    },
+    {
+      "key": "definition",
+      "label": "Definition"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "domain",
+      "label": "Domain"
+    }
+  ],
+  "rows": [
+    {
+      "term": "Certified gold",
+      "definition": "An asset with a named owner, passing quality rules, and a published classification.",
+      "owner": "Mira Poluru",
+      "domain": "Governance"
+    },
+    {
+      "term": "Legal name",
+      "definition": "Registered customer name as held on the account opening record.",
+      "owner": "Priya Poluru",
+      "domain": "Customer"
+    },
+    {
+      "term": "Posted journal",
+      "definition": "A ledger line that has cleared the close controls for the period.",
+      "owner": "Arjun Poluru",
+      "domain": "Finance"
+    },
+    {
+      "term": "Settlement lag",
+      "definition": "Minutes between a transfer event and confirmed settlement.",
+      "owner": "Sahana Poluru",
+      "domain": "Payments"
+    },
+    {
+      "term": "Credit exposure",
+      "definition": "Outstanding amount against a counterparty after netting.",
+      "owner": "Luca Poluru",
+      "domain": "Risk"
+    },
+    {
+      "term": "NRR",
+      "definition": "Net revenue retain for the trailing twelve months.",
+      "owner": "Hana Poluru",
+      "domain": "Finance"
+    }
+  ]
+}

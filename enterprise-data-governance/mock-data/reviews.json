@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Catalog freeze",
+    "description": "Kavya Poluru · production snapshot",
+    "timestamp": "16 Sep",
+    "icon": "folder",
+    "status": "Today"
+  },
+  {
+    "label": "Quality standup",
+    "description": "Elena Poluru · 7 open issues",
+    "timestamp": "16 Sep",
+    "icon": "check",
+    "status": "Today"
+  },
+  {
+    "label": "Access board",
+    "description": "Rohan Poluru · 18 open requests",
+    "timestamp": "17 Sep",
+    "icon": "lock",
+    "status": "Next"
+  },
+  {
+    "label": "Stewardship review",
+    "description": "Mira Poluru · certified gold 84%",
+    "timestamp": "22 Sep",
+    "icon": "star",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Lineage attestation",
+    "description": "Nikhil Poluru · certified assets",
+    "timestamp": "24 Sep",
+    "icon": "link",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Privacy walkthrough",
+    "description": "Anika Poluru · restricted columns",
+    "timestamp": "29 Sep",
+    "icon": "eye",
+    "status": "Scheduled"
+  }
+]

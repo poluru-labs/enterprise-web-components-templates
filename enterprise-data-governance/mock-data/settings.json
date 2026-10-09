@@ -1,0 +1,28 @@
+{
+  "workspaceName": "Helix Markets",
+  "timezone": "America / Chicago",
+  "timezoneOptions": [
+    {
+      "label": "America / Chicago",
+      "value": "chicago"
+    },
+    {
+      "label": "America / New York",
+      "value": "ny"
+    },
+    {
+      "label": "Europe / London",
+      "value": "london"
+    }
+  ],
+  "defaultTimezone": "chicago",
+  "nextCatalogFreeze": "2026-09-16",
+  "stewardshipWindow": {
+    "start": "2026-09-16",
+    "end": "2026-09-22"
+  },
+  "freezeTime": "16:00",
+  "accessSlaDays": 2,
+  "certifiedGoldTarget": 80,
+  "emailCdoOnCriticalFailure": true
+}

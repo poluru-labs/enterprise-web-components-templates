@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Mira Poluru",
+    "role": "Chief data officer",
+    "squad": "Office of the CDO",
+    "rating": 5,
+    "score": 96,
+    "assets": 12
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Finance domain owner",
+    "squad": "Finance",
+    "rating": 5,
+    "score": 94,
+    "assets": 18
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Catalog steward",
+    "squad": "Data office",
+    "rating": 5,
+    "score": 91,
+    "assets": 24
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "Lineage lead",
+    "squad": "Platform",
+    "rating": 4,
+    "score": 82,
+    "assets": 9
+  },
+  {
+    "name": "Elena Poluru",
+    "role": "Quality steward",
+    "squad": "People",
+    "rating": 5,
+    "score": 88,
+    "assets": 7
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "Access manager",
+    "squad": "Operations",
+    "rating": 4,
+    "score": 76,
+    "assets": 11
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Customer domain owner",
+    "squad": "Customer",
+    "rating": 5,
+    "score": 93,
+    "assets": 16
+  },
+  {
+    "name": "Hana Poluru",
+    "role": "Ledger steward",
+    "squad": "Finance",
+    "rating": 4,
+    "score": 85,
+    "assets": 8
+  },
+  {
+    "name": "Luca Poluru",
+    "role": "Risk domain owner",
+    "squad": "Risk",
+    "rating": 4,
+    "score": 81,
+    "assets": 10
+  },
+  {
+    "name": "Sahana Poluru",
+    "role": "Payments steward",
+    "squad": "Payments",
+    "rating": 4,
+    "score": 79,
+    "assets": 6
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Platform owner",
+    "squad": "Technology",
+    "rating": 5,
+    "score": 90,
+    "assets": 14
+  },
+  {
+    "name": "Anika Poluru",
+    "role": "Privacy officer",
+    "squad": "Security",
+    "rating": 5,
+    "score": 87,
+    "assets": 5
+  }
+]

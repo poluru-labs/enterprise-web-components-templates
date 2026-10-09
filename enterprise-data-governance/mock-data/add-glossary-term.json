@@ -1,0 +1,4 @@
+{
+  "termPlaceholder": "Settlement lag",
+  "definitionPlaceholder": "Minutes between a transfer event and confirmed settlement."
+}

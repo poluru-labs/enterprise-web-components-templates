@@ -1,0 +1,46 @@
+{
+  "ast_accounts": [
+    {
+      "name": "account_id",
+      "type": "string",
+      "classif": "Internal",
+      "rule": "Not null",
+      "status": "Passed"
+    },
+    {
+      "name": "legal_name",
+      "type": "string",
+      "classif": "Confidential",
+      "rule": "Completeness 99%",
+      "status": "Passed"
+    },
+    {
+      "name": "tax_id",
+      "type": "string",
+      "classif": "Restricted",
+      "rule": "Format check",
+      "status": "Passed"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "classif": "PII",
+      "rule": "Email pattern",
+      "status": "Watch"
+    },
+    {
+      "name": "opened_at",
+      "type": "timestamp",
+      "classif": "Internal",
+      "rule": "Freshness 1h",
+      "status": "Passed"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "classif": "Internal",
+      "rule": "Allowed values",
+      "status": "Passed"
+    }
+  ]
+}

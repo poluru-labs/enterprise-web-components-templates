@@ -1,0 +1,356 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Asset",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "domain",
+      "label": "Domain",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "quality",
+      "label": "Quality"
+    },
+    {
+      "key": "updated",
+      "label": "Updated"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ast_accounts",
+      "name": "core.customer.accounts",
+      "type": "Table",
+      "domain": "Customer",
+      "owner": "Priya Poluru",
+      "steward": "Kavya Poluru",
+      "status": "Certified",
+      "system": "Warehouse · gold",
+      "rows": "12.4M",
+      "freshness": "14m",
+      "sla": "On time",
+      "quality": 96,
+      "classified": 18,
+      "updated": "16 Sep 2026",
+      "purpose": "Canonical customer account register for servicing and finance."
+    },
+    {
+      "id": "ast_journal",
+      "name": "finance.ledger.journal",
+      "type": "Table",
+      "domain": "Finance",
+      "owner": "Arjun Poluru",
+      "steward": "Hana Poluru",
+      "status": "Certified",
+      "system": "Warehouse · gold",
+      "rows": "88.1M",
+      "freshness": "22m",
+      "sla": "On time",
+      "quality": 94,
+      "classified": 9,
+      "updated": "16 Sep 2026",
+      "purpose": "Posted journal lines used for close and regulatory packs."
+    },
+    {
+      "id": "ast_transfers",
+      "name": "payments.core.transfers",
+      "type": "Stream",
+      "domain": "Payments",
+      "owner": "Sahana Poluru",
+      "steward": "Rohan Poluru",
+      "status": "Failing",
+      "system": "Kafka · payments",
+      "rows": "4.8M / day",
+      "freshness": "6m",
+      "sla": "Watch",
+      "quality": 71,
+      "classified": 11,
+      "updated": "16 Sep 2026",
+      "purpose": "In-flight transfer events before settlement confirmation."
+    },
+    {
+      "id": "ast_exposure",
+      "name": "risk.credit.exposure",
+      "type": "Table",
+      "domain": "Risk",
+      "owner": "Luca Poluru",
+      "steward": "Anika Poluru",
+      "status": "Watch",
+      "system": "Warehouse · silver",
+      "rows": "2.1M",
+      "freshness": "3h",
+      "sla": "Watch",
+      "quality": 78,
+      "classified": 7,
+      "updated": "15 Sep 2026",
+      "purpose": "Counterparty exposure used by credit and treasury desks."
+    },
+    {
+      "id": "ast_headcount",
+      "name": "hr.people.headcount",
+      "type": "Table",
+      "domain": "People",
+      "owner": "Elena Poluru",
+      "steward": "Mira Poluru",
+      "status": "Classified",
+      "system": "Warehouse · gold",
+      "rows": "18.6k",
+      "freshness": "1d",
+      "sla": "On time",
+      "quality": 92,
+      "classified": 14,
+      "updated": "15 Sep 2026",
+      "purpose": "Active headcount snapshot for finance planning."
+    },
+    {
+      "id": "ast_instruments",
+      "name": "market.ref.instruments",
+      "type": "Table",
+      "domain": "Markets",
+      "owner": "Kavya Poluru",
+      "steward": "Dev Poluru",
+      "status": "Certified",
+      "system": "Warehouse · gold",
+      "rows": "640k",
+      "freshness": "8m",
+      "sla": "On time",
+      "quality": 98,
+      "classified": 4,
+      "updated": "16 Sep 2026",
+      "purpose": "Reference instruments shared by trading and risk."
+    },
+    {
+      "id": "ast_tickets",
+      "name": "customer.support.tickets",
+      "type": "Table",
+      "domain": "Customer",
+      "owner": "Priya Poluru",
+      "steward": "Kavya Poluru",
+      "status": "Draft",
+      "system": "Warehouse · bronze",
+      "rows": "9.2M",
+      "freshness": "45m",
+      "sla": "On time",
+      "quality": 64,
+      "classified": 6,
+      "updated": "14 Sep 2026",
+      "purpose": "Raw support tickets pending certification."
+    },
+    {
+      "id": "ast_alerts",
+      "name": "risk.aml.alerts",
+      "type": "Table",
+      "domain": "Risk",
+      "owner": "Anika Poluru",
+      "steward": "Luca Poluru",
+      "status": "Restricted",
+      "system": "Warehouse · gold",
+      "rows": "412k",
+      "freshness": "18m",
+      "sla": "On time",
+      "quality": 89,
+      "classified": 16,
+      "updated": "16 Sep 2026",
+      "purpose": "AML alert register with restricted column access."
+    },
+    {
+      "id": "ast_nrr",
+      "name": "warehouse.gold.nrr",
+      "type": "View",
+      "domain": "Finance",
+      "owner": "Arjun Poluru",
+      "steward": "Hana Poluru",
+      "status": "Certified",
+      "system": "Warehouse · gold",
+      "rows": "48k",
+      "freshness": "2h",
+      "sla": "On time",
+      "quality": 97,
+      "classified": 3,
+      "updated": "16 Sep 2026",
+      "purpose": "Net revenue retain scorecard feed for the board pack."
+    },
+    {
+      "id": "ast_sla",
+      "name": "ops.fulfillment.sla",
+      "type": "View",
+      "domain": "Operations",
+      "owner": "Rohan Poluru",
+      "steward": "Dev Poluru",
+      "status": "Watch",
+      "system": "Warehouse · silver",
+      "rows": "1.1M",
+      "freshness": "55m",
+      "sla": "Watch",
+      "quality": 74,
+      "classified": 2,
+      "updated": "15 Sep 2026",
+      "purpose": "Same-day fulfillment SLA used by operations reviews."
+    }
+  ],
+  "tree": [
+    {
+      "id": "customer",
+      "label": "Customer",
+      "children": [
+        {
+          "id": "accounts",
+          "label": "core.customer.accounts"
+        },
+        {
+          "id": "tickets",
+          "label": "customer.support.tickets"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "children": [
+        {
+          "id": "journal",
+          "label": "finance.ledger.journal"
+        },
+        {
+          "id": "nrr",
+          "label": "warehouse.gold.nrr"
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "label": "Risk",
+      "children": [
+        {
+          "id": "exposure",
+          "label": "risk.credit.exposure"
+        },
+        {
+          "id": "alerts",
+          "label": "risk.aml.alerts"
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "label": "Run the firm",
+      "children": [
+        {
+          "id": "transfers",
+          "label": "payments.core.transfers"
+        },
+        {
+          "id": "sla",
+          "label": "ops.fulfillment.sla"
+        },
+        {
+          "id": "headcount",
+          "label": "hr.people.headcount"
+        }
+      ]
+    }
+  ],
+  "expandedTreeIds": {
+    "customer": true,
+    "finance": true,
+    "risk": true,
+    "run": true
+  },
+  "filters": {
+    "domain": [
+      {
+        "label": "All domains",
+        "value": "All domains"
+      },
+      {
+        "label": "Customer",
+        "value": "Customer"
+      },
+      {
+        "label": "Finance",
+        "value": "Finance"
+      },
+      {
+        "label": "Payments",
+        "value": "Payments"
+      },
+      {
+        "label": "Risk",
+        "value": "Risk"
+      },
+      {
+        "label": "People",
+        "value": "People"
+      },
+      {
+        "label": "Markets",
+        "value": "Markets"
+      },
+      {
+        "label": "Operations",
+        "value": "Operations"
+      }
+    ],
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "All statuses"
+      },
+      {
+        "label": "Certified",
+        "value": "Certified"
+      },
+      {
+        "label": "Failing",
+        "value": "Failing"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      },
+      {
+        "label": "Classified",
+        "value": "Classified"
+      },
+      {
+        "label": "Draft",
+        "value": "Draft"
+      },
+      {
+        "label": "Restricted",
+        "value": "Restricted"
+      }
+    ],
+    "view": [
+      {
+        "label": "Table",
+        "value": "table",
+        "icon": "file"
+      },
+      {
+        "label": "Cards",
+        "value": "cards",
+        "icon": "folder"
+      }
+    ],
+    "defaultDomain": "All domains",
+    "defaultStatus": "All statuses",
+    "defaultView": "table"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "columnPlaceholder": "tax_id",
+  "labelOptions": [
+    {
+      "label": "PII",
+      "value": "pii"
+    },
+    {
+      "label": "Restricted",
+      "value": "restricted"
+    },
+    {
+      "label": "Confidential",
+      "value": "confidential"
+    },
+    {
+      "label": "Internal",
+      "value": "internal"
+    }
+  ],
+  "defaultLabel": "pii",
+  "maskInLowerEnvironments": true
+}

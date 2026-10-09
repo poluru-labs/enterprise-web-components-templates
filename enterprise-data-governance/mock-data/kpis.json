@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Catalogued assets",
+    "value": "1,284",
+    "hint": "42 added this month",
+    "trend": "up",
+    "trendValue": "+3.4%"
+  },
+  {
+    "label": "Certified gold",
+    "value": "84%",
+    "hint": "Target 80%",
+    "trend": "up",
+    "trendValue": "+6 pts"
+  },
+  {
+    "label": "Named owners",
+    "value": "97%",
+    "hint": "Steward coverage",
+    "trend": "up",
+    "trendValue": "+2 pts"
+  },
+  {
+    "label": "Rules passing",
+    "value": "91.4%",
+    "hint": "142 of 155 checks",
+    "trend": "flat",
+    "trendValue": "Hold"
+  },
+  {
+    "label": "Open access",
+    "value": "18",
+    "hint": "SLA 2 business days",
+    "trend": "down",
+    "trendValue": "−4"
+  },
+  {
+    "label": "Classified columns",
+    "value": "6,410",
+    "hint": "PII coverage 88%",
+    "trend": "up",
+    "trendValue": "+210"
+  },
+  {
+    "label": "Freshness SLA",
+    "value": "96%",
+    "hint": "Gold layer on time",
+    "trend": "up",
+    "trendValue": "+1.2 pts"
+  },
+  {
+    "label": "Open issues",
+    "value": "7",
+    "hint": "2 critical",
+    "trend": "down",
+    "trendValue": "−3"
+  }
+]

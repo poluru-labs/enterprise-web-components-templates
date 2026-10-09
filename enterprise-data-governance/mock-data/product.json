@@ -1,0 +1,16 @@
+{
+  "productName": "Verity",
+  "productLine": "Data governance",
+  "workspaceName": "Helix Markets",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@helix.example",
+    "role": "Chief data officer"
+  },
+  "workspace": {
+    "name": "Helix Markets",
+    "period": "16 Sep 2026",
+    "timezone": "America / Chicago",
+    "close": "Stewardship review 22 Sep 2026"
+  }
+}

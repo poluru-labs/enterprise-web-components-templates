@@ -1,0 +1,47 @@
+[
+  {
+    "id": "is1",
+    "title": "Settlement lag rule failing",
+    "owner": "Sahana Poluru",
+    "asset": "payments.core.transfers",
+    "severity": "Critical",
+    "since": "15 Sep",
+    "note": "Late confirms from two correspondent banks."
+  },
+  {
+    "id": "is2",
+    "title": "Exposure freshness at 3h",
+    "owner": "Luca Poluru",
+    "asset": "risk.credit.exposure",
+    "severity": "Medium",
+    "since": "14 Sep",
+    "note": "Silver job waiting on a locked partition."
+  },
+  {
+    "id": "is3",
+    "title": "Support tickets still draft",
+    "owner": "Kavya Poluru",
+    "asset": "customer.support.tickets",
+    "severity": "Low",
+    "since": "10 Sep",
+    "note": "Waiting on column classifications."
+  },
+  {
+    "id": "is4",
+    "title": "Fulfillment SLA view stale",
+    "owner": "Rohan Poluru",
+    "asset": "ops.fulfillment.sla",
+    "severity": "Medium",
+    "since": "15 Sep",
+    "note": "Same-day cut-off missed in two hubs."
+  },
+  {
+    "id": "is5",
+    "title": "AML access queue at 18h",
+    "owner": "Anika Poluru",
+    "asset": "risk.aml.alerts",
+    "severity": "High",
+    "since": "16 Sep",
+    "note": "Pending reviewer coverage this week."
+  }
+]

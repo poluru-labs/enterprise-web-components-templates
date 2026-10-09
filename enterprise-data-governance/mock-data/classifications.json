@@ -1,0 +1,76 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Label",
+      "sortable": true
+    },
+    {
+      "key": "level",
+      "label": "Sensitivity"
+    },
+    {
+      "key": "columns",
+      "label": "Columns"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "policy",
+      "label": "Policy"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "id": "cl_pii",
+      "name": "PII",
+      "level": "High",
+      "columns": 842,
+      "owner": "Anika Poluru",
+      "policy": "Mask in lower environments",
+      "status": "Published"
+    },
+    {
+      "id": "cl_restricted",
+      "name": "Restricted",
+      "level": "Critical",
+      "columns": 126,
+      "owner": "Anika Poluru",
+      "policy": "Named access only",
+      "status": "Published"
+    },
+    {
+      "id": "cl_confidential",
+      "name": "Confidential",
+      "level": "High",
+      "columns": 1940,
+      "owner": "Mira Poluru",
+      "policy": "Stewards approve shares",
+      "status": "Published"
+    },
+    {
+      "id": "cl_internal",
+      "name": "Internal",
+      "level": "Medium",
+      "columns": 3210,
+      "owner": "Kavya Poluru",
+      "policy": "Workforce default",
+      "status": "Published"
+    },
+    {
+      "id": "cl_public",
+      "name": "Public",
+      "level": "Low",
+      "columns": 292,
+      "owner": "Kavya Poluru",
+      "policy": "May leave the firm",
+      "status": "Published"
+    }
+  ]
+}
