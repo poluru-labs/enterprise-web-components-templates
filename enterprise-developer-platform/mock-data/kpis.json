@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Live services",
+    "value": "11",
+    "hint": "Auth gateway is the spine",
+    "trend": "flat",
+    "trendValue": "Week 12"
+  },
+  {
+    "label": "Deploys today",
+    "value": "6",
+    "hint": "Edge mesh 2.1.0 at 09:12",
+    "trend": "up",
+    "trendValue": "+2"
+  },
+  {
+    "label": "Error budget",
+    "value": "84%",
+    "hint": "Billing is the drag",
+    "trend": "down",
+    "trendValue": "−6 pts"
+  },
+  {
+    "label": "P95 latency",
+    "value": "118ms",
+    "hint": "SLO 200ms",
+    "trend": "up",
+    "trendValue": "−12ms"
+  },
+  {
+    "label": "Failed deploys",
+    "value": "1",
+    "hint": "Travel book 0.4.8 rolled back",
+    "trend": "down",
+    "trendValue": "Stage"
+  },
+  {
+    "label": "On-call",
+    "value": "2",
+    "hint": "Dev and Elena Poluru",
+    "trend": "flat",
+    "trendValue": "Now"
+  },
+  {
+    "label": "Env drift",
+    "value": "3",
+    "hint": "Sandbox keys stale",
+    "trend": "flat",
+    "trendValue": "Hold"
+  },
+  {
+    "label": "Coverage",
+    "value": "10",
+    "hint": "Every live service has an owner",
+    "trend": "up",
+    "trendValue": "100%"
+  }
+]

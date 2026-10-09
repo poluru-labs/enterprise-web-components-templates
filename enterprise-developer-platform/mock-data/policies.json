@@ -1,0 +1,56 @@
+[
+  {
+    "id": "po_slo",
+    "name": "Error budget page",
+    "trigger": "Budget under 70%",
+    "owner": "Sahana Poluru",
+    "items": 1,
+    "status": "Active",
+    "steps": 3
+  },
+  {
+    "id": "po_freeze",
+    "name": "Prod freeze",
+    "trigger": "2 Oct through close",
+    "owner": "Rohan Poluru",
+    "items": 8,
+    "status": "Active",
+    "steps": 2
+  },
+  {
+    "id": "po_rollback",
+    "name": "Auto rollback",
+    "trigger": "Error rate over 2%",
+    "owner": "Dev Poluru",
+    "items": 1,
+    "status": "Active",
+    "steps": 3
+  },
+  {
+    "id": "po_owner",
+    "name": "Owner required",
+    "trigger": "New service without page",
+    "owner": "Nikhil Poluru",
+    "items": 0,
+    "status": "Active",
+    "steps": 2
+  },
+  {
+    "id": "po_key",
+    "name": "Key rotate",
+    "trigger": "Sandbox secrets over 30 days",
+    "owner": "Hana Poluru",
+    "items": 3,
+    "status": "Watch",
+    "steps": 2
+  },
+  {
+    "id": "po_canary",
+    "name": "Canary hold",
+    "trigger": "P95 over SLO for 10 minutes",
+    "owner": "Elena Poluru",
+    "items": 0,
+    "status": "Draft",
+    "steps": 3
+  }
+]

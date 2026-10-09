@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Services",
+    "value": "11",
+    "delta": "1 watch",
+    "trend": "flat",
+    "href": "#/services"
+  },
+  {
+    "label": "Deploys",
+    "value": "6",
+    "delta": "Today",
+    "trend": "up",
+    "href": "#/deployments"
+  },
+  {
+    "label": "Error budget",
+    "value": "84%",
+    "delta": "Billing 62%",
+    "trend": "down",
+    "href": "#/health"
+  },
+  {
+    "label": "P95",
+    "value": "118ms",
+    "delta": "SLO 200ms",
+    "trend": "flat",
+    "href": "#/health"
+  },
+  {
+    "label": "Owners",
+    "value": "10",
+    "delta": "2 on-call",
+    "trend": "flat",
+    "href": "#/owners"
+  },
+  {
+    "label": "Envs",
+    "value": "5",
+    "delta": "Prod hold",
+    "trend": "flat",
+    "href": "#/environments"
+  }
+]

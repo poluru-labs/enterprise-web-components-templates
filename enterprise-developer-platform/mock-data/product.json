@@ -1,0 +1,16 @@
+{
+  "productName": "Circuit",
+  "productLine": "Platform",
+  "workspaceName": "Lattice Forge",
+  "currentUser": {
+    "name": "Nikhil Poluru",
+    "email": "nikhil.poluru@latticeforge.example",
+    "role": "Head of platform"
+  },
+  "workspace": {
+    "name": "Lattice Forge",
+    "period": "FY26 Q3 · week 12",
+    "timezone": "America / Chicago",
+    "close": "Freeze starts 2 Oct 2026"
+  }
+}

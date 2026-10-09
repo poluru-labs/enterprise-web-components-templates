@@ -1,0 +1,191 @@
+{
+  "columns": [
+    {
+      "key": "service",
+      "label": "Service",
+      "sortable": true
+    },
+    {
+      "key": "version",
+      "label": "Version"
+    },
+    {
+      "key": "env",
+      "label": "Env"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "by",
+      "label": "By"
+    },
+    {
+      "key": "started",
+      "label": "Started"
+    },
+    {
+      "key": "duration",
+      "label": "Duration"
+    }
+  ],
+  "rows": [
+    {
+      "id": "dep_1",
+      "serviceId": "svc_mesh",
+      "service": "Edge mesh",
+      "version": "2.1.0",
+      "env": "Production",
+      "status": "Live",
+      "by": "Dev Poluru",
+      "started": "09:12",
+      "duration": "4m"
+    },
+    {
+      "id": "dep_2",
+      "serviceId": "svc_auth",
+      "service": "Auth gateway",
+      "version": "1.8.4",
+      "env": "Production",
+      "status": "Live",
+      "by": "Nikhil Poluru",
+      "started": "08:04",
+      "duration": "6m"
+    },
+    {
+      "id": "dep_3",
+      "serviceId": "svc_pulse",
+      "service": "Pulse health",
+      "version": "0.7.1",
+      "env": "Staging",
+      "status": "Rolling",
+      "by": "Kavya Poluru",
+      "started": "10:22",
+      "duration": "11m"
+    },
+    {
+      "id": "dep_4",
+      "serviceId": "svc_travel",
+      "service": "Travel book",
+      "version": "0.4.8",
+      "env": "Staging",
+      "status": "Failed",
+      "by": "Priya Poluru",
+      "started": "07:41",
+      "duration": "3m"
+    },
+    {
+      "id": "dep_5",
+      "serviceId": "svc_events",
+      "service": "Event bus",
+      "version": "3.4.1",
+      "env": "Production",
+      "status": "Live",
+      "by": "Hana Poluru",
+      "started": "06:18",
+      "duration": "5m"
+    },
+    {
+      "id": "dep_6",
+      "serviceId": "svc_billing",
+      "service": "Billing ledger",
+      "version": "0.9.12",
+      "env": "Production",
+      "status": "Watch",
+      "by": "Arjun Poluru",
+      "started": "05:55",
+      "duration": "9m"
+    },
+    {
+      "id": "dep_7",
+      "serviceId": "svc_checkin",
+      "service": "Check-in desk",
+      "version": "1.2.6",
+      "env": "Production",
+      "status": "Live",
+      "by": "Elena Poluru",
+      "started": "Yesterday",
+      "duration": "7m"
+    },
+    {
+      "id": "dep_8",
+      "serviceId": "svc_civic",
+      "service": "Civic 311",
+      "version": "1.0.3",
+      "env": "Production",
+      "status": "Live",
+      "by": "Luca Poluru",
+      "started": "Yesterday",
+      "duration": "5m"
+    },
+    {
+      "id": "dep_9",
+      "serviceId": "svc_auth",
+      "service": "Auth gateway",
+      "version": "1.8.3",
+      "env": "Staging",
+      "status": "Complete",
+      "by": "Nikhil Poluru",
+      "started": "15 Sep",
+      "duration": "6m"
+    },
+    {
+      "id": "dep_10",
+      "serviceId": "svc_mesh",
+      "service": "Edge mesh",
+      "version": "2.0.9",
+      "env": "Sandbox",
+      "status": "Complete",
+      "by": "Dev Poluru",
+      "started": "14 Sep",
+      "duration": "4m"
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "Live",
+        "value": "Live"
+      },
+      {
+        "label": "Rolling",
+        "value": "Rolling"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      },
+      {
+        "label": "Failed",
+        "value": "Failed"
+      },
+      {
+        "label": "Complete",
+        "value": "Complete"
+      }
+    ],
+    "env": [
+      {
+        "label": "All envs",
+        "value": "all"
+      },
+      {
+        "label": "Production",
+        "value": "Production"
+      },
+      {
+        "label": "Staging",
+        "value": "Staging"
+      },
+      {
+        "label": "Sandbox",
+        "value": "Sandbox"
+      }
+    ]
+  }
+}

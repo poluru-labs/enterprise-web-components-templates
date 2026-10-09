@@ -1,0 +1,3 @@
+{
+  "snippet": "GET /v1/services/svc_auth\nAuthorization: Bearer circuit_live_****\n\n{\n  \"id\": \"svc_auth\",\n  \"code\": \"CIR-100\",\n  \"name\": \"Auth gateway\",\n  \"status\": \"Healthy\",\n  \"owner\": \"Nikhil Poluru\"\n}"
+}

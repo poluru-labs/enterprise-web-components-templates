@@ -1,0 +1,417 @@
+{
+  "records": [
+    {
+      "label": "Auth gateway",
+      "description": "CIR-100 · Healthy",
+      "owner": "Nikhil Poluru",
+      "type": "Service",
+      "href": "#/service/svc_auth"
+    },
+    {
+      "label": "Edge mesh",
+      "description": "CIR-104 · Healthy",
+      "owner": "Dev Poluru",
+      "type": "Service",
+      "href": "#/service/svc_mesh"
+    },
+    {
+      "label": "Billing ledger",
+      "description": "CIR-112 · Watch",
+      "owner": "Arjun Poluru",
+      "type": "Service",
+      "href": "#/service/svc_billing"
+    },
+    {
+      "label": "Event bus",
+      "description": "CIR-118 · Healthy",
+      "owner": "Hana Poluru",
+      "type": "Service",
+      "href": "#/service/svc_events"
+    },
+    {
+      "label": "Check-in desk",
+      "description": "CIR-121 · Healthy",
+      "owner": "Elena Poluru",
+      "type": "Service",
+      "href": "#/service/svc_checkin"
+    },
+    {
+      "label": "Travel book",
+      "description": "CIR-130 · Failed",
+      "owner": "Priya Poluru",
+      "type": "Service",
+      "href": "#/service/svc_travel"
+    },
+    {
+      "label": "Civic 311",
+      "description": "CIR-136 · Healthy",
+      "owner": "Luca Poluru",
+      "type": "Service",
+      "href": "#/service/svc_civic"
+    },
+    {
+      "label": "Pulse health",
+      "description": "CIR-142 · Rolling",
+      "owner": "Kavya Poluru",
+      "type": "Service",
+      "href": "#/service/svc_pulse"
+    },
+    {
+      "label": "Notify bus",
+      "description": "CIR-148 · Healthy",
+      "owner": "Elena Poluru",
+      "type": "Service",
+      "href": "#/service/svc_notify"
+    },
+    {
+      "label": "Search index",
+      "description": "CIR-151 · Healthy",
+      "owner": "Hana Poluru",
+      "type": "Service",
+      "href": "#/service/svc_search"
+    },
+    {
+      "label": "File vault",
+      "description": "CIR-156 · Watch",
+      "owner": "Dev Poluru",
+      "type": "Service",
+      "href": "#/service/svc_files"
+    },
+    {
+      "label": "Edge mesh 2.1.0",
+      "description": "Production · Live",
+      "owner": "Dev Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Auth gateway 1.8.4",
+      "description": "Production · Live",
+      "owner": "Nikhil Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Pulse health 0.7.1",
+      "description": "Staging · Rolling",
+      "owner": "Kavya Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Travel book 0.4.8",
+      "description": "Staging · Failed",
+      "owner": "Priya Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Event bus 3.4.1",
+      "description": "Production · Live",
+      "owner": "Hana Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Billing ledger 0.9.12",
+      "description": "Production · Watch",
+      "owner": "Arjun Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Check-in desk 1.2.6",
+      "description": "Production · Live",
+      "owner": "Elena Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Civic 311 1.0.3",
+      "description": "Production · Live",
+      "owner": "Luca Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Auth gateway 1.8.3",
+      "description": "Staging · Complete",
+      "owner": "Nikhil Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Edge mesh 2.0.9",
+      "description": "Sandbox · Complete",
+      "owner": "Dev Poluru",
+      "type": "Deploy",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Production",
+      "description": "us-east · Live",
+      "owner": "Nikhil Poluru",
+      "type": "Environment",
+      "href": "#/environments"
+    },
+    {
+      "label": "Staging",
+      "description": "us-east · Live",
+      "owner": "Dev Poluru",
+      "type": "Environment",
+      "href": "#/environments"
+    },
+    {
+      "label": "Sandbox",
+      "description": "us-east · Watch",
+      "owner": "Hana Poluru",
+      "type": "Environment",
+      "href": "#/environments"
+    },
+    {
+      "label": "Edge",
+      "description": "anycast · Live",
+      "owner": "Dev Poluru",
+      "type": "Environment",
+      "href": "#/environments"
+    },
+    {
+      "label": "Dev",
+      "description": "us-central · Open",
+      "owner": "Elena Poluru",
+      "type": "Environment",
+      "href": "#/environments"
+    },
+    {
+      "label": "POST /v1/session",
+      "description": "Auth gateway · Healthy",
+      "owner": "Nikhil Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /v1/whoami",
+      "description": "Auth gateway · Healthy",
+      "owner": "Nikhil Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "POST /v1/invoice",
+      "description": "Billing ledger · Watch",
+      "owner": "Arjun Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /v1/ledger",
+      "description": "Billing ledger · Watch",
+      "owner": "Arjun Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /healthz",
+      "description": "Edge mesh · Healthy",
+      "owner": "Dev Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "POST /v1/emit",
+      "description": "Event bus · Healthy",
+      "owner": "Hana Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /v1/trips",
+      "description": "Travel book · Failed",
+      "owner": "Priya Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "POST /v1/scan",
+      "description": "Check-in desk · Healthy",
+      "owner": "Elena Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "POST /v1/request",
+      "description": "Civic 311 · Healthy",
+      "owner": "Luca Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /v1/score",
+      "description": "Pulse health · Rolling",
+      "owner": "Kavya Poluru",
+      "type": "Endpoint",
+      "href": "#/health"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Head of platform · Identity",
+      "owner": "Nikhil Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Edge lead · Edge",
+      "owner": "Dev Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Billing owner · Money",
+      "owner": "Arjun Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Data plane · Data",
+      "owner": "Hana Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Apps on-call · Apps",
+      "owner": "Elena Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Travel book · Apps",
+      "owner": "Priya Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Pulse owner · Data",
+      "owner": "Kavya Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "Civic 311 · Apps",
+      "owner": "Luca Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Release train · Platform",
+      "owner": "Rohan Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "SRE · Platform",
+      "owner": "Sahana Poluru",
+      "type": "Owner",
+      "href": "#/owners"
+    },
+    {
+      "label": "Deploy pack",
+      "description": "CSV · 16 Sep 2026",
+      "owner": "Rohan Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "SLO board",
+      "description": "XLSX · 16 Sep 2026",
+      "owner": "Sahana Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Owner map",
+      "description": "PDF · 15 Sep 2026",
+      "owner": "Nikhil Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Env drift",
+      "description": "XLSX · 16 Sep 2026",
+      "owner": "Hana Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Error budget",
+      "description": "CSV · 16 Sep 2026",
+      "owner": "Arjun Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Post-incident appendix",
+      "description": "PDF · 12 Sep 2026",
+      "owner": "Dev Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Overview",
+      "description": "Platform pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Auth gateway",
+      "description": "Healthy · 1.8.4",
+      "href": "#/service/svc_auth",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Deployments",
+      "description": "6 today",
+      "href": "#/deployments",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Health",
+      "description": "P95 118ms",
+      "href": "#/health",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Owners",
+      "description": "10 covered",
+      "href": "#/owners",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Environments",
+      "description": "5 clusters",
+      "href": "#/environments",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

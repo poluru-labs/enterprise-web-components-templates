@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Edge mesh 2.1.0 live",
+    "description": "Dev Poluru · Production",
+    "timestamp": "16 Sep",
+    "icon": "check",
+    "status": "Today"
+  },
+  {
+    "label": "Billing error budget",
+    "description": "Arjun Poluru · 62%",
+    "timestamp": "16 Sep",
+    "icon": "alert-triangle",
+    "status": "Today"
+  },
+  {
+    "label": "Pulse 0.7.1 rolling",
+    "description": "Kavya Poluru · Staging",
+    "timestamp": "16 Sep",
+    "icon": "clock",
+    "status": "Next"
+  },
+  {
+    "label": "Travel book rollback",
+    "description": "Priya Poluru · 0.4.8",
+    "timestamp": "16 Sep",
+    "icon": "folder",
+    "status": "Today"
+  },
+  {
+    "label": "Prod freeze",
+    "description": "Rohan Poluru · 2 Oct",
+    "timestamp": "2 Oct",
+    "icon": "check",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Sandbox key rotate",
+    "description": "Hana Poluru · 3 services",
+    "timestamp": "18 Sep",
+    "icon": "user",
+    "status": "Scheduled"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Overview",
+    "description": "Platform pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Auth gateway",
+    "description": "Healthy · 1.8.4",
+    "href": "#/service/svc_auth",
+    "icon": "folder"
+  },
+  {
+    "label": "Deployments",
+    "description": "6 today",
+    "href": "#/deployments",
+    "icon": "plus"
+  },
+  {
+    "label": "Health",
+    "description": "P95 118ms",
+    "href": "#/health",
+    "icon": "check"
+  },
+  {
+    "label": "Owners",
+    "description": "10 covered",
+    "href": "#/owners",
+    "icon": "user"
+  },
+  {
+    "label": "Environments",
+    "description": "5 clusters",
+    "href": "#/environments",
+    "icon": "star"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

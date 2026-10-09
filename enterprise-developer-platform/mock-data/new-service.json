@@ -1,0 +1,123 @@
+{
+  "steps": [
+    {
+      "label": "Service",
+      "description": "Name and stack"
+    },
+    {
+      "label": "Env",
+      "description": "Target and SLO"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "namePlaceholder": "Auth gateway",
+  "stackOptions": [
+    {
+      "label": "Go",
+      "value": "Go"
+    },
+    {
+      "label": "Rust",
+      "value": "Rust"
+    },
+    {
+      "label": "Node",
+      "value": "Node"
+    },
+    {
+      "label": "Java",
+      "value": "Java"
+    },
+    {
+      "label": "Python",
+      "value": "Python"
+    }
+  ],
+  "defaultStack": "Go",
+  "ownerOptions": [
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    }
+  ],
+  "defaultOwner": "Nikhil Poluru",
+  "environmentOptions": [
+    {
+      "label": "Production",
+      "value": "env_prod"
+    },
+    {
+      "label": "Staging",
+      "value": "env_stage"
+    },
+    {
+      "label": "Sandbox",
+      "value": "env_sand"
+    },
+    {
+      "label": "Edge",
+      "value": "env_edge"
+    },
+    {
+      "label": "Dev",
+      "value": "env_dev"
+    }
+  ],
+  "defaultEnvironmentId": "env_stage",
+  "squadOptions": [
+    {
+      "label": "Identity",
+      "value": "identity"
+    },
+    {
+      "label": "Edge",
+      "value": "edge"
+    },
+    {
+      "label": "Apps",
+      "value": "apps"
+    }
+  ],
+  "defaultSquad": "identity",
+  "notesPlaceholder": "SLO, pager, and who owns the first deploy.",
+  "staffPinLength": 4
+}

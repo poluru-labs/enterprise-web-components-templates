@@ -1,0 +1,308 @@
+{
+  "periodOptions": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Q3",
+      "value": "q3"
+    },
+    {
+      "label": "FY26",
+      "value": "fy"
+    }
+  ],
+  "defaultPeriod": "q3",
+  "billingAlert": {
+    "title": "Billing error budget is 62%",
+    "message": "POST /v1/invoice p95 is 186ms. Arjun Poluru owns the ledger. Freeze is 2 Oct."
+  },
+  "latencyTrend": {
+    "label": "P95 latency",
+    "unit": "milliseconds",
+    "weeks": 12,
+    "values": [
+      164,
+      158,
+      152,
+      148,
+      141,
+      136,
+      132,
+      128,
+      124,
+      122,
+      120,
+      118
+    ],
+    "sloMs": 200,
+    "currentP95Ms": 118,
+    "note": "118ms against a 200ms SLO. Auth and mesh pulled the line down. Billing is the lag."
+  },
+  "errorBudget": {
+    "value": 84,
+    "meterLow": 70,
+    "meterHigh": 85,
+    "meterOptimum": 95,
+    "note": "Sahana Poluru pages under 70%. Billing is the only watch."
+  },
+  "liveCatalogPreview": [
+    {
+      "id": "svc_auth",
+      "code": "CIR-100",
+      "name": "Auth gateway",
+      "stack": "Go",
+      "env": "Production",
+      "envId": "env_prod",
+      "version": "1.8.4",
+      "status": "Healthy",
+      "slo": 99.95,
+      "p95": 42,
+      "owner": "Nikhil Poluru",
+      "squad": "Identity"
+    },
+    {
+      "id": "svc_mesh",
+      "code": "CIR-104",
+      "name": "Edge mesh",
+      "stack": "Rust",
+      "env": "Production",
+      "envId": "env_prod",
+      "version": "2.1.0",
+      "status": "Healthy",
+      "slo": 99.9,
+      "p95": 18,
+      "owner": "Dev Poluru",
+      "squad": "Edge"
+    },
+    {
+      "id": "svc_billing",
+      "code": "CIR-112",
+      "name": "Billing ledger",
+      "stack": "Java",
+      "env": "Production",
+      "envId": "env_prod",
+      "version": "0.9.12",
+      "status": "Watch",
+      "slo": 99.5,
+      "p95": 186,
+      "owner": "Arjun Poluru",
+      "squad": "Money"
+    },
+    {
+      "id": "svc_events",
+      "code": "CIR-118",
+      "name": "Event bus",
+      "stack": "Go",
+      "env": "Production",
+      "envId": "env_prod",
+      "version": "3.4.1",
+      "status": "Healthy",
+      "slo": 99.9,
+      "p95": 28,
+      "owner": "Hana Poluru",
+      "squad": "Data"
+    },
+    {
+      "id": "svc_checkin",
+      "code": "CIR-121",
+      "name": "Check-in desk",
+      "stack": "Node",
+      "env": "Production",
+      "envId": "env_prod",
+      "version": "1.2.6",
+      "status": "Healthy",
+      "slo": 99.5,
+      "p95": 94,
+      "owner": "Elena Poluru",
+      "squad": "Apps"
+    },
+    {
+      "id": "svc_travel",
+      "code": "CIR-130",
+      "name": "Travel book",
+      "stack": "Node",
+      "env": "Staging",
+      "envId": "env_stage",
+      "version": "0.4.8",
+      "status": "Failed",
+      "slo": 99,
+      "p95": 240,
+      "owner": "Priya Poluru",
+      "squad": "Apps"
+    }
+  ],
+  "watchList": [
+    {
+      "label": "Billing invoice p95",
+      "description": "Arjun Poluru · 186ms",
+      "icon": "alert-triangle",
+      "href": "#/health"
+    },
+    {
+      "label": "Travel book failed",
+      "description": "Priya Poluru · 0.4.8",
+      "icon": "clock",
+      "href": "#/deployments"
+    },
+    {
+      "label": "Sandbox keys stale",
+      "description": "Hana Poluru · 3 services",
+      "icon": "folder",
+      "href": "#/environments"
+    },
+    {
+      "label": "Pulse 0.7.1 rolling",
+      "description": "Kavya Poluru · staging",
+      "icon": "star",
+      "href": "#/service/svc_pulse"
+    }
+  ],
+  "recentBoard": {
+    "columns": [
+      {
+        "key": "code",
+        "label": "ID"
+      },
+      {
+        "key": "name",
+        "label": "Service"
+      },
+      {
+        "key": "owner",
+        "label": "Owner"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      }
+    ],
+    "rows": [
+      {
+        "code": "CIR-100",
+        "name": "Auth gateway",
+        "owner": "Nikhil Poluru",
+        "status": "Healthy"
+      },
+      {
+        "code": "CIR-104",
+        "name": "Edge mesh",
+        "owner": "Dev Poluru",
+        "status": "Healthy"
+      },
+      {
+        "code": "CIR-112",
+        "name": "Billing ledger",
+        "owner": "Arjun Poluru",
+        "status": "Watch"
+      },
+      {
+        "code": "CIR-118",
+        "name": "Event bus",
+        "owner": "Hana Poluru",
+        "status": "Healthy"
+      },
+      {
+        "code": "CIR-121",
+        "name": "Check-in desk",
+        "owner": "Elena Poluru",
+        "status": "Healthy"
+      }
+    ]
+  },
+  "serviceMix": {
+    "healthyCount": 8,
+    "totalServices": 11,
+    "groups": [
+      {
+        "key": "Healthy",
+        "count": 8,
+        "percent": 73,
+        "services": [
+          {
+            "id": "svc_auth",
+            "name": "Auth gateway",
+            "code": "CIR-100",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_mesh",
+            "name": "Edge mesh",
+            "code": "CIR-104",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_events",
+            "name": "Event bus",
+            "code": "CIR-118",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_checkin",
+            "name": "Check-in desk",
+            "code": "CIR-121",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_civic",
+            "name": "Civic 311",
+            "code": "CIR-136",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_pulse",
+            "name": "Pulse health",
+            "code": "CIR-142",
+            "status": "Rolling"
+          },
+          {
+            "id": "svc_notify",
+            "name": "Notify bus",
+            "code": "CIR-148",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_search",
+            "name": "Search index",
+            "code": "CIR-151",
+            "status": "Healthy"
+          }
+        ]
+      },
+      {
+        "key": "Watch",
+        "count": 2,
+        "percent": 18,
+        "services": [
+          {
+            "id": "svc_billing",
+            "name": "Billing ledger",
+            "code": "CIR-112",
+            "status": "Watch"
+          },
+          {
+            "id": "svc_files",
+            "name": "File vault",
+            "code": "CIR-156",
+            "status": "Watch"
+          }
+        ]
+      },
+      {
+        "key": "Failed",
+        "count": 1,
+        "percent": 9,
+        "services": [
+          {
+            "id": "svc_travel",
+            "name": "Travel book",
+            "code": "CIR-130",
+            "status": "Failed"
+          }
+        ]
+      }
+    ]
+  },
+  "weekBadge": "Week 12"
+}

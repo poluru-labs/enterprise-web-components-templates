@@ -1,0 +1,364 @@
+{
+  "scoreBands": "Healthy is inside SLO. Watch is inside 24 hours of burning the budget. Failed is a rollback.",
+  "platformP95Ms": 118,
+  "sloMs": 200,
+  "billingAlert": {
+    "title": "Billing error budget is 62%",
+    "message": "POST /v1/invoice p95 is 186ms. Arjun Poluru owns the ledger."
+  },
+  "routes": {
+    "columns": [
+      {
+        "key": "service",
+        "label": "Service",
+        "sortable": true
+      },
+      {
+        "key": "route",
+        "label": "Route"
+      },
+      {
+        "key": "p95",
+        "label": "P95"
+      },
+      {
+        "key": "errors",
+        "label": "Errors"
+      },
+      {
+        "key": "slo",
+        "label": "SLO"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      }
+    ],
+    "rows": [
+      {
+        "id": "ep_1",
+        "serviceId": "svc_auth",
+        "service": "Auth gateway",
+        "route": "POST /v1/session",
+        "p95": 42,
+        "errors": 0.02,
+        "slo": 99.95,
+        "status": "Healthy",
+        "owner": "Nikhil Poluru"
+      },
+      {
+        "id": "ep_2",
+        "serviceId": "svc_auth",
+        "service": "Auth gateway",
+        "route": "GET /v1/whoami",
+        "p95": 18,
+        "errors": 0.01,
+        "slo": 99.95,
+        "status": "Healthy",
+        "owner": "Nikhil Poluru"
+      },
+      {
+        "id": "ep_3",
+        "serviceId": "svc_billing",
+        "service": "Billing ledger",
+        "route": "POST /v1/invoice",
+        "p95": 186,
+        "errors": 1.8,
+        "slo": 99.5,
+        "status": "Watch",
+        "owner": "Arjun Poluru"
+      },
+      {
+        "id": "ep_4",
+        "serviceId": "svc_billing",
+        "service": "Billing ledger",
+        "route": "GET /v1/ledger",
+        "p95": 124,
+        "errors": 0.6,
+        "slo": 99.5,
+        "status": "Watch",
+        "owner": "Arjun Poluru"
+      },
+      {
+        "id": "ep_5",
+        "serviceId": "svc_mesh",
+        "service": "Edge mesh",
+        "route": "GET /healthz",
+        "p95": 8,
+        "errors": 0,
+        "slo": 99.9,
+        "status": "Healthy",
+        "owner": "Dev Poluru"
+      },
+      {
+        "id": "ep_6",
+        "serviceId": "svc_events",
+        "service": "Event bus",
+        "route": "POST /v1/emit",
+        "p95": 28,
+        "errors": 0.04,
+        "slo": 99.9,
+        "status": "Healthy",
+        "owner": "Hana Poluru"
+      },
+      {
+        "id": "ep_7",
+        "serviceId": "svc_travel",
+        "service": "Travel book",
+        "route": "GET /v1/trips",
+        "p95": 240,
+        "errors": 4.2,
+        "slo": 99,
+        "status": "Failed",
+        "owner": "Priya Poluru"
+      },
+      {
+        "id": "ep_8",
+        "serviceId": "svc_checkin",
+        "service": "Check-in desk",
+        "route": "POST /v1/scan",
+        "p95": 94,
+        "errors": 0.3,
+        "slo": 99.5,
+        "status": "Healthy",
+        "owner": "Elena Poluru"
+      },
+      {
+        "id": "ep_9",
+        "serviceId": "svc_civic",
+        "service": "Civic 311",
+        "route": "POST /v1/request",
+        "p95": 76,
+        "errors": 0.2,
+        "slo": 99.5,
+        "status": "Healthy",
+        "owner": "Luca Poluru"
+      },
+      {
+        "id": "ep_10",
+        "serviceId": "svc_pulse",
+        "service": "Pulse health",
+        "route": "GET /v1/score",
+        "p95": 110,
+        "errors": 0.8,
+        "slo": 99,
+        "status": "Rolling",
+        "owner": "Kavya Poluru"
+      }
+    ]
+  },
+  "serviceMix": {
+    "healthyCount": 8,
+    "totalServices": 11,
+    "groups": [
+      {
+        "key": "Healthy",
+        "count": 8,
+        "percent": 73,
+        "services": [
+          {
+            "id": "svc_auth",
+            "name": "Auth gateway",
+            "code": "CIR-100",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_mesh",
+            "name": "Edge mesh",
+            "code": "CIR-104",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_events",
+            "name": "Event bus",
+            "code": "CIR-118",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_checkin",
+            "name": "Check-in desk",
+            "code": "CIR-121",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_civic",
+            "name": "Civic 311",
+            "code": "CIR-136",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_pulse",
+            "name": "Pulse health",
+            "code": "CIR-142",
+            "status": "Rolling"
+          },
+          {
+            "id": "svc_notify",
+            "name": "Notify bus",
+            "code": "CIR-148",
+            "status": "Healthy"
+          },
+          {
+            "id": "svc_search",
+            "name": "Search index",
+            "code": "CIR-151",
+            "status": "Healthy"
+          }
+        ]
+      },
+      {
+        "key": "Watch",
+        "count": 2,
+        "percent": 18,
+        "services": [
+          {
+            "id": "svc_billing",
+            "name": "Billing ledger",
+            "code": "CIR-112",
+            "status": "Watch"
+          },
+          {
+            "id": "svc_files",
+            "name": "File vault",
+            "code": "CIR-156",
+            "status": "Watch"
+          }
+        ]
+      },
+      {
+        "key": "Failed",
+        "count": 1,
+        "percent": 9,
+        "services": [
+          {
+            "id": "svc_travel",
+            "name": "Travel book",
+            "code": "CIR-130",
+            "status": "Failed"
+          }
+        ]
+      }
+    ]
+  },
+  "latencyTrend": {
+    "label": "P95 trend",
+    "unit": "milliseconds",
+    "values": [
+      164,
+      158,
+      152,
+      148,
+      141,
+      136,
+      132,
+      128,
+      124,
+      122,
+      120,
+      118
+    ],
+    "note": "House moved from 164ms to 118ms over twelve weeks. Auth and mesh pulled the line."
+  },
+  "watchRoutes": [
+    {
+      "label": "POST /v1/invoice · 186ms",
+      "description": "Billing ledger · Arjun Poluru",
+      "icon": "alert-triangle",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /v1/ledger · 124ms",
+      "description": "Billing ledger · Arjun Poluru",
+      "icon": "alert-triangle",
+      "href": "#/health"
+    },
+    {
+      "label": "GET /v1/trips · 240ms",
+      "description": "Travel book · Priya Poluru",
+      "icon": "alert-triangle",
+      "href": "#/health"
+    }
+  ],
+  "deskLoad": [
+    {
+      "name": "Arjun Poluru",
+      "role": "Billing owner",
+      "squad": "Money",
+      "rating": 4,
+      "score": 78,
+      "book": 1
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Release train",
+      "squad": "Platform",
+      "rating": 4,
+      "score": 84,
+      "book": 6
+    },
+    {
+      "name": "Sahana Poluru",
+      "role": "SRE",
+      "squad": "Platform",
+      "rating": 5,
+      "score": 91,
+      "book": 11
+    }
+  ],
+  "houseRules": [
+    {
+      "id": "po_slo",
+      "name": "Error budget page",
+      "trigger": "Budget under 70%",
+      "owner": "Sahana Poluru",
+      "items": 1,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_freeze",
+      "name": "Prod freeze",
+      "trigger": "2 Oct through close",
+      "owner": "Rohan Poluru",
+      "items": 8,
+      "status": "Active",
+      "steps": 2
+    },
+    {
+      "id": "po_rollback",
+      "name": "Auto rollback",
+      "trigger": "Error rate over 2%",
+      "owner": "Dev Poluru",
+      "items": 1,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_owner",
+      "name": "Owner required",
+      "trigger": "New service without page",
+      "owner": "Nikhil Poluru",
+      "items": 0,
+      "status": "Active",
+      "steps": 2
+    },
+    {
+      "id": "po_key",
+      "name": "Key rotate",
+      "trigger": "Sandbox secrets over 30 days",
+      "owner": "Hana Poluru",
+      "items": 3,
+      "status": "Watch",
+      "steps": 2
+    },
+    {
+      "id": "po_canary",
+      "name": "Canary hold",
+      "trigger": "P95 over SLO for 10 minutes",
+      "owner": "Elena Poluru",
+      "items": 0,
+      "status": "Draft",
+      "steps": 3
+    }
+  ]
+}

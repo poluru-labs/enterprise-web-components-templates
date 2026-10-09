@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Services",
+    "href": "#/services",
+    "icon": "folder"
+  },
+  {
+    "label": "Deployments",
+    "href": "#/deployments",
+    "icon": "plus"
+  },
+  {
+    "label": "Environments",
+    "href": "#/environments",
+    "icon": "star"
+  },
+  {
+    "label": "Health",
+    "href": "#/health",
+    "icon": "check"
+  },
+  {
+    "label": "Owners",
+    "href": "#/owners",
+    "icon": "user"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

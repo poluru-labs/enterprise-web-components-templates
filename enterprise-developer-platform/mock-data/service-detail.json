@@ -1,0 +1,16 @@
+{
+  "runPipelineSteps": [
+    "Build",
+    "Stage",
+    "Canary",
+    "Prod"
+  ],
+  "runbookPlaceholder": "Pager, rollback, and who owns the next ship.",
+  "ownerNotePlaceholder": "What shipped this morning, who owns the next action.",
+  "pageOnBudgetSlip": true,
+  "planAccordion": {
+    "outcome": "Hold the SLO, keep p95 under 200ms, and ship behind a canary.",
+    "next48Hours": "Confirm the next version, check the error budget, and stamp the owner page."
+  },
+  "exampleServiceId": "svc_auth"
+}

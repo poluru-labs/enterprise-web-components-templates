@@ -1,0 +1,124 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Environment",
+      "sortable": true
+    },
+    {
+      "key": "region",
+      "label": "Region"
+    },
+    {
+      "key": "services",
+      "label": "Services"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "cluster",
+      "label": "Cluster"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    }
+  ],
+  "rows": [
+    {
+      "id": "env_prod",
+      "name": "Production",
+      "region": "us-east",
+      "services": 8,
+      "status": "Live",
+      "freeze": "2 Oct",
+      "cluster": "forge-a",
+      "owner": "Nikhil Poluru"
+    },
+    {
+      "id": "env_stage",
+      "name": "Staging",
+      "region": "us-east",
+      "services": 8,
+      "status": "Live",
+      "freeze": "—",
+      "cluster": "forge-b",
+      "owner": "Dev Poluru"
+    },
+    {
+      "id": "env_sand",
+      "name": "Sandbox",
+      "region": "us-east",
+      "services": 6,
+      "status": "Watch",
+      "freeze": "—",
+      "cluster": "forge-c",
+      "owner": "Hana Poluru"
+    },
+    {
+      "id": "env_edge",
+      "name": "Edge",
+      "region": "anycast",
+      "services": 2,
+      "status": "Live",
+      "freeze": "2 Oct",
+      "cluster": "mesh-1",
+      "owner": "Dev Poluru"
+    },
+    {
+      "id": "env_dev",
+      "name": "Dev",
+      "region": "us-central",
+      "services": 8,
+      "status": "Open",
+      "freeze": "—",
+      "cluster": "forge-d",
+      "owner": "Elena Poluru"
+    }
+  ],
+  "tree": [
+    {
+      "id": "live",
+      "label": "Live",
+      "children": [
+        {
+          "id": "prod",
+          "label": "Production",
+          "href": "#/environments"
+        },
+        {
+          "id": "edge",
+          "label": "Edge",
+          "href": "#/environments"
+        },
+        {
+          "id": "stage",
+          "label": "Staging",
+          "href": "#/environments"
+        }
+      ]
+    },
+    {
+      "id": "hold",
+      "label": "Hold",
+      "children": [
+        {
+          "id": "sand",
+          "label": "Sandbox",
+          "href": "#/environments"
+        },
+        {
+          "id": "dev",
+          "label": "Dev",
+          "href": "#/environments"
+        }
+      ]
+    }
+  ],
+  "expandedTreeIds": {
+    "live": true,
+    "hold": true
+  }
+}

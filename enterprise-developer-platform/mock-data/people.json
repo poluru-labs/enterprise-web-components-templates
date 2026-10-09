@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Nikhil Poluru",
+    "role": "Head of platform",
+    "squad": "Identity",
+    "rating": 5,
+    "score": 94,
+    "book": 2
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Edge lead",
+    "squad": "Edge",
+    "rating": 5,
+    "score": 92,
+    "book": 2
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Billing owner",
+    "squad": "Money",
+    "rating": 4,
+    "score": 78,
+    "book": 1
+  },
+  {
+    "name": "Hana Poluru",
+    "role": "Data plane",
+    "squad": "Data",
+    "rating": 5,
+    "score": 90,
+    "book": 2
+  },
+  {
+    "name": "Elena Poluru",
+    "role": "Apps on-call",
+    "squad": "Apps",
+    "rating": 5,
+    "score": 88,
+    "book": 2
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Travel book",
+    "squad": "Apps",
+    "rating": 4,
+    "score": 71,
+    "book": 1
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Pulse owner",
+    "squad": "Data",
+    "rating": 4,
+    "score": 82,
+    "book": 1
+  },
+  {
+    "name": "Luca Poluru",
+    "role": "Civic 311",
+    "squad": "Apps",
+    "rating": 4,
+    "score": 86,
+    "book": 1
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "Release train",
+    "squad": "Platform",
+    "rating": 4,
+    "score": 84,
+    "book": 6
+  },
+  {
+    "name": "Sahana Poluru",
+    "role": "SRE",
+    "squad": "Platform",
+    "rating": 5,
+    "score": 91,
+    "book": 11
+  }
+]

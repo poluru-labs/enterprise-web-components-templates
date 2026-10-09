@@ -1,0 +1,28 @@
+{
+  "workspace": "Lattice Forge",
+  "timezone": "America / Chicago",
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas",
+  "errorBudgetFloor": 70,
+  "startFullWidth": true,
+  "budgetLagPing": true,
+  "density": "comfortable",
+  "densityOptions": [
+    "comfortable",
+    "compact"
+  ],
+  "staffPinLength": 4
+}

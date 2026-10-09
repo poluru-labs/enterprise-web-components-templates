@@ -1,0 +1,74 @@
+{
+  "serviceOptions": [
+    {
+      "label": "Auth gateway",
+      "value": "svc_auth"
+    },
+    {
+      "label": "Edge mesh",
+      "value": "svc_mesh"
+    },
+    {
+      "label": "Billing ledger",
+      "value": "svc_billing"
+    },
+    {
+      "label": "Event bus",
+      "value": "svc_events"
+    },
+    {
+      "label": "Check-in desk",
+      "value": "svc_checkin"
+    },
+    {
+      "label": "Travel book",
+      "value": "svc_travel"
+    },
+    {
+      "label": "Civic 311",
+      "value": "svc_civic"
+    },
+    {
+      "label": "Pulse health",
+      "value": "svc_pulse"
+    },
+    {
+      "label": "Notify bus",
+      "value": "svc_notify"
+    },
+    {
+      "label": "Search index",
+      "value": "svc_search"
+    },
+    {
+      "label": "File vault",
+      "value": "svc_files"
+    }
+  ],
+  "defaultServiceId": "svc_auth",
+  "environmentOptions": [
+    {
+      "label": "Production",
+      "value": "env_prod"
+    },
+    {
+      "label": "Staging",
+      "value": "env_stage"
+    },
+    {
+      "label": "Sandbox",
+      "value": "env_sand"
+    },
+    {
+      "label": "Edge",
+      "value": "env_edge"
+    },
+    {
+      "label": "Dev",
+      "value": "env_dev"
+    }
+  ],
+  "defaultEnvironmentId": "env_stage",
+  "versionPlaceholder": "1.8.5",
+  "changePlaceholder": "What ships and how to roll back."
+}
