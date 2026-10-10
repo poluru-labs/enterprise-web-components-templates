@@ -1,0 +1,57 @@
+{
+  "workspace": [
+    {
+      "id": "overview",
+      "icon": "grid",
+      "label": "Overview"
+    },
+    {
+      "id": "students",
+      "icon": "people",
+      "label": "Students"
+    },
+    {
+      "id": "courses",
+      "icon": "book",
+      "label": "Courses"
+    },
+    {
+      "id": "enrollment",
+      "icon": "person-plus",
+      "label": "Enrollment",
+      "badge": 24
+    },
+    {
+      "id": "attendance",
+      "icon": "calendar-check",
+      "label": "Attendance"
+    },
+    {
+      "id": "faculty",
+      "icon": "person-video3",
+      "label": "Faculty"
+    },
+    {
+      "id": "outcomes",
+      "icon": "bar-chart-line",
+      "label": "Academic outcomes"
+    }
+  ],
+  "manage": [
+    {
+      "id": "reports",
+      "icon": "file-earmark-bar-graph",
+      "label": "Reports"
+    },
+    {
+      "id": "calendar",
+      "icon": "calendar3",
+      "label": "Academic calendar"
+    },
+    {
+      "id": "settings",
+      "icon": "gear",
+      "label": "Settings"
+    }
+  ]
+}

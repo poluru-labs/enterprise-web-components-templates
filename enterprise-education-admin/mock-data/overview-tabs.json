@@ -1,0 +1,17 @@
+{
+  "tabs": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "academic",
+      "label": "Academic performance"
+    },
+    {
+      "id": "engagement",
+      "label": "Student engagement"
+    }
+  ],
+  "defaultTab": "overview"
+}

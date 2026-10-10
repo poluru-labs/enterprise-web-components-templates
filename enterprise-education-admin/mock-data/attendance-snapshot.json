@@ -1,0 +1,44 @@
+{
+  "averagePercent": 94.6,
+  "goalPercent": 90,
+  "breakdown": [
+    {
+      "label": "Present",
+      "percent": 94.6,
+      "color": "#315643"
+    },
+    {
+      "label": "Absent",
+      "percent": 3.2,
+      "color": "#ebcb90"
+    },
+    {
+      "label": "On leave",
+      "percent": 2.2,
+      "color": "#e7ebe4"
+    }
+  ],
+  "weekOf": "September 14–18",
+  "dailyPercent": [
+    {
+      "day": "Mon",
+      "percent": 94
+    },
+    {
+      "day": "Tue",
+      "percent": 96
+    },
+    {
+      "day": "Wed",
+      "percent": 95
+    },
+    {
+      "day": "Thu",
+      "percent": 93
+    },
+    {
+      "day": "Fri",
+      "percent": 95
+    }
+  ]
+}

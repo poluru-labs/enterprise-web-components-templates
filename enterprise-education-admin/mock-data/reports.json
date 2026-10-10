@@ -1,0 +1,26 @@
+{
+  "exports": [
+    {
+      "id": 0,
+      "title": "Student enrollment register",
+      "filename": "campusone-enrollment-fall-2026.csv"
+    },
+    {
+      "id": 1,
+      "title": "Attendance summary",
+      "filename": "campusone-attendance-fall-2026.csv"
+    },
+    {
+      "id": 2,
+      "title": "Academic outcomes",
+      "filename": "campusone-outcomes-fall-2026.csv"
+    },
+    {
+      "id": 3,
+      "title": "Program directory",
+      "filename": "campusone-programs-fall-2026.csv"
+    }
+  ],
+  "preparedBy": "Mira Poluru",
+  "term": "Fall 2026"
+}

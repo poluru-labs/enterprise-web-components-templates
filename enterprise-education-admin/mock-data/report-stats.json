@@ -1,0 +1,44 @@
+{
+  "attendance": [
+    {
+      "label": "Average attendance",
+      "value": "94.6%"
+    },
+    {
+      "label": "On track to graduate",
+      "value": "92.8%"
+    },
+    {
+      "label": "Average GPA",
+      "value": "3.62"
+    }
+  ],
+  "academicTab": [
+    {
+      "label": "Graduation rate",
+      "value": "92.8%"
+    },
+    {
+      "label": "Average GPA",
+      "value": "3.62"
+    },
+    {
+      "label": "Course completion",
+      "value": "88.4%"
+    }
+  ],
+  "engagementTab": [
+    {
+      "label": "Attendance rate",
+      "value": "94.6%"
+    },
+    {
+      "label": "Student organizations",
+      "value": "42"
+    },
+    {
+      "label": "Campus event participation",
+      "value": "76.2%"
+    }
+  ]
+}

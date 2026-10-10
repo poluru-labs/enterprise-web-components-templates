@@ -1,0 +1,10 @@
+{
+  "totalEnrolled": 8542,
+  "yearOverYearDelta": "8.2%",
+  "note": "Enrollment is up 648 students compared to last year.",
+  "chartRangeOptions": [
+    "semester",
+    "year"
+  ],
+  "defaultRange": "semester"
+}

@@ -1,0 +1,17 @@
+{
+  "campusName": "Westbridge University",
+  "termOptions": [
+    {
+      "label": "Fall 2026",
+      "value": "fall"
+    },
+    {
+      "label": "Spring 2027",
+      "value": "spring"
+    }
+  ],
+  "defaultTerm": "fall",
+  "emailNotifications": true,
+  "weeklyAttendanceDigest": true,
+  "storageKey": "campusone-preferences"
+}

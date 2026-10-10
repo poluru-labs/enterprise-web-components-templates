@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "heading": "How do I enroll a student?",
+      "body": "Select Enroll student, enter their name and email, choose a program, and confirm. New records appear in the student directory for this session."
+    },
+    {
+      "heading": "How do I export campus records?",
+      "body": "Open Reports and choose a CSV download. Student search and status filters also apply to the directory export."
+    },
+    {
+      "heading": "About this workspace",
+      "body": "This is a sample campus workspace. All people are fictional and records are held in memory for this session."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "id": "CO-2026001",
+      "name": "Aarav Poluru",
+      "course": "Computer Science",
+      "year": "Year 2",
+      "status": "Active",
+      "attendance": 96
+    },
+    {
+      "id": "CO-2026002",
+      "name": "Anika Poluru",
+      "course": "Business Administration",
+      "year": "Year 1",
+      "status": "Active",
+      "attendance": 94
+    },
+    {
+      "id": "CO-2026003",
+      "name": "Rohan Poluru",
+      "course": "Mechanical Engineering",
+      "year": "Year 3",
+      "status": "Active",
+      "attendance": 89
+    },
+    {
+      "id": "CO-2026004",
+      "name": "Ishita Poluru",
+      "course": "Visual Communication",
+      "year": "Year 2",
+      "status": "Pending",
+      "attendance": 92
+    },
+    {
+      "id": "CO-2026005",
+      "name": "Vihaan Poluru",
+      "course": "Computer Science",
+      "year": "Year 1",
+      "status": "Active",
+      "attendance": 98
+    },
+    {
+      "id": "CO-2026006",
+      "name": "Sahana Poluru",
+      "course": "Business Administration",
+      "year": "Year 3",
+      "status": "Active",
+      "attendance": 91
+    },
+    {
+      "id": "CO-2026007",
+      "name": "Dev Poluru",
+      "course": "Mechanical Engineering",
+      "year": "Year 2",
+      "status": "Pending",
+      "attendance": 85
+    },
+    {
+      "id": "CO-2026008",
+      "name": "Kavya Poluru",
+      "course": "Visual Communication",
+      "year": "Year 1",
+      "status": "Active",
+      "attendance": 97
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All students",
+        "value": "All students"
+      },
+      {
+        "label": "Active",
+        "value": "Active"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      }
+    ],
+    "defaultStatus": "All students"
+  },
+  "pagination": {
+    "pageSize": 5
+  }
+}

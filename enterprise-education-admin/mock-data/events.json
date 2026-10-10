@@ -1,0 +1,26 @@
+[
+  {
+    "day": "18",
+    "month": "SEP",
+    "title": "Fall orientation",
+    "detail": "09:00 AM · Main auditorium",
+    "tone": "gold",
+    "organizer": "Mira Poluru"
+  },
+  {
+    "day": "21",
+    "month": "SEP",
+    "title": "Faculty council meeting",
+    "detail": "11:30 AM · Conference room A",
+    "tone": "green",
+    "organizer": "Arjun Poluru"
+  },
+  {
+    "day": "24",
+    "month": "SEP",
+    "title": "Mid-semester assessments",
+    "detail": "All day · All departments",
+    "tone": "blue",
+    "organizer": "Priya Poluru"
+  }
+]

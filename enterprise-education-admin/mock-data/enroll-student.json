@@ -1,0 +1,47 @@
+{
+  "heading": "Enroll a student",
+  "intro": "Add a student to the Fall 2026 intake.",
+  "programOptions": [
+    {
+      "label": "Computer Science",
+      "value": "Computer Science"
+    },
+    {
+      "label": "Business Administration",
+      "value": "Business Administration"
+    },
+    {
+      "label": "Mechanical Engineering",
+      "value": "Mechanical Engineering"
+    },
+    {
+      "label": "Visual Communication",
+      "value": "Visual Communication"
+    }
+  ],
+  "defaultProgram": "Computer Science",
+  "yearOptions": [
+    {
+      "label": "Year 1",
+      "value": "Year 1"
+    },
+    {
+      "label": "Year 2",
+      "value": "Year 2"
+    },
+    {
+      "label": "Year 3",
+      "value": "Year 3"
+    },
+    {
+      "label": "Year 4",
+      "value": "Year 4"
+    }
+  ],
+  "defaultYear": "Year 1",
+  "placeholders": {
+    "name": "e.g. Tara Poluru",
+    "email": "tara@example.edu",
+    "notes": "Enrollment notes"
+  }
+}

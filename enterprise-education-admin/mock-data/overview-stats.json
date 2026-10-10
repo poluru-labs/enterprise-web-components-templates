@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Total students",
+    "value": "8,542",
+    "delta": "+8.2%",
+    "context": "vs. last semester",
+    "icon": "people"
+  },
+  {
+    "label": "Active courses",
+    "value": "148",
+    "delta": "+12",
+    "context": "new this semester",
+    "icon": "book"
+  },
+  {
+    "label": "Attendance rate",
+    "value": "94.6%",
+    "delta": "+2.4%",
+    "context": "vs. last semester",
+    "icon": "calendar-check"
+  },
+  {
+    "label": "Graduation rate",
+    "value": "92.8%",
+    "delta": "+3.1%",
+    "context": "vs. last year",
+    "icon": "mortarboard"
+  }
+]

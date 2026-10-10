@@ -1,0 +1,40 @@
+{
+  "programs": [
+    {
+      "name": "Computer Science",
+      "code": "CS",
+      "facultyLead": "Arjun Poluru",
+      "enrolled": 1248,
+      "completionPercent": 92,
+      "accentColor": "#dce8e0",
+      "activeCourseCount": 24
+    },
+    {
+      "name": "Business Administration",
+      "code": "BA",
+      "facultyLead": "Mira Poluru",
+      "enrolled": 986,
+      "completionPercent": 85,
+      "accentColor": "#f5e8cc",
+      "activeCourseCount": 30
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "facultyLead": "Nikhil Poluru",
+      "enrolled": 842,
+      "completionPercent": 78,
+      "accentColor": "#e0e8f2",
+      "activeCourseCount": 36
+    },
+    {
+      "name": "Visual Communication",
+      "code": "VC",
+      "facultyLead": "Priya Poluru",
+      "enrolled": 624,
+      "completionPercent": 88,
+      "accentColor": "#eee2e9",
+      "activeCourseCount": 42
+    }
+  ]
+}

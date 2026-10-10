@@ -1,0 +1,43 @@
+{
+  "intro": {
+    "eyebrow": "CAMPUS DIRECTORY",
+    "title": "Everything in one place.",
+    "description": "Connect the people, programs, and moments that make your campus.",
+    "badge": "Fall 2026"
+  },
+  "sections": [
+    {
+      "title": "Academics",
+      "linkIds": [
+        "courses",
+        "faculty",
+        "outcomes"
+      ]
+    },
+    {
+      "title": "Student services",
+      "linkIds": [
+        "students",
+        "enrollment",
+        "attendance"
+      ]
+    },
+    {
+      "title": "Planning & resources",
+      "links": [
+        {
+          "id": "calendar",
+          "label": "Academic calendar"
+        },
+        {
+          "id": "reports",
+          "label": "Reports & exports"
+        },
+        {
+          "id": "help",
+          "label": "Help center"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "productName": "CampusOne",
+  "productLine": "Education workspace",
+  "campusName": "Westbridge University",
+  "campusLabel": "Main campus",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "role": "Campus administrator"
+  },
+  "semester": {
+    "label": "Fall semester 2026",
+    "shortLabel": "FALL SEMESTER 2026",
+    "start": "2026-09-01",
+    "end": "2026-12-18",
+    "week": 3,
+    "totalWeeks": 16,
+    "progressPercent": 14,
+    "status": "In progress"
+  },
+  "snapshotDate": "Wednesday, September 16, 2026",
+  "brandColor": "#EBCB90"
+}
