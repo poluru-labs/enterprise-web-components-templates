@@ -1,0 +1,71 @@
+{
+  "modules": [
+    {
+      "name": "Overview",
+      "view": "Overview",
+      "sub": "Workspace module"
+    },
+    {
+      "name": "Sites",
+      "view": "Sites",
+      "sub": "Workspace module"
+    },
+    {
+      "name": "Production",
+      "view": "Production",
+      "sub": "Workspace module"
+    },
+    {
+      "name": "Outages",
+      "view": "Outages",
+      "sub": "Workspace module"
+    },
+    {
+      "name": "Maintenance",
+      "view": "Maintenance",
+      "sub": "Workspace module"
+    },
+    {
+      "name": "Consumption",
+      "view": "Consumption",
+      "sub": "Workspace module"
+    },
+    {
+      "name": "Sustainability",
+      "view": "Sustainability",
+      "sub": "Workspace module"
+    }
+  ],
+  "sites": [
+    {
+      "name": "Suncrest Solar Park",
+      "site": "Suncrest Solar Park",
+      "sub": "Arjun Poluru · Solar"
+    },
+    {
+      "name": "Westhaven Wind Farm",
+      "site": "Westhaven Wind Farm",
+      "sub": "Maya Poluru · Wind"
+    },
+    {
+      "name": "Clearwater Hydro",
+      "site": "Clearwater Hydro",
+      "sub": "Rohan Poluru · Hydro"
+    },
+    {
+      "name": "Mesa Valley Solar",
+      "site": "Mesa Valley Solar",
+      "sub": "Neha Poluru · Solar"
+    },
+    {
+      "name": "Northshore Wind",
+      "site": "Northshore Wind",
+      "sub": "Kiran Poluru · Wind"
+    },
+    {
+      "name": "Redwood Battery Storage",
+      "site": "Redwood Battery Storage",
+      "sub": "Isha Poluru · Storage"
+    }
+  ]
+}

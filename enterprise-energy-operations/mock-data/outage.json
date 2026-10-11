@@ -1,0 +1,12 @@
+{
+  "activeCount": 1,
+  "incident": {
+    "site": "Redwood Battery Storage",
+    "title": "PCS communication loss",
+    "affectedMw": 21.9,
+    "since": "08:15 AM",
+    "owner": "Isha Poluru",
+    "estimatedRestoration": "Today, 12:30 PM",
+    "message": "PCS communication loss · 21.9 MW affected · Since 08:15 AM"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "filename": "terra-energy-portfolio-2026-09-16.csv",
+  "columns": [
+    "Site",
+    "Source",
+    "Capacity MW",
+    "Production MWh",
+    "Availability %",
+    "Status",
+    "Owner"
+  ]
+}

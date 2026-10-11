@@ -1,0 +1,146 @@
+{
+  "title": "Production & consumption",
+  "subtitle": "Energy performance across your portfolio",
+  "summary": {
+    "productionMwh": 1284.6,
+    "deltaPercent": 12.8
+  },
+  "periodOptions": [
+    {
+      "label": "24 hours",
+      "value": "day"
+    },
+    {
+      "label": "7 days",
+      "value": "week"
+    },
+    {
+      "label": "30 days",
+      "value": "month"
+    }
+  ],
+  "defaultPeriod": "week",
+  "axisLabels": {
+    "day": [
+      "00:00",
+      "04:00",
+      "08:00",
+      "12:00",
+      "16:00",
+      "20:00",
+      "23:00"
+    ],
+    "week": [
+      "Mon, 14",
+      "Tue, 15",
+      "Wed, 16",
+      "Thu, 17",
+      "Fri, 18",
+      "Sat, 19",
+      "Sun, 20"
+    ],
+    "month": [
+      "Sep 1",
+      "Sep 5",
+      "Sep 10",
+      "Sep 15",
+      "Sep 20",
+      "Sep 25",
+      "Sep 30"
+    ]
+  },
+  "series": {
+    "week": [
+      74,
+      82,
+      71,
+      97,
+      89,
+      109,
+      115,
+      105,
+      123,
+      117,
+      104,
+      130,
+      119,
+      136,
+      125,
+      141,
+      130,
+      139,
+      119,
+      131,
+      148,
+      139,
+      163,
+      154,
+      172,
+      156,
+      166,
+      160
+    ],
+    "month": [
+      63,
+      74,
+      82,
+      65,
+      99,
+      90,
+      115,
+      106,
+      122,
+      115,
+      136,
+      118,
+      143,
+      130,
+      162,
+      145,
+      151,
+      163,
+      149,
+      167,
+      153,
+      182,
+      176,
+      163,
+      170,
+      188,
+      177,
+      184
+    ],
+    "day": [
+      60,
+      67,
+      65,
+      63,
+      82,
+      98,
+      109,
+      140,
+      155,
+      167,
+      174,
+      187,
+      190,
+      186,
+      178,
+      163,
+      151,
+      134,
+      109,
+      95,
+      83,
+      70,
+      65,
+      61,
+      58,
+      57,
+      56,
+      55
+    ]
+  },
+  "note": "Production exceeded consumption by 438.4 MWh this week.",
+  "consumptionOffsetFactor": 0.68
+}

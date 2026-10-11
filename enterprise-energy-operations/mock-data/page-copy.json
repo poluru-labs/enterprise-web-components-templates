@@ -1,0 +1,33 @@
+{
+  "eyebrow": "YOUR ENERGY, CONNECTED",
+  "views": {
+    "Overview": {
+      "title": "Portfolio overview",
+      "lead": "A clear picture of your energy operations. Every site, every megawatt."
+    },
+    "Sites": {
+      "title": "Your energy sites",
+      "lead": "Monitor performance and health across your energy portfolio."
+    },
+    "Production": {
+      "title": "Production",
+      "lead": "Track generation and balance supply across energy sources."
+    },
+    "Outages": {
+      "title": "Outages",
+      "lead": "Coordinate response and bring your assets back online."
+    },
+    "Maintenance": {
+      "title": "Maintenance",
+      "lead": "Plan, assign, and track asset maintenance."
+    },
+    "Consumption": {
+      "title": "Consumption",
+      "lead": "Understand demand and manage your energy balance."
+    },
+    "Sustainability": {
+      "title": "Sustainability",
+      "lead": "Measure progress toward a lower-carbon portfolio."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timeline": [
+    {
+      "title": "Redwood communication loss",
+      "description": "Isha Poluru is investigating the PCS connection.",
+      "timestamp": "08:15 AM",
+      "status": "current"
+    },
+    {
+      "title": "Maintenance window started",
+      "description": "Neha Poluru · Mesa Valley Solar inverter inspection.",
+      "timestamp": "07:30 AM",
+      "status": "complete"
+    },
+    {
+      "title": "Morning checks completed",
+      "description": "Arjun Poluru confirmed Suncrest output is within target.",
+      "timestamp": "07:00 AM",
+      "status": "complete"
+    }
+  ]
+}

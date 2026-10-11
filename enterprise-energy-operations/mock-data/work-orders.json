@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "title": "Inverter inspection",
+      "site": "Mesa Valley Solar",
+      "owner": "Neha Poluru",
+      "date": "Today, 10:30 AM",
+      "priority": "High"
+    },
+    {
+      "title": "Turbine lubrication",
+      "site": "Westhaven Wind Farm",
+      "owner": "Maya Poluru",
+      "date": "Today, 2:00 PM",
+      "priority": "Medium"
+    },
+    {
+      "title": "Annual safety audit",
+      "site": "Clearwater Hydro",
+      "owner": "Rohan Poluru",
+      "date": "Sep 18, 9:00 AM",
+      "priority": "Low"
+    }
+  ],
+  "storageKey": "terra-work-orders",
+  "overviewPreviewCount": 3
+}

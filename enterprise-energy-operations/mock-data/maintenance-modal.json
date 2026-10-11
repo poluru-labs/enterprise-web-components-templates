@@ -1,0 +1,68 @@
+{
+  "heading": "Schedule maintenance",
+  "siteOptions": [
+    {
+      "label": "Suncrest Solar Park",
+      "value": "Suncrest Solar Park"
+    },
+    {
+      "label": "Westhaven Wind Farm",
+      "value": "Westhaven Wind Farm"
+    },
+    {
+      "label": "Clearwater Hydro",
+      "value": "Clearwater Hydro"
+    },
+    {
+      "label": "Mesa Valley Solar",
+      "value": "Mesa Valley Solar"
+    },
+    {
+      "label": "Northshore Wind",
+      "value": "Northshore Wind"
+    },
+    {
+      "label": "Redwood Battery Storage",
+      "value": "Redwood Battery Storage"
+    }
+  ],
+  "defaultSite": "Suncrest Solar Park",
+  "ownerOptions": [
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Neha Poluru",
+      "value": "Neha Poluru"
+    },
+    {
+      "label": "Kiran Poluru",
+      "value": "Kiran Poluru"
+    },
+    {
+      "label": "Isha Poluru",
+      "value": "Isha Poluru"
+    }
+  ],
+  "defaultOwner": "Arjun Poluru",
+  "defaultDate": "2026-09-18",
+  "priorityOptions": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "defaultPriority": "Medium",
+  "placeholders": {
+    "title": "e.g. Quarterly inverter inspection",
+    "notes": "Inspection scope and access instructions"
+  }
+}

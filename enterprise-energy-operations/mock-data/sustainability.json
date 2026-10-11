@@ -1,0 +1,10 @@
+{
+  "carbonAvoidedTco2": 428.5,
+  "weeklyBadge": "On track",
+  "monthlyTarget": {
+    "percentComplete": 76,
+    "actual": 1520,
+    "goal": 2000,
+    "unit": "tCO₂"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "grid-1x2"
+  },
+  {
+    "label": "Sites",
+    "href": "#/sites",
+    "icon": "geo-alt"
+  },
+  {
+    "label": "Production",
+    "href": "#/production",
+    "icon": "lightning-charge"
+  },
+  {
+    "label": "Outages",
+    "href": "#/outages",
+    "icon": "exclamation-triangle",
+    "badge": 1
+  },
+  {
+    "label": "Maintenance",
+    "href": "#/maintenance",
+    "icon": "tools"
+  },
+  {
+    "label": "Consumption",
+    "href": "#/consumption",
+    "icon": "plug"
+  },
+  {
+    "label": "Sustainability",
+    "href": "#/sustainability",
+    "icon": "leaf"
+  }
+]

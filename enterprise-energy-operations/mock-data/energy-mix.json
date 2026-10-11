@@ -1,0 +1,33 @@
+{
+  "totalProductionMwh": 1284.6,
+  "sources": [
+    {
+      "type": "Solar",
+      "icon": "sun",
+      "sharePercent": 48.2,
+      "productionMwh": 619.2,
+      "color": "#4e61d3"
+    },
+    {
+      "type": "Wind",
+      "icon": "wind",
+      "sharePercent": 32.6,
+      "productionMwh": 418.8,
+      "color": "#8898ed"
+    },
+    {
+      "type": "Hydro",
+      "icon": "droplet",
+      "sharePercent": 15.4,
+      "productionMwh": 197.8,
+      "color": "#54b8a4"
+    },
+    {
+      "type": "Storage",
+      "icon": "battery-charging",
+      "sharePercent": 3.8,
+      "productionMwh": 48.8,
+      "color": "#d6e8e2"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "name": "Suncrest Solar Park",
+      "location": "Phoenix, Arizona",
+      "type": "Solar",
+      "icon": "sun",
+      "capacity": 120,
+      "production": 98.4,
+      "status": "Operational",
+      "availability": 99.8,
+      "owner": "Arjun Poluru"
+    },
+    {
+      "name": "Westhaven Wind Farm",
+      "location": "Abilene, Texas",
+      "type": "Wind",
+      "icon": "wind",
+      "capacity": 180,
+      "production": 142.6,
+      "status": "Operational",
+      "availability": 99.5,
+      "owner": "Maya Poluru"
+    },
+    {
+      "name": "Clearwater Hydro",
+      "location": "Bend, Oregon",
+      "type": "Hydro",
+      "icon": "droplet",
+      "capacity": 85,
+      "production": 72.8,
+      "status": "Operational",
+      "availability": 99.9,
+      "owner": "Rohan Poluru"
+    },
+    {
+      "name": "Mesa Valley Solar",
+      "location": "Tucson, Arizona",
+      "type": "Solar",
+      "icon": "sun",
+      "capacity": 95,
+      "production": 64.2,
+      "status": "Maintenance",
+      "availability": 96.4,
+      "owner": "Neha Poluru"
+    },
+    {
+      "name": "Northshore Wind",
+      "location": "Amarillo, Texas",
+      "type": "Wind",
+      "icon": "wind",
+      "capacity": 150,
+      "production": 108.5,
+      "status": "Operational",
+      "availability": 99.6,
+      "owner": "Kiran Poluru"
+    },
+    {
+      "name": "Redwood Battery Storage",
+      "location": "Fresno, California",
+      "type": "Storage",
+      "icon": "battery-charging",
+      "capacity": 60,
+      "production": 38.1,
+      "status": "Outage",
+      "availability": 94.2,
+      "owner": "Isha Poluru"
+    }
+  ],
+  "filters": {
+    "source": [
+      {
+        "label": "All sources",
+        "value": "all"
+      },
+      {
+        "label": "Solar",
+        "value": "Solar"
+      },
+      {
+        "label": "Wind",
+        "value": "Wind"
+      },
+      {
+        "label": "Hydro",
+        "value": "Hydro"
+      },
+      {
+        "label": "Storage",
+        "value": "Storage"
+      }
+    ],
+    "defaultSource": "all",
+    "searchPlaceholder": "Search sites or owners…"
+  },
+  "overviewPreviewCount": 4,
+  "totalSites": 6,
+  "updatedAt": "Sep 16, 2026 · 09:41 AM"
+}

@@ -1,0 +1,19 @@
+{
+  "operations": [
+    "Sites",
+    "Production",
+    "Outages",
+    "Maintenance"
+  ],
+  "performanceAndImpact": [
+    "Overview",
+    "Consumption",
+    "Sustainability"
+  ],
+  "highlight": {
+    "eyebrow": "TERRA WORKSPACE",
+    "title": "Your energy. One clear view.",
+    "description": "Monitor assets, manage maintenance, and measure your portfolio’s impact.",
+    "exportAction": "Export portfolio"
+  }
+}
