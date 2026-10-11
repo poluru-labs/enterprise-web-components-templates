@@ -1,0 +1,17 @@
+{
+  "productName": "Gather",
+  "productLine": "Events",
+  "workspaceName": "Alder Hall",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@alderhall.example",
+    "role": "Head of events"
+  },
+  "workspace": {
+    "name": "Alder Hall",
+    "period": "FY26 Q3 · week 12",
+    "timezone": "America / Chicago",
+    "close": "Summit ends 18 Sep 2026"
+  },
+  "brandColor": "#129990"
+}

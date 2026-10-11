@@ -1,0 +1,459 @@
+{
+  "records": [
+    {
+      "label": "Northline Summit",
+      "description": "GAT-1842 · Live",
+      "owner": "Mira Poluru",
+      "type": "Event",
+      "href": "#/event/ev_north"
+    },
+    {
+      "label": "Harbor Product Day",
+      "description": "GAT-1851 · Upcoming",
+      "owner": "Kavya Poluru",
+      "type": "Event",
+      "href": "#/event/ev_harbor"
+    },
+    {
+      "label": "Lattice Ops Forum",
+      "description": "GAT-1860 · Upcoming",
+      "owner": "Hana Poluru",
+      "type": "Event",
+      "href": "#/event/ev_lattice"
+    },
+    {
+      "label": "Fold Paper breakfast",
+      "description": "GAT-1828 · Complete",
+      "owner": "Elena Poluru",
+      "type": "Event",
+      "href": "#/event/ev_fold"
+    },
+    {
+      "label": "Brightwell board dinner",
+      "description": "GAT-1866 · Pending",
+      "owner": "Arjun Poluru",
+      "type": "Event",
+      "href": "#/event/ev_bright"
+    },
+    {
+      "label": "Parks volunteer night",
+      "description": "GAT-1821 · Complete",
+      "owner": "Luca Poluru",
+      "type": "Event",
+      "href": "#/event/ev_parks"
+    },
+    {
+      "label": "Alder Health briefing",
+      "description": "GAT-1870 · Upcoming",
+      "owner": "Sahana Poluru",
+      "type": "Event",
+      "href": "#/event/ev_alder"
+    },
+    {
+      "label": "Pine & Copper salon",
+      "description": "GAT-1874 · Draft",
+      "owner": "Priya Poluru",
+      "type": "Event",
+      "href": "#/event/ev_pine"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Northline Summit · Checked in",
+      "owner": "Kavya Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Northline Summit · Checked in",
+      "owner": "Hana Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Northline Summit · Checked in",
+      "owner": "Arjun Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Northline Summit · Checked in",
+      "owner": "Elena Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Northline Summit · Registered",
+      "owner": "Rohan Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Harbor Product Day · Registered",
+      "owner": "Nikhil Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "Alder Health briefing · Waitlist",
+      "owner": "Sahana Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "Parks volunteer night · Attended",
+      "owner": "Luca Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "Brightwell board dinner · Registered",
+      "owner": "Anika Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Lattice Ops Forum · Registered",
+      "owner": "Dev Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Harbor Product Day · Registered",
+      "owner": "Priya Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "Northline Summit · Checked in",
+      "owner": "Mira Poluru",
+      "type": "Registration",
+      "href": "#/registrations"
+    },
+    {
+      "label": "Hall A",
+      "description": "700 seats · In use",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Hall B",
+      "description": "280 seats · Hold",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "River Room",
+      "description": "200 seats · Booked",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Gallery",
+      "description": "80 seats · Open",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Oak Lounge",
+      "description": "40 seats · Booked",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Studio 2",
+      "description": "60 seats · Booked",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Courtyard",
+      "description": "120 seats · Open",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Green Room",
+      "description": "16 seats · In use",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Press nook",
+      "description": "12 seats · In use",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Breakout 4",
+      "description": "32 seats · Open",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Board room",
+      "description": "18 seats · Hold",
+      "owner": "Luca Poluru",
+      "type": "Venue",
+      "href": "#/venues"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "Welcome and house rules · 09:00",
+      "owner": "Mira Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Pipeline after the merge · 10:15",
+      "owner": "Kavya Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Support load in week 9 · 11:30",
+      "owner": "Hana Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Q3 close read-through · 14:00",
+      "owner": "Arjun Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "1.8 adoption clinic · 09:30",
+      "owner": "Nikhil Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Onboarding first 60 · 13:00",
+      "owner": "Elena Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Fulfillment SLA · 10:00",
+      "owner": "Rohan Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "People analytics hour · 15:00",
+      "owner": "Sahana Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Customer voice · 16:00",
+      "owner": "Priya Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Platform reliability · 11:15",
+      "owner": "Dev Poluru",
+      "type": "Speaker",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Harbor & Co.",
+      "description": "Title · Live",
+      "owner": "Kavya Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Brightwell Bank",
+      "description": "Title · Live",
+      "owner": "Arjun Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Lumen Forge",
+      "description": "Gold · Confirmed",
+      "owner": "Nikhil Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Alder Health",
+      "description": "Gold · Confirmed",
+      "owner": "Sahana Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Northline Freight",
+      "description": "Silver · Pending",
+      "owner": "Hana Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Fold Paper",
+      "description": "Community · Complete",
+      "owner": "Elena Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Rivermark Labs",
+      "description": "Silver · Confirmed",
+      "owner": "Priya Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Fieldwork Studio",
+      "description": "Community · Draft",
+      "owner": "Luca Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Pine & Copper",
+      "description": "Community · Pending",
+      "owner": "Priya Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Lattice Energy",
+      "description": "Gold · Watch",
+      "owner": "Rohan Poluru",
+      "type": "Sponsor",
+      "href": "#/sponsors"
+    },
+    {
+      "label": "Check-in pack",
+      "description": "CSV · 16 Sep 2026",
+      "owner": "Elena Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Sponsor book",
+      "description": "XLSX · 15 Sep 2026",
+      "owner": "Arjun Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Speaker grid",
+      "description": "PDF · 14 Sep 2026",
+      "owner": "Sahana Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Room utilization",
+      "description": "XLSX · 16 Sep 2026",
+      "owner": "Luca Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Registration dump",
+      "description": "CSV · 16 Sep 2026",
+      "owner": "Anika Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Post-show appendix",
+      "description": "PDF · 11 Sep 2026",
+      "owner": "Mira Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Overview",
+      "description": "House pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Northline Summit",
+      "description": "Live · Hall A",
+      "href": "#/event/ev_north",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Registrations",
+      "description": "1,284 guests",
+      "href": "#/registrations",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Schedule",
+      "description": "14 sessions today",
+      "href": "#/schedule",
+      "icon": "clock",
+      "type": "Jump"
+    },
+    {
+      "label": "Speakers",
+      "description": "42 locked",
+      "href": "#/speakers",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Sponsors",
+      "description": "$186k",
+      "href": "#/sponsors",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Attendance",
+      "description": "76% in",
+      "href": "#/attendance",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

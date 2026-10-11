@@ -1,0 +1,58 @@
+{
+  "eventOptions": [
+    {
+      "label": "Northline Summit",
+      "value": "ev_north"
+    },
+    {
+      "label": "Harbor Product Day",
+      "value": "ev_harbor"
+    },
+    {
+      "label": "Lattice Ops Forum",
+      "value": "ev_lattice"
+    },
+    {
+      "label": "Fold Paper breakfast",
+      "value": "ev_fold"
+    },
+    {
+      "label": "Brightwell board dinner",
+      "value": "ev_bright"
+    },
+    {
+      "label": "Parks volunteer night",
+      "value": "ev_parks"
+    },
+    {
+      "label": "Alder Health briefing",
+      "value": "ev_alder"
+    },
+    {
+      "label": "Pine & Copper salon",
+      "value": "ev_pine"
+    }
+  ],
+  "defaultEventId": "ev_north",
+  "guestPlaceholder": "Rohan Poluru",
+  "gateOptions": [
+    {
+      "label": "Foyer A",
+      "value": "foyer-a"
+    },
+    {
+      "label": "Foyer B",
+      "value": "foyer-b"
+    },
+    {
+      "label": "Gallery",
+      "value": "gallery"
+    },
+    {
+      "label": "Courtyard",
+      "value": "courtyard"
+    }
+  ],
+  "defaultGate": "foyer-a",
+  "notePlaceholder": "Badge reprint, plus-one, or late arrival."
+}

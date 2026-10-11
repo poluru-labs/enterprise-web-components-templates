@@ -1,0 +1,230 @@
+{
+  "columns": [
+    {
+      "key": "code",
+      "label": "Event",
+      "sortable": true
+    },
+    {
+      "key": "name",
+      "label": "Name",
+      "sortable": true
+    },
+    {
+      "key": "venue",
+      "label": "Venue"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "registered",
+      "label": "Registered"
+    },
+    {
+      "key": "start",
+      "label": "Start"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ev_north",
+      "code": "GAT-1842",
+      "name": "Northline Summit",
+      "type": "Conference",
+      "venue": "Hall A",
+      "venueId": "vn_halla",
+      "start": "16 Sep 2026",
+      "end": "18 Sep 2026",
+      "status": "Live",
+      "registered": 640,
+      "capacity": 700,
+      "checkIn": 512,
+      "owner": "Mira Poluru",
+      "track": "Flagship"
+    },
+    {
+      "id": "ev_harbor",
+      "code": "GAT-1851",
+      "name": "Harbor Product Day",
+      "type": "Workshop",
+      "venue": "River Room",
+      "venueId": "vn_river",
+      "start": "24 Sep 2026",
+      "end": "24 Sep 2026",
+      "status": "Upcoming",
+      "registered": 180,
+      "capacity": 200,
+      "checkIn": 0,
+      "owner": "Kavya Poluru",
+      "track": "Product"
+    },
+    {
+      "id": "ev_lattice",
+      "code": "GAT-1860",
+      "name": "Lattice Ops Forum",
+      "type": "Forum",
+      "venue": "Hall B",
+      "venueId": "vn_hallb",
+      "start": "2 Oct 2026",
+      "end": "3 Oct 2026",
+      "status": "Upcoming",
+      "registered": 210,
+      "capacity": 280,
+      "checkIn": 0,
+      "owner": "Hana Poluru",
+      "track": "Ops"
+    },
+    {
+      "id": "ev_fold",
+      "code": "GAT-1828",
+      "name": "Fold Paper breakfast",
+      "type": "Breakfast",
+      "venue": "Gallery",
+      "venueId": "vn_gallery",
+      "start": "8 Sep 2026",
+      "end": "8 Sep 2026",
+      "status": "Complete",
+      "registered": 64,
+      "capacity": 80,
+      "checkIn": 58,
+      "owner": "Elena Poluru",
+      "track": "Community"
+    },
+    {
+      "id": "ev_bright",
+      "code": "GAT-1866",
+      "name": "Brightwell board dinner",
+      "type": "Dinner",
+      "venue": "Oak Lounge",
+      "venueId": "vn_oak",
+      "start": "9 Oct 2026",
+      "end": "9 Oct 2026",
+      "status": "Pending",
+      "registered": 28,
+      "capacity": 40,
+      "checkIn": 0,
+      "owner": "Arjun Poluru",
+      "track": "Exec"
+    },
+    {
+      "id": "ev_parks",
+      "code": "GAT-1821",
+      "name": "Parks volunteer night",
+      "type": "Community",
+      "venue": "Courtyard",
+      "venueId": "vn_court",
+      "start": "4 Sep 2026",
+      "end": "4 Sep 2026",
+      "status": "Complete",
+      "registered": 96,
+      "capacity": 120,
+      "checkIn": 91,
+      "owner": "Luca Poluru",
+      "track": "Community"
+    },
+    {
+      "id": "ev_alder",
+      "code": "GAT-1870",
+      "name": "Alder Health briefing",
+      "type": "Briefing",
+      "venue": "Studio 2",
+      "venueId": "vn_studio",
+      "start": "29 Sep 2026",
+      "end": "29 Sep 2026",
+      "status": "Upcoming",
+      "registered": 48,
+      "capacity": 60,
+      "checkIn": 0,
+      "owner": "Sahana Poluru",
+      "track": "Health"
+    },
+    {
+      "id": "ev_pine",
+      "code": "GAT-1874",
+      "name": "Pine & Copper salon",
+      "type": "Salon",
+      "venue": "Oak Lounge",
+      "venueId": "vn_oak",
+      "start": "15 Oct 2026",
+      "end": "15 Oct 2026",
+      "status": "Draft",
+      "registered": 18,
+      "capacity": 36,
+      "checkIn": 0,
+      "owner": "Priya Poluru",
+      "track": "Community"
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "Live",
+        "value": "Live"
+      },
+      {
+        "label": "Upcoming",
+        "value": "Upcoming"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      },
+      {
+        "label": "Complete",
+        "value": "Complete"
+      },
+      {
+        "label": "Draft",
+        "value": "Draft"
+      }
+    ],
+    "type": [
+      {
+        "label": "All types",
+        "value": "all"
+      },
+      {
+        "label": "Conference",
+        "value": "Conference"
+      },
+      {
+        "label": "Workshop",
+        "value": "Workshop"
+      },
+      {
+        "label": "Forum",
+        "value": "Forum"
+      },
+      {
+        "label": "Breakfast",
+        "value": "Breakfast"
+      },
+      {
+        "label": "Dinner",
+        "value": "Dinner"
+      },
+      {
+        "label": "Community",
+        "value": "Community"
+      },
+      {
+        "label": "Briefing",
+        "value": "Briefing"
+      },
+      {
+        "label": "Salon",
+        "value": "Salon"
+      }
+    ]
+  }
+}

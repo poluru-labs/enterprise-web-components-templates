@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Live",
+    "value": "1",
+    "delta": "Northline Summit",
+    "trend": "flat",
+    "href": "#/events"
+  },
+  {
+    "label": "Registered",
+    "value": "1,284",
+    "delta": "+86 this week",
+    "trend": "up",
+    "href": "#/registrations"
+  },
+  {
+    "label": "Check-in",
+    "value": "76%",
+    "delta": "976 of 1,284",
+    "trend": "up",
+    "href": "#/attendance"
+  },
+  {
+    "label": "Speakers",
+    "value": "42",
+    "delta": "3 pending",
+    "trend": "flat",
+    "href": "#/speakers"
+  },
+  {
+    "label": "Sponsors",
+    "value": "$186k",
+    "delta": "12 logos",
+    "trend": "up",
+    "href": "#/sponsors"
+  },
+  {
+    "label": "Rooms",
+    "value": "8/11",
+    "delta": "3 hold",
+    "trend": "flat",
+    "href": "#/venues"
+  }
+]

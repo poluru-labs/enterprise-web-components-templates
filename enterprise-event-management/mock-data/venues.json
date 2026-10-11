@@ -1,0 +1,210 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Room",
+      "sortable": true
+    },
+    {
+      "key": "floor",
+      "label": "Floor"
+    },
+    {
+      "key": "seats",
+      "label": "Seats"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "today",
+      "label": "Today"
+    },
+    {
+      "key": "av",
+      "label": "AV"
+    }
+  ],
+  "rows": [
+    {
+      "id": "vn_halla",
+      "name": "Hall A",
+      "floor": "1",
+      "seats": 700,
+      "status": "In use",
+      "today": "Northline Summit",
+      "av": "IMAG + 4 mics",
+      "hold": "Live"
+    },
+    {
+      "id": "vn_hallb",
+      "name": "Hall B",
+      "floor": "1",
+      "seats": 280,
+      "status": "Hold",
+      "today": "Lattice Ops (Oct)",
+      "av": "2 screens",
+      "hold": "2 Oct"
+    },
+    {
+      "id": "vn_river",
+      "name": "River Room",
+      "floor": "2",
+      "seats": 200,
+      "status": "Booked",
+      "today": "Harbor Product Day",
+      "av": "Workshop kits",
+      "hold": "24 Sep"
+    },
+    {
+      "id": "vn_gallery",
+      "name": "Gallery",
+      "floor": "2",
+      "seats": 80,
+      "status": "Open",
+      "today": "—",
+      "av": "Track lighting",
+      "hold": "—"
+    },
+    {
+      "id": "vn_oak",
+      "name": "Oak Lounge",
+      "floor": "3",
+      "seats": 40,
+      "status": "Booked",
+      "today": "Board dinner hold",
+      "av": "Soft light",
+      "hold": "9 Oct"
+    },
+    {
+      "id": "vn_studio",
+      "name": "Studio 2",
+      "floor": "3",
+      "seats": 60,
+      "status": "Booked",
+      "today": "Alder briefing",
+      "av": "Record kit",
+      "hold": "29 Sep"
+    },
+    {
+      "id": "vn_court",
+      "name": "Courtyard",
+      "floor": "G",
+      "seats": 120,
+      "status": "Open",
+      "today": "—",
+      "av": "Outdoor PA",
+      "hold": "—"
+    },
+    {
+      "id": "vn_green",
+      "name": "Green Room",
+      "floor": "1",
+      "seats": 16,
+      "status": "In use",
+      "today": "Speaker hold",
+      "av": "Mics + tea",
+      "hold": "Live"
+    },
+    {
+      "id": "vn_press",
+      "name": "Press nook",
+      "floor": "1",
+      "seats": 12,
+      "status": "In use",
+      "today": "Summit press",
+      "av": "Backdrop",
+      "hold": "Live"
+    },
+    {
+      "id": "vn_break",
+      "name": "Breakout 4",
+      "floor": "2",
+      "seats": 32,
+      "status": "Open",
+      "today": "—",
+      "av": "TV cart",
+      "hold": "—"
+    },
+    {
+      "id": "vn_board",
+      "name": "Board room",
+      "floor": "3",
+      "seats": 18,
+      "status": "Hold",
+      "today": "Mira Poluru",
+      "av": "Poly studio",
+      "hold": "Today 16:00"
+    }
+  ],
+  "tree": [
+    {
+      "id": "live",
+      "label": "Live",
+      "children": [
+        {
+          "id": "halla",
+          "label": "Hall A",
+          "href": "#/venues"
+        },
+        {
+          "id": "green",
+          "label": "Green Room",
+          "href": "#/venues"
+        },
+        {
+          "id": "press",
+          "label": "Press nook",
+          "href": "#/venues"
+        }
+      ]
+    },
+    {
+      "id": "ahead",
+      "label": "Ahead",
+      "children": [
+        {
+          "id": "river",
+          "label": "River Room",
+          "href": "#/venues"
+        },
+        {
+          "id": "studio",
+          "label": "Studio 2",
+          "href": "#/venues"
+        },
+        {
+          "id": "oak",
+          "label": "Oak Lounge",
+          "href": "#/venues"
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "children": [
+        {
+          "id": "gallery",
+          "label": "Gallery",
+          "href": "#/venues"
+        },
+        {
+          "id": "court",
+          "label": "Courtyard",
+          "href": "#/venues"
+        },
+        {
+          "id": "break",
+          "label": "Breakout 4",
+          "href": "#/venues"
+        }
+      ]
+    }
+  ],
+  "expandedTreeIds": {
+    "live": true,
+    "ahead": true
+  }
+}

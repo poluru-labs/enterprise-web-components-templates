@@ -1,0 +1,299 @@
+{
+  "periodOptions": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Q3",
+      "value": "q3"
+    },
+    {
+      "label": "FY26",
+      "value": "fy"
+    }
+  ],
+  "defaultPeriod": "q3",
+  "foyerAlert": {
+    "title": "Foyer B check-in is lagging",
+    "message": "Printer 2 jammed at 08:41. Elena Poluru owns the desk. 200 of 350 scanned."
+  },
+  "checkInTrend": {
+    "label": "Check-in",
+    "unit": "percent",
+    "weeks": 12,
+    "values": [
+      42,
+      48,
+      51,
+      55,
+      58,
+      61,
+      64,
+      67,
+      70,
+      72,
+      74,
+      76
+    ],
+    "note": "76% of 1,284 guests are in. Target is 80% by lunch. Foyer A is ahead; Foyer B is the drag."
+  },
+  "houseLoad": {
+    "checkInPercent": 76,
+    "summitGuestsCheckedIn": 512,
+    "summitGuestsRegistered": 640,
+    "note": "512 of 640 Summit guests have badges. Elena Poluru owns the desk."
+  },
+  "liveBookPreview": [
+    {
+      "id": "ev_north",
+      "code": "GAT-1842",
+      "name": "Northline Summit",
+      "type": "Conference",
+      "venue": "Hall A",
+      "venueId": "vn_halla",
+      "start": "16 Sep 2026",
+      "end": "18 Sep 2026",
+      "status": "Live",
+      "registered": 640,
+      "capacity": 700,
+      "checkIn": 512,
+      "owner": "Mira Poluru",
+      "track": "Flagship"
+    },
+    {
+      "id": "ev_harbor",
+      "code": "GAT-1851",
+      "name": "Harbor Product Day",
+      "type": "Workshop",
+      "venue": "River Room",
+      "venueId": "vn_river",
+      "start": "24 Sep 2026",
+      "end": "24 Sep 2026",
+      "status": "Upcoming",
+      "registered": 180,
+      "capacity": 200,
+      "checkIn": 0,
+      "owner": "Kavya Poluru",
+      "track": "Product"
+    },
+    {
+      "id": "ev_lattice",
+      "code": "GAT-1860",
+      "name": "Lattice Ops Forum",
+      "type": "Forum",
+      "venue": "Hall B",
+      "venueId": "vn_hallb",
+      "start": "2 Oct 2026",
+      "end": "3 Oct 2026",
+      "status": "Upcoming",
+      "registered": 210,
+      "capacity": 280,
+      "checkIn": 0,
+      "owner": "Hana Poluru",
+      "track": "Ops"
+    },
+    {
+      "id": "ev_fold",
+      "code": "GAT-1828",
+      "name": "Fold Paper breakfast",
+      "type": "Breakfast",
+      "venue": "Gallery",
+      "venueId": "vn_gallery",
+      "start": "8 Sep 2026",
+      "end": "8 Sep 2026",
+      "status": "Complete",
+      "registered": 64,
+      "capacity": 80,
+      "checkIn": 58,
+      "owner": "Elena Poluru",
+      "track": "Community"
+    },
+    {
+      "id": "ev_bright",
+      "code": "GAT-1866",
+      "name": "Brightwell board dinner",
+      "type": "Dinner",
+      "venue": "Oak Lounge",
+      "venueId": "vn_oak",
+      "start": "9 Oct 2026",
+      "end": "9 Oct 2026",
+      "status": "Pending",
+      "registered": 28,
+      "capacity": 40,
+      "checkIn": 0,
+      "owner": "Arjun Poluru",
+      "track": "Exec"
+    },
+    {
+      "id": "ev_parks",
+      "code": "GAT-1821",
+      "name": "Parks volunteer night",
+      "type": "Community",
+      "venue": "Courtyard",
+      "venueId": "vn_court",
+      "start": "4 Sep 2026",
+      "end": "4 Sep 2026",
+      "status": "Complete",
+      "registered": 96,
+      "capacity": 120,
+      "checkIn": 91,
+      "owner": "Luca Poluru",
+      "track": "Community"
+    }
+  ],
+  "watchList": [
+    {
+      "label": "Foyer B printer jam",
+      "description": "Elena Poluru · 57% scanned",
+      "icon": "alert-triangle",
+      "href": "#/attendance"
+    },
+    {
+      "label": "Speaker travel pending",
+      "description": "Sahana Poluru · 3 names",
+      "icon": "clock",
+      "href": "#/speakers"
+    },
+    {
+      "label": "Brightwell dinner hold",
+      "description": "Arjun Poluru · Oak Lounge",
+      "icon": "folder",
+      "href": "#/event/ev_bright"
+    },
+    {
+      "label": "Kavya pipeline talk",
+      "description": "Hall A · 10:15",
+      "icon": "star",
+      "href": "#/schedule"
+    }
+  ],
+  "recentBoard": {
+    "columns": [
+      {
+        "key": "code",
+        "label": "ID"
+      },
+      {
+        "key": "name",
+        "label": "Event"
+      },
+      {
+        "key": "owner",
+        "label": "Owner"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      }
+    ],
+    "rows": [
+      {
+        "code": "GAT-1842",
+        "name": "Northline Summit",
+        "owner": "Mira Poluru",
+        "status": "Live"
+      },
+      {
+        "code": "GAT-1851",
+        "name": "Harbor Product Day",
+        "owner": "Kavya Poluru",
+        "status": "Upcoming"
+      },
+      {
+        "code": "GAT-1860",
+        "name": "Lattice Ops Forum",
+        "owner": "Hana Poluru",
+        "status": "Upcoming"
+      },
+      {
+        "code": "GAT-1828",
+        "name": "Fold Paper breakfast",
+        "owner": "Elena Poluru",
+        "status": "Complete"
+      },
+      {
+        "code": "GAT-1866",
+        "name": "Brightwell board dinner",
+        "owner": "Arjun Poluru",
+        "status": "Pending"
+      }
+    ]
+  },
+  "houseMix": {
+    "liveCount": 1,
+    "totalEvents": 8,
+    "groups": [
+      {
+        "key": "Live",
+        "count": 1,
+        "percent": 13,
+        "events": [
+          {
+            "id": "ev_north",
+            "name": "Northline Summit",
+            "code": "GAT-1842",
+            "status": "Live"
+          }
+        ]
+      },
+      {
+        "key": "Upcoming",
+        "count": 5,
+        "percent": 63,
+        "events": [
+          {
+            "id": "ev_harbor",
+            "name": "Harbor Product Day",
+            "code": "GAT-1851",
+            "status": "Upcoming"
+          },
+          {
+            "id": "ev_lattice",
+            "name": "Lattice Ops Forum",
+            "code": "GAT-1860",
+            "status": "Upcoming"
+          },
+          {
+            "id": "ev_bright",
+            "name": "Brightwell board dinner",
+            "code": "GAT-1866",
+            "status": "Pending"
+          },
+          {
+            "id": "ev_alder",
+            "name": "Alder Health briefing",
+            "code": "GAT-1870",
+            "status": "Upcoming"
+          },
+          {
+            "id": "ev_pine",
+            "name": "Pine & Copper salon",
+            "code": "GAT-1874",
+            "status": "Draft"
+          }
+        ]
+      },
+      {
+        "key": "Complete",
+        "count": 2,
+        "percent": 25,
+        "events": [
+          {
+            "id": "ev_fold",
+            "name": "Fold Paper breakfast",
+            "code": "GAT-1828",
+            "status": "Complete"
+          },
+          {
+            "id": "ev_parks",
+            "name": "Parks volunteer night",
+            "code": "GAT-1821",
+            "status": "Complete"
+          }
+        ]
+      }
+    ]
+  },
+  "weekBadge": "Week 12"
+}

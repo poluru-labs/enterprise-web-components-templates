@@ -1,0 +1,183 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Speaker",
+      "sortable": true
+    },
+    {
+      "key": "talk",
+      "label": "Session"
+    },
+    {
+      "key": "event",
+      "label": "Event"
+    },
+    {
+      "key": "slot",
+      "label": "Slot"
+    },
+    {
+      "key": "room",
+      "label": "Room"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "id": "sp_mira",
+      "name": "Mira Poluru",
+      "talk": "Welcome and house rules",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "slot": "09:00",
+      "room": "Hall A",
+      "status": "On stage",
+      "rating": 5
+    },
+    {
+      "id": "sp_kavya",
+      "name": "Kavya Poluru",
+      "talk": "Pipeline after the merge",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "slot": "10:15",
+      "room": "Hall A",
+      "status": "Confirmed",
+      "rating": 5
+    },
+    {
+      "id": "sp_hana",
+      "name": "Hana Poluru",
+      "talk": "Support load in week 9",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "slot": "11:30",
+      "room": "Hall B",
+      "status": "Confirmed",
+      "rating": 4
+    },
+    {
+      "id": "sp_arjun",
+      "name": "Arjun Poluru",
+      "talk": "Q3 close read-through",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "slot": "14:00",
+      "room": "Hall A",
+      "status": "Confirmed",
+      "rating": 5
+    },
+    {
+      "id": "sp_nikhil",
+      "name": "Nikhil Poluru",
+      "talk": "1.8 adoption clinic",
+      "eventId": "ev_harbor",
+      "event": "Harbor Product Day",
+      "slot": "09:30",
+      "room": "River Room",
+      "status": "Pending",
+      "rating": 4
+    },
+    {
+      "id": "sp_elena",
+      "name": "Elena Poluru",
+      "talk": "Onboarding first 60",
+      "eventId": "ev_harbor",
+      "event": "Harbor Product Day",
+      "slot": "13:00",
+      "room": "River Room",
+      "status": "Confirmed",
+      "rating": 5
+    },
+    {
+      "id": "sp_rohan",
+      "name": "Rohan Poluru",
+      "talk": "Fulfillment SLA",
+      "eventId": "ev_lattice",
+      "event": "Lattice Ops Forum",
+      "slot": "10:00",
+      "room": "Hall B",
+      "status": "Confirmed",
+      "rating": 4
+    },
+    {
+      "id": "sp_sahana",
+      "name": "Sahana Poluru",
+      "talk": "People analytics hour",
+      "eventId": "ev_alder",
+      "event": "Alder Health briefing",
+      "slot": "15:00",
+      "room": "Studio 2",
+      "status": "Pending",
+      "rating": 4
+    },
+    {
+      "id": "sp_priya",
+      "name": "Priya Poluru",
+      "talk": "Customer voice",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "slot": "16:00",
+      "room": "Hall A",
+      "status": "Confirmed",
+      "rating": 5
+    },
+    {
+      "id": "sp_dev",
+      "name": "Dev Poluru",
+      "talk": "Platform reliability",
+      "eventId": "ev_lattice",
+      "event": "Lattice Ops Forum",
+      "slot": "11:15",
+      "room": "Hall B",
+      "status": "Pending",
+      "rating": 4
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "On stage",
+        "value": "On stage"
+      },
+      {
+        "label": "Confirmed",
+        "value": "Confirmed"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      }
+    ],
+    "event": [
+      {
+        "label": "All events",
+        "value": "all"
+      },
+      {
+        "label": "Northline Summit",
+        "value": "Northline Summit"
+      },
+      {
+        "label": "Harbor Product Day",
+        "value": "Harbor Product Day"
+      },
+      {
+        "label": "Lattice Ops Forum",
+        "value": "Lattice Ops Forum"
+      },
+      {
+        "label": "Alder Health briefing",
+        "value": "Alder Health briefing"
+      }
+    ]
+  }
+}

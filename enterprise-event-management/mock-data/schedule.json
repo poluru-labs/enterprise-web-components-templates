@@ -1,0 +1,134 @@
+{
+  "columns": [
+    {
+      "key": "start",
+      "label": "Start",
+      "sortable": true
+    },
+    {
+      "key": "end",
+      "label": "End"
+    },
+    {
+      "key": "title",
+      "label": "Session"
+    },
+    {
+      "key": "room",
+      "label": "Room"
+    },
+    {
+      "key": "speaker",
+      "label": "Speaker"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ss_1",
+      "eventId": "ev_north",
+      "title": "Doors and badge print",
+      "start": "08:00",
+      "end": "08:45",
+      "room": "Foyer",
+      "speaker": "Elena Poluru",
+      "status": "Done"
+    },
+    {
+      "id": "ss_2",
+      "eventId": "ev_north",
+      "title": "Welcome and house rules",
+      "start": "09:00",
+      "end": "09:30",
+      "room": "Hall A",
+      "speaker": "Mira Poluru",
+      "status": "Live"
+    },
+    {
+      "id": "ss_3",
+      "eventId": "ev_north",
+      "title": "Pipeline after the merge",
+      "start": "10:15",
+      "end": "11:00",
+      "room": "Hall A",
+      "speaker": "Kavya Poluru",
+      "status": "Next"
+    },
+    {
+      "id": "ss_4",
+      "eventId": "ev_north",
+      "title": "Support load in week 9",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Hall B",
+      "speaker": "Hana Poluru",
+      "status": "Scheduled"
+    },
+    {
+      "id": "ss_5",
+      "eventId": "ev_north",
+      "title": "Lunch in the courtyard",
+      "start": "12:15",
+      "end": "13:15",
+      "room": "Courtyard",
+      "speaker": "Luca Poluru",
+      "status": "Scheduled"
+    },
+    {
+      "id": "ss_6",
+      "eventId": "ev_north",
+      "title": "Q3 close read-through",
+      "start": "14:00",
+      "end": "14:45",
+      "room": "Hall A",
+      "speaker": "Arjun Poluru",
+      "status": "Scheduled"
+    },
+    {
+      "id": "ss_7",
+      "eventId": "ev_north",
+      "title": "Customer voice",
+      "start": "16:00",
+      "end": "16:45",
+      "room": "Hall A",
+      "speaker": "Priya Poluru",
+      "status": "Scheduled"
+    },
+    {
+      "id": "ss_8",
+      "eventId": "ev_harbor",
+      "title": "1.8 adoption clinic",
+      "start": "09:30",
+      "end": "11:00",
+      "room": "River Room",
+      "speaker": "Nikhil Poluru",
+      "status": "Scheduled"
+    }
+  ],
+  "roomFilter": [
+    {
+      "label": "Foyer",
+      "value": "Foyer"
+    },
+    {
+      "label": "Hall A",
+      "value": "Hall A"
+    },
+    {
+      "label": "Hall B",
+      "value": "Hall B"
+    },
+    {
+      "label": "Courtyard",
+      "value": "Courtyard"
+    },
+    {
+      "label": "River Room",
+      "value": "River Room"
+    }
+  ],
+  "defaultRoom": "Hall A"
+}

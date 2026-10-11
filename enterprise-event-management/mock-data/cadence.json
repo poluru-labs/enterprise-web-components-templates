@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Hall A keynote",
+    "description": "Mira Poluru · Welcome",
+    "timestamp": "16 Sep",
+    "icon": "star",
+    "status": "Today"
+  },
+  {
+    "label": "Foyer B check-in lag",
+    "description": "Elena Poluru · 57%",
+    "timestamp": "16 Sep",
+    "icon": "alert-triangle",
+    "status": "Today"
+  },
+  {
+    "label": "Kavya pipeline talk",
+    "description": "Hall A · 10:15",
+    "timestamp": "16 Sep",
+    "icon": "clock",
+    "status": "Next"
+  },
+  {
+    "label": "Harbor Product Day load-in",
+    "description": "Nikhil Poluru · River Room",
+    "timestamp": "23 Sep",
+    "icon": "folder",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Brightwell dinner hold",
+    "description": "Arjun Poluru · Oak Lounge",
+    "timestamp": "9 Oct",
+    "icon": "check",
+    "status": "Scheduled"
+  },
+  {
+    "label": "Speaker travel pending",
+    "description": "Sahana Poluru · 3 names",
+    "timestamp": "18 Sep",
+    "icon": "user",
+    "status": "Scheduled"
+  }
+]

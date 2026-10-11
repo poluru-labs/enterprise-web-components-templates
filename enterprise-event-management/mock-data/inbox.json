@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Foyer B is at 57%",
+    "description": "Elena Poluru · printer 2 jammed",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Three speakers pending travel",
+    "description": "Sahana Poluru · Nikhil, Dev, Sahana",
+    "icon": "clock"
+  },
+  {
+    "label": "Harbor booth is live",
+    "description": "Kavya Poluru · Foyer A",
+    "icon": "check"
+  },
+  {
+    "label": "Oak Lounge dinner still pending",
+    "description": "Arjun Poluru · Brightwell",
+    "icon": "folder"
+  }
+]

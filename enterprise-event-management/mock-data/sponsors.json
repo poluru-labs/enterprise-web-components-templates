@@ -1,0 +1,197 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Sponsor",
+      "sortable": true
+    },
+    {
+      "key": "tier",
+      "label": "Tier"
+    },
+    {
+      "key": "amount",
+      "label": "Amount"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "booth",
+      "label": "Booth"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    }
+  ],
+  "rows": [
+    {
+      "id": "spn_harbor",
+      "name": "Harbor & Co.",
+      "tier": "Title",
+      "amount": 48000,
+      "owner": "Kavya Poluru",
+      "status": "Live",
+      "booth": "Foyer A",
+      "event": "Northline Summit"
+    },
+    {
+      "id": "spn_bright",
+      "name": "Brightwell Bank",
+      "tier": "Title",
+      "amount": 42000,
+      "owner": "Arjun Poluru",
+      "status": "Live",
+      "booth": "Foyer B",
+      "event": "Northline Summit"
+    },
+    {
+      "id": "spn_lumen",
+      "name": "Lumen Forge",
+      "tier": "Gold",
+      "amount": 24000,
+      "owner": "Nikhil Poluru",
+      "status": "Confirmed",
+      "booth": "Hall B 2",
+      "event": "Northline Summit"
+    },
+    {
+      "id": "spn_alder",
+      "name": "Alder Health",
+      "tier": "Gold",
+      "amount": 18000,
+      "owner": "Sahana Poluru",
+      "status": "Confirmed",
+      "booth": "Studio hold",
+      "event": "Alder Health briefing"
+    },
+    {
+      "id": "spn_north",
+      "name": "Northline Freight",
+      "tier": "Silver",
+      "amount": 12000,
+      "owner": "Hana Poluru",
+      "status": "Pending",
+      "booth": "—",
+      "event": "Lattice Ops Forum"
+    },
+    {
+      "id": "spn_fold",
+      "name": "Fold Paper",
+      "tier": "Community",
+      "amount": 6000,
+      "owner": "Elena Poluru",
+      "status": "Complete",
+      "booth": "Gallery",
+      "event": "Fold Paper breakfast"
+    },
+    {
+      "id": "spn_river",
+      "name": "Rivermark Labs",
+      "tier": "Silver",
+      "amount": 14000,
+      "owner": "Priya Poluru",
+      "status": "Confirmed",
+      "booth": "River Room",
+      "event": "Harbor Product Day"
+    },
+    {
+      "id": "spn_field",
+      "name": "Fieldwork Studio",
+      "tier": "Community",
+      "amount": 4000,
+      "owner": "Luca Poluru",
+      "status": "Draft",
+      "booth": "—",
+      "event": "Pine & Copper salon"
+    },
+    {
+      "id": "spn_pine",
+      "name": "Pine & Copper",
+      "tier": "Community",
+      "amount": 8000,
+      "owner": "Priya Poluru",
+      "status": "Pending",
+      "booth": "Oak Lounge",
+      "event": "Pine & Copper salon"
+    },
+    {
+      "id": "spn_lattice",
+      "name": "Lattice Energy",
+      "tier": "Gold",
+      "amount": 10000,
+      "owner": "Rohan Poluru",
+      "status": "Watch",
+      "booth": "Hall B 1",
+      "event": "Lattice Ops Forum"
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Live",
+        "value": "Live"
+      },
+      {
+        "label": "Confirmed",
+        "value": "Confirmed"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      }
+    ],
+    "owner": [
+      {
+        "label": "Mira Poluru",
+        "value": "Mira Poluru"
+      },
+      {
+        "label": "Elena Poluru",
+        "value": "Elena Poluru"
+      },
+      {
+        "label": "Kavya Poluru",
+        "value": "Kavya Poluru"
+      },
+      {
+        "label": "Hana Poluru",
+        "value": "Hana Poluru"
+      },
+      {
+        "label": "Luca Poluru",
+        "value": "Luca Poluru"
+      },
+      {
+        "label": "Nikhil Poluru",
+        "value": "Nikhil Poluru"
+      },
+      {
+        "label": "Arjun Poluru",
+        "value": "Arjun Poluru"
+      },
+      {
+        "label": "Sahana Poluru",
+        "value": "Sahana Poluru"
+      },
+      {
+        "label": "Anika Poluru",
+        "value": "Anika Poluru"
+      },
+      {
+        "label": "Priya Poluru",
+        "value": "Priya Poluru"
+      }
+    ]
+  }
+}

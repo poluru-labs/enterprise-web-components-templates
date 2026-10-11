@@ -1,0 +1,155 @@
+{
+  "steps": [
+    {
+      "label": "Event",
+      "description": "Name and dates"
+    },
+    {
+      "label": "Room",
+      "description": "Venue and capacity"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "namePlaceholder": "Northline Summit",
+  "typeOptions": [
+    {
+      "label": "Conference",
+      "value": "Conference"
+    },
+    {
+      "label": "Workshop",
+      "value": "Workshop"
+    },
+    {
+      "label": "Forum",
+      "value": "Forum"
+    },
+    {
+      "label": "Breakfast",
+      "value": "Breakfast"
+    },
+    {
+      "label": "Dinner",
+      "value": "Dinner"
+    },
+    {
+      "label": "Briefing",
+      "value": "Briefing"
+    },
+    {
+      "label": "Salon",
+      "value": "Salon"
+    }
+  ],
+  "defaultType": "Conference",
+  "ownerOptions": [
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    }
+  ],
+  "defaultOwner": "Mira Poluru",
+  "venueOptions": [
+    {
+      "label": "Hall A · 700 seats",
+      "value": "vn_halla"
+    },
+    {
+      "label": "Hall B · 280 seats",
+      "value": "vn_hallb"
+    },
+    {
+      "label": "River Room · 200 seats",
+      "value": "vn_river"
+    },
+    {
+      "label": "Gallery · 80 seats",
+      "value": "vn_gallery"
+    },
+    {
+      "label": "Oak Lounge · 40 seats",
+      "value": "vn_oak"
+    },
+    {
+      "label": "Studio 2 · 60 seats",
+      "value": "vn_studio"
+    },
+    {
+      "label": "Courtyard · 120 seats",
+      "value": "vn_court"
+    },
+    {
+      "label": "Green Room · 16 seats",
+      "value": "vn_green"
+    },
+    {
+      "label": "Press nook · 12 seats",
+      "value": "vn_press"
+    },
+    {
+      "label": "Breakout 4 · 32 seats",
+      "value": "vn_break"
+    },
+    {
+      "label": "Board room · 18 seats",
+      "value": "vn_board"
+    }
+  ],
+  "defaultVenueId": "vn_halla",
+  "trackOptions": [
+    {
+      "label": "Flagship",
+      "value": "flagship"
+    },
+    {
+      "label": "Product",
+      "value": "product"
+    },
+    {
+      "label": "Community",
+      "value": "community"
+    }
+  ],
+  "defaultTrack": "flagship",
+  "notesPlaceholder": "Room hold, AV, and who owns load-in.",
+  "staffPinLength": 4
+}

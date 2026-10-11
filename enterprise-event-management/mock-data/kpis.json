@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Live events",
+    "value": "1",
+    "hint": "Northline Summit · Hall A",
+    "trend": "flat",
+    "trendValue": "Day 1"
+  },
+  {
+    "label": "Registered",
+    "value": "1,284",
+    "hint": "86 added this week",
+    "trend": "up",
+    "trendValue": "+7%"
+  },
+  {
+    "label": "Checked in",
+    "value": "76%",
+    "hint": "976 badges printed",
+    "trend": "up",
+    "trendValue": "+12 pts"
+  },
+  {
+    "label": "No-shows",
+    "value": "4%",
+    "hint": "Target under 6%",
+    "trend": "up",
+    "trendValue": "−1 pt"
+  },
+  {
+    "label": "Speakers locked",
+    "value": "42",
+    "hint": "3 still pending travel",
+    "trend": "flat",
+    "trendValue": "Hold"
+  },
+  {
+    "label": "Sponsor book",
+    "value": "$186k",
+    "hint": "Harbor and Brightwell lead",
+    "trend": "up",
+    "trendValue": "+$24k"
+  },
+  {
+    "label": "Rooms in use",
+    "value": "8/11",
+    "hint": "River Room on hold",
+    "trend": "flat",
+    "trendValue": "Week 12"
+  },
+  {
+    "label": "Sessions today",
+    "value": "14",
+    "hint": "Keynote at 09:00",
+    "trend": "flat",
+    "trendValue": "Hall A"
+  }
+]

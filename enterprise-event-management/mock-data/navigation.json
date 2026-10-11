@@ -1,0 +1,52 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Events",
+    "href": "#/events",
+    "icon": "folder"
+  },
+  {
+    "label": "Registrations",
+    "href": "#/registrations",
+    "icon": "user"
+  },
+  {
+    "label": "Venues",
+    "href": "#/venues",
+    "icon": "folder"
+  },
+  {
+    "label": "Speakers",
+    "href": "#/speakers",
+    "icon": "star"
+  },
+  {
+    "label": "Schedule",
+    "href": "#/schedule",
+    "icon": "clock"
+  },
+  {
+    "label": "Sponsors",
+    "href": "#/sponsors",
+    "icon": "plus"
+  },
+  {
+    "label": "Attendance",
+    "href": "#/attendance",
+    "icon": "check"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

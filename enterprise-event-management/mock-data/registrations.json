@@ -1,0 +1,209 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Guest",
+      "sortable": true
+    },
+    {
+      "key": "event",
+      "label": "Event"
+    },
+    {
+      "key": "ticket",
+      "label": "Ticket"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "seat",
+      "label": "Seat"
+    },
+    {
+      "key": "org",
+      "label": "Org"
+    }
+  ],
+  "rows": [
+    {
+      "id": "rg_1",
+      "name": "Kavya Poluru",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "ticket": "Full",
+      "status": "Checked in",
+      "seat": "A-12",
+      "org": "Growth"
+    },
+    {
+      "id": "rg_2",
+      "name": "Hana Poluru",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "ticket": "Full",
+      "status": "Checked in",
+      "seat": "A-14",
+      "org": "Customer"
+    },
+    {
+      "id": "rg_3",
+      "name": "Arjun Poluru",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "ticket": "Exec",
+      "status": "Checked in",
+      "seat": "A-02",
+      "org": "Finance"
+    },
+    {
+      "id": "rg_4",
+      "name": "Elena Poluru",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "ticket": "Staff",
+      "status": "Checked in",
+      "seat": "Desk",
+      "org": "Ops"
+    },
+    {
+      "id": "rg_5",
+      "name": "Rohan Poluru",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "ticket": "Full",
+      "status": "Registered",
+      "seat": "B-08",
+      "org": "Ops"
+    },
+    {
+      "id": "rg_6",
+      "name": "Nikhil Poluru",
+      "eventId": "ev_harbor",
+      "event": "Harbor Product Day",
+      "ticket": "Workshop",
+      "status": "Registered",
+      "seat": "R-04",
+      "org": "Product"
+    },
+    {
+      "id": "rg_7",
+      "name": "Sahana Poluru",
+      "eventId": "ev_alder",
+      "event": "Alder Health briefing",
+      "ticket": "Briefing",
+      "status": "Waitlist",
+      "seat": "—",
+      "org": "People"
+    },
+    {
+      "id": "rg_8",
+      "name": "Luca Poluru",
+      "eventId": "ev_parks",
+      "event": "Parks volunteer night",
+      "ticket": "Comp",
+      "status": "Attended",
+      "seat": "C-01",
+      "org": "Parks"
+    },
+    {
+      "id": "rg_9",
+      "name": "Anika Poluru",
+      "eventId": "ev_bright",
+      "event": "Brightwell board dinner",
+      "ticket": "Dinner",
+      "status": "Registered",
+      "seat": "T-1",
+      "org": "Security"
+    },
+    {
+      "id": "rg_10",
+      "name": "Dev Poluru",
+      "eventId": "ev_lattice",
+      "event": "Lattice Ops Forum",
+      "ticket": "Full",
+      "status": "Registered",
+      "seat": "B-22",
+      "org": "Engineering"
+    },
+    {
+      "id": "rg_11",
+      "name": "Priya Poluru",
+      "eventId": "ev_harbor",
+      "event": "Harbor Product Day",
+      "ticket": "Workshop",
+      "status": "Registered",
+      "seat": "R-11",
+      "org": "Customer"
+    },
+    {
+      "id": "rg_12",
+      "name": "Mira Poluru",
+      "eventId": "ev_north",
+      "event": "Northline Summit",
+      "ticket": "Staff",
+      "status": "Checked in",
+      "seat": "Desk",
+      "org": "Events"
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "Checked in",
+        "value": "Checked in"
+      },
+      {
+        "label": "Registered",
+        "value": "Registered"
+      },
+      {
+        "label": "Waitlist",
+        "value": "Waitlist"
+      },
+      {
+        "label": "Attended",
+        "value": "Attended"
+      }
+    ],
+    "ticket": [
+      {
+        "label": "All tickets",
+        "value": "all"
+      },
+      {
+        "label": "Full",
+        "value": "Full"
+      },
+      {
+        "label": "Exec",
+        "value": "Exec"
+      },
+      {
+        "label": "Staff",
+        "value": "Staff"
+      },
+      {
+        "label": "Workshop",
+        "value": "Workshop"
+      },
+      {
+        "label": "Briefing",
+        "value": "Briefing"
+      },
+      {
+        "label": "Comp",
+        "value": "Comp"
+      },
+      {
+        "label": "Dinner",
+        "value": "Dinner"
+      }
+    ]
+  }
+}

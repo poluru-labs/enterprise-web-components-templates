@@ -1,0 +1,258 @@
+{
+  "scoreBands": "On track is over 80%. Watch is under 60% an hour after doors. Complete is a closed gate.",
+  "foyerAlert": {
+    "title": "Foyer B is at 57%",
+    "message": "Printer 2 jammed. Elena Poluru owns the desk. 200 of 350 scanned."
+  },
+  "columns": [
+    {
+      "key": "event",
+      "label": "Event",
+      "sortable": true
+    },
+    {
+      "key": "gate",
+      "label": "Gate"
+    },
+    {
+      "key": "scanned",
+      "label": "Scanned"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "rate",
+      "label": "Rate"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "id": "at_1",
+      "event": "Northline Summit",
+      "gate": "Foyer A",
+      "scanned": 312,
+      "capacity": 350,
+      "rate": 89,
+      "owner": "Elena Poluru",
+      "status": "On track"
+    },
+    {
+      "id": "at_2",
+      "event": "Northline Summit",
+      "gate": "Foyer B",
+      "scanned": 200,
+      "capacity": 350,
+      "rate": 57,
+      "owner": "Elena Poluru",
+      "status": "Watch"
+    },
+    {
+      "id": "at_3",
+      "event": "Fold Paper breakfast",
+      "gate": "Gallery",
+      "scanned": 58,
+      "capacity": 64,
+      "rate": 91,
+      "owner": "Elena Poluru",
+      "status": "Complete"
+    },
+    {
+      "id": "at_4",
+      "event": "Parks volunteer night",
+      "gate": "Courtyard",
+      "scanned": 91,
+      "capacity": 96,
+      "rate": 95,
+      "owner": "Luca Poluru",
+      "status": "Complete"
+    }
+  ],
+  "checkInTrend": {
+    "values": [
+      42,
+      48,
+      51,
+      55,
+      58,
+      61,
+      64,
+      67,
+      70,
+      72,
+      74,
+      76
+    ],
+    "note": "House moved from 42% to 76% over twelve weeks. Summit day 1 is the spike."
+  },
+  "eventMix": {
+    "liveCount": 1,
+    "totalEvents": 8,
+    "groups": [
+      {
+        "key": "Live",
+        "count": 1,
+        "percent": 13,
+        "events": [
+          {
+            "id": "ev_north",
+            "name": "Northline Summit",
+            "code": "GAT-1842",
+            "status": "Live"
+          }
+        ]
+      },
+      {
+        "key": "Upcoming",
+        "count": 5,
+        "percent": 63,
+        "events": [
+          {
+            "id": "ev_harbor",
+            "name": "Harbor Product Day",
+            "code": "GAT-1851",
+            "status": "Upcoming"
+          },
+          {
+            "id": "ev_lattice",
+            "name": "Lattice Ops Forum",
+            "code": "GAT-1860",
+            "status": "Upcoming"
+          },
+          {
+            "id": "ev_bright",
+            "name": "Brightwell board dinner",
+            "code": "GAT-1866",
+            "status": "Pending"
+          },
+          {
+            "id": "ev_alder",
+            "name": "Alder Health briefing",
+            "code": "GAT-1870",
+            "status": "Upcoming"
+          },
+          {
+            "id": "ev_pine",
+            "name": "Pine & Copper salon",
+            "code": "GAT-1874",
+            "status": "Draft"
+          }
+        ]
+      },
+      {
+        "key": "Complete",
+        "count": 2,
+        "percent": 25,
+        "events": [
+          {
+            "id": "ev_fold",
+            "name": "Fold Paper breakfast",
+            "code": "GAT-1828",
+            "status": "Complete"
+          },
+          {
+            "id": "ev_parks",
+            "name": "Parks volunteer night",
+            "code": "GAT-1821",
+            "status": "Complete"
+          }
+        ]
+      }
+    ]
+  },
+  "watchGates": [
+    {
+      "label": "Foyer B · 57%",
+      "description": "Northline Summit · Elena Poluru",
+      "icon": "alert-triangle",
+      "href": "#/attendance"
+    }
+  ],
+  "deskLoad": [
+    {
+      "name": "Mira Poluru",
+      "role": "Head of events",
+      "squad": "Gather",
+      "rating": 5,
+      "score": 94,
+      "book": 8
+    },
+    {
+      "name": "Elena Poluru",
+      "role": "Registration lead",
+      "squad": "Desk",
+      "rating": 5,
+      "score": 91,
+      "book": 1284
+    },
+    {
+      "name": "Anika Poluru",
+      "role": "Badge print",
+      "squad": "Desk",
+      "rating": 4,
+      "score": 89,
+      "book": 976
+    }
+  ],
+  "houseRules": [
+    {
+      "id": "po_badge",
+      "name": "Badge print SLA",
+      "trigger": "Queue over 8 minutes",
+      "owner": "Elena Poluru",
+      "items": 1,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_speaker",
+      "name": "Speaker travel",
+      "trigger": "Travel not confirmed 7 days out",
+      "owner": "Sahana Poluru",
+      "items": 3,
+      "status": "Active",
+      "steps": 4
+    },
+    {
+      "id": "po_room",
+      "name": "Room turn",
+      "trigger": "15 minutes between sessions",
+      "owner": "Luca Poluru",
+      "items": 8,
+      "status": "Active",
+      "steps": 2
+    },
+    {
+      "id": "po_sponsor",
+      "name": "Booth live",
+      "trigger": "Doors minus 60 minutes",
+      "owner": "Arjun Poluru",
+      "items": 2,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_cap",
+      "name": "Capacity hold",
+      "trigger": "Registered over 95%",
+      "owner": "Mira Poluru",
+      "items": 1,
+      "status": "Active",
+      "steps": 2
+    },
+    {
+      "id": "po_noshow",
+      "name": "No-show follow-up",
+      "trigger": "Absent after 11:00",
+      "owner": "Anika Poluru",
+      "items": 0,
+      "status": "Draft",
+      "steps": 2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Overview",
+    "description": "House pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Northline Summit",
+    "description": "Live · Hall A",
+    "href": "#/event/ev_north",
+    "icon": "folder"
+  },
+  {
+    "label": "Registrations",
+    "description": "1,284 guests",
+    "href": "#/registrations",
+    "icon": "user"
+  },
+  {
+    "label": "Schedule",
+    "description": "14 sessions today",
+    "href": "#/schedule",
+    "icon": "clock"
+  },
+  {
+    "label": "Speakers",
+    "description": "42 locked",
+    "href": "#/speakers",
+    "icon": "star"
+  },
+  {
+    "label": "Sponsors",
+    "description": "$186k",
+    "href": "#/sponsors",
+    "icon": "plus"
+  },
+  {
+    "label": "Attendance",
+    "description": "76% in",
+    "href": "#/attendance",
+    "icon": "check"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

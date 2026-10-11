@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Mira Poluru",
+    "role": "Head of events",
+    "squad": "Gather",
+    "rating": 5,
+    "score": 94,
+    "book": 8
+  },
+  {
+    "name": "Elena Poluru",
+    "role": "Registration lead",
+    "squad": "Desk",
+    "rating": 5,
+    "score": 91,
+    "book": 1284
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Program lead",
+    "squad": "Program",
+    "rating": 5,
+    "score": 88,
+    "book": 3
+  },
+  {
+    "name": "Hana Poluru",
+    "role": "Ops producer",
+    "squad": "Ops",
+    "rating": 4,
+    "score": 84,
+    "book": 2
+  },
+  {
+    "name": "Luca Poluru",
+    "role": "Venue manager",
+    "squad": "Venues",
+    "rating": 4,
+    "score": 86,
+    "book": 11
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "AV lead",
+    "squad": "AV",
+    "rating": 5,
+    "score": 90,
+    "book": 8
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Sponsor desk",
+    "squad": "Revenue",
+    "rating": 4,
+    "score": 82,
+    "book": 12
+  },
+  {
+    "name": "Sahana Poluru",
+    "role": "Speaker wrangler",
+    "squad": "Program",
+    "rating": 4,
+    "score": 81,
+    "book": 42
+  },
+  {
+    "name": "Anika Poluru",
+    "role": "Badge print",
+    "squad": "Desk",
+    "rating": 4,
+    "score": 89,
+    "book": 976
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Community",
+    "squad": "Program",
+    "rating": 4,
+    "score": 85,
+    "book": 2
+  }
+]

@@ -1,0 +1,3 @@
+{
+  "snippet": "GET /v1/events/ev_north\nAuthorization: Bearer gather_live_****\n\n{\n  \"id\": \"ev_north\",\n  \"code\": \"GAT-1842\",\n  \"name\": \"Northline Summit\",\n  \"status\": \"Live\",\n  \"owner\": \"Mira Poluru\"\n}"
+}

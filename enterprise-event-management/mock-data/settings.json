@@ -1,0 +1,28 @@
+{
+  "workspace": "Alder Hall",
+  "timezone": "America / Chicago",
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas",
+  "checkInFloor": 80,
+  "startFullWidth": true,
+  "foyerLagPing": true,
+  "density": "comfortable",
+  "densityOptions": [
+    "comfortable",
+    "compact"
+  ],
+  "staffPinLength": 4
+}

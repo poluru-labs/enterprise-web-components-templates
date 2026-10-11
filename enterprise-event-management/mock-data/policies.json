@@ -1,0 +1,56 @@
+[
+  {
+    "id": "po_badge",
+    "name": "Badge print SLA",
+    "trigger": "Queue over 8 minutes",
+    "owner": "Elena Poluru",
+    "items": 1,
+    "status": "Active",
+    "steps": 3
+  },
+  {
+    "id": "po_speaker",
+    "name": "Speaker travel",
+    "trigger": "Travel not confirmed 7 days out",
+    "owner": "Sahana Poluru",
+    "items": 3,
+    "status": "Active",
+    "steps": 4
+  },
+  {
+    "id": "po_room",
+    "name": "Room turn",
+    "trigger": "15 minutes between sessions",
+    "owner": "Luca Poluru",
+    "items": 8,
+    "status": "Active",
+    "steps": 2
+  },
+  {
+    "id": "po_sponsor",
+    "name": "Booth live",
+    "trigger": "Doors minus 60 minutes",
+    "owner": "Arjun Poluru",
+    "items": 2,
+    "status": "Active",
+    "steps": 3
+  },
+  {
+    "id": "po_cap",
+    "name": "Capacity hold",
+    "trigger": "Registered over 95%",
+    "owner": "Mira Poluru",
+    "items": 1,
+    "status": "Active",
+    "steps": 2
+  },
+  {
+    "id": "po_noshow",
+    "name": "No-show follow-up",
+    "trigger": "Absent after 11:00",
+    "owner": "Anika Poluru",
+    "items": 0,
+    "status": "Draft",
+    "steps": 2
+  }
+]
