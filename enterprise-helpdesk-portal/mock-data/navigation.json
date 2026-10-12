@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Tickets",
+    "href": "#/tickets",
+    "icon": "ticket"
+  },
+  {
+    "label": "Teams",
+    "href": "#/teams",
+    "icon": "user"
+  },
+  {
+    "label": "SLA policies",
+    "href": "#/sla",
+    "icon": "clock"
+  },
+  {
+    "label": "Knowledge",
+    "href": "#/knowledge",
+    "icon": "file"
+  },
+  {
+    "label": "Reports",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Maya Poluru",
+    "role": "Identity analyst",
+    "squad": "Identity & access",
+    "active": 14,
+    "status": "Online",
+    "csat": 4.9
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Platform engineer",
+    "squad": "Platform support",
+    "active": 9,
+    "status": "Online",
+    "csat": 4.7
+  },
+  {
+    "name": "Nila Poluru",
+    "role": "Billing specialist",
+    "squad": "Billing & workflow",
+    "active": 7,
+    "status": "Online",
+    "csat": 4.8
+  },
+  {
+    "name": "Riya Poluru",
+    "role": "Device analyst",
+    "squad": "Device onboarding",
+    "active": 6,
+    "status": "Away",
+    "csat": 4.6
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Infra lead",
+    "squad": "Infrastructure",
+    "active": 11,
+    "status": "Online",
+    "csat": 4.5
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "EMEA lead",
+    "squad": "EMEA overnight",
+    "active": 5,
+    "status": "Online",
+    "csat": 4.8
+  },
+  {
+    "name": "Tara Poluru",
+    "role": "Escalation manager",
+    "squad": "Platform support",
+    "active": 3,
+    "status": "Offline",
+    "csat": 4.9
+  }
+]

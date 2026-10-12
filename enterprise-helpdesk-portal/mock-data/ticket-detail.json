@@ -1,0 +1,18 @@
+{
+  "relatedArticles": [
+    {
+      "label": "VPN setup for remote analysts",
+      "description": "Access · Maya Poluru",
+      "icon": "file",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "Billing portal MFA troubleshooting",
+      "description": "Billing · Nila Poluru",
+      "icon": "file",
+      "href": "#/knowledge"
+    }
+  ],
+  "replyPlaceholder": "Add an internal note or customer reply",
+  "escalationTarget": "Tara Poluru"
+}

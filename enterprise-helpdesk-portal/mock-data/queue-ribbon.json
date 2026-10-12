@@ -1,0 +1,47 @@
+{
+  "slaLabel": "First response",
+  "slaCountdown": "12m",
+  "queueLength": 38,
+  "agentsOnline": 14,
+  "agentsScheduled": 18,
+  "breached": 6,
+  "shift": "Shift B",
+  "coverage": "Coverage until 8:00 PM",
+  "severity": {
+    "critical": 3,
+    "high": 7,
+    "medium": 12
+  },
+  "lanes": [
+    {
+      "id": "q_identity",
+      "label": "Identity",
+      "open": 42
+    },
+    {
+      "id": "q_platform",
+      "label": "Platform",
+      "open": 58
+    },
+    {
+      "id": "q_billing",
+      "label": "Billing",
+      "open": 31
+    },
+    {
+      "id": "q_device",
+      "label": "Device",
+      "open": 27
+    },
+    {
+      "id": "q_infra",
+      "label": "Infra",
+      "open": 48
+    },
+    {
+      "id": "q_eu",
+      "label": "EMEA",
+      "open": 22
+    }
+  ]
+}

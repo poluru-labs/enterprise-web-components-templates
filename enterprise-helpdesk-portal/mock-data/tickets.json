@@ -1,0 +1,282 @@
+{
+  "columns": [
+    {
+      "key": "id",
+      "label": "Ticket",
+      "sortable": true
+    },
+    {
+      "key": "summary",
+      "label": "Summary",
+      "sortable": true
+    },
+    {
+      "key": "requester",
+      "label": "Requester"
+    },
+    {
+      "key": "assignee",
+      "label": "Assignee"
+    },
+    {
+      "key": "priority",
+      "label": "Priority",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    },
+    {
+      "key": "age",
+      "label": "Age"
+    }
+  ],
+  "rows": [
+    {
+      "id": "HD-4821",
+      "summary": "Login loop on billing portal",
+      "requester": "Maya Poluru",
+      "assignee": "Nila Poluru",
+      "queue": "Billing & workflow",
+      "priority": "Critical",
+      "status": "Open",
+      "sla": "Breached",
+      "ageMinutes": 12,
+      "created": "2026-09-01T14:18:00",
+      "updated": "2026-09-01T14:30:00",
+      "category": "Access",
+      "description": "Users redirected to login after MFA on billing.poluru.example. Affects 14 accounts in shift B."
+    },
+    {
+      "id": "HD-4817",
+      "summary": "VPN profile refresh failing",
+      "requester": "Arun Poluru",
+      "assignee": "Maya Poluru",
+      "queue": "Identity & access",
+      "priority": "High",
+      "status": "In progress",
+      "sla": "At risk",
+      "ageMinutes": 28,
+      "created": "2026-09-01T13:52:00",
+      "updated": "2026-09-01T14:20:00",
+      "category": "Access",
+      "description": "Corporate VPN profile will not refresh after certificate rotation on gateway 04."
+    },
+    {
+      "id": "HD-4812",
+      "summary": "Asset sync mismatch in CMDB",
+      "requester": "Kavya Poluru",
+      "assignee": "Dev Poluru",
+      "queue": "Infrastructure",
+      "priority": "Medium",
+      "status": "Open",
+      "sla": "OK",
+      "ageMinutes": 64,
+      "created": "2026-09-01T12:16:00",
+      "updated": "2026-09-01T13:40:00",
+      "category": "Infrastructure",
+      "description": "42 laptops missing from CMDB after overnight import from Intune."
+    },
+    {
+      "id": "HD-4806",
+      "summary": "Approval email not delivered",
+      "requester": "Riya Poluru",
+      "assignee": "Nila Poluru",
+      "queue": "Billing & workflow",
+      "priority": "Low",
+      "status": "Waiting",
+      "sla": "OK",
+      "ageMinutes": 118,
+      "created": "2026-09-01T11:10:00",
+      "updated": "2026-09-01T12:05:00",
+      "category": "Workflow",
+      "description": "Purchase approval for SaaS renewal did not reach manager inbox."
+    },
+    {
+      "id": "HD-4801",
+      "summary": "SSO timeout on staging tenant",
+      "requester": "Nikhil Poluru",
+      "assignee": "Maya Poluru",
+      "queue": "Identity & access",
+      "priority": "High",
+      "status": "In progress",
+      "sla": "At risk",
+      "ageMinutes": 145,
+      "created": "2026-09-01T10:05:00",
+      "updated": "2026-09-01T13:15:00",
+      "category": "Access",
+      "description": "Azure AD SSO session expires after 4 minutes on staging.poluru.example."
+    },
+    {
+      "id": "HD-4798",
+      "summary": "Printer queue stuck on floor 3",
+      "requester": "Hana Poluru",
+      "assignee": "Riya Poluru",
+      "queue": "Device onboarding",
+      "priority": "Medium",
+      "status": "Open",
+      "sla": "OK",
+      "ageMinutes": 210,
+      "created": "2026-09-01T08:30:00",
+      "updated": "2026-09-01T11:45:00",
+      "category": "Hardware",
+      "description": "HP fleet printer shows offline for 18 users after firmware push."
+    },
+    {
+      "id": "HD-4792",
+      "summary": "Invoice PDF generation error",
+      "requester": "Luca Poluru",
+      "assignee": "Nila Poluru",
+      "queue": "Billing & workflow",
+      "priority": "High",
+      "status": "Open",
+      "sla": "Breached",
+      "ageMinutes": 320,
+      "created": "2026-08-31T16:40:00",
+      "updated": "2026-09-01T09:20:00",
+      "category": "Billing",
+      "description": "PDF export fails with 500 for enterprise accounts over $50k ARR."
+    },
+    {
+      "id": "HD-4788",
+      "summary": "Database failover alert noise",
+      "requester": "Dev Poluru",
+      "assignee": "Dev Poluru",
+      "queue": "Infrastructure",
+      "priority": "Critical",
+      "status": "In progress",
+      "sla": "At risk",
+      "ageMinutes": 380,
+      "created": "2026-08-31T15:00:00",
+      "updated": "2026-09-01T14:00:00",
+      "category": "Infrastructure",
+      "description": "PagerDuty firing on planned failover test. Need runbook update."
+    },
+    {
+      "id": "HD-4783",
+      "summary": "New hire laptop provisioning delay",
+      "requester": "Elena Poluru",
+      "assignee": "Riya Poluru",
+      "queue": "Device onboarding",
+      "priority": "Medium",
+      "status": "Waiting",
+      "sla": "OK",
+      "ageMinutes": 520,
+      "created": "2026-08-31T12:00:00",
+      "updated": "2026-08-31T17:30:00",
+      "category": "Hardware",
+      "description": "Three September hires waiting on encrypted drive imaging."
+    },
+    {
+      "id": "HD-4779",
+      "summary": "Knowledge article link broken",
+      "requester": "Sahana Poluru",
+      "assignee": "Priya Poluru",
+      "queue": "EMEA overnight",
+      "priority": "Low",
+      "status": "Resolved",
+      "sla": "OK",
+      "ageMinutes": 600,
+      "created": "2026-08-31T10:20:00",
+      "updated": "2026-08-31T14:10:00",
+      "category": "Knowledge",
+      "description": "VPN setup article returns 404 after portal migration."
+    },
+    {
+      "id": "HD-4774",
+      "summary": "API rate limit on ticket webhook",
+      "requester": "Anika Poluru",
+      "assignee": "Arjun Poluru",
+      "queue": "Platform support",
+      "priority": "High",
+      "status": "Open",
+      "sla": "At risk",
+      "ageMinutes": 720,
+      "created": "2026-08-30T18:00:00",
+      "updated": "2026-09-01T08:00:00",
+      "category": "Platform",
+      "description": "Integration partner hitting 429 on /v1/tickets webhook endpoint."
+    },
+    {
+      "id": "HD-4768",
+      "summary": "Shared mailbox permissions drift",
+      "requester": "Priya Poluru",
+      "assignee": "Maya Poluru",
+      "queue": "Identity & access",
+      "priority": "Medium",
+      "status": "In progress",
+      "sla": "OK",
+      "ageMinutes": 900,
+      "created": "2026-08-30T14:00:00",
+      "updated": "2026-08-31T16:00:00",
+      "category": "Access",
+      "description": "support-eu@ mailbox has 6 unexpected full-access delegates."
+    },
+    {
+      "id": "HD-4761",
+      "summary": "CSAT survey not sending",
+      "requester": "Tara Poluru",
+      "assignee": "Nila Poluru",
+      "queue": "Billing & workflow",
+      "priority": "Low",
+      "status": "Open",
+      "sla": "OK",
+      "ageMinutes": 1080,
+      "created": "2026-08-29T16:30:00",
+      "updated": "2026-08-30T10:00:00",
+      "category": "Workflow",
+      "description": "Post-resolution CSAT emails stopped after template update on 28 Aug."
+    }
+  ],
+  "filters": {
+    "priority": [
+      {
+        "label": "All priorities",
+        "value": ""
+      },
+      {
+        "label": "Critical",
+        "value": "Critical"
+      },
+      {
+        "label": "High",
+        "value": "High"
+      },
+      {
+        "label": "Medium",
+        "value": "Medium"
+      },
+      {
+        "label": "Low",
+        "value": "Low"
+      }
+    ],
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "Open"
+      },
+      {
+        "label": "In progress",
+        "value": "In progress"
+      },
+      {
+        "label": "Waiting",
+        "value": "Waiting"
+      },
+      {
+        "label": "Resolved",
+        "value": "Resolved"
+      }
+    ]
+  }
+}

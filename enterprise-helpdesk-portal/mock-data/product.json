@@ -1,0 +1,17 @@
+{
+  "productName": "Relay",
+  "productLine": "Helpdesk",
+  "workspaceName": "Poluru Support",
+  "currentUser": {
+    "name": "Elena Poluru",
+    "email": "elena.poluru@poluru.example",
+    "role": "Shift lead"
+  },
+  "workspace": {
+    "name": "Poluru Support",
+    "period": "Aug–Sep 2026 · shift B",
+    "timezone": "America / Chicago",
+    "coverage": "Coverage until 8:00 PM"
+  },
+  "brandColor": "#03346E"
+}

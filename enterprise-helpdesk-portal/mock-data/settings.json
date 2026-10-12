@@ -1,0 +1,28 @@
+{
+  "workspace": "Poluru Support",
+  "timezone": "America / Chicago",
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas",
+  "slaWarningBandPercent": 10,
+  "startFullWidth": true,
+  "shiftHandoffReminder": true,
+  "density": "comfortable",
+  "densityOptions": [
+    "comfortable",
+    "compact"
+  ],
+  "staffPinLength": 4
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "label": "HD-4821 breached first response",
+    "description": "Nila Poluru · Billing",
+    "icon": "alert-triangle"
+  },
+  {
+    "label": "Infrastructure queue at risk",
+    "description": "Dev Poluru · 2 breaches",
+    "icon": "clock"
+  },
+  {
+    "label": "VPN article updated",
+    "description": "Maya Poluru · Knowledge",
+    "icon": "file"
+  },
+  {
+    "label": "Shift handoff due 8 PM",
+    "description": "Elena Poluru · Coverage",
+    "icon": "bell"
+  }
+]

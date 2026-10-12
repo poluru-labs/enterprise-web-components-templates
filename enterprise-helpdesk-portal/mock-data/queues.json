@@ -1,0 +1,56 @@
+[
+  {
+    "id": "q_identity",
+    "name": "Identity & access",
+    "lead": "Maya Poluru",
+    "open": 42,
+    "breached": 1,
+    "sla": 94,
+    "status": "Healthy"
+  },
+  {
+    "id": "q_platform",
+    "name": "Platform support",
+    "lead": "Arjun Poluru",
+    "open": 58,
+    "breached": 2,
+    "sla": 89,
+    "status": "Watch"
+  },
+  {
+    "id": "q_billing",
+    "name": "Billing & workflow",
+    "lead": "Nila Poluru",
+    "open": 31,
+    "breached": 0,
+    "sla": 96,
+    "status": "Healthy"
+  },
+  {
+    "id": "q_device",
+    "name": "Device onboarding",
+    "lead": "Riya Poluru",
+    "open": 27,
+    "breached": 1,
+    "sla": 92,
+    "status": "Healthy"
+  },
+  {
+    "id": "q_infra",
+    "name": "Infrastructure",
+    "lead": "Dev Poluru",
+    "open": 48,
+    "breached": 2,
+    "sla": 87,
+    "status": "At risk"
+  },
+  {
+    "id": "q_eu",
+    "name": "EMEA overnight",
+    "lead": "Priya Poluru",
+    "open": 22,
+    "breached": 0,
+    "sla": 95,
+    "status": "Healthy"
+  }
+]

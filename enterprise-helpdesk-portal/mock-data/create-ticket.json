@@ -1,0 +1,86 @@
+{
+  "steps": [
+    {
+      "label": "Requester",
+      "description": "Who needs help"
+    },
+    {
+      "label": "Details",
+      "description": "Category and priority"
+    },
+    {
+      "label": "Confirm",
+      "description": "Route to queue"
+    }
+  ],
+  "requesterPlaceholder": "Maya Poluru",
+  "categoryOptions": [
+    {
+      "label": "Access",
+      "value": "access"
+    },
+    {
+      "label": "Billing",
+      "value": "billing"
+    },
+    {
+      "label": "Infrastructure",
+      "value": "infra"
+    },
+    {
+      "label": "Hardware",
+      "value": "hardware"
+    }
+  ],
+  "defaultCategory": "access",
+  "queueOptions": [
+    {
+      "label": "Identity & access",
+      "value": "identity"
+    },
+    {
+      "label": "Platform support",
+      "value": "platform"
+    },
+    {
+      "label": "Billing & workflow",
+      "value": "billing"
+    }
+  ],
+  "priorityOptions": [
+    {
+      "label": "Critical",
+      "value": "critical"
+    },
+    {
+      "label": "High",
+      "value": "high"
+    },
+    {
+      "label": "Medium",
+      "value": "medium"
+    },
+    {
+      "label": "Low",
+      "value": "low"
+    }
+  ],
+  "defaultPriority": "medium",
+  "impactOptions": [
+    {
+      "label": "Single user",
+      "value": "single"
+    },
+    {
+      "label": "Team-wide",
+      "value": "team"
+    },
+    {
+      "label": "Business critical",
+      "value": "critical"
+    }
+  ],
+  "defaultImpact": "single",
+  "summaryPlaceholder": "Describe the issue briefly",
+  "markUrgent": true
+}

@@ -1,0 +1,53 @@
+{
+  "assigneeOptions": [
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Nila Poluru",
+      "value": "Nila Poluru"
+    },
+    {
+      "label": "Riya Poluru",
+      "value": "Riya Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Tara Poluru",
+      "value": "Tara Poluru"
+    }
+  ],
+  "queueOptions": [
+    {
+      "label": "Identity & access",
+      "value": "identity"
+    },
+    {
+      "label": "Platform support",
+      "value": "platform"
+    },
+    {
+      "label": "Billing & workflow",
+      "value": "billing"
+    },
+    {
+      "label": "Infrastructure",
+      "value": "infra"
+    }
+  ],
+  "onlyBreachedSla": true,
+  "hideResolved": false,
+  "maxAgeHours": 24
+}

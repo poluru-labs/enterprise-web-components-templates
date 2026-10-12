@@ -1,0 +1,262 @@
+{
+  "HD-4821": [
+    {
+      "author": "Maya Poluru",
+      "role": "Requester",
+      "body": "Users redirected to login after MFA on billing.poluru.example. Affects 14 accounts in shift B.",
+      "time": "2026-09-01T14:18:00"
+    },
+    {
+      "author": "Nila Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating access issue now.",
+      "time": "2026-09-01T14:30:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4817": [
+    {
+      "author": "Arun Poluru",
+      "role": "Requester",
+      "body": "Corporate VPN profile will not refresh after certificate rotation on gateway 04.",
+      "time": "2026-09-01T13:52:00"
+    },
+    {
+      "author": "Maya Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating access issue now.",
+      "time": "2026-09-01T14:20:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4812": [
+    {
+      "author": "Kavya Poluru",
+      "role": "Requester",
+      "body": "42 laptops missing from CMDB after overnight import from Intune.",
+      "time": "2026-09-01T12:16:00"
+    },
+    {
+      "author": "Dev Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating infrastructure issue now.",
+      "time": "2026-09-01T13:40:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4806": [
+    {
+      "author": "Riya Poluru",
+      "role": "Requester",
+      "body": "Purchase approval for SaaS renewal did not reach manager inbox.",
+      "time": "2026-09-01T11:10:00"
+    },
+    {
+      "author": "Nila Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating workflow issue now.",
+      "time": "2026-09-01T12:05:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4801": [
+    {
+      "author": "Nikhil Poluru",
+      "role": "Requester",
+      "body": "Azure AD SSO session expires after 4 minutes on staging.poluru.example.",
+      "time": "2026-09-01T10:05:00"
+    },
+    {
+      "author": "Maya Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating access issue now.",
+      "time": "2026-09-01T13:15:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4798": [
+    {
+      "author": "Hana Poluru",
+      "role": "Requester",
+      "body": "HP fleet printer shows offline for 18 users after firmware push.",
+      "time": "2026-09-01T08:30:00"
+    },
+    {
+      "author": "Riya Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating hardware issue now.",
+      "time": "2026-09-01T11:45:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4792": [
+    {
+      "author": "Luca Poluru",
+      "role": "Requester",
+      "body": "PDF export fails with 500 for enterprise accounts over $50k ARR.",
+      "time": "2026-08-31T16:40:00"
+    },
+    {
+      "author": "Nila Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating billing issue now.",
+      "time": "2026-09-01T09:20:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4788": [
+    {
+      "author": "Dev Poluru",
+      "role": "Requester",
+      "body": "PagerDuty firing on planned failover test. Need runbook update.",
+      "time": "2026-08-31T15:00:00"
+    },
+    {
+      "author": "Dev Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating infrastructure issue now.",
+      "time": "2026-09-01T14:00:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4783": [
+    {
+      "author": "Elena Poluru",
+      "role": "Requester",
+      "body": "Three September hires waiting on encrypted drive imaging.",
+      "time": "2026-08-31T12:00:00"
+    },
+    {
+      "author": "Riya Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating hardware issue now.",
+      "time": "2026-08-31T17:30:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4779": [
+    {
+      "author": "Sahana Poluru",
+      "role": "Requester",
+      "body": "VPN setup article returns 404 after portal migration.",
+      "time": "2026-08-31T10:20:00"
+    },
+    {
+      "author": "Priya Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating knowledge issue now.",
+      "time": "2026-08-31T14:10:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4774": [
+    {
+      "author": "Anika Poluru",
+      "role": "Requester",
+      "body": "Integration partner hitting 429 on /v1/tickets webhook endpoint.",
+      "time": "2026-08-30T18:00:00"
+    },
+    {
+      "author": "Arjun Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating platform issue now.",
+      "time": "2026-09-01T08:00:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4768": [
+    {
+      "author": "Priya Poluru",
+      "role": "Requester",
+      "body": "support-eu@ mailbox has 6 unexpected full-access delegates.",
+      "time": "2026-08-30T14:00:00"
+    },
+    {
+      "author": "Maya Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating access issue now.",
+      "time": "2026-08-31T16:00:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ],
+  "HD-4761": [
+    {
+      "author": "Tara Poluru",
+      "role": "Requester",
+      "body": "Post-resolution CSAT emails stopped after template update on 28 Aug.",
+      "time": "2026-08-29T16:30:00"
+    },
+    {
+      "author": "Nila Poluru",
+      "role": "Assignee",
+      "body": "Acknowledged. Investigating workflow issue now.",
+      "time": "2026-08-30T10:00:00"
+    },
+    {
+      "author": "Elena Poluru",
+      "role": "Shift lead",
+      "body": "Keep me posted if SLA moves to breach.",
+      "time": "2026-09-01T14:25:00"
+    }
+  ]
+}

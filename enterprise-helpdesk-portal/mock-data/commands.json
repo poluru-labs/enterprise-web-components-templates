@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Overview",
+    "description": "Support pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Tickets",
+    "description": "All open requests",
+    "href": "#/tickets",
+    "icon": "ticket"
+  },
+  {
+    "label": "HD-4821",
+    "description": "Login loop on billing",
+    "href": "#/tickets/HD-4821",
+    "icon": "ticket"
+  },
+  {
+    "label": "Teams",
+    "description": "Agent roster",
+    "href": "#/teams",
+    "icon": "user"
+  },
+  {
+    "label": "SLA policies",
+    "description": "Response targets",
+    "href": "#/sla",
+    "icon": "clock"
+  },
+  {
+    "label": "Knowledge",
+    "description": "Articles and runbooks",
+    "href": "#/knowledge",
+    "icon": "file"
+  },
+  {
+    "label": "Reports",
+    "description": "Exports and summaries",
+    "href": "#/reports",
+    "icon": "download"
+  },
+  {
+    "label": "Settings",
+    "description": "Workspace",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

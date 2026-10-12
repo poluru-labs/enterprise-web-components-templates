@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Open tickets",
+    "value": "248",
+    "hint": "38 created today",
+    "trend": "up",
+    "trendValue": "+12"
+  },
+  {
+    "label": "First response",
+    "value": "42m",
+    "hint": "Target 60m",
+    "trend": "up",
+    "trendValue": "−18m"
+  },
+  {
+    "label": "CSAT",
+    "value": "94.2%",
+    "hint": "Best score this month",
+    "trend": "up",
+    "trendValue": "+1.4 pts"
+  },
+  {
+    "label": "Backlog",
+    "value": "186",
+    "hint": "Awaiting assignment",
+    "trend": "flat",
+    "trendValue": "Stable"
+  },
+  {
+    "label": "SLA health",
+    "value": "91%",
+    "hint": "18 critical under watch",
+    "trend": "up",
+    "trendValue": "+2 pts"
+  },
+  {
+    "label": "Agents online",
+    "value": "14",
+    "hint": "Of 18 scheduled",
+    "trend": "up",
+    "trendValue": "+2"
+  },
+  {
+    "label": "Breached",
+    "value": "6",
+    "hint": "Needs escalation",
+    "trend": "down",
+    "trendValue": "−2"
+  },
+  {
+    "label": "Waiting",
+    "value": "52",
+    "hint": "Customer reply pending",
+    "trend": "flat",
+    "trendValue": "Hold"
+  }
+]

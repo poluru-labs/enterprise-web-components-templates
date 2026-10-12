@@ -1,0 +1,98 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Policy",
+      "sortable": true
+    },
+    {
+      "key": "priority",
+      "label": "Priority"
+    },
+    {
+      "key": "firstResponse",
+      "label": "First response"
+    },
+    {
+      "key": "resolution",
+      "label": "Resolution"
+    },
+    {
+      "key": "breachRate",
+      "label": "Breach rate"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Critical incident",
+      "priority": "Critical",
+      "firstResponse": "15m",
+      "resolution": "4h",
+      "breachRate": "2.1%",
+      "status": "Healthy"
+    },
+    {
+      "name": "High priority",
+      "priority": "High",
+      "firstResponse": "30m",
+      "resolution": "8h",
+      "breachRate": "4.8%",
+      "status": "Watch"
+    },
+    {
+      "name": "Standard request",
+      "priority": "Medium",
+      "firstResponse": "4h",
+      "resolution": "2d",
+      "breachRate": "1.2%",
+      "status": "Healthy"
+    },
+    {
+      "name": "Low priority",
+      "priority": "Low",
+      "firstResponse": "8h",
+      "resolution": "5d",
+      "breachRate": "0.4%",
+      "status": "Healthy"
+    },
+    {
+      "name": "VIP customer",
+      "priority": "High",
+      "firstResponse": "15m",
+      "resolution": "4h",
+      "breachRate": "3.6%",
+      "status": "Watch"
+    },
+    {
+      "name": "EMEA overnight",
+      "priority": "Medium",
+      "firstResponse": "2h",
+      "resolution": "1d",
+      "breachRate": "1.8%",
+      "status": "Healthy"
+    }
+  ],
+  "breachWatchlist": [
+    {
+      "label": "High priority",
+      "description": "4.8% breach rate · 30m first response",
+      "icon": "clock"
+    },
+    {
+      "label": "VIP customer",
+      "description": "3.6% breach rate · 15m first response",
+      "icon": "clock"
+    }
+  ],
+  "policyNotes": {
+    "vipAlert": {
+      "title": "VIP override",
+      "message": "VIP customer policy applies to Harbor and Lumen accounts automatically."
+    },
+    "emeaNote": "EMEA overnight policy uses Priya Poluru's squad calendar for business hours."
+  }
+}

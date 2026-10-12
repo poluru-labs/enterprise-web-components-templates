@@ -1,0 +1,291 @@
+{
+  "records": [
+    {
+      "label": "HD-4821 · Login loop on billing portal",
+      "description": "Billing & workflow · Critical",
+      "owner": "Nila Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4821"
+    },
+    {
+      "label": "HD-4817 · VPN profile refresh failing",
+      "description": "Identity & access · High",
+      "owner": "Maya Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4817"
+    },
+    {
+      "label": "HD-4812 · Asset sync mismatch in CMDB",
+      "description": "Infrastructure · Medium",
+      "owner": "Dev Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4812"
+    },
+    {
+      "label": "HD-4806 · Approval email not delivered",
+      "description": "Billing & workflow · Low",
+      "owner": "Nila Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4806"
+    },
+    {
+      "label": "HD-4801 · SSO timeout on staging tenant",
+      "description": "Identity & access · High",
+      "owner": "Maya Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4801"
+    },
+    {
+      "label": "HD-4798 · Printer queue stuck on floor 3",
+      "description": "Device onboarding · Medium",
+      "owner": "Riya Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4798"
+    },
+    {
+      "label": "HD-4792 · Invoice PDF generation error",
+      "description": "Billing & workflow · High",
+      "owner": "Nila Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4792"
+    },
+    {
+      "label": "HD-4788 · Database failover alert noise",
+      "description": "Infrastructure · Critical",
+      "owner": "Dev Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4788"
+    },
+    {
+      "label": "HD-4783 · New hire laptop provisioning delay",
+      "description": "Device onboarding · Medium",
+      "owner": "Riya Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4783"
+    },
+    {
+      "label": "HD-4779 · Knowledge article link broken",
+      "description": "EMEA overnight · Low",
+      "owner": "Priya Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4779"
+    },
+    {
+      "label": "HD-4774 · API rate limit on ticket webhook",
+      "description": "Platform support · High",
+      "owner": "Arjun Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4774"
+    },
+    {
+      "label": "HD-4768 · Shared mailbox permissions drift",
+      "description": "Identity & access · Medium",
+      "owner": "Maya Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4768"
+    },
+    {
+      "label": "HD-4761 · CSAT survey not sending",
+      "description": "Billing & workflow · Low",
+      "owner": "Nila Poluru",
+      "type": "Ticket",
+      "href": "#/tickets/HD-4761"
+    },
+    {
+      "label": "Maya Poluru",
+      "description": "Identity analyst · Identity & access",
+      "owner": "Maya Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Platform engineer · Platform support",
+      "owner": "Arjun Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "Nila Poluru",
+      "description": "Billing specialist · Billing & workflow",
+      "owner": "Nila Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "Riya Poluru",
+      "description": "Device analyst · Device onboarding",
+      "owner": "Riya Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Infra lead · Infrastructure",
+      "owner": "Dev Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "EMEA lead · EMEA overnight",
+      "owner": "Priya Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "Tara Poluru",
+      "description": "Escalation manager · Platform support",
+      "owner": "Tara Poluru",
+      "type": "Agent",
+      "href": "#/teams"
+    },
+    {
+      "label": "VPN setup for remote analysts",
+      "description": "Access · Maya Poluru",
+      "owner": "Maya Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "Billing portal MFA troubleshooting",
+      "description": "Billing · Nila Poluru",
+      "owner": "Nila Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "CMDB asset sync runbook",
+      "description": "Infrastructure · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "Fleet printer firmware rollback",
+      "description": "Hardware · Riya Poluru",
+      "owner": "Riya Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "Ticket webhook rate limits",
+      "description": "Platform · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "CSAT survey configuration",
+      "description": "Workflow · Tara Poluru",
+      "owner": "Tara Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "SSO session timeout tuning",
+      "description": "Access · Maya Poluru",
+      "owner": "Maya Poluru",
+      "type": "Article",
+      "href": "#/knowledge"
+    },
+    {
+      "label": "Identity & access",
+      "description": "Maya Poluru · 42 open",
+      "owner": "Maya Poluru",
+      "type": "Queue",
+      "href": "#/overview"
+    },
+    {
+      "label": "Platform support",
+      "description": "Arjun Poluru · 58 open",
+      "owner": "Arjun Poluru",
+      "type": "Queue",
+      "href": "#/overview"
+    },
+    {
+      "label": "Billing & workflow",
+      "description": "Nila Poluru · 31 open",
+      "owner": "Nila Poluru",
+      "type": "Queue",
+      "href": "#/overview"
+    },
+    {
+      "label": "Device onboarding",
+      "description": "Riya Poluru · 27 open",
+      "owner": "Riya Poluru",
+      "type": "Queue",
+      "href": "#/overview"
+    },
+    {
+      "label": "Infrastructure",
+      "description": "Dev Poluru · 48 open",
+      "owner": "Dev Poluru",
+      "type": "Queue",
+      "href": "#/overview"
+    },
+    {
+      "label": "EMEA overnight",
+      "description": "Priya Poluru · 22 open",
+      "owner": "Priya Poluru",
+      "type": "Queue",
+      "href": "#/overview"
+    },
+    {
+      "label": "Overview",
+      "description": "Support pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Tickets",
+      "description": "All open requests",
+      "href": "#/tickets",
+      "icon": "ticket",
+      "type": "Jump"
+    },
+    {
+      "label": "HD-4821",
+      "description": "Login loop on billing",
+      "href": "#/tickets/HD-4821",
+      "icon": "ticket",
+      "type": "Jump"
+    },
+    {
+      "label": "Teams",
+      "description": "Agent roster",
+      "href": "#/teams",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "SLA policies",
+      "description": "Response targets",
+      "href": "#/sla",
+      "icon": "clock",
+      "type": "Jump"
+    },
+    {
+      "label": "Knowledge",
+      "description": "Articles and runbooks",
+      "href": "#/knowledge",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Reports",
+      "description": "Exports and summaries",
+      "href": "#/reports",
+      "icon": "download",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

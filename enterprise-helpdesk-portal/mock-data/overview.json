@@ -1,0 +1,182 @@
+{
+  "periodOptions": [
+    {
+      "label": "Shift",
+      "value": "shift"
+    },
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Month",
+      "value": "month"
+    }
+  ],
+  "defaultPeriod": "shift",
+  "infraAlert": {
+    "title": "Infrastructure at risk",
+    "message": "Two SLA breaches in the infra queue. Dev Poluru is leading recovery."
+  },
+  "firstResponseTrend": {
+    "label": "First response trend",
+    "unit": "minutes",
+    "badge": "Shift B",
+    "values": [
+      48,
+      46,
+      44,
+      45,
+      43,
+      42,
+      41,
+      42,
+      40,
+      41,
+      42,
+      42
+    ],
+    "note": "42m average first response. Target is 60m. Billing portal login loop is the top driver."
+  },
+  "slaAttainment": {
+    "percent": 91,
+    "breachedCount": 6,
+    "openCount": 248,
+    "note": "Six tickets need escalation before shift handoff at 8 PM."
+  },
+  "queuesAndTeams": [
+    {
+      "id": "q_identity",
+      "name": "Identity & access",
+      "lead": "Maya Poluru",
+      "open": 42,
+      "breached": 1,
+      "sla": 94,
+      "status": "Healthy"
+    },
+    {
+      "id": "q_platform",
+      "name": "Platform support",
+      "lead": "Arjun Poluru",
+      "open": 58,
+      "breached": 2,
+      "sla": 89,
+      "status": "Watch"
+    },
+    {
+      "id": "q_billing",
+      "name": "Billing & workflow",
+      "lead": "Nila Poluru",
+      "open": 31,
+      "breached": 0,
+      "sla": 96,
+      "status": "Healthy"
+    },
+    {
+      "id": "q_device",
+      "name": "Device onboarding",
+      "lead": "Riya Poluru",
+      "open": 27,
+      "breached": 1,
+      "sla": 92,
+      "status": "Healthy"
+    },
+    {
+      "id": "q_infra",
+      "name": "Infrastructure",
+      "lead": "Dev Poluru",
+      "open": 48,
+      "breached": 2,
+      "sla": 87,
+      "status": "At risk"
+    },
+    {
+      "id": "q_eu",
+      "name": "EMEA overnight",
+      "lead": "Priya Poluru",
+      "open": 22,
+      "breached": 0,
+      "sla": 95,
+      "status": "Healthy"
+    }
+  ],
+  "watchList": [
+    {
+      "label": "HD-4821 · Login loop on billing portal",
+      "description": "Nila Poluru · Critical",
+      "icon": "alert-triangle",
+      "href": "#/tickets/HD-4821"
+    },
+    {
+      "label": "HD-4817 · VPN profile refresh failing",
+      "description": "Maya Poluru · High",
+      "icon": "alert-triangle",
+      "href": "#/tickets/HD-4817"
+    },
+    {
+      "label": "HD-4801 · SSO timeout on staging tenant",
+      "description": "Maya Poluru · High",
+      "icon": "alert-triangle",
+      "href": "#/tickets/HD-4801"
+    },
+    {
+      "label": "HD-4792 · Invoice PDF generation error",
+      "description": "Nila Poluru · High",
+      "icon": "alert-triangle",
+      "href": "#/tickets/HD-4792"
+    }
+  ],
+  "priorityTicketsPreview": {
+    "columns": [
+      {
+        "key": "id",
+        "label": "Ticket"
+      },
+      {
+        "key": "summary",
+        "label": "Summary"
+      },
+      {
+        "key": "priority",
+        "label": "Priority"
+      },
+      {
+        "key": "sla",
+        "label": "SLA"
+      }
+    ],
+    "rows": [
+      {
+        "id": "HD-4821",
+        "summary": "Login loop on billing portal",
+        "priority": "Critical",
+        "sla": "Breached"
+      },
+      {
+        "id": "HD-4817",
+        "summary": "VPN profile refresh failing",
+        "priority": "High",
+        "sla": "At risk"
+      },
+      {
+        "id": "HD-4801",
+        "summary": "SSO timeout on staging tenant",
+        "priority": "High",
+        "sla": "At risk"
+      },
+      {
+        "id": "HD-4792",
+        "summary": "Invoice PDF generation error",
+        "priority": "High",
+        "sla": "Breached"
+      },
+      {
+        "id": "HD-4788",
+        "summary": "Database failover alert noise",
+        "priority": "Critical",
+        "sla": "At risk"
+      }
+    ]
+  },
+  "deflectionNote": "Runbooks and articles for analysts. Deflection rate is 34% this month."
+}

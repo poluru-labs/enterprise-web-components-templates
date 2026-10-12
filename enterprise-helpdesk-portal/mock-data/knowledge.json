@@ -1,0 +1,126 @@
+{
+  "columns": [
+    {
+      "key": "title",
+      "label": "Article",
+      "sortable": true
+    },
+    {
+      "key": "category",
+      "label": "Category"
+    },
+    {
+      "key": "author",
+      "label": "Author"
+    },
+    {
+      "key": "views",
+      "label": "Views"
+    },
+    {
+      "key": "updated",
+      "label": "Updated"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "id": "kb_vpn",
+      "title": "VPN setup for remote analysts",
+      "category": "Access",
+      "views": 842,
+      "updated": "28 Aug 2026",
+      "author": "Maya Poluru",
+      "status": "Published"
+    },
+    {
+      "id": "kb_billing",
+      "title": "Billing portal MFA troubleshooting",
+      "category": "Billing",
+      "views": 614,
+      "updated": "29 Aug 2026",
+      "author": "Nila Poluru",
+      "status": "Published"
+    },
+    {
+      "id": "kb_cmdb",
+      "title": "CMDB asset sync runbook",
+      "category": "Infrastructure",
+      "views": 391,
+      "updated": "27 Aug 2026",
+      "author": "Dev Poluru",
+      "status": "Published"
+    },
+    {
+      "id": "kb_printer",
+      "title": "Fleet printer firmware rollback",
+      "category": "Hardware",
+      "views": 256,
+      "updated": "25 Aug 2026",
+      "author": "Riya Poluru",
+      "status": "Published"
+    },
+    {
+      "id": "kb_webhook",
+      "title": "Ticket webhook rate limits",
+      "category": "Platform",
+      "views": 178,
+      "updated": "30 Aug 2026",
+      "author": "Arjun Poluru",
+      "status": "Draft"
+    },
+    {
+      "id": "kb_csat",
+      "title": "CSAT survey configuration",
+      "category": "Workflow",
+      "views": 142,
+      "updated": "26 Aug 2026",
+      "author": "Tara Poluru",
+      "status": "Published"
+    },
+    {
+      "id": "kb_sso",
+      "title": "SSO session timeout tuning",
+      "category": "Access",
+      "views": 503,
+      "updated": "31 Aug 2026",
+      "author": "Maya Poluru",
+      "status": "Published"
+    }
+  ],
+  "filters": {
+    "category": [
+      {
+        "label": "All categories",
+        "value": ""
+      },
+      {
+        "label": "Access",
+        "value": "Access"
+      },
+      {
+        "label": "Billing",
+        "value": "Billing"
+      },
+      {
+        "label": "Infrastructure",
+        "value": "Infrastructure"
+      },
+      {
+        "label": "Hardware",
+        "value": "Hardware"
+      },
+      {
+        "label": "Platform",
+        "value": "Platform"
+      },
+      {
+        "label": "Workflow",
+        "value": "Workflow"
+      }
+    ]
+  }
+}
