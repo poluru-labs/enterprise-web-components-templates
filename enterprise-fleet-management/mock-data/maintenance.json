@@ -1,0 +1,112 @@
+{
+  "rows": [
+    {
+      "id": "wo-441",
+      "vehicle": "ORB-412",
+      "title": "Brake drums and shoes",
+      "shop": "Dallas bay 2",
+      "owner": "Subra Poluru",
+      "due": "2026-09-12",
+      "status": "in_shop",
+      "hours": 6
+    },
+    {
+      "id": "wo-438",
+      "vehicle": "ORB-740",
+      "title": "PM-C 15k service",
+      "shop": "Austin bay 1",
+      "owner": "Subra Poluru",
+      "due": "2026-09-16",
+      "status": "scheduled",
+      "hours": 4
+    },
+    {
+      "id": "wo-436",
+      "vehicle": "ORB-104",
+      "title": "Cabin A/C recharge",
+      "shop": "Austin bay 3",
+      "owner": "Subra Poluru",
+      "due": "2026-09-18",
+      "status": "scheduled",
+      "hours": 2
+    },
+    {
+      "id": "wo-429",
+      "vehicle": "ORB-218",
+      "title": "Lift-gate hydraulics",
+      "shop": "Dallas bay 1",
+      "owner": "Subra Poluru",
+      "due": "2026-09-22",
+      "status": "parts_hold",
+      "hours": 5
+    },
+    {
+      "id": "wo-421",
+      "vehicle": "ORB-509",
+      "title": "Tire rotation",
+      "shop": "Austin bay 4",
+      "owner": "Ishaan Poluru",
+      "due": "2026-09-28",
+      "status": "scheduled",
+      "hours": 1
+    },
+    {
+      "id": "wo-418",
+      "vehicle": "ORB-331",
+      "title": "Oil and filter",
+      "shop": "Austin bay 2",
+      "owner": "Subra Poluru",
+      "due": "2026-10-04",
+      "status": "scheduled",
+      "hours": 1
+    },
+    {
+      "id": "wo-410",
+      "vehicle": "ORB-627",
+      "title": "Sliding-door latch",
+      "shop": "Austin bay 3",
+      "owner": "Subra Poluru",
+      "due": "2026-09-09",
+      "status": "complete",
+      "hours": 2
+    },
+    {
+      "id": "wo-404",
+      "vehicle": "ORB-851",
+      "title": "DOT inspection prep",
+      "shop": "Dallas bay 3",
+      "owner": "Ishaan Poluru",
+      "due": "2026-09-13",
+      "status": "due",
+      "hours": 3
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "In shop",
+        "value": "in_shop"
+      },
+      {
+        "label": "Scheduled",
+        "value": "scheduled"
+      },
+      {
+        "label": "Parts hold",
+        "value": "parts_hold"
+      },
+      {
+        "label": "Due",
+        "value": "due"
+      },
+      {
+        "label": "Complete",
+        "value": "complete"
+      }
+    ]
+  }
+}

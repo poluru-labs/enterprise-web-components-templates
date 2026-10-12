@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Overview",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Vehicles",
+    "href": "#/vehicles",
+    "icon": "folder"
+  },
+  {
+    "label": "Maintenance",
+    "href": "#/maintenance",
+    "icon": "check"
+  },
+  {
+    "label": "Drivers",
+    "href": "#/drivers",
+    "icon": "user"
+  },
+  {
+    "label": "Fuel",
+    "href": "#/fuel",
+    "icon": "star"
+  },
+  {
+    "label": "Inspections",
+    "href": "#/inspections",
+    "icon": "file"
+  },
+  {
+    "label": "Settings",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

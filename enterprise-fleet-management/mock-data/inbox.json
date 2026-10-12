@@ -1,0 +1,26 @@
+[
+  {
+    "label": "ORB-412 still in Dallas shop",
+    "description": "Subra Poluru · brake drums",
+    "icon": "alert-triangle",
+    "href": "#/vehicle/orb-412"
+  },
+  {
+    "label": "ORB-851 DOT due tomorrow",
+    "description": "Ishaan Poluru · annual",
+    "icon": "clock",
+    "href": "#/inspections"
+  },
+  {
+    "label": "Fuel exception on ORB-740",
+    "description": "Priya Poluru · 62.8 gal",
+    "icon": "star",
+    "href": "#/fuel"
+  },
+  {
+    "label": "Asha Poluru is unassigned",
+    "description": "Austin pool · Class C",
+    "icon": "user",
+    "href": "#/drivers"
+  }
+]

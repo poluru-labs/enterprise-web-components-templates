@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "id": "drv-kavya",
+      "name": "Kavya Poluru",
+      "yard": "Austin",
+      "license": "CDL-A",
+      "status": "on_route",
+      "vehicle": "ORB-104",
+      "hours": 7.4,
+      "phone": "512-555-0140"
+    },
+    {
+      "id": "drv-maya",
+      "name": "Maya Poluru",
+      "yard": "Austin",
+      "license": "CDL-B",
+      "status": "on_route",
+      "vehicle": "ORB-509",
+      "hours": 6.1,
+      "phone": "512-555-0141"
+    },
+    {
+      "id": "drv-arjun",
+      "name": "Arjun Poluru",
+      "yard": "Dallas",
+      "license": "CDL-A",
+      "status": "assigned",
+      "vehicle": "ORB-218",
+      "hours": 4.8,
+      "phone": "214-555-0188"
+    },
+    {
+      "id": "drv-leela",
+      "name": "Leela Poluru",
+      "yard": "Austin",
+      "license": "CDL-B",
+      "status": "on_route",
+      "vehicle": "ORB-627",
+      "hours": 8,
+      "phone": "512-555-0144"
+    },
+    {
+      "id": "drv-nikhil",
+      "name": "Nikhil Poluru",
+      "yard": "Dallas",
+      "license": "CDL-B",
+      "status": "idle",
+      "vehicle": "ORB-851",
+      "hours": 2.2,
+      "phone": "214-555-0190"
+    },
+    {
+      "id": "drv-rohan",
+      "name": "Rohan Poluru",
+      "yard": "Austin",
+      "license": "CDL-A",
+      "status": "assigned",
+      "vehicle": "ORB-740",
+      "hours": 5.6,
+      "phone": "512-555-0148"
+    },
+    {
+      "id": "drv-asha",
+      "name": "Asha Poluru",
+      "yard": "Austin",
+      "license": "Class C",
+      "status": "idle",
+      "vehicle": "—",
+      "hours": 0,
+      "phone": "512-555-0152"
+    },
+    {
+      "id": "drv-dev",
+      "name": "Dev Poluru",
+      "yard": "Dallas",
+      "license": "CDL-A",
+      "status": "off_duty",
+      "vehicle": "—",
+      "hours": 0,
+      "phone": "214-555-0194"
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "On route",
+        "value": "on_route"
+      },
+      {
+        "label": "Assigned",
+        "value": "assigned"
+      },
+      {
+        "label": "Idle",
+        "value": "idle"
+      },
+      {
+        "label": "Off duty",
+        "value": "off_duty"
+      }
+    ],
+    "yard": [
+      {
+        "label": "All yards",
+        "value": ""
+      },
+      {
+        "label": "Austin",
+        "value": "Austin"
+      },
+      {
+        "label": "Dallas",
+        "value": "Dallas"
+      }
+    ]
+  }
+}

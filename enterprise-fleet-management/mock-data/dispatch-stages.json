@@ -1,0 +1,27 @@
+[
+  {
+    "id": "yard",
+    "label": "Yard",
+    "count": 18,
+    "href": "#/vehicles"
+  },
+  {
+    "id": "assigned",
+    "label": "Assigned",
+    "count": 12,
+    "href": "#/drivers"
+  },
+  {
+    "id": "on_route",
+    "label": "On route",
+    "count": 96,
+    "href": "#/vehicles"
+  },
+  {
+    "id": "shop",
+    "label": "Shop",
+    "count": 8,
+    "href": "#/maintenance",
+    "hot": true
+  }
+]

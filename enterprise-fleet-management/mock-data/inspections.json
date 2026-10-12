@@ -1,0 +1,116 @@
+{
+  "rows": [
+    {
+      "id": "ins-881",
+      "vehicle": "ORB-851",
+      "inspector": "Ishaan Poluru",
+      "type": "DOT annual",
+      "due": "2026-09-13",
+      "status": "due",
+      "result": "Open",
+      "notes": "Lights and brakes before the stamp."
+    },
+    {
+      "id": "ins-874",
+      "vehicle": "ORB-412",
+      "inspector": "Subra Poluru",
+      "type": "Post-repair",
+      "due": "2026-09-12",
+      "status": "in_shop",
+      "result": "Hold",
+      "notes": "Brake drums still on the bench."
+    },
+    {
+      "id": "ins-868",
+      "vehicle": "ORB-104",
+      "inspector": "Ishaan Poluru",
+      "type": "Pre-trip",
+      "due": "2026-09-12",
+      "status": "passed",
+      "result": "Pass",
+      "notes": "Kavya Poluru signed the book."
+    },
+    {
+      "id": "ins-861",
+      "vehicle": "ORB-509",
+      "inspector": "Ishaan Poluru",
+      "type": "Pre-trip",
+      "due": "2026-09-12",
+      "status": "passed",
+      "result": "Pass",
+      "notes": "Maya Poluru, 06:50 Austin."
+    },
+    {
+      "id": "ins-852",
+      "vehicle": "ORB-627",
+      "inspector": "Kavya Poluru",
+      "type": "Pre-trip",
+      "due": "2026-09-12",
+      "status": "passed",
+      "result": "Pass",
+      "notes": "Sliding door noted, still legal."
+    },
+    {
+      "id": "ins-844",
+      "vehicle": "ORB-740",
+      "inspector": "Ishaan Poluru",
+      "type": "Level 1",
+      "due": "2026-09-16",
+      "status": "scheduled",
+      "result": "Open",
+      "notes": "Scale house at 09:00."
+    },
+    {
+      "id": "ins-830",
+      "vehicle": "ORB-218",
+      "inspector": "Subra Poluru",
+      "type": "Pre-trip",
+      "due": "2026-09-11",
+      "status": "passed",
+      "result": "Pass",
+      "notes": "Arjun Poluru, Dallas gate."
+    },
+    {
+      "id": "ins-821",
+      "vehicle": "ORB-331",
+      "inspector": "Asha Poluru",
+      "type": "Walkaround",
+      "due": "2026-09-10",
+      "status": "passed",
+      "result": "Pass",
+      "notes": "Pool car, no defects."
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Due",
+        "value": "due"
+      },
+      {
+        "label": "Scheduled",
+        "value": "scheduled"
+      },
+      {
+        "label": "Passed",
+        "value": "passed"
+      },
+      {
+        "label": "In shop",
+        "value": "in_shop"
+      }
+    ]
+  },
+  "tableColumns": [
+    "Unit",
+    "Type",
+    "Inspector",
+    "Due",
+    "Result",
+    "Status"
+  ]
+}

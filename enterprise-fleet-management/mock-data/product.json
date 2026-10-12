@@ -1,0 +1,18 @@
+{
+  "productName": "Orbit",
+  "productLine": "Fleet",
+  "workspaceName": "Poluru Yards",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@poluruyards.example",
+    "role": "Fleet director"
+  },
+  "workspace": {
+    "name": "Poluru Yards",
+    "period": "Yard day · 12 Sep 2026",
+    "timezone": "America / Chicago",
+    "yards": "Austin · Dallas"
+  },
+  "brandColor": "#541212",
+  "headerFuelLabel": "68% avg tank"
+}

@@ -1,0 +1,24 @@
+{
+  "workspace": "Poluru Yards",
+  "timezone": "America / Chicago",
+  "yards": "Austin · Dallas",
+  "fuelExceptionGallons": 50,
+  "dotRemindersTo": "Ishaan Poluru",
+  "shopDigestTo": "Subra Poluru",
+  "defaultYardOptions": [
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Dallas",
+      "value": "Dallas"
+    }
+  ],
+  "defaultYard": "Austin",
+  "density": "comfortable",
+  "densityOptions": [
+    "comfortable",
+    "compact"
+  ]
+}

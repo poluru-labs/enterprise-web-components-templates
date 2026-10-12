@@ -1,0 +1,120 @@
+{
+  "logs": [
+    {
+      "id": "fuel-1",
+      "vehicle": "ORB-104",
+      "driver": "Kavya Poluru",
+      "gallons": 18.4,
+      "cost": 68,
+      "mpg": 14.2,
+      "yard": "Austin",
+      "when": "12 Sep 06:40"
+    },
+    {
+      "id": "fuel-2",
+      "vehicle": "ORB-509",
+      "driver": "Maya Poluru",
+      "gallons": 16.1,
+      "cost": 59,
+      "mpg": 18.6,
+      "yard": "Austin",
+      "when": "12 Sep 07:05"
+    },
+    {
+      "id": "fuel-3",
+      "vehicle": "ORB-627",
+      "driver": "Leela Poluru",
+      "gallons": 21,
+      "cost": 77,
+      "mpg": 16.1,
+      "yard": "Austin",
+      "when": "12 Sep 07:22"
+    },
+    {
+      "id": "fuel-4",
+      "vehicle": "ORB-740",
+      "driver": "Rohan Poluru",
+      "gallons": 62.8,
+      "cost": 241,
+      "mpg": 6.8,
+      "yard": "Austin",
+      "when": "11 Sep 18:10"
+    },
+    {
+      "id": "fuel-5",
+      "vehicle": "ORB-218",
+      "driver": "Arjun Poluru",
+      "gallons": 34.2,
+      "cost": 128,
+      "mpg": 9.4,
+      "yard": "Dallas",
+      "when": "11 Sep 19:02"
+    },
+    {
+      "id": "fuel-6",
+      "vehicle": "ORB-851",
+      "driver": "Nikhil Poluru",
+      "gallons": 19.6,
+      "cost": 71,
+      "mpg": 13,
+      "yard": "Dallas",
+      "when": "11 Sep 20:14"
+    },
+    {
+      "id": "fuel-7",
+      "vehicle": "ORB-412",
+      "driver": "Subra Poluru",
+      "gallons": 8.2,
+      "cost": 30,
+      "mpg": 8.1,
+      "yard": "Dallas",
+      "when": "10 Sep 14:40"
+    },
+    {
+      "id": "fuel-8",
+      "vehicle": "ORB-331",
+      "driver": "Asha Poluru",
+      "gallons": 12.4,
+      "cost": 45,
+      "mpg": 22.4,
+      "yard": "Austin",
+      "when": "10 Sep 09:18"
+    }
+  ],
+  "trend": {
+    "label": "Gallons by week",
+    "values": [
+      412,
+      428,
+      441,
+      398,
+      454,
+      470,
+      438,
+      461,
+      449,
+      482,
+      468,
+      451
+    ],
+    "note": "Linehaul still takes the heavy tickets. Subbu Poluru reviews anything over 50 gallons."
+  },
+  "exceptions": [
+    {
+      "unit": "ORB-740",
+      "detail": "Rohan Poluru · 62.8 gal",
+      "badge": "Watch"
+    },
+    {
+      "unit": "ORB-218",
+      "detail": "Arjun Poluru · 34.2 gal",
+      "badge": "OK"
+    },
+    {
+      "unit": "ORB-412",
+      "detail": "Shop fill · 8.2 gal",
+      "badge": "Shop"
+    }
+  ],
+  "fuelExceptionGallons": 50
+}

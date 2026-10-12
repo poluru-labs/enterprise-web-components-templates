@@ -1,0 +1,150 @@
+{
+  "rows": [
+    {
+      "id": "orb-104",
+      "unit": "ORB-104",
+      "make": "Ford Transit 350",
+      "type": "Van",
+      "yard": "Austin",
+      "status": "on_route",
+      "driver": "Kavya Poluru",
+      "miles": 42180,
+      "fuel": 62,
+      "nextService": "2026-09-18",
+      "vin": "1FTBW3XM4LKA104"
+    },
+    {
+      "id": "orb-218",
+      "unit": "ORB-218",
+      "make": "Freightliner M2",
+      "type": "Box truck",
+      "yard": "Dallas",
+      "status": "assigned",
+      "driver": "Arjun Poluru",
+      "miles": 88420,
+      "fuel": 71,
+      "nextService": "2026-09-22",
+      "vin": "3ALACWDT8HDJA218"
+    },
+    {
+      "id": "orb-331",
+      "unit": "ORB-331",
+      "make": "Toyota Highlander",
+      "type": "Pool SUV",
+      "yard": "Austin",
+      "status": "yard",
+      "driver": "—",
+      "miles": 19640,
+      "fuel": 88,
+      "nextService": "2026-10-04",
+      "vin": "5TDKZRFH5NS331"
+    },
+    {
+      "id": "orb-412",
+      "unit": "ORB-412",
+      "make": "Isuzu NPR",
+      "type": "Box truck",
+      "yard": "Dallas",
+      "status": "in_shop",
+      "driver": "Subra Poluru",
+      "miles": 61200,
+      "fuel": 24,
+      "nextService": "2026-09-12",
+      "vin": "JALC4W165G7412"
+    },
+    {
+      "id": "orb-509",
+      "unit": "ORB-509",
+      "make": "Ford F-150",
+      "type": "Pickup",
+      "yard": "Austin",
+      "status": "on_route",
+      "driver": "Maya Poluru",
+      "miles": 33810,
+      "fuel": 54,
+      "nextService": "2026-09-28",
+      "vin": "1FTEW1EP5NFA509"
+    },
+    {
+      "id": "orb-627",
+      "unit": "ORB-627",
+      "make": "Mercedes Sprinter",
+      "type": "Van",
+      "yard": "Austin",
+      "status": "on_route",
+      "driver": "Leela Poluru",
+      "miles": 27450,
+      "fuel": 47,
+      "nextService": "2026-10-01",
+      "vin": "WD3PE8CD5NP627"
+    },
+    {
+      "id": "orb-740",
+      "unit": "ORB-740",
+      "make": "Peterbilt 579",
+      "type": "Tractor",
+      "yard": "Austin",
+      "status": "assigned",
+      "driver": "Rohan Poluru",
+      "miles": 142900,
+      "fuel": 81,
+      "nextService": "2026-09-16",
+      "vin": "1XPBD49X0ND740"
+    },
+    {
+      "id": "orb-851",
+      "unit": "ORB-851",
+      "make": "Chevy Express",
+      "type": "Van",
+      "yard": "Dallas",
+      "status": "inspection_due",
+      "driver": "Nikhil Poluru",
+      "miles": 50880,
+      "fuel": 39,
+      "nextService": "2026-09-13",
+      "vin": "1GCWGAFG8N1851"
+    }
+  ],
+  "filters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "On route",
+        "value": "on_route"
+      },
+      {
+        "label": "Assigned",
+        "value": "assigned"
+      },
+      {
+        "label": "Yard",
+        "value": "yard"
+      },
+      {
+        "label": "In shop",
+        "value": "in_shop"
+      },
+      {
+        "label": "Inspection due",
+        "value": "inspection_due"
+      }
+    ],
+    "yard": [
+      {
+        "label": "All yards",
+        "value": ""
+      },
+      {
+        "label": "Austin",
+        "value": "Austin"
+      },
+      {
+        "label": "Dallas",
+        "value": "Dallas"
+      }
+    ]
+  }
+}

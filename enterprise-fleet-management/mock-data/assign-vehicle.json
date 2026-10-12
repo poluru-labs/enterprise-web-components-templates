@@ -1,0 +1,106 @@
+{
+  "vehicleOptions": [
+    {
+      "label": "ORB-104 · Ford Transit 350",
+      "value": "ORB-104"
+    },
+    {
+      "label": "ORB-218 · Freightliner M2",
+      "value": "ORB-218"
+    },
+    {
+      "label": "ORB-331 · Toyota Highlander",
+      "value": "ORB-331"
+    },
+    {
+      "label": "ORB-412 · Isuzu NPR",
+      "value": "ORB-412"
+    },
+    {
+      "label": "ORB-509 · Ford F-150",
+      "value": "ORB-509"
+    },
+    {
+      "label": "ORB-627 · Mercedes Sprinter",
+      "value": "ORB-627"
+    },
+    {
+      "label": "ORB-740 · Peterbilt 579",
+      "value": "ORB-740"
+    },
+    {
+      "label": "ORB-851 · Chevy Express",
+      "value": "ORB-851"
+    }
+  ],
+  "defaultVehicle": "ORB-331",
+  "driverOptions": [
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Leela Poluru",
+      "value": "Leela Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Asha Poluru",
+      "value": "Asha Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    }
+  ],
+  "defaultDriver": "Asha Poluru",
+  "yardOptions": [
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Dallas",
+      "value": "Dallas"
+    }
+  ],
+  "defaultYard": "Austin",
+  "typeOptions": [
+    {
+      "label": "Van",
+      "value": "Van"
+    },
+    {
+      "label": "Box truck",
+      "value": "Box truck"
+    },
+    {
+      "label": "Pickup",
+      "value": "Pickup"
+    },
+    {
+      "label": "Tractor",
+      "value": "Tractor"
+    },
+    {
+      "label": "Pool SUV",
+      "value": "Pool SUV"
+    }
+  ],
+  "defaultType": "Van"
+}

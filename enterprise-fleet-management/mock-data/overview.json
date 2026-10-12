@@ -1,0 +1,198 @@
+{
+  "stats": [
+    {
+      "label": "Units on the book",
+      "value": "8",
+      "hint": "Austin and Dallas yards",
+      "trend": "flat",
+      "trendValue": "Demo set"
+    },
+    {
+      "label": "On route",
+      "value": "3",
+      "hint": "Live assignments this morning",
+      "trend": "up",
+      "trendValue": "+3"
+    },
+    {
+      "label": "In shop",
+      "value": "1",
+      "hint": "Subra Poluru’s bays",
+      "trend": "down",
+      "trendValue": "1 hold"
+    },
+    {
+      "label": "Inspections due",
+      "value": "2",
+      "hint": "Ishaan Poluru’s queue",
+      "trend": "flat",
+      "trendValue": "Today"
+    }
+  ],
+  "shopAlert": {
+    "title": "Shop hold",
+    "message": "ORB-412 is in Dallas bay 2. Subra Poluru will not release it until the brake drums are on."
+  },
+  "fuelTrend": {
+    "label": "Fuel this month",
+    "badge": "4,512 gal",
+    "unit": "gallons",
+    "values": [
+      412,
+      428,
+      441,
+      398,
+      454,
+      470,
+      438,
+      461,
+      449,
+      482,
+      468,
+      451
+    ],
+    "note": "Priya Poluru flags anything over 50 gallons on a single ticket. ORB-740 hit 62.8 last night."
+  },
+  "tankAverage": {
+    "percent": 68,
+    "targetNote": "Austin sits fuller than Dallas. Subbu Poluru wants 70% by shift change."
+  },
+  "unitsInMotionPreview": [
+    {
+      "id": "orb-104",
+      "unit": "ORB-104",
+      "make": "Ford Transit 350",
+      "type": "Van",
+      "yard": "Austin",
+      "status": "on_route",
+      "driver": "Kavya Poluru",
+      "miles": 42180,
+      "fuel": 62,
+      "nextService": "2026-09-18",
+      "vin": "1FTBW3XM4LKA104"
+    },
+    {
+      "id": "orb-218",
+      "unit": "ORB-218",
+      "make": "Freightliner M2",
+      "type": "Box truck",
+      "yard": "Dallas",
+      "status": "assigned",
+      "driver": "Arjun Poluru",
+      "miles": 88420,
+      "fuel": 71,
+      "nextService": "2026-09-22",
+      "vin": "3ALACWDT8HDJA218"
+    },
+    {
+      "id": "orb-331",
+      "unit": "ORB-331",
+      "make": "Toyota Highlander",
+      "type": "Pool SUV",
+      "yard": "Austin",
+      "status": "yard",
+      "driver": "—",
+      "miles": 19640,
+      "fuel": 88,
+      "nextService": "2026-10-04",
+      "vin": "5TDKZRFH5NS331"
+    },
+    {
+      "id": "orb-412",
+      "unit": "ORB-412",
+      "make": "Isuzu NPR",
+      "type": "Box truck",
+      "yard": "Dallas",
+      "status": "in_shop",
+      "driver": "Subra Poluru",
+      "miles": 61200,
+      "fuel": 24,
+      "nextService": "2026-09-12",
+      "vin": "JALC4W165G7412"
+    },
+    {
+      "id": "orb-509",
+      "unit": "ORB-509",
+      "make": "Ford F-150",
+      "type": "Pickup",
+      "yard": "Austin",
+      "status": "on_route",
+      "driver": "Maya Poluru",
+      "miles": 33810,
+      "fuel": 54,
+      "nextService": "2026-09-28",
+      "vin": "1FTEW1EP5NFA509"
+    },
+    {
+      "id": "orb-627",
+      "unit": "ORB-627",
+      "make": "Mercedes Sprinter",
+      "type": "Van",
+      "yard": "Austin",
+      "status": "on_route",
+      "driver": "Leela Poluru",
+      "miles": 27450,
+      "fuel": 47,
+      "nextService": "2026-10-01",
+      "vin": "WD3PE8CD5NP627"
+    }
+  ],
+  "shopBoard": [
+    {
+      "id": "wo-441",
+      "vehicle": "ORB-412",
+      "title": "Brake drums and shoes",
+      "shop": "Dallas bay 2",
+      "owner": "Subra Poluru",
+      "due": "2026-09-12",
+      "status": "in_shop",
+      "hours": 6
+    },
+    {
+      "id": "wo-429",
+      "vehicle": "ORB-218",
+      "title": "Lift-gate hydraulics",
+      "shop": "Dallas bay 1",
+      "owner": "Subra Poluru",
+      "due": "2026-09-22",
+      "status": "parts_hold",
+      "hours": 5
+    },
+    {
+      "id": "wo-404",
+      "vehicle": "ORB-851",
+      "title": "DOT inspection prep",
+      "shop": "Dallas bay 3",
+      "owner": "Ishaan Poluru",
+      "due": "2026-09-13",
+      "status": "due",
+      "hours": 3
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Kavya Poluru rolled ORB-104",
+      "description": "Austin gate · pre-trip passed",
+      "timestamp": "06:42",
+      "icon": "check"
+    },
+    {
+      "label": "Maya Poluru on ORB-509",
+      "description": "North loop · 6.1 hours",
+      "timestamp": "07:08",
+      "icon": "user"
+    },
+    {
+      "label": "Subra Poluru held ORB-412",
+      "description": "Dallas bay 2 · drums",
+      "timestamp": "08:15",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Ishaan Poluru queued ORB-851",
+      "description": "DOT annual tomorrow",
+      "timestamp": "09:02",
+      "icon": "clock"
+    }
+  ]
+}

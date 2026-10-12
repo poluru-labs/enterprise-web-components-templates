@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Overview",
+    "description": "Yard pulse",
+    "href": "#/overview",
+    "icon": "home"
+  },
+  {
+    "label": "Assign vehicle",
+    "description": "Put a driver on a unit",
+    "href": "#assign-vehicle",
+    "icon": "plus"
+  },
+  {
+    "label": "Vehicles",
+    "description": "Units and yards",
+    "href": "#/vehicles",
+    "icon": "folder"
+  },
+  {
+    "label": "Maintenance",
+    "description": "Subra Poluru’s board",
+    "href": "#/maintenance",
+    "icon": "check"
+  },
+  {
+    "label": "Drivers",
+    "description": "Assignments and hours",
+    "href": "#/drivers",
+    "icon": "user"
+  },
+  {
+    "label": "Fuel",
+    "description": "Gallons and MPG",
+    "href": "#/fuel",
+    "icon": "star"
+  },
+  {
+    "label": "Inspections",
+    "description": "DOT and pre-trip",
+    "href": "#/inspections",
+    "icon": "file"
+  },
+  {
+    "label": "Settings",
+    "description": "Yard defaults",
+    "href": "#/settings",
+    "icon": "settings"
+  }
+]

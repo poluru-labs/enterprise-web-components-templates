@@ -1,0 +1,284 @@
+{
+  "records": [
+    {
+      "label": "ORB-104",
+      "description": "Ford Transit 350 · Kavya Poluru · Austin",
+      "owner": "Kavya Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-104"
+    },
+    {
+      "label": "ORB-218",
+      "description": "Freightliner M2 · Arjun Poluru · Dallas",
+      "owner": "Arjun Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-218"
+    },
+    {
+      "label": "ORB-331",
+      "description": "Toyota Highlander · — · Austin",
+      "owner": "—",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-331"
+    },
+    {
+      "label": "ORB-412",
+      "description": "Isuzu NPR · Subra Poluru · Dallas",
+      "owner": "Subra Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-412"
+    },
+    {
+      "label": "ORB-509",
+      "description": "Ford F-150 · Maya Poluru · Austin",
+      "owner": "Maya Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-509"
+    },
+    {
+      "label": "ORB-627",
+      "description": "Mercedes Sprinter · Leela Poluru · Austin",
+      "owner": "Leela Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-627"
+    },
+    {
+      "label": "ORB-740",
+      "description": "Peterbilt 579 · Rohan Poluru · Austin",
+      "owner": "Rohan Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-740"
+    },
+    {
+      "label": "ORB-851",
+      "description": "Chevy Express · Nikhil Poluru · Dallas",
+      "owner": "Nikhil Poluru",
+      "type": "Vehicle",
+      "href": "#/vehicle/orb-851"
+    },
+    {
+      "label": "Brake drums and shoes",
+      "description": "ORB-412 · in_shop",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "PM-C 15k service",
+      "description": "ORB-740 · scheduled",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Cabin A/C recharge",
+      "description": "ORB-104 · scheduled",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Lift-gate hydraulics",
+      "description": "ORB-218 · parts_hold",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Tire rotation",
+      "description": "ORB-509 · scheduled",
+      "owner": "Ishaan Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Oil and filter",
+      "description": "ORB-331 · scheduled",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Sliding-door latch",
+      "description": "ORB-627 · complete",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "DOT inspection prep",
+      "description": "ORB-851 · due",
+      "owner": "Ishaan Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "CDL-A · Austin",
+      "owner": "Kavya Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Maya Poluru",
+      "description": "CDL-B · Austin",
+      "owner": "Maya Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "CDL-A · Dallas",
+      "owner": "Arjun Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Leela Poluru",
+      "description": "CDL-B · Austin",
+      "owner": "Leela Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "CDL-B · Dallas",
+      "owner": "Nikhil Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "CDL-A · Austin",
+      "owner": "Rohan Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Asha Poluru",
+      "description": "Class C · Austin",
+      "owner": "Asha Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "CDL-A · Dallas",
+      "owner": "Dev Poluru",
+      "type": "Driver",
+      "href": "#/drivers"
+    },
+    {
+      "label": "DOT annual · ORB-851",
+      "description": "Ishaan Poluru · due",
+      "owner": "Ishaan Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Post-repair · ORB-412",
+      "description": "Subra Poluru · in_shop",
+      "owner": "Subra Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Pre-trip · ORB-104",
+      "description": "Ishaan Poluru · passed",
+      "owner": "Ishaan Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Pre-trip · ORB-509",
+      "description": "Ishaan Poluru · passed",
+      "owner": "Ishaan Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Pre-trip · ORB-627",
+      "description": "Kavya Poluru · passed",
+      "owner": "Kavya Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Level 1 · ORB-740",
+      "description": "Ishaan Poluru · scheduled",
+      "owner": "Ishaan Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Pre-trip · ORB-218",
+      "description": "Subra Poluru · passed",
+      "owner": "Subra Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Walkaround · ORB-331",
+      "description": "Asha Poluru · passed",
+      "owner": "Asha Poluru",
+      "type": "Inspection",
+      "href": "#/inspections"
+    },
+    {
+      "label": "Overview",
+      "description": "Yard pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Assign vehicle",
+      "description": "Put a driver on a unit",
+      "href": "#assign-vehicle",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Vehicles",
+      "description": "Units and yards",
+      "href": "#/vehicles",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Maintenance",
+      "description": "Subra Poluru’s board",
+      "href": "#/maintenance",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Drivers",
+      "description": "Assignments and hours",
+      "href": "#/drivers",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Fuel",
+      "description": "Gallons and MPG",
+      "href": "#/fuel",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Inspections",
+      "description": "DOT and pre-trip",
+      "href": "#/inspections",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Yard defaults",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

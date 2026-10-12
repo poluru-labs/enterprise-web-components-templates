@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Subbu Poluru",
+    "role": "Fleet director",
+    "squad": "Yard desk"
+  },
+  {
+    "name": "Subra Poluru",
+    "role": "Shop lead",
+    "squad": "Maintenance"
+  },
+  {
+    "name": "Kavya Poluru",
+    "role": "Dispatcher",
+    "squad": "Control"
+  },
+  {
+    "name": "Maya Poluru",
+    "role": "Driver",
+    "squad": "Austin"
+  },
+  {
+    "name": "Arjun Poluru",
+    "role": "Driver",
+    "squad": "Dallas"
+  },
+  {
+    "name": "Leela Poluru",
+    "role": "Driver",
+    "squad": "Austin"
+  },
+  {
+    "name": "Nikhil Poluru",
+    "role": "Driver",
+    "squad": "Dallas"
+  },
+  {
+    "name": "Rohan Poluru",
+    "role": "Linehaul driver",
+    "squad": "Austin"
+  },
+  {
+    "name": "Priya Poluru",
+    "role": "Fuel clerk",
+    "squad": "Yard desk"
+  },
+  {
+    "name": "Ishaan Poluru",
+    "role": "Inspector",
+    "squad": "Compliance"
+  },
+  {
+    "name": "Asha Poluru",
+    "role": "Driver",
+    "squad": "Austin"
+  },
+  {
+    "name": "Dev Poluru",
+    "role": "Night dispatcher",
+    "squad": "Control"
+  }
+]
