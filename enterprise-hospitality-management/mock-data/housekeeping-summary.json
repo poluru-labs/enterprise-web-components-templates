@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "Ready": 1,
+    "In progress": 1,
+    "Inspection": 1,
+    "To do": 2
+  },
+  "readyProgressPercent": 20,
+  "note": "1 of 5 assigned rooms ready for guests"
+}

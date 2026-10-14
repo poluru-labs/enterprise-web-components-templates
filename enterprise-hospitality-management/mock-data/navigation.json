@@ -1,0 +1,52 @@
+{
+  "workspace": [
+    {
+      "id": "overview",
+      "icon": "grid-1x2",
+      "label": "Overview"
+    },
+    {
+      "id": "properties",
+      "icon": "buildings",
+      "label": "Properties"
+    },
+    {
+      "id": "reservations",
+      "icon": "calendar2-check",
+      "label": "Reservations"
+    },
+    {
+      "id": "occupancy",
+      "icon": "door-open",
+      "label": "Occupancy"
+    },
+    {
+      "id": "housekeeping",
+      "icon": "stars",
+      "label": "Housekeeping"
+    },
+    {
+      "id": "issues",
+      "icon": "chat-square-text",
+      "label": "Guest issues",
+      "badge": 3
+    },
+    {
+      "id": "revenue",
+      "icon": "graph-up-arrow",
+      "label": "Revenue"
+    }
+  ],
+  "sidebarExtras": [
+    {
+      "id": "settings",
+      "icon": "gear",
+      "label": "Settings"
+    },
+    {
+      "id": "help",
+      "icon": "question-circle",
+      "label": "Help & resources"
+    }
+  ]
+}

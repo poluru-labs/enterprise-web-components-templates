@@ -1,0 +1,43 @@
+{
+  "portfolio": {
+    "rooms": 300,
+    "occupied": 259,
+    "available": 41,
+    "ratePercent": 86.3
+  },
+  "byProperty": [
+    {
+      "id": "harbor",
+      "name": "Vista Harbor",
+      "rooms": 120,
+      "occupied": 108,
+      "available": 12,
+      "ratePercent": 90,
+      "ready": 91,
+      "cleaning": 18,
+      "inspect": 11
+    },
+    {
+      "id": "palm",
+      "name": "Vista Palm House",
+      "rooms": 96,
+      "occupied": 79,
+      "available": 17,
+      "ratePercent": 82,
+      "ready": 76,
+      "cleaning": 12,
+      "inspect": 8
+    },
+    {
+      "id": "alpine",
+      "name": "Vista Alpine Lodge",
+      "rooms": 84,
+      "occupied": 72,
+      "available": 12,
+      "ratePercent": 86,
+      "ready": 65,
+      "cleaning": 10,
+      "inspect": 9
+    }
+  ]
+}

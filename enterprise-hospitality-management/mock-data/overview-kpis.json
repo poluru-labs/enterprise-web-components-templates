@@ -1,0 +1,27 @@
+{
+  "occupancyRate": {
+    "value": "86.3%",
+    "trend": "+4.2%",
+    "context": "vs. last Wednesday"
+  },
+  "roomRevenue": {
+    "value": 69070,
+    "formatted": "$69,070",
+    "trend": "+8.6%",
+    "context": "vs. last Wednesday"
+  },
+  "averageDailyRate": {
+    "value": 267,
+    "trend": "+3.8%",
+    "context": "per occupied room"
+  },
+  "todaysArrivals": {
+    "value": "3",
+    "context": "in this demo register"
+  },
+  "totals": {
+    "rooms": 300,
+    "occupied": 259,
+    "available": 41
+  }
+}

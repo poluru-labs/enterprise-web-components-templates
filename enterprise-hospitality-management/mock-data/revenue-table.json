@@ -1,0 +1,54 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Property",
+      "sortable": true
+    },
+    {
+      "key": "occupied",
+      "label": "Occupied rooms",
+      "sortable": true
+    },
+    {
+      "key": "adr",
+      "label": "ADR"
+    },
+    {
+      "key": "revpar",
+      "label": "RevPAR"
+    },
+    {
+      "key": "revenue",
+      "label": "Room revenue"
+    }
+  ],
+  "rows": [
+    {
+      "id": "harbor",
+      "name": "Vista Harbor",
+      "occupied": 108,
+      "adr": 263,
+      "revpar": 237,
+      "revenue": 28440
+    },
+    {
+      "id": "palm",
+      "name": "Vista Palm House",
+      "occupied": 79,
+      "adr": 250,
+      "revpar": 206,
+      "revenue": 19750
+    },
+    {
+      "id": "alpine",
+      "name": "Vista Alpine Lodge",
+      "occupied": 72,
+      "adr": 290,
+      "revpar": 249,
+      "revenue": 20880
+    }
+  ],
+  "currency": "USD",
+  "asOf": "September 23, 2026"
+}

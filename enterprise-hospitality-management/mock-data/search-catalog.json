@@ -1,0 +1,41 @@
+{
+  "reservations": [
+    {
+      "id": "VT-2048",
+      "guest": "Arjun Poluru",
+      "property": "Vista Harbor",
+      "room": "Ocean Suite · 402"
+    },
+    {
+      "id": "VT-2047",
+      "guest": "Kavya Poluru",
+      "property": "Vista Palm House",
+      "room": "Garden King · 208"
+    },
+    {
+      "id": "VT-2046",
+      "guest": "Nikhil Poluru",
+      "property": "Vista Alpine Lodge",
+      "room": "Mountain Suite · 306"
+    },
+    {
+      "id": "VT-2045",
+      "guest": "Priya Poluru",
+      "property": "Vista Harbor",
+      "room": "Deluxe King · 215"
+    },
+    {
+      "id": "VT-2044",
+      "guest": "Rohan Poluru",
+      "property": "Vista Palm House",
+      "room": "Poolside Suite · 112"
+    },
+    {
+      "id": "VT-2043",
+      "guest": "Elena Poluru",
+      "property": "Vista Alpine Lodge",
+      "room": "Alpine King · 204"
+    }
+  ],
+  "placeholder": "Search guests & reservations"
+}

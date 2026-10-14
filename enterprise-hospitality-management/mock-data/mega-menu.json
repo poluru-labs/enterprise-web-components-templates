@@ -1,0 +1,53 @@
+{
+  "manageStays": [
+    {
+      "id": "overview",
+      "icon": "grid-1x2",
+      "label": "Overview"
+    },
+    {
+      "id": "properties",
+      "icon": "buildings",
+      "label": "Properties"
+    },
+    {
+      "id": "reservations",
+      "icon": "calendar2-check",
+      "label": "Reservations"
+    },
+    {
+      "id": "occupancy",
+      "icon": "door-open",
+      "label": "Occupancy"
+    }
+  ],
+  "deliverService": [
+    {
+      "id": "housekeeping",
+      "icon": "stars",
+      "label": "Housekeeping"
+    },
+    {
+      "id": "issues",
+      "icon": "chat-square-text",
+      "label": "Guest issues",
+      "badge": 3
+    },
+    {
+      "id": "revenue",
+      "icon": "graph-up-arrow",
+      "label": "Revenue"
+    },
+    {
+      "id": "settings",
+      "icon": "gear",
+      "label": "Workspace preferences"
+    }
+  ],
+  "feature": {
+    "eyebrow": "THE VISTA STANDARD",
+    "title": "Thoughtful stays.\nSeamless operations.",
+    "description": "Every property, every guest, one clear view.",
+    "href": "#/properties"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "propertyOptions": [
+    {
+      "label": "Vista Harbor",
+      "value": "harbor"
+    },
+    {
+      "label": "Vista Palm House",
+      "value": "palm"
+    },
+    {
+      "label": "Vista Alpine Lodge",
+      "value": "alpine"
+    }
+  ],
+  "defaultProperty": "harbor",
+  "roomTypeOptions": [
+    {
+      "label": "Deluxe King",
+      "value": "Deluxe King"
+    },
+    {
+      "label": "Twin Room",
+      "value": "Twin Room"
+    },
+    {
+      "label": "Signature Suite",
+      "value": "Signature Suite"
+    }
+  ],
+  "defaultRoomType": "Deluxe King",
+  "defaultCheckIn": "2026-09-23",
+  "defaultCheckOut": "2026-09-24",
+  "defaultGuests": 2,
+  "guestNamePlaceholder": "e.g. Tara Poluru",
+  "notesPlaceholder": "Help us make their stay special",
+  "includeBreakfastDefault": false,
+  "maxGuests": 6
+}

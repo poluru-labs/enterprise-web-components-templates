@@ -1,0 +1,7 @@
+{
+  "dailyDigestSwitchLabel": "Show daily operations digest preference",
+  "demoAlert": {
+    "title": "Demo workspace",
+    "message": "Reservations and task updates are saved in your browser. Email delivery and live hotel systems are not connected."
+  }
+}

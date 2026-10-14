@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "heading": "How do I create a reservation?",
+      "body": "Choose New reservation, enter guest and stay details, and save. Open the reservation to check the guest in or out."
+    },
+    {
+      "heading": "How does housekeeping work?",
+      "body": "Move tasks through To do, In progress, Inspection, and Ready. Updates are saved on this device."
+    },
+    {
+      "heading": "What does this demo include?",
+      "body": "The portfolio metrics are a September 23 snapshot. Reservations, housekeeping tasks, and guest issues are interactive examples. Exports contain reservation records for the selected property."
+    }
+  ]
+}

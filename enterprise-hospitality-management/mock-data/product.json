@@ -1,0 +1,18 @@
+{
+  "productName": "Vista",
+  "productLine": "Hospitality",
+  "workspaceName": "Vista Hospitality",
+  "brandColor": "#31AAA9",
+  "snapshotDate": "Wednesday, September 23, 2026",
+  "demoLabel": "Demo workspace · September 23, 2026",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "role": "Portfolio manager"
+  },
+  "storageKeys": {
+    "reservations": "vista-reservations",
+    "tasks": "vista-tasks",
+    "issues": "vista-issues",
+    "digest": "vista-digest"
+  }
+}

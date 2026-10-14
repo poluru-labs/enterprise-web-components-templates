@@ -1,0 +1,57 @@
+{
+  "periodOptions": [
+    "week",
+    "month"
+  ],
+  "defaultPeriod": "week",
+  "labels": {
+    "week": [
+      "Thu, 17",
+      "Fri, 18",
+      "Sat, 19",
+      "Sun, 20",
+      "Mon, 21",
+      "Tue, 22",
+      "Wed, 23"
+    ],
+    "month": [
+      "Sep 1",
+      "Sep 5",
+      "Sep 9",
+      "Sep 13",
+      "Sep 17",
+      "Sep 21",
+      "Sep 23"
+    ]
+  },
+  "barValues": {
+    "week": [
+      44,
+      49,
+      63,
+      57,
+      51,
+      60,
+      69
+    ],
+    "month": [
+      42,
+      47,
+      46,
+      58,
+      52,
+      61,
+      69
+    ]
+  },
+  "occupancyLineWeekly": [
+    62,
+    69,
+    34,
+    49,
+    32,
+    25,
+    30
+  ],
+  "footerNote": "A strong week. Revenue is trending above last week."
+}

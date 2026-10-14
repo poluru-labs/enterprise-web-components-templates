@@ -1,0 +1,12 @@
+{
+  "filename": "vista-reservations.csv",
+  "columns": [
+    "Reservation",
+    "Guest",
+    "Property",
+    "Check-in",
+    "Check-out",
+    "Status",
+    "Amount"
+  ]
+}
