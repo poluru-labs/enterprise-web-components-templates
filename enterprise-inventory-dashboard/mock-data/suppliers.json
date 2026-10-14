@@ -1,0 +1,68 @@
+{
+  "rows": [
+    {
+      "id": "sup_1",
+      "name": "Highline Textiles",
+      "category": "Apparel",
+      "leadTime": "5 days",
+      "rating": 4.6,
+      "status": "Preferred"
+    },
+    {
+      "id": "sup_2",
+      "name": "Cascade Outdoor Co.",
+      "category": "Outdoor gear",
+      "leadTime": "7 days",
+      "rating": 4.3,
+      "status": "Preferred"
+    },
+    {
+      "id": "sup_3",
+      "name": "Ferrotech Components",
+      "category": "Electronics",
+      "leadTime": "11 days",
+      "rating": 3.8,
+      "status": "Watch"
+    },
+    {
+      "id": "sup_4",
+      "name": "Summit Packaging",
+      "category": "Packaging",
+      "leadTime": "3 days",
+      "rating": 4.8,
+      "status": "Preferred"
+    },
+    {
+      "id": "sup_5",
+      "name": "Northbay Leather",
+      "category": "Bags",
+      "leadTime": "9 days",
+      "rating": 4.1,
+      "status": "Preferred"
+    },
+    {
+      "id": "sup_6",
+      "name": "Alpine Footwear Ltd.",
+      "category": "Footwear",
+      "leadTime": "8 days",
+      "rating": 4.4,
+      "status": "Preferred"
+    },
+    {
+      "id": "sup_7",
+      "name": "BrightPath Solar",
+      "category": "Electronics",
+      "leadTime": "10 days",
+      "rating": 3.9,
+      "status": "Watch"
+    },
+    {
+      "id": "sup_8",
+      "name": "TrailCraft Fabrics",
+      "category": "Apparel",
+      "leadTime": "6 days",
+      "rating": 4.5,
+      "status": "Preferred"
+    }
+  ]
+}

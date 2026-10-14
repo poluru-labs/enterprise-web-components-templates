@@ -1,0 +1,108 @@
+{
+  "rows": [
+    {
+      "id": "po_2201",
+      "supplier": "Highline Textiles",
+      "warehouse": "Chicago Central",
+      "items": 12,
+      "status": "In transit",
+      "eta": "2 Sep 2026",
+      "total": "$48,200"
+    },
+    {
+      "id": "po_2202",
+      "supplier": "Cascade Outdoor Co.",
+      "warehouse": "Seattle North",
+      "items": 6,
+      "status": "Confirmed",
+      "eta": "5 Sep 2026",
+      "total": "$21,900"
+    },
+    {
+      "id": "po_2203",
+      "supplier": "Ferrotech Components",
+      "warehouse": "Dallas South",
+      "items": 4,
+      "status": "Delayed",
+      "eta": "9 Sep 2026",
+      "total": "$16,750"
+    },
+    {
+      "id": "po_2204",
+      "supplier": "Summit Packaging",
+      "warehouse": "Denver West",
+      "items": 9,
+      "status": "In transit",
+      "eta": "3 Sep 2026",
+      "total": "$9,480"
+    },
+    {
+      "id": "po_2205",
+      "supplier": "Highline Textiles",
+      "warehouse": "Atlanta East",
+      "items": 15,
+      "status": "Draft",
+      "eta": "12 Sep 2026",
+      "total": "$52,300"
+    },
+    {
+      "id": "po_2206",
+      "supplier": "Northbay Leather",
+      "warehouse": "Chicago Central",
+      "items": 3,
+      "status": "Confirmed",
+      "eta": "4 Sep 2026",
+      "total": "$11,020"
+    },
+    {
+      "id": "po_2207",
+      "supplier": "Summit Packaging",
+      "warehouse": "Chicago Central",
+      "items": 8,
+      "status": "In transit",
+      "eta": "1 Sep 2026",
+      "total": "$14,600"
+    },
+    {
+      "id": "po_2208",
+      "supplier": "Cascade Outdoor Co.",
+      "warehouse": "Phoenix Hub",
+      "items": 5,
+      "status": "Confirmed",
+      "eta": "6 Sep 2026",
+      "total": "$18,440"
+    }
+  ],
+  "columns": [
+    {
+      "key": "id",
+      "label": "Order",
+      "sortable": true
+    },
+    {
+      "key": "supplier",
+      "label": "Supplier",
+      "sortable": true
+    },
+    {
+      "key": "warehouse",
+      "label": "Warehouse"
+    },
+    {
+      "key": "items",
+      "label": "Line items"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "eta",
+      "label": "ETA"
+    },
+    {
+      "key": "total",
+      "label": "Total"
+    }
+  ]
+}

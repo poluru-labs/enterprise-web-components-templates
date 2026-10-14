@@ -1,0 +1,27 @@
+{
+  "searchPlaceholder": "Find a SKU, order, or warehouse",
+  "commandModalHeading": "Jump to",
+  "inboxCount": 4,
+  "profileMenu": [
+    {
+      "label": "Inbox",
+      "value": "inbox",
+      "icon": "bell"
+    },
+    {
+      "label": "Settings",
+      "value": "settings",
+      "icon": "settings"
+    },
+    {
+      "label": "Sign out",
+      "value": "signout",
+      "icon": "external-link",
+      "danger": true
+    }
+  ],
+  "primaryAction": {
+    "label": "New receipt",
+    "id": "header-receipt"
+  }
+}

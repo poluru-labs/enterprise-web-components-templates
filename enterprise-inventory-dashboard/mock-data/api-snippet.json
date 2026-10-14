@@ -1,0 +1,4 @@
+{
+  "language": "json",
+  "code": "GET /v1/inventory/sku_002\nAuthorization: Bearer nim_live_****\n\n{\n  \"sku\": \"NB-2071\",\n  \"name\": \"Insulated steel bottle 750ml\",\n  \"quantity\": 540,\n  \"reorderPoint\": 600,\n  \"warehouse\": \"Dallas South\"\n}"
+}

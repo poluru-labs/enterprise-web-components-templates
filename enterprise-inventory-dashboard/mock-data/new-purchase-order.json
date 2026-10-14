@@ -1,0 +1,89 @@
+{
+  "steps": [
+    {
+      "label": "Item",
+      "description": "Name and owner"
+    },
+    {
+      "label": "Threshold",
+      "description": "Reorder point"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "supplierOptions": [
+    {
+      "label": "Highline Textiles",
+      "value": "Highline Textiles"
+    },
+    {
+      "label": "Cascade Outdoor Co.",
+      "value": "Cascade Outdoor Co."
+    },
+    {
+      "label": "Ferrotech Components",
+      "value": "Ferrotech Components"
+    },
+    {
+      "label": "Summit Packaging",
+      "value": "Summit Packaging"
+    },
+    {
+      "label": "Northbay Leather",
+      "value": "Northbay Leather"
+    }
+  ],
+  "warehouseOptions": [
+    {
+      "label": "Chicago Central",
+      "value": "Chicago Central"
+    },
+    {
+      "label": "Dallas South",
+      "value": "Dallas South"
+    },
+    {
+      "label": "Atlanta East",
+      "value": "Atlanta East"
+    },
+    {
+      "label": "Denver West",
+      "value": "Denver West"
+    },
+    {
+      "label": "Seattle North",
+      "value": "Seattle North"
+    },
+    {
+      "label": "Phoenix Hub",
+      "value": "Phoenix Hub"
+    },
+    {
+      "label": "Minneapolis Crossdock",
+      "value": "Minneapolis Crossdock"
+    },
+    {
+      "label": "Portland Fulfillment",
+      "value": "Portland Fulfillment"
+    }
+  ],
+  "defaults": {
+    "warehouse": "Chicago Central",
+    "lineItems": 6,
+    "priority": "standard",
+    "priorityOptions": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      },
+      {
+        "value": "rush",
+        "label": "Rush"
+      }
+    ],
+    "pinLength": 4
+  },
+  "notesPlaceholder": "Anything the receiving team should know."
+}

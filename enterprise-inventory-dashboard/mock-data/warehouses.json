@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "id": "wh_chi",
+      "name": "Chicago Central",
+      "location": "Illinois",
+      "manager": "Rohan Poluru",
+      "capacityUsed": 82,
+      "capacityTotal": 100,
+      "status": "On track",
+      "skus": 3120
+    },
+    {
+      "id": "wh_dal",
+      "name": "Dallas South",
+      "location": "Texas",
+      "manager": "Meera Poluru",
+      "capacityUsed": 91,
+      "capacityTotal": 100,
+      "status": "Watch",
+      "skus": 2480
+    },
+    {
+      "id": "wh_atl",
+      "name": "Atlanta East",
+      "location": "Georgia",
+      "manager": "Kabir Poluru",
+      "capacityUsed": 68,
+      "capacityTotal": 100,
+      "status": "On track",
+      "skus": 2050
+    },
+    {
+      "id": "wh_den",
+      "name": "Denver West",
+      "location": "Colorado",
+      "manager": "Ishita Poluru",
+      "capacityUsed": 74,
+      "capacityTotal": 100,
+      "status": "On track",
+      "skus": 1740
+    },
+    {
+      "id": "wh_sea",
+      "name": "Seattle North",
+      "location": "Washington",
+      "manager": "Devansh Poluru",
+      "capacityUsed": 88,
+      "capacityTotal": 100,
+      "status": "Watch",
+      "skus": 1980
+    },
+    {
+      "id": "wh_pho",
+      "name": "Phoenix Hub",
+      "location": "Arizona",
+      "manager": "Ananya Poluru",
+      "capacityUsed": 55,
+      "capacityTotal": 100,
+      "status": "On track",
+      "skus": 1260
+    },
+    {
+      "id": "wh_min",
+      "name": "Minneapolis Crossdock",
+      "location": "Minnesota",
+      "manager": "Priya Poluru",
+      "capacityUsed": 61,
+      "capacityTotal": 100,
+      "status": "On track",
+      "skus": 980
+    },
+    {
+      "id": "wh_por",
+      "name": "Portland Fulfillment",
+      "location": "Oregon",
+      "manager": "Arjun Poluru",
+      "capacityUsed": 72,
+      "capacityTotal": 100,
+      "status": "On track",
+      "skus": 1120
+    }
+  ]
+}

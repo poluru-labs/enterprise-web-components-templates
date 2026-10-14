@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Inventory",
+      "href": "#/inventory",
+      "icon": "folder"
+    },
+    {
+      "label": "Purchase orders",
+      "href": "#/orders",
+      "icon": "file"
+    },
+    {
+      "label": "Warehouses",
+      "href": "#/warehouses",
+      "icon": "star"
+    },
+    {
+      "label": "Suppliers",
+      "href": "#/suppliers",
+      "icon": "external-link"
+    },
+    {
+      "label": "Team",
+      "href": "#/team",
+      "icon": "user"
+    },
+    {
+      "label": "Alerts",
+      "href": "#/alerts",
+      "icon": "bell"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "download"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

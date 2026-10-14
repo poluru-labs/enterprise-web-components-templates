@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "label": "Three SKUs below reorder point",
+      "description": "Meera Poluru · Dallas South",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Cycle count due Monday",
+      "description": "Aditi Poluru · 08:00",
+      "icon": "clock"
+    },
+    {
+      "label": "Summit Packaging PO arriving",
+      "description": "Rohan Poluru · Dock 2",
+      "icon": "check"
+    },
+    {
+      "label": "Ripstop hammock stockout",
+      "description": "Ananya Poluru · Phoenix Hub",
+      "icon": "alert-triangle"
+    }
+  ]
+}

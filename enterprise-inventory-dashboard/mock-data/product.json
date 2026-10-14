@@ -1,0 +1,18 @@
+{
+  "productName": "Nimbus",
+  "productLine": "Inventory",
+  "workspaceName": "Poluru Supply Co.",
+  "brandColor": "#5C3E94",
+  "headerCanvas": "#F6F4FB",
+  "currentUser": {
+    "name": "Aditi Poluru",
+    "email": "aditi.poluru@poluru-supply.example",
+    "role": "Inventory operations lead"
+  },
+  "workspace": {
+    "name": "Poluru Supply Co.",
+    "period": "FY26 Q3 · week 9",
+    "timezone": "America / Chicago",
+    "close": "Cycle count closes 5 Sep 2026"
+  }
+}

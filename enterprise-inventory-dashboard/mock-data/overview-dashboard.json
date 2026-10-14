@@ -1,0 +1,152 @@
+{
+  "stockAlert": {
+    "variant": "warning",
+    "title": "Three SKUs below reorder point",
+    "message": "Insulated bottle, LED headlamp, and solar charger are low. Meera and Devansh opened replenishment requests."
+  },
+  "periodControl": {
+    "options": [
+      {
+        "label": "Week",
+        "value": "week"
+      },
+      {
+        "label": "Q3",
+        "value": "q3"
+      },
+      {
+        "label": "FY26",
+        "value": "fy"
+      }
+    ],
+    "defaultValue": "q3"
+  },
+  "overviewKpiSlice": [
+    {
+      "label": "Items in stock",
+      "value": "28,640",
+      "hint": "Across 6 warehouses",
+      "trend": "up",
+      "trendValue": "+3.1%"
+    },
+    {
+      "label": "Inbound orders",
+      "value": "92",
+      "hint": "28 arriving today",
+      "trend": "up",
+      "trendValue": "+14"
+    },
+    {
+      "label": "Stock accuracy",
+      "value": "98.4%",
+      "hint": "Cycle count vs. system",
+      "trend": "up",
+      "trendValue": "+1.2 pts"
+    },
+    {
+      "label": "Low stock alerts",
+      "value": "16",
+      "hint": "4 need attention today",
+      "trend": "down",
+      "trendValue": "-2"
+    }
+  ],
+  "fulfillmentHealth": {
+    "percent": 96.7,
+    "statusLabel": "Ahead of plan",
+    "progressLabel": "Same-day dispatch rate",
+    "note": "Nine days left in the cycle. Dock 2 clears in ~18 minutes."
+  },
+  "watchList": [
+    {
+      "label": "Bottle below reorder point",
+      "description": "Meera Poluru · Dallas South",
+      "icon": "alert-triangle",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Headlamp critically low",
+      "description": "Meera Poluru · Dallas South",
+      "icon": "alert-triangle",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Solar charger low stock",
+      "description": "Devansh Poluru · Seattle North",
+      "icon": "alert-triangle",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Cycle count due Monday",
+      "description": "Aditi Poluru · 08:00",
+      "icon": "clock",
+      "href": "#/reports"
+    }
+  ],
+  "recentOrders": {
+    "columns": [
+      {
+        "key": "id",
+        "label": "Order",
+        "sortable": true
+      },
+      {
+        "key": "supplier",
+        "label": "Supplier",
+        "sortable": true
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      },
+      {
+        "key": "eta",
+        "label": "ETA"
+      }
+    ],
+    "rows": [
+      {
+        "id": "PO_2201",
+        "supplier": "Highline Textiles",
+        "status": "In transit",
+        "eta": "2 Sep 2026"
+      },
+      {
+        "id": "PO_2202",
+        "supplier": "Cascade Outdoor Co.",
+        "status": "Confirmed",
+        "eta": "5 Sep 2026"
+      },
+      {
+        "id": "PO_2203",
+        "supplier": "Ferrotech Components",
+        "status": "Delayed",
+        "eta": "9 Sep 2026"
+      },
+      {
+        "id": "PO_2204",
+        "supplier": "Summit Packaging",
+        "status": "In transit",
+        "eta": "3 Sep 2026"
+      }
+    ]
+  },
+  "warehouseCapacity": {
+    "networkPercent": 78,
+    "summary": "6 on track · 2 watch · 0 at risk",
+    "tags": [
+      {
+        "label": "Dallas South",
+        "variant": "warning"
+      },
+      {
+        "label": "Seattle North",
+        "variant": "warning"
+      },
+      {
+        "label": "Chicago Central",
+        "variant": "brand"
+      }
+    ]
+  }
+}

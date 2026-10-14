@@ -1,0 +1,54 @@
+{
+  "columns": [
+    {
+      "key": "date",
+      "label": "Date",
+      "sortable": true
+    },
+    {
+      "key": "change",
+      "label": "Change"
+    },
+    {
+      "key": "balance",
+      "label": "Balance"
+    },
+    {
+      "key": "reason",
+      "label": "Reason"
+    }
+  ],
+  "rows": [
+    {
+      "date": "1 Sep 2026",
+      "change": "-120",
+      "balance": "3,240",
+      "reason": "Outbound fulfillment"
+    },
+    {
+      "date": "29 Aug 2026",
+      "change": "+600",
+      "balance": "3,360",
+      "reason": "Purchase order received"
+    },
+    {
+      "date": "27 Aug 2026",
+      "change": "-85",
+      "balance": "2,760",
+      "reason": "Outbound fulfillment"
+    },
+    {
+      "date": "24 Aug 2026",
+      "change": "-40",
+      "balance": "2,845",
+      "reason": "Cycle count adjustment"
+    },
+    {
+      "date": "20 Aug 2026",
+      "change": "+400",
+      "balance": "2,885",
+      "reason": "Inbound receipt"
+    }
+  ],
+  "note": "Demo history shown for all SKU detail pages in the template."
+}

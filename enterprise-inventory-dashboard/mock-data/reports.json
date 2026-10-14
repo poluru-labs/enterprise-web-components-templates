@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "name": "Weekly stock snapshot",
+      "owner": "Aditi Poluru",
+      "updated": "1 Sep 2026",
+      "format": "PDF"
+    },
+    {
+      "name": "Reorder point export",
+      "owner": "Simran Poluru",
+      "updated": "31 Aug 2026",
+      "format": "CSV"
+    },
+    {
+      "name": "Supplier scorecard",
+      "owner": "Farhan Poluru",
+      "updated": "30 Aug 2026",
+      "format": "XLSX"
+    },
+    {
+      "name": "Warehouse capacity plan",
+      "owner": "Devansh Poluru",
+      "updated": "29 Aug 2026",
+      "format": "PDF"
+    },
+    {
+      "name": "Inbound dock log",
+      "owner": "Rohan Poluru",
+      "updated": "1 Sep 2026",
+      "format": "CSV"
+    },
+    {
+      "name": "Low-stock exception list",
+      "owner": "Meera Poluru",
+      "updated": "1 Sep 2026",
+      "format": "XLSX"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "name": "Aditi Poluru",
+      "role": "Inventory operations lead",
+      "squad": "Central ops",
+      "rating": 5,
+      "score": 94
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Warehouse manager",
+      "squad": "Chicago Central",
+      "rating": 5,
+      "score": 90
+    },
+    {
+      "name": "Meera Poluru",
+      "role": "Warehouse manager",
+      "squad": "Dallas South",
+      "rating": 4,
+      "score": 78
+    },
+    {
+      "name": "Kabir Poluru",
+      "role": "Warehouse manager",
+      "squad": "Atlanta East",
+      "rating": 5,
+      "score": 88
+    },
+    {
+      "name": "Ishita Poluru",
+      "role": "Warehouse manager",
+      "squad": "Denver West",
+      "rating": 4,
+      "score": 85
+    },
+    {
+      "name": "Devansh Poluru",
+      "role": "Warehouse manager",
+      "squad": "Seattle North",
+      "rating": 4,
+      "score": 81
+    },
+    {
+      "name": "Ananya Poluru",
+      "role": "Warehouse manager",
+      "squad": "Phoenix Hub",
+      "rating": 5,
+      "score": 91
+    },
+    {
+      "name": "Farhan Poluru",
+      "role": "Procurement lead",
+      "squad": "Supplier relations",
+      "rating": 4,
+      "score": 83
+    },
+    {
+      "name": "Simran Poluru",
+      "role": "Demand planner",
+      "squad": "Central ops",
+      "rating": 5,
+      "score": 89
+    },
+    {
+      "name": "Yusuf Poluru",
+      "role": "Logistics analyst",
+      "squad": "Central ops",
+      "rating": 4,
+      "score": 80
+    },
+    {
+      "name": "Priya Poluru",
+      "role": "Warehouse manager",
+      "squad": "Minneapolis Crossdock",
+      "rating": 4,
+      "score": 86
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "Warehouse manager",
+      "squad": "Portland Fulfillment",
+      "rating": 5,
+      "score": 87
+    }
+  ]
+}

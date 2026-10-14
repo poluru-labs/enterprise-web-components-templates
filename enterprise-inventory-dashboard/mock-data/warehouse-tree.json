@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "central",
+      "label": "Central region",
+      "children": [
+        {
+          "id": "chi",
+          "label": "Chicago Central",
+          "href": "#/warehouses"
+        },
+        {
+          "id": "den",
+          "label": "Denver West",
+          "href": "#/warehouses"
+        },
+        {
+          "id": "min",
+          "label": "Minneapolis Crossdock",
+          "href": "#/warehouses"
+        }
+      ]
+    },
+    {
+      "id": "coastal",
+      "label": "Coastal region",
+      "children": [
+        {
+          "id": "sea",
+          "label": "Seattle North",
+          "href": "#/warehouses"
+        },
+        {
+          "id": "pho",
+          "label": "Phoenix Hub",
+          "href": "#/warehouses"
+        },
+        {
+          "id": "por",
+          "label": "Portland Fulfillment",
+          "href": "#/warehouses"
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "label": "Southern region",
+      "children": [
+        {
+          "id": "dal",
+          "label": "Dallas South",
+          "href": "#/warehouses"
+        },
+        {
+          "id": "atl",
+          "label": "Atlanta East",
+          "href": "#/warehouses"
+        }
+      ]
+    }
+  ],
+  "expandedIds": {
+    "central": true,
+    "coastal": true,
+    "south": true
+  }
+}

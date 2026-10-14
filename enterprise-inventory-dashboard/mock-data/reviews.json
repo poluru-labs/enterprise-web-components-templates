@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "label": "Weekly cycle count",
+      "description": "Aditi Poluru · Mondays 08:00",
+      "timestamp": "25 Aug",
+      "icon": "clock",
+      "status": "Done"
+    },
+    {
+      "label": "Supplier scorecard review",
+      "description": "Farhan Poluru · lead time trend",
+      "timestamp": "26 Aug",
+      "icon": "star",
+      "status": "Done"
+    },
+    {
+      "label": "Peak-season capacity plan",
+      "description": "Devansh Poluru · Seattle overflow",
+      "timestamp": "27 Aug",
+      "icon": "file",
+      "status": "Done"
+    },
+    {
+      "label": "Reorder point audit",
+      "description": "Simran Poluru · demand plan refresh",
+      "timestamp": "28 Aug",
+      "icon": "check",
+      "status": "Done"
+    },
+    {
+      "label": "Logistics ops sync",
+      "description": "Yusuf Poluru · carrier performance",
+      "timestamp": "29 Aug",
+      "icon": "user",
+      "status": "Done"
+    },
+    {
+      "label": "Inbound dock throughput",
+      "description": "Rohan Poluru · Dock 2 queue",
+      "timestamp": "1 Sep",
+      "icon": "download",
+      "status": "Today"
+    }
+  ]
+}

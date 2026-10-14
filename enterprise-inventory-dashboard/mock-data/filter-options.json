@@ -1,0 +1,124 @@
+{
+  "inventory": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "In stock",
+        "value": "In stock"
+      },
+      {
+        "label": "Low stock",
+        "value": "Low stock"
+      },
+      {
+        "label": "Backordered",
+        "value": "Backordered"
+      }
+    ],
+    "warehouse": [
+      {
+        "label": "All warehouses",
+        "value": "all"
+      },
+      {
+        "label": "Chicago Central",
+        "value": "Chicago Central"
+      },
+      {
+        "label": "Dallas South",
+        "value": "Dallas South"
+      },
+      {
+        "label": "Atlanta East",
+        "value": "Atlanta East"
+      },
+      {
+        "label": "Denver West",
+        "value": "Denver West"
+      },
+      {
+        "label": "Seattle North",
+        "value": "Seattle North"
+      },
+      {
+        "label": "Phoenix Hub",
+        "value": "Phoenix Hub"
+      },
+      {
+        "label": "Minneapolis Crossdock",
+        "value": "Minneapolis Crossdock"
+      },
+      {
+        "label": "Portland Fulfillment",
+        "value": "Portland Fulfillment"
+      }
+    ],
+    "searchPlaceholder": "Search SKU or item name",
+    "pagination": {
+      "page": 1,
+      "perPage": 8
+    }
+  },
+  "orders": {
+    "status": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Draft",
+        "value": "Draft"
+      },
+      {
+        "label": "Confirmed",
+        "value": "Confirmed"
+      },
+      {
+        "label": "In transit",
+        "value": "In transit"
+      },
+      {
+        "label": "Delayed",
+        "value": "Delayed"
+      }
+    ],
+    "warehouseAutocomplete": [
+      {
+        "label": "Chicago Central",
+        "value": "Chicago Central"
+      },
+      {
+        "label": "Dallas South",
+        "value": "Dallas South"
+      },
+      {
+        "label": "Atlanta East",
+        "value": "Atlanta East"
+      },
+      {
+        "label": "Denver West",
+        "value": "Denver West"
+      },
+      {
+        "label": "Seattle North",
+        "value": "Seattle North"
+      },
+      {
+        "label": "Phoenix Hub",
+        "value": "Phoenix Hub"
+      },
+      {
+        "label": "Minneapolis Crossdock",
+        "value": "Minneapolis Crossdock"
+      },
+      {
+        "label": "Portland Fulfillment",
+        "value": "Portland Fulfillment"
+      }
+    ],
+    "searchPlaceholder": "Search order or supplier"
+  }
+}

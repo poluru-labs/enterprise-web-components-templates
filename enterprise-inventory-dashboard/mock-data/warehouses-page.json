@@ -1,0 +1,18 @@
+{
+  "capacityTrendNote": "Steady growth from 21.2K to 28.6K units. Minneapolis and Portland came online in August.",
+  "accordion": [
+    {
+      "heading": "July",
+      "open": true,
+      "body": "Phoenix Hub came online with 1,260 SKUs of overflow capacity."
+    },
+    {
+      "heading": "August",
+      "body": "Dallas South crossed 90% capacity; three SKUs went low stock. Minneapolis and Portland opened."
+    },
+    {
+      "heading": "September outlook",
+      "body": "Cycle count freezes Thursday. Seattle overflow routes to Phoenix Hub. Dock 2 queue clears in ~18 min."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "warehouseOptions": [
+    {
+      "label": "Chicago Central",
+      "value": "Chicago Central"
+    },
+    {
+      "label": "Dallas South",
+      "value": "Dallas South"
+    },
+    {
+      "label": "Atlanta East",
+      "value": "Atlanta East"
+    },
+    {
+      "label": "Denver West",
+      "value": "Denver West"
+    },
+    {
+      "label": "Seattle North",
+      "value": "Seattle North"
+    },
+    {
+      "label": "Phoenix Hub",
+      "value": "Phoenix Hub"
+    },
+    {
+      "label": "Minneapolis Crossdock",
+      "value": "Minneapolis Crossdock"
+    },
+    {
+      "label": "Portland Fulfillment",
+      "value": "Portland Fulfillment"
+    }
+  ],
+  "categoryOptions": [
+    {
+      "label": "Footwear",
+      "value": "footwear"
+    },
+    {
+      "label": "Apparel",
+      "value": "apparel"
+    },
+    {
+      "label": "Outdoor gear",
+      "value": "outdoor"
+    },
+    {
+      "label": "Bags",
+      "value": "bags"
+    },
+    {
+      "label": "Electronics",
+      "value": "electronics"
+    }
+  ],
+  "defaults": {
+    "warehouse": "Chicago Central",
+    "category": "apparel",
+    "reorderPoint": 300
+  },
+  "placeholders": {
+    "name": "Insulated steel bottle",
+    "description": "What this SKU is and where it ships from."
+  }
+}

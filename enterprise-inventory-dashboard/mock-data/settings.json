@@ -1,0 +1,35 @@
+{
+  "workspaceName": "Poluru Supply Co.",
+  "timezoneOptions": [
+    {
+      "label": "America / Chicago",
+      "value": "chicago"
+    },
+    {
+      "label": "America / Denver",
+      "value": "denver"
+    },
+    {
+      "label": "America / Los Angeles",
+      "value": "la"
+    }
+  ],
+  "defaultTimezone": "chicago",
+  "switches": {
+    "lowStockEmailAlerts": true,
+    "weeklyStockSnapshot": true
+  },
+  "peakSeasonBuffer": 20,
+  "defaultRole": "ops",
+  "roleOptions": [
+    {
+      "value": "ops",
+      "label": "Operations"
+    },
+    {
+      "value": "viewer",
+      "label": "Viewer"
+    }
+  ],
+  "pinLength": 4
+}

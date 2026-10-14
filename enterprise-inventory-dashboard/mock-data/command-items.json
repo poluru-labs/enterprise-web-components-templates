@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Inventory pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Inventory",
+      "description": "All SKUs",
+      "href": "#/inventory",
+      "icon": "folder"
+    },
+    {
+      "label": "Purchase orders",
+      "description": "Open POs",
+      "href": "#/orders",
+      "icon": "file"
+    },
+    {
+      "label": "Warehouses",
+      "description": "Capacity and managers",
+      "href": "#/warehouses",
+      "icon": "star"
+    },
+    {
+      "label": "Alerts",
+      "description": "Reorder thresholds",
+      "href": "#/alerts",
+      "icon": "bell"
+    },
+    {
+      "label": "Search",
+      "description": "Find SKUs and orders",
+      "href": "#/search",
+      "icon": "search"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

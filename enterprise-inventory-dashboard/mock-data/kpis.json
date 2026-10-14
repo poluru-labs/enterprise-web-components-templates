@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "label": "Items in stock",
+      "value": "28,640",
+      "hint": "Across 6 warehouses",
+      "trend": "up",
+      "trendValue": "+3.1%"
+    },
+    {
+      "label": "Inbound orders",
+      "value": "92",
+      "hint": "28 arriving today",
+      "trend": "up",
+      "trendValue": "+14"
+    },
+    {
+      "label": "Stock accuracy",
+      "value": "98.4%",
+      "hint": "Cycle count vs. system",
+      "trend": "up",
+      "trendValue": "+1.2 pts"
+    },
+    {
+      "label": "Low stock alerts",
+      "value": "16",
+      "hint": "4 need attention today",
+      "trend": "down",
+      "trendValue": "-2"
+    },
+    {
+      "label": "Fulfillment rate",
+      "value": "96.7%",
+      "hint": "Same-day dispatch",
+      "trend": "up",
+      "trendValue": "+0.8 pts"
+    },
+    {
+      "label": "Open POs",
+      "value": "36",
+      "hint": "$1.6M committed spend",
+      "trend": "flat",
+      "trendValue": "On plan"
+    },
+    {
+      "label": "Avg. lead time",
+      "value": "6.2 days",
+      "hint": "Across active suppliers",
+      "trend": "down",
+      "trendValue": "-0.4 days"
+    },
+    {
+      "label": "Warehouse capacity",
+      "value": "78%",
+      "hint": "Peak season buffer",
+      "trend": "up",
+      "trendValue": "+5 pts"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "id": "a1",
+      "title": "Insulated bottle below reorder point",
+      "owner": "Meera Poluru",
+      "location": "Dallas South",
+      "severity": "Red",
+      "since": "1 Sep",
+      "note": "540 units on hand against a 600-unit reorder point."
+    },
+    {
+      "id": "a2",
+      "title": "Headlamp stock critically low",
+      "owner": "Meera Poluru",
+      "location": "Dallas South",
+      "severity": "Red",
+      "since": "1 Sep",
+      "note": "95 units on hand; supplier lead time is 11 days."
+    },
+    {
+      "id": "a3",
+      "title": "Trekking poles backordered",
+      "owner": "Ishita Poluru",
+      "location": "Denver West",
+      "severity": "Amber",
+      "since": "30 Aug",
+      "note": "Ferrotech shipment delayed to 9 Sep."
+    },
+    {
+      "id": "a4",
+      "title": "Seattle capacity above 85%",
+      "owner": "Devansh Poluru",
+      "location": "Seattle North",
+      "severity": "Amber",
+      "since": "29 Aug",
+      "note": "Overflow pallets moved to Phoenix Hub."
+    },
+    {
+      "id": "a5",
+      "title": "Cycle count variance resolved",
+      "owner": "Aditi Poluru",
+      "location": "Chicago Central",
+      "severity": "Green",
+      "since": "24 Aug",
+      "note": "Variance closed after bin relabeling."
+    },
+    {
+      "id": "a6",
+      "title": "Solar charger below reorder point",
+      "owner": "Devansh Poluru",
+      "location": "Seattle North",
+      "severity": "Red",
+      "since": "1 Sep",
+      "note": "62 units on hand; BrightPath Solar lead time is 10 days."
+    },
+    {
+      "id": "a7",
+      "title": "Ripstop hammock stockout",
+      "owner": "Ananya Poluru",
+      "location": "Phoenix Hub",
+      "severity": "Red",
+      "since": "25 Aug",
+      "note": "Zero on hand; PO_2208 confirmed for 6 Sep arrival."
+    },
+    {
+      "id": "a8",
+      "title": "Inbound dock queue building",
+      "owner": "Rohan Poluru",
+      "location": "Chicago Central",
+      "severity": "Amber",
+      "since": "1 Sep",
+      "note": "Three trucks queued; Dock 2 clears in ~18 minutes."
+    }
+  ]
+}

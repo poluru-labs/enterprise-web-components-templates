@@ -1,0 +1,106 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Report",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "updated",
+      "label": "Updated"
+    },
+    {
+      "key": "format",
+      "label": "Format"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Weekly stock snapshot",
+      "owner": "Aditi Poluru",
+      "updated": "1 Sep 2026",
+      "format": "PDF"
+    },
+    {
+      "name": "Reorder point export",
+      "owner": "Simran Poluru",
+      "updated": "31 Aug 2026",
+      "format": "CSV"
+    },
+    {
+      "name": "Supplier scorecard",
+      "owner": "Farhan Poluru",
+      "updated": "30 Aug 2026",
+      "format": "XLSX"
+    },
+    {
+      "name": "Warehouse capacity plan",
+      "owner": "Devansh Poluru",
+      "updated": "29 Aug 2026",
+      "format": "PDF"
+    },
+    {
+      "name": "Inbound dock log",
+      "owner": "Rohan Poluru",
+      "updated": "1 Sep 2026",
+      "format": "CSV"
+    },
+    {
+      "name": "Low-stock exception list",
+      "owner": "Meera Poluru",
+      "updated": "1 Sep 2026",
+      "format": "XLSX"
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Weekly cycle count",
+      "description": "Aditi Poluru · Mondays 08:00",
+      "timestamp": "25 Aug",
+      "icon": "clock",
+      "status": "Done"
+    },
+    {
+      "label": "Supplier scorecard review",
+      "description": "Farhan Poluru · lead time trend",
+      "timestamp": "26 Aug",
+      "icon": "star",
+      "status": "Done"
+    },
+    {
+      "label": "Peak-season capacity plan",
+      "description": "Devansh Poluru · Seattle overflow",
+      "timestamp": "27 Aug",
+      "icon": "file",
+      "status": "Done"
+    },
+    {
+      "label": "Reorder point audit",
+      "description": "Simran Poluru · demand plan refresh",
+      "timestamp": "28 Aug",
+      "icon": "check",
+      "status": "Done"
+    },
+    {
+      "label": "Logistics ops sync",
+      "description": "Yusuf Poluru · carrier performance",
+      "timestamp": "29 Aug",
+      "icon": "user",
+      "status": "Done"
+    },
+    {
+      "label": "Inbound dock throughput",
+      "description": "Rohan Poluru · Dock 2 queue",
+      "timestamp": "1 Sep",
+      "icon": "download",
+      "status": "Today"
+    }
+  ],
+  "cycleCountForm": {
+    "includeSupplierAppendixDefault": true
+  }
+}
