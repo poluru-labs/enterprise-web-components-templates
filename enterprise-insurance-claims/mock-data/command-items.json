@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Claims pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Log claim",
+      "description": "Open a first notice",
+      "href": "#log-claim",
+      "icon": "plus"
+    },
+    {
+      "label": "Claims",
+      "description": "Leela Poluru’s intake",
+      "href": "#/claims",
+      "icon": "folder"
+    },
+    {
+      "label": "Adjusters",
+      "description": "Subra Poluru’s bench",
+      "href": "#/adjusters",
+      "icon": "user"
+    },
+    {
+      "label": "Policies",
+      "description": "Maya Poluru’s book",
+      "href": "#/policies",
+      "icon": "file"
+    },
+    {
+      "label": "Fraud",
+      "description": "Nikhil Poluru’s SIU",
+      "href": "#/fraud",
+      "icon": "star"
+    },
+    {
+      "label": "Settlements",
+      "description": "Priya Poluru’s payables",
+      "href": "#/settlements",
+      "icon": "check"
+    },
+    {
+      "label": "Settings",
+      "description": "Cover desk defaults",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

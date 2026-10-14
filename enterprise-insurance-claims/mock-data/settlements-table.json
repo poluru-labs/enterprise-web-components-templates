@@ -1,0 +1,93 @@
+{
+  "columns": [
+    "Claim",
+    "Insured",
+    "Paid",
+    "Reserved",
+    "Owner",
+    "Date",
+    "Status"
+  ],
+  "rows": [
+    {
+      "id": "st-627",
+      "claim": "BC-627",
+      "insured": "Kavya Poluru",
+      "amount": 3800,
+      "reserved": 42000,
+      "owner": "Priya Poluru",
+      "date": "2026-09-12",
+      "status": "paid"
+    },
+    {
+      "id": "st-104",
+      "claim": "BC-104",
+      "insured": "Anika Poluru",
+      "amount": 0,
+      "reserved": 184000,
+      "owner": "Subra Poluru",
+      "date": "2026-09-12",
+      "status": "reserved"
+    },
+    {
+      "id": "st-218",
+      "claim": "BC-218",
+      "insured": "Mira Poluru",
+      "amount": 0,
+      "reserved": 420000,
+      "owner": "Rohan Poluru",
+      "date": "2026-09-11",
+      "status": "reserved"
+    },
+    {
+      "id": "st-331",
+      "claim": "BC-331",
+      "insured": "Quill Studio LLC",
+      "amount": 0,
+      "reserved": 1240000,
+      "owner": "Nikhil Poluru",
+      "date": "2026-09-10",
+      "status": "hold"
+    },
+    {
+      "id": "st-412",
+      "claim": "BC-412",
+      "insured": "Folio Mechanical",
+      "amount": 0,
+      "reserved": 640000,
+      "owner": "Leela Poluru",
+      "date": "2026-09-12",
+      "status": "hold"
+    },
+    {
+      "id": "st-509",
+      "claim": "BC-509",
+      "insured": "Lotline Partners",
+      "amount": 0,
+      "reserved": 840000,
+      "owner": "Dev Poluru",
+      "date": "2026-09-09",
+      "status": "reserved"
+    },
+    {
+      "id": "st-740",
+      "claim": "BC-740",
+      "insured": "Leela Poluru",
+      "amount": 0,
+      "reserved": 380000,
+      "owner": "Subra Poluru",
+      "date": "2026-09-08",
+      "status": "hold"
+    },
+    {
+      "id": "st-851",
+      "claim": "BC-851",
+      "insured": "Nimbus Low Voltage",
+      "amount": 0,
+      "reserved": 1054000,
+      "owner": "Ishaan Poluru",
+      "date": "2026-09-12",
+      "status": "reserved"
+    }
+  ]
+}

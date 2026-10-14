@@ -1,0 +1,28 @@
+{
+  "workspaceFields": {
+    "name": "Poluru Cover",
+    "timezone": "America / Chicago"
+  },
+  "firstContactSlaHours": 24,
+  "switches": {
+    "siuDigest": true,
+    "dailyFieldNotes": true
+  },
+  "defaultCityOptions": [
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Dallas",
+      "value": "Dallas"
+    },
+    {
+      "label": "Houston",
+      "value": "Houston"
+    }
+  ],
+  "defaultCity": "Austin",
+  "densityDefault": "comfortable",
+  "commandPaletteKbd": "⌘K"
+}

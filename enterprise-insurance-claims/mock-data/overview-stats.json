@@ -1,0 +1,32 @@
+{
+  "stats": [
+    {
+      "label": "Open claims",
+      "value": "7",
+      "hint": "Austin, Dallas, Houston, coast",
+      "trend": "flat",
+      "trendValue": "Book"
+    },
+    {
+      "label": "Reserved",
+      "value": "$4.8M",
+      "hint": "Arjun Poluru’s book",
+      "trend": "up",
+      "trendValue": "+4%"
+    },
+    {
+      "label": "SIU flags",
+      "value": "6",
+      "hint": "Nikhil Poluru · SIU",
+      "trend": "up",
+      "trendValue": "2 high"
+    },
+    {
+      "label": "Ready to pay",
+      "value": "1",
+      "hint": "Priya Poluru · Stride",
+      "trend": "flat",
+      "trendValue": "Today"
+    }
+  ]
+}

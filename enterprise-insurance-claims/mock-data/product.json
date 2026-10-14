@@ -1,0 +1,20 @@
+{
+  "productName": "Beacon",
+  "productLine": "Insurance",
+  "workspaceName": "Poluru Cover",
+  "brandColor": "#780C28",
+  "canvasColor": "#F8E8EC",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@polurucover.example",
+    "role": "Claims director"
+  },
+  "workspace": {
+    "name": "Poluru Cover",
+    "period": "Book · 12 Sep 2026",
+    "timezone": "America / Chicago",
+    "markets": "Austin · Dallas · Houston"
+  },
+  "reserveLabel": "$4.8M reserved",
+  "totalReserved": 4800000
+}

@@ -1,0 +1,134 @@
+{
+  "claims": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "open"
+      },
+      {
+        "label": "SIU",
+        "value": "siu"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      },
+      {
+        "label": "Ready",
+        "value": "ready"
+      }
+    ],
+    "city": [
+      {
+        "label": "All cities",
+        "value": ""
+      },
+      {
+        "label": "Austin",
+        "value": "Austin"
+      },
+      {
+        "label": "Dallas",
+        "value": "Dallas"
+      },
+      {
+        "label": "Houston",
+        "value": "Houston"
+      },
+      {
+        "label": "Galveston",
+        "value": "Galveston"
+      },
+      {
+        "label": "Round Rock",
+        "value": "Round Rock"
+      }
+    ],
+    "searchPlaceholder": "Filter claims"
+  },
+  "adjusters": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Field",
+        "value": "field"
+      },
+      {
+        "label": "Desk",
+        "value": "desk"
+      },
+      {
+        "label": "SIU",
+        "value": "siu"
+      }
+    ],
+    "searchPlaceholder": "Filter adjusters"
+  },
+  "policies": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Verified",
+        "value": "verified"
+      },
+      {
+        "label": "Pending",
+        "value": "pending"
+      },
+      {
+        "label": "Lapsed",
+        "value": "lapsed"
+      }
+    ],
+    "searchPlaceholder": "Filter policies",
+    "columns": [
+      "Policy",
+      "Insured",
+      "Line",
+      "City",
+      "Premium",
+      "Owner",
+      "Status"
+    ]
+  },
+  "fraud": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "open"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      },
+      {
+        "label": "Closed",
+        "value": "closed"
+      }
+    ],
+    "searchPlaceholder": "Filter flags",
+    "columns": [
+      "Claim",
+      "Flag",
+      "File",
+      "Reporter",
+      "Date",
+      "Severity",
+      "Status"
+    ]
+  }
+}

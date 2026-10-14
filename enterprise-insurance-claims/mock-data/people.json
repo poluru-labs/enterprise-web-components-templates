@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "name": "Subbu Poluru",
+      "role": "Claims director",
+      "squad": "Desk"
+    },
+    {
+      "name": "Subra Poluru",
+      "role": "Senior adjuster",
+      "squad": "Field"
+    },
+    {
+      "name": "Kavya Poluru",
+      "role": "Desk adjuster",
+      "squad": "Desk"
+    },
+    {
+      "name": "Maya Poluru",
+      "role": "Coverage counsel",
+      "squad": "Legal"
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "Reserves controller",
+      "squad": "Finance"
+    },
+    {
+      "name": "Leela Poluru",
+      "role": "Intake lead",
+      "squad": "Desk"
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "SIU investigator",
+      "squad": "SIU"
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Field adjuster",
+      "squad": "Field"
+    },
+    {
+      "name": "Priya Poluru",
+      "role": "Settlements",
+      "squad": "Desk"
+    },
+    {
+      "name": "Ishaan Poluru",
+      "role": "Catastrophe",
+      "squad": "Field"
+    },
+    {
+      "name": "Asha Poluru",
+      "role": "Appraiser",
+      "squad": "Field"
+    },
+    {
+      "name": "Dev Poluru",
+      "role": "Liability specialist",
+      "squad": "Desk"
+    }
+  ]
+}

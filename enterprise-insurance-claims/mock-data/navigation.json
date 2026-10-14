@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Claims",
+      "href": "#/claims",
+      "icon": "folder"
+    },
+    {
+      "label": "Adjusters",
+      "href": "#/adjusters",
+      "icon": "user"
+    },
+    {
+      "label": "Policies",
+      "href": "#/policies",
+      "icon": "file"
+    },
+    {
+      "label": "Fraud",
+      "href": "#/fraud",
+      "icon": "star"
+    },
+    {
+      "label": "Settlements",
+      "href": "#/settlements",
+      "icon": "check"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

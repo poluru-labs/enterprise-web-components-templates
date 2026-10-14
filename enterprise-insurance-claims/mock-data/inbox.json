@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "Cedar cargo policy lapsed",
+      "description": "Maya Poluru · POL-412",
+      "icon": "alert-triangle",
+      "href": "#/policies"
+    },
+    {
+      "label": "Quill fire is in SIU",
+      "description": "Nikhil Poluru · BC-331",
+      "icon": "clock",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Stride glass ready to pay",
+      "description": "Priya Poluru · $3,800",
+      "icon": "check",
+      "href": "#/settlements"
+    },
+    {
+      "label": "Harborwell still unassigned photos",
+      "description": "Subra Poluru · BC-104",
+      "icon": "file",
+      "href": "#/claim/bc-harbor"
+    }
+  ]
+}

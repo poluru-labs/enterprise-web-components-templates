@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "id": "pol-104",
+      "number": "POL-104",
+      "insured": "Anika Poluru",
+      "line": "HO-3",
+      "city": "Austin",
+      "premium": 1840,
+      "status": "verified",
+      "owner": "Maya Poluru"
+    },
+    {
+      "id": "pol-218",
+      "number": "POL-218",
+      "insured": "Mira Poluru",
+      "line": "HO-3",
+      "city": "Dallas",
+      "premium": 1620,
+      "status": "pending",
+      "owner": "Maya Poluru"
+    },
+    {
+      "id": "pol-331",
+      "number": "POL-331",
+      "insured": "Quill Studio LLC",
+      "line": "BOP",
+      "city": "Austin",
+      "premium": 12400,
+      "status": "verified",
+      "owner": "Maya Poluru"
+    },
+    {
+      "id": "pol-412",
+      "number": "POL-412",
+      "insured": "Folio Mechanical",
+      "line": "Cargo",
+      "city": "Houston",
+      "premium": 8600,
+      "status": "lapsed",
+      "owner": "Arjun Poluru"
+    },
+    {
+      "id": "pol-509",
+      "number": "POL-509",
+      "insured": "Lotline Partners",
+      "line": "CGL",
+      "city": "Austin",
+      "premium": 24800,
+      "status": "verified",
+      "owner": "Maya Poluru"
+    },
+    {
+      "id": "pol-627",
+      "number": "POL-627",
+      "insured": "Kavya Poluru",
+      "line": "PAP",
+      "city": "Dallas",
+      "premium": 980,
+      "status": "verified",
+      "owner": "Priya Poluru"
+    },
+    {
+      "id": "pol-740",
+      "number": "POL-740",
+      "insured": "Leela Poluru",
+      "line": "Flood",
+      "city": "Galveston",
+      "premium": 2140,
+      "status": "pending",
+      "owner": "Maya Poluru"
+    },
+    {
+      "id": "pol-851",
+      "number": "POL-851",
+      "insured": "Nimbus Low Voltage",
+      "line": "Cyber",
+      "city": "Round Rock",
+      "premium": 18600,
+      "status": "verified",
+      "owner": "Arjun Poluru"
+    }
+  ]
+}

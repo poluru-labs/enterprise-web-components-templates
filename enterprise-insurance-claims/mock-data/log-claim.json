@@ -1,0 +1,95 @@
+{
+  "lineOptions": [
+    {
+      "label": "Home",
+      "value": "home"
+    },
+    {
+      "label": "Auto",
+      "value": "auto"
+    },
+    {
+      "label": "Commercial",
+      "value": "commercial"
+    },
+    {
+      "label": "Liability",
+      "value": "liability"
+    },
+    {
+      "label": "Cargo",
+      "value": "cargo"
+    },
+    {
+      "label": "Flood",
+      "value": "flood"
+    },
+    {
+      "label": "Cyber",
+      "value": "cyber"
+    }
+  ],
+  "defaultLine": "home",
+  "adjusterOptions": [
+    {
+      "label": "Subbu Poluru",
+      "value": "Subbu Poluru"
+    },
+    {
+      "label": "Subra Poluru",
+      "value": "Subra Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Leela Poluru",
+      "value": "Leela Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "value": "Ishaan Poluru"
+    },
+    {
+      "label": "Asha Poluru",
+      "value": "Asha Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    }
+  ],
+  "defaultAdjuster": "Leela Poluru",
+  "placeholders": {
+    "loss": "Harborwell water loss",
+    "insured": "Anika Poluru"
+  },
+  "newClaimDefaults": {
+    "stage": "intake",
+    "status": "open",
+    "policy": "POL-NEW",
+    "reserve": 25000,
+    "loss": "2026-09-12"
+  }
+}

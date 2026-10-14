@@ -1,0 +1,228 @@
+{
+  "records": [
+    {
+      "label": "BC-104 Harborwell water loss",
+      "description": "Austin · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-harbor"
+    },
+    {
+      "label": "BC-218 Alder Hall hail",
+      "description": "Dallas · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-alder"
+    },
+    {
+      "label": "BC-331 Quill fire at studio",
+      "description": "Austin · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-quill"
+    },
+    {
+      "label": "BC-412 Cedar Yard cargo",
+      "description": "Houston · Leela Poluru",
+      "owner": "Leela Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-cedar"
+    },
+    {
+      "label": "BC-509 Lotline slip-and-fall",
+      "description": "Austin · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-lotline"
+    },
+    {
+      "label": "BC-627 Stride windshield",
+      "description": "Dallas · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-stride"
+    },
+    {
+      "label": "BC-740 Flare waterfront flood",
+      "description": "Galveston · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-flare"
+    },
+    {
+      "label": "BC-851 Nimbus ransomware",
+      "description": "Round Rock · Ishaan Poluru",
+      "owner": "Ishaan Poluru",
+      "type": "Claim",
+      "href": "#/claim/bc-nimbus"
+    },
+    {
+      "label": "POL-104",
+      "description": "Anika Poluru · HO-3",
+      "owner": "Maya Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-218",
+      "description": "Mira Poluru · HO-3",
+      "owner": "Maya Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-331",
+      "description": "Quill Studio LLC · BOP",
+      "owner": "Maya Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-412",
+      "description": "Folio Mechanical · Cargo",
+      "owner": "Arjun Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-509",
+      "description": "Lotline Partners · CGL",
+      "owner": "Maya Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-627",
+      "description": "Kavya Poluru · PAP",
+      "owner": "Priya Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-740",
+      "description": "Leela Poluru · Flood",
+      "owner": "Maya Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "POL-851",
+      "description": "Nimbus Low Voltage · Cyber",
+      "owner": "Arjun Poluru",
+      "type": "Policy",
+      "href": "#/policies"
+    },
+    {
+      "label": "Duplicate scene photos",
+      "description": "BC-331 · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Policy lapsed on loss date",
+      "description": "BC-412 · Maya Poluru",
+      "owner": "Maya Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Late notice after 10 days",
+      "description": "BC-740 · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "VIN mismatch on estimate",
+      "description": "BC-627 · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Prior hail claim same roof",
+      "description": "BC-218 · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Contractor on preferred list",
+      "description": "BC-104 · Asha Poluru",
+      "owner": "Asha Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Witness statement conflict",
+      "description": "BC-509 · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Invoice from related vendor",
+      "description": "BC-851 · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Fraud",
+      "href": "#/fraud"
+    },
+    {
+      "label": "Overview",
+      "description": "Claims pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Log claim",
+      "description": "Open a first notice",
+      "href": "#log-claim",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Claims",
+      "description": "Leela Poluru’s intake",
+      "href": "#/claims",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Adjusters",
+      "description": "Subra Poluru’s bench",
+      "href": "#/adjusters",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Policies",
+      "description": "Maya Poluru’s book",
+      "href": "#/policies",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Fraud",
+      "description": "Nikhil Poluru’s SIU",
+      "href": "#/fraud",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Settlements",
+      "description": "Priya Poluru’s payables",
+      "href": "#/settlements",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Cover desk defaults",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

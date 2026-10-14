@@ -1,0 +1,196 @@
+{
+  "byClaimId": {
+    "bc-harbor": {
+      "claimId": "bc-harbor",
+      "code": "BC-104",
+      "items": [
+        {
+          "label": "Assigned · Subra Poluru",
+          "description": "Austin",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-104 Verified",
+          "description": "Maya Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Contractor on preferred list",
+          "description": "Asha Poluru",
+          "timestamp": "2026-09-12",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-alder": {
+      "claimId": "bc-alder",
+      "code": "BC-218",
+      "items": [
+        {
+          "label": "Assigned · Rohan Poluru",
+          "description": "Dallas",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-218 Pending",
+          "description": "Maya Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Prior hail claim same roof",
+          "description": "Rohan Poluru",
+          "timestamp": "2026-09-09",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-quill": {
+      "claimId": "bc-quill",
+      "code": "BC-331",
+      "items": [
+        {
+          "label": "Investigate · Nikhil Poluru",
+          "description": "Austin",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-331 Verified",
+          "description": "Maya Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Duplicate scene photos",
+          "description": "Nikhil Poluru",
+          "timestamp": "2026-09-11",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-cedar": {
+      "claimId": "bc-cedar",
+      "code": "BC-412",
+      "items": [
+        {
+          "label": "Intake · Leela Poluru",
+          "description": "Houston",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-412 Lapsed",
+          "description": "Arjun Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Policy lapsed on loss date",
+          "description": "Maya Poluru",
+          "timestamp": "2026-09-12",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-lotline": {
+      "claimId": "bc-lotline",
+      "code": "BC-509",
+      "items": [
+        {
+          "label": "Assigned · Dev Poluru",
+          "description": "Austin",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-509 Verified",
+          "description": "Maya Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Witness statement conflict",
+          "description": "Dev Poluru",
+          "timestamp": "2026-09-08",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-stride": {
+      "claimId": "bc-stride",
+      "code": "BC-627",
+      "items": [
+        {
+          "label": "Settle · Priya Poluru",
+          "description": "Dallas",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-627 Verified",
+          "description": "Priya Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "VIN mismatch on estimate",
+          "description": "Kavya Poluru",
+          "timestamp": "2026-09-11",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-flare": {
+      "claimId": "bc-flare",
+      "code": "BC-740",
+      "items": [
+        {
+          "label": "Investigate · Subra Poluru",
+          "description": "Galveston",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-740 Pending",
+          "description": "Maya Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Late notice after 10 days",
+          "description": "Subra Poluru",
+          "timestamp": "2026-09-10",
+          "icon": "star"
+        }
+      ]
+    },
+    "bc-nimbus": {
+      "claimId": "bc-nimbus",
+      "code": "BC-851",
+      "items": [
+        {
+          "label": "Intake · Ishaan Poluru",
+          "description": "Round Rock",
+          "timestamp": "Today",
+          "icon": "check"
+        },
+        {
+          "label": "POL-851 Verified",
+          "description": "Arjun Poluru",
+          "timestamp": "Policy",
+          "icon": "file"
+        },
+        {
+          "label": "Invoice from related vendor",
+          "description": "Nikhil Poluru",
+          "timestamp": "2026-09-12",
+          "icon": "star"
+        }
+      ]
+    }
+  }
+}

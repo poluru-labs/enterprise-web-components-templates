@@ -1,0 +1,159 @@
+{
+  "quillAlert": {
+    "variant": "warning",
+    "title": "Quill fire in SIU",
+    "message": "Duplicate scene photos. Nikhil Poluru holds the file. Subra Poluru stays off the pad."
+  },
+  "cycleTime": {
+    "percent": 72,
+    "statusLabel": "On SLA",
+    "progressLabel": "72% of files inside 30 days",
+    "note": "Leela Poluru clears intake before noon."
+  },
+  "openFilesPreview": [
+    {
+      "id": "bc-harbor",
+      "code": "BC-104",
+      "title": "Harborwell water loss",
+      "city": "Austin",
+      "line": "home",
+      "stage": "assigned",
+      "status": "open",
+      "adjuster": "Subra Poluru",
+      "insured": "Anika Poluru",
+      "policy": "POL-104",
+      "reserve": 184000,
+      "loss": "2026-09-08"
+    },
+    {
+      "id": "bc-alder",
+      "code": "BC-218",
+      "title": "Alder Hall hail",
+      "city": "Dallas",
+      "line": "home",
+      "stage": "assigned",
+      "status": "open",
+      "adjuster": "Rohan Poluru",
+      "insured": "Mira Poluru",
+      "policy": "POL-218",
+      "reserve": 420000,
+      "loss": "2026-09-06"
+    },
+    {
+      "id": "bc-quill",
+      "code": "BC-331",
+      "title": "Quill fire at studio",
+      "city": "Austin",
+      "line": "commercial",
+      "stage": "investigate",
+      "status": "siu",
+      "adjuster": "Nikhil Poluru",
+      "insured": "Quill Studio LLC",
+      "policy": "POL-331",
+      "reserve": 1240000,
+      "loss": "2026-09-04"
+    },
+    {
+      "id": "bc-cedar",
+      "code": "BC-412",
+      "title": "Cedar Yard cargo",
+      "city": "Houston",
+      "line": "cargo",
+      "stage": "intake",
+      "status": "open",
+      "adjuster": "Leela Poluru",
+      "insured": "Folio Mechanical",
+      "policy": "POL-412",
+      "reserve": 640000,
+      "loss": "2026-09-11"
+    },
+    {
+      "id": "bc-lotline",
+      "code": "BC-509",
+      "title": "Lotline slip-and-fall",
+      "city": "Austin",
+      "line": "liability",
+      "stage": "assigned",
+      "status": "open",
+      "adjuster": "Dev Poluru",
+      "insured": "Lotline Partners",
+      "policy": "POL-509",
+      "reserve": 840000,
+      "loss": "2026-09-02"
+    },
+    {
+      "id": "bc-stride",
+      "code": "BC-627",
+      "title": "Stride windshield",
+      "city": "Dallas",
+      "line": "auto",
+      "stage": "settle",
+      "status": "ready",
+      "adjuster": "Priya Poluru",
+      "insured": "Kavya Poluru",
+      "policy": "POL-627",
+      "reserve": 42000,
+      "loss": "2026-09-10"
+    }
+  ],
+  "fraudWatch": [
+    {
+      "claim": "BC-331",
+      "title": "Duplicate scene photos",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-11",
+      "status": "open"
+    },
+    {
+      "claim": "BC-412",
+      "title": "Policy lapsed on loss date",
+      "reporter": "Maya Poluru",
+      "date": "2026-09-12",
+      "status": "open"
+    },
+    {
+      "claim": "BC-740",
+      "title": "Late notice after 10 days",
+      "reporter": "Subra Poluru",
+      "date": "2026-09-10",
+      "status": "watch"
+    },
+    {
+      "claim": "BC-218",
+      "title": "Prior hail claim same roof",
+      "reporter": "Rohan Poluru",
+      "date": "2026-09-09",
+      "status": "watch"
+    }
+  ],
+  "settlementsPreview": [
+    {
+      "claim": "BC-627",
+      "insured": "Kavya Poluru",
+      "owner": "Priya Poluru",
+      "reserved": 42000,
+      "status": "paid"
+    },
+    {
+      "claim": "BC-104",
+      "insured": "Anika Poluru",
+      "owner": "Subra Poluru",
+      "reserved": 184000,
+      "status": "reserved"
+    },
+    {
+      "claim": "BC-218",
+      "insured": "Mira Poluru",
+      "owner": "Rohan Poluru",
+      "reserved": 420000,
+      "status": "reserved"
+    },
+    {
+      "claim": "BC-509",
+      "insured": "Lotline Partners",
+      "owner": "Dev Poluru",
+      "reserved": 840000,
+      "status": "reserved"
+    }
+  ]
+}

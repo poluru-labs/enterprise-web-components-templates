@@ -1,0 +1,29 @@
+{
+  "stages": [
+    {
+      "id": "intake",
+      "label": "Intake",
+      "count": 2,
+      "href": "#/claims"
+    },
+    {
+      "id": "assigned",
+      "label": "Assigned",
+      "count": 3,
+      "href": "#/adjusters",
+      "hot": true
+    },
+    {
+      "id": "investigate",
+      "label": "Investigate",
+      "count": 2,
+      "href": "#/fraud"
+    },
+    {
+      "id": "settle",
+      "label": "Settle",
+      "count": 1,
+      "href": "#/settlements"
+    }
+  ]
+}

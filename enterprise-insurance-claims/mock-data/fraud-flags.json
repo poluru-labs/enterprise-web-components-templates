@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "id": "fr-331",
+      "claim": "BC-331",
+      "title": "Duplicate scene photos",
+      "property": "Quill fire at studio",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-11",
+      "status": "open",
+      "severity": "high"
+    },
+    {
+      "id": "fr-412",
+      "claim": "BC-412",
+      "title": "Policy lapsed on loss date",
+      "property": "Cedar Yard cargo",
+      "reporter": "Maya Poluru",
+      "date": "2026-09-12",
+      "status": "open",
+      "severity": "high"
+    },
+    {
+      "id": "fr-740",
+      "claim": "BC-740",
+      "title": "Late notice after 10 days",
+      "property": "Flare waterfront flood",
+      "reporter": "Subra Poluru",
+      "date": "2026-09-10",
+      "status": "watch",
+      "severity": "medium"
+    },
+    {
+      "id": "fr-627",
+      "claim": "BC-627",
+      "title": "VIN mismatch on estimate",
+      "property": "Stride windshield",
+      "reporter": "Kavya Poluru",
+      "date": "2026-09-11",
+      "status": "closed",
+      "severity": "low"
+    },
+    {
+      "id": "fr-218",
+      "claim": "BC-218",
+      "title": "Prior hail claim same roof",
+      "property": "Alder Hall hail",
+      "reporter": "Rohan Poluru",
+      "date": "2026-09-09",
+      "status": "watch",
+      "severity": "medium"
+    },
+    {
+      "id": "fr-104",
+      "claim": "BC-104",
+      "title": "Contractor on preferred list",
+      "property": "Harborwell water loss",
+      "reporter": "Asha Poluru",
+      "date": "2026-09-12",
+      "status": "closed",
+      "severity": "low"
+    },
+    {
+      "id": "fr-509",
+      "claim": "BC-509",
+      "title": "Witness statement conflict",
+      "property": "Lotline slip-and-fall",
+      "reporter": "Dev Poluru",
+      "date": "2026-09-08",
+      "status": "open",
+      "severity": "medium"
+    },
+    {
+      "id": "fr-851",
+      "claim": "BC-851",
+      "title": "Invoice from related vendor",
+      "property": "Nimbus ransomware",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-12",
+      "status": "open",
+      "severity": "high"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "searchPlaceholder": "Find a claim, policy, or flag",
+  "commandPalettePlaceholder": "Claims, policies, flags…",
+  "inboxCount": 4,
+  "reserveLabel": "$4.8M reserved",
+  "profileMenu": [
+    {
+      "label": "Settings",
+      "value": "settings",
+      "icon": "settings"
+    },
+    {
+      "label": "Command palette",
+      "value": "palette",
+      "icon": "search"
+    },
+    {
+      "label": "Sign out",
+      "value": "signout",
+      "icon": "external-link",
+      "danger": true
+    }
+  ]
+}
