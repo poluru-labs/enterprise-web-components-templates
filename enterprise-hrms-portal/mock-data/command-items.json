@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Headcount and pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "group": "Go to"
+    },
+    {
+      "label": "People",
+      "description": "Employee directory",
+      "href": "#/people",
+      "icon": "user",
+      "group": "Go to"
+    },
+    {
+      "label": "Leave",
+      "description": "PTO calendar",
+      "href": "#/leave",
+      "icon": "calendar",
+      "group": "Go to"
+    },
+    {
+      "label": "Hiring",
+      "description": "Open requisitions",
+      "href": "#/hiring",
+      "icon": "briefcase",
+      "group": "Go to"
+    },
+    {
+      "label": "Learning",
+      "description": "Courses and hours",
+      "href": "#/learning",
+      "icon": "book",
+      "group": "Go to"
+    },
+    {
+      "label": "Org",
+      "description": "Teams and reporting",
+      "href": "#/org",
+      "icon": "folder",
+      "group": "Go to"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace defaults",
+      "href": "#/settings",
+      "icon": "settings",
+      "group": "Go to"
+    },
+    {
+      "label": "Add employee",
+      "description": "Open the hire modal",
+      "href": "#add-employee",
+      "icon": "plus",
+      "group": "Actions"
+    },
+    {
+      "label": "Review leave",
+      "description": "Pending PTO this week",
+      "href": "#/leave",
+      "icon": "calendar",
+      "group": "Actions"
+    }
+  ]
+}

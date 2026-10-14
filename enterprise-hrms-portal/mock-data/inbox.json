@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "3 leave requests waiting",
+      "description": "Arjun, Divya, and Kiran need approval",
+      "icon": "alert-triangle",
+      "href": "#/leave"
+    },
+    {
+      "label": "People partner offer",
+      "description": "Ananya Poluru · Austin req",
+      "icon": "briefcase",
+      "href": "#/hiring"
+    },
+    {
+      "label": "6 on leave this week",
+      "description": "Kavya, Harini, Rohan, and others",
+      "icon": "calendar",
+      "href": "#/leave"
+    },
+    {
+      "label": "Benefits 2026 due 12 Sep",
+      "description": "Neha Poluru · 88 enrolled",
+      "icon": "book",
+      "href": "#/learning"
+    }
+  ]
+}

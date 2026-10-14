@@ -1,0 +1,127 @@
+{
+  "people": {
+    "department": [
+      {
+        "label": "All departments",
+        "value": ""
+      },
+      {
+        "label": "People",
+        "value": "People"
+      },
+      {
+        "label": "Engineering",
+        "value": "Engineering"
+      },
+      {
+        "label": "Product",
+        "value": "Product"
+      },
+      {
+        "label": "Design",
+        "value": "Design"
+      },
+      {
+        "label": "Finance",
+        "value": "Finance"
+      },
+      {
+        "label": "Sales",
+        "value": "Sales"
+      },
+      {
+        "label": "Marketing",
+        "value": "Marketing"
+      },
+      {
+        "label": "Customer Success",
+        "value": "Customer Success"
+      },
+      {
+        "label": "Legal",
+        "value": "Legal"
+      },
+      {
+        "label": "Data",
+        "value": "Data"
+      },
+      {
+        "label": "Learning",
+        "value": "Learning"
+      }
+    ],
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Active",
+        "value": "active"
+      },
+      {
+        "label": "On leave",
+        "value": "on_leave"
+      }
+    ],
+    "searchPlaceholder": "Filter directory"
+  },
+  "hiring": {
+    "department": [
+      {
+        "label": "All departments",
+        "value": ""
+      },
+      {
+        "label": "People",
+        "value": "People"
+      },
+      {
+        "label": "Engineering",
+        "value": "Engineering"
+      },
+      {
+        "label": "Design",
+        "value": "Design"
+      },
+      {
+        "label": "Sales",
+        "value": "Sales"
+      },
+      {
+        "label": "Data",
+        "value": "Data"
+      }
+    ],
+    "searchPlaceholder": "Filter requisitions"
+  },
+  "learning": {
+    "category": [
+      {
+        "label": "All categories",
+        "value": ""
+      },
+      {
+        "label": "Hiring",
+        "value": "Hiring"
+      },
+      {
+        "label": "Leadership",
+        "value": "Leadership"
+      },
+      {
+        "label": "Culture",
+        "value": "Culture"
+      },
+      {
+        "label": "People ops",
+        "value": "People ops"
+      },
+      {
+        "label": "Skills",
+        "value": "Skills"
+      }
+    ],
+    "searchPlaceholder": "Filter courses"
+  }
+}

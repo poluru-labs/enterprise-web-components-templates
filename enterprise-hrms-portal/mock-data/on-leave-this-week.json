@@ -1,0 +1,157 @@
+{
+  "weekStart": "2026-09-01",
+  "weekEnd": "2026-09-05",
+  "count": 6,
+  "people": [
+    {
+      "id": "p-vikram",
+      "name": "Vikram Poluru",
+      "email": "vikram.poluru@polurulabs.example",
+      "title": "People ops specialist",
+      "department": "People",
+      "location": "Chicago",
+      "manager": "Sravani Poluru",
+      "status": "on_leave",
+      "employmentType": "Full-time",
+      "startDate": "2025-02-03",
+      "ptoBalance": 6,
+      "learningHours": 8,
+      "pronouns": "he/him"
+    },
+    {
+      "id": "p-kavya",
+      "name": "Kavya Poluru",
+      "email": "kavya.poluru@polurulabs.example",
+      "title": "Staff engineer",
+      "department": "Engineering",
+      "location": "Austin",
+      "manager": "Rohan Poluru",
+      "status": "on_leave",
+      "employmentType": "Full-time",
+      "startDate": "2022-09-12",
+      "ptoBalance": 9,
+      "learningHours": 22,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "p-rohan",
+      "name": "Rohan Poluru",
+      "email": "rohan.poluru@polurulabs.example",
+      "title": "Engineering manager",
+      "department": "Engineering",
+      "location": "Remote",
+      "manager": "Madhav Poluru",
+      "status": "on_leave",
+      "employmentType": "Full-time",
+      "startDate": "2021-06-21",
+      "ptoBalance": 4,
+      "learningHours": 18,
+      "pronouns": "he/him"
+    },
+    {
+      "id": "p-tanvi",
+      "name": "Tanvi Poluru",
+      "email": "tanvi.poluru@polurulabs.example",
+      "title": "Product manager",
+      "department": "Product",
+      "location": "Chicago",
+      "manager": "Madhav Poluru",
+      "status": "on_leave",
+      "employmentType": "Full-time",
+      "startDate": "2024-07-15",
+      "ptoBalance": 3,
+      "learningHours": 20,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "p-harini",
+      "name": "Harini Poluru",
+      "email": "harini.poluru@polurulabs.example",
+      "title": "Design lead",
+      "department": "Design",
+      "location": "Austin",
+      "manager": "Madhav Poluru",
+      "status": "on_leave",
+      "employmentType": "Full-time",
+      "startDate": "2023-05-22",
+      "ptoBalance": 7,
+      "learningHours": 27,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "p-nisha",
+      "name": "Nisha Poluru",
+      "email": "nisha.poluru@polurulabs.example",
+      "title": "Brand manager",
+      "department": "Marketing",
+      "location": "Austin",
+      "manager": "Madhav Poluru",
+      "status": "on_leave",
+      "employmentType": "Full-time",
+      "startDate": "2024-02-26",
+      "ptoBalance": 2,
+      "learningHours": 15,
+      "pronouns": "she/her"
+    }
+  ],
+  "headerAvatars": [
+    {
+      "id": "p-vikram",
+      "name": "Vikram Poluru"
+    },
+    {
+      "id": "p-kavya",
+      "name": "Kavya Poluru"
+    },
+    {
+      "id": "p-rohan",
+      "name": "Rohan Poluru"
+    },
+    {
+      "id": "p-tanvi",
+      "name": "Tanvi Poluru"
+    },
+    {
+      "id": "p-harini",
+      "name": "Harini Poluru"
+    }
+  ],
+  "listItems": [
+    {
+      "label": "Vikram Poluru",
+      "description": "People ops specialist · People",
+      "icon": "calendar",
+      "href": "#/person/p-vikram"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Staff engineer · Engineering",
+      "icon": "calendar",
+      "href": "#/person/p-kavya"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Engineering manager · Engineering",
+      "icon": "calendar",
+      "href": "#/person/p-rohan"
+    },
+    {
+      "label": "Tanvi Poluru",
+      "description": "Product manager · Product",
+      "icon": "calendar",
+      "href": "#/person/p-tanvi"
+    },
+    {
+      "label": "Harini Poluru",
+      "description": "Design lead · Design",
+      "icon": "calendar",
+      "href": "#/person/p-harini"
+    },
+    {
+      "label": "Nisha Poluru",
+      "description": "Brand manager · Marketing",
+      "icon": "calendar",
+      "href": "#/person/p-nisha"
+    }
+  ]
+}

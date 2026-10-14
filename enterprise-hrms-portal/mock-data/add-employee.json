@@ -1,0 +1,86 @@
+{
+  "departmentOptions": [
+    {
+      "label": "People",
+      "value": "People"
+    },
+    {
+      "label": "Engineering",
+      "value": "Engineering"
+    },
+    {
+      "label": "Product",
+      "value": "Product"
+    },
+    {
+      "label": "Design",
+      "value": "Design"
+    },
+    {
+      "label": "Finance",
+      "value": "Finance"
+    },
+    {
+      "label": "Sales",
+      "value": "Sales"
+    },
+    {
+      "label": "Marketing",
+      "value": "Marketing"
+    },
+    {
+      "label": "Customer Success",
+      "value": "Customer Success"
+    },
+    {
+      "label": "Legal",
+      "value": "Legal"
+    },
+    {
+      "label": "Data",
+      "value": "Data"
+    },
+    {
+      "label": "Learning",
+      "value": "Learning"
+    }
+  ],
+  "locationOptions": [
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Chicago",
+      "value": "Chicago"
+    },
+    {
+      "label": "Hyderabad",
+      "value": "Hyderabad"
+    },
+    {
+      "label": "Remote",
+      "value": "Remote"
+    }
+  ],
+  "employmentOptions": [
+    {
+      "label": "Full-time",
+      "value": "Full-time"
+    },
+    {
+      "label": "Contract",
+      "value": "Contract"
+    }
+  ],
+  "defaults": {
+    "department": "People",
+    "location": "Austin",
+    "employmentType": "Full-time"
+  },
+  "placeholders": {
+    "name": "Leela Poluru",
+    "email": "leela.poluru@polurulabs.example",
+    "title": "People partner"
+  }
+}

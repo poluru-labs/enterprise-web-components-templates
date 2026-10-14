@@ -1,0 +1,80 @@
+{
+  "table": {
+    "columns": [
+      {
+        "key": "title",
+        "label": "Course"
+      },
+      {
+        "key": "category",
+        "label": "Category"
+      },
+      {
+        "key": "hours",
+        "label": "Hours"
+      },
+      {
+        "key": "enrolled",
+        "label": "Enrolled"
+      },
+      {
+        "key": "due",
+        "label": "Due"
+      },
+      {
+        "key": "instructor",
+        "label": "Instructor"
+      }
+    ],
+    "rows": [
+      {
+        "title": "Inclusive interviewing",
+        "category": "Hiring",
+        "hours": 3,
+        "enrolled": 42,
+        "due": "Sep 30, 2026",
+        "instructor": "Sravani Poluru"
+      },
+      {
+        "title": "Manager 101",
+        "category": "Leadership",
+        "hours": 6,
+        "enrolled": 18,
+        "due": "Oct 15, 2026",
+        "instructor": "Madhav Poluru"
+      },
+      {
+        "title": "Psychological safety",
+        "category": "Culture",
+        "hours": 2,
+        "enrolled": 64,
+        "due": "Sep 18, 2026",
+        "instructor": "Neha Poluru"
+      },
+      {
+        "title": "Benefits 2026",
+        "category": "People ops",
+        "hours": 1.5,
+        "enrolled": 88,
+        "due": "Sep 12, 2026",
+        "instructor": "Ananya Poluru"
+      },
+      {
+        "title": "Performance conversations",
+        "category": "Leadership",
+        "hours": 4,
+        "enrolled": 21,
+        "due": "Nov 1, 2026",
+        "instructor": "Sravani Poluru"
+      },
+      {
+        "title": "AI for people ops",
+        "category": "Skills",
+        "hours": 2.5,
+        "enrolled": 29,
+        "due": "Oct 8, 2026",
+        "instructor": "Ishaan Poluru"
+      }
+    ]
+  }
+}

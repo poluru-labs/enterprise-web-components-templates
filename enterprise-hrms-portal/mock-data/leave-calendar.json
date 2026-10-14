@@ -1,0 +1,154 @@
+{
+  "laborDayAlert": {
+    "title": "Labor Day office close",
+    "message": "Poluru People offices are closed Mon 7 Sep 2026. Pending requests after the holiday need Sravani Poluru approval."
+  },
+  "weekListItems": [
+    {
+      "label": "Vikram Poluru",
+      "description": "Sick · Sep 1, 2026 – Sep 2, 2026",
+      "icon": "calendar",
+      "href": "#/person/p-vikram"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "PTO · Sep 1, 2026 – Sep 5, 2026",
+      "icon": "calendar",
+      "href": "#/person/p-kavya"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Parental · Aug 25, 2026 – Sep 12, 2026",
+      "icon": "calendar",
+      "href": "#/person/p-rohan"
+    },
+    {
+      "label": "Tanvi Poluru",
+      "description": "PTO · Aug 31, 2026 – Sep 4, 2026",
+      "icon": "calendar",
+      "href": "#/person/p-tanvi"
+    },
+    {
+      "label": "Harini Poluru",
+      "description": "PTO · Sep 2, 2026 – Sep 4, 2026",
+      "icon": "calendar",
+      "href": "#/person/p-harini"
+    },
+    {
+      "label": "Nisha Poluru",
+      "description": "PTO · Sep 1, 2026 – Sep 3, 2026",
+      "icon": "calendar",
+      "href": "#/person/p-nisha"
+    }
+  ],
+  "allRecordsTable": {
+    "columns": [
+      {
+        "key": "person",
+        "label": "Person"
+      },
+      {
+        "key": "type",
+        "label": "Type"
+      },
+      {
+        "key": "dates",
+        "label": "Dates"
+      },
+      {
+        "key": "days",
+        "label": "Days"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      },
+      {
+        "key": "note",
+        "label": "Note"
+      }
+    ],
+    "rows": [
+      {
+        "person": "Kavya Poluru",
+        "type": "PTO",
+        "dates": "Sep 1, 2026 – Sep 5, 2026",
+        "days": 5,
+        "status": "Approved",
+        "note": "Family travel · Austin"
+      },
+      {
+        "person": "Harini Poluru",
+        "type": "PTO",
+        "dates": "Sep 2, 2026 – Sep 4, 2026",
+        "days": 3,
+        "status": "Approved",
+        "note": "Design offsite recovery"
+      },
+      {
+        "person": "Rohan Poluru",
+        "type": "Parental",
+        "dates": "Aug 25, 2026 – Sep 12, 2026",
+        "days": 15,
+        "status": "Approved",
+        "note": "Parental leave week 2"
+      },
+      {
+        "person": "Nisha Poluru",
+        "type": "PTO",
+        "dates": "Sep 1, 2026 – Sep 3, 2026",
+        "days": 3,
+        "status": "Approved",
+        "note": "Brand shoot wrap"
+      },
+      {
+        "person": "Vikram Poluru",
+        "type": "Sick",
+        "dates": "Sep 1, 2026 – Sep 2, 2026",
+        "days": 2,
+        "status": "Approved",
+        "note": "Short-term illness"
+      },
+      {
+        "person": "Tanvi Poluru",
+        "type": "PTO",
+        "dates": "Aug 31, 2026 – Sep 4, 2026",
+        "days": 5,
+        "status": "Approved",
+        "note": "Chicago long weekend"
+      },
+      {
+        "person": "Arjun Poluru",
+        "type": "PTO",
+        "dates": "Sep 8, 2026 – Sep 11, 2026",
+        "days": 4,
+        "status": "Pending",
+        "note": "After Labor Day"
+      },
+      {
+        "person": "Divya Poluru",
+        "type": "PTO",
+        "dates": "Sep 14, 2026 – Sep 16, 2026",
+        "days": 3,
+        "status": "Pending",
+        "note": "Customer summit buffer"
+      },
+      {
+        "person": "Kiran Poluru",
+        "type": "Unpaid",
+        "dates": "Sep 21, 2026 – Sep 22, 2026",
+        "days": 2,
+        "status": "Pending",
+        "note": "Personal appointment"
+      },
+      {
+        "person": "Ishaan Poluru",
+        "type": "PTO",
+        "dates": "Aug 18, 2026 – Aug 20, 2026",
+        "days": 3,
+        "status": "Approved",
+        "note": "Taken last month"
+      }
+    ]
+  }
+}

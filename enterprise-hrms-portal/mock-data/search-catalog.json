@@ -1,0 +1,284 @@
+{
+  "records": [
+    {
+      "label": "Sravani Poluru",
+      "description": "People operations lead · People",
+      "owner": "—",
+      "type": "person",
+      "href": "#/person/p-sravani"
+    },
+    {
+      "label": "Ananya Poluru",
+      "description": "People partner · People",
+      "owner": "Sravani Poluru",
+      "type": "person",
+      "href": "#/person/p-ananya"
+    },
+    {
+      "label": "Vikram Poluru",
+      "description": "People ops specialist · People",
+      "owner": "Sravani Poluru",
+      "type": "person",
+      "href": "#/person/p-vikram"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Staff engineer · Engineering",
+      "owner": "Rohan Poluru",
+      "type": "person",
+      "href": "#/person/p-kavya"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Engineering manager · Engineering",
+      "owner": "Madhav Poluru",
+      "type": "person",
+      "href": "#/person/p-rohan"
+    },
+    {
+      "label": "Kiran Poluru",
+      "description": "Frontend engineer · Engineering",
+      "owner": "Rohan Poluru",
+      "type": "person",
+      "href": "#/person/p-kiran"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Backend engineer · Engineering",
+      "owner": "Rohan Poluru",
+      "type": "person",
+      "href": "#/person/p-arjun"
+    },
+    {
+      "label": "Madhav Poluru",
+      "description": "Product director · Product",
+      "owner": "Sravani Poluru",
+      "type": "person",
+      "href": "#/person/p-madhav"
+    },
+    {
+      "label": "Tanvi Poluru",
+      "description": "Product manager · Product",
+      "owner": "Madhav Poluru",
+      "type": "person",
+      "href": "#/person/p-tanvi"
+    },
+    {
+      "label": "Harini Poluru",
+      "description": "Design lead · Design",
+      "owner": "Madhav Poluru",
+      "type": "person",
+      "href": "#/person/p-harini"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Controller · Finance",
+      "owner": "Sravani Poluru",
+      "type": "person",
+      "href": "#/person/p-priya"
+    },
+    {
+      "label": "Asha Poluru",
+      "description": "FP&A analyst · Finance",
+      "owner": "Priya Poluru",
+      "type": "person",
+      "href": "#/person/p-asha"
+    },
+    {
+      "label": "Meera Poluru",
+      "description": "Account executive · Sales",
+      "owner": "Madhav Poluru",
+      "type": "person",
+      "href": "#/person/p-meera"
+    },
+    {
+      "label": "Nisha Poluru",
+      "description": "Brand manager · Marketing",
+      "owner": "Madhav Poluru",
+      "type": "person",
+      "href": "#/person/p-nisha"
+    },
+    {
+      "label": "Divya Poluru",
+      "description": "Customer success manager · Customer Success",
+      "owner": "Meera Poluru",
+      "type": "person",
+      "href": "#/person/p-divya"
+    },
+    {
+      "label": "Lakshmi Poluru",
+      "description": "General counsel · Legal",
+      "owner": "Sravani Poluru",
+      "type": "person",
+      "href": "#/person/p-lakshmi"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "description": "Data scientist · Data",
+      "owner": "Kavya Poluru",
+      "type": "person",
+      "href": "#/person/p-ishaan"
+    },
+    {
+      "label": "Neha Poluru",
+      "description": "L&D manager · Learning",
+      "owner": "Sravani Poluru",
+      "type": "person",
+      "href": "#/person/p-neha"
+    },
+    {
+      "label": "People partner",
+      "description": "People · Austin",
+      "owner": "Sravani Poluru",
+      "type": "req",
+      "href": "#/hiring"
+    },
+    {
+      "label": "Staff engineer",
+      "description": "Engineering · Austin",
+      "owner": "Rohan Poluru",
+      "type": "req",
+      "href": "#/hiring"
+    },
+    {
+      "label": "Product designer",
+      "description": "Design · Remote",
+      "owner": "Harini Poluru",
+      "type": "req",
+      "href": "#/hiring"
+    },
+    {
+      "label": "Account executive",
+      "description": "Sales · Chicago",
+      "owner": "Meera Poluru",
+      "type": "req",
+      "href": "#/hiring"
+    },
+    {
+      "label": "Data engineer",
+      "description": "Data · Hyderabad",
+      "owner": "Ishaan Poluru",
+      "type": "req",
+      "href": "#/hiring"
+    },
+    {
+      "label": "Technical recruiter",
+      "description": "People · Austin",
+      "owner": "Sravani Poluru",
+      "type": "req",
+      "href": "#/hiring"
+    },
+    {
+      "label": "Inclusive interviewing",
+      "description": "Hiring",
+      "owner": "Sravani Poluru",
+      "type": "course",
+      "href": "#/learning"
+    },
+    {
+      "label": "Manager 101",
+      "description": "Leadership",
+      "owner": "Madhav Poluru",
+      "type": "course",
+      "href": "#/learning"
+    },
+    {
+      "label": "Psychological safety",
+      "description": "Culture",
+      "owner": "Neha Poluru",
+      "type": "course",
+      "href": "#/learning"
+    },
+    {
+      "label": "Benefits 2026",
+      "description": "People ops",
+      "owner": "Ananya Poluru",
+      "type": "course",
+      "href": "#/learning"
+    },
+    {
+      "label": "Performance conversations",
+      "description": "Leadership",
+      "owner": "Sravani Poluru",
+      "type": "course",
+      "href": "#/learning"
+    },
+    {
+      "label": "AI for people ops",
+      "description": "Skills",
+      "owner": "Ishaan Poluru",
+      "type": "course",
+      "href": "#/learning"
+    },
+    {
+      "label": "Kavya Poluru · PTO",
+      "description": "2026-09-01 – 2026-09-05",
+      "owner": "Kavya Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Harini Poluru · PTO",
+      "description": "2026-09-02 – 2026-09-04",
+      "owner": "Harini Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Rohan Poluru · Parental",
+      "description": "2026-08-25 – 2026-09-12",
+      "owner": "Rohan Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Nisha Poluru · PTO",
+      "description": "2026-09-01 – 2026-09-03",
+      "owner": "Nisha Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Vikram Poluru · Sick",
+      "description": "2026-09-01 – 2026-09-02",
+      "owner": "Vikram Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Tanvi Poluru · PTO",
+      "description": "2026-08-31 – 2026-09-04",
+      "owner": "Tanvi Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Arjun Poluru · PTO",
+      "description": "2026-09-08 – 2026-09-11",
+      "owner": "Arjun Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Divya Poluru · PTO",
+      "description": "2026-09-14 – 2026-09-16",
+      "owner": "Divya Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Kiran Poluru · Unpaid",
+      "description": "2026-09-21 – 2026-09-22",
+      "owner": "Kiran Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    },
+    {
+      "label": "Ishaan Poluru · PTO",
+      "description": "2026-08-18 – 2026-08-20",
+      "owner": "Ishaan Poluru",
+      "type": "leave",
+      "href": "#/leave"
+    }
+  ]
+}

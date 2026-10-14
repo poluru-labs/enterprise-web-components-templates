@@ -1,0 +1,42 @@
+{
+  "workspaceFields": {
+    "name": "Poluru People",
+    "timezone": "America / Austin"
+  },
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas",
+  "defaultDepartmentOptions": [
+    {
+      "label": "People",
+      "value": "People"
+    },
+    {
+      "label": "Engineering",
+      "value": "Engineering"
+    },
+    {
+      "label": "Product",
+      "value": "Product"
+    }
+  ],
+  "defaultDepartment": "People",
+  "densityDefault": "comfortable",
+  "switches": {
+    "laborDayReminder": true,
+    "weeklyLeaveDigest": true
+  },
+  "commandPaletteKbd": "⌘K"
+}

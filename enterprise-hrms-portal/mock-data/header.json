@@ -1,0 +1,25 @@
+{
+  "searchPlaceholder": "Search people",
+  "commandPalettePlaceholder": "People, leave, hiring…",
+  "inboxCount": 4,
+  "leaveCount": 6,
+  "holidayLabel": "Next holiday · Labor Day",
+  "profileMenu": [
+    {
+      "label": "Settings",
+      "value": "settings",
+      "icon": "settings"
+    },
+    {
+      "label": "Command palette",
+      "value": "palette",
+      "icon": "search"
+    },
+    {
+      "label": "Sign out",
+      "value": "signout",
+      "icon": "external-link",
+      "danger": true
+    }
+  ]
+}

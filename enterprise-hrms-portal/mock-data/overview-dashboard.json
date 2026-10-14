@@ -1,0 +1,168 @@
+{
+  "headcountTrend": [
+    14,
+    14,
+    15,
+    15,
+    16,
+    16,
+    17,
+    17,
+    17,
+    18,
+    18,
+    18
+  ],
+  "headcountBadge": "18 active",
+  "headcountNote": "18 teammates across 11 departments. Kiran Poluru and Asha Poluru joined in Aug–Oct 2026.",
+  "training": {
+    "completionPercent": 74,
+    "statusLabel": "On track",
+    "progressLabel": "74% avg hours vs target",
+    "note": "Benefits 2026 due 12 Sep · 88 enrolled."
+  },
+  "leaveAlert": {
+    "variant": "warning",
+    "title": "3 leave requests pending",
+    "message": "Arjun, Divya, and Kiran submitted PTO after Labor Day. Review before the office reopens."
+  },
+  "periodControl": {
+    "options": [
+      {
+        "label": "Week",
+        "value": "week"
+      },
+      {
+        "label": "Month",
+        "value": "month"
+      },
+      {
+        "label": "Quarter",
+        "value": "qtr"
+      }
+    ],
+    "defaultValue": "month"
+  },
+  "timeline": [
+    {
+      "label": "People partner offer",
+      "description": "Ananya Poluru · Austin req",
+      "timestamp": "1 Sep",
+      "icon": "briefcase"
+    },
+    {
+      "label": "Benefits 2026 launch",
+      "description": "Neha Poluru · 88 enrolled",
+      "timestamp": "28 Aug",
+      "icon": "book"
+    },
+    {
+      "label": "Kiran Poluru joined",
+      "description": "Frontend engineer · Austin",
+      "timestamp": "11 Aug",
+      "icon": "user"
+    },
+    {
+      "label": "Staff engineer req opened",
+      "description": "Rohan Poluru · 2 openings",
+      "timestamp": "14 Jul",
+      "icon": "folder"
+    }
+  ],
+  "highlights": {
+    "people": [
+      {
+        "id": "p-sravani",
+        "name": "Sravani Poluru",
+        "email": "sravani.poluru@polurulabs.example",
+        "title": "People operations lead",
+        "department": "People",
+        "location": "Austin",
+        "manager": "",
+        "status": "active",
+        "employmentType": "Full-time",
+        "startDate": "2023-01-16",
+        "ptoBalance": 18,
+        "learningHours": 24,
+        "pronouns": "she/her"
+      },
+      {
+        "id": "p-ananya",
+        "name": "Ananya Poluru",
+        "email": "ananya.poluru@polurulabs.example",
+        "title": "People partner",
+        "department": "People",
+        "location": "Austin",
+        "manager": "Sravani Poluru",
+        "status": "active",
+        "employmentType": "Full-time",
+        "startDate": "2024-04-08",
+        "ptoBalance": 12,
+        "learningHours": 16,
+        "pronouns": "she/her"
+      }
+    ],
+    "requisitions": [
+      {
+        "id": "req-people-partner",
+        "title": "People partner",
+        "department": "People",
+        "location": "Austin",
+        "recruiter": "Ananya Poluru",
+        "hiringManager": "Sravani Poluru",
+        "status": "open",
+        "openings": 1,
+        "posted": "2026-08-04",
+        "pipeline": {
+          "applied": 18,
+          "screen": 7,
+          "interview": 3,
+          "offer": 1,
+          "hired": 0
+        }
+      },
+      {
+        "id": "req-staff-eng",
+        "title": "Staff engineer",
+        "department": "Engineering",
+        "location": "Austin",
+        "recruiter": "Ananya Poluru",
+        "hiringManager": "Rohan Poluru",
+        "status": "open",
+        "openings": 2,
+        "posted": "2026-07-14",
+        "pipeline": {
+          "applied": 41,
+          "screen": 12,
+          "interview": 5,
+          "offer": 0,
+          "hired": 0
+        }
+      }
+    ],
+    "courses": [
+      {
+        "id": "crs-inclusive",
+        "title": "Inclusive interviewing",
+        "category": "Hiring",
+        "hours": 3,
+        "enrolled": 42,
+        "due": "2026-09-30",
+        "status": "enrolled",
+        "instructor": "Sravani Poluru",
+        "summary": "Structured loops, scorecards, and bias interrupts for every open req."
+      },
+      {
+        "id": "crs-manager",
+        "title": "Manager 101",
+        "category": "Leadership",
+        "hours": 6,
+        "enrolled": 18,
+        "due": "2026-10-15",
+        "status": "enrolled",
+        "instructor": "Madhav Poluru",
+        "summary": "One-on-ones, feedback, and leveling conversations for new Alder leads."
+      }
+    ]
+  }
+}

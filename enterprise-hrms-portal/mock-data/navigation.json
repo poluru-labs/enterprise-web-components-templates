@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "People",
+      "href": "#/people",
+      "icon": "user"
+    },
+    {
+      "label": "Org",
+      "href": "#/org",
+      "icon": "folder"
+    },
+    {
+      "label": "Leave",
+      "href": "#/leave",
+      "icon": "calendar"
+    },
+    {
+      "label": "Hiring",
+      "href": "#/hiring",
+      "icon": "briefcase"
+    },
+    {
+      "label": "Learning",
+      "href": "#/learning",
+      "icon": "book"
+    },
+    {
+      "label": "Search",
+      "href": "#/search",
+      "icon": "search"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

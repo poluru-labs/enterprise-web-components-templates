@@ -1,0 +1,55 @@
+{
+  "count": 3,
+  "rows": [
+    {
+      "id": "lv-07",
+      "personId": "p-arjun",
+      "personName": "Arjun Poluru",
+      "type": "PTO",
+      "start": "2026-09-08",
+      "end": "2026-09-11",
+      "days": 4,
+      "status": "pending",
+      "note": "After Labor Day"
+    },
+    {
+      "id": "lv-08",
+      "personId": "p-divya",
+      "personName": "Divya Poluru",
+      "type": "PTO",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "days": 3,
+      "status": "pending",
+      "note": "Customer summit buffer"
+    },
+    {
+      "id": "lv-09",
+      "personId": "p-kiran",
+      "personName": "Kiran Poluru",
+      "type": "Unpaid",
+      "start": "2026-09-21",
+      "end": "2026-09-22",
+      "days": 2,
+      "status": "pending",
+      "note": "Personal appointment"
+    }
+  ],
+  "listItems": [
+    {
+      "label": "Arjun Poluru",
+      "description": "PTO · Sep 8, 2026 – Sep 11, 2026",
+      "icon": "clock"
+    },
+    {
+      "label": "Divya Poluru",
+      "description": "PTO · Sep 14, 2026 – Sep 16, 2026",
+      "icon": "clock"
+    },
+    {
+      "label": "Kiran Poluru",
+      "description": "Unpaid · Sep 21, 2026 – Sep 22, 2026",
+      "icon": "clock"
+    }
+  ]
+}

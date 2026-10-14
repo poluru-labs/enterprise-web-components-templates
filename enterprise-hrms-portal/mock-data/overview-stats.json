@@ -1,0 +1,60 @@
+{
+  "stats": [
+    {
+      "label": "Headcount",
+      "value": "18",
+      "hint": "+2 since Aug",
+      "trend": "up",
+      "trendValue": "+2"
+    },
+    {
+      "label": "Open reqs",
+      "value": "6",
+      "hint": "8 roles",
+      "trend": "flat",
+      "trendValue": "Steady"
+    },
+    {
+      "label": "On leave",
+      "value": "6",
+      "hint": "This week",
+      "trend": "flat",
+      "trendValue": "Sep 1–5"
+    },
+    {
+      "label": "Engagement",
+      "value": "8.4/10",
+      "hint": "Pulse Aug 2026",
+      "trend": "up",
+      "trendValue": "+0.3"
+    },
+    {
+      "label": "Training",
+      "value": "85%",
+      "hint": "Avg hours vs target",
+      "trend": "up",
+      "trendValue": "+6 pts"
+    },
+    {
+      "label": "New hires",
+      "value": "0",
+      "hint": "Since Aug 2026",
+      "trend": "up",
+      "trendValue": "Kiran + Asha"
+    },
+    {
+      "label": "Time-to-hire",
+      "value": "34 days",
+      "hint": "Trailing 90 days",
+      "trend": "down",
+      "trendValue": "−4 days"
+    },
+    {
+      "label": "eNPS",
+      "value": "62",
+      "hint": "Employee NPS",
+      "trend": "up",
+      "trendValue": "+5"
+    }
+  ]
+}

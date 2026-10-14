@@ -1,0 +1,24 @@
+{
+  "productName": "Alder",
+  "productLine": "People ops",
+  "workspaceName": "Poluru People",
+  "brandColor": "#0F766E",
+  "weekStart": "2026-09-01",
+  "weekEnd": "2026-09-05",
+  "currentUser": {
+    "name": "Sravani Poluru",
+    "email": "sravani.poluru@polurulabs.example",
+    "role": "People operations lead"
+  },
+  "nextHoliday": {
+    "name": "Labor Day",
+    "date": "2026-09-07",
+    "label": "Next holiday · Labor Day"
+  },
+  "workspace": {
+    "name": "Poluru People",
+    "period": "Sep 2026 · week 36",
+    "timezone": "America / Austin",
+    "close": "Office closed Mon 7 Sep"
+  }
+}

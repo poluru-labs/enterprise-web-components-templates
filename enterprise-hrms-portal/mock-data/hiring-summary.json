@@ -1,0 +1,83 @@
+{
+  "openReqCount": 6,
+  "openRolesCount": 8,
+  "timeToHireDays": 34,
+  "table": {
+    "columns": [
+      {
+        "key": "title",
+        "label": "Role"
+      },
+      {
+        "key": "department",
+        "label": "Department"
+      },
+      {
+        "key": "openings",
+        "label": "Openings"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      },
+      {
+        "key": "posted",
+        "label": "Posted"
+      },
+      {
+        "key": "manager",
+        "label": "Hiring manager"
+      }
+    ],
+    "rows": [
+      {
+        "title": "People partner",
+        "department": "People",
+        "openings": 1,
+        "status": "open",
+        "posted": "Aug 4, 2026",
+        "manager": "Sravani Poluru"
+      },
+      {
+        "title": "Staff engineer",
+        "department": "Engineering",
+        "openings": 2,
+        "status": "open",
+        "posted": "Jul 14, 2026",
+        "manager": "Rohan Poluru"
+      },
+      {
+        "title": "Product designer",
+        "department": "Design",
+        "openings": 1,
+        "status": "open",
+        "posted": "Aug 18, 2026",
+        "manager": "Harini Poluru"
+      },
+      {
+        "title": "Account executive",
+        "department": "Sales",
+        "openings": 2,
+        "status": "open",
+        "posted": "Jun 30, 2026",
+        "manager": "Meera Poluru"
+      },
+      {
+        "title": "Data engineer",
+        "department": "Data",
+        "openings": 1,
+        "status": "open",
+        "posted": "Aug 11, 2026",
+        "manager": "Ishaan Poluru"
+      },
+      {
+        "title": "Technical recruiter",
+        "department": "People",
+        "openings": 1,
+        "status": "open",
+        "posted": "Aug 25, 2026",
+        "manager": "Sravani Poluru"
+      }
+    ]
+  }
+}
