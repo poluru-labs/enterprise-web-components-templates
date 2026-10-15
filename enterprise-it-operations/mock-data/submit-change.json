@@ -1,0 +1,104 @@
+{
+  "ownerOptions": [
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    }
+  ],
+  "ciOptions": [
+    {
+      "label": "id-sso-prod-01",
+      "value": "id-sso-prod-01"
+    },
+    {
+      "label": "pay-api-eks",
+      "value": "pay-api-eks"
+    },
+    {
+      "label": "db-ledger-03",
+      "value": "db-ledger-03"
+    },
+    {
+      "label": "lb-edge-west",
+      "value": "lb-edge-west"
+    },
+    {
+      "label": "sto-backup-east",
+      "value": "sto-backup-east"
+    },
+    {
+      "label": "vm-citrix-12",
+      "value": "vm-citrix-12"
+    },
+    {
+      "label": "net-core-sw7",
+      "value": "net-core-sw7"
+    },
+    {
+      "label": "app-hris",
+      "value": "app-hris"
+    },
+    {
+      "label": "vpn-gw-chi",
+      "value": "vpn-gw-chi"
+    },
+    {
+      "label": "mail-exch-02",
+      "value": "mail-exch-02"
+    }
+  ],
+  "defaults": {
+    "implementer": "Priya Poluru",
+    "ci": "db-ledger-03",
+    "windowDate": "2026-09-16",
+    "startTime": "22:00",
+    "durationMinutes": 90
+  },
+  "placeholders": {
+    "title": "Expand Dallas ledger cluster"
+  }
+}

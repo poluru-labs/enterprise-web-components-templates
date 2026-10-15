@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "prod",
+      "label": "Production",
+      "children": [
+        {
+          "id": "chicago",
+          "label": "Chicago"
+        },
+        {
+          "id": "dallas",
+          "label": "Dallas"
+        },
+        {
+          "id": "phoenix",
+          "label": "Phoenix"
+        }
+      ]
+    },
+    {
+      "id": "dr",
+      "label": "DR",
+      "children": [
+        {
+          "id": "ashburn",
+          "label": "Ashburn"
+        }
+      ]
+    },
+    {
+      "id": "corp",
+      "label": "Corporate",
+      "children": [
+        {
+          "id": "austin",
+          "label": "Austin"
+        },
+        {
+          "id": "saas",
+          "label": "SaaS"
+        }
+      ]
+    }
+  ],
+  "expandedIds": {
+    "prod": true,
+    "corp": true,
+    "dr": true
+  },
+  "siteIdMap": {
+    "chicago": "Chicago",
+    "dallas": "Dallas",
+    "phoenix": "Phoenix",
+    "ashburn": "Ashburn",
+    "austin": "Austin",
+    "saas": "SaaS"
+  }
+}

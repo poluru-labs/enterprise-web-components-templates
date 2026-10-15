@@ -1,0 +1,46 @@
+{
+  "ackAlert": {
+    "title": "Ack target 5 minutes",
+    "message": "Primary must acknowledge P1 and P2 pages. Escalation to Mira Poluru at 10 minutes."
+  },
+  "listItems": [
+    {
+      "label": "Primary · Sahana Poluru",
+      "description": "Until 17 Sep 09:00 · Bridge A",
+      "icon": "user"
+    },
+    {
+      "label": "Secondary · Dev Poluru",
+      "description": "Until 17 Sep 09:00 · Bridge A",
+      "icon": "user"
+    },
+    {
+      "label": "Manager · Mira Poluru",
+      "description": "Until Week · Bridge B",
+      "icon": "user"
+    },
+    {
+      "label": "Security · Anika Poluru",
+      "description": "Until Week · SecOps",
+      "icon": "user"
+    }
+  ],
+  "bridgeMeta": [
+    {
+      "term": "Primary",
+      "description": "Sahana Poluru · Bridge A"
+    },
+    {
+      "term": "Secondary",
+      "description": "Dev Poluru · Bridge A"
+    },
+    {
+      "term": "Manager",
+      "description": "Mira Poluru · Bridge B"
+    },
+    {
+      "term": "Security",
+      "description": "Anika Poluru · SecOps"
+    }
+  ]
+}

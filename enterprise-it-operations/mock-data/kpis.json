@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "label": "Open incidents",
+      "value": "11",
+      "hint": "1 P1 · 3 P2 · 7 P3",
+      "trend": "down",
+      "trendValue": "−2 today"
+    },
+    {
+      "label": "Changes tonight",
+      "value": "3",
+      "hint": "CAB approved 2 of 3",
+      "trend": "flat",
+      "trendValue": "22:00 CT"
+    },
+    {
+      "label": "Estate health",
+      "value": "96%",
+      "hint": "5 sites · 412 CIs",
+      "trend": "up",
+      "trendValue": "+1.2 pts"
+    },
+    {
+      "label": "Service SLO",
+      "value": "99.94%",
+      "hint": "Identity still inside error budget",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    {
+      "label": "MTTR",
+      "value": "47m",
+      "hint": "Trailing 30 days",
+      "trend": "up",
+      "trendValue": "−8m"
+    },
+    {
+      "label": "Assets in CMDB",
+      "value": "412",
+      "hint": "6 registered this week",
+      "trend": "up",
+      "trendValue": "+6"
+    },
+    {
+      "label": "On-call ack",
+      "value": "2.1m",
+      "hint": "Sahana Poluru primary",
+      "trend": "up",
+      "trendValue": "−40s"
+    },
+    {
+      "label": "Maintenance",
+      "value": "1",
+      "hint": "Dallas DB 22:00–00:30",
+      "trend": "flat",
+      "trendValue": "Window"
+    }
+  ]
+}

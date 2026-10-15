@@ -1,0 +1,90 @@
+{
+  "intro": {
+    "eyebrow": "Northline Systems",
+    "title": "Run the estate from one desk.",
+    "description": "Assets, incidents, changes, site health, and service SLOs — with a named owner on every record.",
+    "status": {
+      "variant": "danger",
+      "label": "P1 SSO open",
+      "pulse": true
+    }
+  },
+  "operations": [
+    {
+      "href": "#/incidents",
+      "icon": "alert-triangle",
+      "label": "Incident queue",
+      "hint": "11 open"
+    },
+    {
+      "href": "#/incident/INC-10482",
+      "icon": "warning",
+      "label": "Major incident",
+      "hint": "INC-10482"
+    },
+    {
+      "href": "#/changes",
+      "icon": "edit",
+      "label": "Change board",
+      "hint": "3 tonight"
+    },
+    {
+      "href": "#/oncall",
+      "icon": "user",
+      "label": "On-call rota",
+      "hint": "Sahana Poluru"
+    }
+  ],
+  "estate": [
+    {
+      "href": "#/assets",
+      "icon": "folder",
+      "label": "CMDB assets",
+      "hint": "412 CIs"
+    },
+    {
+      "href": "#/health",
+      "icon": "refresh",
+      "label": "Infrastructure health",
+      "hint": "5 sites"
+    },
+    {
+      "href": "#/maintenance",
+      "icon": "clock",
+      "label": "Maintenance windows",
+      "hint": "Dallas 22:00"
+    },
+    {
+      "href": "#/asset/ci_sso",
+      "icon": "star",
+      "label": "SSO broker",
+      "hint": "Degraded"
+    }
+  ],
+  "services": [
+    {
+      "href": "#/availability",
+      "icon": "check-circle",
+      "label": "Service availability",
+      "hint": "99.94%"
+    },
+    {
+      "href": "#/services",
+      "icon": "link",
+      "label": "Service catalog",
+      "hint": "6 live"
+    },
+    {
+      "href": "#/search",
+      "icon": "search",
+      "label": "Search records",
+      "hint": "⌘K"
+    },
+    {
+      "href": "#/settings",
+      "icon": "settings",
+      "label": "Workspace",
+      "hint": "Chicago"
+    }
+  ]
+}

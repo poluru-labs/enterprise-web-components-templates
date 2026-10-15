@@ -1,0 +1,375 @@
+{
+  "records": [
+    {
+      "label": "id-sso-prod-01",
+      "description": "Corporate SSO and MFA broker · Elena Poluru",
+      "owner": "Elena Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_sso"
+    },
+    {
+      "label": "pay-api-eks",
+      "description": "Payments API on EKS · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_payapi"
+    },
+    {
+      "label": "db-ledger-03",
+      "description": "Ledger primary, expansion tonight · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_ledger"
+    },
+    {
+      "label": "lb-edge-west",
+      "description": "Public edge for west traffic · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_edge"
+    },
+    {
+      "label": "sto-backup-east",
+      "description": "Nightly backup target · Hana Poluru",
+      "owner": "Hana Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_backup"
+    },
+    {
+      "label": "vm-citrix-12",
+      "description": "VDI broker for campus · Luca Poluru",
+      "owner": "Luca Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_citrix"
+    },
+    {
+      "label": "net-core-sw7",
+      "description": "DC core fabric · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_core"
+    },
+    {
+      "label": "app-hris",
+      "description": "HRIS tenant · Sahana Poluru",
+      "owner": "Sahana Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_hris"
+    },
+    {
+      "label": "vpn-gw-chi",
+      "description": "Remote access concentrator · Anika Poluru",
+      "owner": "Anika Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_vpn"
+    },
+    {
+      "label": "mail-exch-02",
+      "description": "Hybrid mail connector · Luca Poluru",
+      "owner": "Luca Poluru",
+      "type": "Asset",
+      "href": "#/asset/ci_mail"
+    },
+    {
+      "label": "INC-10482",
+      "description": "SSO broker timeouts on id-sso-prod-01 · P1",
+      "owner": "Arjun Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10482"
+    },
+    {
+      "label": "INC-10479",
+      "description": "Payments API p95 above 800ms · P2",
+      "owner": "Dev Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10479"
+    },
+    {
+      "label": "INC-10471",
+      "description": "Citrix session drops on campus · P3",
+      "owner": "Luca Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10471"
+    },
+    {
+      "label": "INC-10468",
+      "description": "Backup job missed RPO on east vault · P2",
+      "owner": "Hana Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10468"
+    },
+    {
+      "label": "INC-10462",
+      "description": "VPN portal certificate warning · P3",
+      "owner": "Anika Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10462"
+    },
+    {
+      "label": "INC-10458",
+      "description": "Dallas core link flap · P2",
+      "owner": "Rohan Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10458"
+    },
+    {
+      "label": "INC-10451",
+      "description": "HRIS SSO mapping failed for new hires · P3",
+      "owner": "Sahana Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10451"
+    },
+    {
+      "label": "INC-10444",
+      "description": "Mail connector retry backlog · P4",
+      "owner": "Luca Poluru",
+      "type": "Incident",
+      "href": "#/incident/INC-10444"
+    },
+    {
+      "label": "CHG-2201",
+      "description": "Expand Dallas ledger cluster · Approved",
+      "owner": "Priya Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2201"
+    },
+    {
+      "label": "CHG-2198",
+      "description": "Rotate west edge certificates · Scheduled",
+      "owner": "Rohan Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2198"
+    },
+    {
+      "label": "CHG-2194",
+      "description": "Patch EKS node group · In window",
+      "owner": "Dev Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2194"
+    },
+    {
+      "label": "CHG-2188",
+      "description": "Raise ONTAP volume on east vault · Draft",
+      "owner": "Hana Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2188"
+    },
+    {
+      "label": "CHG-2181",
+      "description": "Citrix image 2409 rollout · Closed",
+      "owner": "Luca Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2181"
+    },
+    {
+      "label": "CHG-2176",
+      "description": "VPN portal certificate reissue · Closed",
+      "owner": "Anika Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2176"
+    },
+    {
+      "label": "CHG-2170",
+      "description": "Core switch firmware NX-OS 10.4 · Watch",
+      "owner": "Rohan Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2170"
+    },
+    {
+      "label": "CHG-2164",
+      "description": "HRIS claim mapping for department · Approved",
+      "owner": "Sahana Poluru",
+      "type": "Change",
+      "href": "#/change/CHG-2164"
+    },
+    {
+      "label": "Identity / SSO",
+      "description": "99.95% vs 99.95% SLO",
+      "owner": "Elena Poluru",
+      "type": "Service",
+      "href": "#/availability"
+    },
+    {
+      "label": "Payments API",
+      "description": "99.92% vs 99.9% SLO",
+      "owner": "Dev Poluru",
+      "type": "Service",
+      "href": "#/availability"
+    },
+    {
+      "label": "Corporate email",
+      "description": "99.99% vs 99.9% SLO",
+      "owner": "Luca Poluru",
+      "type": "Service",
+      "href": "#/availability"
+    },
+    {
+      "label": "Remote access",
+      "description": "99.97% vs 99.8% SLO",
+      "owner": "Anika Poluru",
+      "type": "Service",
+      "href": "#/availability"
+    },
+    {
+      "label": "HRIS",
+      "description": "99.9% vs 99.5% SLO",
+      "owner": "Sahana Poluru",
+      "type": "Service",
+      "href": "#/availability"
+    },
+    {
+      "label": "Campus VDI",
+      "description": "99.4% vs 99.5% SLO",
+      "owner": "Luca Poluru",
+      "type": "Service",
+      "href": "#/availability"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "Operations manager · Command",
+      "owner": "Mira Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Incident commander · Incidents",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Change manager · CAB",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Infrastructure lead · Estate",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Identity owner · Services",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Network lead · Estate",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Database lead · Estate",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Cloud lead · Estate",
+      "owner": "Hana Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "Endpoint lead · Workplace",
+      "owner": "Luca Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "Primary on-call · SRE",
+      "owner": "Sahana Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Platform SRE · SRE",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "Security ops · Security",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/oncall"
+    },
+    {
+      "label": "Overview",
+      "description": "Operations pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Incidents",
+      "description": "Open queue",
+      "href": "#/incidents",
+      "icon": "alert-triangle",
+      "type": "Jump"
+    },
+    {
+      "label": "P1 SSO",
+      "description": "INC-10482",
+      "href": "#/incident/INC-10482",
+      "icon": "alert-triangle",
+      "type": "Jump"
+    },
+    {
+      "label": "Assets",
+      "description": "CMDB",
+      "href": "#/assets",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Changes",
+      "description": "CAB board",
+      "href": "#/changes",
+      "icon": "edit",
+      "type": "Jump"
+    },
+    {
+      "label": "Health",
+      "description": "Five sites",
+      "href": "#/health",
+      "icon": "refresh",
+      "type": "Jump"
+    },
+    {
+      "label": "Availability",
+      "description": "Service SLOs",
+      "href": "#/availability",
+      "icon": "check-circle",
+      "type": "Jump"
+    },
+    {
+      "label": "On-call",
+      "description": "Sahana Poluru",
+      "href": "#/oncall",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

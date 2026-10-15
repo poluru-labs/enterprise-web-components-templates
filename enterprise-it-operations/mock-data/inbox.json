@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "label": "P1 SSO still open",
+      "description": "Arjun Poluru · 38m SLA left",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "CAB lock at 16:00",
+      "description": "Kavya Poluru · 3 changes tonight",
+      "icon": "clock"
+    },
+    {
+      "label": "Backup volume 94% full",
+      "description": "Hana Poluru · Ashburn",
+      "icon": "warning"
+    },
+    {
+      "label": "Sahana Poluru on call",
+      "description": "Ack 2.1m · secondary Dev Poluru",
+      "icon": "bell"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "ownerOptions": [
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    }
+  ],
+  "siteOptions": [
+    {
+      "label": "Chicago",
+      "value": "chicago"
+    },
+    {
+      "label": "Dallas",
+      "value": "dallas"
+    },
+    {
+      "label": "Phoenix",
+      "value": "phoenix"
+    },
+    {
+      "label": "Ashburn",
+      "value": "ashburn"
+    },
+    {
+      "label": "Austin",
+      "value": "austin"
+    }
+  ],
+  "defaults": {
+    "owner": "Mira Poluru",
+    "site": "chicago"
+  },
+  "placeholders": {
+    "ciName": "id-sso-prod-03"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Identity",
+      "value": "99.95%",
+      "delta": "SLO hold",
+      "trend": "flat",
+      "href": "#/availability"
+    },
+    {
+      "label": "Open P1",
+      "value": "1",
+      "delta": "SSO",
+      "trend": "down",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Changes",
+      "value": "3",
+      "delta": "Tonight",
+      "trend": "flat",
+      "href": "#/changes"
+    },
+    {
+      "label": "Chicago",
+      "value": "98%",
+      "delta": "Healthy",
+      "trend": "up",
+      "href": "#/health"
+    },
+    {
+      "label": "Assets",
+      "value": "412",
+      "delta": "+6",
+      "trend": "up",
+      "href": "#/assets"
+    },
+    {
+      "label": "On call",
+      "value": "Sahana",
+      "delta": "Primary",
+      "trend": "flat",
+      "href": "#/oncall"
+    }
+  ]
+}

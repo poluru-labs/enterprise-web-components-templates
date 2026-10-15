@@ -1,0 +1,4 @@
+{
+  "language": "json",
+  "code": "GET /v1/cmdb/ci_sso\nAuthorization: Bearer ts_live_****\n\n{\n  \"id\": \"ci_sso\",\n  \"name\": \"id-sso-prod-01\",\n  \"health\": 72,\n  \"owner\": \"Elena Poluru\"\n}"
+}

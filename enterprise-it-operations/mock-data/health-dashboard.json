@@ -1,0 +1,34 @@
+{
+  "siteKpis": [
+    {
+      "label": "Chicago DC",
+      "value": "98%",
+      "hint": "Nikhil Poluru",
+      "trend": "up",
+      "trendValue": "Healthy"
+    },
+    {
+      "label": "Dallas DC",
+      "value": "94%",
+      "hint": "Priya Poluru",
+      "trend": "down",
+      "trendValue": "Watch"
+    },
+    {
+      "label": "Phoenix edge",
+      "value": "91%",
+      "hint": "Rohan Poluru",
+      "trend": "down",
+      "trendValue": "Watch"
+    },
+    {
+      "label": "Ashburn DR",
+      "value": "99%",
+      "hint": "Hana Poluru",
+      "trend": "up",
+      "trendValue": "Healthy"
+    }
+  ],
+  "lastPoll": "14:38 CT",
+  "pollNote": "Last poll 14:41 CT after manual poll"
+}

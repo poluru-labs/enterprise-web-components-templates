@@ -1,0 +1,180 @@
+{
+  "assets": {
+    "site": [
+      {
+        "label": "All sites",
+        "value": "All sites"
+      },
+      {
+        "label": "Chicago",
+        "value": "Chicago"
+      },
+      {
+        "label": "Dallas",
+        "value": "Dallas"
+      },
+      {
+        "label": "Phoenix",
+        "value": "Phoenix"
+      },
+      {
+        "label": "Ashburn",
+        "value": "Ashburn"
+      },
+      {
+        "label": "Austin",
+        "value": "Austin"
+      },
+      {
+        "label": "SaaS",
+        "value": "SaaS"
+      }
+    ],
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "All statuses"
+      },
+      {
+        "label": "Degraded",
+        "value": "Degraded"
+      },
+      {
+        "label": "Healthy",
+        "value": "Healthy"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Maintenance"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      }
+    ],
+    "view": [
+      {
+        "label": "Table",
+        "value": "table",
+        "icon": "file"
+      },
+      {
+        "label": "Cards",
+        "value": "cards",
+        "icon": "folder"
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "pageSize": 8
+    },
+    "cabAlert": {
+      "title": "CAB freeze at 16:00",
+      "message": "Kavya Poluru locks production changes at 16:00 CT. Register new CIs before then."
+    }
+  },
+  "incidents": {
+    "severity": [
+      {
+        "label": "All severities",
+        "value": "All severities"
+      },
+      {
+        "label": "P1",
+        "value": "P1"
+      },
+      {
+        "label": "P2",
+        "value": "P2"
+      },
+      {
+        "label": "P3",
+        "value": "P3"
+      },
+      {
+        "label": "P4",
+        "value": "P4"
+      }
+    ],
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "All statuses"
+      },
+      {
+        "label": "Investigating",
+        "value": "Investigating"
+      },
+      {
+        "label": "Mitigated",
+        "value": "Mitigated"
+      },
+      {
+        "label": "Open",
+        "value": "Open"
+      },
+      {
+        "label": "Resolved",
+        "value": "Resolved"
+      }
+    ],
+    "majorAlert": {
+      "title": "Major incident open",
+      "message": "INC-10482 · Identity SSO. Arjun Poluru commanding. Sahana Poluru is primary on-call."
+    }
+  },
+  "changes": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "All statuses"
+      },
+      {
+        "label": "Approved",
+        "value": "Approved"
+      },
+      {
+        "label": "Scheduled",
+        "value": "Scheduled"
+      },
+      {
+        "label": "In window",
+        "value": "In window"
+      },
+      {
+        "label": "Draft",
+        "value": "Draft"
+      },
+      {
+        "label": "Closed",
+        "value": "Closed"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      }
+    ],
+    "risk": [
+      {
+        "label": "All risk",
+        "value": "All risk"
+      },
+      {
+        "label": "Medium",
+        "value": "Medium"
+      },
+      {
+        "label": "Low",
+        "value": "Low"
+      },
+      {
+        "label": "High",
+        "value": "High"
+      }
+    ],
+    "tonightAlert": {
+      "title": "Three windows tonight",
+      "message": "CHG-2201 Dallas ledger, CHG-2198 west edge certs, and a carry-over on EKS nodes. Kavya Poluru locks CAB at 16:00."
+    }
+  }
+}

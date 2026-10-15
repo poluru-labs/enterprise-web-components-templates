@@ -1,0 +1,132 @@
+{
+  "rows": [
+    {
+      "id": "INC-10482",
+      "title": "SSO broker timeouts on id-sso-prod-01",
+      "owner": "Arjun Poluru",
+      "service": "Identity",
+      "ci": "id-sso-prod-01",
+      "severity": "P1",
+      "status": "Investigating",
+      "since": "16 Sep 08:12",
+      "sla": "38m left",
+      "note": "MFA round-trip above 4s. Elena Poluru on the call."
+    },
+    {
+      "id": "INC-10479",
+      "title": "Payments API p95 above 800ms",
+      "owner": "Dev Poluru",
+      "service": "Payments",
+      "ci": "pay-api-eks",
+      "severity": "P2",
+      "status": "Mitigated",
+      "since": "15 Sep 21:40",
+      "sla": "Hold",
+      "note": "Rolled a replica set. Watching error budget."
+    },
+    {
+      "id": "INC-10471",
+      "title": "Citrix session drops on campus",
+      "owner": "Luca Poluru",
+      "service": "Workplace",
+      "ci": "vm-citrix-12",
+      "severity": "P3",
+      "status": "Open",
+      "since": "15 Sep 14:05",
+      "sla": "6h left",
+      "note": "Broker CPU spiked after the image refresh."
+    },
+    {
+      "id": "INC-10468",
+      "title": "Backup job missed RPO on east vault",
+      "owner": "Hana Poluru",
+      "service": "Backup",
+      "ci": "sto-backup-east",
+      "severity": "P2",
+      "status": "Open",
+      "since": "16 Sep 02:10",
+      "sla": "2h left",
+      "note": "ONTAP volume full at 94%. Expansion in CHG-2201."
+    },
+    {
+      "id": "INC-10462",
+      "title": "VPN portal certificate warning",
+      "owner": "Anika Poluru",
+      "service": "Remote access",
+      "ci": "vpn-gw-chi",
+      "severity": "P3",
+      "status": "Resolved",
+      "since": "14 Sep 11:20",
+      "sla": "Met",
+      "note": "Reissued the portal cert. Closed after 41 minutes."
+    },
+    {
+      "id": "INC-10458",
+      "title": "Dallas core link flap",
+      "owner": "Rohan Poluru",
+      "service": "Network",
+      "ci": "net-core-sw7",
+      "severity": "P2",
+      "status": "Mitigated",
+      "since": "13 Sep 19:04",
+      "sla": "Hold",
+      "note": "Provider ticket still open. Traffic on the secondary."
+    },
+    {
+      "id": "INC-10451",
+      "title": "HRIS SSO mapping failed for new hires",
+      "owner": "Sahana Poluru",
+      "service": "HRIS",
+      "ci": "app-hris",
+      "severity": "P3",
+      "status": "Open",
+      "since": "15 Sep 09:30",
+      "sla": "1d left",
+      "note": "Group claim missing department. Vendor case 88321."
+    },
+    {
+      "id": "INC-10444",
+      "title": "Mail connector retry backlog",
+      "owner": "Luca Poluru",
+      "service": "Email",
+      "ci": "mail-exch-02",
+      "severity": "P4",
+      "status": "Resolved",
+      "since": "12 Sep 16:12",
+      "sla": "Met",
+      "note": "Queue drained after the hybrid connector restart."
+    }
+  ],
+  "columns": [
+    {
+      "key": "id",
+      "label": "ID",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Incident",
+      "sortable": true
+    },
+    {
+      "key": "severity",
+      "label": "Sev"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "since",
+      "label": "Opened"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    }
+  ]
+}

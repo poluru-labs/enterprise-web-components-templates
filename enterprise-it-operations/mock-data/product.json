@@ -1,0 +1,17 @@
+{
+  "productName": "TechStar",
+  "productLine": "IT Operations",
+  "workspaceName": "Northline Systems",
+  "brandColor": "#88BDA4",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@northline.example",
+    "role": "Operations manager"
+  },
+  "workspace": {
+    "name": "Northline Systems",
+    "period": "Week of 16 Sep 2026",
+    "timezone": "America / Chicago",
+    "freeze": "CAB lock 16 Sep 16:00"
+  }
+}

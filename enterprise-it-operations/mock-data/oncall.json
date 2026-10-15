@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "seat": "Primary",
+      "name": "Sahana Poluru",
+      "until": "17 Sep 09:00",
+      "phone": "Bridge A"
+    },
+    {
+      "seat": "Secondary",
+      "name": "Dev Poluru",
+      "until": "17 Sep 09:00",
+      "phone": "Bridge A"
+    },
+    {
+      "seat": "Manager",
+      "name": "Mira Poluru",
+      "until": "Week",
+      "phone": "Bridge B"
+    },
+    {
+      "seat": "Security",
+      "name": "Anika Poluru",
+      "until": "Week",
+      "phone": "SecOps"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Operations pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Incidents",
+      "description": "Open queue",
+      "href": "#/incidents",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "P1 SSO",
+      "description": "INC-10482",
+      "href": "#/incident/INC-10482",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Assets",
+      "description": "CMDB",
+      "href": "#/assets",
+      "icon": "folder"
+    },
+    {
+      "label": "Changes",
+      "description": "CAB board",
+      "href": "#/changes",
+      "icon": "edit"
+    },
+    {
+      "label": "Health",
+      "description": "Five sites",
+      "href": "#/health",
+      "icon": "refresh"
+    },
+    {
+      "label": "Availability",
+      "description": "Service SLOs",
+      "href": "#/availability",
+      "icon": "check-circle"
+    },
+    {
+      "label": "On-call",
+      "description": "Sahana Poluru",
+      "href": "#/oncall",
+      "icon": "user"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

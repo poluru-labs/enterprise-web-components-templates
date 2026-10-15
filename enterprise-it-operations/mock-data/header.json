@@ -1,0 +1,27 @@
+{
+  "searchPlaceholder": "Find an incident, CI, or change",
+  "commandModalHeading": "Jump to",
+  "inboxCount": 4,
+  "primaryAction": {
+    "label": "Raise incident",
+    "id": "header-raise"
+  },
+  "profileMenu": [
+    {
+      "label": "Inbox",
+      "value": "inbox",
+      "icon": "bell"
+    },
+    {
+      "label": "Settings",
+      "value": "settings",
+      "icon": "settings"
+    },
+    {
+      "label": "Sign out",
+      "value": "signout",
+      "icon": "external-link",
+      "danger": true
+    }
+  ]
+}

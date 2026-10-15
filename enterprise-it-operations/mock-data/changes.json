@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "id": "CHG-2201",
+      "title": "Expand Dallas ledger cluster",
+      "owner": "Priya Poluru",
+      "ci": "db-ledger-03",
+      "type": "Normal",
+      "status": "Approved",
+      "window": "16 Sep 22:00–00:30",
+      "risk": "Medium",
+      "cab": "Kavya Poluru"
+    },
+    {
+      "id": "CHG-2198",
+      "title": "Rotate west edge certificates",
+      "owner": "Rohan Poluru",
+      "ci": "lb-edge-west",
+      "type": "Standard",
+      "status": "Scheduled",
+      "window": "16 Sep 23:00–23:40",
+      "risk": "Low",
+      "cab": "Auto"
+    },
+    {
+      "id": "CHG-2194",
+      "title": "Patch EKS node group",
+      "owner": "Dev Poluru",
+      "ci": "pay-api-eks",
+      "type": "Normal",
+      "status": "In window",
+      "window": "15 Sep 22:00–01:00",
+      "risk": "Medium",
+      "cab": "Kavya Poluru"
+    },
+    {
+      "id": "CHG-2188",
+      "title": "Raise ONTAP volume on east vault",
+      "owner": "Hana Poluru",
+      "ci": "sto-backup-east",
+      "type": "Normal",
+      "status": "Draft",
+      "window": "17 Sep 02:00–03:00",
+      "risk": "Low",
+      "cab": "Pending"
+    },
+    {
+      "id": "CHG-2181",
+      "title": "Citrix image 2409 rollout",
+      "owner": "Luca Poluru",
+      "ci": "vm-citrix-12",
+      "type": "Normal",
+      "status": "Closed",
+      "window": "12 Sep 20:00–23:00",
+      "risk": "Medium",
+      "cab": "Kavya Poluru"
+    },
+    {
+      "id": "CHG-2176",
+      "title": "VPN portal certificate reissue",
+      "owner": "Anika Poluru",
+      "ci": "vpn-gw-chi",
+      "type": "Standard",
+      "status": "Closed",
+      "window": "14 Sep 11:00–11:30",
+      "risk": "Low",
+      "cab": "Auto"
+    },
+    {
+      "id": "CHG-2170",
+      "title": "Core switch firmware NX-OS 10.4",
+      "owner": "Rohan Poluru",
+      "ci": "net-core-sw7",
+      "type": "Normal",
+      "status": "Watch",
+      "window": "20 Sep 01:00–03:00",
+      "risk": "High",
+      "cab": "Kavya Poluru"
+    },
+    {
+      "id": "CHG-2164",
+      "title": "HRIS claim mapping for department",
+      "owner": "Sahana Poluru",
+      "ci": "app-hris",
+      "type": "Standard",
+      "status": "Approved",
+      "window": "17 Sep 10:00–10:30",
+      "risk": "Low",
+      "cab": "Elena Poluru"
+    }
+  ],
+  "columns": [
+    {
+      "key": "id",
+      "label": "ID",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Change",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "window",
+      "label": "Window"
+    },
+    {
+      "key": "risk",
+      "label": "Risk"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "siteOptions": [
+    {
+      "label": "Chicago",
+      "value": "chicago"
+    },
+    {
+      "label": "Dallas",
+      "value": "dallas"
+    },
+    {
+      "label": "Phoenix",
+      "value": "phoenix"
+    },
+    {
+      "label": "Ashburn",
+      "value": "ashburn"
+    },
+    {
+      "label": "Austin",
+      "value": "austin"
+    }
+  ],
+  "defaults": {
+    "site": "dallas",
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-17",
+    "notifyOwners": true
+  },
+  "placeholders": {
+    "title": "Dallas ledger expansion"
+  }
+}

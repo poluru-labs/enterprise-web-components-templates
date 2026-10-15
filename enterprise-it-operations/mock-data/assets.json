@@ -1,0 +1,187 @@
+{
+  "rows": [
+    {
+      "id": "ci_sso",
+      "name": "id-sso-prod-01",
+      "type": "Server",
+      "class": "Application",
+      "site": "Chicago",
+      "env": "Production",
+      "owner": "Elena Poluru",
+      "status": "Degraded",
+      "health": 72,
+      "updated": "16 Sep 2026",
+      "purpose": "Corporate SSO and MFA broker",
+      "ip": "10.12.4.21",
+      "os": "RHEL 9.4"
+    },
+    {
+      "id": "ci_payapi",
+      "name": "pay-api-eks",
+      "type": "Cluster",
+      "class": "Platform",
+      "site": "Chicago",
+      "env": "Production",
+      "owner": "Dev Poluru",
+      "status": "Healthy",
+      "health": 96,
+      "updated": "16 Sep 2026",
+      "purpose": "Payments API on EKS",
+      "ip": "10.18.2.0/24",
+      "os": "Bottlerocket"
+    },
+    {
+      "id": "ci_ledger",
+      "name": "db-ledger-03",
+      "type": "Database",
+      "class": "Data",
+      "site": "Dallas",
+      "env": "Production",
+      "owner": "Priya Poluru",
+      "status": "Maintenance",
+      "health": 88,
+      "updated": "16 Sep 2026",
+      "purpose": "Ledger primary, expansion tonight",
+      "ip": "10.40.8.13",
+      "os": "PostgreSQL 16"
+    },
+    {
+      "id": "ci_edge",
+      "name": "lb-edge-west",
+      "type": "Load balancer",
+      "class": "Network",
+      "site": "Phoenix",
+      "env": "Production",
+      "owner": "Rohan Poluru",
+      "status": "Healthy",
+      "health": 94,
+      "updated": "15 Sep 2026",
+      "purpose": "Public edge for west traffic",
+      "ip": "10.55.1.8",
+      "os": "F5 TMOS"
+    },
+    {
+      "id": "ci_backup",
+      "name": "sto-backup-east",
+      "type": "Storage",
+      "class": "Data",
+      "site": "Ashburn",
+      "env": "DR",
+      "owner": "Hana Poluru",
+      "status": "Watch",
+      "health": 81,
+      "updated": "16 Sep 2026",
+      "purpose": "Nightly backup target",
+      "ip": "10.80.3.40",
+      "os": "NetApp ONTAP"
+    },
+    {
+      "id": "ci_citrix",
+      "name": "vm-citrix-12",
+      "type": "Virtual machine",
+      "class": "Workplace",
+      "site": "Austin",
+      "env": "Corporate",
+      "owner": "Luca Poluru",
+      "status": "Healthy",
+      "health": 90,
+      "updated": "15 Sep 2026",
+      "purpose": "VDI broker for campus",
+      "ip": "10.22.9.12",
+      "os": "Windows Server 2022"
+    },
+    {
+      "id": "ci_core",
+      "name": "net-core-sw7",
+      "type": "Switch",
+      "class": "Network",
+      "site": "Chicago",
+      "env": "Production",
+      "owner": "Rohan Poluru",
+      "status": "Healthy",
+      "health": 97,
+      "updated": "14 Sep 2026",
+      "purpose": "DC core fabric",
+      "ip": "10.12.0.7",
+      "os": "NX-OS"
+    },
+    {
+      "id": "ci_hris",
+      "name": "app-hris",
+      "type": "SaaS",
+      "class": "Application",
+      "site": "SaaS",
+      "env": "Production",
+      "owner": "Sahana Poluru",
+      "status": "Healthy",
+      "health": 93,
+      "updated": "16 Sep 2026",
+      "purpose": "HRIS tenant",
+      "ip": "saas",
+      "os": "Workday"
+    },
+    {
+      "id": "ci_vpn",
+      "name": "vpn-gw-chi",
+      "type": "Gateway",
+      "class": "Network",
+      "site": "Chicago",
+      "env": "Production",
+      "owner": "Anika Poluru",
+      "status": "Healthy",
+      "health": 95,
+      "updated": "16 Sep 2026",
+      "purpose": "Remote access concentrator",
+      "ip": "10.12.1.4",
+      "os": "PAN-OS"
+    },
+    {
+      "id": "ci_mail",
+      "name": "mail-exch-02",
+      "type": "Server",
+      "class": "Application",
+      "site": "Dallas",
+      "env": "Production",
+      "owner": "Luca Poluru",
+      "status": "Healthy",
+      "health": 98,
+      "updated": "15 Sep 2026",
+      "purpose": "Hybrid mail connector",
+      "ip": "10.40.2.22",
+      "os": "Exchange SE"
+    }
+  ],
+  "columns": [
+    {
+      "key": "name",
+      "label": "CI",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "site",
+      "label": "Site",
+      "sortable": true
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "health",
+      "label": "Health"
+    },
+    {
+      "key": "updated",
+      "label": "Updated"
+    }
+  ]
+}

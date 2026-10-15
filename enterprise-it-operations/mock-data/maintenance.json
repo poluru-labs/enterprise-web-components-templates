@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "id": "mw1",
+      "title": "Dallas ledger expansion",
+      "owner": "Priya Poluru",
+      "window": "16 Sep 22:00–00:30",
+      "site": "Dallas",
+      "status": "Tonight",
+      "impact": "Payments writes queued 8 minutes"
+    },
+    {
+      "id": "mw2",
+      "title": "West edge cert rotate",
+      "owner": "Rohan Poluru",
+      "window": "16 Sep 23:00–23:40",
+      "site": "Phoenix",
+      "status": "Tonight",
+      "impact": "Brief TLS renegotiation"
+    },
+    {
+      "id": "mw3",
+      "title": "HRIS claim mapping",
+      "owner": "Sahana Poluru",
+      "window": "17 Sep 10:00–10:30",
+      "site": "SaaS",
+      "status": "Next",
+      "impact": "New-hire SSO only"
+    },
+    {
+      "id": "mw4",
+      "title": "Core firmware 10.4",
+      "owner": "Rohan Poluru",
+      "window": "20 Sep 01:00–03:00",
+      "site": "Chicago",
+      "status": "Scheduled",
+      "impact": "Single core switch reload"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "rows": [
+    {
+      "title": "Detected",
+      "description": "Synthetic probe failed 3 times",
+      "timestamp": "08:12",
+      "status": "complete"
+    },
+    {
+      "title": "Acked",
+      "description": "Sahana Poluru acknowledged in 1m 40s",
+      "timestamp": "08:14",
+      "status": "complete"
+    },
+    {
+      "title": "Bridge",
+      "description": "Arjun Poluru opened the P1 bridge",
+      "timestamp": "08:18",
+      "status": "complete"
+    },
+    {
+      "title": "Mitigate",
+      "description": "Fail SSO reads to id-sso-prod-02",
+      "timestamp": "08:41",
+      "status": "current"
+    },
+    {
+      "title": "Resolve",
+      "description": "Root cause and close",
+      "timestamp": "—",
+      "status": "upcoming"
+    }
+  ],
+  "note": "Demo timeline shown on incident detail pages in the template."
+}

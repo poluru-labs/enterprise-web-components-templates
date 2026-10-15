@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Assets",
+      "href": "#/assets",
+      "icon": "folder"
+    },
+    {
+      "label": "Incidents",
+      "href": "#/incidents",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Changes",
+      "href": "#/changes",
+      "icon": "edit"
+    },
+    {
+      "label": "Health",
+      "href": "#/health",
+      "icon": "refresh"
+    },
+    {
+      "label": "Availability",
+      "href": "#/availability",
+      "icon": "check-circle"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

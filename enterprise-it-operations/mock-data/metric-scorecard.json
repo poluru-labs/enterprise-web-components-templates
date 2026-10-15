@@ -1,0 +1,55 @@
+{
+  "columns": [
+    {
+      "key": "metric",
+      "label": "Metric",
+      "sortable": true
+    },
+    {
+      "key": "actual",
+      "label": "Actual"
+    },
+    {
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "key": "variance",
+      "label": "Variance"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "metric": "Incident SLA met",
+      "actual": "94%",
+      "target": "95%",
+      "variance": "−1 pt",
+      "status": "Watch"
+    },
+    {
+      "metric": "Change success",
+      "actual": "98%",
+      "target": "97%",
+      "variance": "+1 pt",
+      "status": "On track"
+    },
+    {
+      "metric": "Backup RPO",
+      "actual": "18h",
+      "target": "24h",
+      "variance": "−6h",
+      "status": "On track"
+    },
+    {
+      "metric": "Asset coverage",
+      "actual": "99%",
+      "target": "98%",
+      "variance": "+1 pt",
+      "status": "On track"
+    }
+  ]
+}

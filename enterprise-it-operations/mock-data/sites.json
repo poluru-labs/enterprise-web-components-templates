@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "id": "chi",
+      "name": "Chicago DC",
+      "owner": "Nikhil Poluru",
+      "health": 98,
+      "cpu": 61,
+      "mem": 70,
+      "disk": 54,
+      "net": 22,
+      "status": "Healthy"
+    },
+    {
+      "id": "dal",
+      "name": "Dallas DC",
+      "owner": "Priya Poluru",
+      "health": 94,
+      "cpu": 74,
+      "mem": 81,
+      "disk": 88,
+      "net": 31,
+      "status": "Watch"
+    },
+    {
+      "id": "phx",
+      "name": "Phoenix edge",
+      "owner": "Rohan Poluru",
+      "health": 91,
+      "cpu": 48,
+      "mem": 55,
+      "disk": 41,
+      "net": 64,
+      "status": "Watch"
+    },
+    {
+      "id": "ash",
+      "name": "Ashburn DR",
+      "owner": "Hana Poluru",
+      "health": 99,
+      "cpu": 22,
+      "mem": 28,
+      "disk": 67,
+      "net": 12,
+      "status": "Healthy"
+    },
+    {
+      "id": "aus",
+      "name": "Austin campus",
+      "owner": "Luca Poluru",
+      "health": 96,
+      "cpu": 39,
+      "mem": 44,
+      "disk": 36,
+      "net": 18,
+      "status": "Healthy"
+    }
+  ]
+}

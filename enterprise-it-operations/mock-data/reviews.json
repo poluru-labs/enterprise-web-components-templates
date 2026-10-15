@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "label": "P1 bridge",
+      "description": "Arjun Poluru · SSO timeouts",
+      "timestamp": "16 Sep",
+      "icon": "alert-triangle",
+      "status": "Today"
+    },
+    {
+      "label": "CAB lock",
+      "description": "Kavya Poluru · 16:00 freeze",
+      "timestamp": "16 Sep",
+      "icon": "lock",
+      "status": "Today"
+    },
+    {
+      "label": "Dallas expansion",
+      "description": "Priya Poluru · CHG-2201",
+      "timestamp": "16 Sep",
+      "icon": "clock",
+      "status": "Next"
+    },
+    {
+      "label": "Weekly ops review",
+      "description": "Mira Poluru · estate 96%",
+      "timestamp": "15 Sep",
+      "icon": "check",
+      "status": "Done"
+    },
+    {
+      "label": "Backup RPO check",
+      "description": "Hana Poluru · east vault",
+      "timestamp": "14 Sep",
+      "icon": "folder",
+      "status": "Done"
+    }
+  ]
+}

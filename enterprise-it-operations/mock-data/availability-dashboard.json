@@ -1,0 +1,36 @@
+{
+  "sloKpis": [
+    {
+      "label": "Composite SLO",
+      "value": "99.94%",
+      "hint": "Six published services",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    {
+      "label": "Error budget",
+      "value": "72%",
+      "hint": "Identity remaining",
+      "trend": "down",
+      "trendValue": "−6 pts"
+    },
+    {
+      "label": "In service",
+      "value": "5 / 6",
+      "hint": "VDI on watch",
+      "trend": "flat",
+      "trendValue": "Watch"
+    },
+    {
+      "label": "Status page",
+      "value": "1",
+      "hint": "Identity degraded",
+      "trend": "down",
+      "trendValue": "P1"
+    }
+  ],
+  "identityErrorBudget": {
+    "percent": 72,
+    "note": "Elena Poluru owns Identity. The P1 on id-sso-prod-01 is burning budget this window."
+  }
+}
