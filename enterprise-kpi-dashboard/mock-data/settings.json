@@ -1,0 +1,29 @@
+{
+  "workspaceFields": {
+    "name": "Clearline Holdings",
+    "timezone": "America / Chicago"
+  },
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas",
+  "amberBandPercent": 8,
+  "switches": {
+    "startFullWidth": true,
+    "fridayReviewReminder": true
+  },
+  "densityDefault": "comfortable",
+  "staffPinLength": 4,
+  "commandPaletteKbd": "⌘K"
+}

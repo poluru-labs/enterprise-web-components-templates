@@ -1,0 +1,290 @@
+{
+  "opsAlert": {
+    "variant": "warning",
+    "title": "Operations is red",
+    "message": "Fulfillment SLA is 95.4% against a 98% target. Rohan Poluru opened a hub recovery plan for next week."
+  },
+  "periodControl": {
+    "options": [
+      {
+        "label": "Week",
+        "value": "week"
+      },
+      {
+        "label": "Q3",
+        "value": "q3"
+      },
+      {
+        "label": "FY26",
+        "value": "fy"
+      }
+    ],
+    "defaultValue": "q3"
+  },
+  "planAttainment": {
+    "percent": 96,
+    "statusLabel": "Ahead",
+    "progressLabel": "$18.4M of $19.2M",
+    "note": "Nine days left in the quarter. Cash conversion is the watch."
+  },
+  "scorecardPreview": [
+    {
+      "id": "sc_finance",
+      "name": "Finance",
+      "owner": "Arjun Poluru",
+      "status": "On track",
+      "health": 92,
+      "kpis": 8,
+      "updated": "29 Aug 2026",
+      "focus": "Margin and cash"
+    },
+    {
+      "id": "sc_growth",
+      "name": "Growth",
+      "owner": "Kavya Poluru",
+      "status": "On track",
+      "health": 88,
+      "kpis": 10,
+      "updated": "28 Aug 2026",
+      "focus": "Pipeline and NRR"
+    },
+    {
+      "id": "sc_product",
+      "name": "Product",
+      "owner": "Nikhil Poluru",
+      "status": "Watch",
+      "health": 74,
+      "kpis": 7,
+      "updated": "28 Aug 2026",
+      "focus": "Adoption of 1.8"
+    },
+    {
+      "id": "sc_people",
+      "name": "People",
+      "owner": "Elena Poluru",
+      "status": "On track",
+      "health": 86,
+      "kpis": 6,
+      "updated": "27 Aug 2026",
+      "focus": "Attrition under 8%"
+    },
+    {
+      "id": "sc_ops",
+      "name": "Operations",
+      "owner": "Rohan Poluru",
+      "status": "At risk",
+      "health": 61,
+      "kpis": 9,
+      "updated": "29 Aug 2026",
+      "focus": "Fulfillment SLA"
+    },
+    {
+      "id": "sc_customer",
+      "name": "Customer",
+      "owner": "Priya Poluru",
+      "status": "On track",
+      "health": 90,
+      "kpis": 8,
+      "updated": "29 Aug 2026",
+      "focus": "NPS and CSAT"
+    }
+  ],
+  "watchList": [
+    {
+      "label": "Fulfillment SLA",
+      "description": "Rohan Poluru · Operations",
+      "icon": "alert-triangle",
+      "href": "#/alerts"
+    },
+    {
+      "label": "1.8 adoption",
+      "description": "Nikhil Poluru · Product",
+      "icon": "eye",
+      "href": "#/scorecard/sc_product"
+    },
+    {
+      "label": "Board pack",
+      "description": "Mira Poluru · Thursday",
+      "icon": "file",
+      "href": "#/reviews"
+    },
+    {
+      "label": "SOC 2 evidence",
+      "description": "Anika Poluru · Security",
+      "icon": "folder",
+      "href": "#/alerts"
+    }
+  ],
+  "recentScorecards": {
+    "columns": [
+      {
+        "key": "name",
+        "label": "Scorecard"
+      },
+      {
+        "key": "owner",
+        "label": "Owner"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      },
+      {
+        "key": "health",
+        "label": "Health"
+      }
+    ],
+    "rows": [
+      {
+        "name": "Finance",
+        "owner": "Arjun Poluru",
+        "status": "On track",
+        "health": "92%"
+      },
+      {
+        "name": "Growth",
+        "owner": "Kavya Poluru",
+        "status": "On track",
+        "health": "88%"
+      },
+      {
+        "name": "Product",
+        "owner": "Nikhil Poluru",
+        "status": "Watch",
+        "health": "74%"
+      },
+      {
+        "name": "People",
+        "owner": "Elena Poluru",
+        "status": "On track",
+        "health": "86%"
+      }
+    ]
+  },
+  "cadence": [
+    {
+      "label": "Weekly ops review",
+      "description": "Rohan Poluru · Mondays 09:00",
+      "timestamp": "25 Aug",
+      "icon": "clock",
+      "status": "Done"
+    },
+    {
+      "label": "Growth forecast lock",
+      "description": "Kavya Poluru · pipeline 3.4x",
+      "timestamp": "26 Aug",
+      "icon": "star",
+      "status": "Done"
+    },
+    {
+      "label": "Product 1.8 readout",
+      "description": "Nikhil Poluru · adoption 23%",
+      "timestamp": "27 Aug",
+      "icon": "file",
+      "status": "Done"
+    },
+    {
+      "label": "Board pack freeze",
+      "description": "Mira Poluru · Thursday 16:00",
+      "timestamp": "28 Aug",
+      "icon": "check",
+      "status": "Done"
+    },
+    {
+      "label": "Customer voice hour",
+      "description": "Priya Poluru · NPS 62",
+      "timestamp": "29 Aug",
+      "icon": "user",
+      "status": "Done"
+    },
+    {
+      "label": "Q3 close read-through",
+      "description": "Mira Poluru · books close 4 Sep",
+      "timestamp": "1 Sep",
+      "icon": "folder",
+      "status": "Today"
+    }
+  ],
+  "healthMixSource": [
+    {
+      "id": "sc_finance",
+      "name": "Finance",
+      "owner": "Arjun Poluru",
+      "status": "On track",
+      "health": 92,
+      "kpis": 8,
+      "updated": "29 Aug 2026",
+      "focus": "Margin and cash"
+    },
+    {
+      "id": "sc_growth",
+      "name": "Growth",
+      "owner": "Kavya Poluru",
+      "status": "On track",
+      "health": 88,
+      "kpis": 10,
+      "updated": "28 Aug 2026",
+      "focus": "Pipeline and NRR"
+    },
+    {
+      "id": "sc_product",
+      "name": "Product",
+      "owner": "Nikhil Poluru",
+      "status": "Watch",
+      "health": 74,
+      "kpis": 7,
+      "updated": "28 Aug 2026",
+      "focus": "Adoption of 1.8"
+    },
+    {
+      "id": "sc_people",
+      "name": "People",
+      "owner": "Elena Poluru",
+      "status": "On track",
+      "health": 86,
+      "kpis": 6,
+      "updated": "27 Aug 2026",
+      "focus": "Attrition under 8%"
+    },
+    {
+      "id": "sc_ops",
+      "name": "Operations",
+      "owner": "Rohan Poluru",
+      "status": "At risk",
+      "health": 61,
+      "kpis": 9,
+      "updated": "29 Aug 2026",
+      "focus": "Fulfillment SLA"
+    },
+    {
+      "id": "sc_customer",
+      "name": "Customer",
+      "owner": "Priya Poluru",
+      "status": "On track",
+      "health": 90,
+      "kpis": 8,
+      "updated": "29 Aug 2026",
+      "focus": "NPS and CSAT"
+    },
+    {
+      "id": "sc_technology",
+      "name": "Technology",
+      "owner": "Dev Poluru",
+      "status": "On track",
+      "health": 84,
+      "kpis": 7,
+      "updated": "30 Aug 2026",
+      "focus": "Platform reliability"
+    },
+    {
+      "id": "sc_security",
+      "name": "Security",
+      "owner": "Anika Poluru",
+      "status": "Watch",
+      "health": 78,
+      "kpis": 5,
+      "updated": "30 Aug 2026",
+      "focus": "SOC 2 readiness"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "company",
+      "label": "Clearline",
+      "children": [
+        {
+          "id": "finance",
+          "label": "Finance",
+          "href": "#/scorecard/sc_finance"
+        },
+        {
+          "id": "growth",
+          "label": "Growth",
+          "href": "#/scorecard/sc_growth"
+        },
+        {
+          "id": "product",
+          "label": "Product",
+          "href": "#/scorecard/sc_product"
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "label": "Run the firm",
+      "children": [
+        {
+          "id": "people",
+          "label": "People",
+          "href": "#/scorecard/sc_people"
+        },
+        {
+          "id": "ops",
+          "label": "Operations",
+          "href": "#/scorecard/sc_ops"
+        },
+        {
+          "id": "customer",
+          "label": "Customer",
+          "href": "#/scorecard/sc_customer"
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform",
+      "children": [
+        {
+          "id": "technology",
+          "label": "Technology",
+          "href": "#/scorecard/sc_technology"
+        },
+        {
+          "id": "security",
+          "label": "Security",
+          "href": "#/scorecard/sc_security"
+        }
+      ]
+    }
+  ],
+  "expandedIds": {
+    "company": true,
+    "run": true,
+    "platform": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "searchPlaceholder": "Find a KPI, goal, or owner",
+  "commandModalHeading": "Jump to",
+  "inboxCount": 4,
+  "primaryAction": {
+    "label": "New alert",
+    "id": "header-alert"
+  },
+  "profileMenu": [
+    {
+      "label": "Inbox",
+      "value": "inbox",
+      "icon": "bell"
+    },
+    {
+      "label": "Settings",
+      "value": "settings",
+      "icon": "settings"
+    },
+    {
+      "label": "Sign out",
+      "value": "signout",
+      "icon": "external-link",
+      "danger": true
+    }
+  ]
+}
