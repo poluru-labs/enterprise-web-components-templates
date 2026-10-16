@@ -1,0 +1,122 @@
+{
+  "kicker": "Network operations · Live view",
+  "greeting": "Good afternoon, Mira",
+  "lede": "The network is moving well. Here is what needs your attention before the next shift handoff.",
+  "updatedLabel": "Updated 2 min ago",
+  "reportHref": "#/reports",
+  "metrics": [
+    {
+      "label": "Active shipments",
+      "value": "2,486",
+      "detail": "1,904 in transit · 582 awaiting handoff",
+      "tone": "teal"
+    },
+    {
+      "label": "On-time delivery",
+      "value": "94.8%",
+      "detail": "Target 93.5% · 1.6 pts above last week",
+      "tone": "green"
+    },
+    {
+      "label": "Route health",
+      "value": "87 / 92",
+      "detail": "Healthy lanes · 5 lanes need attention",
+      "tone": "amber"
+    },
+    {
+      "label": "Open exceptions",
+      "value": "38",
+      "detail": "12 critical · 26 being worked",
+      "tone": "red"
+    }
+  ],
+  "routes": [
+    {
+      "lane": "Chicago → Dallas",
+      "mode": "Linehaul · 182 loads",
+      "eta": "98.4%",
+      "status": "On plan",
+      "tone": "green"
+    },
+    {
+      "lane": "Newark → Atlanta",
+      "mode": "Intermodal · 96 loads",
+      "eta": "91.2%",
+      "status": "Watch",
+      "tone": "amber"
+    },
+    {
+      "lane": "Long Beach → Phoenix",
+      "mode": "Drayage · 64 loads",
+      "eta": "86.7%",
+      "status": "At risk",
+      "tone": "red"
+    }
+  ],
+  "carriers": [
+    {
+      "name": "Atlas Freight",
+      "loads": "428 loads",
+      "score": "96",
+      "service": "97.8%"
+    },
+    {
+      "name": "Northstar Lines",
+      "loads": "316 loads",
+      "score": "92",
+      "service": "94.1%"
+    },
+    {
+      "name": "Blue River Transport",
+      "loads": "284 loads",
+      "score": "88",
+      "service": "91.6%"
+    }
+  ],
+  "exceptions": [
+    {
+      "title": "Temperature alert",
+      "shipment": "ML-20481 · Chicago → Dallas",
+      "owner": "Cold chain desk",
+      "age": "18 min",
+      "tone": "red"
+    },
+    {
+      "title": "Missed appointment window",
+      "shipment": "ML-20392 · Newark → Atlanta",
+      "owner": "East region",
+      "age": "42 min",
+      "tone": "amber"
+    },
+    {
+      "title": "Proof of delivery pending",
+      "shipment": "ML-20276 · Phoenix → Reno",
+      "owner": "Last mile desk",
+      "age": "1 hr",
+      "tone": "blue"
+    }
+  ],
+  "handoffs": [
+    {
+      "facility": "Chicago DC · Dock 14",
+      "detail": "Inbound to linehaul",
+      "time": "14:20",
+      "status": "Ready",
+      "tone": "green"
+    },
+    {
+      "facility": "Dallas Hub · Door 08",
+      "detail": "Carrier check-in",
+      "time": "15:05",
+      "status": "In progress",
+      "tone": "amber"
+    },
+    {
+      "facility": "Atlanta Crossdock · Bay 03",
+      "detail": "Outbound scan",
+      "time": "15:40",
+      "status": "Queued",
+      "tone": "blue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "productName": "Meridian Logistics",
+  "productLine": "Control tower",
+  "workspaceName": "North America network",
+  "brandColor": "#DD0303",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@meridian.example",
+    "role": "Network operations lead"
+  },
+  "workspace": {
+    "name": "North America network",
+    "period": "Network day · 11 Sep 2026",
+    "timezone": "America / Chicago",
+    "close": "Shift handoff at 18:00 CT"
+  },
+  "note": "The control tower overview uses logistics fixtures in control-tower-overview.json. src/data/index.js still carries starter scorecard exports used by the shell and search."
+}

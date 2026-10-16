@@ -1,0 +1,8 @@
+{
+  "note": "Settings route is in nav; page not implemented in this starter. Use workspace fields from product.json.",
+  "workspaceFields": {
+    "name": "North America network",
+    "timezone": "America / Chicago",
+    "shiftHandoff": "Shift handoff at 18:00 CT"
+  }
+}

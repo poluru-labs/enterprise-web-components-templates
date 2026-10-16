@@ -1,0 +1,5 @@
+{
+  "language": "json",
+  "code": "GET /v1/scorecards/sc_finance\nAuthorization: Bearer ml_live_****\n\n{\n  \"id\": \"sc_finance\",\n  \"name\": \"Finance\",\n  \"health\": 92,\n  \"owner\": \"Arjun Poluru\"\n}",
+  "note": "Starter snippet; align token prefix with Meridian when wiring APIs."
+}

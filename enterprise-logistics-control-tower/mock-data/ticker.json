@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Shipments",
+      "value": "2,486",
+      "delta": "+8.2%",
+      "trend": "up",
+      "href": "#/overview"
+    },
+    {
+      "label": "On-time",
+      "value": "94.8%",
+      "delta": "+1.6 pts",
+      "trend": "up",
+      "href": "#/overview"
+    },
+    {
+      "label": "At risk",
+      "value": "38",
+      "delta": "-12%",
+      "trend": "up",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Carrier score",
+      "value": "91",
+      "delta": "+3 pts",
+      "trend": "up",
+      "href": "#/overview"
+    },
+    {
+      "label": "Dock queue",
+      "value": "17",
+      "delta": "Watch",
+      "trend": "flat",
+      "href": "#/overview"
+    },
+    {
+      "label": "Network ETA",
+      "value": "96.2%",
+      "delta": "Stable",
+      "trend": "flat",
+      "href": "#/trends"
+    }
+  ]
+}

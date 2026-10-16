@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "label": "Control tower",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Shipments",
+      "href": "#/shipments",
+      "icon": "truck"
+    },
+    {
+      "label": "Routes",
+      "href": "#/routes",
+      "icon": "signpost"
+    },
+    {
+      "label": "Carriers",
+      "href": "#/carriers",
+      "icon": "people"
+    },
+    {
+      "label": "Exceptions",
+      "href": "#/exceptions",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Warehouses",
+      "href": "#/warehouses",
+      "icon": "box"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "download"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}
