@@ -1,0 +1,340 @@
+{
+  "records": [
+    {
+      "label": "Finance",
+      "description": "Margin and cash · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_finance"
+    },
+    {
+      "label": "Growth",
+      "description": "Pipeline and NRR · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_growth"
+    },
+    {
+      "label": "Product",
+      "description": "Adoption of 1.8 · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_product"
+    },
+    {
+      "label": "People",
+      "description": "Attrition under 8% · Elena Poluru",
+      "owner": "Elena Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_people"
+    },
+    {
+      "label": "Operations",
+      "description": "Fulfillment SLA · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_ops"
+    },
+    {
+      "label": "Customer",
+      "description": "NPS and CSAT · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_customer"
+    },
+    {
+      "label": "Technology",
+      "description": "Platform reliability · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_technology"
+    },
+    {
+      "label": "Security",
+      "description": "SOC 2 readiness · Anika Poluru",
+      "owner": "Anika Poluru",
+      "type": "Scorecard",
+      "href": "#/scorecard/sc_security"
+    },
+    {
+      "label": "Close Q3 at $19.2M",
+      "description": "Finance · On track",
+      "owner": "Arjun Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Hold NRR above 115%",
+      "description": "Growth · On track",
+      "owner": "Kavya Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Ship adoption to 40%",
+      "description": "Product · Watch",
+      "owner": "Nikhil Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Attrition under 8%",
+      "description": "People · On track",
+      "owner": "Elena Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Fulfillment SLA 98%",
+      "description": "Operations · At risk",
+      "owner": "Rohan Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "NPS 65 by year end",
+      "description": "Customer · On track",
+      "owner": "Priya Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Platform uptime 99.95%",
+      "description": "Technology · On track",
+      "owner": "Dev Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Close SOC 2 Type II",
+      "description": "Security · Watch",
+      "owner": "Anika Poluru",
+      "type": "Goal",
+      "href": "#/goals"
+    },
+    {
+      "label": "Fulfillment SLA below 96%",
+      "description": "Operations · Red",
+      "owner": "Rohan Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "1.8 adoption stalled at 23%",
+      "description": "Product · Amber",
+      "owner": "Nikhil Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Cash conversion 41 days",
+      "description": "Finance · Amber",
+      "owner": "Hana Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "NPS promoters dipped in EMEA",
+      "description": "Customer · Green",
+      "owner": "Priya Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "SOC 2 evidence gap on access reviews",
+      "description": "Security · Amber",
+      "owner": "Anika Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Platform error budget at 72%",
+      "description": "Technology · Green",
+      "owner": "Dev Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Q3 board pack",
+      "description": "PDF · 28 Aug 2026",
+      "owner": "Mira Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Scorecard export",
+      "description": "CSV · 29 Aug 2026",
+      "owner": "Sahana Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Goal progress",
+      "description": "XLSX · 27 Aug 2026",
+      "owner": "Arjun Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Peer benchmarks",
+      "description": "PDF · 26 Aug 2026",
+      "owner": "Luca Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Technology reliability pack",
+      "description": "PDF · 30 Aug 2026",
+      "owner": "Dev Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Security control attestation",
+      "description": "XLSX · 30 Aug 2026",
+      "owner": "Anika Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "Head of performance · Office of the CEO",
+      "owner": "Mira Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "CFO · Finance",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "VP growth · Growth",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "VP product · Product",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Chief people officer · People",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "COO · Operations",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "VP customer · Customer",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Controller · Finance",
+      "owner": "Hana Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "RevOps lead · Growth",
+      "owner": "Luca Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "People analytics · People",
+      "owner": "Sahana Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "VP engineering · Technology",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "CISO · Security",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/teams"
+    },
+    {
+      "label": "Overview",
+      "description": "Company pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Finance scorecard",
+      "description": "Arjun Poluru",
+      "href": "#/scorecard/sc_finance",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Goals",
+      "description": "Company OKRs",
+      "href": "#/goals",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Alerts",
+      "description": "Thresholds",
+      "href": "#/alerts",
+      "icon": "bell",
+      "type": "Jump"
+    },
+    {
+      "label": "Teams",
+      "description": "Owners",
+      "href": "#/teams",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Technology scorecard",
+      "description": "Dev Poluru",
+      "href": "#/scorecard/sc_technology",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Security scorecard",
+      "description": "Anika Poluru",
+      "href": "#/scorecard/sc_security",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

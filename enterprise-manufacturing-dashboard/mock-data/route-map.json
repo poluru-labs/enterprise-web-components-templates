@@ -1,0 +1,41 @@
+{
+  "note": "All hashes render the same command center page in this starter.",
+  "routes": [
+    {
+      "label": "Command center",
+      "href": "#/overview"
+    },
+    {
+      "label": "Incidents",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Alerts",
+      "href": "#/scorecards"
+    },
+    {
+      "label": "Vulnerabilities",
+      "href": "#/goals"
+    },
+    {
+      "label": "Investigations",
+      "href": "#/trends"
+    },
+    {
+      "label": "Response playbooks",
+      "href": "#/teams"
+    },
+    {
+      "label": "Threat intel",
+      "href": "#/reviews"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings"
+    }
+  ]
+}

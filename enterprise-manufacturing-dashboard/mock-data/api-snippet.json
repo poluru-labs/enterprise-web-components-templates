@@ -1,0 +1,4 @@
+{
+  "language": "json",
+  "code": "GET /v1/scorecards/sc_finance\nAuthorization: Bearer sen_live_****\n\n{\n  \"id\": \"sc_finance\",\n  \"name\": \"Finance\",\n  \"health\": 92,\n  \"owner\": \"Arjun Poluru\"\n}"
+}

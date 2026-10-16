@@ -1,0 +1,20 @@
+{
+  "productName": "Sentinel",
+  "productLine": "Security operations",
+  "workspaceName": "Threat command center",
+  "brandColor": "#BF092F",
+  "headerInk": "#161616",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@sentinel.example",
+    "role": "Security administrator"
+  },
+  "workspace": {
+    "name": "Threat command center",
+    "period": "Live · 11 Sep 2026",
+    "timezone": "UTC / Chicago",
+    "close": "Next review 14 Sep 2026"
+  },
+  "templateFolder": "enterprise-manufacturing-dashboard",
+  "appNote": "Sentinel security command center (not manufacturing ops UI)."
+}

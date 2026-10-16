@@ -1,0 +1,55 @@
+{
+  "columns": [
+    {
+      "key": "metric",
+      "label": "Metric",
+      "sortable": true
+    },
+    {
+      "key": "actual",
+      "label": "Actual"
+    },
+    {
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "key": "variance",
+      "label": "Variance"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "metric": "Revenue",
+      "actual": "$18.4M",
+      "target": "$17.1M",
+      "variance": "+7.6%",
+      "status": "On track"
+    },
+    {
+      "metric": "Gross margin",
+      "actual": "71.2%",
+      "target": "70.0%",
+      "variance": "+1.2 pts",
+      "status": "On track"
+    },
+    {
+      "metric": "Cash conversion",
+      "actual": "41d",
+      "target": "45d",
+      "variance": "−4d",
+      "status": "Watch"
+    },
+    {
+      "metric": "OpEx ratio",
+      "actual": "38%",
+      "target": "40%",
+      "variance": "−2 pts",
+      "status": "On track"
+    }
+  ]
+}

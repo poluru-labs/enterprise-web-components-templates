@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "label": "Command center",
+      "href": "#/overview",
+      "icon": "grid"
+    },
+    {
+      "label": "Incidents",
+      "href": "#/alerts",
+      "icon": "exclamation-triangle"
+    },
+    {
+      "label": "Alerts",
+      "href": "#/scorecards",
+      "icon": "bell"
+    },
+    {
+      "label": "Vulnerabilities",
+      "href": "#/goals",
+      "icon": "bug"
+    },
+    {
+      "label": "Investigations",
+      "href": "#/trends",
+      "icon": "search"
+    },
+    {
+      "label": "Response playbooks",
+      "href": "#/teams",
+      "icon": "lightning"
+    },
+    {
+      "label": "Threat intel",
+      "href": "#/reviews",
+      "icon": "binoculars"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "file-earmark-bar-graph"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

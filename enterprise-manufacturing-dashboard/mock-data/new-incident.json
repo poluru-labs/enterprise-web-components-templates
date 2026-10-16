@@ -1,0 +1,126 @@
+{
+  "modalHeading": "New alert",
+  "headerButtonLabel": "New incident",
+  "steps": [
+    {
+      "label": "Metric",
+      "description": "Name and owner"
+    },
+    {
+      "label": "Target",
+      "description": "Thresholds"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "scorecardOptions": [
+    {
+      "label": "Finance",
+      "value": "sc_finance"
+    },
+    {
+      "label": "Growth",
+      "value": "sc_growth"
+    },
+    {
+      "label": "Product",
+      "value": "sc_product"
+    },
+    {
+      "label": "People",
+      "value": "sc_people"
+    },
+    {
+      "label": "Operations",
+      "value": "sc_ops"
+    },
+    {
+      "label": "Customer",
+      "value": "sc_customer"
+    },
+    {
+      "label": "Technology",
+      "value": "sc_technology"
+    },
+    {
+      "label": "Security",
+      "value": "sc_security"
+    }
+  ],
+  "ownerOptions": [
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    }
+  ],
+  "defaults": {
+    "owner": "Mira Poluru",
+    "threshold": 96,
+    "severity": "amber"
+  },
+  "severityOptions": [
+    {
+      "value": "green",
+      "label": "Info"
+    },
+    {
+      "value": "amber",
+      "label": "Amber"
+    },
+    {
+      "value": "red",
+      "label": "Red"
+    }
+  ],
+  "placeholders": {
+    "name": "Suspicious OAuth consent",
+    "runbook": "Who to page and what to check first."
+  },
+  "pinLength": 4
+}

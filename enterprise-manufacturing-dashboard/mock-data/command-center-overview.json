@@ -1,0 +1,198 @@
+{
+  "snapshotDate": "Friday 11 September 2026",
+  "hero": {
+    "kicker": "Security posture / Friday 11 September 2026",
+    "greetingFirstName": "Mira",
+    "lede": "Your environment is steady. Three investigations need attention before the next response review.",
+    "heroStatus": "All systems operational"
+  },
+  "summaryStats": [
+    {
+      "label": "Open incidents",
+      "value": "02",
+      "note": "1 critical · +1 this week",
+      "variant": "critical"
+    },
+    {
+      "label": "Active alerts",
+      "value": "18",
+      "note": "6 need triage today"
+    },
+    {
+      "label": "Risk exposure",
+      "value": "8.4",
+      "unit": "/10",
+      "note": "↓ 12% from last month"
+    },
+    {
+      "label": "Remediation SLA",
+      "value": "94",
+      "unit": "%",
+      "note": "Within target · 30 days"
+    }
+  ],
+  "activeIncidents": [
+    {
+      "id": "INC-2481",
+      "title": "Suspicious OAuth consent",
+      "context": "Identity / Production · 18 min ago",
+      "severity": "critical",
+      "ownerInitials": "AM",
+      "href": "#/alerts"
+    },
+    {
+      "id": "INC-2478",
+      "title": "Endpoint beacon detected",
+      "context": "Workstations / Finance · 42 min ago",
+      "severity": "high",
+      "ownerInitials": "RK",
+      "href": "#/alerts"
+    },
+    {
+      "id": "INC-2472",
+      "title": "Exposed storage policy",
+      "context": "Cloud / Data platform · 3 hrs ago",
+      "severity": "medium",
+      "ownerInitials": "JL",
+      "href": "#/alerts"
+    }
+  ],
+  "incidentPanelFoot": {
+    "lastSynced": "Last synced 2 minutes ago",
+    "liveFeed": true
+  },
+  "controlCoverage": {
+    "percent": 87,
+    "headline": "Strong coverage",
+    "description": "12 of 14 control domains are above target.",
+    "domains": [
+      {
+        "name": "Identity & access",
+        "percent": 96
+      },
+      {
+        "name": "Endpoint security",
+        "percent": 91
+      },
+      {
+        "name": "Cloud posture",
+        "percent": 78
+      },
+      {
+        "name": "Data protection",
+        "percent": 84
+      }
+    ]
+  },
+  "alertVolumeChart": {
+    "period": "Last 7 days",
+    "yAxis": [
+      80,
+      60,
+      40,
+      20,
+      0
+    ],
+    "xLabels": [
+      "05 Sep",
+      "06 Sep",
+      "07 Sep",
+      "08 Sep",
+      "09 Sep",
+      "10 Sep",
+      "11 Sep"
+    ],
+    "detectionPoints": [
+      {
+        "x": 0,
+        "y": 168
+      },
+      {
+        "x": 92,
+        "y": 135
+      },
+      {
+        "x": 184,
+        "y": 150
+      },
+      {
+        "x": 276,
+        "y": 98
+      },
+      {
+        "x": 368,
+        "y": 112
+      },
+      {
+        "x": 460,
+        "y": 62
+      },
+      {
+        "x": 552,
+        "y": 88
+      },
+      {
+        "x": 650,
+        "y": 42
+      }
+    ],
+    "legend": [
+      "Detections",
+      "Resolved"
+    ]
+  },
+  "investigationWork": [
+    {
+      "label": "Investigations in progress",
+      "detail": "4 cases across 3 teams",
+      "count": "04",
+      "tone": "red",
+      "icon": "search"
+    },
+    {
+      "label": "Vulnerabilities due this week",
+      "detail": "12 critical or high findings",
+      "count": "12",
+      "tone": "amber",
+      "icon": "shield-exclamation"
+    },
+    {
+      "label": "Playbooks executed",
+      "detail": "28 completed this month",
+      "count": "28",
+      "tone": "blue",
+      "icon": "clipboard-check"
+    }
+  ],
+  "auditTrail": [
+    {
+      "event": "Containment playbook completed",
+      "actor": "Alex Morgan",
+      "time": "10:42 AM",
+      "status": "Resolved",
+      "statusVariant": "success",
+      "icon": "arrow-repeat"
+    },
+    {
+      "event": "Privileged access review approved",
+      "actor": "Jordan Lee",
+      "time": "09:58 AM",
+      "status": "Recorded",
+      "statusVariant": "neutral",
+      "icon": "key"
+    },
+    {
+      "event": "New critical vulnerability imported",
+      "actor": "Scanner / EU-West",
+      "time": "09:31 AM",
+      "status": "Needs triage",
+      "statusVariant": "warning",
+      "icon": "bug"
+    }
+  ],
+  "actions": {
+    "startInvestigationTriggers": "header-alert",
+    "exportLogHref": "#/reports",
+    "investigationsQueueHref": "#/reviews"
+  }
+}

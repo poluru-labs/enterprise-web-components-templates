@@ -1,0 +1,27 @@
+{
+  "searchPlaceholder": "Search incidents, assets, people",
+  "commandModalHeading": "Jump to",
+  "inboxCount": 4,
+  "primaryAction": {
+    "label": "New incident",
+    "id": "header-alert"
+  },
+  "profileMenu": [
+    {
+      "label": "Inbox",
+      "value": "inbox",
+      "icon": "bell"
+    },
+    {
+      "label": "Settings",
+      "value": "settings",
+      "icon": "settings"
+    },
+    {
+      "label": "Sign out",
+      "value": "signout",
+      "icon": "external-link",
+      "danger": true
+    }
+  ]
+}

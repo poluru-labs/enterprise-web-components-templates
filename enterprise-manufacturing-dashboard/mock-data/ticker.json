@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "label": "Open incidents",
+      "value": "02",
+      "delta": "1 critical",
+      "trend": "down",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Active alerts",
+      "value": "18",
+      "delta": "6 triage",
+      "trend": "flat",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Risk exposure",
+      "value": "8.4",
+      "delta": "−12%",
+      "trend": "up",
+      "href": "#/trends"
+    },
+    {
+      "label": "Coverage",
+      "value": "87%",
+      "delta": "+4.2%",
+      "trend": "up",
+      "href": "#/scorecards"
+    },
+    {
+      "label": "MTTR",
+      "value": "42m",
+      "delta": "−18m",
+      "trend": "up",
+      "href": "#/reviews"
+    }
+  ]
+}
