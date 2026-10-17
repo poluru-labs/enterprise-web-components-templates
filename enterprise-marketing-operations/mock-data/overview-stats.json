@@ -1,0 +1,68 @@
+{
+  "This month": {
+    "campaignRevenue": {
+      "value": "$128,640",
+      "deltaPercent": "14.4"
+    },
+    "activeCampaigns": {
+      "value": "3",
+      "deltaLabel": "+2"
+    },
+    "audienceReached": {
+      "value": "864.2K",
+      "deltaPercent": "16.3"
+    },
+    "roas": {
+      "value": "4.6x",
+      "deltaPercent": "21.1"
+    },
+    "performanceTotal": {
+      "revenue": "$128,640",
+      "conversions": "8,426",
+      "deltaPercent": "14.4"
+    },
+    "chartMonthLabel": "September 2026",
+    "xAxisLabels": [
+      "Sep 01",
+      "Sep 05",
+      "Sep 10",
+      "Sep 15",
+      "Sep 20",
+      "Sep 25",
+      "Sep 30"
+    ]
+  },
+  "Last month": {
+    "campaignRevenue": {
+      "value": "$112,480",
+      "deltaPercent": "14.4"
+    },
+    "activeCampaigns": {
+      "value": "3",
+      "deltaLabel": "+2"
+    },
+    "audienceReached": {
+      "value": "742.8K",
+      "deltaPercent": "16.3"
+    },
+    "roas": {
+      "value": "3.8x",
+      "deltaPercent": "21.1"
+    },
+    "performanceTotal": {
+      "revenue": "$112,480",
+      "conversions": "8,426",
+      "deltaPercent": "14.4"
+    },
+    "chartMonthLabel": "August 2026",
+    "xAxisLabels": [
+      "Aug 01",
+      "Aug 05",
+      "Aug 10",
+      "Aug 15",
+      "Aug 20",
+      "Aug 25",
+      "Aug 30"
+    ]
+  }
+}

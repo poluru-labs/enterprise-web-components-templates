@@ -1,0 +1,63 @@
+{
+  "channelOptions": [
+    {
+      "label": "Multi-channel",
+      "value": "Multi-channel"
+    },
+    {
+      "label": "Paid social",
+      "value": "Paid social"
+    },
+    {
+      "label": "Paid search",
+      "value": "Paid search"
+    },
+    {
+      "label": "Email",
+      "value": "Email"
+    },
+    {
+      "label": "Organic social",
+      "value": "Organic social"
+    }
+  ],
+  "ownerOptions": [
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Nisha Poluru",
+      "value": "Nisha Poluru"
+    }
+  ],
+  "defaults": {
+    "channel": "Multi-channel",
+    "owner": "Anika Poluru",
+    "budget": 10000,
+    "markActive": false
+  },
+  "placeholders": {
+    "name": "e.g. A season of new possibilities",
+    "brief": "What would you like to achieve?"
+  },
+  "newCampaignDefaults": {
+    "icon": "megaphone",
+    "color": "blue",
+    "spent": 0,
+    "reach": "—",
+    "rate": "—"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "alert": {
+    "variant": "success",
+    "title": "You're up to date",
+    "message": "All campaigns are delivering within their planned budgets."
+  },
+  "notices": [
+    {
+      "actor": "Maya Poluru",
+      "title": "Maya Poluru scheduled the fall edit",
+      "detail": "September 18 at 9:00 AM · Email newsletter"
+    },
+    {
+      "actor": "Rohan Poluru",
+      "title": "The next chapter is now active",
+      "detail": "Your product launch campaign is underway."
+    }
+  ]
+}

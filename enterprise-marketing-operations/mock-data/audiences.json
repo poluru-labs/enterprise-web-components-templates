@@ -1,0 +1,36 @@
+{
+  "headline": "Right people. Real possibilities.",
+  "reachedThisMonth": "864.2K",
+  "segments": [
+    {
+      "name": "Brand explorers",
+      "description": "New visitors discovering Meridian",
+      "size": "284,600",
+      "owner": "Anika Poluru",
+      "icon": "compass",
+      "color": "peach",
+      "health": "Healthy"
+    },
+    {
+      "name": "Everyday enthusiasts",
+      "description": "Engaged subscribers and repeat visitors",
+      "size": "192,400",
+      "owner": "Maya Poluru",
+      "icon": "heart",
+      "color": "mint",
+      "health": "Healthy"
+    },
+    {
+      "name": "Meridian insiders",
+      "description": "Loyal customers with 3+ purchases",
+      "size": "86,200",
+      "owner": "Arjun Poluru",
+      "icon": "stars",
+      "color": "lavender",
+      "health": "Healthy"
+    }
+  ],
+  "eyebrow": "MEANINGFUL CONNECTIONS",
+  "subtitle": "Thoughtfully curated segments for every stage of your customer’s journey.",
+  "reachedLabel": "people reached this month"
+}

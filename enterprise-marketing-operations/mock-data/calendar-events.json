@@ -1,0 +1,33 @@
+{
+  "month": "September 2026",
+  "upcomingBadge": "3 upcoming publications",
+  "events": [
+    {
+      "day": 18,
+      "dayLabel": "FRI",
+      "title": "The fall edit is here",
+      "type": "Email newsletter",
+      "time": "09:00 AM",
+      "icon": "envelope",
+      "owner": "Maya Poluru"
+    },
+    {
+      "day": 19,
+      "dayLabel": "SAT",
+      "title": "Behind the collection",
+      "type": "Instagram · Carousel",
+      "time": "11:30 AM",
+      "icon": "instagram",
+      "owner": "Anika Poluru"
+    },
+    {
+      "day": 20,
+      "dayLabel": "SUN",
+      "title": "Your everyday, elevated",
+      "type": "Blog · Editorial",
+      "time": "10:00 AM",
+      "icon": "file-earmark-text",
+      "owner": "Rohan Poluru"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "filename": "meridian-campaign-report.csv",
+  "columns": [
+    "Campaign",
+    "Channel",
+    "Owner",
+    "Status",
+    "Budget",
+    "Spent",
+    "Reach",
+    "Conversion"
+  ]
+}

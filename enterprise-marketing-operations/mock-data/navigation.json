@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "overview",
+      "icon": "grid-1x2",
+      "label": "Overview"
+    },
+    {
+      "id": "campaigns",
+      "icon": "megaphone",
+      "label": "Campaigns",
+      "badge": 5
+    },
+    {
+      "id": "audiences",
+      "icon": "people",
+      "label": "Audiences"
+    },
+    {
+      "id": "calendar",
+      "icon": "calendar3",
+      "label": "Content calendar"
+    },
+    {
+      "id": "budgets",
+      "icon": "wallet2",
+      "label": "Budgets"
+    },
+    {
+      "id": "channels",
+      "icon": "bar-chart",
+      "label": "Channel performance"
+    }
+  ]
+}

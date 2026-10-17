@@ -1,0 +1,35 @@
+{
+  "metrics": [
+    "Revenue",
+    "Conversions"
+  ],
+  "defaultMetric": "Revenue",
+  "periodOptions": [
+    {
+      "label": "This month",
+      "value": "This month"
+    },
+    {
+      "label": "Last month",
+      "value": "Last month"
+    }
+  ],
+  "yAxisRevenue": [
+    "$40k",
+    "$30k",
+    "$20k",
+    "$10k",
+    "$0"
+  ],
+  "yAxisConversions": [
+    "40k",
+    "30k",
+    "20k",
+    "10k",
+    "0"
+  ],
+  "legend": {
+    "current": "Current month",
+    "previous": "Previous month"
+  }
+}

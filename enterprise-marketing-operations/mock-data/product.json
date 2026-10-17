@@ -1,0 +1,19 @@
+{
+  "productName": "Meridian",
+  "productLine": "Marketing operations",
+  "workspaceName": "Meridian Studio",
+  "workspaceDisplayName": "Marketing workspace",
+  "brandColor": "#1A2A4F",
+  "reportingPeriod": "September 2026",
+  "currentUser": {
+    "name": "Anika Poluru",
+    "role": "Marketing director",
+    "email": "anika.poluru@meridian.example"
+  },
+  "sidebar": {
+    "caption": "WORKSPACE",
+    "teamName": "Meridian Studio",
+    "teamSubtitle": "Marketing team"
+  },
+  "note": "Runtime data lives in meridian-shell.js; src/data/index.js is unused Signal starter."
+}

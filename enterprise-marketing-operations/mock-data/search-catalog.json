@@ -1,0 +1,76 @@
+{
+  "campaigns": [
+    {
+      "label": "Fall into something new",
+      "description": "Fall collection · Brand awareness · Anika Poluru",
+      "owner": "Anika Poluru",
+      "channel": "Multi-channel",
+      "status": "Active"
+    },
+    {
+      "label": "The next chapter",
+      "description": "Product launch · Acquisition · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "channel": "Paid social",
+      "status": "Active"
+    },
+    {
+      "label": "Made for your everyday",
+      "description": "Always-on · Engagement · Maya Poluru",
+      "owner": "Maya Poluru",
+      "channel": "Email",
+      "status": "Active"
+    },
+    {
+      "label": "A little more Meridian",
+      "description": "Loyalty program · Retention · Arjun Poluru",
+      "owner": "Arjun Poluru",
+      "channel": "Organic social",
+      "status": "Scheduled"
+    },
+    {
+      "label": "Meet your new favorites",
+      "description": "Holiday preview · Acquisition · Nisha Poluru",
+      "owner": "Nisha Poluru",
+      "channel": "Paid search",
+      "status": "Draft"
+    }
+  ],
+  "events": [
+    {
+      "label": "The fall edit is here",
+      "description": "Email newsletter · 09:00 AM",
+      "owner": "Maya Poluru"
+    },
+    {
+      "label": "Behind the collection",
+      "description": "Instagram · Carousel · 11:30 AM",
+      "owner": "Anika Poluru"
+    },
+    {
+      "label": "Your everyday, elevated",
+      "description": "Blog · Editorial · 10:00 AM",
+      "owner": "Rohan Poluru"
+    }
+  ],
+  "audiences": [
+    {
+      "label": "Brand explorers",
+      "description": "New visitors discovering Meridian",
+      "owner": "Anika Poluru",
+      "size": "284,600"
+    },
+    {
+      "label": "Everyday enthusiasts",
+      "description": "Engaged subscribers and repeat visitors",
+      "owner": "Maya Poluru",
+      "size": "192,400"
+    },
+    {
+      "label": "Meridian insiders",
+      "description": "Loyal customers with 3+ purchases",
+      "owner": "Arjun Poluru",
+      "size": "86,200"
+    }
+  ]
+}

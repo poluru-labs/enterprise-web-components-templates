@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "id": "paid-social",
+      "icon": "instagram",
+      "name": "Paid social",
+      "visits": "42.8K",
+      "roas": "4.2x",
+      "trafficSharePercent": 42,
+      "color": "#738aaa"
+    },
+    {
+      "id": "paid-search",
+      "icon": "search",
+      "name": "Paid search",
+      "visits": "31.6K",
+      "roas": "5.1x",
+      "trafficSharePercent": 31,
+      "color": "#1a2a4f"
+    },
+    {
+      "id": "email",
+      "icon": "envelope",
+      "name": "Email",
+      "visits": "18.2K",
+      "roas": "6.8x",
+      "trafficSharePercent": 18,
+      "color": "#77b7a7"
+    },
+    {
+      "id": "organic",
+      "icon": "globe2",
+      "name": "Organic",
+      "visits": "8.4K",
+      "roas": "3.6x",
+      "trafficSharePercent": 9,
+      "color": "#c6b392"
+    }
+  ],
+  "totalVisits": "101K",
+  "summary": {
+    "headline": "Working together.",
+    "subhead": "Growing further.",
+    "note": "5 channels. One connected story."
+  }
+}

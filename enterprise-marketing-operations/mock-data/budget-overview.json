@@ -1,0 +1,14 @@
+{
+  "spent": 34180,
+  "allocated": 77500,
+  "spentPercent": 44.1,
+  "remaining": 43320,
+  "currency": "USD",
+  "status": "On track",
+  "tip": "Looking good. Your spend is within plan.",
+  "planningAlert": {
+    "title": "September planning",
+    "message": "$43,320 remains available within your allocated campaign budgets."
+  },
+  "totalCampaignBudget": 77500
+}

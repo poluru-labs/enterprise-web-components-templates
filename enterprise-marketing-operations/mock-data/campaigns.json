@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "name": "Fall into something new",
+      "desc": "Fall collection · Brand awareness",
+      "channel": "Multi-channel",
+      "icon": "layers",
+      "owner": "Anika Poluru",
+      "status": "Active",
+      "budget": 24000,
+      "spent": 16480,
+      "reach": "284.6K",
+      "rate": "4.82%",
+      "color": "peach"
+    },
+    {
+      "name": "The next chapter",
+      "desc": "Product launch · Acquisition",
+      "channel": "Paid social",
+      "icon": "instagram",
+      "owner": "Rohan Poluru",
+      "status": "Active",
+      "budget": 18000,
+      "spent": 12600,
+      "reach": "192.4K",
+      "rate": "3.94%",
+      "color": "lavender"
+    },
+    {
+      "name": "Made for your everyday",
+      "desc": "Always-on · Engagement",
+      "channel": "Email",
+      "icon": "envelope",
+      "owner": "Maya Poluru",
+      "status": "Active",
+      "budget": 8500,
+      "spent": 5100,
+      "reach": "86.2K",
+      "rate": "6.21%",
+      "color": "mint"
+    },
+    {
+      "name": "A little more Meridian",
+      "desc": "Loyalty program · Retention",
+      "channel": "Organic social",
+      "icon": "chat-square-heart",
+      "owner": "Arjun Poluru",
+      "status": "Scheduled",
+      "budget": 12000,
+      "spent": 0,
+      "reach": "—",
+      "rate": "—",
+      "color": "blue"
+    },
+    {
+      "name": "Meet your new favorites",
+      "desc": "Holiday preview · Acquisition",
+      "channel": "Paid search",
+      "icon": "search",
+      "owner": "Nisha Poluru",
+      "status": "Draft",
+      "budget": 15000,
+      "spent": 0,
+      "reach": "—",
+      "rate": "—",
+      "color": "sand"
+    }
+  ],
+  "statusFilters": [
+    "All campaigns",
+    "Active",
+    "Scheduled",
+    "Draft"
+  ],
+  "defaultStatusFilter": "All campaigns"
+}
