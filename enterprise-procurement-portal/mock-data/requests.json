@@ -1,0 +1,110 @@
+{
+  "rows": [
+    {
+      "id": "pr-1042",
+      "number": "PR-1042",
+      "title": "Laptop fleet refresh",
+      "requester": "Leela Poluru",
+      "category": "IT",
+      "amount": 48200,
+      "status": "pending",
+      "supplier": "Northline Hardware",
+      "needed": "2026-09-22",
+      "approver": "Arjun Poluru",
+      "stage": "approve"
+    },
+    {
+      "id": "pr-1041",
+      "number": "PR-1041",
+      "title": "Helio Cloud seats",
+      "requester": "Dev Poluru",
+      "category": "Cloud",
+      "amount": 126000,
+      "status": "approved",
+      "supplier": "Helio Cloud",
+      "needed": "2026-09-18",
+      "approver": "Arjun Poluru",
+      "stage": "order"
+    },
+    {
+      "id": "pr-1038",
+      "number": "PR-1038",
+      "title": "Studio task chairs",
+      "requester": "Nikhil Poluru",
+      "category": "Facilities",
+      "amount": 18400,
+      "status": "draft",
+      "supplier": "Cedar & Bolt",
+      "needed": "2026-10-03",
+      "approver": "Subbu Poluru",
+      "stage": "request"
+    },
+    {
+      "id": "pr-1036",
+      "number": "PR-1036",
+      "title": "Warehouse label stock",
+      "requester": "Rohan Poluru",
+      "category": "Office",
+      "amount": 6200,
+      "status": "ordered",
+      "supplier": "Folio Print",
+      "needed": "2026-09-12",
+      "approver": "Maya Poluru",
+      "stage": "order"
+    },
+    {
+      "id": "pr-1033",
+      "number": "PR-1033",
+      "title": "Design tool licenses",
+      "requester": "Kavya Poluru",
+      "category": "IT",
+      "amount": 9840,
+      "status": "received",
+      "supplier": "Quill Software",
+      "needed": "2026-09-01",
+      "approver": "Maya Poluru",
+      "stage": "receive"
+    },
+    {
+      "id": "pr-1029",
+      "number": "PR-1029",
+      "title": "SOC 2 evidence support",
+      "requester": "Anika Poluru",
+      "category": "Professional services",
+      "amount": 42000,
+      "status": "pending",
+      "supplier": "Alder Advisory",
+      "needed": "2026-09-30",
+      "approver": "Anika Poluru",
+      "stage": "approve"
+    },
+    {
+      "id": "pr-1024",
+      "number": "PR-1024",
+      "title": "Austin millwork",
+      "requester": "Nikhil Poluru",
+      "category": "Facilities",
+      "amount": 88500,
+      "status": "rejected",
+      "supplier": "Cedar & Bolt",
+      "needed": "2026-09-08",
+      "approver": "Arjun Poluru",
+      "stage": "request"
+    },
+    {
+      "id": "pr-1021",
+      "number": "PR-1021",
+      "title": "API gateway add-on",
+      "requester": "Dev Poluru",
+      "category": "Cloud",
+      "amount": 61000,
+      "status": "approved",
+      "supplier": "Helio Cloud",
+      "needed": "2026-09-16",
+      "approver": "Subbu Poluru",
+      "stage": "order"
+    }
+  ],
+  "count": 8,
+  "note": "In-memory list grows when users create PRs via the shell modal."
+}

@@ -1,0 +1,30 @@
+{
+  "columns": [
+    {
+      "key": "number",
+      "label": "PR",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Title",
+      "sortable": true
+    },
+    {
+      "key": "requester",
+      "label": "Requester"
+    },
+    {
+      "key": "amount",
+      "label": "Amount"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "needed",
+      "label": "Needed"
+    }
+  ]
+}

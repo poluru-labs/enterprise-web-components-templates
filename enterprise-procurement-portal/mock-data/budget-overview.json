@@ -1,0 +1,13 @@
+{
+  "ytdSpend": 1240000,
+  "ytdSpendFormatted": "$1.24M",
+  "budget": 4800000,
+  "budgetFormatted": "$4.80M",
+  "remaining": 3560000,
+  "remainingFormatted": "$3.56M",
+  "percentUsed": 26,
+  "ringValue": 26,
+  "statusLabel": "On plan",
+  "footnote": "$3.56M left. Books close with Priya Poluru.",
+  "spendInsight": "Cloud and IT hardware still take half the book. Subbu Poluru reviews the rest on Fridays."
+}

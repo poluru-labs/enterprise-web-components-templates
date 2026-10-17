@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "category": "Cloud",
+      "amount": 412000,
+      "share": 33,
+      "owner": "Maya Poluru"
+    },
+    {
+      "category": "IT hardware",
+      "amount": 286000,
+      "share": 23,
+      "owner": "Ishaan Poluru"
+    },
+    {
+      "category": "Facilities",
+      "amount": 214000,
+      "share": 17,
+      "owner": "Nikhil Poluru"
+    },
+    {
+      "category": "Professional services",
+      "amount": 168000,
+      "share": 14,
+      "owner": "Anika Poluru"
+    },
+    {
+      "category": "SaaS",
+      "amount": 98000,
+      "share": 8,
+      "owner": "Kavya Poluru"
+    },
+    {
+      "category": "Office",
+      "amount": 62000,
+      "share": 5,
+      "owner": "Rohan Poluru"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "name": "Subbu Poluru",
+      "role": "Head of procurement",
+      "squad": "Buy desk"
+    },
+    {
+      "name": "Maya Poluru",
+      "role": "Category lead · IT",
+      "squad": "Buy desk"
+    },
+    {
+      "name": "Kavya Poluru",
+      "role": "Buyer",
+      "squad": "Buy desk"
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "CFO",
+      "squad": "Finance"
+    },
+    {
+      "name": "Anika Poluru",
+      "role": "General counsel",
+      "squad": "Legal"
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "Facilities lead",
+      "squad": "Workplace"
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "COO",
+      "squad": "Operations"
+    },
+    {
+      "name": "Priya Poluru",
+      "role": "Controller",
+      "squad": "Finance"
+    },
+    {
+      "name": "Ishaan Poluru",
+      "role": "Supplier manager",
+      "squad": "Buy desk"
+    },
+    {
+      "name": "Leela Poluru",
+      "role": "Product ops",
+      "squad": "Product"
+    },
+    {
+      "name": "Dev Poluru",
+      "role": "Engineering manager",
+      "squad": "Engineering"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "contractExpiring": {
+    "variant": "warning",
+    "dismissible": true,
+    "title": "Contract expiring",
+    "message": "Cedar facilities blanket renews 20 Sep. Nikhil Poluru should rebid or extend before Friday."
+  }
+}

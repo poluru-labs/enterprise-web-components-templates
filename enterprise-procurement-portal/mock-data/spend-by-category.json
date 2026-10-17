@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "category": "Cloud",
+      "amount": 412000,
+      "share": 33
+    },
+    {
+      "category": "IT hardware",
+      "amount": 286000,
+      "share": 23
+    },
+    {
+      "category": "Facilities",
+      "amount": 214000,
+      "share": 17
+    },
+    {
+      "category": "Professional services",
+      "amount": 168000,
+      "share": 14
+    },
+    {
+      "category": "SaaS",
+      "amount": 98000,
+      "share": 8
+    },
+    {
+      "category": "Office",
+      "amount": 62000,
+      "share": 5
+    }
+  ]
+}

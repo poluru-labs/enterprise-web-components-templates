@@ -1,0 +1,22 @@
+{
+  "template": [
+    {
+      "label": "Drafted",
+      "descriptionFrom": "requester",
+      "timestamp": "Opened",
+      "icon": "file"
+    },
+    {
+      "label": "Category review",
+      "description": "Maya Poluru · buy desk",
+      "timestamp": "Same day",
+      "icon": "user"
+    },
+    {
+      "label": "Waiting",
+      "descriptionFrom": "approver",
+      "timestampFrom": "status",
+      "icon": "clock"
+    }
+  ]
+}

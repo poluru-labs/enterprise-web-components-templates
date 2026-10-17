@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "label": "PR-1042 waiting on Arjun Poluru",
+      "description": "$48,200 · 4 days",
+      "icon": "clock",
+      "href": "#/request/pr-1042"
+    },
+    {
+      "label": "Cedar facilities blanket expires 20 Sep",
+      "description": "Nikhil Poluru · renew or rebid",
+      "icon": "alert-triangle",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Helio Cloud seats approved",
+      "description": "Dev Poluru · order next",
+      "icon": "check",
+      "href": "#/request/pr-1041"
+    },
+    {
+      "label": "Alder SOW still in legal",
+      "description": "Anika Poluru · PR-1029",
+      "icon": "folder",
+      "href": "#/approvals"
+    }
+  ],
+  "count": 4
+}

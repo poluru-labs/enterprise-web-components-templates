@@ -1,0 +1,29 @@
+{
+  "stages": [
+    {
+      "id": "request",
+      "label": "Request",
+      "count": 2,
+      "href": "#/requests"
+    },
+    {
+      "id": "approve",
+      "label": "Approve",
+      "count": 2,
+      "href": "#/approvals",
+      "hot": true
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "count": 3,
+      "href": "#/requests"
+    },
+    {
+      "id": "receive",
+      "label": "Receive",
+      "count": 1,
+      "href": "#/requests"
+    }
+  ]
+}

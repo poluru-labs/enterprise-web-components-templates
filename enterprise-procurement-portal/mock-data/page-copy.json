@@ -1,0 +1,53 @@
+{
+  "overview": {
+    "eyebrow": "FY26 · September",
+    "title": "Buy desk",
+    "leadTemplate": "Good evening, {firstName}. {pendingCount} approvals sit with finance or legal. Cedar’s facilities blanket expires 20 Sep."
+  },
+  "requests": {
+    "eyebrow": "Purchase requests",
+    "title": "Requests",
+    "leadTemplate": "{count} PRs on the board. Filter by requester, category, or status, then open a card."
+  },
+  "approvals": {
+    "eyebrow": "Queue",
+    "title": "Approvals",
+    "lead": "Arjun Poluru signs spend over $25k. Anika Poluru countersigns legal. Subbu Poluru can nudge, not skip."
+  },
+  "suppliers": {
+    "eyebrow": "Vendor book",
+    "title": "Suppliers",
+    "lead": "Ishaan Poluru keeps scores honest. Compare lead time and price index before Maya Poluru awards the lane."
+  },
+  "contracts": {
+    "eyebrow": "Legal",
+    "title": "Contracts",
+    "lead": "Anika Poluru holds the MSAs. Cedar’s facilities blanket is the one that actually expires this month."
+  },
+  "spend": {
+    "eyebrow": "FY26",
+    "title": "Spend",
+    "leadTemplate": "Priya Poluru’s book: {spent} posted against {budget}. Cloud still leads."
+  },
+  "settings": {
+    "eyebrow": "Workspace",
+    "title": "Settings",
+    "lead": "Poluru Works buy-desk defaults, approval thresholds, and Atlas notifications."
+  },
+  "search": {
+    "eyebrow": "Find anything",
+    "title": "Search",
+    "lead": "Requests, suppliers, contracts, and people in one index."
+  },
+  "routeTitles": {
+    "overview": "Overview",
+    "requests": "Requests",
+    "request": "Request",
+    "approvals": "Approvals",
+    "suppliers": "Suppliers",
+    "contracts": "Contracts",
+    "spend": "Spend",
+    "settings": "Settings",
+    "search": "Search"
+  }
+}

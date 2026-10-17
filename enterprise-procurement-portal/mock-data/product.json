@@ -1,0 +1,24 @@
+{
+  "productName": "Atlas",
+  "productLine": "Procurement",
+  "workspaceName": "Poluru Works",
+  "brandColor": "#FF5722",
+  "headerCanvas": "#FFF4F0",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@poluruworks.example",
+    "role": "Head of procurement"
+  },
+  "workspace": {
+    "name": "Poluru Works",
+    "period": "FY26 · September",
+    "timezone": "America / Chicago",
+    "budget": 4800000,
+    "spent": 1240000,
+    "budgetFormatted": "$4.80M",
+    "spentFormatted": "$1.24M",
+    "budgetRemaining": 3560000,
+    "budgetRemainingFormatted": "$3.56M",
+    "spentPercentOfBudget": 26
+  }
+}

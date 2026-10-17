@@ -1,0 +1,24 @@
+{
+  "options": [
+    {
+      "label": "IT",
+      "value": "IT"
+    },
+    {
+      "label": "Facilities",
+      "value": "Facilities"
+    },
+    {
+      "label": "Professional services",
+      "value": "Professional services"
+    },
+    {
+      "label": "Cloud",
+      "value": "Cloud"
+    },
+    {
+      "label": "Office",
+      "value": "Office"
+    }
+  ]
+}

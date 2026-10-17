@@ -1,0 +1,21 @@
+{
+  "cfoThresholdUsd": 25000,
+  "contractExpiryReminders": true,
+  "weeklySpendDigestTo": "Priya Poluru",
+  "density": "comfortable",
+  "defaultCategory": "IT",
+  "defaultCategoryOptions": [
+    {
+      "label": "IT",
+      "value": "IT"
+    },
+    {
+      "label": "Cloud",
+      "value": "Cloud"
+    },
+    {
+      "label": "Facilities",
+      "value": "Facilities"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Buy-desk pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "New request",
+      "description": "Open a PR",
+      "href": "#add-request",
+      "icon": "plus"
+    },
+    {
+      "label": "Approvals",
+      "description": "Waiting on finance or legal",
+      "href": "#/approvals",
+      "icon": "check"
+    },
+    {
+      "label": "Suppliers",
+      "description": "Compare quotes",
+      "href": "#/suppliers",
+      "icon": "folder"
+    },
+    {
+      "label": "Contracts",
+      "description": "MSAs and SOWs",
+      "href": "#/contracts",
+      "icon": "star"
+    },
+    {
+      "label": "Spend",
+      "description": "YTD vs budget",
+      "href": "#/spend",
+      "icon": "download"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

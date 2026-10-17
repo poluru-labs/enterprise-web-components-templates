@@ -1,0 +1,80 @@
+{
+  "heading": "New purchase request",
+  "defaults": {
+    "amount": 12000,
+    "category": "IT",
+    "requester": "Subbu Poluru"
+  },
+  "placeholders": {
+    "title": "Laptop fleet refresh",
+    "supplier": "Northline Hardware"
+  },
+  "requesterOptions": [
+    {
+      "label": "Subbu Poluru",
+      "value": "Subbu Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "value": "Ishaan Poluru"
+    },
+    {
+      "label": "Leela Poluru",
+      "value": "Leela Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    }
+  ],
+  "categoryOptions": [
+    {
+      "label": "IT",
+      "value": "IT"
+    },
+    {
+      "label": "Facilities",
+      "value": "Facilities"
+    },
+    {
+      "label": "Professional services",
+      "value": "Professional services"
+    },
+    {
+      "label": "Cloud",
+      "value": "Cloud"
+    },
+    {
+      "label": "Office",
+      "value": "Office"
+    }
+  ]
+}

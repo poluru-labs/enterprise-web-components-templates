@@ -1,0 +1,270 @@
+{
+  "items": [
+    {
+      "label": "PR-1042 Laptop fleet refresh",
+      "description": "Leela Poluru · pending",
+      "owner": "Leela Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1042"
+    },
+    {
+      "label": "PR-1041 Helio Cloud seats",
+      "description": "Dev Poluru · approved",
+      "owner": "Dev Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1041"
+    },
+    {
+      "label": "PR-1038 Studio task chairs",
+      "description": "Nikhil Poluru · draft",
+      "owner": "Nikhil Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1038"
+    },
+    {
+      "label": "PR-1036 Warehouse label stock",
+      "description": "Rohan Poluru · ordered",
+      "owner": "Rohan Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1036"
+    },
+    {
+      "label": "PR-1033 Design tool licenses",
+      "description": "Kavya Poluru · received",
+      "owner": "Kavya Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1033"
+    },
+    {
+      "label": "PR-1029 SOC 2 evidence support",
+      "description": "Anika Poluru · pending",
+      "owner": "Anika Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1029"
+    },
+    {
+      "label": "PR-1024 Austin millwork",
+      "description": "Nikhil Poluru · rejected",
+      "owner": "Nikhil Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1024"
+    },
+    {
+      "label": "PR-1021 API gateway add-on",
+      "description": "Dev Poluru · approved",
+      "owner": "Dev Poluru",
+      "type": "Request",
+      "href": "#/request/pr-1021"
+    },
+    {
+      "label": "Northline Hardware",
+      "description": "IT hardware · score 92",
+      "owner": "Ishaan Poluru",
+      "type": "Supplier",
+      "href": "#/suppliers"
+    },
+    {
+      "label": "Cedar & Bolt",
+      "description": "Facilities · score 81",
+      "owner": "Nikhil Poluru",
+      "type": "Supplier",
+      "href": "#/suppliers"
+    },
+    {
+      "label": "Helio Cloud",
+      "description": "Cloud · score 88",
+      "owner": "Maya Poluru",
+      "type": "Supplier",
+      "href": "#/suppliers"
+    },
+    {
+      "label": "Folio Print",
+      "description": "Office · score 76",
+      "owner": "Kavya Poluru",
+      "type": "Supplier",
+      "href": "#/suppliers"
+    },
+    {
+      "label": "Quill Software",
+      "description": "SaaS · score 85",
+      "owner": "Maya Poluru",
+      "type": "Supplier",
+      "href": "#/suppliers"
+    },
+    {
+      "label": "Alder Advisory",
+      "description": "Services · score 79",
+      "owner": "Anika Poluru",
+      "type": "Supplier",
+      "href": "#/suppliers"
+    },
+    {
+      "label": "Helio Cloud MSA",
+      "description": "Helio Cloud · active",
+      "owner": "Maya Poluru",
+      "type": "Contract",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Northline hardware schedule",
+      "description": "Northline Hardware · active",
+      "owner": "Ishaan Poluru",
+      "type": "Contract",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Quill design suite",
+      "description": "Quill Software · active",
+      "owner": "Kavya Poluru",
+      "type": "Contract",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Alder Advisory SOW",
+      "description": "Alder Advisory · in_review",
+      "owner": "Anika Poluru",
+      "type": "Contract",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Cedar facilities blanket",
+      "description": "Cedar & Bolt · expiring",
+      "owner": "Nikhil Poluru",
+      "type": "Contract",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Folio print retainer",
+      "description": "Folio Print · active",
+      "owner": "Kavya Poluru",
+      "type": "Contract",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Subbu Poluru",
+      "description": "Head of procurement · Buy desk",
+      "owner": "Subbu Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Maya Poluru",
+      "description": "Category lead · IT · Buy desk",
+      "owner": "Maya Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Buyer · Buy desk",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "CFO · Finance",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "General counsel · Legal",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Facilities lead · Workplace",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "COO · Operations",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Controller · Finance",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "description": "Supplier manager · Buy desk",
+      "owner": "Ishaan Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Leela Poluru",
+      "description": "Product ops · Product",
+      "owner": "Leela Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Engineering manager · Engineering",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Overview",
+      "description": "Buy-desk pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "New request",
+      "description": "Open a PR",
+      "href": "#add-request",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Approvals",
+      "description": "Waiting on finance or legal",
+      "href": "#/approvals",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Suppliers",
+      "description": "Compare quotes",
+      "href": "#/suppliers",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Contracts",
+      "description": "MSAs and SOWs",
+      "href": "#/contracts",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Spend",
+      "description": "YTD vs budget",
+      "href": "#/spend",
+      "icon": "download",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

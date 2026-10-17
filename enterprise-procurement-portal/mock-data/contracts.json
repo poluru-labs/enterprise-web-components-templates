@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "id": "ct-helio",
+      "name": "Helio Cloud MSA",
+      "supplier": "Helio Cloud",
+      "owner": "Maya Poluru",
+      "value": 420000,
+      "status": "active",
+      "renews": "2027-03-01",
+      "term": "24 months"
+    },
+    {
+      "id": "ct-northline",
+      "name": "Northline hardware schedule",
+      "supplier": "Northline Hardware",
+      "owner": "Ishaan Poluru",
+      "value": 180000,
+      "status": "active",
+      "renews": "2026-12-15",
+      "term": "12 months"
+    },
+    {
+      "id": "ct-quill",
+      "name": "Quill design suite",
+      "supplier": "Quill Software",
+      "owner": "Kavya Poluru",
+      "value": 38400,
+      "status": "active",
+      "renews": "2026-11-02",
+      "term": "12 months"
+    },
+    {
+      "id": "ct-alder",
+      "name": "Alder Advisory SOW",
+      "supplier": "Alder Advisory",
+      "owner": "Anika Poluru",
+      "value": 42000,
+      "status": "in_review",
+      "renews": "2026-09-30",
+      "term": "6 months"
+    },
+    {
+      "id": "ct-cedar",
+      "name": "Cedar facilities blanket",
+      "supplier": "Cedar & Bolt",
+      "owner": "Nikhil Poluru",
+      "value": 96000,
+      "status": "expiring",
+      "renews": "2026-09-20",
+      "term": "12 months"
+    },
+    {
+      "id": "ct-folio",
+      "name": "Folio print retainer",
+      "supplier": "Folio Print",
+      "owner": "Kavya Poluru",
+      "value": 18000,
+      "status": "active",
+      "renews": "2027-01-12",
+      "term": "12 months"
+    }
+  ]
+}

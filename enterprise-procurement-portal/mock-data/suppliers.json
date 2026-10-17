@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "id": "sup-northline",
+      "name": "Northline Hardware",
+      "category": "IT hardware",
+      "score": 92,
+      "lead": "5 days",
+      "priceIndex": 98,
+      "owner": "Ishaan Poluru",
+      "status": "preferred",
+      "quote": 48200,
+      "notes": "Austin warehouse. Honest packing lists."
+    },
+    {
+      "id": "sup-cedar",
+      "name": "Cedar & Bolt",
+      "category": "Facilities",
+      "score": 81,
+      "lead": "12 days",
+      "priceIndex": 104,
+      "owner": "Nikhil Poluru",
+      "status": "active",
+      "quote": 19120,
+      "notes": "Chairs and millwork. Watch freight."
+    },
+    {
+      "id": "sup-helio",
+      "name": "Helio Cloud",
+      "category": "Cloud",
+      "score": 88,
+      "lead": "2 days",
+      "priceIndex": 101,
+      "owner": "Maya Poluru",
+      "status": "preferred",
+      "quote": 126000,
+      "notes": "MSA through 2027. Seat true-up in March."
+    },
+    {
+      "id": "sup-folio",
+      "name": "Folio Print",
+      "category": "Office",
+      "score": 76,
+      "lead": "7 days",
+      "priceIndex": 90,
+      "owner": "Kavya Poluru",
+      "status": "active",
+      "quote": 6200,
+      "notes": "Labels and letterhead. Recycled stock."
+    },
+    {
+      "id": "sup-quill",
+      "name": "Quill Software",
+      "category": "SaaS",
+      "score": 85,
+      "lead": "1 day",
+      "priceIndex": 96,
+      "owner": "Maya Poluru",
+      "status": "preferred",
+      "quote": 9840,
+      "notes": "Design suite. Annual, not monthly."
+    },
+    {
+      "id": "sup-alder",
+      "name": "Alder Advisory",
+      "category": "Services",
+      "score": 79,
+      "lead": "14 days",
+      "priceIndex": 110,
+      "owner": "Anika Poluru",
+      "status": "watch",
+      "quote": 42000,
+      "notes": "SOC 2 evidence. Anika Poluru holds the SOW."
+    }
+  ]
+}

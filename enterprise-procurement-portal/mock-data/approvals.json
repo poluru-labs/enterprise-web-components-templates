@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "id": "ap-1",
+      "requestId": "pr-1042",
+      "title": "PR-1042 Laptop fleet refresh",
+      "amount": 48200,
+      "owner": "Arjun Poluru",
+      "waiting": "4 days",
+      "status": "pending",
+      "note": "Over the $25k IT threshold."
+    },
+    {
+      "id": "ap-2",
+      "requestId": "pr-1029",
+      "title": "PR-1029 SOC 2 evidence support",
+      "amount": 42000,
+      "owner": "Anika Poluru",
+      "waiting": "2 days",
+      "status": "pending",
+      "note": "Legal must countersign the SOW."
+    },
+    {
+      "id": "ap-3",
+      "requestId": "pr-1041",
+      "title": "PR-1041 Helio Cloud seats",
+      "amount": 126000,
+      "owner": "Arjun Poluru",
+      "waiting": "Done",
+      "status": "approved",
+      "note": "Seats locked for FY26."
+    },
+    {
+      "id": "ap-4",
+      "requestId": "pr-1024",
+      "title": "PR-1024 Austin millwork",
+      "amount": 88500,
+      "owner": "Arjun Poluru",
+      "waiting": "Done",
+      "status": "rejected",
+      "note": "Use the existing vendor bid first."
+    },
+    {
+      "id": "ap-5",
+      "requestId": "pr-1021",
+      "title": "PR-1021 API gateway add-on",
+      "amount": 61000,
+      "owner": "Subbu Poluru",
+      "waiting": "Done",
+      "status": "approved",
+      "note": "Covered in the Helio MSA."
+    },
+    {
+      "id": "ap-6",
+      "requestId": "pr-1033",
+      "title": "PR-1033 Design tool licenses",
+      "amount": 9840,
+      "owner": "Maya Poluru",
+      "waiting": "Done",
+      "status": "approved",
+      "note": "Under Maya Poluru’s IT limit."
+    }
+  ]
+}

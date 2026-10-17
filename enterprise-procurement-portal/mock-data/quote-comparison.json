@@ -1,0 +1,38 @@
+{
+  "title": "Quote comparison · laptop fleet",
+  "badge": "PR-1042",
+  "suppliersCompared": [
+    {
+      "name": "Northline Hardware",
+      "quote": 48200,
+      "lead": "5 days",
+      "score": 92,
+      "priceIndex": 98,
+      "owner": "Ishaan Poluru"
+    },
+    {
+      "name": "Cedar & Bolt",
+      "quote": 19120,
+      "lead": "12 days",
+      "score": 81,
+      "priceIndex": 104,
+      "owner": "Nikhil Poluru"
+    },
+    {
+      "name": "Helio Cloud",
+      "quote": 126000,
+      "lead": "2 days",
+      "score": 88,
+      "priceIndex": 101,
+      "owner": "Maya Poluru"
+    },
+    {
+      "name": "Folio Print",
+      "quote": 6200,
+      "lead": "7 days",
+      "score": 76,
+      "priceIndex": 90,
+      "owner": "Kavya Poluru"
+    }
+  ]
+}

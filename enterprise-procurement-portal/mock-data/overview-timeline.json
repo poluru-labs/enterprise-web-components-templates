@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "PR-1042 sent to Arjun Poluru",
+      "description": "Laptop fleet · $48,200",
+      "timestamp": "3 Sep",
+      "icon": "clock"
+    },
+    {
+      "label": "Helio Cloud seats approved",
+      "description": "Dev Poluru · order next",
+      "timestamp": "2 Sep",
+      "icon": "check"
+    },
+    {
+      "label": "Design licenses received",
+      "description": "Kavya Poluru · Quill Software",
+      "timestamp": "1 Sep",
+      "icon": "folder"
+    },
+    {
+      "label": "Austin millwork rejected",
+      "description": "Use the Cedar bid on file",
+      "timestamp": "29 Aug",
+      "icon": "alert-triangle"
+    }
+  ]
+}

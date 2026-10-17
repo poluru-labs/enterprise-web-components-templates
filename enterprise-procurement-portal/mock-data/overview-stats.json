@@ -1,0 +1,54 @@
+{
+  "stats": [
+    {
+      "label": "YTD spend",
+      "value": "$1.24M",
+      "hint": "of $4.80M FY26 budget",
+      "trend": "up",
+      "trendValue": "26%"
+    },
+    {
+      "label": "Open requests",
+      "value": "6",
+      "hint": "2 awaiting a signature",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    {
+      "label": "Pending approvals",
+      "value": "2",
+      "hint": "Oldest is PR-1042",
+      "trend": "down",
+      "trendValue": "−1"
+    },
+    {
+      "label": "Awarded savings",
+      "value": "$186k",
+      "hint": "vs first quote this year",
+      "trend": "up",
+      "trendValue": "+12%"
+    }
+  ],
+  "pendingApprovals": [
+    {
+      "id": "ap-1",
+      "requestId": "pr-1042",
+      "title": "PR-1042 Laptop fleet refresh",
+      "amount": 48200,
+      "owner": "Arjun Poluru",
+      "waiting": "4 days",
+      "status": "pending",
+      "note": "Over the $25k IT threshold."
+    },
+    {
+      "id": "ap-2",
+      "requestId": "pr-1029",
+      "title": "PR-1029 SOC 2 evidence support",
+      "amount": 42000,
+      "owner": "Anika Poluru",
+      "waiting": "2 days",
+      "status": "pending",
+      "note": "Legal must countersign the SOW."
+    }
+  ]
+}

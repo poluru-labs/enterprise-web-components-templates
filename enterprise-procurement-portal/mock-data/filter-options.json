@@ -1,0 +1,100 @@
+{
+  "requests": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Draft",
+        "value": "draft"
+      },
+      {
+        "label": "Pending",
+        "value": "pending"
+      },
+      {
+        "label": "Approved",
+        "value": "approved"
+      },
+      {
+        "label": "Ordered",
+        "value": "ordered"
+      },
+      {
+        "label": "Received",
+        "value": "received"
+      },
+      {
+        "label": "Rejected",
+        "value": "rejected"
+      }
+    ],
+    "category": [
+      {
+        "label": "All categories",
+        "value": ""
+      },
+      {
+        "label": "IT",
+        "value": "IT"
+      },
+      {
+        "label": "Facilities",
+        "value": "Facilities"
+      },
+      {
+        "label": "Professional services",
+        "value": "Professional services"
+      },
+      {
+        "label": "Cloud",
+        "value": "Cloud"
+      },
+      {
+        "label": "Office",
+        "value": "Office"
+      }
+    ]
+  },
+  "contracts": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Active",
+        "value": "active"
+      },
+      {
+        "label": "In review",
+        "value": "in_review"
+      },
+      {
+        "label": "Expiring",
+        "value": "expiring"
+      }
+    ]
+  },
+  "suppliers": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Preferred",
+        "value": "preferred"
+      },
+      {
+        "label": "Active",
+        "value": "active"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      }
+    ]
+  }
+}
