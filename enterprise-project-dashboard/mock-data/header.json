@@ -1,0 +1,24 @@
+{
+  "brandMark": "V",
+  "searchPlaceholder": "Find a project, task, or teammate",
+  "commandPaletteKbd": "⌘K",
+  "newTaskLabel": "New task",
+  "sprintStrip": {
+    "sprintName": "Sprint 34",
+    "daysLeft": 4,
+    "daysTotal": 10,
+    "focus": "Checkout tokenize",
+    "burndownTicks": [
+      1,
+      0.94,
+      0.88,
+      0.82,
+      0.76,
+      0.7,
+      0.64,
+      0.58,
+      0.52,
+      0.46
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "overviewRisk": {
+    "variant": "warning",
+    "dismissible": true,
+    "title": "Two amber dependencies",
+    "message": "Nimbus Inventory missed two nightly SKU syncs. Cedar data residency is in legal review."
+  },
+  "risksNimbusFeed": {
+    "variant": "danger",
+    "title": "Nimbus SKU feed",
+    "message": "Nightly sync missed twice. Retry queue is the mitigation owned by Nikhil Poluru."
+  }
+}

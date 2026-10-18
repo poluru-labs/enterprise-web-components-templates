@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Projects",
+      "href": "#/projects",
+      "icon": "folder"
+    },
+    {
+      "label": "Board",
+      "href": "#/board",
+      "icon": "star"
+    },
+    {
+      "label": "Timeline",
+      "href": "#/timeline",
+      "icon": "eye"
+    },
+    {
+      "label": "Tasks",
+      "href": "#/tasks",
+      "icon": "check"
+    },
+    {
+      "label": "Sprints",
+      "href": "#/sprints",
+      "icon": "refresh"
+    },
+    {
+      "label": "Team",
+      "href": "#/team",
+      "icon": "user"
+    },
+    {
+      "label": "Risks",
+      "href": "#/risks",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Time",
+      "href": "#/time",
+      "icon": "clock"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "file"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

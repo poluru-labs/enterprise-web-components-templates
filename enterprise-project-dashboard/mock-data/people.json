@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "id": "p_ananya",
+      "name": "Ananya Poluru",
+      "role": "Delivery lead",
+      "squad": "Platform",
+      "capacity": 82,
+      "rating": 5
+    },
+    {
+      "id": "p_kavya",
+      "name": "Kavya Poluru",
+      "role": "Product designer",
+      "squad": "Experience",
+      "capacity": 72,
+      "rating": 5
+    },
+    {
+      "id": "p_arjun",
+      "name": "Arjun Poluru",
+      "role": "Engineering manager",
+      "squad": "Platform",
+      "capacity": 88,
+      "rating": 4
+    },
+    {
+      "id": "p_meera",
+      "name": "Meera Poluru",
+      "role": "Frontend engineer",
+      "squad": "Experience",
+      "capacity": 91,
+      "rating": 5
+    },
+    {
+      "id": "p_vikram",
+      "name": "Vikram Poluru",
+      "role": "Backend engineer",
+      "squad": "Platform",
+      "capacity": 76,
+      "rating": 4
+    },
+    {
+      "id": "p_priya",
+      "name": "Priya Poluru",
+      "role": "QA lead",
+      "squad": "Quality",
+      "capacity": 68,
+      "rating": 5
+    },
+    {
+      "id": "p_rohan",
+      "name": "Rohan Poluru",
+      "role": "Mobile engineer",
+      "squad": "Field",
+      "capacity": 62,
+      "rating": 4
+    },
+    {
+      "id": "p_sahana",
+      "name": "Sahana Poluru",
+      "role": "Data analyst",
+      "squad": "Insights",
+      "capacity": 58,
+      "rating": 4
+    },
+    {
+      "id": "p_nikhil",
+      "name": "Nikhil Poluru",
+      "role": "DevOps",
+      "squad": "Platform",
+      "capacity": 74,
+      "rating": 5
+    },
+    {
+      "id": "p_elena",
+      "name": "Elena Poluru",
+      "role": "Content lead",
+      "squad": "Experience",
+      "capacity": 52,
+      "rating": 4
+    }
+  ]
+}

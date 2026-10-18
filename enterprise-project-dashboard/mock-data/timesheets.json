@@ -1,0 +1,90 @@
+{
+  "weekLabel": "Week of 1 Sep",
+  "columns": [
+    {
+      "key": "person",
+      "label": "Person",
+      "sortable": true
+    },
+    {
+      "key": "project",
+      "label": "Project"
+    },
+    {
+      "key": "mon",
+      "label": "Mon"
+    },
+    {
+      "key": "tue",
+      "label": "Tue"
+    },
+    {
+      "key": "wed",
+      "label": "Wed"
+    },
+    {
+      "key": "thu",
+      "label": "Thu"
+    },
+    {
+      "key": "fri",
+      "label": "Fri"
+    }
+  ],
+  "rows": [
+    {
+      "person": "Ananya Poluru",
+      "project": "Harbor Checkout",
+      "mon": 6,
+      "tue": 7,
+      "wed": 6,
+      "thu": 5,
+      "fri": 4
+    },
+    {
+      "person": "Meera Poluru",
+      "project": "Oak Storefront",
+      "mon": 8,
+      "tue": 8,
+      "wed": 7,
+      "thu": 8,
+      "fri": 6
+    },
+    {
+      "person": "Vikram Poluru",
+      "project": "Harbor Checkout",
+      "mon": 8,
+      "tue": 7,
+      "wed": 8,
+      "thu": 8,
+      "fri": 7
+    },
+    {
+      "person": "Rohan Poluru",
+      "project": "Fieldline Mobile",
+      "mon": 6,
+      "tue": 6,
+      "wed": 5,
+      "thu": 4,
+      "fri": 3
+    },
+    {
+      "person": "Priya Poluru",
+      "project": "River Compliance Suite",
+      "mon": 5,
+      "tue": 6,
+      "wed": 6,
+      "thu": 5,
+      "fri": 4
+    },
+    {
+      "person": "Sahana Poluru",
+      "project": "Cedar Analytics Hub",
+      "mon": 7,
+      "tue": 7,
+      "wed": 6,
+      "thu": 6,
+      "fri": 5
+    }
+  ]
+}

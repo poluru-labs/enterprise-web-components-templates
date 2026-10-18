@@ -1,0 +1,117 @@
+{
+  "heading": "New task",
+  "steps": [
+    {
+      "label": "Basics",
+      "description": "Name and project"
+    },
+    {
+      "label": "Plan",
+      "description": "Owner and points"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "defaults": {
+    "points": 3,
+    "priority": "med",
+    "ownerId": "p_ananya"
+  },
+  "placeholders": {
+    "title": "Tokenize checkout fields",
+    "notes": "Acceptance and who unblocks this."
+  },
+  "projectOptions": [
+    {
+      "label": "Harbor Checkout",
+      "value": "prj_harbor"
+    },
+    {
+      "label": "Lumen Patient Portal",
+      "value": "prj_lumen"
+    },
+    {
+      "label": "Nimbus Inventory",
+      "value": "prj_nimbus"
+    },
+    {
+      "label": "Brightline Design System",
+      "value": "prj_brightline"
+    },
+    {
+      "label": "Oak Storefront",
+      "value": "prj_oak"
+    },
+    {
+      "label": "Fieldline Mobile",
+      "value": "prj_mobile"
+    },
+    {
+      "label": "Cedar Analytics Hub",
+      "value": "prj_cedar"
+    },
+    {
+      "label": "River Compliance Suite",
+      "value": "prj_river"
+    }
+  ],
+  "ownerOptions": [
+    {
+      "label": "Ananya Poluru",
+      "value": "p_ananya"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "p_kavya"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "p_arjun"
+    },
+    {
+      "label": "Meera Poluru",
+      "value": "p_meera"
+    },
+    {
+      "label": "Vikram Poluru",
+      "value": "p_vikram"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "p_priya"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "p_rohan"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "p_sahana"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "p_nikhil"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "p_elena"
+    }
+  ],
+  "priorityOptions": [
+    {
+      "value": "low",
+      "label": "Low"
+    },
+    {
+      "value": "med",
+      "label": "Medium"
+    },
+    {
+      "value": "high",
+      "label": "High"
+    }
+  ],
+  "pinLength": 4
+}

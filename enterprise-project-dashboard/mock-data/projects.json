@@ -1,0 +1,109 @@
+{
+  "rows": [
+    {
+      "id": "prj_harbor",
+      "name": "Harbor Checkout",
+      "client": "Harbor & Co.",
+      "owner": "Ananya Poluru",
+      "status": "On track",
+      "health": 94,
+      "due": "12 Sep 2026",
+      "budget": "$184k",
+      "spent": "$128k",
+      "squad": "Platform",
+      "type": "Build"
+    },
+    {
+      "id": "prj_lumen",
+      "name": "Lumen Patient Portal",
+      "client": "Lumen Health",
+      "owner": "Arjun Poluru",
+      "status": "On track",
+      "health": 89,
+      "due": "30 Sep 2026",
+      "budget": "$246k",
+      "spent": "$168k",
+      "squad": "Experience",
+      "type": "Build"
+    },
+    {
+      "id": "prj_nimbus",
+      "name": "Nimbus Inventory",
+      "client": "Nimbus Retail",
+      "owner": "Vikram Poluru",
+      "status": "At risk",
+      "health": 62,
+      "due": "18 Sep 2026",
+      "budget": "$96k",
+      "spent": "$74k",
+      "squad": "Platform",
+      "type": "Integration"
+    },
+    {
+      "id": "prj_brightline",
+      "name": "Brightline Design System",
+      "client": "Brightline Labs",
+      "owner": "Kavya Poluru",
+      "status": "On track",
+      "health": 96,
+      "due": "8 Oct 2026",
+      "budget": "$72k",
+      "spent": "$32k",
+      "squad": "Experience",
+      "type": "Design"
+    },
+    {
+      "id": "prj_oak",
+      "name": "Oak Storefront",
+      "client": "Oak & Pine",
+      "owner": "Meera Poluru",
+      "status": "Watch",
+      "health": 73,
+      "due": "22 Oct 2026",
+      "budget": "$58k",
+      "spent": "$22k",
+      "squad": "Field",
+      "type": "Build"
+    },
+    {
+      "id": "prj_mobile",
+      "name": "Fieldline Mobile",
+      "client": "Fieldline Studio",
+      "owner": "Rohan Poluru",
+      "status": "On track",
+      "health": 83,
+      "due": "14 Nov 2026",
+      "budget": "$128k",
+      "spent": "$48k",
+      "squad": "Field",
+      "type": "Build"
+    },
+    {
+      "id": "prj_cedar",
+      "name": "Cedar Analytics Hub",
+      "client": "Cedar Partners",
+      "owner": "Sahana Poluru",
+      "status": "On track",
+      "health": 87,
+      "due": "25 Sep 2026",
+      "budget": "$112k",
+      "spent": "$54k",
+      "squad": "Insights",
+      "type": "Integration"
+    },
+    {
+      "id": "prj_river",
+      "name": "River Compliance Suite",
+      "client": "River Mutual",
+      "owner": "Priya Poluru",
+      "status": "Watch",
+      "health": 71,
+      "due": "6 Oct 2026",
+      "budget": "$88k",
+      "spent": "$36k",
+      "squad": "Quality",
+      "type": "Build"
+    }
+  ],
+  "count": 8
+}

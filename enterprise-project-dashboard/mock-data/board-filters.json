@@ -1,0 +1,47 @@
+{
+  "drawerHeading": "Board filters",
+  "defaults": {
+    "onlyMyCards": true,
+    "hideDone": false,
+    "maxPoints": 8
+  },
+  "projectOptions": [
+    {
+      "label": "Harbor Checkout",
+      "value": "prj_harbor"
+    },
+    {
+      "label": "Lumen Patient Portal",
+      "value": "prj_lumen"
+    },
+    {
+      "label": "Nimbus Inventory",
+      "value": "prj_nimbus"
+    },
+    {
+      "label": "Brightline Design System",
+      "value": "prj_brightline"
+    },
+    {
+      "label": "Oak Storefront",
+      "value": "prj_oak"
+    },
+    {
+      "label": "Fieldline Mobile",
+      "value": "prj_mobile"
+    },
+    {
+      "label": "Cedar Analytics Hub",
+      "value": "prj_cedar"
+    },
+    {
+      "label": "River Compliance Suite",
+      "value": "prj_river"
+    }
+  ],
+  "pointsSlider": {
+    "min": 1,
+    "max": 13,
+    "value": 8
+  }
+}

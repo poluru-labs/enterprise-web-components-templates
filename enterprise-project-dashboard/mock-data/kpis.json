@@ -1,0 +1,90 @@
+{
+  "all": [
+    {
+      "label": "Active projects",
+      "value": "14",
+      "hint": "4 launching in September",
+      "trend": "up",
+      "trendValue": "+2"
+    },
+    {
+      "label": "On schedule",
+      "value": "86%",
+      "hint": "12 of 14 in green",
+      "trend": "up",
+      "trendValue": "+4 pts"
+    },
+    {
+      "label": "Open tasks",
+      "value": "156",
+      "hint": "38 due this sprint",
+      "trend": "down",
+      "trendValue": "-12"
+    },
+    {
+      "label": "Sprint health",
+      "value": "79%",
+      "hint": "22 of 28 points done",
+      "trend": "up",
+      "trendValue": "+6 pts"
+    },
+    {
+      "label": "Team capacity",
+      "value": "78%",
+      "hint": "43 of 55 days booked",
+      "trend": "flat",
+      "trendValue": "Steady"
+    },
+    {
+      "label": "Blocked",
+      "value": "5",
+      "hint": "1 waiting on legal",
+      "trend": "down",
+      "trendValue": "-2"
+    },
+    {
+      "label": "Logged hours",
+      "value": "328",
+      "hint": "This sprint",
+      "trend": "up",
+      "trendValue": "+18h"
+    },
+    {
+      "label": "Risk score",
+      "value": "Medium",
+      "hint": "Two amber dependencies",
+      "trend": "flat",
+      "trendValue": "Watch"
+    }
+  ],
+  "overviewPrimary": [
+    {
+      "label": "Active projects",
+      "value": "14",
+      "hint": "4 launching in September",
+      "trend": "up",
+      "trendValue": "+2"
+    },
+    {
+      "label": "On schedule",
+      "value": "86%",
+      "hint": "12 of 14 in green",
+      "trend": "up",
+      "trendValue": "+4 pts"
+    },
+    {
+      "label": "Open tasks",
+      "value": "156",
+      "hint": "38 due this sprint",
+      "trend": "down",
+      "trendValue": "-12"
+    },
+    {
+      "label": "Sprint health",
+      "value": "79%",
+      "hint": "22 of 28 points done",
+      "trend": "up",
+      "trendValue": "+6 pts"
+    }
+  ]
+}

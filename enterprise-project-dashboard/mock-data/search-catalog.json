@@ -1,0 +1,298 @@
+{
+  "items": [
+    {
+      "label": "Harbor Checkout",
+      "description": "Harbor & Co. · On track",
+      "owner": "Ananya Poluru",
+      "type": "Project",
+      "href": "#/project/prj_harbor"
+    },
+    {
+      "label": "Lumen Patient Portal",
+      "description": "Lumen Health · On track",
+      "owner": "Arjun Poluru",
+      "type": "Project",
+      "href": "#/project/prj_lumen"
+    },
+    {
+      "label": "Nimbus Inventory",
+      "description": "Nimbus Retail · At risk",
+      "owner": "Vikram Poluru",
+      "type": "Project",
+      "href": "#/project/prj_nimbus"
+    },
+    {
+      "label": "Brightline Design System",
+      "description": "Brightline Labs · On track",
+      "owner": "Kavya Poluru",
+      "type": "Project",
+      "href": "#/project/prj_brightline"
+    },
+    {
+      "label": "Oak Storefront",
+      "description": "Oak & Pine · Watch",
+      "owner": "Meera Poluru",
+      "type": "Project",
+      "href": "#/project/prj_oak"
+    },
+    {
+      "label": "Fieldline Mobile",
+      "description": "Fieldline Studio · On track",
+      "owner": "Rohan Poluru",
+      "type": "Project",
+      "href": "#/project/prj_mobile"
+    },
+    {
+      "label": "Cedar Analytics Hub",
+      "description": "Cedar Partners · On track",
+      "owner": "Sahana Poluru",
+      "type": "Project",
+      "href": "#/project/prj_cedar"
+    },
+    {
+      "label": "River Compliance Suite",
+      "description": "River Mutual · Watch",
+      "owner": "Priya Poluru",
+      "type": "Project",
+      "href": "#/project/prj_river"
+    },
+    {
+      "label": "Tokenize checkout fields",
+      "description": "Harbor Checkout · In progress",
+      "owner": "Vikram Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Accessibility pass on cart",
+      "description": "Harbor Checkout · Review",
+      "owner": "Kavya Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Lab results API contract",
+      "description": "Lumen Patient Portal · In progress",
+      "owner": "Arjun Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Patient consent copy",
+      "description": "Lumen Patient Portal · To do",
+      "owner": "Elena Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "SKU sync retry queue",
+      "description": "Nimbus Inventory · Blocked",
+      "owner": "Nikhil Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Cycle count mobile flow",
+      "description": "Nimbus Inventory · To do",
+      "owner": "Rohan Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Button tokens v2",
+      "description": "Brightline Design System · Done",
+      "owner": "Meera Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Icon set audit",
+      "description": "Brightline Design System · Review",
+      "owner": "Kavya Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Storefront PDP templates",
+      "description": "Oak Storefront · In progress",
+      "owner": "Meera Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Offline sync for visits",
+      "description": "Fieldline Mobile · To do",
+      "owner": "Rohan Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Load test checkout",
+      "description": "Harbor Checkout · To do",
+      "owner": "Priya Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Release notes 1.8",
+      "description": "Fieldline Mobile · Done",
+      "owner": "Elena Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "ETL pipeline for Cedar",
+      "description": "Cedar Analytics Hub · In progress",
+      "owner": "Sahana Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Audit log retention policy",
+      "description": "River Compliance Suite · Review",
+      "owner": "Priya Poluru",
+      "type": "Task",
+      "href": "#/tasks"
+    },
+    {
+      "label": "Legal copy for consent",
+      "description": "Lumen Patient Portal · Amber",
+      "owner": "Elena Poluru",
+      "type": "Risk",
+      "href": "#/risks"
+    },
+    {
+      "label": "Vendor SKU feed downtime",
+      "description": "Nimbus Inventory · Red",
+      "owner": "Nikhil Poluru",
+      "type": "Risk",
+      "href": "#/risks"
+    },
+    {
+      "label": "Designer bandwidth",
+      "description": "Brightline Design System · Green",
+      "owner": "Kavya Poluru",
+      "type": "Risk",
+      "href": "#/risks"
+    },
+    {
+      "label": "App Store review window",
+      "description": "Fieldline Mobile · Amber",
+      "owner": "Rohan Poluru",
+      "type": "Risk",
+      "href": "#/risks"
+    },
+    {
+      "label": "Cedar data residency clause",
+      "description": "Cedar Analytics Hub · Amber",
+      "owner": "Sahana Poluru",
+      "type": "Risk",
+      "href": "#/risks"
+    },
+    {
+      "label": "River audit export format",
+      "description": "River Compliance Suite · Green",
+      "owner": "Priya Poluru",
+      "type": "Risk",
+      "href": "#/risks"
+    },
+    {
+      "label": "Ananya Poluru",
+      "description": "Delivery lead · Platform",
+      "owner": "Ananya Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Product designer · Experience",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Engineering manager · Platform",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Meera Poluru",
+      "description": "Frontend engineer · Experience",
+      "owner": "Meera Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Vikram Poluru",
+      "description": "Backend engineer · Platform",
+      "owner": "Vikram Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "QA lead · Quality",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Mobile engineer · Field",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "Data analyst · Insights",
+      "owner": "Sahana Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "DevOps · Platform",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Content lead · Experience",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/team"
+    },
+    {
+      "label": "Sprint burndown",
+      "description": "Updated 1 Sep 2026",
+      "owner": "Ananya Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Capacity by squad",
+      "description": "Updated 31 Aug 2026",
+      "owner": "Sahana Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Risk register",
+      "description": "Updated 30 Aug 2026",
+      "owner": "Priya Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Time by project",
+      "description": "Updated 1 Sep 2026",
+      "owner": "Arjun Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    }
+  ]
+}

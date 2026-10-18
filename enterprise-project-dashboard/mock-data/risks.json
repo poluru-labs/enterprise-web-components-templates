@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "id": "r1",
+      "title": "Legal copy for consent",
+      "owner": "Elena Poluru",
+      "project": "Lumen Patient Portal",
+      "severity": "Amber",
+      "due": "4 Sep",
+      "note": "Counsel review is two days late. Copy is drafted."
+    },
+    {
+      "id": "r2",
+      "title": "Vendor SKU feed downtime",
+      "owner": "Nikhil Poluru",
+      "project": "Nimbus Inventory",
+      "severity": "Red",
+      "due": "1 Sep",
+      "note": "Nightly sync missed twice. Retry queue is the mitigation."
+    },
+    {
+      "id": "r3",
+      "title": "Designer bandwidth",
+      "owner": "Kavya Poluru",
+      "project": "Brightline Design System",
+      "severity": "Green",
+      "due": "10 Sep",
+      "note": "Covered if Oak PDP slips a week."
+    },
+    {
+      "id": "r4",
+      "title": "App Store review window",
+      "owner": "Rohan Poluru",
+      "project": "Fieldline Mobile",
+      "severity": "Amber",
+      "due": "22 Sep",
+      "note": "Need screenshots and privacy nutrition labels."
+    },
+    {
+      "id": "r5",
+      "title": "Cedar data residency clause",
+      "owner": "Sahana Poluru",
+      "project": "Cedar Analytics Hub",
+      "severity": "Amber",
+      "due": "8 Sep",
+      "note": "Client legal wants EU-only storage. Architecture review scheduled."
+    },
+    {
+      "id": "r6",
+      "title": "River audit export format",
+      "owner": "Priya Poluru",
+      "project": "River Compliance Suite",
+      "severity": "Green",
+      "due": "12 Sep",
+      "note": "SOC 2 template confirmed with client compliance lead."
+    }
+  ]
+}

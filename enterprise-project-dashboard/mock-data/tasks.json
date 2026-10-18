@@ -1,0 +1,145 @@
+{
+  "rows": [
+    {
+      "id": "tsk_1",
+      "title": "Tokenize checkout fields",
+      "project": "Harbor Checkout",
+      "owner": "Vikram Poluru",
+      "status": "In progress",
+      "points": 5,
+      "due": "3 Sep",
+      "column": "doing"
+    },
+    {
+      "id": "tsk_2",
+      "title": "Accessibility pass on cart",
+      "project": "Harbor Checkout",
+      "owner": "Kavya Poluru",
+      "status": "Review",
+      "points": 3,
+      "due": "2 Sep",
+      "column": "review"
+    },
+    {
+      "id": "tsk_3",
+      "title": "Lab results API contract",
+      "project": "Lumen Patient Portal",
+      "owner": "Arjun Poluru",
+      "status": "In progress",
+      "points": 8,
+      "due": "4 Sep",
+      "column": "doing"
+    },
+    {
+      "id": "tsk_4",
+      "title": "Patient consent copy",
+      "project": "Lumen Patient Portal",
+      "owner": "Elena Poluru",
+      "status": "To do",
+      "points": 2,
+      "due": "5 Sep",
+      "column": "todo"
+    },
+    {
+      "id": "tsk_5",
+      "title": "SKU sync retry queue",
+      "project": "Nimbus Inventory",
+      "owner": "Nikhil Poluru",
+      "status": "Blocked",
+      "points": 5,
+      "due": "1 Sep",
+      "column": "todo"
+    },
+    {
+      "id": "tsk_6",
+      "title": "Cycle count mobile flow",
+      "project": "Nimbus Inventory",
+      "owner": "Rohan Poluru",
+      "status": "To do",
+      "points": 5,
+      "due": "6 Sep",
+      "column": "todo"
+    },
+    {
+      "id": "tsk_7",
+      "title": "Button tokens v2",
+      "project": "Brightline Design System",
+      "owner": "Meera Poluru",
+      "status": "Done",
+      "points": 3,
+      "due": "28 Aug",
+      "column": "done"
+    },
+    {
+      "id": "tsk_8",
+      "title": "Icon set audit",
+      "project": "Brightline Design System",
+      "owner": "Kavya Poluru",
+      "status": "Review",
+      "points": 2,
+      "due": "3 Sep",
+      "column": "review"
+    },
+    {
+      "id": "tsk_9",
+      "title": "Storefront PDP templates",
+      "project": "Oak Storefront",
+      "owner": "Meera Poluru",
+      "status": "In progress",
+      "points": 5,
+      "due": "4 Sep",
+      "column": "doing"
+    },
+    {
+      "id": "tsk_10",
+      "title": "Offline sync for visits",
+      "project": "Fieldline Mobile",
+      "owner": "Rohan Poluru",
+      "status": "To do",
+      "points": 8,
+      "due": "10 Sep",
+      "column": "todo"
+    },
+    {
+      "id": "tsk_11",
+      "title": "Load test checkout",
+      "project": "Harbor Checkout",
+      "owner": "Priya Poluru",
+      "status": "To do",
+      "points": 3,
+      "due": "7 Sep",
+      "column": "todo"
+    },
+    {
+      "id": "tsk_12",
+      "title": "Release notes 1.8",
+      "project": "Fieldline Mobile",
+      "owner": "Elena Poluru",
+      "status": "Done",
+      "points": 1,
+      "due": "26 Aug",
+      "column": "done"
+    },
+    {
+      "id": "tsk_13",
+      "title": "ETL pipeline for Cedar",
+      "project": "Cedar Analytics Hub",
+      "owner": "Sahana Poluru",
+      "status": "In progress",
+      "points": 5,
+      "due": "5 Sep",
+      "column": "doing"
+    },
+    {
+      "id": "tsk_14",
+      "title": "Audit log retention policy",
+      "project": "River Compliance Suite",
+      "owner": "Priya Poluru",
+      "status": "Review",
+      "points": 3,
+      "due": "4 Sep",
+      "column": "review"
+    }
+  ],
+  "count": 14
+}

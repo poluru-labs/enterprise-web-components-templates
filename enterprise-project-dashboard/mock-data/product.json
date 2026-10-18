@@ -1,0 +1,17 @@
+{
+  "productName": "Vespera",
+  "productLine": "Projects",
+  "workspaceName": "Fieldline Studio",
+  "brandColor": "#A0153E",
+  "currentUser": {
+    "name": "Ananya Poluru",
+    "email": "ananya.poluru@fieldline.example",
+    "role": "Delivery lead"
+  },
+  "workspace": {
+    "name": "Fieldline Studio",
+    "region": "Americas · EMEA",
+    "sprint": "Sprint 34 · 25 Aug – 5 Sep",
+    "timezone": "America / Chicago"
+  }
+}

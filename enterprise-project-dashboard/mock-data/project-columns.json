@@ -1,0 +1,35 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Project",
+      "sortable": true
+    },
+    {
+      "key": "client",
+      "label": "Client"
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "health",
+      "label": "Health"
+    },
+    {
+      "key": "due",
+      "label": "Due",
+      "sortable": true
+    },
+    {
+      "key": "budget",
+      "label": "Budget"
+    }
+  ]
+}

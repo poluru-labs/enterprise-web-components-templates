@@ -1,0 +1,88 @@
+{
+  "projects": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "On track",
+        "value": "On track"
+      },
+      {
+        "label": "Watch",
+        "value": "Watch"
+      },
+      {
+        "label": "At risk",
+        "value": "At risk"
+      }
+    ]
+  },
+  "tasks": {
+    "status": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "To do",
+        "value": "To do"
+      },
+      {
+        "label": "Doing",
+        "value": "In progress"
+      },
+      {
+        "label": "Review",
+        "value": "Review"
+      },
+      {
+        "label": "Done",
+        "value": "Done"
+      }
+    ],
+    "owner": [
+      {
+        "label": "Ananya Poluru",
+        "value": "p_ananya"
+      },
+      {
+        "label": "Kavya Poluru",
+        "value": "p_kavya"
+      },
+      {
+        "label": "Arjun Poluru",
+        "value": "p_arjun"
+      },
+      {
+        "label": "Meera Poluru",
+        "value": "p_meera"
+      },
+      {
+        "label": "Vikram Poluru",
+        "value": "p_vikram"
+      },
+      {
+        "label": "Priya Poluru",
+        "value": "p_priya"
+      },
+      {
+        "label": "Rohan Poluru",
+        "value": "p_rohan"
+      },
+      {
+        "label": "Sahana Poluru",
+        "value": "p_sahana"
+      },
+      {
+        "label": "Nikhil Poluru",
+        "value": "p_nikhil"
+      },
+      {
+        "label": "Elena Poluru",
+        "value": "p_elena"
+      }
+    ]
+  }
+}

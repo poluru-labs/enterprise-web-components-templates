@@ -1,0 +1,24 @@
+{
+  "name": "Sprint 34",
+  "range": "25 Aug – 5 Sep 2026",
+  "daysLeft": 4,
+  "daysTotal": 10,
+  "focus": "Checkout tokenize",
+  "planned": 28,
+  "done": 22,
+  "burndownTicks": [
+    1,
+    0.94,
+    0.88,
+    0.82,
+    0.76,
+    0.7,
+    0.64,
+    0.58,
+    0.52,
+    0.46
+  ],
+  "completionPercent": 79,
+  "headerLabel": "Sprint 34 · 4 days left",
+  "daysElapsed": 6
+}

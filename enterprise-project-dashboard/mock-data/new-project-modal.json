@@ -1,0 +1,65 @@
+{
+  "heading": "New project",
+  "placeholders": {
+    "name": "Harbor Checkout",
+    "client": "Harbor & Co.",
+    "brief": "What we are shipping and by when."
+  },
+  "ownerOptions": [
+    {
+      "label": "Ananya Poluru",
+      "value": "p_ananya"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "p_kavya"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "p_arjun"
+    },
+    {
+      "label": "Meera Poluru",
+      "value": "p_meera"
+    },
+    {
+      "label": "Vikram Poluru",
+      "value": "p_vikram"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "p_priya"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "p_rohan"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "p_sahana"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "p_nikhil"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "p_elena"
+    }
+  ],
+  "typeOptions": [
+    {
+      "label": "Build",
+      "value": "build"
+    },
+    {
+      "label": "Design",
+      "value": "design"
+    },
+    {
+      "label": "Integration",
+      "value": "integration"
+    }
+  ],
+  "defaultType": "build"
+}

@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "id": "todo",
+      "label": "To do"
+    },
+    {
+      "id": "doing",
+      "label": "In progress"
+    },
+    {
+      "id": "review",
+      "label": "Review"
+    },
+    {
+      "id": "done",
+      "label": "Done"
+    }
+  ]
+}

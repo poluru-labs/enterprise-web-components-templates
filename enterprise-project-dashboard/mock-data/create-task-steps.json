@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "label": "Basics",
+      "description": "Name and project"
+    },
+    {
+      "label": "Plan",
+      "description": "Owner and points"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ]
+}

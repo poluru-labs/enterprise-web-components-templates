@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "label": "Nimbus feed missed nightly sync",
+      "description": "Nikhil Poluru · SEV amber",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Review requested on cart a11y",
+      "description": "Kavya Poluru · Harbor",
+      "icon": "eye"
+    },
+    {
+      "label": "Sprint 35 planning is open",
+      "description": "Ananya Poluru · 8 Sep",
+      "icon": "clock"
+    },
+    {
+      "label": "Cedar data residency review",
+      "description": "Sahana Poluru · legal hold",
+      "icon": "file"
+    }
+  ],
+  "count": 4
+}

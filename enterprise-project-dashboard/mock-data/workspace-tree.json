@@ -1,0 +1,62 @@
+{
+  "tree": [
+    {
+      "id": "delivery",
+      "label": "Delivery",
+      "children": [
+        {
+          "id": "harbor",
+          "label": "Harbor Checkout",
+          "href": "#/project/prj_harbor"
+        },
+        {
+          "id": "lumen",
+          "label": "Lumen Patient Portal",
+          "href": "#/project/prj_lumen"
+        },
+        {
+          "id": "nimbus",
+          "label": "Nimbus Inventory",
+          "href": "#/project/prj_nimbus"
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "label": "Craft",
+      "children": [
+        {
+          "id": "brightline",
+          "label": "Brightline Design System",
+          "href": "#/project/prj_brightline"
+        },
+        {
+          "id": "oak",
+          "label": "Oak Storefront",
+          "href": "#/project/prj_oak"
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "label": "Field",
+      "children": [
+        {
+          "id": "mobile",
+          "label": "Fieldline Mobile",
+          "href": "#/project/prj_mobile"
+        },
+        {
+          "id": "cedar",
+          "label": "Cedar Analytics Hub",
+          "href": "#/project/prj_cedar"
+        },
+        {
+          "id": "river",
+          "label": "River Compliance Suite",
+          "href": "#/project/prj_river"
+        }
+      ]
+    }
+  ]
+}

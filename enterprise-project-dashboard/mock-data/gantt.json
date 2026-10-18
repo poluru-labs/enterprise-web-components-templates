@@ -1,0 +1,53 @@
+{
+  "horizon": "August through November",
+  "bars": [
+    {
+      "name": "Harbor Checkout",
+      "start": 8,
+      "width": 42,
+      "tone": "brand"
+    },
+    {
+      "name": "Lumen Patient Portal",
+      "start": 18,
+      "width": 48,
+      "tone": "ink"
+    },
+    {
+      "name": "Nimbus Inventory",
+      "start": 22,
+      "width": 28,
+      "tone": "warn"
+    },
+    {
+      "name": "Cedar Analytics Hub",
+      "start": 26,
+      "width": 32,
+      "tone": "brand"
+    },
+    {
+      "name": "Brightline Design System",
+      "start": 30,
+      "width": 40,
+      "tone": "brand"
+    },
+    {
+      "name": "Oak Storefront",
+      "start": 40,
+      "width": 36,
+      "tone": "ink"
+    },
+    {
+      "name": "River Compliance Suite",
+      "start": 38,
+      "width": 34,
+      "tone": "warn"
+    },
+    {
+      "name": "Fieldline Mobile",
+      "start": 46,
+      "width": 44,
+      "tone": "brand"
+    }
+  ]
+}

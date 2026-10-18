@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "name": "Sprint 32",
+      "range": "28 Jul – 8 Aug 2026",
+      "planned": 34,
+      "done": 34,
+      "status": "Closed",
+      "focus": "Harbor auth"
+    },
+    {
+      "name": "Sprint 33",
+      "range": "11 Aug – 22 Aug 2026",
+      "planned": 31,
+      "done": 29,
+      "status": "Closed",
+      "focus": "Lumen labs"
+    },
+    {
+      "name": "Sprint 34",
+      "range": "25 Aug – 5 Sep 2026",
+      "planned": 28,
+      "done": 22,
+      "status": "Active",
+      "focus": "Checkout tokenize"
+    },
+    {
+      "name": "Sprint 35",
+      "range": "8 Sep – 19 Sep 2026",
+      "planned": 30,
+      "done": 0,
+      "status": "Planning",
+      "focus": "Inventory retries"
+    }
+  ]
+}

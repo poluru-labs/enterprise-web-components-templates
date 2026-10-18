@@ -1,0 +1,30 @@
+{
+  "columns": [
+    {
+      "key": "title",
+      "label": "Task",
+      "sortable": true
+    },
+    {
+      "key": "project",
+      "label": "Project"
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "points",
+      "label": "Pts"
+    },
+    {
+      "key": "due",
+      "label": "Due"
+    }
+  ]
+}

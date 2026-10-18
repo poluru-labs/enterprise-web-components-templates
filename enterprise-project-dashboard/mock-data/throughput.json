@@ -1,0 +1,21 @@
+{
+  "storyPointsPerSprint": [
+    44,
+    48,
+    46,
+    52,
+    55,
+    51,
+    58,
+    62,
+    59,
+    64,
+    68,
+    71,
+    74,
+    78
+  ],
+  "chartLabel": "Story points completed per sprint",
+  "badge": "14 sprints",
+  "footnote": "78 points last sprint. Quality held while Harbor checkout moved into review."
+}

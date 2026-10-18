@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Nimbus feed flagged",
+      "description": "Nikhil Poluru · retry queue",
+      "timestamp": "1 Sep",
+      "icon": "alert-triangle",
+      "status": "Flagged"
+    },
+    {
+      "label": "Harbor checkout in review",
+      "description": "Kavya Poluru · accessibility pass",
+      "timestamp": "31 Aug",
+      "icon": "check",
+      "status": "Review"
+    },
+    {
+      "label": "Patient consent drafted",
+      "description": "Elena Poluru · waiting legal",
+      "timestamp": "29 Aug",
+      "icon": "file",
+      "status": "Legal"
+    },
+    {
+      "label": "Button tokens shipped",
+      "description": "Meera Poluru · Brightline",
+      "timestamp": "28 Aug",
+      "icon": "check",
+      "status": "Shipped"
+    },
+    {
+      "label": "Cedar ETL kickoff",
+      "description": "Sahana Poluru · Sprint 34",
+      "timestamp": "26 Aug",
+      "icon": "star",
+      "status": "Started"
+    },
+    {
+      "label": "Sprint 34 started",
+      "description": "Ananya Poluru · planned 28 pts",
+      "timestamp": "25 Aug",
+      "icon": "star",
+      "status": "Done"
+    }
+  ]
+}

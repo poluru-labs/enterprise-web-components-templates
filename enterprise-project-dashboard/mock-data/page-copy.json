@@ -1,0 +1,78 @@
+{
+  "overview": {
+    "eyebrow": "Sprint 34 · 25 Aug – 5 Sep",
+    "title": "Delivery pulse",
+    "lead": "Good evening, Ananya. Harbor is in review, Nimbus needs a retry queue, and Sprint 34 is 79% complete with four days left."
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projects",
+    "lead": "Eight live engagements across Harbor, Lumen, Nimbus, Brightline, Oak, Cedar, River, and Fieldline."
+  },
+  "board": {
+    "eyebrow": "Sprint 34",
+    "title": "Board",
+    "lead": "Harbor, Lumen, Cedar, and Brightline cards in flight. Drag is visual only in this demo."
+  },
+  "timeline": {
+    "eyebrow": "Roadmap",
+    "title": "Timeline",
+    "lead": "August through November. Harbor and Cedar land first; Fieldline Mobile runs longest."
+  },
+  "tasks": {
+    "eyebrow": "Backlog",
+    "title": "Tasks",
+    "lead": "Filter by owner, status, or project. Fourteen cards across the sprint backlog."
+  },
+  "sprints": {
+    "eyebrow": "Cadence",
+    "title": "Sprints",
+    "lead": "Two-week delivery slices. Sprint 34 closes Friday with four days left; 35 is in planning."
+  },
+  "team": {
+    "eyebrow": "People",
+    "title": "Team",
+    "lead": "Everyone on the roster is a Poluru. Capacity is booked through Sprint 35."
+  },
+  "risks": {
+    "eyebrow": "Register",
+    "title": "Risks",
+    "lead": "One red vendor feed, three amber reviews, and two green mitigation plans."
+  },
+  "time": {
+    "eyebrow": "Week of 1 Sep",
+    "title": "Time",
+    "lead": "Hours by person and project. Submit before Friday 16:00 Chicago."
+  },
+  "reports": {
+    "eyebrow": "Exports",
+    "title": "Reports",
+    "lead": "Burndown, capacity, risks, and time — download or pipe through the API."
+  },
+  "settings": {
+    "eyebrow": "Workspace",
+    "title": "Settings",
+    "lead": "Studio profile, density, notifications, and delivery defaults."
+  },
+  "search": {
+    "eyebrow": "Find",
+    "title": "Search",
+    "leadEmpty": "Search projects, tasks, risks, reports, and people.",
+    "leadWithQueryTemplate": "Results for “{query}” across projects, tasks, risks, reports, and people."
+  },
+  "routeTitles": {
+    "overview": "Overview",
+    "projects": "Projects",
+    "project": "Project",
+    "board": "Board",
+    "timeline": "Timeline",
+    "tasks": "Tasks",
+    "sprints": "Sprints",
+    "team": "Team",
+    "risks": "Risks",
+    "time": "Time",
+    "reports": "Reports",
+    "settings": "Settings",
+    "search": "Search"
+  }
+}

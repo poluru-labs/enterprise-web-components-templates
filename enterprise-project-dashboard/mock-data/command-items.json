@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Delivery pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Harbor Checkout",
+      "description": "Project",
+      "href": "#/project/prj_harbor",
+      "icon": "folder"
+    },
+    {
+      "label": "Board",
+      "description": "Sprint 34",
+      "href": "#/board",
+      "icon": "star"
+    },
+    {
+      "label": "Tasks",
+      "description": "Open work",
+      "href": "#/tasks",
+      "icon": "check"
+    },
+    {
+      "label": "Search",
+      "description": "Find anything",
+      "href": "#/search",
+      "icon": "search"
+    },
+    {
+      "label": "Team",
+      "description": "Capacity",
+      "href": "#/team",
+      "icon": "user"
+    },
+    {
+      "label": "Risks",
+      "description": "Amber and red",
+      "href": "#/risks",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

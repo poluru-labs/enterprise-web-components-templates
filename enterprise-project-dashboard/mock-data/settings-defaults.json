@@ -1,0 +1,22 @@
+{
+  "wipLimit": 6,
+  "requireEstimates": true,
+  "fridayTimeReminders": true,
+  "density": "comfortable",
+  "staffPinLength": 4,
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas"
+}

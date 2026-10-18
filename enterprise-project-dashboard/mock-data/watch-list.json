@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "label": "SKU feed downtime",
+      "description": "Nikhil Poluru · Nimbus",
+      "icon": "alert-triangle",
+      "href": "#/risks"
+    },
+    {
+      "label": "Cart accessibility",
+      "description": "Kavya Poluru · Harbor",
+      "icon": "eye",
+      "href": "#/board"
+    },
+    {
+      "label": "Cedar data residency",
+      "description": "Sahana Poluru · legal",
+      "icon": "file",
+      "href": "#/risks"
+    }
+  ]
+}
