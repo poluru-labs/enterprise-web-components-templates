@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Open 311",
+      "value": "142",
+      "delta": "12 past SLA",
+      "trend": "down",
+      "href": "#/requests"
+    },
+    {
+      "label": "Permits",
+      "value": "38",
+      "delta": "In review",
+      "trend": "flat",
+      "href": "#/permits"
+    },
+    {
+      "label": "Cases",
+      "value": "19",
+      "delta": "3 hearings",
+      "trend": "flat",
+      "href": "#/cases"
+    },
+    {
+      "label": "SLA",
+      "value": "91%",
+      "delta": "+2 pts",
+      "trend": "up",
+      "href": "#/service"
+    },
+    {
+      "label": "Budget",
+      "value": "74%",
+      "delta": "YTD used",
+      "trend": "flat",
+      "href": "#/budgets"
+    },
+    {
+      "label": "Inspect",
+      "value": "12",
+      "delta": "Today",
+      "trend": "up",
+      "href": "#/permits"
+    }
+  ]
+}

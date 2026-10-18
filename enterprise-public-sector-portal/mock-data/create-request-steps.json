@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "label": "Request",
+      "description": "Ward and channel"
+    },
+    {
+      "label": "Route",
+      "description": "Department and SLA"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ]
+}

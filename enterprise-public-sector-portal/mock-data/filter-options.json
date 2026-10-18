@@ -1,0 +1,184 @@
+{
+  "requests": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "Open",
+        "value": "Open"
+      },
+      {
+        "label": "In progress",
+        "value": "In progress"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      },
+      {
+        "label": "Complete",
+        "value": "Complete"
+      }
+    ],
+    "department": [
+      {
+        "label": "All departments",
+        "value": "all"
+      },
+      {
+        "label": "Code",
+        "value": "Code"
+      },
+      {
+        "label": "Engineering",
+        "value": "Engineering"
+      },
+      {
+        "label": "Parks",
+        "value": "Parks"
+      },
+      {
+        "label": "Public works",
+        "value": "Public works"
+      },
+      {
+        "label": "Sanitation",
+        "value": "Sanitation"
+      },
+      {
+        "label": "Traffic",
+        "value": "Traffic"
+      },
+      {
+        "label": "Utilities",
+        "value": "Utilities"
+      }
+    ]
+  },
+  "permits": {
+    "status": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "In review",
+        "value": "In review"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      },
+      {
+        "label": "Approved",
+        "value": "Approved"
+      },
+      {
+        "label": "Issued",
+        "value": "Issued"
+      }
+    ],
+    "inspector": [
+      {
+        "label": "Mira Poluru",
+        "value": "Mira Poluru"
+      },
+      {
+        "label": "Elena Poluru",
+        "value": "Elena Poluru"
+      },
+      {
+        "label": "Hana Poluru",
+        "value": "Hana Poluru"
+      },
+      {
+        "label": "Kavya Poluru",
+        "value": "Kavya Poluru"
+      },
+      {
+        "label": "Rohan Poluru",
+        "value": "Rohan Poluru"
+      },
+      {
+        "label": "Nikhil Poluru",
+        "value": "Nikhil Poluru"
+      },
+      {
+        "label": "Arjun Poluru",
+        "value": "Arjun Poluru"
+      },
+      {
+        "label": "Sahana Poluru",
+        "value": "Sahana Poluru"
+      },
+      {
+        "label": "Luca Poluru",
+        "value": "Luca Poluru"
+      },
+      {
+        "label": "Anika Poluru",
+        "value": "Anika Poluru"
+      },
+      {
+        "label": "Dev Poluru",
+        "value": "Dev Poluru"
+      },
+      {
+        "label": "Priya Poluru",
+        "value": "Priya Poluru"
+      }
+    ]
+  },
+  "cases": {
+    "type": [
+      {
+        "label": "All types",
+        "value": "all"
+      },
+      {
+        "label": "Housing",
+        "value": "Housing"
+      },
+      {
+        "label": "Code",
+        "value": "Code"
+      },
+      {
+        "label": "Licensing",
+        "value": "Licensing"
+      },
+      {
+        "label": "Sanitation",
+        "value": "Sanitation"
+      }
+    ],
+    "status": [
+      {
+        "label": "All statuses",
+        "value": "all"
+      },
+      {
+        "label": "Open",
+        "value": "Open"
+      },
+      {
+        "label": "In progress",
+        "value": "In progress"
+      },
+      {
+        "label": "Hearing",
+        "value": "Hearing"
+      },
+      {
+        "label": "Pending",
+        "value": "Pending"
+      },
+      {
+        "label": "Closed",
+        "value": "Closed"
+      }
+    ]
+  }
+}

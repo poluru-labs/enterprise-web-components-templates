@@ -1,0 +1,109 @@
+{
+  "rows": [
+    {
+      "id": "pm_garage",
+      "code": "BLD-442",
+      "type": "Building",
+      "site": "Harbor garage, 18 Dock St",
+      "applicant": "Kavya Poluru",
+      "status": "In review",
+      "sla": "Watch",
+      "filed": "5 Sep 2026",
+      "hearing": "22 Sep 2026",
+      "fee": 18400,
+      "inspector": "Nikhil Poluru"
+    },
+    {
+      "id": "pm_cafe",
+      "code": "ENC-118",
+      "type": "Encroachment",
+      "site": "Sidewalk cafe, 4 Market",
+      "applicant": "Anika Poluru",
+      "status": "Approved",
+      "sla": "Met",
+      "filed": "22 Aug 2026",
+      "hearing": "—",
+      "fee": 620,
+      "inspector": "Nikhil Poluru"
+    },
+    {
+      "id": "pm_event",
+      "code": "EVT-77",
+      "type": "Special event",
+      "site": "Riverfest, River Park",
+      "applicant": "Luca Poluru",
+      "status": "Pending",
+      "sla": "On track",
+      "filed": "10 Sep 2026",
+      "hearing": "24 Sep 2026",
+      "fee": 2400,
+      "inspector": "Elena Poluru"
+    },
+    {
+      "id": "pm_film",
+      "code": "FLM-12",
+      "type": "Film",
+      "site": "Ward 6 waterfront",
+      "applicant": "Priya Poluru",
+      "status": "In review",
+      "sla": "On track",
+      "filed": "12 Sep 2026",
+      "hearing": "18 Sep 2026",
+      "fee": 1800,
+      "inspector": "Nikhil Poluru"
+    },
+    {
+      "id": "pm_demo",
+      "code": "BLD-438",
+      "type": "Demolition",
+      "site": "Old mill, 9 Canal",
+      "applicant": "Arjun Poluru",
+      "status": "Denied",
+      "sla": "Met",
+      "filed": "18 Aug 2026",
+      "hearing": "8 Sep 2026",
+      "fee": 0,
+      "inspector": "Nikhil Poluru"
+    },
+    {
+      "id": "pm_row",
+      "code": "ROW-90",
+      "type": "Right of way",
+      "site": "Fiber trench, Oak St",
+      "applicant": "Dev Poluru",
+      "status": "Approved",
+      "sla": "Met",
+      "filed": "1 Sep 2026",
+      "hearing": "—",
+      "fee": 4100,
+      "inspector": "Hana Poluru"
+    },
+    {
+      "id": "pm_sign",
+      "code": "SGN-55",
+      "type": "Sign",
+      "site": "Harbor Inn, 2 Pier",
+      "applicant": "Sahana Poluru",
+      "status": "In review",
+      "sla": "On track",
+      "filed": "14 Sep 2026",
+      "hearing": "28 Sep 2026",
+      "fee": 340,
+      "inspector": "Rohan Poluru"
+    },
+    {
+      "id": "pm_pool",
+      "code": "BLD-451",
+      "type": "Building",
+      "site": "Community pool, Parks",
+      "applicant": "Luca Poluru",
+      "status": "Issued",
+      "sla": "Met",
+      "filed": "12 Jul 2026",
+      "hearing": "—",
+      "fee": 28600,
+      "inspector": "Nikhil Poluru"
+    }
+  ],
+  "count": 8
+}

@@ -1,0 +1,33 @@
+{
+  "columns": [
+    {
+      "key": "code",
+      "label": "Permit",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "site",
+      "label": "Site"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    },
+    {
+      "key": "fee",
+      "label": "Fee"
+    },
+    {
+      "key": "inspector",
+      "label": "Inspector"
+    }
+  ]
+}

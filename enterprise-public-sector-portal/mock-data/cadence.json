@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "label": "Housing vacancy hearing",
+      "description": "Sahana Poluru · 14 Elm",
+      "timestamp": "18 Sep",
+      "icon": "folder",
+      "status": "Next"
+    },
+    {
+      "label": "Missed pickup SLA",
+      "description": "Luca Poluru · Ward 3",
+      "timestamp": "16 Sep",
+      "icon": "alert-triangle",
+      "status": "Today"
+    },
+    {
+      "label": "Harbor garage review",
+      "description": "Kavya Poluru · day 11",
+      "timestamp": "16 Sep",
+      "icon": "clock",
+      "status": "Today"
+    },
+    {
+      "label": "Repeat noise board",
+      "description": "Rohan Poluru · 6 Dock",
+      "timestamp": "16 Sep",
+      "icon": "eye",
+      "status": "Today"
+    },
+    {
+      "label": "Riverfest permit",
+      "description": "Luca Poluru · River Park",
+      "timestamp": "24 Sep",
+      "icon": "check",
+      "status": "Scheduled"
+    },
+    {
+      "label": "Q3 budget readout",
+      "description": "Arjun Poluru · 74% used",
+      "timestamp": "22 Sep",
+      "icon": "star",
+      "status": "Scheduled"
+    }
+  ],
+  "weekBadge": "Week 12"
+}

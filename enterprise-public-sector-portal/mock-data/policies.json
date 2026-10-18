@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "id": "po_sla",
+      "name": "5-day 311 close",
+      "trigger": "Open past 5 days",
+      "owner": "Elena Poluru",
+      "items": 12,
+      "status": "Active",
+      "steps": 4
+    },
+    {
+      "id": "po_permit",
+      "name": "10-day permit clock",
+      "trigger": "Review over 10 days",
+      "owner": "Kavya Poluru",
+      "items": 1,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_hearing",
+      "name": "Hearing notice",
+      "trigger": "Case set for board",
+      "owner": "Rohan Poluru",
+      "items": 3,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_inspect",
+      "name": "Same-week inspect",
+      "trigger": "Permit issued",
+      "owner": "Nikhil Poluru",
+      "items": 12,
+      "status": "Active",
+      "steps": 2
+    },
+    {
+      "id": "po_budget",
+      "name": "80% fund watch",
+      "trigger": "Spend over 80%",
+      "owner": "Arjun Poluru",
+      "items": 0,
+      "status": "Draft",
+      "steps": 2
+    },
+    {
+      "id": "po_dump",
+      "name": "Illegal dump 48h",
+      "trigger": "Sanitation open 2 days",
+      "owner": "Luca Poluru",
+      "items": 1,
+      "status": "Active",
+      "steps": 3
+    }
+  ]
+}

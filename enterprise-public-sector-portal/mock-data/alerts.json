@@ -1,0 +1,13 @@
+{
+  "overviewPickup": {
+    "variant": "warning",
+    "dismissible": true,
+    "title": "Ward 3 missed pickup is overdue",
+    "message": "311-1851 opened 9 Sep. Luca Poluru owns sanitation. The 5-day close was 14 Sep."
+  },
+  "servicePickup": {
+    "variant": "danger",
+    "title": "Ward 3 missed pickup",
+    "message": "311-1851 is two days past the 5-day close. Luca Poluru owns sanitation."
+  }
+}

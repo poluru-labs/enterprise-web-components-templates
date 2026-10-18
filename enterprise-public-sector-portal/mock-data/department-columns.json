@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Department",
+      "sortable": true
+    },
+    {
+      "key": "lead",
+      "label": "Lead"
+    },
+    {
+      "key": "open",
+      "label": "Open"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    },
+    {
+      "key": "used",
+      "label": "Budget %"
+    },
+    {
+      "key": "staff",
+      "label": "Staff"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Requests",
+      "href": "#/requests",
+      "icon": "bell"
+    },
+    {
+      "label": "Permits",
+      "href": "#/permits",
+      "icon": "file"
+    },
+    {
+      "label": "Cases",
+      "href": "#/cases",
+      "icon": "folder"
+    },
+    {
+      "label": "Departments",
+      "href": "#/departments",
+      "icon": "user"
+    },
+    {
+      "label": "Budgets",
+      "href": "#/budgets",
+      "icon": "star"
+    },
+    {
+      "label": "Service",
+      "href": "#/service",
+      "icon": "check"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "download"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

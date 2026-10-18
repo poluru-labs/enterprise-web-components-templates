@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "key": "fund",
+      "label": "Fund",
+      "sortable": true
+    },
+    {
+      "key": "department",
+      "label": "Department"
+    },
+    {
+      "key": "appropriated",
+      "label": "Appropriated"
+    },
+    {
+      "key": "spent",
+      "label": "Spent"
+    },
+    {
+      "key": "remaining",
+      "label": "Remaining"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ]
+}

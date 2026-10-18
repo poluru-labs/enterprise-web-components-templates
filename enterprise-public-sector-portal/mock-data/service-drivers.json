@@ -1,0 +1,55 @@
+{
+  "columns": [
+    {
+      "key": "metric",
+      "label": "Metric",
+      "sortable": true
+    },
+    {
+      "key": "actual",
+      "label": "Actual"
+    },
+    {
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "key": "variance",
+      "label": "Variance"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "rows": [
+    {
+      "metric": "311 first response",
+      "actual": "6.4h",
+      "target": "8h",
+      "variance": "−1.6h",
+      "status": "On track"
+    },
+    {
+      "metric": "311 close in 5 days",
+      "actual": "91%",
+      "target": "90%",
+      "variance": "+1 pt",
+      "status": "On track"
+    },
+    {
+      "metric": "Permit review clock",
+      "actual": "11d",
+      "target": "10d",
+      "variance": "+1d",
+      "status": "Watch"
+    },
+    {
+      "metric": "Inspection same week",
+      "actual": "84%",
+      "target": "85%",
+      "variance": "−1 pt",
+      "status": "Watch"
+    }
+  ]
+}

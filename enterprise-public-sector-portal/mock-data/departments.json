@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "id": "dp_works",
+      "name": "Public works",
+      "lead": "Hana Poluru",
+      "staff": 86,
+      "open": 64,
+      "sla": 84,
+      "budget": 92000000,
+      "used": 71,
+      "focus": "Streets and lights"
+    },
+    {
+      "id": "dp_311",
+      "name": "311 desk",
+      "lead": "Elena Poluru",
+      "staff": 24,
+      "open": 142,
+      "sla": 91,
+      "budget": 4800000,
+      "used": 68,
+      "focus": "Intake and routing"
+    },
+    {
+      "id": "dp_permits",
+      "name": "Permits",
+      "lead": "Kavya Poluru",
+      "staff": 18,
+      "open": 38,
+      "sla": 88,
+      "budget": 6200000,
+      "used": 72,
+      "focus": "Review clock"
+    },
+    {
+      "id": "dp_code",
+      "name": "Code",
+      "lead": "Rohan Poluru",
+      "staff": 22,
+      "open": 19,
+      "sla": 79,
+      "budget": 5100000,
+      "used": 70,
+      "focus": "Hearings"
+    },
+    {
+      "id": "dp_parks",
+      "name": "Parks",
+      "lead": "Luca Poluru",
+      "staff": 41,
+      "open": 11,
+      "sla": 96,
+      "budget": 18400000,
+      "used": 77,
+      "focus": "Riverfest"
+    },
+    {
+      "id": "dp_housing",
+      "name": "Housing",
+      "lead": "Sahana Poluru",
+      "staff": 16,
+      "open": 7,
+      "sla": 82,
+      "budget": 24600000,
+      "used": 69,
+      "focus": "Vacancy board"
+    },
+    {
+      "id": "dp_finance",
+      "name": "Finance",
+      "lead": "Arjun Poluru",
+      "staff": 19,
+      "open": 0,
+      "sla": 100,
+      "budget": 3900000,
+      "used": 61,
+      "focus": "Q3 close"
+    },
+    {
+      "id": "dp_clerk",
+      "name": "Clerk",
+      "lead": "Anika Poluru",
+      "staff": 11,
+      "open": 4,
+      "sla": 94,
+      "budget": 2100000,
+      "used": 66,
+      "focus": "Licenses"
+    }
+  ],
+  "count": 8
+}

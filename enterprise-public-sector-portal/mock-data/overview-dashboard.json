@@ -1,0 +1,167 @@
+{
+  "dashPeriodOptions": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Q3",
+      "value": "q3"
+    },
+    {
+      "label": "FY26",
+      "value": "fy"
+    }
+  ],
+  "defaultPeriod": "q3",
+  "deskLoad": {
+    "slaRingValue": 91,
+    "meterValue": 91,
+    "footnote": "12 of 142 are past the 5-day close. Elena Poluru owns the desk.",
+    "statusLabel": "Live"
+  },
+  "featuredRequests": [
+    {
+      "id": "rq_pothole",
+      "code": "311-1842",
+      "title": "Pothole on Oak Street",
+      "ward": "Ward 2",
+      "department": "Public works",
+      "owner": "Hana Poluru",
+      "status": "Open",
+      "sla": "Watch",
+      "opened": "12 Sep 2026",
+      "due": "17 Sep 2026",
+      "channel": "App",
+      "priority": "High",
+      "age": 4
+    },
+    {
+      "id": "rq_light",
+      "code": "311-1848",
+      "title": "Streetlight out Maple Ave",
+      "ward": "Ward 4",
+      "department": "Public works",
+      "owner": "Hana Poluru",
+      "status": "In progress",
+      "sla": "On track",
+      "opened": "10 Sep 2026",
+      "due": "18 Sep 2026",
+      "channel": "Phone",
+      "priority": "Medium",
+      "age": 6
+    },
+    {
+      "id": "rq_trash",
+      "code": "311-1851",
+      "title": "Missed pickup Ward 3",
+      "ward": "Ward 3",
+      "department": "Sanitation",
+      "owner": "Luca Poluru",
+      "status": "Open",
+      "sla": "Overdue",
+      "opened": "9 Sep 2026",
+      "due": "14 Sep 2026",
+      "channel": "Web",
+      "priority": "High",
+      "age": 7
+    },
+    {
+      "id": "rq_tree",
+      "code": "311-1828",
+      "title": "Fallen limb River Park",
+      "ward": "Ward 1",
+      "department": "Parks",
+      "owner": "Luca Poluru",
+      "status": "Complete",
+      "sla": "Met",
+      "opened": "4 Sep 2026",
+      "due": "9 Sep 2026",
+      "channel": "App",
+      "priority": "Medium",
+      "age": 5
+    },
+    {
+      "id": "rq_graffiti",
+      "code": "311-1854",
+      "title": "Bus shelter 12 graffiti",
+      "ward": "Ward 5",
+      "department": "Code",
+      "owner": "Rohan Poluru",
+      "status": "In progress",
+      "sla": "On track",
+      "opened": "11 Sep 2026",
+      "due": "18 Sep 2026",
+      "channel": "Walk-in",
+      "priority": "Low",
+      "age": 5
+    },
+    {
+      "id": "rq_sidewalk",
+      "code": "311-1857",
+      "title": "Cracked sidewalk 4th St",
+      "ward": "Ward 2",
+      "department": "Engineering",
+      "owner": "Dev Poluru",
+      "status": "Pending",
+      "sla": "Watch",
+      "opened": "8 Sep 2026",
+      "due": "22 Sep 2026",
+      "channel": "Web",
+      "priority": "Medium",
+      "age": 8
+    }
+  ],
+  "recentBoardTable": {
+    "columns": [
+      {
+        "key": "code",
+        "label": "ID"
+      },
+      {
+        "key": "title",
+        "label": "Item"
+      },
+      {
+        "key": "owner",
+        "label": "Owner"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      }
+    ],
+    "rows": [
+      {
+        "code": "311-1842",
+        "title": "Pothole on Oak Street",
+        "owner": "Hana Poluru",
+        "status": "Open"
+      },
+      {
+        "code": "311-1848",
+        "title": "Streetlight out Maple Ave",
+        "owner": "Hana Poluru",
+        "status": "In progress"
+      },
+      {
+        "code": "311-1851",
+        "title": "Missed pickup Ward 3",
+        "owner": "Luca Poluru",
+        "status": "Open"
+      },
+      {
+        "code": "311-1828",
+        "title": "Fallen limb River Park",
+        "owner": "Luca Poluru",
+        "status": "Complete"
+      },
+      {
+        "code": "311-1854",
+        "title": "Bus shelter 12 graffiti",
+        "owner": "Rohan Poluru",
+        "status": "In progress"
+      }
+    ]
+  }
+}

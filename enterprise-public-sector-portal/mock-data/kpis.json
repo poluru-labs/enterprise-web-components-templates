@@ -1,0 +1,60 @@
+{
+  "stats": [
+    {
+      "label": "Open 311",
+      "value": "142",
+      "hint": "12 past the 5-day SLA",
+      "trend": "down",
+      "trendValue": "12 late"
+    },
+    {
+      "label": "Median close",
+      "value": "4.2d",
+      "hint": "Target 5 days",
+      "trend": "up",
+      "trendValue": "−0.4d"
+    },
+    {
+      "label": "Permits in review",
+      "value": "38",
+      "hint": "Harbor garage is day 11",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    {
+      "label": "Active cases",
+      "value": "19",
+      "hint": "3 hearings this week",
+      "trend": "flat",
+      "trendValue": "Week 12"
+    },
+    {
+      "label": "SLA met",
+      "value": "91%",
+      "hint": "Public works is the dip",
+      "trend": "up",
+      "trendValue": "+2 pts"
+    },
+    {
+      "label": "Budget used",
+      "value": "74%",
+      "hint": "$305M of $412M",
+      "trend": "flat",
+      "trendValue": "On plan"
+    },
+    {
+      "label": "Inspections today",
+      "value": "12",
+      "hint": "Nikhil Poluru desk",
+      "trend": "up",
+      "trendValue": "+3"
+    },
+    {
+      "label": "Hearings",
+      "value": "5",
+      "hint": "Housing board Thursday",
+      "trend": "flat",
+      "trendValue": "This week"
+    }
+  ]
+}

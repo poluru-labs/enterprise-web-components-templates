@@ -1,0 +1,66 @@
+{
+  "overview": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "City pulse",
+    "lead": "Good morning, Mira. 142 open 311. Ward 3 missed pickup is past SLA. Harbor garage permit is day 11. Noise board sits this afternoon."
+  },
+  "requests": {
+    "eyebrow": "311",
+    "title": "Requests",
+    "lead": "Ten flagged tickets. Ward 3 missed pickup is overdue. Oak Street pothole is due 17 Sep."
+  },
+  "permits": {
+    "eyebrow": "Review clock",
+    "title": "Permits",
+    "leadTemplate": "{reviewCount} in the clock. Harbor garage is day 11. Riverfest hearing is 24 Sep."
+  },
+  "cases": {
+    "eyebrow": "Docket",
+    "title": "Cases",
+    "leadTemplate": "{openCount} open. Noise at 6 Dock is on the board today. Housing vacancy hearing is 18 Sep."
+  },
+  "departments": {
+    "eyebrow": "Leads",
+    "title": "Departments",
+    "lead": "Eight desks. Public works holds 64 open 311. Parks is at 96% SLA. Finance is on the Q3 close."
+  },
+  "budgets": {
+    "eyebrow": "FY26",
+    "title": "Budgets",
+    "leadTemplate": "{spent} spent of {total} appropriated ({usedPercent}%). Water utility is the only watch fund."
+  },
+  "service": {
+    "eyebrow": "Delivery",
+    "title": "Service",
+    "lead": "City SLA 91%. First response 6.4 hours. Permit clock is a day long. 12 inspections sit on Nikhil Poluru’s board today."
+  },
+  "reports": {
+    "eyebrow": "Exports",
+    "title": "Reports",
+    "lead": "311 SLA pack, permit clock, case docket, budget YTD, inspection log, and council appendix."
+  },
+  "settings": {
+    "eyebrow": "Workspace",
+    "title": "Settings",
+    "lead": "City profile, density, and how CivicWorks behaves when the sidebar is closed."
+  },
+  "search": {
+    "eyebrow": "Find",
+    "title": "Search",
+    "leadEmpty": "Search requests, permits, cases, departments, budgets, and people.",
+    "leadWithQueryTemplate": "Results for “{query}” across requests, permits, cases, departments, and people."
+  },
+  "routeTitles": {
+    "overview": "Overview",
+    "requests": "Requests",
+    "request": "Request",
+    "permits": "Permits",
+    "cases": "Cases",
+    "departments": "Departments",
+    "budgets": "Budgets",
+    "service": "Service",
+    "reports": "Reports",
+    "settings": "Settings",
+    "search": "Search"
+  }
+}

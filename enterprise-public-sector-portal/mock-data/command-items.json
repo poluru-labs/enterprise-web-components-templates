@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "City pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Oak Street pothole",
+      "description": "311-1842 · Ward 2",
+      "href": "#/request/rq_pothole",
+      "icon": "bell"
+    },
+    {
+      "label": "Harbor garage",
+      "description": "BLD-442 · in review",
+      "href": "#/permits",
+      "icon": "file"
+    },
+    {
+      "label": "Housing vacancy",
+      "description": "CE-204 · 14 Elm",
+      "href": "#/cases",
+      "icon": "folder"
+    },
+    {
+      "label": "Budgets",
+      "description": "74% YTD",
+      "href": "#/budgets",
+      "icon": "star"
+    },
+    {
+      "label": "Service",
+      "description": "SLA 91%",
+      "href": "#/service",
+      "icon": "check"
+    },
+    {
+      "label": "Departments",
+      "description": "Leads",
+      "href": "#/departments",
+      "icon": "user"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

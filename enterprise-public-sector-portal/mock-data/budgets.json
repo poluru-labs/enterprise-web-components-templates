@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "id": "bd_works",
+      "fund": "Streets fund",
+      "department": "Public works",
+      "appropriated": 92000000,
+      "spent": 65320000,
+      "remaining": 26680000,
+      "used": 71,
+      "status": "On track"
+    },
+    {
+      "id": "bd_water",
+      "fund": "Water utility",
+      "department": "Utilities",
+      "appropriated": 54000000,
+      "spent": 42120000,
+      "remaining": 11880000,
+      "used": 78,
+      "status": "Watch"
+    },
+    {
+      "id": "bd_parks",
+      "fund": "Parks levy",
+      "department": "Parks",
+      "appropriated": 18400000,
+      "spent": 14168000,
+      "remaining": 4232000,
+      "used": 77,
+      "status": "On track"
+    },
+    {
+      "id": "bd_housing",
+      "fund": "Housing trust",
+      "department": "Housing",
+      "appropriated": 24600000,
+      "spent": 16974000,
+      "remaining": 7626000,
+      "used": 69,
+      "status": "On track"
+    },
+    {
+      "id": "bd_general",
+      "fund": "General fund",
+      "department": "Finance",
+      "appropriated": 186000000,
+      "spent": 137640000,
+      "remaining": 48360000,
+      "used": 74,
+      "status": "On track"
+    },
+    {
+      "id": "bd_grants",
+      "fund": "State grants",
+      "department": "Clerk",
+      "appropriated": 12800000,
+      "spent": 7040000,
+      "remaining": 5760000,
+      "used": 55,
+      "status": "On track"
+    }
+  ],
+  "count": 6
+}

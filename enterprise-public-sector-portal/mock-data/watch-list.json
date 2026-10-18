@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "Missed pickup Ward 3",
+      "description": "Luca Poluru · overdue",
+      "icon": "alert-triangle",
+      "href": "#/request/rq_trash"
+    },
+    {
+      "label": "Harbor garage BLD-442",
+      "description": "Kavya Poluru · day 11",
+      "icon": "clock",
+      "href": "#/permits"
+    },
+    {
+      "label": "Noise hearing 6 Dock",
+      "description": "Rohan Poluru · today",
+      "icon": "folder",
+      "href": "#/cases"
+    },
+    {
+      "label": "Pothole Oak Street",
+      "description": "Hana Poluru · due 17 Sep",
+      "icon": "bell",
+      "href": "#/request/rq_pothole"
+    }
+  ]
+}

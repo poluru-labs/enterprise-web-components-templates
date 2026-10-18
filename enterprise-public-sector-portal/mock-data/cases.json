@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "id": "cs_housing",
+      "code": "CE-204",
+      "title": "Housing vacancy 14 Elm",
+      "type": "Housing",
+      "owner": "Sahana Poluru",
+      "status": "Open",
+      "sla": "Watch",
+      "filed": "28 Aug 2026",
+      "hearing": "18 Sep 2026",
+      "ward": "Ward 3"
+    },
+    {
+      "id": "cs_yard",
+      "code": "CE-211",
+      "title": "Overgrown lot 8 Birch",
+      "type": "Code",
+      "owner": "Rohan Poluru",
+      "status": "In progress",
+      "sla": "On track",
+      "filed": "4 Sep 2026",
+      "hearing": "—",
+      "ward": "Ward 5"
+    },
+    {
+      "id": "cs_license",
+      "code": "LIC-88",
+      "title": "Cafe license renewal",
+      "type": "Licensing",
+      "owner": "Anika Poluru",
+      "status": "Pending",
+      "sla": "On track",
+      "filed": "9 Sep 2026",
+      "hearing": "24 Sep 2026",
+      "ward": "Ward 1"
+    },
+    {
+      "id": "cs_noise",
+      "code": "CE-218",
+      "title": "Repeat noise 6 Dock",
+      "type": "Code",
+      "owner": "Rohan Poluru",
+      "status": "Hearing",
+      "sla": "Watch",
+      "filed": "1 Sep 2026",
+      "hearing": "16 Sep 2026",
+      "ward": "Ward 6"
+    },
+    {
+      "id": "cs_short",
+      "code": "CE-190",
+      "title": "Short-term rental 22 Pine",
+      "type": "Housing",
+      "owner": "Sahana Poluru",
+      "status": "Closed",
+      "sla": "Met",
+      "filed": "12 Jul 2026",
+      "hearing": "4 Aug 2026",
+      "ward": "Ward 2"
+    },
+    {
+      "id": "cs_dump",
+      "code": "CE-220",
+      "title": "Illegal dump alley 9",
+      "type": "Sanitation",
+      "owner": "Luca Poluru",
+      "status": "Open",
+      "sla": "Overdue",
+      "filed": "8 Sep 2026",
+      "hearing": "22 Sep 2026",
+      "ward": "Ward 3"
+    }
+  ],
+  "count": 6
+}

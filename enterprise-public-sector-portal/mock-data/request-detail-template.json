@@ -1,0 +1,50 @@
+{
+  "slaSteps": [
+    {
+      "label": "Open"
+    },
+    {
+      "label": "Assigned"
+    },
+    {
+      "label": "On site"
+    },
+    {
+      "label": "Close"
+    }
+  ],
+  "workflowRows": [
+    {
+      "step": "Intake",
+      "state": "Done"
+    },
+    {
+      "step": "Route",
+      "state": "Done"
+    },
+    {
+      "step": "Crew",
+      "stateFromStatus": {
+        "Open": "Now",
+        "default": "Done"
+      }
+    },
+    {
+      "step": "Close",
+      "stateFromStatus": {
+        "Complete": "Done",
+        "default": "Next"
+      }
+    }
+  ],
+  "factFields": [
+    "code",
+    "owner",
+    "department",
+    "ward",
+    "channel",
+    "priority",
+    "opened",
+    "due"
+  ]
+}

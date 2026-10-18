@@ -1,0 +1,10 @@
+{
+  "product": "CivicWorks",
+  "workspace": "Harbor City",
+  "period": "FY26 Q3 · week 12",
+  "inboxCount": 4,
+  "searchPlaceholder": "Find a request, permit, or case",
+  "commandPaletteKbd": "⌘K",
+  "sidebarToggleKbd": "⌘\\",
+  "newRequestLabel": "New request"
+}

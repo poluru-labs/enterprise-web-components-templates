@@ -1,0 +1,33 @@
+{
+  "columns": [
+    {
+      "key": "code",
+      "label": "Case",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Title"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    },
+    {
+      "key": "hearing",
+      "label": "Hearing"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    }
+  ]
+}

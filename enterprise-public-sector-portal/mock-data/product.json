@@ -1,0 +1,18 @@
+{
+  "productName": "CivicWorks",
+  "productLine": "Admin",
+  "workspaceName": "Harbor City",
+  "brandColor": "#129990",
+  "headerInk": "#101C1B",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@harborcity.gov",
+    "role": "City administrator"
+  },
+  "workspace": {
+    "name": "Harbor City",
+    "period": "FY26 Q3 · week 12",
+    "timezone": "America / Chicago",
+    "close": "Fiscal year ends 30 Jun 2027"
+  }
+}

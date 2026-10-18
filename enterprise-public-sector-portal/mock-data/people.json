@@ -1,0 +1,100 @@
+{
+  "rows": [
+    {
+      "name": "Mira Poluru",
+      "role": "City administrator",
+      "squad": "Office of the CA",
+      "rating": 5,
+      "score": 94,
+      "book": 8
+    },
+    {
+      "name": "Elena Poluru",
+      "role": "311 lead",
+      "squad": "311 desk",
+      "rating": 5,
+      "score": 91,
+      "book": 142
+    },
+    {
+      "name": "Hana Poluru",
+      "role": "Public works director",
+      "squad": "Public works",
+      "rating": 4,
+      "score": 84,
+      "book": 64
+    },
+    {
+      "name": "Kavya Poluru",
+      "role": "Permits director",
+      "squad": "Permits",
+      "rating": 5,
+      "score": 88,
+      "book": 38
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Code manager",
+      "squad": "Code",
+      "rating": 4,
+      "score": 79,
+      "book": 19
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "Chief inspector",
+      "squad": "Inspections",
+      "rating": 5,
+      "score": 90,
+      "book": 12
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "Budget officer",
+      "squad": "Finance",
+      "rating": 5,
+      "score": 92,
+      "book": 6
+    },
+    {
+      "name": "Sahana Poluru",
+      "role": "Housing lead",
+      "squad": "Housing",
+      "rating": 4,
+      "score": 82,
+      "book": 7
+    },
+    {
+      "name": "Luca Poluru",
+      "role": "Parks superintendent",
+      "squad": "Parks",
+      "rating": 4,
+      "score": 86,
+      "book": 11
+    },
+    {
+      "name": "Anika Poluru",
+      "role": "City clerk",
+      "squad": "Clerk",
+      "rating": 4,
+      "score": 89,
+      "book": 4
+    },
+    {
+      "name": "Dev Poluru",
+      "role": "City engineer",
+      "squad": "Engineering",
+      "rating": 4,
+      "score": 81,
+      "book": 8
+    },
+    {
+      "name": "Priya Poluru",
+      "role": "Grants officer",
+      "squad": "Finance",
+      "rating": 4,
+      "score": 85,
+      "book": 3
+    }
+  ]
+}

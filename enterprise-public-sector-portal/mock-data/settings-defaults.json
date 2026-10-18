@@ -1,0 +1,22 @@
+{
+  "slaFloor": 90,
+  "startFullWidth": true,
+  "sameDayPickupPing": true,
+  "density": "comfortable",
+  "staffPinLength": 4,
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas"
+}

@@ -1,0 +1,152 @@
+{
+  "heading": "New 311 request",
+  "steps": [
+    {
+      "label": "Request",
+      "description": "Ward and channel"
+    },
+    {
+      "label": "Route",
+      "description": "Department and SLA"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ],
+  "defaults": {
+    "department": "Public works",
+    "owner": "Hana Poluru",
+    "ward": "Ward 2",
+    "channel": "app"
+  },
+  "placeholders": {
+    "title": "Pothole on Oak Street",
+    "notes": "Location, photos, and who already went out."
+  },
+  "departmentOptions": [
+    {
+      "label": "Public works",
+      "value": "Public works"
+    },
+    {
+      "label": "311 desk",
+      "value": "311 desk"
+    },
+    {
+      "label": "Permits",
+      "value": "Permits"
+    },
+    {
+      "label": "Code",
+      "value": "Code"
+    },
+    {
+      "label": "Parks",
+      "value": "Parks"
+    },
+    {
+      "label": "Housing",
+      "value": "Housing"
+    },
+    {
+      "label": "Finance",
+      "value": "Finance"
+    },
+    {
+      "label": "Clerk",
+      "value": "Clerk"
+    }
+  ],
+  "ownerOptions": [
+    {
+      "label": "Mira Poluru",
+      "value": "Mira Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Hana Poluru",
+      "value": "Hana Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Sahana Poluru",
+      "value": "Sahana Poluru"
+    },
+    {
+      "label": "Luca Poluru",
+      "value": "Luca Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    }
+  ],
+  "wardOptions": [
+    {
+      "label": "Ward 1",
+      "value": "Ward 1"
+    },
+    {
+      "label": "Ward 2",
+      "value": "Ward 2"
+    },
+    {
+      "label": "Ward 3",
+      "value": "Ward 3"
+    },
+    {
+      "label": "Ward 4",
+      "value": "Ward 4"
+    },
+    {
+      "label": "Ward 5",
+      "value": "Ward 5"
+    },
+    {
+      "label": "Ward 6",
+      "value": "Ward 6"
+    }
+  ],
+  "channelOptions": [
+    {
+      "value": "app",
+      "label": "App"
+    },
+    {
+      "value": "phone",
+      "label": "Phone"
+    },
+    {
+      "value": "web",
+      "label": "Web"
+    }
+  ],
+  "pinLength": 4
+}

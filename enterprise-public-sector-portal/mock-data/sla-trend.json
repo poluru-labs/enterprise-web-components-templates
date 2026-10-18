@@ -1,0 +1,19 @@
+{
+  "valuesPercent": [
+    86,
+    87,
+    88,
+    88,
+    89,
+    89,
+    90,
+    90,
+    90,
+    91,
+    91,
+    91
+  ],
+  "chartLabel": "Trailing twelve months of 311 SLA",
+  "badge": "T12M",
+  "footnote": "91% year to date against a 90% floor. Public works is the dip. Parks holds at 96%."
+}

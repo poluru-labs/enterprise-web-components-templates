@@ -1,0 +1,67 @@
+{
+  "tree": [
+    {
+      "id": "field",
+      "label": "Field",
+      "children": [
+        {
+          "id": "works",
+          "label": "Public works",
+          "href": "#/departments"
+        },
+        {
+          "id": "parks",
+          "label": "Parks",
+          "href": "#/departments"
+        },
+        {
+          "id": "sanitation",
+          "label": "Sanitation",
+          "href": "#/requests"
+        }
+      ]
+    },
+    {
+      "id": "desk",
+      "label": "Desk",
+      "children": [
+        {
+          "id": "three11",
+          "label": "311",
+          "href": "#/requests"
+        },
+        {
+          "id": "permits",
+          "label": "Permits",
+          "href": "#/permits"
+        },
+        {
+          "id": "code",
+          "label": "Code",
+          "href": "#/cases"
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "label": "House",
+      "children": [
+        {
+          "id": "finance",
+          "label": "Finance",
+          "href": "#/budgets"
+        },
+        {
+          "id": "clerk",
+          "label": "Clerk",
+          "href": "#/departments"
+        },
+        {
+          "id": "housing",
+          "label": "Housing",
+          "href": "#/cases"
+        }
+      ]
+    }
+  ]
+}

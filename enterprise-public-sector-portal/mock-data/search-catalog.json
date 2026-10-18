@@ -1,0 +1,452 @@
+{
+  "items": [
+    {
+      "label": "Pothole on Oak Street",
+      "description": "311-1842 · Open",
+      "owner": "Hana Poluru",
+      "type": "Request",
+      "href": "#/request/rq_pothole"
+    },
+    {
+      "label": "Streetlight out Maple Ave",
+      "description": "311-1848 · In progress",
+      "owner": "Hana Poluru",
+      "type": "Request",
+      "href": "#/request/rq_light"
+    },
+    {
+      "label": "Missed pickup Ward 3",
+      "description": "311-1851 · Open",
+      "owner": "Luca Poluru",
+      "type": "Request",
+      "href": "#/request/rq_trash"
+    },
+    {
+      "label": "Fallen limb River Park",
+      "description": "311-1828 · Complete",
+      "owner": "Luca Poluru",
+      "type": "Request",
+      "href": "#/request/rq_tree"
+    },
+    {
+      "label": "Bus shelter 12 graffiti",
+      "description": "311-1854 · In progress",
+      "owner": "Rohan Poluru",
+      "type": "Request",
+      "href": "#/request/rq_graffiti"
+    },
+    {
+      "label": "Cracked sidewalk 4th St",
+      "description": "311-1857 · Pending",
+      "owner": "Dev Poluru",
+      "type": "Request",
+      "href": "#/request/rq_sidewalk"
+    },
+    {
+      "label": "After-hours construction",
+      "description": "311-1860 · Open",
+      "owner": "Rohan Poluru",
+      "type": "Request",
+      "href": "#/request/rq_noise"
+    },
+    {
+      "label": "Hydrant leak Cedar",
+      "description": "311-1862 · In progress",
+      "owner": "Hana Poluru",
+      "type": "Request",
+      "href": "#/request/rq_water"
+    },
+    {
+      "label": "Stop sign down 9th",
+      "description": "311-1821 · Complete",
+      "owner": "Elena Poluru",
+      "type": "Request",
+      "href": "#/request/rq_sign"
+    },
+    {
+      "label": "Illegal dump alley 9",
+      "description": "311-1866 · Open",
+      "owner": "Luca Poluru",
+      "type": "Request",
+      "href": "#/request/rq_dump"
+    },
+    {
+      "label": "Building · BLD-442",
+      "description": "Harbor garage, 18 Dock St · In review",
+      "owner": "Kavya Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Encroachment · ENC-118",
+      "description": "Sidewalk cafe, 4 Market · Approved",
+      "owner": "Anika Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Special event · EVT-77",
+      "description": "Riverfest, River Park · Pending",
+      "owner": "Luca Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Film · FLM-12",
+      "description": "Ward 6 waterfront · In review",
+      "owner": "Priya Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Demolition · BLD-438",
+      "description": "Old mill, 9 Canal · Denied",
+      "owner": "Arjun Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Right of way · ROW-90",
+      "description": "Fiber trench, Oak St · Approved",
+      "owner": "Dev Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Sign · SGN-55",
+      "description": "Harbor Inn, 2 Pier · In review",
+      "owner": "Sahana Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Building · BLD-451",
+      "description": "Community pool, Parks · Issued",
+      "owner": "Luca Poluru",
+      "type": "Permit",
+      "href": "#/permits"
+    },
+    {
+      "label": "Housing vacancy 14 Elm",
+      "description": "CE-204 · Open",
+      "owner": "Sahana Poluru",
+      "type": "Case",
+      "href": "#/cases"
+    },
+    {
+      "label": "Overgrown lot 8 Birch",
+      "description": "CE-211 · In progress",
+      "owner": "Rohan Poluru",
+      "type": "Case",
+      "href": "#/cases"
+    },
+    {
+      "label": "Cafe license renewal",
+      "description": "LIC-88 · Pending",
+      "owner": "Anika Poluru",
+      "type": "Case",
+      "href": "#/cases"
+    },
+    {
+      "label": "Repeat noise 6 Dock",
+      "description": "CE-218 · Hearing",
+      "owner": "Rohan Poluru",
+      "type": "Case",
+      "href": "#/cases"
+    },
+    {
+      "label": "Short-term rental 22 Pine",
+      "description": "CE-190 · Closed",
+      "owner": "Sahana Poluru",
+      "type": "Case",
+      "href": "#/cases"
+    },
+    {
+      "label": "Illegal dump alley 9",
+      "description": "CE-220 · Open",
+      "owner": "Luca Poluru",
+      "type": "Case",
+      "href": "#/cases"
+    },
+    {
+      "label": "Public works",
+      "description": "Hana Poluru · SLA 84%",
+      "owner": "Hana Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "311 desk",
+      "description": "Elena Poluru · SLA 91%",
+      "owner": "Elena Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Permits",
+      "description": "Kavya Poluru · SLA 88%",
+      "owner": "Kavya Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Code",
+      "description": "Rohan Poluru · SLA 79%",
+      "owner": "Rohan Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Parks",
+      "description": "Luca Poluru · SLA 96%",
+      "owner": "Luca Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Housing",
+      "description": "Sahana Poluru · SLA 82%",
+      "owner": "Sahana Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Finance",
+      "description": "Arjun Poluru · SLA 100%",
+      "owner": "Arjun Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Clerk",
+      "description": "Anika Poluru · SLA 94%",
+      "owner": "Anika Poluru",
+      "type": "Department",
+      "href": "#/departments"
+    },
+    {
+      "label": "Streets fund",
+      "description": "Public works · 71% used",
+      "owner": "Arjun Poluru",
+      "type": "Budget",
+      "href": "#/budgets"
+    },
+    {
+      "label": "Water utility",
+      "description": "Utilities · 78% used",
+      "owner": "Arjun Poluru",
+      "type": "Budget",
+      "href": "#/budgets"
+    },
+    {
+      "label": "Parks levy",
+      "description": "Parks · 77% used",
+      "owner": "Arjun Poluru",
+      "type": "Budget",
+      "href": "#/budgets"
+    },
+    {
+      "label": "Housing trust",
+      "description": "Housing · 69% used",
+      "owner": "Arjun Poluru",
+      "type": "Budget",
+      "href": "#/budgets"
+    },
+    {
+      "label": "General fund",
+      "description": "Finance · 74% used",
+      "owner": "Arjun Poluru",
+      "type": "Budget",
+      "href": "#/budgets"
+    },
+    {
+      "label": "State grants",
+      "description": "Clerk · 55% used",
+      "owner": "Arjun Poluru",
+      "type": "Budget",
+      "href": "#/budgets"
+    },
+    {
+      "label": "311 SLA pack",
+      "description": "PDF · 15 Sep 2026",
+      "owner": "Elena Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Permit clock",
+      "description": "XLSX · 16 Sep 2026",
+      "owner": "Kavya Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Case docket",
+      "description": "CSV · 14 Sep 2026",
+      "owner": "Rohan Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Budget YTD",
+      "description": "XLSX · 12 Sep 2026",
+      "owner": "Arjun Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Inspection log",
+      "description": "CSV · 16 Sep 2026",
+      "owner": "Nikhil Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Council appendix",
+      "description": "PDF · 11 Sep 2026",
+      "owner": "Mira Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "City administrator · Office of the CA",
+      "owner": "Mira Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "311 lead · 311 desk",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Public works director · Public works",
+      "owner": "Hana Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "Permits director · Permits",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Code manager · Code",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Chief inspector · Inspections",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Budget officer · Finance",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "Housing lead · Housing",
+      "owner": "Sahana Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "Parks superintendent · Parks",
+      "owner": "Luca Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "City clerk · Clerk",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "City engineer · Engineering",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Grants officer · Finance",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/departments"
+    },
+    {
+      "label": "Overview",
+      "description": "City pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Oak Street pothole",
+      "description": "311-1842 · Ward 2",
+      "href": "#/request/rq_pothole",
+      "icon": "bell",
+      "type": "Jump"
+    },
+    {
+      "label": "Harbor garage",
+      "description": "BLD-442 · in review",
+      "href": "#/permits",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Housing vacancy",
+      "description": "CE-204 · 14 Elm",
+      "href": "#/cases",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Budgets",
+      "description": "74% YTD",
+      "href": "#/budgets",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Service",
+      "description": "SLA 91%",
+      "href": "#/service",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Departments",
+      "description": "Leads",
+      "href": "#/departments",
+      "icon": "user",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

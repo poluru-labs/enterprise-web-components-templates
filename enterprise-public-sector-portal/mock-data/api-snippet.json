@@ -1,0 +1,4 @@
+{
+  "language": "json",
+  "code": "GET /v1/requests/rq_pothole\nAuthorization: Bearer civic_live_****\n\n{\n  \"id\": \"rq_pothole\",\n  \"code\": \"311-1842\",\n  \"title\": \"Pothole on Oak Street\",\n  \"owner\": \"Hana Poluru\",\n  \"sla\": \"Watch\"\n}"
+}

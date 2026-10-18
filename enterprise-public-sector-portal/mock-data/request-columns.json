@@ -1,0 +1,34 @@
+{
+  "columns": [
+    {
+      "key": "code",
+      "label": "Request",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Title",
+      "sortable": true
+    },
+    {
+      "key": "department",
+      "label": "Department"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    },
+    {
+      "key": "due",
+      "label": "Due"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    }
+  ]
+}

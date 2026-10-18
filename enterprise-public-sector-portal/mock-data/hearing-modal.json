@@ -1,0 +1,23 @@
+{
+  "heading": "Set a hearing",
+  "caseOptions": [
+    {
+      "label": "Housing vacancy 14 Elm",
+      "value": "cs_housing"
+    },
+    {
+      "label": "Repeat noise 6 Dock",
+      "value": "cs_noise"
+    },
+    {
+      "label": "Illegal dump alley 9",
+      "value": "cs_dump"
+    },
+    {
+      "label": "Cafe license renewal",
+      "value": "cs_license"
+    }
+  ],
+  "defaultCase": "cs_noise",
+  "noticePlaceholder": "What the board will hear."
+}
