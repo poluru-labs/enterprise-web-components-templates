@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "label": "Mira Poluru gave notice at Alder 4C",
+      "description": "Kavya Poluru · lease",
+      "icon": "clock",
+      "href": "#/leases"
+    },
+    {
+      "label": "Cedar dock still standing water",
+      "description": "Nikhil Poluru · WO-881",
+      "icon": "alert-triangle",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Flare 2A leak is open",
+      "description": "Subra Poluru · Galveston",
+      "icon": "file",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Quill 8D make-ready this week",
+      "description": "Subra Poluru · draft lease",
+      "icon": "star",
+      "href": "#/property/hv-quill"
+    }
+  ],
+  "count": 4
+}

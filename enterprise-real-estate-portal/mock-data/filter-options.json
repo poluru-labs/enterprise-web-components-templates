@@ -1,0 +1,108 @@
+{
+  "properties": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Leased",
+        "value": "leased"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      }
+    ],
+    "city": [
+      {
+        "label": "All cities",
+        "value": ""
+      },
+      {
+        "label": "Austin",
+        "value": "Austin"
+      },
+      {
+        "label": "Dallas",
+        "value": "Dallas"
+      },
+      {
+        "label": "Galveston",
+        "value": "Galveston"
+      },
+      {
+        "label": "Houston",
+        "value": "Houston"
+      },
+      {
+        "label": "Round Rock",
+        "value": "Round Rock"
+      }
+    ]
+  },
+  "occupancy": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Leased",
+        "value": "leased"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      }
+    ]
+  },
+  "leases": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Active",
+        "value": "active"
+      },
+      {
+        "label": "Notice",
+        "value": "notice"
+      },
+      {
+        "label": "Expired",
+        "value": "expired"
+      },
+      {
+        "label": "Draft",
+        "value": "draft"
+      }
+    ]
+  },
+  "maintenance": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "open"
+      },
+      {
+        "label": "In progress",
+        "value": "in_progress"
+      },
+      {
+        "label": "Scheduled",
+        "value": "scheduled"
+      },
+      {
+        "label": "Closed",
+        "value": "closed"
+      }
+    ]
+  }
+}

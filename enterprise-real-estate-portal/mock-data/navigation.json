@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Properties",
+      "href": "#/properties",
+      "icon": "folder"
+    },
+    {
+      "label": "Leases",
+      "href": "#/leases",
+      "icon": "file"
+    },
+    {
+      "label": "Occupancy",
+      "href": "#/occupancy",
+      "icon": "star"
+    },
+    {
+      "label": "Maintenance",
+      "href": "#/maintenance",
+      "icon": "check"
+    },
+    {
+      "label": "Performance",
+      "href": "#/performance",
+      "icon": "clock"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

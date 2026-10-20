@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "name": "Subbu Poluru",
+      "role": "Portfolio director",
+      "squad": "Assets"
+    },
+    {
+      "name": "Subra Poluru",
+      "role": "Property manager",
+      "squad": "Field"
+    },
+    {
+      "name": "Kavya Poluru",
+      "role": "Leasing manager",
+      "squad": "Leasing"
+    },
+    {
+      "name": "Maya Poluru",
+      "role": "Asset manager",
+      "squad": "Assets"
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "Controller",
+      "squad": "Finance"
+    },
+    {
+      "name": "Leela Poluru",
+      "role": "Occupancy analyst",
+      "squad": "Leasing"
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "Facilities lead",
+      "squad": "Ops"
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Building engineer",
+      "squad": "Ops"
+    },
+    {
+      "name": "Priya Poluru",
+      "role": "Lease admin",
+      "squad": "Leasing"
+    },
+    {
+      "name": "Ishaan Poluru",
+      "role": "Tenant success",
+      "squad": "Leasing"
+    },
+    {
+      "name": "Asha Poluru",
+      "role": "Inspections",
+      "squad": "Ops"
+    },
+    {
+      "name": "Dev Poluru",
+      "role": "MEP manager",
+      "squad": "Ops"
+    }
+  ]
+}

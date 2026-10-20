@@ -1,0 +1,8 @@
+{
+  "cedarYard": {
+    "variant": "warning",
+    "dismissible": true,
+    "title": "Cedar Yard on watch",
+    "message": "Two industrial bays are dark. Subra Poluru will not list Bay 4 until the dock leak is closed."
+  }
+}

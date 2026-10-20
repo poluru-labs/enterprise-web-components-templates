@@ -1,0 +1,19 @@
+{
+  "productName": "Haven",
+  "productLine": "Real estate",
+  "workspaceName": "Poluru Homes",
+  "brandColor": "#64E2B7",
+  "headerCanvas": "#E7F9F2",
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@poluruhomes.example",
+    "role": "Portfolio director"
+  },
+  "workspace": {
+    "name": "Poluru Homes",
+    "period": "Book · 12 Sep 2026",
+    "timezone": "America / Chicago",
+    "markets": "Austin · Dallas · Houston"
+  },
+  "propertyManager": "Subra Poluru"
+}

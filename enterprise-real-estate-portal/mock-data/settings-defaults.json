@@ -1,0 +1,21 @@
+{
+  "occupancyTargetPercent": 95,
+  "workOrderDigestTo": "Nikhil Poluru",
+  "dailyFieldNotesFrom": "Subra Poluru",
+  "density": "comfortable",
+  "defaultCity": "Austin",
+  "defaultCityOptions": [
+    {
+      "label": "Austin",
+      "value": "Austin"
+    },
+    {
+      "label": "Dallas",
+      "value": "Dallas"
+    },
+    {
+      "label": "Houston",
+      "value": "Houston"
+    }
+  ]
+}

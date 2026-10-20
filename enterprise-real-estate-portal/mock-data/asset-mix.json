@@ -1,0 +1,30 @@
+{
+  "cells": [
+    {
+      "id": "multifamily",
+      "label": "Multifamily",
+      "count": 4,
+      "href": "#/properties",
+      "hot": true
+    },
+    {
+      "id": "office",
+      "label": "Office",
+      "count": 1,
+      "href": "#/properties"
+    },
+    {
+      "id": "retail",
+      "label": "Retail",
+      "count": 1,
+      "href": "#/leases"
+    },
+    {
+      "id": "industrial",
+      "label": "Industrial",
+      "count": 2,
+      "href": "#/occupancy"
+    }
+  ],
+  "leaseLabel": "93% leased"
+}

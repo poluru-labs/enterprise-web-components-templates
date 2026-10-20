@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "id": "ls-harbor",
+      "property": "Harborwell Residences",
+      "unit": "12B",
+      "tenant": "Anika Poluru",
+      "start": "2024-08-01",
+      "end": "2026-07-31",
+      "rent": 2150,
+      "manager": "Kavya Poluru",
+      "status": "active"
+    },
+    {
+      "id": "ls-alder",
+      "property": "Alder Hall lofts",
+      "unit": "4C",
+      "tenant": "Mira Poluru",
+      "start": "2025-01-15",
+      "end": "2026-01-14",
+      "rent": 1875,
+      "manager": "Kavya Poluru",
+      "status": "notice"
+    },
+    {
+      "id": "ls-cedar",
+      "property": "Cedar Yard industrial",
+      "unit": "Bay 3",
+      "tenant": "Folio Mechanical",
+      "start": "2023-03-01",
+      "end": "2026-02-28",
+      "rent": 18400,
+      "manager": "Priya Poluru",
+      "status": "active"
+    },
+    {
+      "id": "ls-lotline",
+      "property": "Lotline tower",
+      "unit": "Floor 9",
+      "tenant": "Quill Studio LLC",
+      "start": "2024-06-01",
+      "end": "2027-05-31",
+      "rent": 31200,
+      "manager": "Maya Poluru",
+      "status": "active"
+    },
+    {
+      "id": "ls-stride",
+      "property": "Stride court",
+      "unit": "Shop 6",
+      "tenant": "Northline Goods",
+      "start": "2025-04-01",
+      "end": "2026-03-31",
+      "rent": 6400,
+      "manager": "Kavya Poluru",
+      "status": "active"
+    },
+    {
+      "id": "ls-flare",
+      "property": "Flare waterfront",
+      "unit": "2A",
+      "tenant": "Leela Poluru",
+      "start": "2023-11-01",
+      "end": "2025-10-31",
+      "rent": 1720,
+      "manager": "Rohan Poluru",
+      "status": "expired"
+    },
+    {
+      "id": "ls-quill",
+      "property": "Quill Campus flats",
+      "unit": "8D",
+      "tenant": "Ishaan Poluru",
+      "start": "2026-10-01",
+      "end": "2027-09-30",
+      "rent": 1640,
+      "manager": "Subra Poluru",
+      "status": "draft"
+    },
+    {
+      "id": "ls-nimbus",
+      "property": "Nimbus park",
+      "unit": "Bay 1",
+      "tenant": "Nimbus Low Voltage",
+      "start": "2024-02-01",
+      "end": "2027-01-31",
+      "rent": 22100,
+      "manager": "Priya Poluru",
+      "status": "active"
+    }
+  ],
+  "count": 8
+}

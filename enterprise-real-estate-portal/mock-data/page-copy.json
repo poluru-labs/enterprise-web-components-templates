@@ -1,0 +1,54 @@
+{
+  "overview": {
+    "eyebrow": "Book · 12 Sep 2026",
+    "title": "Homes desk",
+    "lead": "Good afternoon, Subbu. Subra Poluru still has Harborwell at 95%. Mira Poluru’s notice at Alder 4C is the one to fill this week."
+  },
+  "properties": {
+    "eyebrow": "Assets",
+    "title": "Properties",
+    "leadTemplate": "{count} assets on the Poluru Homes book. Filter by city, type, or status, then open a card."
+  },
+  "leases": {
+    "eyebrow": "Roll",
+    "title": "Leases",
+    "leadTemplate": "Kavya Poluru’s desk. {count} files on the book. Filter, then walk a row."
+  },
+  "occupancy": {
+    "eyebrow": "Units",
+    "title": "Occupancy",
+    "lead": "Leela Poluru’s board. Occupied, vacant, and notice across Austin, Dallas, Houston, and the coast."
+  },
+  "maintenance": {
+    "eyebrow": "Ops",
+    "title": "Maintenance",
+    "leadTemplate": "Nikhil Poluru’s queue. {count} requests on the book. Filter, then open a card."
+  },
+  "performance": {
+    "eyebrow": "Returns",
+    "title": "Portfolio performance",
+    "leadTemplate": "Maya Poluru’s book. {noi} TTM NOI across eight assets."
+  },
+  "settings": {
+    "eyebrow": "Workspace",
+    "title": "Settings",
+    "lead": "Poluru Homes desk defaults, occupancy targets, and Haven notifications."
+  },
+  "search": {
+    "eyebrow": "Find",
+    "title": "Search",
+    "leadEmpty": "Search properties, leases, and maintenance requests.",
+    "leadWithQueryTemplate": "Results for “{query}” across properties, leases, and work."
+  },
+  "routeTitles": {
+    "overview": "Overview",
+    "properties": "Properties",
+    "property": "Property",
+    "leases": "Leases",
+    "occupancy": "Occupancy",
+    "maintenance": "Maintenance",
+    "performance": "Performance",
+    "settings": "Settings",
+    "search": "Search"
+  }
+}

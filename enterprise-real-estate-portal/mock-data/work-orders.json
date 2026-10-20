@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "id": "wo-881",
+      "property": "Cedar Yard industrial",
+      "unit": "Bay 4",
+      "type": "Roof",
+      "title": "Standing water at loading dock",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-11",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "wo-874",
+      "property": "Harborwell Residences",
+      "unit": "12B",
+      "type": "HVAC",
+      "title": "AC short-cycling",
+      "reporter": "Subra Poluru",
+      "date": "2026-09-12",
+      "status": "in_progress",
+      "priority": "medium"
+    },
+    {
+      "id": "wo-868",
+      "property": "Alder Hall lofts",
+      "unit": "Lobby",
+      "type": "Elevator",
+      "title": "Cab 2 door delay",
+      "reporter": "Rohan Poluru",
+      "date": "2026-09-10",
+      "status": "scheduled",
+      "priority": "medium"
+    },
+    {
+      "id": "wo-861",
+      "property": "Flare waterfront",
+      "unit": "2A",
+      "type": "Plumbing",
+      "title": "Unit 2A leak under sink",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-08",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "wo-852",
+      "property": "Lotline tower",
+      "unit": "Floor 9",
+      "type": "Access",
+      "title": "Badge reader at 9 west",
+      "reporter": "Asha Poluru",
+      "date": "2026-09-09",
+      "status": "closed",
+      "priority": "low"
+    },
+    {
+      "id": "wo-844",
+      "property": "Stride court",
+      "unit": "Shop 6",
+      "type": "HVAC",
+      "title": "Condenser noise after hours",
+      "reporter": "Dev Poluru",
+      "date": "2026-09-12",
+      "status": "open",
+      "priority": "medium"
+    },
+    {
+      "id": "wo-830",
+      "property": "Quill Campus flats",
+      "unit": "Common",
+      "type": "Make-ready",
+      "title": "8D paint and appliances",
+      "reporter": "Subra Poluru",
+      "date": "2026-09-11",
+      "status": "scheduled",
+      "priority": "low"
+    },
+    {
+      "id": "wo-821",
+      "property": "Nimbus park",
+      "unit": "Bay 1",
+      "type": "Electrical",
+      "title": "Panel labeling for tenant",
+      "reporter": "Dev Poluru",
+      "date": "2026-09-07",
+      "status": "closed",
+      "priority": "low"
+    }
+  ],
+  "count": 8,
+  "note": "In-memory list grows when users log requests via the shell modal."
+}

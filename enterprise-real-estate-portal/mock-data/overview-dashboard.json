@@ -1,0 +1,158 @@
+{
+  "featuredProperties": [
+    {
+      "id": "hv-harbor",
+      "code": "HV-104",
+      "name": "Harborwell Residences",
+      "city": "Austin",
+      "type": "multifamily",
+      "units": 240,
+      "occupied": 228,
+      "occupancy": 95,
+      "noi": 4200000,
+      "rent": 2150,
+      "pm": "Subra Poluru",
+      "status": "leased"
+    },
+    {
+      "id": "hv-alder",
+      "code": "HV-218",
+      "name": "Alder Hall lofts",
+      "city": "Dallas",
+      "type": "multifamily",
+      "units": 86,
+      "occupied": 79,
+      "occupancy": 92,
+      "noi": 1680000,
+      "rent": 1875,
+      "pm": "Kavya Poluru",
+      "status": "leased"
+    },
+    {
+      "id": "hv-quill",
+      "code": "HV-331",
+      "name": "Quill Campus flats",
+      "city": "Austin",
+      "type": "multifamily",
+      "units": 64,
+      "occupied": 61,
+      "occupancy": 95,
+      "noi": 980000,
+      "rent": 1640,
+      "pm": "Subra Poluru",
+      "status": "leased"
+    },
+    {
+      "id": "hv-cedar",
+      "code": "HV-412",
+      "name": "Cedar Yard industrial",
+      "city": "Houston",
+      "type": "industrial",
+      "units": 12,
+      "occupied": 10,
+      "occupancy": 83,
+      "noi": 2100000,
+      "rent": 18400,
+      "pm": "Dev Poluru",
+      "status": "watch"
+    },
+    {
+      "id": "hv-lotline",
+      "code": "HV-509",
+      "name": "Lotline tower",
+      "city": "Austin",
+      "type": "office",
+      "units": 42,
+      "occupied": 38,
+      "occupancy": 90,
+      "noi": 5400000,
+      "rent": 31200,
+      "pm": "Maya Poluru",
+      "status": "leased"
+    },
+    {
+      "id": "hv-stride",
+      "code": "HV-627",
+      "name": "Stride court",
+      "city": "Dallas",
+      "type": "retail",
+      "units": 22,
+      "occupied": 21,
+      "occupancy": 95,
+      "noi": 1260000,
+      "rent": 6400,
+      "pm": "Kavya Poluru",
+      "status": "leased"
+    }
+  ],
+  "openWorkPreview": [
+    {
+      "id": "wo-881",
+      "property": "Cedar Yard industrial",
+      "unit": "Bay 4",
+      "type": "Roof",
+      "title": "Standing water at loading dock",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-11",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "wo-874",
+      "property": "Harborwell Residences",
+      "unit": "12B",
+      "type": "HVAC",
+      "title": "AC short-cycling",
+      "reporter": "Subra Poluru",
+      "date": "2026-09-12",
+      "status": "in_progress",
+      "priority": "medium"
+    },
+    {
+      "id": "wo-861",
+      "property": "Flare waterfront",
+      "unit": "2A",
+      "type": "Plumbing",
+      "title": "Unit 2A leak under sink",
+      "reporter": "Nikhil Poluru",
+      "date": "2026-09-08",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "id": "wo-844",
+      "property": "Stride court",
+      "unit": "Shop 6",
+      "type": "HVAC",
+      "title": "Condenser noise after hours",
+      "reporter": "Dev Poluru",
+      "date": "2026-09-12",
+      "status": "open",
+      "priority": "medium"
+    }
+  ],
+  "leaseWatchPreview": [
+    {
+      "id": "ls-alder",
+      "property": "Alder Hall lofts",
+      "unit": "4C",
+      "tenant": "Mira Poluru",
+      "start": "2025-01-15",
+      "end": "2026-01-14",
+      "rent": 1875,
+      "manager": "Kavya Poluru",
+      "status": "notice"
+    },
+    {
+      "id": "ls-flare",
+      "property": "Flare waterfront",
+      "unit": "2A",
+      "tenant": "Leela Poluru",
+      "start": "2023-11-01",
+      "end": "2025-10-31",
+      "rent": 1720,
+      "manager": "Rohan Poluru",
+      "status": "expired"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "product": "Haven",
+  "workspace": "Poluru Homes",
+  "leaseLabel": "93% leased",
+  "inboxCount": 4,
+  "searchPlaceholder": "Find a property, lease, or work order",
+  "commandPaletteKbd": "⌘K",
+  "sidebarToggleKbd": "⌘\\",
+  "logRequestLabel": "Log request"
+}

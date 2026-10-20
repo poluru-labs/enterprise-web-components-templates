@@ -1,0 +1,12 @@
+{
+  "columns": [
+    "Asset",
+    "Type",
+    "Units",
+    "Occupied",
+    "Vacant",
+    "Rate",
+    "PM",
+    "Status"
+  ]
+}

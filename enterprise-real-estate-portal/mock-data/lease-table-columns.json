@@ -1,0 +1,11 @@
+{
+  "columns": [
+    "Property",
+    "Unit",
+    "Tenant",
+    "End",
+    "Rent",
+    "Manager",
+    "Status"
+  ]
+}

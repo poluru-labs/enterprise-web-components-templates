@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Portfolio pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Log request",
+      "description": "Open a work order",
+      "href": "#log-request",
+      "icon": "plus"
+    },
+    {
+      "label": "Properties",
+      "description": "Assets on the book",
+      "href": "#/properties",
+      "icon": "folder"
+    },
+    {
+      "label": "Leases",
+      "description": "Kavya Poluru’s desk",
+      "href": "#/leases",
+      "icon": "file"
+    },
+    {
+      "label": "Occupancy",
+      "description": "Leela Poluru’s board",
+      "href": "#/occupancy",
+      "icon": "star"
+    },
+    {
+      "label": "Maintenance",
+      "description": "Nikhil Poluru’s queue",
+      "href": "#/maintenance",
+      "icon": "check"
+    },
+    {
+      "label": "Performance",
+      "description": "Maya Poluru’s NOI",
+      "href": "#/performance",
+      "icon": "clock"
+    },
+    {
+      "label": "Settings",
+      "description": "Homes desk defaults",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

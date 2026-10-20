@@ -1,0 +1,21 @@
+{
+  "description": "Built from property occupancy, up to 2 leases and 2 work orders for the site.",
+  "occupancyItem": {
+    "labelFrom": "occupancyPercent",
+    "descriptionFrom": "pm",
+    "timestamp": "Today",
+    "icon": "check"
+  },
+  "leaseItem": {
+    "labelTemplate": "{tenant} · {unit}",
+    "descriptionFrom": "manager",
+    "timestampFrom": "end",
+    "icon": "file"
+  },
+  "workItem": {
+    "labelFrom": "title",
+    "descriptionFrom": "reporter",
+    "timestampFrom": "date",
+    "icon": "clock"
+  }
+}

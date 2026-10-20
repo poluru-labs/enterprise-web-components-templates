@@ -1,0 +1,32 @@
+{
+  "stats": [
+    {
+      "label": "Assets",
+      "value": "8",
+      "hint": "Austin, Dallas, Houston, coast",
+      "trend": "flat",
+      "trendValue": "Book"
+    },
+    {
+      "label": "Leased",
+      "value": "93%",
+      "hint": "486 of 522 units",
+      "trend": "up",
+      "trendValue": "+1%"
+    },
+    {
+      "label": "NOI TTM",
+      "value": "$18.2M",
+      "hint": "Maya Poluru’s book",
+      "trend": "up",
+      "trendValue": "+6%"
+    },
+    {
+      "label": "Open work",
+      "value": "4",
+      "hint": "Nikhil Poluru · ops",
+      "trend": "flat",
+      "trendValue": "Today"
+    }
+  ]
+}

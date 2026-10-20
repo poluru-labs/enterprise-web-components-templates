@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "id": "pf-harbor",
+      "property": "Harborwell Residences",
+      "code": "HV-104",
+      "noi": 4200000,
+      "cap": 5.4,
+      "collections": 98,
+      "occupancy": 95,
+      "owner": "Maya Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "pf-alder",
+      "property": "Alder Hall lofts",
+      "code": "HV-218",
+      "noi": 1680000,
+      "cap": 5.1,
+      "collections": 96,
+      "occupancy": 92,
+      "owner": "Maya Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "pf-quill",
+      "property": "Quill Campus flats",
+      "code": "HV-331",
+      "noi": 980000,
+      "cap": 4.8,
+      "collections": 99,
+      "occupancy": 95,
+      "owner": "Arjun Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "pf-cedar",
+      "property": "Cedar Yard industrial",
+      "code": "HV-412",
+      "noi": 2100000,
+      "cap": 6.2,
+      "collections": 91,
+      "occupancy": 83,
+      "owner": "Arjun Poluru",
+      "status": "watch"
+    },
+    {
+      "id": "pf-lotline",
+      "property": "Lotline tower",
+      "code": "HV-509",
+      "noi": 5400000,
+      "cap": 5.6,
+      "collections": 97,
+      "occupancy": 90,
+      "owner": "Maya Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "pf-stride",
+      "property": "Stride court",
+      "code": "HV-627",
+      "noi": 1260000,
+      "cap": 5.9,
+      "collections": 98,
+      "occupancy": 95,
+      "owner": "Arjun Poluru",
+      "status": "on_track"
+    },
+    {
+      "id": "pf-flare",
+      "property": "Flare waterfront",
+      "code": "HV-740",
+      "noi": 720000,
+      "cap": 4.4,
+      "collections": 88,
+      "occupancy": 85,
+      "owner": "Maya Poluru",
+      "status": "watch"
+    },
+    {
+      "id": "pf-nimbus",
+      "property": "Nimbus park",
+      "code": "HV-851",
+      "noi": 1880000,
+      "cap": 6,
+      "collections": 100,
+      "occupancy": 100,
+      "owner": "Arjun Poluru",
+      "status": "on_track"
+    }
+  ],
+  "ttmNoi": 18220000,
+  "ttmNoiFormatted": "$18.2M"
+}

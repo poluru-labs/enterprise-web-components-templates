@@ -1,0 +1,119 @@
+{
+  "heading": "Log a request",
+  "placeholders": {
+    "issue": "AC short-cycling in 12B"
+  },
+  "propertyOptions": [
+    {
+      "label": "Harborwell Residences",
+      "value": "Harborwell Residences"
+    },
+    {
+      "label": "Alder Hall lofts",
+      "value": "Alder Hall lofts"
+    },
+    {
+      "label": "Quill Campus flats",
+      "value": "Quill Campus flats"
+    },
+    {
+      "label": "Cedar Yard industrial",
+      "value": "Cedar Yard industrial"
+    },
+    {
+      "label": "Lotline tower",
+      "value": "Lotline tower"
+    },
+    {
+      "label": "Stride court",
+      "value": "Stride court"
+    },
+    {
+      "label": "Flare waterfront",
+      "value": "Flare waterfront"
+    },
+    {
+      "label": "Nimbus park",
+      "value": "Nimbus park"
+    }
+  ],
+  "reporterOptions": [
+    {
+      "label": "Subbu Poluru",
+      "value": "Subbu Poluru"
+    },
+    {
+      "label": "Subra Poluru",
+      "value": "Subra Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Leela Poluru",
+      "value": "Leela Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "value": "Ishaan Poluru"
+    },
+    {
+      "label": "Asha Poluru",
+      "value": "Asha Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    }
+  ],
+  "tradeOptions": [
+    {
+      "label": "HVAC",
+      "value": "HVAC"
+    },
+    {
+      "label": "Plumbing",
+      "value": "Plumbing"
+    },
+    {
+      "label": "Electrical",
+      "value": "Electrical"
+    },
+    {
+      "label": "Roof",
+      "value": "Roof"
+    },
+    {
+      "label": "Make-ready",
+      "value": "Make-ready"
+    },
+    {
+      "label": "Access",
+      "value": "Access"
+    }
+  ],
+  "defaults": {
+    "reporter": "Subbu Poluru"
+  }
+}

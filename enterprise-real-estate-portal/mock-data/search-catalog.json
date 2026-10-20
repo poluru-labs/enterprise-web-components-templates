@@ -1,0 +1,228 @@
+{
+  "items": [
+    {
+      "label": "Harborwell Residences",
+      "description": "HV-104 · Austin · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Property",
+      "href": "#/property/hv-harbor"
+    },
+    {
+      "label": "Alder Hall lofts",
+      "description": "HV-218 · Dallas · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Property",
+      "href": "#/property/hv-alder"
+    },
+    {
+      "label": "Quill Campus flats",
+      "description": "HV-331 · Austin · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Property",
+      "href": "#/property/hv-quill"
+    },
+    {
+      "label": "Cedar Yard industrial",
+      "description": "HV-412 · Houston · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Property",
+      "href": "#/property/hv-cedar"
+    },
+    {
+      "label": "Lotline tower",
+      "description": "HV-509 · Austin · Maya Poluru",
+      "owner": "Maya Poluru",
+      "type": "Property",
+      "href": "#/property/hv-lotline"
+    },
+    {
+      "label": "Stride court",
+      "description": "HV-627 · Dallas · Kavya Poluru",
+      "owner": "Kavya Poluru",
+      "type": "Property",
+      "href": "#/property/hv-stride"
+    },
+    {
+      "label": "Flare waterfront",
+      "description": "HV-740 · Galveston · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Property",
+      "href": "#/property/hv-flare"
+    },
+    {
+      "label": "Nimbus park",
+      "description": "HV-851 · Round Rock · Priya Poluru",
+      "owner": "Priya Poluru",
+      "type": "Property",
+      "href": "#/property/hv-nimbus"
+    },
+    {
+      "label": "Anika Poluru · 12B",
+      "description": "Harborwell Residences · active",
+      "owner": "Kavya Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Mira Poluru · 4C",
+      "description": "Alder Hall lofts · notice",
+      "owner": "Kavya Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Folio Mechanical · Bay 3",
+      "description": "Cedar Yard industrial · active",
+      "owner": "Priya Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Quill Studio LLC · Floor 9",
+      "description": "Lotline tower · active",
+      "owner": "Maya Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Northline Goods · Shop 6",
+      "description": "Stride court · active",
+      "owner": "Kavya Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Leela Poluru · 2A",
+      "description": "Flare waterfront · expired",
+      "owner": "Rohan Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Ishaan Poluru · 8D",
+      "description": "Quill Campus flats · draft",
+      "owner": "Subra Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Nimbus Low Voltage · Bay 1",
+      "description": "Nimbus park · active",
+      "owner": "Priya Poluru",
+      "type": "Lease",
+      "href": "#/leases"
+    },
+    {
+      "label": "Standing water at loading dock",
+      "description": "Cedar Yard industrial · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "AC short-cycling",
+      "description": "Harborwell Residences · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Cab 2 door delay",
+      "description": "Alder Hall lofts · Rohan Poluru",
+      "owner": "Rohan Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Unit 2A leak under sink",
+      "description": "Flare waterfront · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Badge reader at 9 west",
+      "description": "Lotline tower · Asha Poluru",
+      "owner": "Asha Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Condenser noise after hours",
+      "description": "Stride court · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "8D paint and appliances",
+      "description": "Quill Campus flats · Subra Poluru",
+      "owner": "Subra Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Panel labeling for tenant",
+      "description": "Nimbus park · Dev Poluru",
+      "owner": "Dev Poluru",
+      "type": "Work order",
+      "href": "#/maintenance"
+    },
+    {
+      "label": "Overview",
+      "description": "Portfolio pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Log request",
+      "description": "Open a work order",
+      "href": "#log-request",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Properties",
+      "description": "Assets on the book",
+      "href": "#/properties",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Leases",
+      "description": "Kavya Poluru’s desk",
+      "href": "#/leases",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Occupancy",
+      "description": "Leela Poluru’s board",
+      "href": "#/occupancy",
+      "icon": "star",
+      "type": "Jump"
+    },
+    {
+      "label": "Maintenance",
+      "description": "Nikhil Poluru’s queue",
+      "href": "#/maintenance",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Performance",
+      "description": "Maya Poluru’s NOI",
+      "href": "#/performance",
+      "icon": "clock",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Homes desk defaults",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}
