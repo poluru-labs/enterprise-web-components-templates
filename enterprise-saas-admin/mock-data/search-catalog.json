@@ -1,0 +1,263 @@
+{
+  "items": [
+    {
+      "id": "org_harbor",
+      "type": "Organization",
+      "label": "Harbor & Co.",
+      "hint": "Enterprise · Meera Poluru · Healthy",
+      "href": "#/org/org_harbor"
+    },
+    {
+      "id": "org_nimbus",
+      "type": "Organization",
+      "label": "Nimbus Retail",
+      "hint": "Growth · Arjun Poluru · At risk",
+      "href": "#/org/org_nimbus"
+    },
+    {
+      "id": "org_bright",
+      "type": "Organization",
+      "label": "Brightline Labs",
+      "hint": "Starter · Maya Poluru · Healthy",
+      "href": "#/org/org_bright"
+    },
+    {
+      "id": "org_lumen",
+      "type": "Organization",
+      "label": "Lumen Health",
+      "hint": "Enterprise · Nikhil Poluru · Expanding",
+      "href": "#/org/org_lumen"
+    },
+    {
+      "id": "org_fold",
+      "type": "Organization",
+      "label": "Fold Paper Co",
+      "hint": "Growth · Hana Poluru · Healthy",
+      "href": "#/org/org_fold"
+    },
+    {
+      "id": "org_oak",
+      "type": "Organization",
+      "label": "Oak & Pine",
+      "hint": "Starter · Sahana Poluru · Near cap",
+      "href": "#/org/org_oak"
+    },
+    {
+      "id": "org_cedar",
+      "type": "Organization",
+      "label": "Cedar Analytics",
+      "hint": "Growth · Dev Poluru · Healthy",
+      "href": "#/org/org_cedar"
+    },
+    {
+      "id": "org_studio",
+      "type": "Organization",
+      "label": "Fieldwork Studio",
+      "hint": "Starter · Luca Poluru · Healthy",
+      "href": "#/org/org_studio"
+    },
+    {
+      "id": "mira.poluru@polurulabs.example",
+      "type": "Member",
+      "label": "Mira Poluru",
+      "hint": "Poluru Cloud · Owner · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "arjun.poluru@nimbus.example",
+      "type": "Member",
+      "label": "Arjun Poluru",
+      "hint": "Nimbus Retail · Admin · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "hana.poluru@fold.example",
+      "type": "Member",
+      "label": "Hana Poluru",
+      "hint": "Fold Paper Co · Billing · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "kavya.poluru@brightline.example",
+      "type": "Member",
+      "label": "Kavya Poluru",
+      "hint": "Brightline Labs · Member · Invited",
+      "href": "#/members"
+    },
+    {
+      "id": "nikhil.poluru@lumen.example",
+      "type": "Member",
+      "label": "Nikhil Poluru",
+      "hint": "Lumen Health · Admin · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "elena.poluru@harbor.example",
+      "type": "Member",
+      "label": "Elena Poluru",
+      "hint": "Harbor & Co. · Member · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "jordan.poluru@harbor.example",
+      "type": "Member",
+      "label": "Jordan Poluru",
+      "hint": "Harbor & Co. · Support · Suspended",
+      "href": "#/members"
+    },
+    {
+      "id": "luca.poluru@harbor.example",
+      "type": "Member",
+      "label": "Luca Poluru",
+      "hint": "Harbor & Co. · Admin · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "noor.poluru@harbor.example",
+      "type": "Member",
+      "label": "Noor Poluru",
+      "hint": "Harbor & Co. · Member · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "sahana.poluru@oak.example",
+      "type": "Member",
+      "label": "Sahana Poluru",
+      "hint": "Oak & Pine · Owner · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "rohan.poluru@polurulabs.example",
+      "type": "Member",
+      "label": "Rohan Poluru",
+      "hint": "Poluru Cloud · Support · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "priya.poluru@lumen.example",
+      "type": "Member",
+      "label": "Priya Poluru",
+      "hint": "Lumen Health · Member · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "dev.poluru@cedar.example",
+      "type": "Member",
+      "label": "Dev Poluru",
+      "hint": "Cedar Analytics · Owner · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "maya.poluru@brightline.example",
+      "type": "Member",
+      "label": "Maya Poluru",
+      "hint": "Brightline Labs · Admin · Active",
+      "href": "#/members"
+    },
+    {
+      "id": "billing.usage_alerts",
+      "type": "Flag",
+      "label": "Usage alerts",
+      "hint": "billing.usage_alerts · 100% · GA",
+      "href": "#/flags"
+    },
+    {
+      "id": "auth.passkeys",
+      "type": "Flag",
+      "label": "Passkeys",
+      "hint": "auth.passkeys · 42% · Partial",
+      "href": "#/flags"
+    },
+    {
+      "id": "admin.impersonate",
+      "type": "Flag",
+      "label": "Org impersonation",
+      "hint": "admin.impersonate · 100% · Internal",
+      "href": "#/flags"
+    },
+    {
+      "id": "flags.percentage",
+      "type": "Flag",
+      "label": "Percentage rollouts",
+      "hint": "flags.percentage · 80% · GA",
+      "href": "#/flags"
+    },
+    {
+      "id": "ai.digest",
+      "type": "Flag",
+      "label": "Weekly digest",
+      "hint": "ai.digest · 12% · Beta",
+      "href": "#/flags"
+    },
+    {
+      "id": "sso.scim_v2",
+      "type": "Flag",
+      "label": "SCIM v2",
+      "hint": "sso.scim_v2 · 0% · Off",
+      "href": "#/flags"
+    },
+    {
+      "id": "audit.exports",
+      "type": "Flag",
+      "label": "Audit exports",
+      "hint": "audit.exports · 18% · Beta",
+      "href": "#/flags"
+    },
+    {
+      "id": "orgs.auto_suspend",
+      "type": "Flag",
+      "label": "Auto-suspend past due",
+      "hint": "orgs.auto_suspend · 55% · Partial",
+      "href": "#/flags"
+    },
+    {
+      "id": "#/overview",
+      "type": "Jump",
+      "label": "Overview",
+      "hint": "Dashboard pulse",
+      "href": "#/overview"
+    },
+    {
+      "id": "#/search",
+      "type": "Jump",
+      "label": "Search",
+      "hint": "Orgs, members, flags",
+      "href": "#/search"
+    },
+    {
+      "id": "#/org/org_harbor",
+      "type": "Jump",
+      "label": "Harbor & Co.",
+      "hint": "Organization",
+      "href": "#/org/org_harbor"
+    },
+    {
+      "id": "#/members",
+      "type": "Jump",
+      "label": "Invite member",
+      "hint": "Add a seat",
+      "href": "#/members"
+    },
+    {
+      "id": "#/flags",
+      "type": "Jump",
+      "label": "Feature flags",
+      "hint": "Rollouts",
+      "href": "#/flags"
+    },
+    {
+      "id": "#/incidents",
+      "type": "Jump",
+      "label": "Incidents",
+      "hint": "Uptime",
+      "href": "#/incidents"
+    },
+    {
+      "id": "#/settings",
+      "type": "Jump",
+      "label": "Settings",
+      "hint": "SSO and keys",
+      "href": "#/settings"
+    }
+  ]
+}

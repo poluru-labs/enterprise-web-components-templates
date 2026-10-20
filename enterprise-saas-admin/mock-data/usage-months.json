@@ -1,0 +1,19 @@
+{
+  "mrrThousands": [
+    112,
+    118,
+    124,
+    131,
+    138,
+    146,
+    152,
+    159,
+    168,
+    174,
+    181,
+    186
+  ],
+  "chartLabel": "Monthly recurring revenue in thousands",
+  "badge": "T12M",
+  "footnote": "September is in progress at $186k. Net new $22.4k from Lumen Health and Cedar Analytics."
+}

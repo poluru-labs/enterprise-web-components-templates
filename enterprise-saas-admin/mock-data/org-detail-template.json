@@ -1,0 +1,32 @@
+{
+  "factFields": [
+    "Owner",
+    "Plan",
+    "MRR",
+    "SSO",
+    "Created",
+    "Seats"
+  ],
+  "memberTableColumns": [
+    {
+      "key": "name",
+      "label": "Name",
+      "sortable": true
+    },
+    {
+      "key": "role",
+      "label": "Role",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ],
+  "flagsPreviewCount": 4,
+  "usageTabDefaults": {
+    "seatsMeter": 80,
+    "apiPercent": 61
+  },
+  "healthNote": "Scored from seat fill, payment health, and support load."
+}

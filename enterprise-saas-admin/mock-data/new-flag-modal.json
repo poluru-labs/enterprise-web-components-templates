@@ -1,0 +1,9 @@
+{
+  "heading": "New flag",
+  "placeholders": {
+    "name": "Audit exports",
+    "notes": "Who is this for, and when does it graduate."
+  },
+  "defaultKey": "audit.exports",
+  "initialRollout": 0
+}

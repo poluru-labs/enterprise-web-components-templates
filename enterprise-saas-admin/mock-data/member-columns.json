@@ -1,0 +1,30 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Name",
+      "sortable": true
+    },
+    {
+      "key": "email",
+      "label": "Email"
+    },
+    {
+      "key": "role",
+      "label": "Role",
+      "sortable": true
+    },
+    {
+      "key": "org",
+      "label": "Organization"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "last",
+      "label": "Last seen"
+    }
+  ]
+}

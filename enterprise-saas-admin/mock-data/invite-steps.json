@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "label": "Organization",
+      "description": "Who they belong to"
+    },
+    {
+      "label": "Access",
+      "description": "Role and seats"
+    },
+    {
+      "label": "Confirm",
+      "description": "Admin PIN"
+    }
+  ]
+}

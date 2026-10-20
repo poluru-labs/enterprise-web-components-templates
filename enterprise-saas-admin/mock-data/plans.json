@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "name": "Starter",
+      "price": "$49",
+      "seats": "25 seats",
+      "features": "Email support · 2 flags · 10k API",
+      "orgs": 322
+    },
+    {
+      "name": "Growth",
+      "price": "$249",
+      "seats": "100 seats",
+      "features": "SSO · 20 flags · 250k API",
+      "orgs": 290
+    },
+    {
+      "name": "Enterprise",
+      "price": "Custom",
+      "seats": "Unlimited",
+      "features": "SCIM · SLA · dedicated CSM",
+      "orgs": 236
+    },
+    {
+      "name": "Platform",
+      "price": "Custom",
+      "seats": "Dedicated",
+      "features": "Private cell · audit pack · 24×7",
+      "orgs": 12,
+      "highlight": true
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "rows": [
+    {
+      "key": "billing.usage_alerts",
+      "name": "Usage alerts",
+      "owner": "Mira Poluru",
+      "rollout": 100,
+      "status": "GA",
+      "env": "Production"
+    },
+    {
+      "key": "auth.passkeys",
+      "name": "Passkeys",
+      "owner": "Rohan Poluru",
+      "rollout": 42,
+      "status": "Partial",
+      "env": "Production"
+    },
+    {
+      "key": "admin.impersonate",
+      "name": "Org impersonation",
+      "owner": "Mira Poluru",
+      "rollout": 100,
+      "status": "Internal",
+      "env": "Staff"
+    },
+    {
+      "key": "flags.percentage",
+      "name": "Percentage rollouts",
+      "owner": "Priya Poluru",
+      "rollout": 80,
+      "status": "GA",
+      "env": "Production"
+    },
+    {
+      "key": "ai.digest",
+      "name": "Weekly digest",
+      "owner": "Kavya Poluru",
+      "rollout": 12,
+      "status": "Beta",
+      "env": "Staging"
+    },
+    {
+      "key": "sso.scim_v2",
+      "name": "SCIM v2",
+      "owner": "Nikhil Poluru",
+      "rollout": 0,
+      "status": "Off",
+      "env": "Production"
+    },
+    {
+      "key": "audit.exports",
+      "name": "Audit exports",
+      "owner": "Mira Poluru",
+      "rollout": 18,
+      "status": "Beta",
+      "env": "Staging"
+    },
+    {
+      "key": "orgs.auto_suspend",
+      "name": "Auto-suspend past due",
+      "owner": "Arjun Poluru",
+      "rollout": 55,
+      "status": "Partial",
+      "env": "Production"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "name": "Mira Poluru",
+      "email": "mira.poluru@polurulabs.example",
+      "role": "Owner",
+      "org": "Poluru Cloud",
+      "status": "Active",
+      "last": "Now"
+    },
+    {
+      "name": "Arjun Poluru",
+      "email": "arjun.poluru@nimbus.example",
+      "role": "Admin",
+      "org": "Nimbus Retail",
+      "status": "Active",
+      "last": "12m"
+    },
+    {
+      "name": "Hana Poluru",
+      "email": "hana.poluru@fold.example",
+      "role": "Billing",
+      "org": "Fold Paper Co",
+      "status": "Active",
+      "last": "2h"
+    },
+    {
+      "name": "Kavya Poluru",
+      "email": "kavya.poluru@brightline.example",
+      "role": "Member",
+      "org": "Brightline Labs",
+      "status": "Invited",
+      "last": "—"
+    },
+    {
+      "name": "Nikhil Poluru",
+      "email": "nikhil.poluru@lumen.example",
+      "role": "Admin",
+      "org": "Lumen Health",
+      "status": "Active",
+      "last": "8m"
+    },
+    {
+      "name": "Elena Poluru",
+      "email": "elena.poluru@harbor.example",
+      "role": "Member",
+      "org": "Harbor & Co.",
+      "status": "Active",
+      "last": "1d"
+    },
+    {
+      "name": "Jordan Poluru",
+      "email": "jordan.poluru@harbor.example",
+      "role": "Support",
+      "org": "Harbor & Co.",
+      "status": "Suspended",
+      "last": "6d"
+    },
+    {
+      "name": "Luca Poluru",
+      "email": "luca.poluru@harbor.example",
+      "role": "Admin",
+      "org": "Harbor & Co.",
+      "status": "Active",
+      "last": "5h"
+    },
+    {
+      "name": "Noor Poluru",
+      "email": "noor.poluru@harbor.example",
+      "role": "Member",
+      "org": "Harbor & Co.",
+      "status": "Active",
+      "last": "9h"
+    },
+    {
+      "name": "Sahana Poluru",
+      "email": "sahana.poluru@oak.example",
+      "role": "Owner",
+      "org": "Oak & Pine",
+      "status": "Active",
+      "last": "3h"
+    },
+    {
+      "name": "Rohan Poluru",
+      "email": "rohan.poluru@polurulabs.example",
+      "role": "Support",
+      "org": "Poluru Cloud",
+      "status": "Active",
+      "last": "22m"
+    },
+    {
+      "name": "Priya Poluru",
+      "email": "priya.poluru@lumen.example",
+      "role": "Member",
+      "org": "Lumen Health",
+      "status": "Active",
+      "last": "4h"
+    },
+    {
+      "name": "Dev Poluru",
+      "email": "dev.poluru@cedar.example",
+      "role": "Owner",
+      "org": "Cedar Analytics",
+      "status": "Active",
+      "last": "1h"
+    },
+    {
+      "name": "Maya Poluru",
+      "email": "maya.poluru@brightline.example",
+      "role": "Admin",
+      "org": "Brightline Labs",
+      "status": "Active",
+      "last": "35m"
+    }
+  ],
+  "count": 14
+}

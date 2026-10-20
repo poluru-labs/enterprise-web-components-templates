@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Organizations",
+      "href": "#/organizations",
+      "icon": "folder"
+    },
+    {
+      "label": "Members",
+      "href": "#/members",
+      "icon": "user"
+    },
+    {
+      "label": "Plans",
+      "href": "#/plans",
+      "icon": "star"
+    },
+    {
+      "label": "Flags",
+      "href": "#/flags",
+      "icon": "filter"
+    },
+    {
+      "label": "Usage",
+      "href": "#/usage",
+      "icon": "file"
+    },
+    {
+      "label": "Incidents",
+      "href": "#/incidents",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Audit",
+      "href": "#/audit",
+      "icon": "clock"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

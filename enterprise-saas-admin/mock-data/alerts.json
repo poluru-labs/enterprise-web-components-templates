@@ -1,0 +1,8 @@
+{
+  "maintenance": {
+    "variant": "warning",
+    "dismissible": true,
+    "title": "Maintenance window",
+    "message": "Database failover is scheduled for 30 Aug, 02:00–02:40 UTC. Writes will pause for under a minute."
+  }
+}

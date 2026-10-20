@@ -1,0 +1,12 @@
+{
+  "brandMark": "H",
+  "searchPlaceholder": "Search orgs, members, flags",
+  "commandPaletteKbd": "⌘K",
+  "inviteOrgLabel": "Invite org",
+  "activeOrg": {
+    "id": "ws_poluru",
+    "label": "Poluru Cloud",
+    "region": "Americas",
+    "active": true
+  }
+}

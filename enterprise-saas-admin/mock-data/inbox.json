@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "label": "Nimbus Retail is past due",
+      "description": "Arjun Poluru · $4.2k · 8 days",
+      "icon": "warning"
+    },
+    {
+      "label": "Kavya Poluru accepted invite",
+      "description": "Brightline Labs · Member",
+      "icon": "user"
+    },
+    {
+      "label": "Auth latency above SLO",
+      "description": "EMEA p95 820ms",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Harbor requested more seats",
+      "description": "Meera Poluru · +40",
+      "icon": "star"
+    },
+    {
+      "label": "Cedar Analytics onboarded",
+      "description": "Dev Poluru · Growth plan",
+      "icon": "folder"
+    }
+  ],
+  "count": 5
+}

@@ -1,0 +1,24 @@
+{
+  "meters": [
+    {
+      "label": "API calls",
+      "value": 74,
+      "hint": "7.4M of 10M"
+    },
+    {
+      "label": "Seats",
+      "value": 84,
+      "hint": "842 of 1,000"
+    },
+    {
+      "label": "Storage",
+      "value": 46,
+      "hint": "4.6 TB of 10 TB"
+    },
+    {
+      "label": "Realtime connections",
+      "value": 31,
+      "hint": "3.1k of 10k"
+    }
+  ]
+}

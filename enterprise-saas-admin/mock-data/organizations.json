@@ -1,0 +1,109 @@
+{
+  "rows": [
+    {
+      "id": "org_harbor",
+      "name": "Harbor & Co.",
+      "plan": "Enterprise",
+      "seats": "240 / 300",
+      "owner": "Meera Poluru",
+      "region": "EMEA",
+      "status": "Healthy",
+      "mrr": "$18.4k",
+      "created": "12 Jan 2024",
+      "sso": "Okta",
+      "health": 4.5
+    },
+    {
+      "id": "org_nimbus",
+      "name": "Nimbus Retail",
+      "plan": "Growth",
+      "seats": "86 / 100",
+      "owner": "Arjun Poluru",
+      "region": "Americas",
+      "status": "At risk",
+      "mrr": "$4.2k",
+      "created": "3 Mar 2025",
+      "sso": "Google",
+      "health": 2.5
+    },
+    {
+      "id": "org_bright",
+      "name": "Brightline Labs",
+      "plan": "Starter",
+      "seats": "18 / 25",
+      "owner": "Maya Poluru",
+      "region": "Americas",
+      "status": "Healthy",
+      "mrr": "$890",
+      "created": "19 Jun 2025",
+      "sso": "Password",
+      "health": 4
+    },
+    {
+      "id": "org_lumen",
+      "name": "Lumen Health",
+      "plan": "Enterprise",
+      "seats": "410 / 500",
+      "owner": "Nikhil Poluru",
+      "region": "Americas",
+      "status": "Expanding",
+      "mrr": "$31.2k",
+      "created": "8 Nov 2023",
+      "sso": "Azure AD",
+      "health": 5
+    },
+    {
+      "id": "org_fold",
+      "name": "Fold Paper Co",
+      "plan": "Growth",
+      "seats": "52 / 80",
+      "owner": "Hana Poluru",
+      "region": "APAC",
+      "status": "Healthy",
+      "mrr": "$2.6k",
+      "created": "22 Feb 2026",
+      "sso": "Okta",
+      "health": 4
+    },
+    {
+      "id": "org_oak",
+      "name": "Oak & Pine",
+      "plan": "Starter",
+      "seats": "9 / 10",
+      "owner": "Sahana Poluru",
+      "region": "EMEA",
+      "status": "Near cap",
+      "mrr": "$490",
+      "created": "4 May 2026",
+      "sso": "Password",
+      "health": 3
+    },
+    {
+      "id": "org_cedar",
+      "name": "Cedar Analytics",
+      "plan": "Growth",
+      "seats": "64 / 100",
+      "owner": "Dev Poluru",
+      "region": "Americas",
+      "status": "Healthy",
+      "mrr": "$3.8k",
+      "created": "14 Aug 2026",
+      "sso": "Okta",
+      "health": 4.2
+    },
+    {
+      "id": "org_studio",
+      "name": "Fieldwork Studio",
+      "plan": "Starter",
+      "seats": "12 / 25",
+      "owner": "Luca Poluru",
+      "region": "EMEA",
+      "status": "Healthy",
+      "mrr": "$720",
+      "created": "28 Aug 2026",
+      "sso": "Google",
+      "health": 3.8
+    }
+  ],
+  "count": 8
+}

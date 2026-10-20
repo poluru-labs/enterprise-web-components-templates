@@ -1,0 +1,69 @@
+{
+  "heading": "Invite member",
+  "steps": [
+    {
+      "label": "Organization",
+      "description": "Who they belong to"
+    },
+    {
+      "label": "Access",
+      "description": "Role and seats"
+    },
+    {
+      "label": "Confirm",
+      "description": "Admin PIN"
+    }
+  ],
+  "organizationOptions": [
+    {
+      "label": "Harbor & Co.",
+      "value": "org_harbor"
+    },
+    {
+      "label": "Nimbus Retail",
+      "value": "org_nimbus"
+    },
+    {
+      "label": "Brightline Labs",
+      "value": "org_bright"
+    },
+    {
+      "label": "Lumen Health",
+      "value": "org_lumen"
+    },
+    {
+      "label": "Fold Paper Co",
+      "value": "org_fold"
+    },
+    {
+      "label": "Oak & Pine",
+      "value": "org_oak"
+    },
+    {
+      "label": "Cedar Analytics",
+      "value": "org_cedar"
+    },
+    {
+      "label": "Fieldwork Studio",
+      "value": "org_studio"
+    }
+  ],
+  "roleOptions": [
+    {
+      "value": "admin",
+      "label": "Admin"
+    },
+    {
+      "value": "member",
+      "label": "Member"
+    },
+    {
+      "value": "billing",
+      "label": "Billing"
+    }
+  ],
+  "defaultRole": "member",
+  "defaultExtraSeats": 1,
+  "emailPlaceholder": "name@company.example",
+  "pinLength": 4
+}

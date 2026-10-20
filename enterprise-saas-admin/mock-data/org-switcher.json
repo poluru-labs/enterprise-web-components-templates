@@ -1,0 +1,22 @@
+{
+  "options": [
+    {
+      "id": "ws_poluru",
+      "label": "Poluru Cloud",
+      "region": "Americas",
+      "active": true
+    },
+    {
+      "id": "ws_harbor",
+      "label": "Harbor & Co.",
+      "region": "EMEA",
+      "active": false
+    },
+    {
+      "id": "ws_lumen",
+      "label": "Lumen Health",
+      "region": "Americas",
+      "active": false
+    }
+  ]
+}

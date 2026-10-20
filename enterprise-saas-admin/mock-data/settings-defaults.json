@@ -1,0 +1,21 @@
+{
+  "workspaceName": "Poluru Cloud",
+  "supportEmail": "hello@polurulabs.example",
+  "density": "comfortable",
+  "densityOptions": [
+    {
+      "label": "Comfortable",
+      "value": "comfortable"
+    },
+    {
+      "label": "Compact",
+      "value": "compact"
+    }
+  ],
+  "showImpersonationInHeader": true,
+  "requireSsoForStaff": true,
+  "scimProvisioning": false,
+  "ssoEntityId": "https://helio.example/sso",
+  "staffPinLength": 4,
+  "sessionHours": 8
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "Elevated auth latency",
+      "description": "Token exchange p95 at 820ms in EMEA.",
+      "timestamp": "1 Sep 14:12",
+      "status": "current"
+    },
+    {
+      "title": "Billing webhook retries",
+      "description": "Stripe events delayed 6 minutes. Recovered.",
+      "timestamp": "26 Aug 09:40",
+      "status": "complete"
+    },
+    {
+      "title": "Flag service deploy",
+      "description": "Percentage rollouts shipped without customer impact.",
+      "timestamp": "22 Aug 18:05",
+      "status": "complete"
+    },
+    {
+      "title": "Scheduled maintenance",
+      "description": "Database failover window · 02:00–02:40 UTC.",
+      "timestamp": "30 Aug 02:00",
+      "status": "upcoming"
+    },
+    {
+      "title": "Edge cache purge",
+      "description": "APAC CDN nodes refreshed during low traffic.",
+      "timestamp": "18 Aug 23:10",
+      "status": "complete"
+    },
+    {
+      "title": "SCIM sync delay",
+      "description": "Lumen Health directory lagged 12 minutes.",
+      "timestamp": "15 Aug 11:22",
+      "status": "complete"
+    }
+  ]
+}

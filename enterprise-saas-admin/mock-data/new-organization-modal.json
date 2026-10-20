@@ -1,0 +1,37 @@
+{
+  "heading": "New organization",
+  "placeholders": {
+    "name": "Fieldwork Studio"
+  },
+  "defaultOwner": "Luca Poluru",
+  "planOptions": [
+    {
+      "label": "Starter",
+      "value": "starter"
+    },
+    {
+      "label": "Growth",
+      "value": "growth"
+    },
+    {
+      "label": "Enterprise",
+      "value": "enterprise"
+    }
+  ],
+  "defaultPlan": "starter",
+  "regionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultRegion": "americas"
+}

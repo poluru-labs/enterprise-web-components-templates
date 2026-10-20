@@ -1,0 +1,36 @@
+{
+  "tree": [
+    {
+      "id": "prod",
+      "label": "Production",
+      "children": [
+        {
+          "id": "prod-web",
+          "label": "helio-web"
+        },
+        {
+          "id": "prod-api",
+          "label": "helio-api"
+        },
+        {
+          "id": "prod-flags",
+          "label": "helio-flags"
+        }
+      ]
+    },
+    {
+      "id": "staging",
+      "label": "Staging",
+      "children": [
+        {
+          "id": "stg-web",
+          "label": "helio-web-stg"
+        },
+        {
+          "id": "stg-api",
+          "label": "helio-api-stg"
+        }
+      ]
+    }
+  ]
+}

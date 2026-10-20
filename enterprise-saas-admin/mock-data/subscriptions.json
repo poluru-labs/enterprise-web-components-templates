@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "org": "Harbor & Co.",
+      "plan": "Enterprise",
+      "renews": "12 Jan 2027",
+      "mrr": "$18.4k",
+      "status": "Active"
+    },
+    {
+      "org": "Lumen Health",
+      "plan": "Enterprise",
+      "renews": "8 Nov 2026",
+      "mrr": "$31.2k",
+      "status": "Active"
+    },
+    {
+      "org": "Nimbus Retail",
+      "plan": "Growth",
+      "renews": "3 Mar 2027",
+      "mrr": "$4.2k",
+      "status": "Past due"
+    },
+    {
+      "org": "Fold Paper Co",
+      "plan": "Growth",
+      "renews": "22 Feb 2027",
+      "mrr": "$2.6k",
+      "status": "Active"
+    },
+    {
+      "org": "Brightline Labs",
+      "plan": "Starter",
+      "renews": "19 Jun 2027",
+      "mrr": "$890",
+      "status": "Trial"
+    },
+    {
+      "org": "Oak & Pine",
+      "plan": "Starter",
+      "renews": "4 May 2027",
+      "mrr": "$490",
+      "status": "Active"
+    },
+    {
+      "org": "Cedar Analytics",
+      "plan": "Growth",
+      "renews": "14 Aug 2027",
+      "mrr": "$3.8k",
+      "status": "Active"
+    },
+    {
+      "org": "Fieldwork Studio",
+      "plan": "Starter",
+      "renews": "28 Aug 2027",
+      "mrr": "$720",
+      "status": "Active"
+    }
+  ],
+  "columns": [
+    {
+      "key": "org",
+      "label": "Organization",
+      "sortable": true
+    },
+    {
+      "key": "plan",
+      "label": "Plan"
+    },
+    {
+      "key": "renews",
+      "label": "Renews"
+    },
+    {
+      "key": "mrr",
+      "label": "MRR",
+      "sortable": true
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ]
+}

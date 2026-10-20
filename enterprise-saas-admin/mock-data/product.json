@@ -1,0 +1,19 @@
+{
+  "productName": "Helio",
+  "productLine": "Admin",
+  "workspaceName": "Poluru Cloud",
+  "brandColor": "#F8DE22",
+  "tenancyBarTheme": "dark ink with chrome-yellow seat meter",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@polurulabs.example",
+    "role": "Platform admin",
+    "region": "Americas"
+  },
+  "seatUsage": {
+    "used": 842,
+    "total": 1000,
+    "label": "Contracted seats",
+    "usedPercent": 84
+  }
+}

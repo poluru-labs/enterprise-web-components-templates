@@ -1,0 +1,66 @@
+{
+  "overview": {
+    "eyebrow": "Poluru Cloud · live",
+    "title": "Overview",
+    "lead": "Good afternoon, Mira. Seats, flags, and uptime for the control plane."
+  },
+  "search": {
+    "eyebrow": "Control plane",
+    "title": "Search",
+    "lead": "Find organizations, members, flags, and jump targets across Poluru Cloud."
+  },
+  "organizations": {
+    "eyebrow": "Tenants",
+    "title": "Organizations",
+    "lead": "848 workspaces on Poluru Cloud. Create, impersonate, or adjust seats without leaving the directory."
+  },
+  "members": {
+    "eyebrow": "Access",
+    "title": "Members",
+    "lead": "12,480 active seats. Invite a Poluru teammate, change a role, or suspend access."
+  },
+  "plans": {
+    "eyebrow": "Billing",
+    "title": "Plans",
+    "lead": "Starter, Growth, Enterprise, and Platform. Change a subscription or open a custom quote."
+  },
+  "flags": {
+    "eyebrow": "Release",
+    "title": "Feature flags",
+    "lead": "Percentage rollouts, environment targeting, and kill switches across Poluru Cloud."
+  },
+  "usage": {
+    "eyebrow": "Meters",
+    "title": "Usage",
+    "lead": "API, seats, storage, and realtime. Adjust the window to compare the last cycle."
+  },
+  "incidents": {
+    "eyebrow": "Reliability",
+    "title": "Incidents",
+    "lead": "Auth latency is the open watch. Everything else is green across Aug–Sep 2026."
+  },
+  "audit": {
+    "eyebrow": "Security",
+    "title": "Audit log",
+    "lead": "Every admin action in Poluru Cloud. Filter by actor or export a pack."
+  },
+  "settings": {
+    "eyebrow": "Poluru Cloud",
+    "title": "Settings",
+    "lead": "SSO, API keys, webhooks, and workspace density. Changes apply to every Poluru Cloud tenant."
+  },
+  "orgDetailLeadTemplate": "{plan} · {seats} seats · owned by {owner}.",
+  "routeTitles": {
+    "overview": "Overview",
+    "search": "Search",
+    "organizations": "Organizations",
+    "org": "Organization",
+    "members": "Members",
+    "plans": "Plans",
+    "flags": "Flags",
+    "usage": "Usage",
+    "incidents": "Incidents",
+    "audit": "Audit",
+    "settings": "Settings"
+  }
+}

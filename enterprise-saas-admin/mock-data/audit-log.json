@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "when": "16:18",
+      "actor": "Mira Poluru",
+      "action": "Enabled flag",
+      "target": "auth.passkeys",
+      "ip": "10.4.12.8"
+    },
+    {
+      "when": "15:02",
+      "actor": "Rohan Poluru",
+      "action": "Invited member",
+      "target": "Kavya Poluru",
+      "ip": "10.4.12.21"
+    },
+    {
+      "when": "13:44",
+      "actor": "Mira Poluru",
+      "action": "Impersonated org",
+      "target": "Harbor & Co.",
+      "ip": "10.4.12.8"
+    },
+    {
+      "when": "11:20",
+      "actor": "Priya Poluru",
+      "action": "Rotated API key",
+      "target": "live_sk_helio",
+      "ip": "10.8.2.14"
+    },
+    {
+      "when": "Yesterday",
+      "actor": "Nikhil Poluru",
+      "action": "SSO enforced",
+      "target": "Lumen Health",
+      "ip": "10.2.9.4"
+    },
+    {
+      "when": "Yesterday",
+      "actor": "Mira Poluru",
+      "action": "Changed plan",
+      "target": "Nimbus Retail → Growth",
+      "ip": "10.4.12.8"
+    },
+    {
+      "when": "28 Aug",
+      "actor": "Dev Poluru",
+      "action": "Created org",
+      "target": "Cedar Analytics",
+      "ip": "10.4.12.44"
+    },
+    {
+      "when": "28 Aug",
+      "actor": "Luca Poluru",
+      "action": "Created org",
+      "target": "Fieldwork Studio",
+      "ip": "10.4.12.51"
+    }
+  ],
+  "columns": [
+    {
+      "key": "when",
+      "label": "When"
+    },
+    {
+      "key": "actor",
+      "label": "Actor",
+      "sortable": true
+    },
+    {
+      "key": "action",
+      "label": "Action"
+    },
+    {
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "key": "ip",
+      "label": "IP"
+    }
+  ],
+  "samplePayload": {
+    "when": "16:18",
+    "actor": "Mira Poluru",
+    "action": "Enabled flag",
+    "target": "auth.passkeys",
+    "ip": "10.4.12.8"
+  }
+}

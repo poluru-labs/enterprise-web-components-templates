@@ -1,0 +1,100 @@
+{
+  "organizations": {
+    "plan": [
+      {
+        "label": "All plans",
+        "value": "all"
+      },
+      {
+        "label": "Starter",
+        "value": "Starter"
+      },
+      {
+        "label": "Growth",
+        "value": "Growth"
+      },
+      {
+        "label": "Enterprise",
+        "value": "Enterprise"
+      }
+    ]
+  },
+  "members": {
+    "role": [
+      {
+        "label": "All roles",
+        "value": "all"
+      },
+      {
+        "label": "Owner",
+        "value": "Owner"
+      },
+      {
+        "label": "Admin",
+        "value": "Admin"
+      },
+      {
+        "label": "Billing",
+        "value": "Billing"
+      },
+      {
+        "label": "Member",
+        "value": "Member"
+      },
+      {
+        "label": "Support",
+        "value": "Support"
+      }
+    ],
+    "status": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Active",
+        "value": "Active"
+      },
+      {
+        "label": "Invited",
+        "value": "Invited"
+      },
+      {
+        "label": "Suspended",
+        "value": "Suspended"
+      }
+    ]
+  },
+  "audit": {
+    "action": [
+      {
+        "label": "Enabled flag",
+        "value": "flag"
+      },
+      {
+        "label": "Invited member",
+        "value": "invite"
+      },
+      {
+        "label": "Impersonated org",
+        "value": "impersonate"
+      },
+      {
+        "label": "Rotated API key",
+        "value": "key"
+      },
+      {
+        "label": "Created org",
+        "value": "org"
+      }
+    ],
+    "actorSuggestions": [
+      "Mira Poluru",
+      "Rohan Poluru",
+      "Priya Poluru",
+      "Nikhil Poluru",
+      "Dev Poluru",
+      "Luca Poluru"
+    ]
+  }
+}

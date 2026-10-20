@@ -1,0 +1,4 @@
+{
+  "language": "bash",
+  "code": "curl https://api.helio.example/v1/orgs \\\n  -H \"Authorization: Bearer live_sk_helio_84c2\""
+}

@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Dashboard pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Search",
+      "description": "Orgs, members, flags",
+      "href": "#/search",
+      "icon": "search"
+    },
+    {
+      "label": "Harbor & Co.",
+      "description": "Organization",
+      "href": "#/org/org_harbor",
+      "icon": "folder"
+    },
+    {
+      "label": "Invite member",
+      "description": "Add a seat",
+      "href": "#/members",
+      "icon": "user"
+    },
+    {
+      "label": "Feature flags",
+      "description": "Rollouts",
+      "href": "#/flags",
+      "icon": "filter"
+    },
+    {
+      "label": "Incidents",
+      "description": "Uptime",
+      "href": "#/incidents",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Settings",
+      "description": "SSO and keys",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

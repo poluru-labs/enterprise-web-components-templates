@@ -1,0 +1,13 @@
+{
+  "placeholder": "Search orgs, members, flags",
+  "quickFilterChips": [
+    "harbor",
+    "poluru",
+    "passkeys",
+    "enterprise"
+  ],
+  "emptyState": {
+    "heading": "No matches",
+    "description": "Try an organization name, member email, or flag key."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stats": [
+    {
+      "label": "Organizations",
+      "value": "848",
+      "hint": "36 added this month",
+      "trend": "up",
+      "trendValue": "+4.4%"
+    },
+    {
+      "label": "Active seats",
+      "value": "12,480",
+      "hint": "84% of contracted",
+      "trend": "up",
+      "trendValue": "+6.2%"
+    },
+    {
+      "label": "Monthly recurring",
+      "value": "$186k",
+      "hint": "Net new $22.4k",
+      "trend": "up",
+      "trendValue": "+13.6%"
+    },
+    {
+      "label": "Uptime",
+      "value": "99.98%",
+      "hint": "Last 30 days",
+      "trend": "flat",
+      "trendValue": "SLA"
+    }
+  ]
+}

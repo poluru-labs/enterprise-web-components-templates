@@ -1,0 +1,36 @@
+{
+  "columns": [
+    {
+      "key": "name",
+      "label": "Organization",
+      "sortable": true
+    },
+    {
+      "key": "plan",
+      "label": "Plan",
+      "sortable": true
+    },
+    {
+      "key": "seats",
+      "label": "Seats"
+    },
+    {
+      "key": "owner",
+      "label": "Owner",
+      "sortable": true
+    },
+    {
+      "key": "region",
+      "label": "Region"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "mrr",
+      "label": "MRR",
+      "sortable": true
+    }
+  ]
+}
