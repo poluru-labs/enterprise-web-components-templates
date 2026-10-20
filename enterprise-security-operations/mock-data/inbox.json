@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "label": "Critical: vault admin travel",
+      "description": "Kavya Poluru · Okta",
+      "icon": "alert-triangle",
+      "href": "#/incident/inc-4412"
+    },
+    {
+      "label": "Beacon on lt-maya-12",
+      "description": "Priya Poluru · EDR",
+      "icon": "bell",
+      "href": "#/alerts"
+    },
+    {
+      "label": "CVE-2026-4411 still open",
+      "description": "Leela Poluru · 8h SLA",
+      "icon": "shield",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CASE-12 needs Subbu review",
+      "description": "Ishaan Poluru · DFIR",
+      "icon": "search",
+      "href": "#/investigations"
+    }
+  ],
+  "count": 4
+}

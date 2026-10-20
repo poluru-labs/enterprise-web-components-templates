@@ -1,0 +1,244 @@
+{
+  "deskLoad": [
+    {
+      "queue": "Alerts",
+      "owner": "Kavya Poluru",
+      "squad": "Detection",
+      "metricLabel": "open",
+      "countFrom": "openAlerts"
+    },
+    {
+      "queue": "Incidents",
+      "owner": "Maya Poluru",
+      "squad": "Response",
+      "metricLabel": "live",
+      "countFrom": "openIncidents"
+    },
+    {
+      "queue": "Vulnerabilities",
+      "owner": "Leela Poluru",
+      "squad": "AppSec",
+      "metricLabel": "open",
+      "countFrom": "openVulns"
+    },
+    {
+      "queue": "Cases",
+      "owner": "Ishaan Poluru",
+      "squad": "DFIR",
+      "metricLabel": "open",
+      "countFrom": "openCases"
+    }
+  ],
+  "featuredIncidents": [
+    {
+      "id": "inc-4412",
+      "code": "INC-4412",
+      "title": "Vault admin session from two continents",
+      "severity": "critical",
+      "status": "active",
+      "owner": "Maya Poluru",
+      "opened": "2026-09-10T17:14:00",
+      "queue": "Identity",
+      "playbook": "Account takeover"
+    },
+    {
+      "id": "inc-4408",
+      "code": "INC-4408",
+      "title": "Endpoint beacon on Maya’s laptop",
+      "severity": "high",
+      "status": "contained",
+      "owner": "Ishaan Poluru",
+      "opened": "2026-09-10T16:44:00",
+      "queue": "Endpoint",
+      "playbook": "Malware isolate"
+    },
+    {
+      "id": "inc-4399",
+      "code": "INC-4399",
+      "title": "Phish campaign against finance",
+      "severity": "medium",
+      "status": "investigating",
+      "owner": "Anika Poluru",
+      "opened": "2026-09-09T09:20:00",
+      "queue": "Email",
+      "playbook": "Phish wipe"
+    },
+    {
+      "id": "inc-4381",
+      "code": "INC-4381",
+      "title": "Exposed key on payments-api",
+      "severity": "high",
+      "status": "active",
+      "owner": "Arjun Poluru",
+      "opened": "2026-09-08T21:10:00",
+      "queue": "AppSec",
+      "playbook": "Secret rotate"
+    },
+    {
+      "id": "inc-4360",
+      "code": "INC-4360",
+      "title": "Vendor Helio Cloud token reuse",
+      "severity": "medium",
+      "status": "watch",
+      "owner": "Rohan Poluru",
+      "opened": "2026-09-07T12:00:00",
+      "queue": "Third party",
+      "playbook": "Vendor lock"
+    },
+    {
+      "id": "inc-4344",
+      "code": "INC-4344",
+      "title": "Ransomware canary tripped in staging",
+      "severity": "low",
+      "status": "closed",
+      "owner": "Dev Poluru",
+      "opened": "2026-09-04T08:30:00",
+      "queue": "Endpoint",
+      "playbook": "Ransomware halt"
+    }
+  ],
+  "openAlertsPreview": [
+    {
+      "id": "al-1",
+      "title": "Impossible travel on vault admin",
+      "source": "Okta",
+      "severity": "critical",
+      "status": "open",
+      "owner": "Kavya Poluru",
+      "seen": "2026-09-10T17:12:00",
+      "asset": "vault.polurushield.example"
+    },
+    {
+      "id": "al-2",
+      "title": "Beaconing to known C2",
+      "source": "EDR",
+      "severity": "high",
+      "status": "open",
+      "owner": "Priya Poluru",
+      "seen": "2026-09-10T16:40:00",
+      "asset": "lt-maya-12"
+    },
+    {
+      "id": "al-3",
+      "title": "Privilege grant outside change window",
+      "source": "SIEM",
+      "severity": "high",
+      "status": "triaged",
+      "owner": "Dev Poluru",
+      "seen": "2026-09-10T15:08:00",
+      "asset": "iam-prod"
+    },
+    {
+      "id": "al-4",
+      "title": "Phish click · finance shared mailbox",
+      "source": "Email",
+      "severity": "medium",
+      "status": "open",
+      "owner": "Anika Poluru",
+      "seen": "2026-09-10T14:22:00",
+      "asset": "arjun@polurushield.example"
+    }
+  ],
+  "patchQueuePreview": [
+    {
+      "id": "vul-1",
+      "cve": "CVE-2026-4411",
+      "title": "Unpatched kernel on lt-maya-12",
+      "severity": "critical",
+      "status": "open",
+      "owner": "Leela Poluru",
+      "asset": "lt-maya-12",
+      "sla": "8h"
+    },
+    {
+      "id": "vul-2",
+      "cve": "CVE-2026-3188",
+      "title": "Outdated OpenSSL on payments-api",
+      "severity": "high",
+      "status": "in_progress",
+      "owner": "Arjun Poluru",
+      "asset": "payments-api",
+      "sla": "24h"
+    },
+    {
+      "id": "vul-3",
+      "cve": "CVE-2026-2201",
+      "title": "Public S3 listing on shield-evidence",
+      "severity": "high",
+      "status": "open",
+      "owner": "Dev Poluru",
+      "asset": "shield-evidence",
+      "sla": "24h"
+    },
+    {
+      "id": "vul-4",
+      "cve": "CVE-2025-9902",
+      "title": "WordPress plugin on careers",
+      "severity": "medium",
+      "status": "watch",
+      "owner": "Leela Poluru",
+      "asset": "careers.polurushield.example",
+      "sla": "7d"
+    }
+  ],
+  "playbooksPreview": [
+    {
+      "id": "pb-ato",
+      "name": "Account takeover",
+      "owner": "Maya Poluru",
+      "steps": 6,
+      "last": "Used on INC-4412",
+      "status": "ready"
+    },
+    {
+      "id": "pb-mal",
+      "name": "Malware isolate",
+      "owner": "Ishaan Poluru",
+      "steps": 5,
+      "last": "Used on INC-4408",
+      "status": "ready"
+    },
+    {
+      "id": "pb-phish",
+      "name": "Phish wipe",
+      "owner": "Anika Poluru",
+      "steps": 4,
+      "last": "Used on INC-4399",
+      "status": "ready"
+    },
+    {
+      "id": "pb-secret",
+      "name": "Secret rotate",
+      "owner": "Arjun Poluru",
+      "steps": 5,
+      "last": "Used on INC-4381",
+      "status": "watch"
+    }
+  ],
+  "timeline": [
+    {
+      "label": "INC-4412 opened",
+      "description": "Maya Poluru · vault admin travel",
+      "timestamp": "17:14",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "CASE-12 started",
+      "description": "Ishaan Poluru · session correlation",
+      "timestamp": "17:16",
+      "icon": "search"
+    },
+    {
+      "label": "Beacon isolated",
+      "description": "Priya Poluru · lt-maya-12",
+      "timestamp": "16:44",
+      "icon": "shield"
+    },
+    {
+      "label": "CVE-2026-4411 assigned",
+      "description": "Leela Poluru · 8h SLA",
+      "timestamp": "11:20",
+      "icon": "check"
+    }
+  ]
+}

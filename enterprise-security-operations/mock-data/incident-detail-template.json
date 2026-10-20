@@ -1,0 +1,38 @@
+{
+  "detailFields": [
+    "Code",
+    "Severity",
+    "Commander",
+    "Queue",
+    "Playbook",
+    "Opened"
+  ],
+  "responseTimeline": [
+    {
+      "label": "Detected",
+      "descriptionFrom": "queue",
+      "timestampFrom": "opened",
+      "icon": "bell"
+    },
+    {
+      "label": "Commander assigned",
+      "descriptionFrom": "owner",
+      "timestamp": "Same minute",
+      "icon": "user"
+    },
+    {
+      "label": "Playbook attached",
+      "descriptionFrom": "playbook",
+      "timestamp": "In progress",
+      "icon": "check"
+    },
+    {
+      "label": "Current state",
+      "descriptionFrom": "status",
+      "timestamp": "Now",
+      "icon": "clock"
+    }
+  ],
+  "linkedAlertsRule": "Same severity as incident, up to 3 alerts",
+  "reviewNote": "Subbu Poluru reviews containment before Maya Poluru closes the case."
+}

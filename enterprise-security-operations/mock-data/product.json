@@ -1,0 +1,21 @@
+{
+  "productName": "Sentinel",
+  "productLine": "Security",
+  "workspaceName": "Poluru Shield",
+  "brandColor": "#D10056",
+  "typography": {
+    "titles": "Roboto",
+    "body": "Open Sans"
+  },
+  "currentUser": {
+    "name": "Subbu Poluru",
+    "email": "subbu.poluru@polurushield.example",
+    "role": "Chief information security officer"
+  },
+  "workspace": {
+    "name": "Poluru Shield",
+    "period": "SOC · 10 Sep 2026",
+    "timezone": "America / Chicago",
+    "mtta": "14m"
+  }
+}

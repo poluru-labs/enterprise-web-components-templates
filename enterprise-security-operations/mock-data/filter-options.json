@@ -1,0 +1,176 @@
+{
+  "alerts": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "open"
+      },
+      {
+        "label": "Triaged",
+        "value": "triaged"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      }
+    ],
+    "severity": [
+      {
+        "label": "All severities",
+        "value": ""
+      },
+      {
+        "label": "Critical",
+        "value": "critical"
+      },
+      {
+        "label": "High",
+        "value": "high"
+      },
+      {
+        "label": "Medium",
+        "value": "medium"
+      }
+    ]
+  },
+  "incidents": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Active",
+        "value": "active"
+      },
+      {
+        "label": "Investigating",
+        "value": "investigating"
+      },
+      {
+        "label": "Contained",
+        "value": "contained"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      },
+      {
+        "label": "Closed",
+        "value": "closed"
+      }
+    ],
+    "severity": [
+      {
+        "label": "All severities",
+        "value": ""
+      },
+      {
+        "label": "Critical",
+        "value": "critical"
+      },
+      {
+        "label": "High",
+        "value": "high"
+      },
+      {
+        "label": "Medium",
+        "value": "medium"
+      },
+      {
+        "label": "Low",
+        "value": "low"
+      }
+    ]
+  },
+  "vulnerabilities": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "open"
+      },
+      {
+        "label": "In progress",
+        "value": "in_progress"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      },
+      {
+        "label": "Patched",
+        "value": "patched"
+      }
+    ],
+    "severity": [
+      {
+        "label": "All severities",
+        "value": ""
+      },
+      {
+        "label": "Critical",
+        "value": "critical"
+      },
+      {
+        "label": "High",
+        "value": "high"
+      },
+      {
+        "label": "Medium",
+        "value": "medium"
+      },
+      {
+        "label": "Low",
+        "value": "low"
+      }
+    ]
+  },
+  "investigations": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Open",
+        "value": "open"
+      },
+      {
+        "label": "In progress",
+        "value": "in_progress"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      }
+    ]
+  },
+  "playbooks": {
+    "status": [
+      {
+        "label": "All statuses",
+        "value": ""
+      },
+      {
+        "label": "Ready",
+        "value": "ready"
+      },
+      {
+        "label": "Watch",
+        "value": "watch"
+      },
+      {
+        "label": "Draft",
+        "value": "draft"
+      }
+    ]
+  }
+}

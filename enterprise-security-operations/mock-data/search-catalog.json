@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "label": "Impossible travel on vault admin",
+      "description": "Okta · critical",
+      "owner": "Kavya Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Beaconing to known C2",
+      "description": "EDR · high",
+      "owner": "Priya Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Privilege grant outside change window",
+      "description": "SIEM · high",
+      "owner": "Dev Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Phish click · finance shared mailbox",
+      "description": "Email · medium",
+      "owner": "Anika Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Anomalous S3 GetObject burst",
+      "description": "Cloud · medium",
+      "owner": "Nikhil Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "Stale API key used from TOR exit",
+      "description": "WAF · high",
+      "owner": "Leela Poluru",
+      "type": "Alert",
+      "href": "#/alerts"
+    },
+    {
+      "label": "INC-4412 Vault admin session from two continents",
+      "description": "Maya Poluru · active",
+      "owner": "Maya Poluru",
+      "type": "Incident",
+      "href": "#/incident/inc-4412"
+    },
+    {
+      "label": "INC-4408 Endpoint beacon on Maya’s laptop",
+      "description": "Ishaan Poluru · contained",
+      "owner": "Ishaan Poluru",
+      "type": "Incident",
+      "href": "#/incident/inc-4408"
+    },
+    {
+      "label": "INC-4399 Phish campaign against finance",
+      "description": "Anika Poluru · investigating",
+      "owner": "Anika Poluru",
+      "type": "Incident",
+      "href": "#/incident/inc-4399"
+    },
+    {
+      "label": "INC-4381 Exposed key on payments-api",
+      "description": "Arjun Poluru · active",
+      "owner": "Arjun Poluru",
+      "type": "Incident",
+      "href": "#/incident/inc-4381"
+    },
+    {
+      "label": "INC-4360 Vendor Helio Cloud token reuse",
+      "description": "Rohan Poluru · watch",
+      "owner": "Rohan Poluru",
+      "type": "Incident",
+      "href": "#/incident/inc-4360"
+    },
+    {
+      "label": "INC-4344 Ransomware canary tripped in staging",
+      "description": "Dev Poluru · closed",
+      "owner": "Dev Poluru",
+      "type": "Incident",
+      "href": "#/incident/inc-4344"
+    },
+    {
+      "label": "CVE-2026-4411 Unpatched kernel on lt-maya-12",
+      "description": "lt-maya-12 · critical",
+      "owner": "Leela Poluru",
+      "type": "Vulnerability",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CVE-2026-3188 Outdated OpenSSL on payments-api",
+      "description": "payments-api · high",
+      "owner": "Arjun Poluru",
+      "type": "Vulnerability",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CVE-2026-2201 Public S3 listing on shield-evidence",
+      "description": "shield-evidence · high",
+      "owner": "Dev Poluru",
+      "type": "Vulnerability",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CVE-2025-9902 WordPress plugin on careers",
+      "description": "careers.polurushield.example · medium",
+      "owner": "Leela Poluru",
+      "type": "Vulnerability",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CVE-2026-1104 Jenkins plugin RCE residual",
+      "description": "ci-east · medium",
+      "owner": "Dev Poluru",
+      "type": "Vulnerability",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CVE-2026-0771 NPM transitive in member portal",
+      "description": "member-portal · low",
+      "owner": "Arjun Poluru",
+      "type": "Vulnerability",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "label": "CASE-12 Vault session correlation",
+      "description": "Ishaan Poluru · INC-4412",
+      "owner": "Ishaan Poluru",
+      "type": "Investigation",
+      "href": "#/investigations"
+    },
+    {
+      "label": "CASE-09 Laptop beacon timeline",
+      "description": "Nikhil Poluru · INC-4408",
+      "owner": "Nikhil Poluru",
+      "type": "Investigation",
+      "href": "#/investigations"
+    },
+    {
+      "label": "CASE-07 Finance mailbox cluster",
+      "description": "Anika Poluru · INC-4399",
+      "owner": "Anika Poluru",
+      "type": "Investigation",
+      "href": "#/investigations"
+    },
+    {
+      "label": "CASE-04 Helio token reuse",
+      "description": "Rohan Poluru · INC-4360",
+      "owner": "Rohan Poluru",
+      "type": "Investigation",
+      "href": "#/investigations"
+    },
+    {
+      "label": "Account takeover",
+      "description": "Maya Poluru · 6 steps",
+      "owner": "Maya Poluru",
+      "type": "Playbook",
+      "href": "#/response"
+    },
+    {
+      "label": "Malware isolate",
+      "description": "Ishaan Poluru · 5 steps",
+      "owner": "Ishaan Poluru",
+      "type": "Playbook",
+      "href": "#/response"
+    },
+    {
+      "label": "Phish wipe",
+      "description": "Anika Poluru · 4 steps",
+      "owner": "Anika Poluru",
+      "type": "Playbook",
+      "href": "#/response"
+    },
+    {
+      "label": "Secret rotate",
+      "description": "Arjun Poluru · 5 steps",
+      "owner": "Arjun Poluru",
+      "type": "Playbook",
+      "href": "#/response"
+    },
+    {
+      "label": "Vendor lock",
+      "description": "Rohan Poluru · 3 steps",
+      "owner": "Rohan Poluru",
+      "type": "Playbook",
+      "href": "#/response"
+    },
+    {
+      "label": "Ransomware halt",
+      "description": "Dev Poluru · 7 steps",
+      "owner": "Dev Poluru",
+      "type": "Playbook",
+      "href": "#/response"
+    },
+    {
+      "label": "Subbu Poluru",
+      "description": "CISO · Office of security",
+      "owner": "Subbu Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "SOC lead · Detection",
+      "owner": "Kavya Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Maya Poluru",
+      "description": "Incident commander · Response",
+      "owner": "Maya Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "Threat intel · Intel",
+      "owner": "Anika Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Leela Poluru",
+      "description": "Vulnerability owner · AppSec",
+      "owner": "Leela Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "description": "DFIR analyst · Investigations",
+      "owner": "Ishaan Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "Detection engineer · Detection",
+      "owner": "Priya Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Security platform · Engineering",
+      "owner": "Dev Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Deputy CISO · Office of security",
+      "owner": "Rohan Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "Application security · AppSec",
+      "owner": "Arjun Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Privacy counsel · Legal",
+      "owner": "Elena Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Threat hunter · Intel",
+      "owner": "Nikhil Poluru",
+      "type": "Person",
+      "href": "#/incidents"
+    },
+    {
+      "label": "Overview",
+      "description": "SOC pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Open incident",
+      "description": "Start a case",
+      "href": "#add-incident",
+      "icon": "plus",
+      "type": "Jump"
+    },
+    {
+      "label": "Alerts",
+      "description": "Live queue",
+      "href": "#/alerts",
+      "icon": "bell",
+      "type": "Jump"
+    },
+    {
+      "label": "Incidents",
+      "description": "Active work",
+      "href": "#/incidents",
+      "icon": "alert-triangle",
+      "type": "Jump"
+    },
+    {
+      "label": "Vulnerabilities",
+      "description": "Patch queue",
+      "href": "#/vulnerabilities",
+      "icon": "shield",
+      "type": "Jump"
+    },
+    {
+      "label": "Investigations",
+      "description": "Cases",
+      "href": "#/investigations",
+      "icon": "search",
+      "type": "Jump"
+    },
+    {
+      "label": "Response",
+      "description": "Playbooks",
+      "href": "#/response",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ]
+}

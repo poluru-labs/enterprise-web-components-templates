@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "id": "vul-1",
+      "cve": "CVE-2026-4411",
+      "title": "Unpatched kernel on lt-maya-12",
+      "severity": "critical",
+      "status": "open",
+      "owner": "Leela Poluru",
+      "asset": "lt-maya-12",
+      "sla": "8h"
+    },
+    {
+      "id": "vul-2",
+      "cve": "CVE-2026-3188",
+      "title": "Outdated OpenSSL on payments-api",
+      "severity": "high",
+      "status": "in_progress",
+      "owner": "Arjun Poluru",
+      "asset": "payments-api",
+      "sla": "24h"
+    },
+    {
+      "id": "vul-3",
+      "cve": "CVE-2026-2201",
+      "title": "Public S3 listing on shield-evidence",
+      "severity": "high",
+      "status": "open",
+      "owner": "Dev Poluru",
+      "asset": "shield-evidence",
+      "sla": "24h"
+    },
+    {
+      "id": "vul-4",
+      "cve": "CVE-2025-9902",
+      "title": "WordPress plugin on careers",
+      "severity": "medium",
+      "status": "watch",
+      "owner": "Leela Poluru",
+      "asset": "careers.polurushield.example",
+      "sla": "7d"
+    },
+    {
+      "id": "vul-5",
+      "cve": "CVE-2026-1104",
+      "title": "Jenkins plugin RCE residual",
+      "severity": "medium",
+      "status": "patched",
+      "owner": "Dev Poluru",
+      "asset": "ci-east",
+      "sla": "Met"
+    },
+    {
+      "id": "vul-6",
+      "cve": "CVE-2026-0771",
+      "title": "NPM transitive in member portal",
+      "severity": "low",
+      "status": "open",
+      "owner": "Arjun Poluru",
+      "asset": "member-portal",
+      "sla": "30d"
+    }
+  ],
+  "count": 6
+}

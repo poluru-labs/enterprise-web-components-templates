@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Alerts",
+      "href": "#/alerts",
+      "icon": "bell"
+    },
+    {
+      "label": "Incidents",
+      "href": "#/incidents",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Vulnerabilities",
+      "href": "#/vulnerabilities",
+      "icon": "shield"
+    },
+    {
+      "label": "Investigations",
+      "href": "#/investigations",
+      "icon": "search"
+    },
+    {
+      "label": "Response",
+      "href": "#/response",
+      "icon": "check"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

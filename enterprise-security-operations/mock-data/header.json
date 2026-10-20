@@ -1,0 +1,10 @@
+{
+  "product": "Sentinel",
+  "workspace": "Poluru Shield",
+  "mttaLabel": "14m",
+  "inboxCount": 4,
+  "searchPlaceholder": "Find an alert, incident, or CVE",
+  "commandPaletteKbd": "⌘K",
+  "sidebarToggleKbd": "⌘\\",
+  "openIncidentLabel": "Open incident"
+}

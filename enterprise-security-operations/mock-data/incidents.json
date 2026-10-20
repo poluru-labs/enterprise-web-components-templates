@@ -1,0 +1,72 @@
+{
+  "rows": [
+    {
+      "id": "inc-4412",
+      "code": "INC-4412",
+      "title": "Vault admin session from two continents",
+      "severity": "critical",
+      "status": "active",
+      "owner": "Maya Poluru",
+      "opened": "2026-09-10T17:14:00",
+      "queue": "Identity",
+      "playbook": "Account takeover"
+    },
+    {
+      "id": "inc-4408",
+      "code": "INC-4408",
+      "title": "Endpoint beacon on Maya’s laptop",
+      "severity": "high",
+      "status": "contained",
+      "owner": "Ishaan Poluru",
+      "opened": "2026-09-10T16:44:00",
+      "queue": "Endpoint",
+      "playbook": "Malware isolate"
+    },
+    {
+      "id": "inc-4399",
+      "code": "INC-4399",
+      "title": "Phish campaign against finance",
+      "severity": "medium",
+      "status": "investigating",
+      "owner": "Anika Poluru",
+      "opened": "2026-09-09T09:20:00",
+      "queue": "Email",
+      "playbook": "Phish wipe"
+    },
+    {
+      "id": "inc-4381",
+      "code": "INC-4381",
+      "title": "Exposed key on payments-api",
+      "severity": "high",
+      "status": "active",
+      "owner": "Arjun Poluru",
+      "opened": "2026-09-08T21:10:00",
+      "queue": "AppSec",
+      "playbook": "Secret rotate"
+    },
+    {
+      "id": "inc-4360",
+      "code": "INC-4360",
+      "title": "Vendor Helio Cloud token reuse",
+      "severity": "medium",
+      "status": "watch",
+      "owner": "Rohan Poluru",
+      "opened": "2026-09-07T12:00:00",
+      "queue": "Third party",
+      "playbook": "Vendor lock"
+    },
+    {
+      "id": "inc-4344",
+      "code": "INC-4344",
+      "title": "Ransomware canary tripped in staging",
+      "severity": "low",
+      "status": "closed",
+      "owner": "Dev Poluru",
+      "opened": "2026-09-04T08:30:00",
+      "queue": "Endpoint",
+      "playbook": "Ransomware halt"
+    }
+  ],
+  "count": 6,
+  "note": "Incidents grow when users open cases via the shell modal."
+}

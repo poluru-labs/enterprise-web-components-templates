@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "name": "Subbu Poluru",
+      "role": "CISO",
+      "squad": "Office of security"
+    },
+    {
+      "name": "Kavya Poluru",
+      "role": "SOC lead",
+      "squad": "Detection"
+    },
+    {
+      "name": "Maya Poluru",
+      "role": "Incident commander",
+      "squad": "Response"
+    },
+    {
+      "name": "Anika Poluru",
+      "role": "Threat intel",
+      "squad": "Intel"
+    },
+    {
+      "name": "Leela Poluru",
+      "role": "Vulnerability owner",
+      "squad": "AppSec"
+    },
+    {
+      "name": "Ishaan Poluru",
+      "role": "DFIR analyst",
+      "squad": "Investigations"
+    },
+    {
+      "name": "Priya Poluru",
+      "role": "Detection engineer",
+      "squad": "Detection"
+    },
+    {
+      "name": "Dev Poluru",
+      "role": "Security platform",
+      "squad": "Engineering"
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Deputy CISO",
+      "squad": "Office of security"
+    },
+    {
+      "name": "Arjun Poluru",
+      "role": "Application security",
+      "squad": "AppSec"
+    },
+    {
+      "name": "Elena Poluru",
+      "role": "Privacy counsel",
+      "squad": "Legal"
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "Threat hunter",
+      "squad": "Intel"
+    }
+  ]
+}

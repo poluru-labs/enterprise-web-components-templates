@@ -1,0 +1,30 @@
+{
+  "cells": [
+    {
+      "id": "alerts",
+      "label": "Alerts",
+      "value": "18",
+      "href": "#/alerts",
+      "hot": true
+    },
+    {
+      "id": "incidents",
+      "label": "Incidents",
+      "value": "6",
+      "href": "#/incidents"
+    },
+    {
+      "id": "vulns",
+      "label": "Vulns",
+      "value": "11",
+      "href": "#/vulnerabilities"
+    },
+    {
+      "id": "cases",
+      "label": "Cases",
+      "value": "4",
+      "href": "#/investigations"
+    }
+  ],
+  "mttaLabel": "14m"
+}

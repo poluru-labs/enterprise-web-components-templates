@@ -1,0 +1,66 @@
+{
+  "rows": [
+    {
+      "id": "al-1",
+      "title": "Impossible travel on vault admin",
+      "source": "Okta",
+      "severity": "critical",
+      "status": "open",
+      "owner": "Kavya Poluru",
+      "seen": "2026-09-10T17:12:00",
+      "asset": "vault.polurushield.example"
+    },
+    {
+      "id": "al-2",
+      "title": "Beaconing to known C2",
+      "source": "EDR",
+      "severity": "high",
+      "status": "open",
+      "owner": "Priya Poluru",
+      "seen": "2026-09-10T16:40:00",
+      "asset": "lt-maya-12"
+    },
+    {
+      "id": "al-3",
+      "title": "Privilege grant outside change window",
+      "source": "SIEM",
+      "severity": "high",
+      "status": "triaged",
+      "owner": "Dev Poluru",
+      "seen": "2026-09-10T15:08:00",
+      "asset": "iam-prod"
+    },
+    {
+      "id": "al-4",
+      "title": "Phish click · finance shared mailbox",
+      "source": "Email",
+      "severity": "medium",
+      "status": "open",
+      "owner": "Anika Poluru",
+      "seen": "2026-09-10T14:22:00",
+      "asset": "arjun@polurushield.example"
+    },
+    {
+      "id": "al-5",
+      "title": "Anomalous S3 GetObject burst",
+      "source": "Cloud",
+      "severity": "medium",
+      "status": "watch",
+      "owner": "Nikhil Poluru",
+      "seen": "2026-09-10T13:05:00",
+      "asset": "shield-evidence"
+    },
+    {
+      "id": "al-6",
+      "title": "Stale API key used from TOR exit",
+      "source": "WAF",
+      "severity": "high",
+      "status": "open",
+      "owner": "Leela Poluru",
+      "seen": "2026-09-10T11:48:00",
+      "asset": "payments-api"
+    }
+  ],
+  "count": 6,
+  "note": "Alert list is mutable in the demo session."
+}

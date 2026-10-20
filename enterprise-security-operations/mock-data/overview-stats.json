@@ -1,0 +1,36 @@
+{
+  "stats": [
+    {
+      "label": "Open alerts",
+      "value": "6",
+      "hint": "Kavya Poluru holds the queue",
+      "trend": "down",
+      "trendValue": "−3"
+    },
+    {
+      "label": "Active incidents",
+      "value": "5",
+      "hint": "Maya Poluru is commander",
+      "trend": "up",
+      "trendValue": "+1"
+    },
+    {
+      "label": "Open vulns",
+      "value": "5",
+      "hint": "Leela Poluru · 8h on kernel",
+      "trend": "flat",
+      "trendValue": "Hold"
+    },
+    {
+      "label": "MTTA",
+      "value": "14m",
+      "hint": "Median to acknowledge",
+      "trend": "down",
+      "trendValue": "−2m"
+    }
+  ],
+  "openAlerts": 6,
+  "openIncidents": 5,
+  "openVulns": 5,
+  "openCases": 4
+}

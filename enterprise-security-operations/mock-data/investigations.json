@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "id": "case-12",
+      "code": "CASE-12",
+      "title": "Vault session correlation",
+      "owner": "Ishaan Poluru",
+      "status": "open",
+      "severity": "critical",
+      "linked": "INC-4412",
+      "updated": "2026-09-10"
+    },
+    {
+      "id": "case-09",
+      "code": "CASE-09",
+      "title": "Laptop beacon timeline",
+      "owner": "Nikhil Poluru",
+      "status": "open",
+      "severity": "high",
+      "linked": "INC-4408",
+      "updated": "2026-09-10"
+    },
+    {
+      "id": "case-07",
+      "code": "CASE-07",
+      "title": "Finance mailbox cluster",
+      "owner": "Anika Poluru",
+      "status": "in_progress",
+      "severity": "medium",
+      "linked": "INC-4399",
+      "updated": "2026-09-09"
+    },
+    {
+      "id": "case-04",
+      "code": "CASE-04",
+      "title": "Helio token reuse",
+      "owner": "Rohan Poluru",
+      "status": "watch",
+      "severity": "medium",
+      "linked": "INC-4360",
+      "updated": "2026-09-08"
+    }
+  ],
+  "count": 4
+}

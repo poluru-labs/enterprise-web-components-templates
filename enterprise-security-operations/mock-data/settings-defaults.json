@@ -1,0 +1,25 @@
+{
+  "mttaTargetMinutes": 15,
+  "criticalAlertsTo": "Subbu Poluru",
+  "nightDigestTo": "Kavya Poluru",
+  "density": "comfortable",
+  "defaultQueue": "Identity",
+  "defaultQueueOptions": [
+    {
+      "label": "Identity",
+      "value": "Identity"
+    },
+    {
+      "label": "Endpoint",
+      "value": "Endpoint"
+    },
+    {
+      "label": "Email",
+      "value": "Email"
+    },
+    {
+      "label": "AppSec",
+      "value": "AppSec"
+    }
+  ]
+}

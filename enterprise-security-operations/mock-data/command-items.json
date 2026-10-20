@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "SOC pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Open incident",
+      "description": "Start a case",
+      "href": "#add-incident",
+      "icon": "plus"
+    },
+    {
+      "label": "Alerts",
+      "description": "Live queue",
+      "href": "#/alerts",
+      "icon": "bell"
+    },
+    {
+      "label": "Incidents",
+      "description": "Active work",
+      "href": "#/incidents",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Vulnerabilities",
+      "description": "Patch queue",
+      "href": "#/vulnerabilities",
+      "icon": "shield"
+    },
+    {
+      "label": "Investigations",
+      "description": "Cases",
+      "href": "#/investigations",
+      "icon": "search"
+    },
+    {
+      "label": "Response",
+      "description": "Playbooks",
+      "href": "#/response",
+      "icon": "check"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "values": [
+    22,
+    19,
+    24,
+    18,
+    21,
+    16,
+    20,
+    17,
+    19,
+    15,
+    18,
+    18
+  ],
+  "chartLabel": "Alert volume over twelve hours",
+  "badge": "12 hours",
+  "footnoteTemplate": "Priya Poluru’s detections peaked at 17:12. Median time to acknowledge is {mtta}."
+}

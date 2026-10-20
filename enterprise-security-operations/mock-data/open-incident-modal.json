@@ -1,0 +1,77 @@
+{
+  "heading": "Open incident",
+  "placeholders": {
+    "title": "Vault admin session from two continents"
+  },
+  "commanderOptions": [
+    {
+      "label": "Subbu Poluru",
+      "value": "Subbu Poluru"
+    },
+    {
+      "label": "Kavya Poluru",
+      "value": "Kavya Poluru"
+    },
+    {
+      "label": "Maya Poluru",
+      "value": "Maya Poluru"
+    },
+    {
+      "label": "Anika Poluru",
+      "value": "Anika Poluru"
+    },
+    {
+      "label": "Leela Poluru",
+      "value": "Leela Poluru"
+    },
+    {
+      "label": "Ishaan Poluru",
+      "value": "Ishaan Poluru"
+    },
+    {
+      "label": "Priya Poluru",
+      "value": "Priya Poluru"
+    },
+    {
+      "label": "Dev Poluru",
+      "value": "Dev Poluru"
+    },
+    {
+      "label": "Rohan Poluru",
+      "value": "Rohan Poluru"
+    },
+    {
+      "label": "Arjun Poluru",
+      "value": "Arjun Poluru"
+    },
+    {
+      "label": "Elena Poluru",
+      "value": "Elena Poluru"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "value": "Nikhil Poluru"
+    }
+  ],
+  "defaultCommander": "Subbu Poluru",
+  "severityOptions": [
+    {
+      "label": "Critical",
+      "value": "critical"
+    },
+    {
+      "label": "High",
+      "value": "high"
+    },
+    {
+      "label": "Medium",
+      "value": "medium"
+    },
+    {
+      "label": "Low",
+      "value": "low"
+    }
+  ],
+  "defaultSeverity": "high",
+  "submitLabel": "Open case"
+}

@@ -1,0 +1,55 @@
+{
+  "overview": {
+    "eyebrow": "SOC · 10 Sep 2026",
+    "title": "Security desk",
+    "lead": "Good evening, Subbu. Kavya Poluru holds 18 alerts. Maya Poluru is on INC-4412. Leela Poluru’s kernel CVE has eight hours left."
+  },
+  "alerts": {
+    "eyebrow": "Detection",
+    "title": "Alerts",
+    "lead": "Kavya Poluru holds the live queue. Priya Poluru owns EDR. Anika Poluru reads the finance phish."
+  },
+  "incidents": {
+    "eyebrow": "Response",
+    "title": "Incidents",
+    "lead": "Maya Poluru commands the desk. Ishaan Poluru holds endpoint. Arjun Poluru owns the exposed key."
+  },
+  "vulnerabilities": {
+    "eyebrow": "AppSec",
+    "title": "Vulnerabilities",
+    "lead": "Leela Poluru owns the kernel. Arjun Poluru holds OpenSSL. Dev Poluru watches the evidence bucket."
+  },
+  "investigations": {
+    "eyebrow": "DFIR",
+    "title": "Investigations",
+    "lead": "Ishaan Poluru holds CASE-12. Nikhil Poluru builds the laptop timeline. Anika Poluru clusters the mailbox."
+  },
+  "response": {
+    "eyebrow": "Playbooks",
+    "title": "Response",
+    "lead": "Maya Poluru runs account takeover. Ishaan Poluru isolates malware. Elena Poluru still drafts vendor lock."
+  },
+  "settings": {
+    "eyebrow": "Workspace",
+    "title": "Settings",
+    "lead": "Poluru Shield SOC defaults, MTTA targets, and Sentinel notifications."
+  },
+  "search": {
+    "eyebrow": "Find",
+    "title": "Search",
+    "leadEmpty": "Search alerts, incidents, vulnerabilities, investigations, and people.",
+    "leadWithQueryTemplate": "Results for “{query}” across alerts, incidents, CVEs, and playbooks."
+  },
+  "incidentDetailLeadTemplate": "{owner} is commander. Queue {queue}. Playbook {playbook}. Opened {opened}.",
+  "routeTitles": {
+    "overview": "Overview",
+    "alerts": "Alerts",
+    "incidents": "Incidents",
+    "incident": "Incident",
+    "vulnerabilities": "Vulnerabilities",
+    "investigations": "Investigations",
+    "response": "Response",
+    "settings": "Settings",
+    "search": "Search"
+  }
+}
