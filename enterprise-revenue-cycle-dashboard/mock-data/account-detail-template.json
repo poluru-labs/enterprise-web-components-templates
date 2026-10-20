@@ -1,0 +1,23 @@
+{
+  "assignedTo": "Priya Poluru",
+  "paymentHistoryColumns": [
+    "Date",
+    "Amount",
+    "Method",
+    "Reference"
+  ],
+  "sampleEraPayment": {
+    "date": "Sep 14, 2026",
+    "method": "Bank transfer",
+    "reference": "ERA-1085"
+  },
+  "claimHistoryTemplate": [
+    "Sep 12 · Claim submitted to {payer}.",
+    "Sep 14 · Eligibility verified.",
+    "Sep 16 · {statusLine}"
+  ],
+  "deniedStatusLine": "Denied: supporting documentation required.",
+  "defaultStatusLine": "Account status updated.",
+  "appealButtonLabel": "Mark appeal in review",
+  "recordPaymentButtonLabel": "Record payment"
+}

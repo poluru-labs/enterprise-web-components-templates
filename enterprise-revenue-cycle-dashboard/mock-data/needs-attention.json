@@ -1,0 +1,26 @@
+{
+  "count": 3,
+  "items": [
+    {
+      "nav": "Denials",
+      "icon": "shield-exclamation",
+      "tone": "red",
+      "title": "2 claims need an appeal",
+      "subtitle": "$3,860 in denied claims"
+    },
+    {
+      "nav": "Collections",
+      "icon": "clock-history",
+      "tone": "amber",
+      "title": "2 overdue balances",
+      "subtitle": "Follow up on $1,820"
+    },
+    {
+      "nav": "Reimbursements",
+      "icon": "arrow-left-right",
+      "tone": "teal",
+      "title": "2 payments to reconcile",
+      "subtitle": "Match payer remittances"
+    }
+  ]
+}

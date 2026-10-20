@@ -1,0 +1,24 @@
+{
+  "searchPlaceholder": "Search patient, account, or claim…",
+  "statusFilterOptions": [
+    "All statuses",
+    "Pending",
+    "Overdue",
+    "Denied",
+    "Paid",
+    "Payment plan",
+    "In review"
+  ],
+  "defaultStatus": "All statuses",
+  "pageSize": 5,
+  "sortableAmount": true,
+  "tableColumns": [
+    "Patient",
+    "Payer",
+    "Date of service",
+    "Balance",
+    "Status"
+  ],
+  "overviewTableTitle": "Patient accounts",
+  "recordCountBadgeTemplate": "{count} accounts"
+}

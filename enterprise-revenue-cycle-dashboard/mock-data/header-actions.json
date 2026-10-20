@@ -1,0 +1,9 @@
+{
+  "exportReport": {
+    "label": "Export report",
+    "filename": "covera-patient-accounts.csv"
+  },
+  "recordPayment": {
+    "label": "Record payment"
+  }
+}

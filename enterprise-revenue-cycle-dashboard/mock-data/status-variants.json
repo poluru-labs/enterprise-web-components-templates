@@ -1,0 +1,8 @@
+{
+  "Paid": "success",
+  "Pending": "info",
+  "Denied": "danger",
+  "Overdue": "warning",
+  "Payment plan": "neutral",
+  "In review": "info"
+}

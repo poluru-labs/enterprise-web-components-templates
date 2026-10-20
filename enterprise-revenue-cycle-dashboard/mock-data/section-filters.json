@@ -1,0 +1,29 @@
+{
+  "Denials": {
+    "statuses": [
+      "Denied",
+      "In review"
+    ]
+  },
+  "Collections": {
+    "statuses": [
+      "Overdue",
+      "Payment plan"
+    ]
+  },
+  "Reimbursements": {
+    "statuses": [
+      "Paid",
+      "Pending"
+    ]
+  },
+  "Claims": {
+    "statuses": "all"
+  },
+  "Patient billing": {
+    "statuses": "all"
+  },
+  "Overview": {
+    "statuses": "all"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sections": [
+    {
+      "label": "Overview",
+      "icon": "grid",
+      "hash": "#/Overview"
+    },
+    {
+      "label": "Patient billing",
+      "icon": "receipt",
+      "hash": "#/Patient%20billing"
+    },
+    {
+      "label": "Claims",
+      "icon": "file-earmark-medical",
+      "hash": "#/Claims"
+    },
+    {
+      "label": "Denials",
+      "icon": "shield-exclamation",
+      "hash": "#/Denials",
+      "badge": 2
+    },
+    {
+      "label": "Reimbursements",
+      "icon": "arrow-left-right",
+      "hash": "#/Reimbursements"
+    },
+    {
+      "label": "Collections",
+      "icon": "wallet2",
+      "hash": "#/Collections"
+    }
+  ]
+}

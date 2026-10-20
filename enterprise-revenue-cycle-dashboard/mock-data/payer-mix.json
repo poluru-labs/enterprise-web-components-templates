@@ -1,0 +1,36 @@
+{
+  "totalCollected": "$284.6k",
+  "payerCount": 5,
+  "payers": [
+    {
+      "name": "Blue Cross Blue Shield",
+      "share": "34%",
+      "color": "#E87F24"
+    },
+    {
+      "name": "Aetna",
+      "share": "24%",
+      "color": "#f5af75"
+    },
+    {
+      "name": "UnitedHealthcare",
+      "share": "20%",
+      "color": "#284e49"
+    },
+    {
+      "name": "Medicare",
+      "share": "14%",
+      "color": "#82aaa2"
+    },
+    {
+      "name": "Cigna",
+      "share": "8%",
+      "color": "#d9e6e2"
+    }
+  ],
+  "footer": {
+    "insurancePercent": 78,
+    "patientPercent": 22
+  },
+  "donutAriaLabel": "Revenue by payer: Blue Cross Blue Shield 34%, Aetna 24%, UnitedHealthcare 20%, Medicare 14%, Cigna 8%"
+}

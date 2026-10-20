@@ -1,0 +1,12 @@
+{
+  "heading": "Notifications",
+  "alert": {
+    "variant": "warning",
+    "heading": "Appeals require review",
+    "message": "Two denied claims are waiting for documentation."
+  },
+  "notices": [
+    "September collection goal is 89% complete.",
+    "All notifications are from the sample workspace."
+  ]
+}

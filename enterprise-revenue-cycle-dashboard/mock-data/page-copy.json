@@ -1,0 +1,27 @@
+{
+  "overview": {
+    "title": "Revenue cycle overview",
+    "subtitle": "A clear view of your revenue. A better experience for your patients."
+  },
+  "Patient billing": {
+    "title": "Patient billing",
+    "subtitle": "Manage patient balances, statements, and payment history."
+  },
+  "Claims": {
+    "title": "Claims",
+    "subtitle": "Track claims from submission to payment."
+  },
+  "Denials": {
+    "title": "Denials",
+    "subtitle": "Review denied claims and prepare them for appeal."
+  },
+  "Reimbursements": {
+    "title": "Reimbursements",
+    "subtitle": "Match payer remittances and reconcile received payments."
+  },
+  "Collections": {
+    "title": "Collections",
+    "subtitle": "Follow up on outstanding balances and payment plans."
+  },
+  "worklistTitleTemplate": "{section} worklist"
+}

@@ -1,0 +1,40 @@
+{
+  "metrics": [
+    {
+      "label": "Total collections",
+      "value": "$284,560",
+      "change": "12.8%",
+      "context": "vs. previous month",
+      "icon": "wallet2",
+      "trend": "up",
+      "sparklinePoints": "28,33 42,30 52,34 65,19 78,25 90,12 106,16 122,3"
+    },
+    {
+      "label": "Outstanding receivables",
+      "value": "$128,430",
+      "change": "8.2%",
+      "context": "vs. previous month",
+      "icon": "receipt",
+      "trend": "down",
+      "sparklinePoints": "28,5 42,11 54,7 68,22 80,16 94,26 108,21 122,34"
+    },
+    {
+      "label": "Clean claim rate",
+      "value": "96.4%",
+      "change": "2.1 pts",
+      "context": "vs. previous month",
+      "icon": "shield-check",
+      "trend": "up",
+      "sparklinePoints": "28,32 42,30 54,21 67,25 80,12 94,17 108,9 122,4"
+    },
+    {
+      "label": "Days in A/R",
+      "value": "32.6",
+      "change": "4.2 days",
+      "context": "vs. previous month",
+      "icon": "clock-history",
+      "trend": "down",
+      "sparklinePoints": "28,6 42,14 54,10 68,22 80,19 94,30 108,26 122,35"
+    }
+  ]
+}

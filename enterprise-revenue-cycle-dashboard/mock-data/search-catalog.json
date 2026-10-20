@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "label": "Aarav Poluru",
+      "description": "PT-10482 · Overdue",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Maya Poluru",
+      "description": "PT-10483 · Pending",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "PT-10484 · Denied",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "PT-10485 · Paid",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Vihaan Poluru",
+      "description": "PT-10486 · Payment plan",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Isha Poluru",
+      "description": "PT-10487 · Denied",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "PT-10488 · Pending",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Neha Poluru",
+      "description": "PT-10489 · Overdue",
+      "owner": "Priya Poluru",
+      "type": "Patient account",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Overview",
+      "description": "Revenue cycle section",
+      "type": "Jump",
+      "href": "#/Overview"
+    },
+    {
+      "label": "Patient billing",
+      "description": "Revenue cycle section",
+      "type": "Jump",
+      "href": "#/Patient%20billing"
+    },
+    {
+      "label": "Claims",
+      "description": "Revenue cycle section",
+      "type": "Jump",
+      "href": "#/Claims"
+    },
+    {
+      "label": "Denials",
+      "description": "Revenue cycle section",
+      "type": "Jump",
+      "href": "#/Denials"
+    },
+    {
+      "label": "Reimbursements",
+      "description": "Revenue cycle section",
+      "type": "Jump",
+      "href": "#/Reimbursements"
+    },
+    {
+      "label": "Collections",
+      "description": "Revenue cycle section",
+      "type": "Jump",
+      "href": "#/Collections"
+    }
+  ]
+}

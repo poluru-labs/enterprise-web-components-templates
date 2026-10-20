@@ -1,0 +1,15 @@
+{
+  "productName": "Covera",
+  "productLine": "Revenue cycle",
+  "workspaceName": "Covera Medical Group",
+  "workspaceSubtitle": "Patient financial services",
+  "brandColor": "#E87F24",
+  "reportingPeriod": "September 2026",
+  "demoWorkspaceLabel": "Demo workspace",
+  "currentUser": {
+    "name": "Priya Poluru",
+    "role": "Billing administrator"
+  },
+  "eyebrow": "COVERA MEDICAL GROUP / FINANCIAL OPERATIONS",
+  "note": "Runtime data lives in covera.js; src/data/index.js is unused Signal/Clearline starter."
+}

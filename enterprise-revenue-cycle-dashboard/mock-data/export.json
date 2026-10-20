@@ -1,0 +1,11 @@
+{
+  "filename": "covera-patient-accounts.csv",
+  "columns": [
+    "Account",
+    "Patient",
+    "Payer",
+    "Service date",
+    "Balance",
+    "Status"
+  ]
+}

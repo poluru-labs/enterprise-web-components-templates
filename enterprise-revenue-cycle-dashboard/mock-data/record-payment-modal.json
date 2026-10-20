@@ -1,0 +1,14 @@
+{
+  "heading": "Record a patient payment",
+  "infoAlert": "Payments are recorded in this demo session only.",
+  "defaultAmount": 100,
+  "paymentMethods": [
+    "Credit card",
+    "Bank transfer",
+    "Check",
+    "Cash"
+  ],
+  "defaultMethod": "Credit card",
+  "referencePlaceholder": "Optional receipt or transaction reference",
+  "notesPlaceholder": "Optional payment notes"
+}

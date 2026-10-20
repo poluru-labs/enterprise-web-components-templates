@@ -1,0 +1,87 @@
+{
+  "rows": [
+    {
+      "id": "PT-10482",
+      "name": "Aarav Poluru",
+      "payer": "Blue Cross Blue Shield",
+      "service": "Sep 12, 2026",
+      "amount": 1240,
+      "status": "Overdue",
+      "days": 34,
+      "claim": "CLM-20841"
+    },
+    {
+      "id": "PT-10483",
+      "name": "Maya Poluru",
+      "payer": "Aetna",
+      "service": "Sep 11, 2026",
+      "amount": 485,
+      "status": "Pending",
+      "days": 12,
+      "claim": "CLM-20842"
+    },
+    {
+      "id": "PT-10484",
+      "name": "Rohan Poluru",
+      "payer": "UnitedHealthcare",
+      "service": "Sep 10, 2026",
+      "amount": 2180,
+      "status": "Denied",
+      "days": 28,
+      "claim": "CLM-20843"
+    },
+    {
+      "id": "PT-10485",
+      "name": "Anika Poluru",
+      "payer": "Medicare",
+      "service": "Sep 10, 2026",
+      "amount": 0,
+      "received": 760,
+      "status": "Paid",
+      "days": 0,
+      "claim": "CLM-20844"
+    },
+    {
+      "id": "PT-10486",
+      "name": "Vihaan Poluru",
+      "payer": "Cigna",
+      "service": "Sep 09, 2026",
+      "amount": 325,
+      "status": "Payment plan",
+      "days": 18,
+      "claim": "CLM-20845"
+    },
+    {
+      "id": "PT-10487",
+      "name": "Isha Poluru",
+      "payer": "Aetna",
+      "service": "Sep 08, 2026",
+      "amount": 1680,
+      "status": "Denied",
+      "days": 41,
+      "claim": "CLM-20846"
+    },
+    {
+      "id": "PT-10488",
+      "name": "Dev Poluru",
+      "payer": "Medicare",
+      "service": "Sep 07, 2026",
+      "amount": 940,
+      "status": "Pending",
+      "days": 9,
+      "claim": "CLM-20847"
+    },
+    {
+      "id": "PT-10489",
+      "name": "Neha Poluru",
+      "payer": "Cigna",
+      "service": "Sep 06, 2026",
+      "amount": 580,
+      "status": "Overdue",
+      "days": 45,
+      "claim": "CLM-20848"
+    }
+  ],
+  "count": 8,
+  "note": "Balances and statuses mutate when users record payments in the demo session."
+}
