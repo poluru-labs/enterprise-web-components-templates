@@ -1,0 +1,14 @@
+{
+  "searchShortcut": "⌘K",
+  "searchAccessibleLabel": "Search vendors",
+  "exportButton": "Export report",
+  "addVendorButton": "Add vendor",
+  "liveWorkspaceNote": "Live workspace",
+  "sidebarHealth": "All systems operational",
+  "sidebarHealthLink": "#/resources",
+  "sidebarHealthCopy": {
+    "title": "Good partnerships start here.",
+    "body": "Keep your vendor ecosystem healthy and connected.",
+    "linkLabel": "Explore resources"
+  }
+}

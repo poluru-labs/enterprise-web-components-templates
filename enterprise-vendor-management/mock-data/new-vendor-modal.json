@@ -1,0 +1,22 @@
+{
+  "heading": "Add a new vendor",
+  "intro": "Start a new partnership. Add the essentials to begin onboarding.",
+  "companyPlaceholder": "e.g. Cedar Partners",
+  "emailPlaceholder": "hello@company.com",
+  "notesPlaceholder": "A little context about this partnership",
+  "defaultCategory": "IT & Software",
+  "defaultOwner": "Arjun Poluru",
+  "includeRiskAssessmentDefault": true,
+  "newVendorDefaults": {
+    "status": "Onboarding",
+    "risk": "Medium",
+    "spend": 0,
+    "progress": 10,
+    "color": "pink"
+  },
+  "validationErrors": {
+    "missingFields": "Enter a company name and a valid contact email.",
+    "duplicate": "This vendor already exists."
+  },
+  "successToast": "{name} added to onboarding for this session"
+}

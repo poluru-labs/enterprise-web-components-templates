@@ -1,0 +1,38 @@
+{
+  "title": "Vendor directory",
+  "portfolioCount": 128,
+  "tabs": [
+    {
+      "label": "All vendors",
+      "count": 128,
+      "filter": "All vendors"
+    },
+    {
+      "label": "Active",
+      "count": 108,
+      "filter": "Active"
+    },
+    {
+      "label": "Onboarding",
+      "count": 12,
+      "filter": "Onboarding"
+    },
+    {
+      "label": "In review",
+      "count": 8,
+      "filter": "In review"
+    }
+  ],
+  "defaultFilter": "All vendors",
+  "searchPlaceholder": "Search vendors or owners…",
+  "tableColumns": [
+    "Select",
+    "Vendor name",
+    "Status",
+    "Risk level",
+    "Owner",
+    "Annual spend",
+    "Actions"
+  ],
+  "footerNote": "Sample workspace · USD"
+}

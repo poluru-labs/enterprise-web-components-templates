@@ -1,0 +1,45 @@
+{
+  "vendorLifecycle": [
+    {
+      "label": "Vendors",
+      "href": "#/vendors",
+      "icon": "buildings",
+      "description": "Your entire vendor ecosystem"
+    },
+    {
+      "label": "Onboarding",
+      "href": "#/onboarding",
+      "icon": "person-plus",
+      "description": "Bring new partners on board"
+    },
+    {
+      "label": "Risk assessments",
+      "href": "#/risk-assessments",
+      "icon": "shield-check",
+      "description": "Stay ahead of vendor risk"
+    }
+  ],
+  "manageAndGrow": [
+    {
+      "label": "Contracts",
+      "href": "#/contracts",
+      "icon": "file-earmark-text"
+    },
+    {
+      "label": "Reviews",
+      "href": "#/reviews",
+      "icon": "star"
+    },
+    {
+      "label": "Renewals",
+      "href": "#/renewals",
+      "icon": "arrow-repeat"
+    }
+  ],
+  "feature": {
+    "eyebrow": "A CLEARER VIEW",
+    "title": "Better partnerships.\nStronger business.",
+    "body": "Everything you need to manage your vendors, from first hello to next renewal.",
+    "cta": "Add a vendor"
+  }
+}

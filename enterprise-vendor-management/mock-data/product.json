@@ -1,0 +1,14 @@
+{
+  "productName": "Harbor",
+  "productTagline": "Vendor management",
+  "brandColor": "#D70654",
+  "workspaceName": "Harbor workspace",
+  "workspacePlan": "Enterprise",
+  "workspaceMonogram": "H",
+  "currentUser": {
+    "name": "Aanya Poluru",
+    "role": "Workspace admin"
+  },
+  "documentTitlePattern": "{page} · Harbor Vendor Management",
+  "note": "Runtime UI lives in harbor-shell.js; src/data/index.js is unused Signal KPI scaffold."
+}

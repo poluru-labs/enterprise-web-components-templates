@@ -1,0 +1,32 @@
+{
+  "overviewEyebrow": "YOUR VENDOR ECOSYSTEM, AT A GLANCE",
+  "overviewTitle": "Workspace overview",
+  "pages": {
+    "Overview": "Good morning, Aanya. Here's what's happening with your vendors today.",
+    "Vendors": "Every partnership, in one connected directory.",
+    "Onboarding": "Give every new partnership a strong start.",
+    "Risk assessments": "Track vendor risk and prioritize the reviews that matter.",
+    "Contracts": "Your agreements, owners, and key dates in one place.",
+    "Reviews": "Keep performance and partnership decisions on record.",
+    "Renewals": "Plan ahead. Keep the right partnerships moving forward.",
+    "Reports": "A clear view of vendor spend and portfolio health.",
+    "Settings": "Make this workspace work for your team.",
+    "Resources": "Practical guidance for every stage of the vendor lifecycle.",
+    "Activity log": "The latest updates across your workspace."
+  },
+  "overviewSectionsHiddenOn": [
+    "Settings",
+    "Resources",
+    "Activity log"
+  ],
+  "workGridHiddenOn": [
+    "Settings",
+    "Resources",
+    "Activity log"
+  ],
+  "contractRegisterPages": [
+    "Contracts",
+    "Renewals",
+    "Reports"
+  ]
+}

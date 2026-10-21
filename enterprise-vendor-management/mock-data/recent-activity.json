@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "actor": "Arjun Poluru",
+      "action": "approved",
+      "subject": "Northstar Technologies",
+      "detail": "Vendor approved · 25 min ago",
+      "icon": "check2",
+      "color": "green"
+    },
+    {
+      "actor": "Maya Poluru",
+      "action": "uploaded a contract",
+      "subject": "Meridian Logistics",
+      "detail": "Contract updated · 1 hour ago",
+      "icon": "file-earmark-text",
+      "color": "purple"
+    },
+    {
+      "actor": "Rohan Poluru",
+      "action": "invited",
+      "subject": "Evergreen Consulting",
+      "detail": "Onboarding started · 2 hours ago",
+      "icon": "person-plus",
+      "color": "blue"
+    }
+  ],
+  "viewAllHref": "#/activity"
+}

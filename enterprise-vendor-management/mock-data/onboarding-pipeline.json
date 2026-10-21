@@ -1,0 +1,33 @@
+{
+  "title": "Onboarding pipeline",
+  "subtitle": "A smooth start for every partnership.",
+  "stages": [
+    {
+      "name": "Invited",
+      "count": 4,
+      "icon": "envelope"
+    },
+    {
+      "name": "In progress",
+      "count": 5,
+      "icon": "hourglass-split"
+    },
+    {
+      "name": "In review",
+      "count": 2,
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Approved",
+      "count": 1,
+      "icon": "check2-circle"
+    }
+  ],
+  "teamAvatars": [
+    "Arjun Poluru",
+    "Maya Poluru",
+    "Rohan Poluru"
+  ],
+  "teamSummary": "3 team members keeping things moving",
+  "averageCycleDays": 6.2
+}

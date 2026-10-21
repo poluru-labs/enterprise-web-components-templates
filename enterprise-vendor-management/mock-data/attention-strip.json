@@ -1,0 +1,5 @@
+{
+  "message": "3 risk assessments are overdue and 2 contracts need a renewal decision.",
+  "actionLabel": "Review priorities",
+  "targetHash": "#/risk-assessments"
+}

@@ -1,0 +1,50 @@
+{
+  "defaultPeriod": "This month",
+  "periodOptions": [
+    "This month",
+    "Last month",
+    "This quarter"
+  ],
+  "metrics": [
+    {
+      "label": "Total vendors",
+      "valueThisMonth": 128,
+      "valueLastMonth": 114,
+      "valueQuarter": 128,
+      "change": "12.3%",
+      "sub": "vs. last month",
+      "icon": "buildings",
+      "color": "pink"
+    },
+    {
+      "label": "Active contracts",
+      "valueThisMonth": 96,
+      "valueLastMonth": 89,
+      "valueQuarter": 96,
+      "change": "8.2%",
+      "sub": "vs. last month",
+      "icon": "file-earmark-text",
+      "color": "purple"
+    },
+    {
+      "label": "In onboarding",
+      "valueThisMonth": 12,
+      "valueLastMonth": 16,
+      "valueQuarter": 32,
+      "change": "4 vendors",
+      "sub": "ready for approval",
+      "icon": "person-plus",
+      "color": "blue"
+    },
+    {
+      "label": "Renewing soon",
+      "valueThisMonth": 8,
+      "valueLastMonth": 6,
+      "valueQuarter": 24,
+      "change": "Next 30 days",
+      "sub": "2 need your attention",
+      "icon": "arrow-repeat",
+      "color": "orange"
+    }
+  ]
+}

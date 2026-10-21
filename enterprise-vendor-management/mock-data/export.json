@@ -1,0 +1,13 @@
+{
+  "filename": "harbor-vendor-report.csv",
+  "columns": [
+    "Vendor",
+    "Category",
+    "Status",
+    "Risk",
+    "Owner",
+    "Annual spend",
+    "Renewal"
+  ],
+  "successToast": "Vendor report exported"
+}

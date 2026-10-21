@@ -1,0 +1,63 @@
+{
+  "workspace": [
+    {
+      "icon": "grid-1x2",
+      "label": "Overview",
+      "hash": "#/overview"
+    },
+    {
+      "icon": "buildings",
+      "label": "Vendors",
+      "hash": "#/vendors"
+    },
+    {
+      "icon": "person-plus",
+      "label": "Onboarding",
+      "hash": "#/onboarding",
+      "badge": 12
+    },
+    {
+      "icon": "shield-check",
+      "label": "Risk assessments",
+      "hash": "#/risk-assessments"
+    },
+    {
+      "icon": "file-earmark-text",
+      "label": "Contracts",
+      "hash": "#/contracts"
+    },
+    {
+      "icon": "star",
+      "label": "Reviews",
+      "hash": "#/reviews"
+    },
+    {
+      "icon": "arrow-repeat",
+      "label": "Renewals",
+      "hash": "#/renewals",
+      "badge": 8
+    }
+  ],
+  "insights": [
+    {
+      "icon": "bar-chart",
+      "label": "Reports",
+      "hash": "#/reports"
+    },
+    {
+      "icon": "clock-history",
+      "label": "Activity log",
+      "hash": "#/activity"
+    }
+  ],
+  "headerLinks": [
+    {
+      "label": "Reports",
+      "href": "#/reports"
+    },
+    {
+      "label": "Resources",
+      "href": "#/resources"
+    }
+  ]
+}

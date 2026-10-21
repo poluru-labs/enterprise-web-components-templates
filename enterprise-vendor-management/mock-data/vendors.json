@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "name": "Northstar Technologies",
+      "category": "IT & Software",
+      "initial": "N",
+      "color": "purple",
+      "owner": "Arjun Poluru",
+      "status": "Active",
+      "risk": "Low",
+      "spend": 148000,
+      "renewal": "Oct 12, 2026",
+      "progress": 100
+    },
+    {
+      "name": "Meridian Logistics",
+      "category": "Logistics",
+      "initial": "M",
+      "color": "blue",
+      "owner": "Maya Poluru",
+      "status": "Active",
+      "risk": "Medium",
+      "spend": 96500,
+      "renewal": "Sep 28, 2026",
+      "progress": 100
+    },
+    {
+      "name": "Evergreen Consulting",
+      "category": "Professional services",
+      "initial": "E",
+      "color": "green",
+      "owner": "Rohan Poluru",
+      "status": "Onboarding",
+      "risk": "Low",
+      "spend": 72000,
+      "renewal": "Nov 08, 2026",
+      "progress": 65
+    },
+    {
+      "name": "Atlas Cloud Systems",
+      "category": "IT & Software",
+      "initial": "A",
+      "color": "orange",
+      "owner": "Diya Poluru",
+      "status": "In review",
+      "risk": "High",
+      "spend": 184000,
+      "renewal": "Oct 05, 2026",
+      "progress": 85
+    },
+    {
+      "name": "Bluewave Creative",
+      "category": "Marketing",
+      "initial": "B",
+      "color": "blue",
+      "owner": "Neel Poluru",
+      "status": "Active",
+      "risk": "Low",
+      "spend": 48000,
+      "renewal": "Dec 15, 2026",
+      "progress": 100
+    },
+    {
+      "name": "Summit Office Supply",
+      "category": "Office & facilities",
+      "initial": "S",
+      "color": "pink",
+      "owner": "Maya Poluru",
+      "status": "Onboarding",
+      "risk": "Medium",
+      "spend": 32000,
+      "renewal": "Nov 22, 2026",
+      "progress": 35
+    }
+  ],
+  "sampleCount": 6,
+  "portfolioTotal": 128,
+  "note": "Six sample rows in UI; portfolio totals are illustrative workspace metrics."
+}

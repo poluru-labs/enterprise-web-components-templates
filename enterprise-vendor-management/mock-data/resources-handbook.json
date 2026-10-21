@@ -1,0 +1,17 @@
+{
+  "title": "Your vendor management handbook",
+  "accordion": [
+    {
+      "heading": "Onboarding checklist",
+      "body": "Collect company details, assign an owner, review security documentation, and approve the agreement before activation."
+    },
+    {
+      "heading": "How risk reviews work",
+      "body": "Assess data access, business criticality, and compliance documentation. Record findings and assign follow-up actions to your relationship owner."
+    },
+    {
+      "heading": "Preparing for a renewal",
+      "body": "Review performance and spend 30 days before expiry, confirm business requirements, and record your renewal decision."
+    }
+  ]
+}

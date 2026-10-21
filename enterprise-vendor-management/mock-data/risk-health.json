@@ -1,0 +1,22 @@
+{
+  "totalVendors": 128,
+  "distribution": [
+    {
+      "label": "Low risk",
+      "count": 98,
+      "color": "green"
+    },
+    {
+      "label": "Medium risk",
+      "count": 24,
+      "color": "orange"
+    },
+    {
+      "label": "High risk",
+      "count": 6,
+      "color": "pink"
+    }
+  ],
+  "complianceNote": "94% of vendors meet compliance standards",
+  "ariaLabel": "128 vendors: 98 low risk, 24 medium risk, 6 high risk"
+}

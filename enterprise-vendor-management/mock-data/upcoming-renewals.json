@@ -1,0 +1,34 @@
+{
+  "badge": "Next 30 days",
+  "subtitle": "Stay one step ahead of the deadline.",
+  "items": [
+    {
+      "vendor": "Meridian Logistics",
+      "date": "Sep 28, 2026",
+      "daysLabel": "12 days",
+      "spend": 96500,
+      "initial": "M",
+      "color": "blue",
+      "urgent": true
+    },
+    {
+      "vendor": "Atlas Cloud Systems",
+      "date": "Oct 05, 2026",
+      "daysLabel": "19 days",
+      "spend": 184000,
+      "initial": "A",
+      "color": "orange",
+      "urgent": false
+    },
+    {
+      "vendor": "Northstar Technologies",
+      "date": "Oct 12, 2026",
+      "daysLabel": "26 days",
+      "spend": 148000,
+      "initial": "N",
+      "color": "purple",
+      "urgent": false
+    }
+  ],
+  "viewAllHref": "#/renewals"
+}

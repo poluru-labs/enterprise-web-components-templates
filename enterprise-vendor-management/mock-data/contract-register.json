@@ -1,0 +1,22 @@
+{
+  "title": "Contract & renewal register",
+  "columns": [
+    {
+      "key": "name",
+      "label": "Vendor"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "renewal",
+      "label": "Renewal date"
+    },
+    {
+      "key": "spend",
+      "label": "Annual spend"
+    }
+  ],
+  "note": "Rendered on Contracts, Renewals, and Reports routes from vendor records."
+}

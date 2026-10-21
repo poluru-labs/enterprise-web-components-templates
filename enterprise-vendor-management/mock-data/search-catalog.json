@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "label": "Northstar Technologies",
+      "description": "IT & Software · Active · Low risk",
+      "owner": "Arjun Poluru",
+      "type": "Vendor",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Meridian Logistics",
+      "description": "Logistics · Active · Medium risk",
+      "owner": "Maya Poluru",
+      "type": "Vendor",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Evergreen Consulting",
+      "description": "Professional services · Onboarding · Low risk",
+      "owner": "Rohan Poluru",
+      "type": "Vendor",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Atlas Cloud Systems",
+      "description": "IT & Software · In review · High risk",
+      "owner": "Diya Poluru",
+      "type": "Vendor",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Bluewave Creative",
+      "description": "Marketing · Active · Low risk",
+      "owner": "Neel Poluru",
+      "type": "Vendor",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Summit Office Supply",
+      "description": "Office & facilities · Onboarding · Medium risk",
+      "owner": "Maya Poluru",
+      "type": "Vendor",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Overview",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/overview"
+    },
+    {
+      "label": "Vendors",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/vendors"
+    },
+    {
+      "label": "Onboarding",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/onboarding"
+    },
+    {
+      "label": "Risk assessments",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/risk-assessments"
+    },
+    {
+      "label": "Contracts",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/contracts"
+    },
+    {
+      "label": "Reviews",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/reviews"
+    },
+    {
+      "label": "Renewals",
+      "description": "Workspace section",
+      "type": "Jump",
+      "href": "#/renewals"
+    },
+    {
+      "label": "Reports",
+      "description": "Insights",
+      "type": "Jump",
+      "href": "#/reports"
+    },
+    {
+      "label": "Activity log",
+      "description": "Insights",
+      "type": "Jump",
+      "href": "#/activity"
+    }
+  ],
+  "count": 15
+}

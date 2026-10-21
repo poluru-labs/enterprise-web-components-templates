@@ -1,0 +1,19 @@
+{
+  "heading": "Filter vendors",
+  "riskOptions": [
+    "All",
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "defaultRisk": "All",
+  "categoryOptions": [
+    "All",
+    "IT & Software",
+    "Logistics",
+    "Professional services",
+    "Marketing",
+    "Office & facilities"
+  ],
+  "defaultCategory": "All"
+}

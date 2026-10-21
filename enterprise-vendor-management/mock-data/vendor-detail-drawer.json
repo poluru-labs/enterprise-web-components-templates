@@ -1,0 +1,9 @@
+{
+  "headingPattern": "{vendorName}",
+  "documentsAlert": {
+    "heading": "Sample document register",
+    "body": "Master service agreement · Data processing agreement · Security questionnaire"
+  },
+  "notePlaceholder": "Record a decision or next step",
+  "saveNoteToast": "Review note saved for this session"
+}

@@ -1,0 +1,16 @@
+{
+  "heading": "Your notifications",
+  "alerts": [
+    {
+      "variant": "warning",
+      "heading": "3 assessments need attention",
+      "body": "Review overdue assessments to keep your vendor records current."
+    },
+    {
+      "variant": "info",
+      "heading": "Renewal decisions due",
+      "body": "Meridian Logistics and Atlas Cloud Systems are approaching renewal."
+    }
+  ],
+  "reviewPrioritiesHash": "#/risk-assessments"
+}
