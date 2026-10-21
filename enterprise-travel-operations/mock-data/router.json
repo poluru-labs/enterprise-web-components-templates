@@ -1,0 +1,17 @@
+{
+  "titles": {
+    "overview": "Overview",
+    "trips": "Trips",
+    "trip": "Trip",
+    "travelers": "Travelers",
+    "approvals": "Approvals",
+    "itineraries": "Itineraries",
+    "expenses": "Expenses",
+    "risk": "Risk",
+    "reports": "Reports",
+    "settings": "Settings",
+    "search": "Search"
+  },
+  "defaultRoute": "#/overview",
+  "documentTitlePattern": "{pageTitle} · Waypoint"
+}

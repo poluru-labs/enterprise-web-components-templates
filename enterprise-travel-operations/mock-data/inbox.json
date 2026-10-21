@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "label": "Hana is in Lagos",
+      "description": "Last check-in 06:40 CDT",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Berlin hotel is overdue",
+      "description": "Elena Poluru · $84 over cap",
+      "icon": "clock"
+    },
+    {
+      "label": "SIN extra night overdue",
+      "description": "Arjun Poluru · 26 Sep",
+      "icon": "file"
+    },
+    {
+      "label": "Unused ticket expires 4 Oct",
+      "description": "Luca Poluru · $3,100",
+      "icon": "folder"
+    }
+  ],
+  "drawerHeading": "Inbox"
+}

@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "label": "Trip",
+      "description": "Traveler and dates"
+    },
+    {
+      "label": "Policy",
+      "description": "Cabin and city cap"
+    },
+    {
+      "label": "Confirm",
+      "description": "Staff PIN"
+    }
+  ]
+}

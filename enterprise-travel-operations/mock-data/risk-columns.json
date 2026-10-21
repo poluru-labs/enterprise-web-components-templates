@@ -1,0 +1,25 @@
+{
+  "columns": [
+    {
+      "key": "place",
+      "label": "Location",
+      "sortable": true
+    },
+    {
+      "key": "level",
+      "label": "Level"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "since",
+      "label": "Since"
+    },
+    {
+      "key": "note",
+      "label": "Note"
+    }
+  ]
+}

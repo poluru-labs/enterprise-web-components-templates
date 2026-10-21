@@ -1,0 +1,62 @@
+{
+  "tree": [
+    {
+      "id": "live",
+      "label": "Live",
+      "children": [
+        {
+          "id": "lagos",
+          "label": "Lagos",
+          "href": "#/trip/tr_lagos"
+        },
+        {
+          "id": "london",
+          "label": "London",
+          "href": "#/trip/tr_london"
+        }
+      ]
+    },
+    {
+      "id": "ahead",
+      "label": "Ahead",
+      "children": [
+        {
+          "id": "austin",
+          "label": "Austin",
+          "href": "#/trip/tr_austin"
+        },
+        {
+          "id": "paris",
+          "label": "Paris",
+          "href": "#/trip/tr_paris"
+        },
+        {
+          "id": "singapore",
+          "label": "Singapore",
+          "href": "#/trip/tr_singapore"
+        },
+        {
+          "id": "berlin",
+          "label": "Berlin",
+          "href": "#/trip/tr_berlin"
+        }
+      ]
+    },
+    {
+      "id": "later",
+      "label": "October",
+      "children": [
+        {
+          "id": "tokyo",
+          "label": "Tokyo",
+          "href": "#/trip/tr_tokyo"
+        },
+        {
+          "id": "mumbai",
+          "label": "Mumbai",
+          "href": "#/trip/tr_mumbai"
+        }
+      ]
+    }
+  ]
+}

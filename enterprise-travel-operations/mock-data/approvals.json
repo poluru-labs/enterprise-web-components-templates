@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "ap_berlin",
+      "tripId": "tr_berlin",
+      "subject": "Sahana Poluru · Berlin hotel",
+      "type": "Trip",
+      "owner": "Elena Poluru",
+      "submitted": "12 Sep",
+      "sla": "Overdue",
+      "status": "Pending",
+      "amount": 4120,
+      "note": "Soho House is $84 over the Berlin cap."
+    },
+    {
+      "id": "ap_lagos",
+      "tripId": "tr_lagos",
+      "subject": "Hana Poluru · Lagos exception",
+      "type": "Policy",
+      "owner": "Nikhil Poluru",
+      "submitted": "8 Sep",
+      "sla": "On time",
+      "status": "Pending",
+      "amount": 8420,
+      "note": "Restricted country. Security brief signed."
+    },
+    {
+      "id": "ap_sg",
+      "tripId": "tr_singapore",
+      "subject": "Arjun Poluru · extra night SIN",
+      "type": "Change",
+      "owner": "Elena Poluru",
+      "submitted": "14 Sep",
+      "sla": "Overdue",
+      "status": "Pending",
+      "amount": 620,
+      "note": "Board dinner added 26 Sep."
+    },
+    {
+      "id": "ap_luca",
+      "tripId": "tr_chicago",
+      "subject": "Luca Poluru · HQ meals",
+      "type": "Expense",
+      "owner": "Rohan Poluru",
+      "submitted": "11 Sep",
+      "sla": "On time",
+      "status": "Submitted",
+      "amount": 186,
+      "note": "Three receipts under $75."
+    },
+    {
+      "id": "ap_tokyo",
+      "tripId": "tr_tokyo",
+      "subject": "Priya Poluru · Tokyo week",
+      "type": "Trip",
+      "owner": "Mira Poluru",
+      "submitted": "6 Sep",
+      "sla": "Met",
+      "status": "Approved",
+      "amount": 7450,
+      "note": "Exec cabin in policy for 8+ hours."
+    },
+    {
+      "id": "ap_paris",
+      "tripId": "tr_paris",
+      "subject": "Elena Poluru · CDG rail",
+      "type": "Change",
+      "owner": "Mira Poluru",
+      "submitted": "10 Sep",
+      "sla": "Met",
+      "status": "Approved",
+      "amount": 128,
+      "note": "Strike reroute booked."
+    }
+  ],
+  "count": 6
+}

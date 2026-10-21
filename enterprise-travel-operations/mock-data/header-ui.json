@@ -1,0 +1,8 @@
+{
+  "searchPlaceholder": "Find a trip, traveler, or city",
+  "searchShortcut": "⌘K",
+  "sidebarToggleShortcut": "⌘\\",
+  "createButtonLabel": "New trip",
+  "inboxAccessibleLabel": "Notifications",
+  "signOutToast": "Signed out of Meridian Group"
+}

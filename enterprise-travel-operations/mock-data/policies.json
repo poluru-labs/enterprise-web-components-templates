@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "po_cap",
+      "name": "Hotel cap",
+      "trigger": "Rate over city cap",
+      "owner": "Elena Poluru",
+      "trips": 1,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_rest",
+      "name": "Restricted country",
+      "trigger": "Destination on the list",
+      "owner": "Nikhil Poluru",
+      "trips": 1,
+      "status": "Active",
+      "steps": 5
+    },
+    {
+      "id": "po_cabin",
+      "name": "Cabin exception",
+      "trigger": "Flight over 8 hours",
+      "owner": "Mira Poluru",
+      "trips": 3,
+      "status": "Active",
+      "steps": 2
+    },
+    {
+      "id": "po_duty",
+      "name": "Duty of care",
+      "trigger": "Traveler in elevated risk",
+      "owner": "Nikhil Poluru",
+      "trips": 1,
+      "status": "Active",
+      "steps": 4
+    },
+    {
+      "id": "po_unused",
+      "name": "Unused ticket",
+      "trigger": "Coupon within 30 days",
+      "owner": "Rohan Poluru",
+      "trips": 5,
+      "status": "Active",
+      "steps": 3
+    },
+    {
+      "id": "po_meal",
+      "name": "Meal receipt",
+      "trigger": "Meals over $75",
+      "owner": "Rohan Poluru",
+      "trips": 1,
+      "status": "Draft",
+      "steps": 2
+    }
+  ]
+}

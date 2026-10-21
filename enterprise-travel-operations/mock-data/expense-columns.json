@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "key": "traveler",
+      "label": "Traveler",
+      "sortable": true
+    },
+    {
+      "key": "category",
+      "label": "Category"
+    },
+    {
+      "key": "amount",
+      "label": "Amount"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "submitted",
+      "label": "Submitted"
+    },
+    {
+      "key": "receipt",
+      "label": "Receipt"
+    }
+  ]
+}

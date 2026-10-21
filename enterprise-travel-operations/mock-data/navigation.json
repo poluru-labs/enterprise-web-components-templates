@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Trips",
+      "href": "#/trips",
+      "icon": "folder"
+    },
+    {
+      "label": "Travelers",
+      "href": "#/travelers",
+      "icon": "user"
+    },
+    {
+      "label": "Approvals",
+      "href": "#/approvals",
+      "icon": "check"
+    },
+    {
+      "label": "Itineraries",
+      "href": "#/itineraries",
+      "icon": "clock"
+    },
+    {
+      "label": "Expenses",
+      "href": "#/expenses",
+      "icon": "file"
+    },
+    {
+      "label": "Risk",
+      "href": "#/risk",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Reports",
+      "href": "#/reports",
+      "icon": "download"
+    },
+    {
+      "label": "Settings",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ]
+}

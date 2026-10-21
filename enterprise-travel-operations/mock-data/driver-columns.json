@@ -1,0 +1,25 @@
+{
+  "columns": [
+    {
+      "key": "metric",
+      "label": "Category",
+      "sortable": true
+    },
+    {
+      "key": "actual",
+      "label": "Actual"
+    },
+    {
+      "key": "target",
+      "label": "Target"
+    },
+    {
+      "key": "variance",
+      "label": "Variance"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    }
+  ]
+}

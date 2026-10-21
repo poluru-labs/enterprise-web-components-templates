@@ -1,0 +1,25 @@
+{
+  "heading": "Policy exception",
+  "policyOptions": [
+    {
+      "label": "Restricted country",
+      "value": "po_rest"
+    },
+    {
+      "label": "Hotel cap",
+      "value": "po_cap"
+    },
+    {
+      "label": "Cabin exception",
+      "value": "po_cabin"
+    },
+    {
+      "label": "Duty of care",
+      "value": "po_duty"
+    }
+  ],
+  "defaultPolicy": "po_rest",
+  "defaultTripId": "tr_lagos",
+  "whyPlaceholder": "Restricted country, hotel cap, or cabin rule.",
+  "successToast": "Exception filed"
+}

@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "rk_lagos",
+      "tripId": "tr_lagos",
+      "place": "Lagos",
+      "level": "Elevated",
+      "owner": "Nikhil Poluru",
+      "since": "8 Sep",
+      "note": "Movement only with the approved transfer. Check-in every 8 hours."
+    },
+    {
+      "id": "rk_paris",
+      "tripId": "tr_paris",
+      "place": "Paris",
+      "level": "Watch",
+      "owner": "Nikhil Poluru",
+      "since": "10 Sep",
+      "note": "Rail strike 21–23 Sep. AF 137 is still operating."
+    },
+    {
+      "id": "rk_mumbai",
+      "tripId": "tr_mumbai",
+      "place": "Mumbai",
+      "level": "Watch",
+      "owner": "Nikhil Poluru",
+      "since": "14 Sep",
+      "note": "Monsoon delay window on 5 Oct inbound."
+    },
+    {
+      "id": "rk_clear",
+      "tripId": "tr_london",
+      "place": "London",
+      "level": "Cleared",
+      "owner": "Nikhil Poluru",
+      "since": "15 Sep",
+      "note": "Kavya checked in from Shoreditch at 07:12 CDT."
+    }
+  ],
+  "count": 4
+}

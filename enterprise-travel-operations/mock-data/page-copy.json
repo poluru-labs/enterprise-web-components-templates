@@ -1,0 +1,53 @@
+{
+  "overview": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Board pulse",
+    "lead": "Good morning, Mira. Two travelers are live. Hana Poluru is in Lagos on an elevated brief. Four approvals sit in queue, two past SLA."
+  },
+  "trips": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Trips",
+    "lead": "Ten trips on the board. Hana and Kavya are live. Sahana Berlin is still pending hotel cap."
+  },
+  "travelers": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Travelers",
+    "lead": "Twelve Poluru teammates on the roster. Two are live. Luca’s unused UA coupon expires 4 Oct."
+  },
+  "approvals": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Approvals",
+    "lead": "4 open. Berlin hotel and the Singapore extra night are past SLA. Lagos exception waits on Nikhil Poluru."
+  },
+  "itineraries": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Itineraries",
+    "lead": "Hana is in house in Lagos. Kavya returns LHR on 18 Sep. Paris inbound sits on a strike watch."
+  },
+  "expenses": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Expenses",
+    "lead": "MTD spend on the open book with unused ticket recovery called out on the page."
+  },
+  "risk": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Risk",
+    "lead": "Lagos is elevated. Paris and Mumbai sit on watch. Check-in rate is 96% after the 06:40 ping from Hana Poluru."
+  },
+  "reports": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Reports",
+    "lead": "Spend pack, duty of care log, approval SLA, unused tickets, policy exceptions, and itinerary export."
+  },
+  "settings": {
+    "eyebrow": "Workspace",
+    "title": "Settings",
+    "lead": "Company profile, density, and how Waypoint behaves when the sidebar is closed."
+  },
+  "search": {
+    "eyebrow": "FY26 Q3 · week 12",
+    "title": "Search",
+    "leadEmpty": "Search trips, travelers, approvals, itineraries, expenses, and people.",
+    "leadWithQuery": "Results across trips, travelers, approvals, expenses, and risk."
+  }
+}

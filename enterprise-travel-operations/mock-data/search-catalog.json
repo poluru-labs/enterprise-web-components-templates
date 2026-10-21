@@ -1,0 +1,383 @@
+{
+  "items": [
+    {
+      "label": "Hana Poluru · Lagos",
+      "description": "WP-1842 · In trip",
+      "owner": "Hana Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_lagos"
+    },
+    {
+      "label": "Kavya Poluru · London",
+      "description": "WP-1848 · In trip",
+      "owner": "Kavya Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_london"
+    },
+    {
+      "label": "Dev Poluru · Austin",
+      "description": "WP-1851 · Booked",
+      "owner": "Dev Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_austin"
+    },
+    {
+      "label": "Elena Poluru · Paris",
+      "description": "WP-1854 · Booked",
+      "owner": "Elena Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_paris"
+    },
+    {
+      "label": "Arjun Poluru · Singapore",
+      "description": "WP-1857 · Booked",
+      "owner": "Arjun Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_singapore"
+    },
+    {
+      "label": "Sahana Poluru · Berlin",
+      "description": "WP-1860 · Pending",
+      "owner": "Sahana Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_berlin"
+    },
+    {
+      "label": "Priya Poluru · Tokyo",
+      "description": "WP-1866 · Approved",
+      "owner": "Priya Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_tokyo"
+    },
+    {
+      "label": "Rohan Poluru · Mumbai",
+      "description": "WP-1870 · Booked",
+      "owner": "Rohan Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_mumbai"
+    },
+    {
+      "label": "Luca Poluru · Chicago",
+      "description": "WP-1828 · Complete",
+      "owner": "Luca Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_chicago"
+    },
+    {
+      "label": "Anika Poluru · New York",
+      "description": "WP-1821 · Complete",
+      "owner": "Anika Poluru",
+      "type": "Trip",
+      "href": "#/trip/tr_nyc"
+    },
+    {
+      "label": "Mira Poluru",
+      "description": "Head of travel · Home",
+      "owner": "Mira Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Hana Poluru",
+      "description": "Technical CSM · In trip",
+      "owner": "Hana Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Kavya Poluru",
+      "description": "VP growth · In trip",
+      "owner": "Kavya Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "VP engineering · Booked",
+      "owner": "Dev Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Elena Poluru",
+      "description": "Approvals lead · Booked",
+      "owner": "Elena Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Arjun Poluru",
+      "description": "CFO · Booked",
+      "owner": "Arjun Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Sahana Poluru",
+      "description": "People analytics · Pending",
+      "owner": "Sahana Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Priya Poluru",
+      "description": "VP customer · Approved",
+      "owner": "Priya Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "COO · Booked",
+      "owner": "Rohan Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Luca Poluru",
+      "description": "RevOps lead · Home",
+      "owner": "Luca Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "CISO · Home",
+      "owner": "Anika Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Nikhil Poluru",
+      "description": "Risk officer · Home",
+      "owner": "Nikhil Poluru",
+      "type": "Traveler",
+      "href": "#/travelers"
+    },
+    {
+      "label": "Sahana Poluru · Berlin hotel",
+      "description": "Trip · Pending",
+      "owner": "Elena Poluru",
+      "type": "Approval",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Hana Poluru · Lagos exception",
+      "description": "Policy · Pending",
+      "owner": "Nikhil Poluru",
+      "type": "Approval",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Arjun Poluru · extra night SIN",
+      "description": "Change · Pending",
+      "owner": "Elena Poluru",
+      "type": "Approval",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Luca Poluru · HQ meals",
+      "description": "Expense · Submitted",
+      "owner": "Rohan Poluru",
+      "type": "Approval",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Priya Poluru · Tokyo week",
+      "description": "Trip · Approved",
+      "owner": "Mira Poluru",
+      "type": "Approval",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Elena Poluru · CDG rail",
+      "description": "Change · Approved",
+      "owner": "Mira Poluru",
+      "type": "Approval",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Hana Poluru air",
+      "description": "Posted · 8 Sep",
+      "owner": "Hana Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Hana Poluru hotel",
+      "description": "Posted · 8 Sep",
+      "owner": "Hana Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Kavya Poluru air",
+      "description": "Posted · 9 Sep",
+      "owner": "Kavya Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Kavya Poluru meals",
+      "description": "Submitted · 16 Sep",
+      "owner": "Kavya Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Luca Poluru meals",
+      "description": "Submitted · 11 Sep",
+      "owner": "Luca Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Anika Poluru air",
+      "description": "Reimbursed · 6 Sep",
+      "owner": "Anika Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Arjun Poluru air",
+      "description": "Posted · 12 Sep",
+      "owner": "Arjun Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Sahana Poluru hotel",
+      "description": "Held · 12 Sep",
+      "owner": "Sahana Poluru",
+      "type": "Expense",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Lagos risk",
+      "description": "Elevated · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Risk",
+      "href": "#/risk"
+    },
+    {
+      "label": "Paris risk",
+      "description": "Watch · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Risk",
+      "href": "#/risk"
+    },
+    {
+      "label": "Mumbai risk",
+      "description": "Watch · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Risk",
+      "href": "#/risk"
+    },
+    {
+      "label": "London risk",
+      "description": "Cleared · Nikhil Poluru",
+      "owner": "Nikhil Poluru",
+      "type": "Risk",
+      "href": "#/risk"
+    },
+    {
+      "label": "MTD spend pack",
+      "description": "XLSX · 15 Sep 2026",
+      "owner": "Rohan Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Duty of care log",
+      "description": "PDF · 16 Sep 2026",
+      "owner": "Nikhil Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Approval SLA",
+      "description": "CSV · 14 Sep 2026",
+      "owner": "Elena Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Unused tickets",
+      "description": "XLSX · 13 Sep 2026",
+      "owner": "Anika Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Policy exceptions",
+      "description": "PDF · 12 Sep 2026",
+      "owner": "Dev Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Itinerary export",
+      "description": "CSV · 16 Sep 2026",
+      "owner": "Anika Poluru",
+      "type": "Report",
+      "href": "#/reports"
+    },
+    {
+      "label": "Overview",
+      "description": "Board pulse",
+      "href": "#/overview",
+      "icon": "home",
+      "type": "Jump"
+    },
+    {
+      "label": "Hana Poluru · Lagos",
+      "description": "In trip · elevated",
+      "href": "#/trip/tr_lagos",
+      "icon": "alert-triangle",
+      "type": "Jump"
+    },
+    {
+      "label": "Kavya Poluru · London",
+      "description": "In trip",
+      "href": "#/trip/tr_london",
+      "icon": "folder",
+      "type": "Jump"
+    },
+    {
+      "label": "Approvals",
+      "description": "Four open",
+      "href": "#/approvals",
+      "icon": "check",
+      "type": "Jump"
+    },
+    {
+      "label": "Itineraries",
+      "description": "Live legs",
+      "href": "#/itineraries",
+      "icon": "clock",
+      "type": "Jump"
+    },
+    {
+      "label": "Expenses",
+      "description": "MTD $184k",
+      "href": "#/expenses",
+      "icon": "file",
+      "type": "Jump"
+    },
+    {
+      "label": "Risk",
+      "description": "Lagos elevated",
+      "href": "#/risk",
+      "icon": "alert-triangle",
+      "type": "Jump"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings",
+      "type": "Jump"
+    }
+  ],
+  "count": 54
+}

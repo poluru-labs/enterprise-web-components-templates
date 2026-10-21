@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "name": "Mira Poluru",
+      "role": "Head of travel",
+      "squad": "Travel ops",
+      "rating": 5,
+      "score": 94,
+      "book": 10
+    },
+    {
+      "name": "Elena Poluru",
+      "role": "Approvals lead",
+      "squad": "Approvals",
+      "rating": 5,
+      "score": 88,
+      "book": 4
+    },
+    {
+      "name": "Nikhil Poluru",
+      "role": "Risk officer",
+      "squad": "Duty of care",
+      "rating": 5,
+      "score": 91,
+      "book": 4
+    },
+    {
+      "name": "Rohan Poluru",
+      "role": "Expense auditor",
+      "squad": "Spend",
+      "rating": 4,
+      "score": 82,
+      "book": 8
+    },
+    {
+      "name": "Anika Poluru",
+      "role": "Booking desk",
+      "squad": "Desk",
+      "rating": 4,
+      "score": 86,
+      "book": 10
+    },
+    {
+      "name": "Dev Poluru",
+      "role": "Policy admin",
+      "squad": "Policy",
+      "rating": 4,
+      "score": 80,
+      "book": 6
+    },
+    {
+      "name": "Kavya Poluru",
+      "role": "Traveler",
+      "squad": "Growth",
+      "rating": 5,
+      "score": 90,
+      "book": 1
+    },
+    {
+      "name": "Hana Poluru",
+      "role": "Traveler",
+      "squad": "Customer",
+      "rating": 4,
+      "score": 74,
+      "book": 1
+    }
+  ]
+}

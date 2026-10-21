@@ -1,0 +1,32 @@
+{
+  "drivers": [
+    {
+      "metric": "Air",
+      "actual": "$128k",
+      "target": "$135k",
+      "variance": "−$7k",
+      "status": "On track"
+    },
+    {
+      "metric": "Hotel",
+      "actual": "$41k",
+      "target": "$44k",
+      "variance": "−$3k",
+      "status": "On track"
+    },
+    {
+      "metric": "Ground",
+      "actual": "$9k",
+      "target": "$8k",
+      "variance": "+$1k",
+      "status": "Watch"
+    },
+    {
+      "metric": "Meals",
+      "actual": "$6k",
+      "target": "$13k",
+      "variance": "−$7k",
+      "status": "On track"
+    }
+  ]
+}

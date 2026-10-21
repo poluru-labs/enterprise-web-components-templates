@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "traveler": "Mira Poluru",
+      "coupon": "UA 1842 ORD-BOS",
+      "value": 2400,
+      "expires": "12 Nov 2026"
+    },
+    {
+      "traveler": "Luca Poluru",
+      "coupon": "UA 220 SFO-ORD",
+      "value": 3100,
+      "expires": "4 Oct 2026"
+    },
+    {
+      "traveler": "Anika Poluru",
+      "coupon": "AA 412 LGA-ORD",
+      "value": 1860,
+      "expires": "18 Dec 2026"
+    },
+    {
+      "traveler": "Dev Poluru",
+      "coupon": "AA 88 AUS-DFW",
+      "value": 640,
+      "expires": "2 Jan 2027"
+    },
+    {
+      "traveler": "Elena Poluru",
+      "coupon": "AF 336 CDG-LYS",
+      "value": 4400,
+      "expires": "9 Oct 2026"
+    }
+  ]
+}

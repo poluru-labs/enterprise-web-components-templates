@@ -1,0 +1,29 @@
+{
+  "columns": [
+    {
+      "key": "subject",
+      "label": "Request",
+      "sortable": true
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "owner",
+      "label": "Owner"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "sla",
+      "label": "SLA"
+    },
+    {
+      "key": "amount",
+      "label": "Amount"
+    }
+  ]
+}

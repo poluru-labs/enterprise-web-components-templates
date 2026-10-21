@@ -1,0 +1,29 @@
+{
+  "homeRegionOptions": [
+    {
+      "label": "Americas",
+      "value": "americas"
+    },
+    {
+      "label": "EMEA",
+      "value": "emea"
+    },
+    {
+      "label": "APAC",
+      "value": "apac"
+    }
+  ],
+  "defaultHomeRegion": "americas",
+  "checkInFloor": {
+    "min": 80,
+    "max": 100,
+    "value": 90
+  },
+  "densityDefault": "comfortable",
+  "staffPinLength": 4,
+  "switches": {
+    "startFullWidth": true,
+    "eightHourLagosPing": true
+  },
+  "saveToast": "Workspace settings saved"
+}

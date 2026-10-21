@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "id": "tv_mira",
+      "name": "Mira Poluru",
+      "role": "Head of travel",
+      "region": "Americas",
+      "policy": "Exec",
+      "trips": 1,
+      "spend": 0,
+      "risk": "Cleared",
+      "passport": "US · 2029",
+      "status": "Home"
+    },
+    {
+      "id": "tv_hana",
+      "name": "Hana Poluru",
+      "role": "Technical CSM",
+      "region": "Americas",
+      "policy": "Restricted",
+      "trips": 1,
+      "spend": 8420,
+      "risk": "Elevated",
+      "passport": "US · 2028",
+      "status": "In trip"
+    },
+    {
+      "id": "tv_kavya",
+      "name": "Kavya Poluru",
+      "role": "VP growth",
+      "region": "Americas",
+      "policy": "Standard",
+      "trips": 1,
+      "spend": 3180,
+      "risk": "Cleared",
+      "passport": "US · 2030",
+      "status": "In trip"
+    },
+    {
+      "id": "tv_dev",
+      "name": "Dev Poluru",
+      "role": "VP engineering",
+      "region": "Americas",
+      "policy": "Standard",
+      "trips": 1,
+      "spend": 890,
+      "risk": "Cleared",
+      "passport": "US · 2027",
+      "status": "Booked"
+    },
+    {
+      "id": "tv_elena",
+      "name": "Elena Poluru",
+      "role": "Approvals lead",
+      "region": "EMEA",
+      "policy": "Standard",
+      "trips": 1,
+      "spend": 2640,
+      "risk": "Watch",
+      "passport": "FR · 2031",
+      "status": "Booked"
+    },
+    {
+      "id": "tv_arjun",
+      "name": "Arjun Poluru",
+      "role": "CFO",
+      "region": "APAC",
+      "policy": "Exec",
+      "trips": 1,
+      "spend": 6910,
+      "risk": "Cleared",
+      "passport": "SG · 2029",
+      "status": "Booked"
+    },
+    {
+      "id": "tv_sahana",
+      "name": "Sahana Poluru",
+      "role": "People analytics",
+      "region": "EMEA",
+      "policy": "Standard",
+      "trips": 1,
+      "spend": 4120,
+      "risk": "Cleared",
+      "passport": "DE · 2028",
+      "status": "Pending"
+    },
+    {
+      "id": "tv_priya",
+      "name": "Priya Poluru",
+      "role": "VP customer",
+      "region": "APAC",
+      "policy": "Exec",
+      "trips": 1,
+      "spend": 7450,
+      "risk": "Cleared",
+      "passport": "JP · 2030",
+      "status": "Approved"
+    },
+    {
+      "id": "tv_rohan",
+      "name": "Rohan Poluru",
+      "role": "COO",
+      "region": "APAC",
+      "policy": "Exec",
+      "trips": 1,
+      "spend": 5280,
+      "risk": "Watch",
+      "passport": "IN · 2027",
+      "status": "Booked"
+    },
+    {
+      "id": "tv_luca",
+      "name": "Luca Poluru",
+      "role": "RevOps lead",
+      "region": "Americas",
+      "policy": "Standard",
+      "trips": 1,
+      "spend": 1640,
+      "risk": "Cleared",
+      "passport": "US · 2026",
+      "status": "Home"
+    },
+    {
+      "id": "tv_anika",
+      "name": "Anika Poluru",
+      "role": "CISO",
+      "region": "Americas",
+      "policy": "Standard",
+      "trips": 1,
+      "spend": 1210,
+      "risk": "Cleared",
+      "passport": "US · 2029",
+      "status": "Home"
+    },
+    {
+      "id": "tv_nikhil",
+      "name": "Nikhil Poluru",
+      "role": "Risk officer",
+      "region": "Americas",
+      "policy": "Duty of care",
+      "trips": 0,
+      "spend": 0,
+      "risk": "Cleared",
+      "passport": "US · 2031",
+      "status": "Home"
+    }
+  ],
+  "count": 12
+}

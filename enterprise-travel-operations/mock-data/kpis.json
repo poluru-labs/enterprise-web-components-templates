@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "label": "Travelers in trip",
+      "value": "2",
+      "hint": "Hana Lagos · Kavya London",
+      "trend": "flat",
+      "trendValue": "Live"
+    },
+    {
+      "label": "Booked ahead",
+      "value": "6",
+      "hint": "Through 9 Oct",
+      "trend": "up",
+      "trendValue": "+1"
+    },
+    {
+      "label": "Pending approvals",
+      "value": "4",
+      "hint": "Two past SLA",
+      "trend": "down",
+      "trendValue": "2 overdue"
+    },
+    {
+      "label": "MTD spend",
+      "value": "$184k",
+      "hint": "Plan $200k",
+      "trend": "up",
+      "trendValue": "−8%"
+    },
+    {
+      "label": "Policy exceptions",
+      "value": "3",
+      "hint": "Lagos, Berlin hotel, SG night",
+      "trend": "flat",
+      "trendValue": "Open"
+    },
+    {
+      "label": "Elevated risk",
+      "value": "1",
+      "hint": "Lagos duty of care",
+      "trend": "down",
+      "trendValue": "Hana"
+    },
+    {
+      "label": "Check-in rate",
+      "value": "96%",
+      "hint": "Last ping 06:40 CDT",
+      "trend": "up",
+      "trendValue": "+3 pts"
+    },
+    {
+      "label": "Unused tickets",
+      "value": "$12.4k",
+      "hint": "Five open coupons",
+      "trend": "flat",
+      "trendValue": "Recover"
+    }
+  ]
+}

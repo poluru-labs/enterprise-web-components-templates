@@ -1,0 +1,12 @@
+{
+  "heading": "Trip filters",
+  "travelerPlaceholder": "Any traveler",
+  "onlyMyApprovalsDefault": true,
+  "hideCompletedDefault": false,
+  "costSlider": {
+    "min": 0,
+    "max": 10000,
+    "value": 500,
+    "label": "Min cost"
+  }
+}

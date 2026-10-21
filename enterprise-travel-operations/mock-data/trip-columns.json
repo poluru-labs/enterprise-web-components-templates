@@ -1,0 +1,34 @@
+{
+  "columns": [
+    {
+      "key": "code",
+      "label": "Trip",
+      "sortable": true
+    },
+    {
+      "key": "traveler",
+      "label": "Traveler",
+      "sortable": true
+    },
+    {
+      "key": "city",
+      "label": "City"
+    },
+    {
+      "key": "status",
+      "label": "Status"
+    },
+    {
+      "key": "risk",
+      "label": "Risk"
+    },
+    {
+      "key": "cost",
+      "label": "Cost"
+    },
+    {
+      "key": "depart",
+      "label": "Depart"
+    }
+  ]
+}

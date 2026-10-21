@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "description": "Board pulse",
+      "href": "#/overview",
+      "icon": "home"
+    },
+    {
+      "label": "Hana Poluru · Lagos",
+      "description": "In trip · elevated",
+      "href": "#/trip/tr_lagos",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Kavya Poluru · London",
+      "description": "In trip",
+      "href": "#/trip/tr_london",
+      "icon": "folder"
+    },
+    {
+      "label": "Approvals",
+      "description": "Four open",
+      "href": "#/approvals",
+      "icon": "check"
+    },
+    {
+      "label": "Itineraries",
+      "description": "Live legs",
+      "href": "#/itineraries",
+      "icon": "clock"
+    },
+    {
+      "label": "Expenses",
+      "description": "MTD $184k",
+      "href": "#/expenses",
+      "icon": "file"
+    },
+    {
+      "label": "Risk",
+      "description": "Lagos elevated",
+      "href": "#/risk",
+      "icon": "alert-triangle"
+    },
+    {
+      "label": "Settings",
+      "description": "Workspace",
+      "href": "#/settings",
+      "icon": "settings"
+    }
+  ],
+  "modalHeading": "Jump to"
+}

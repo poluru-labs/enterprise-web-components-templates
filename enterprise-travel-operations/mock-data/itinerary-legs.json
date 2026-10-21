@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "lg_los_1",
+      "tripId": "tr_lagos",
+      "kind": "Flight",
+      "label": "UA 990 ORD → LOS",
+      "when": "14 Sep · 16:40",
+      "status": "Departed",
+      "icon": "star"
+    },
+    {
+      "id": "lg_los_2",
+      "tripId": "tr_lagos",
+      "kind": "Hotel",
+      "label": "Federal Palace · 5 nights",
+      "when": "14–19 Sep",
+      "status": "In house",
+      "icon": "folder"
+    },
+    {
+      "id": "lg_los_3",
+      "tripId": "tr_lagos",
+      "kind": "Car",
+      "label": "Armored transfer",
+      "when": "Daily 07:30",
+      "status": "Confirmed",
+      "icon": "clock"
+    },
+    {
+      "id": "lg_los_4",
+      "tripId": "tr_lagos",
+      "kind": "Flight",
+      "label": "UA 991 LOS → ORD",
+      "when": "20 Sep · 22:15",
+      "status": "Booked",
+      "icon": "star"
+    },
+    {
+      "id": "lg_lhr_1",
+      "tripId": "tr_london",
+      "kind": "Flight",
+      "label": "BA 296 ORD → LHR",
+      "when": "15 Sep · 19:05",
+      "status": "Departed",
+      "icon": "star"
+    },
+    {
+      "id": "lg_lhr_2",
+      "tripId": "tr_london",
+      "kind": "Hotel",
+      "label": "The Hoxton Shoreditch",
+      "when": "16–17 Sep",
+      "status": "In house",
+      "icon": "folder"
+    },
+    {
+      "id": "lg_lhr_3",
+      "tripId": "tr_london",
+      "kind": "Rail",
+      "label": "Heathrow Express",
+      "when": "16 Sep · 08:10",
+      "status": "Used",
+      "icon": "clock"
+    },
+    {
+      "id": "lg_lhr_4",
+      "tripId": "tr_london",
+      "kind": "Flight",
+      "label": "BA 297 LHR → ORD",
+      "when": "18 Sep · 12:00",
+      "status": "Booked",
+      "icon": "star"
+    },
+    {
+      "id": "lg_aus_1",
+      "tripId": "tr_austin",
+      "kind": "Flight",
+      "label": "AA 1231 ORD → AUS",
+      "when": "18 Sep · 07:15",
+      "status": "Booked",
+      "icon": "star"
+    },
+    {
+      "id": "lg_cdg_1",
+      "tripId": "tr_paris",
+      "kind": "Flight",
+      "label": "AF 137 ORD → CDG",
+      "when": "21 Sep · 15:50",
+      "status": "Watch",
+      "icon": "alert-triangle"
+    },
+    {
+      "id": "lg_sin_1",
+      "tripId": "tr_singapore",
+      "kind": "Flight",
+      "label": "SQ 31 ORD → SIN",
+      "when": "22 Sep · 20:40",
+      "status": "Booked",
+      "icon": "star"
+    },
+    {
+      "id": "lg_ber_1",
+      "tripId": "tr_berlin",
+      "kind": "Flight",
+      "label": "LH 431 ORD → BER",
+      "when": "24 Sep · 16:20",
+      "status": "Pending",
+      "icon": "clock"
+    }
+  ],
+  "count": 12
+}

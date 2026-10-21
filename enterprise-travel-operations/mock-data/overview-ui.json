@@ -1,0 +1,53 @@
+{
+  "alert": {
+    "variant": "warning",
+    "title": "Hana Poluru is in Lagos",
+    "message": "Elevated duty of care. Last check-in 06:40 CDT. Movement only with the armored transfer. Nikhil Poluru owns the brief."
+  },
+  "dashPeriodOptions": [
+    {
+      "label": "Week",
+      "value": "week"
+    },
+    {
+      "label": "Q3",
+      "value": "q3"
+    },
+    {
+      "label": "FY26",
+      "value": "fy"
+    }
+  ],
+  "defaultDashPeriod": "q3",
+  "dutyOfCare": {
+    "checkInRate": 96,
+    "meterOptimum": 95
+  },
+  "watchList": [
+    {
+      "label": "Hana Poluru · Lagos",
+      "description": "Nikhil Poluru · elevated",
+      "icon": "alert-triangle",
+      "href": "#/trip/tr_lagos"
+    },
+    {
+      "label": "Berlin hotel SLA",
+      "description": "Elena Poluru · overdue",
+      "icon": "clock",
+      "href": "#/approvals"
+    },
+    {
+      "label": "SIN extra night",
+      "description": "Arjun Poluru · $620",
+      "icon": "file",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Unused UA 220",
+      "description": "Luca Poluru · expires 4 Oct",
+      "icon": "folder",
+      "href": "#/expenses"
+    }
+  ],
+  "recentTripsRowLimit": 5
+}

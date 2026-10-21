@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "In trip",
+      "value": "2",
+      "delta": "Lagos · London",
+      "trend": "flat",
+      "href": "#/trips"
+    },
+    {
+      "label": "Approvals",
+      "value": "4",
+      "delta": "2 overdue",
+      "trend": "down",
+      "href": "#/approvals"
+    },
+    {
+      "label": "Spend",
+      "value": "$184k",
+      "delta": "−8% vs plan",
+      "trend": "up",
+      "href": "#/expenses"
+    },
+    {
+      "label": "Risk",
+      "value": "1",
+      "delta": "Lagos elevated",
+      "trend": "down",
+      "href": "#/risk"
+    },
+    {
+      "label": "On time",
+      "value": "94%",
+      "delta": "+2 pts",
+      "trend": "up",
+      "href": "#/itineraries"
+    },
+    {
+      "label": "Unused",
+      "value": "$12.4k",
+      "delta": "5 tickets",
+      "trend": "flat",
+      "href": "#/expenses"
+    }
+  ]
+}

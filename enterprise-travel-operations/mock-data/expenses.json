@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "ex_lagos_air",
+      "tripId": "tr_lagos",
+      "traveler": "Hana Poluru",
+      "category": "Air",
+      "amount": 6120,
+      "status": "Posted",
+      "submitted": "8 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_lagos_htl",
+      "tripId": "tr_lagos",
+      "traveler": "Hana Poluru",
+      "category": "Hotel",
+      "amount": 1840,
+      "status": "Posted",
+      "submitted": "8 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_lhr_air",
+      "tripId": "tr_london",
+      "traveler": "Kavya Poluru",
+      "category": "Air",
+      "amount": 2180,
+      "status": "Posted",
+      "submitted": "9 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_lhr_meal",
+      "tripId": "tr_london",
+      "traveler": "Kavya Poluru",
+      "category": "Meals",
+      "amount": 94,
+      "status": "Submitted",
+      "submitted": "16 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_chi_meal",
+      "tripId": "tr_chicago",
+      "traveler": "Luca Poluru",
+      "category": "Meals",
+      "amount": 186,
+      "status": "Submitted",
+      "submitted": "11 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_nyc_air",
+      "tripId": "tr_nyc",
+      "traveler": "Anika Poluru",
+      "category": "Air",
+      "amount": 840,
+      "status": "Reimbursed",
+      "submitted": "6 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_sin_air",
+      "tripId": "tr_singapore",
+      "traveler": "Arjun Poluru",
+      "category": "Air",
+      "amount": 5480,
+      "status": "Posted",
+      "submitted": "12 Sep",
+      "receipt": "Yes"
+    },
+    {
+      "id": "ex_ber_htl",
+      "tripId": "tr_berlin",
+      "traveler": "Sahana Poluru",
+      "category": "Hotel",
+      "amount": 1680,
+      "status": "Held",
+      "submitted": "12 Sep",
+      "receipt": "Yes"
+    }
+  ],
+  "count": 8
+}

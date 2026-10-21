@@ -1,0 +1,19 @@
+{
+  "productName": "Waypoint",
+  "productLine": "Travel",
+  "workspaceName": "Meridian Group",
+  "brandColor": "#1581BF",
+  "brandMark": "W",
+  "currentUser": {
+    "name": "Mira Poluru",
+    "email": "mira.poluru@meridian.example",
+    "role": "Head of travel"
+  },
+  "workspace": {
+    "name": "Meridian Group",
+    "period": "FY26 Q3 · week 12",
+    "timezone": "America / Chicago",
+    "close": "Period ends 30 Sep 2026"
+  },
+  "note": "Primary catalog in src/data/index.js; consumed by way-shell and pages."
+}

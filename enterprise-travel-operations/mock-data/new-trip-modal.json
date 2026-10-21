@@ -1,0 +1,34 @@
+{
+  "heading": "New trip",
+  "defaultTraveler": "Hana Poluru",
+  "cityPlaceholder": "Lagos",
+  "purposeOptions": [
+    {
+      "label": "Client",
+      "value": "Client"
+    },
+    {
+      "label": "Internal",
+      "value": "Internal"
+    },
+    {
+      "label": "Conference",
+      "value": "Conference"
+    },
+    {
+      "label": "Duty of care",
+      "value": "Duty of care"
+    }
+  ],
+  "defaultPurpose": "Client",
+  "estimatedCostDefault": 2400,
+  "cabinOptions": [
+    "economy",
+    "plus",
+    "business"
+  ],
+  "defaultCabin": "economy",
+  "notesPlaceholder": "Why this trip is on the books and who signs.",
+  "staffPinLength": 4,
+  "successToast": "Trip added to the book"
+}

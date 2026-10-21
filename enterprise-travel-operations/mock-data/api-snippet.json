@@ -1,0 +1,5 @@
+{
+  "title": "Trips API",
+  "language": "http",
+  "snippet": "GET /v1/trips/tr_lagos\nAuthorization: Bearer way_live_****\n\n{\n  \"id\": \"tr_lagos\",\n  \"code\": \"WP-1842\",\n  \"traveler\": \"Hana Poluru\",\n  \"city\": \"Lagos\",\n  \"risk\": \"Elevated\"\n}"
+}

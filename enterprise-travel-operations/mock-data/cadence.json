@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "label": "Hana Lagos check-in",
+      "description": "Nikhil Poluru · last ping 06:40",
+      "timestamp": "16 Sep",
+      "icon": "alert-triangle",
+      "status": "Today"
+    },
+    {
+      "label": "Berlin hotel SLA",
+      "description": "Elena Poluru · $84 over cap",
+      "timestamp": "16 Sep",
+      "icon": "clock",
+      "status": "Today"
+    },
+    {
+      "label": "Kavya LHR return",
+      "description": "BA 297 · 12:00",
+      "timestamp": "18 Sep",
+      "icon": "star",
+      "status": "Next"
+    },
+    {
+      "label": "Dev Austin standup",
+      "description": "AA 1231 · 07:15",
+      "timestamp": "18 Sep",
+      "icon": "check",
+      "status": "Scheduled"
+    },
+    {
+      "label": "Paris strike window",
+      "description": "Elena Poluru · AF 137 hold",
+      "timestamp": "21 Sep",
+      "icon": "eye",
+      "status": "Scheduled"
+    },
+    {
+      "label": "Arjun SIN extra night",
+      "description": "Elena Poluru · overdue",
+      "timestamp": "22 Sep",
+      "icon": "folder",
+      "status": "Scheduled"
+    }
+  ]
+}
