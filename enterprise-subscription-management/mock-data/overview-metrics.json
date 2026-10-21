@@ -1,0 +1,37 @@
+{
+  "metrics": [
+    {
+      "label": "Monthly recurring revenue",
+      "value": "$128,430",
+      "change": "12.8%",
+      "context": "+$14,574 vs. last month",
+      "icon": "currency-dollar",
+      "sparkColor": "#ed3f27"
+    },
+    {
+      "label": "Active subscriptions",
+      "value": "2,846",
+      "change": "8.2%",
+      "context": "+216 vs. last month",
+      "icon": "stack",
+      "sparkColor": "#53796c"
+    },
+    {
+      "label": "Net revenue retention",
+      "value": "112.6%",
+      "change": "4.1%",
+      "context": "Above your 110% target",
+      "icon": "graph-up-arrow",
+      "sparkColor": "#53796c"
+    },
+    {
+      "label": "Monthly churn rate",
+      "value": "1.8%",
+      "change": "0.6%",
+      "context": "Down from 2.4% last month",
+      "icon": "arrow-down-right",
+      "sparkColor": "#53796c",
+      "trendInverted": true
+    }
+  ]
+}

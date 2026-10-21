@@ -1,0 +1,18 @@
+{
+  "heading": "Prism resources",
+  "items": [
+    {
+      "heading": "Managing subscriptions",
+      "body": "Create a subscription with the orange button. Select a customer to review their plan, usage, and renewal settings.",
+      "open": true
+    },
+    {
+      "heading": "Monitoring revenue",
+      "body": "The overview provides illustrative revenue metrics. Export the subscription register for the current customer records."
+    },
+    {
+      "heading": "About this workspace",
+      "body": "This is a local demo. Subscription changes are saved in this browser. No billing actions or emails are sent."
+    }
+  ]
+}

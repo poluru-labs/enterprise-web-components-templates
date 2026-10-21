@@ -1,0 +1,17 @@
+{
+  "heading": "New subscription",
+  "placeholders": {
+    "customerName": "e.g. Sam Poluru",
+    "company": "Company name",
+    "notes": "Add a note for your team"
+  },
+  "planOptions": [
+    "Starter",
+    "Growth",
+    "Enterprise"
+  ],
+  "defaultPlan": "Growth",
+  "defaultSeats": 5,
+  "defaultRenewalDate": "2026-10-16",
+  "autoRenewDefault": true
+}

@@ -1,0 +1,24 @@
+{
+  "totalSubscriptions": 2846,
+  "plans": [
+    {
+      "name": "Enterprise",
+      "count": 854,
+      "share": "30%",
+      "color": "orange"
+    },
+    {
+      "name": "Growth",
+      "count": 1423,
+      "share": "50%",
+      "color": "peach"
+    },
+    {
+      "name": "Starter",
+      "count": 569,
+      "share": "20%",
+      "color": "sand"
+    }
+  ],
+  "note": "Growth is your most popular plan"
+}

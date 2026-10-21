@@ -1,0 +1,17 @@
+{
+  "accordion": [
+    {
+      "heading": "Usage limits & overages",
+      "body": "Customers receive a notification at 80% usage. Overage billing requires an explicit account agreement.",
+      "open": true
+    },
+    {
+      "heading": "Plan upgrades & proration",
+      "body": "Upgrades take effect immediately. Unused time is credited toward the new plan."
+    },
+    {
+      "heading": "Seat provisioning",
+      "body": "Workspace administrators can allocate seats up to their subscription limit."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "label": "Overview",
+      "icon": "grid-1x2",
+      "hash": "#overview"
+    },
+    {
+      "label": "Subscriptions",
+      "icon": "stack",
+      "hash": "#subscriptions"
+    },
+    {
+      "label": "Plans & entitlements",
+      "icon": "box",
+      "hash": "#plans-&-entitlements"
+    },
+    {
+      "label": "Renewals",
+      "icon": "arrow-repeat",
+      "hash": "#renewals",
+      "badge": 18
+    },
+    {
+      "label": "Usage",
+      "icon": "bar-chart",
+      "hash": "#usage"
+    },
+    {
+      "label": "Cancellations",
+      "icon": "slash-circle",
+      "hash": "#cancellations"
+    },
+    {
+      "label": "Revenue retention",
+      "icon": "graph-up-arrow",
+      "hash": "#revenue-retention"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "label": "Aarav Poluru",
+      "description": "Orbit Commerce · Enterprise · Active",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Maya Poluru",
+      "description": "Layers Studio · Growth · At risk",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Rohan Poluru",
+      "description": "Acme Technologies · Enterprise · Active",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Anika Poluru",
+      "description": "Outline Labs · Starter · Trial",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Dev Poluru",
+      "description": "Catalog Collective · Growth · Active",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Isha Poluru",
+      "description": "Forma Digital · Growth · Canceled",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Neel Poluru",
+      "description": "Vertex Systems · Enterprise · Active",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    },
+    {
+      "label": "Tara Poluru",
+      "description": "Fieldwork · Starter · Active",
+      "type": "Subscription",
+      "href": "#subscriptions"
+    }
+  ]
+}

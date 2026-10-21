@@ -1,0 +1,11 @@
+{
+  "filename": "prism-subscriptions.csv",
+  "columns": [
+    "Customer",
+    "Company",
+    "Plan",
+    "Monthly revenue",
+    "Renewal",
+    "Status"
+  ]
+}

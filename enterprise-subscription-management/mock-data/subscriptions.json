@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "name": "Aarav Poluru",
+      "company": "Orbit Commerce",
+      "plan": "Enterprise",
+      "mrr": 2400,
+      "renewal": "Sep 18, 2026",
+      "status": "Active",
+      "usage": 76
+    },
+    {
+      "name": "Maya Poluru",
+      "company": "Layers Studio",
+      "plan": "Growth",
+      "mrr": 890,
+      "renewal": "Sep 20, 2026",
+      "status": "At risk",
+      "usage": 92
+    },
+    {
+      "name": "Rohan Poluru",
+      "company": "Acme Technologies",
+      "plan": "Enterprise",
+      "mrr": 3200,
+      "renewal": "Sep 22, 2026",
+      "status": "Active",
+      "usage": 64
+    },
+    {
+      "name": "Anika Poluru",
+      "company": "Outline Labs",
+      "plan": "Starter",
+      "mrr": 249,
+      "renewal": "Sep 24, 2026",
+      "status": "Trial",
+      "usage": 38
+    },
+    {
+      "name": "Dev Poluru",
+      "company": "Catalog Collective",
+      "plan": "Growth",
+      "mrr": 890,
+      "renewal": "Sep 25, 2026",
+      "status": "Active",
+      "usage": 83
+    },
+    {
+      "name": "Isha Poluru",
+      "company": "Forma Digital",
+      "plan": "Growth",
+      "mrr": 890,
+      "renewal": "Sep 27, 2026",
+      "status": "Canceled",
+      "usage": 22
+    },
+    {
+      "name": "Neel Poluru",
+      "company": "Vertex Systems",
+      "plan": "Enterprise",
+      "mrr": 2800,
+      "renewal": "Sep 28, 2026",
+      "status": "Active",
+      "usage": 71
+    },
+    {
+      "name": "Tara Poluru",
+      "company": "Fieldwork",
+      "plan": "Starter",
+      "mrr": 249,
+      "renewal": "Sep 30, 2026",
+      "status": "Active",
+      "usage": 57
+    }
+  ],
+  "count": 8,
+  "note": "Initial seed; browser may override via prism-subscriptions."
+}

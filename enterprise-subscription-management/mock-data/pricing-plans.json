@@ -1,0 +1,55 @@
+{
+  "plans": [
+    {
+      "name": "Starter",
+      "priceMonthly": 249,
+      "tagline": "For teams finding their stride.",
+      "seats": 20,
+      "apiCallsPerMonth": 10000,
+      "badge": "MONTHLY PLAN",
+      "reporting": "Standard",
+      "support": "Email support"
+    },
+    {
+      "name": "Growth",
+      "priceMonthly": 890,
+      "tagline": "More room for your next chapter.",
+      "seats": 100,
+      "apiCallsPerMonth": 100000,
+      "badge": "MOST POPULAR",
+      "reporting": "Advanced",
+      "support": "Email support",
+      "highlighted": true
+    },
+    {
+      "name": "Enterprise",
+      "priceMonthly": 2400,
+      "tagline": "Built for your biggest ambitions.",
+      "seats": 500,
+      "apiCallsPerMonth": 1000000,
+      "badge": "MONTHLY PLAN",
+      "reporting": "Advanced",
+      "support": "Dedicated account manager"
+    }
+  ],
+  "defaultEntitlementsByPlan": {
+    "Starter": {
+      "seats": 20,
+      "reporting": false,
+      "api": true,
+      "support": false
+    },
+    "Growth": {
+      "seats": 100,
+      "reporting": true,
+      "api": true,
+      "support": false
+    },
+    "Enterprise": {
+      "seats": 500,
+      "reporting": true,
+      "api": true,
+      "support": true
+    }
+  }
+}

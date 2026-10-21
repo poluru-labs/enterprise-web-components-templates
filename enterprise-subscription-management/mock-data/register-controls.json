@@ -1,0 +1,33 @@
+{
+  "statusTabs": [
+    "All subscriptions",
+    "Active",
+    "At risk",
+    "Trial",
+    "Canceled"
+  ],
+  "defaultStatus": "All subscriptions",
+  "atRiskTabBadge": 1,
+  "planFilterOptions": [
+    "All plans",
+    "Starter",
+    "Growth",
+    "Enterprise"
+  ],
+  "defaultPlanFilter": "All plans",
+  "searchPlaceholder": "Search customers…",
+  "pageSize": 5,
+  "tableColumns": [
+    "Customer",
+    "Plan",
+    "Monthly revenue",
+    "Renewal date",
+    "Usage",
+    "Status"
+  ],
+  "mrrByPlan": {
+    "Starter": 249,
+    "Growth": 890,
+    "Enterprise": 2400
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "newBusiness": {
+    "value": "$18,240",
+    "delta": "↗ 16.2%"
+  },
+  "expansion": {
+    "value": "$8,640",
+    "delta": "↗ 9.4%"
+  },
+  "contraction": {
+    "value": "−$3,420"
+  },
+  "churned": {
+    "value": "−$2,310"
+  }
+}

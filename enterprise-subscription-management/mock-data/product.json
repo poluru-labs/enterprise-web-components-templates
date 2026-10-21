@@ -1,0 +1,22 @@
+{
+  "productName": "Prism",
+  "productLine": "Subscription operations",
+  "workspaceName": "Poluru workspace",
+  "workspaceEnvironment": "Production",
+  "brandColor": "#ED3F27",
+  "reportingPeriod": "September 2026",
+  "periodLabel": "Sep 1 – Sep 30, 2026",
+  "currentUser": {
+    "name": "Alex Poluru",
+    "role": "Workspace admin"
+  },
+  "eyebrow": "YOUR BUSINESS, IN FOCUS",
+  "note": "Runtime data lives in prism.js; src/data/index.js is unused Signal starter. Register can persist in localStorage.",
+  "localStorageKeys": {
+    "subscriptions": "prism-subscriptions",
+    "entitlements": "prism-entitlements",
+    "preferences": "prism-preferences"
+  },
+  "customerNameRule": "New customer names must end with Poluru.",
+  "overviewKpisNote": "Overview KPIs are a fixed September snapshot and are not recalculated from the register."
+}

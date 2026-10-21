@@ -1,0 +1,13 @@
+{
+  "options": [
+    {
+      "value": "production",
+      "label": "Production workspace"
+    },
+    {
+      "value": "sandbox",
+      "label": "Sandbox workspace"
+    }
+  ],
+  "default": "production"
+}

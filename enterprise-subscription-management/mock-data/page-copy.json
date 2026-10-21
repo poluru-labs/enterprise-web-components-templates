@@ -1,0 +1,49 @@
+{
+  "overview": {
+    "title": "Subscription overview",
+    "subtitle": "A clear view of your recurring revenue. More room to grow."
+  },
+  "defaultPageSubtitle": "Keep every stage of the subscription journey connected.",
+  "pageTabs": [
+    "Overview",
+    "Revenue insights",
+    "Usage & engagement"
+  ],
+  "exploreMenu": [
+    {
+      "value": "Plans & entitlements",
+      "label": "Plans & entitlements"
+    },
+    {
+      "value": "Usage",
+      "label": "Usage reports"
+    },
+    {
+      "value": "Revenue retention",
+      "label": "Revenue retention"
+    }
+  ],
+  "dateMenu": [
+    {
+      "value": "month",
+      "label": "September 2026",
+      "periodLabel": "Sep 1 – Sep 30, 2026",
+      "chartPeriod": "Last 6 months"
+    },
+    {
+      "value": "quarter",
+      "label": "Q3 2026",
+      "periodLabel": "Jul 1 – Sep 30, 2026",
+      "chartPeriod": "Quarter to date"
+    }
+  ],
+  "registerTitles": {
+    "default": "Subscription activity",
+    "Renewals": "Upcoming renewals",
+    "Cancellations": "Cancellation register"
+  },
+  "registerDescriptions": {
+    "default": "Every customer, every plan. All in one place.",
+    "Cancellations": "Understand exits. Find your next opportunity to retain."
+  }
+}

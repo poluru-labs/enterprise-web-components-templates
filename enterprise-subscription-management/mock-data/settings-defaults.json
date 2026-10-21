@@ -1,0 +1,12 @@
+{
+  "workspaceName": "Poluru workspace",
+  "renewalReminders": true,
+  "usageThresholdNotifications": true,
+  "currency": "USD",
+  "currencyOptions": [
+    {
+      "label": "USD — US Dollar",
+      "value": "USD"
+    }
+  ]
+}

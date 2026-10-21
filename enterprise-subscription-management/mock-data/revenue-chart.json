@@ -1,0 +1,42 @@
+{
+  "headline": "$128,430.00",
+  "growthBadge": "↗ 12.8%",
+  "defaultPeriod": "Last 6 months",
+  "periodOptions": [
+    {
+      "label": "6 months",
+      "value": "Last 6 months"
+    },
+    {
+      "label": "Quarter",
+      "value": "Quarter to date"
+    }
+  ],
+  "xAxisLast6Months": [
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep"
+  ],
+  "xAxisQuarter": [
+    "Jul 1",
+    "Jul 18",
+    "Aug 5",
+    "Aug 23",
+    "Sep 10",
+    "Sep 30"
+  ],
+  "yAxisLabels": [
+    "$150k",
+    "$100k",
+    "$50k",
+    "$0"
+  ],
+  "ariaLabel": "Monthly recurring revenue increased from 82 thousand dollars in April to 128,430 dollars in September",
+  "legend": {
+    "revenue": "Revenue",
+    "previous": "Previous period"
+  }
+}
