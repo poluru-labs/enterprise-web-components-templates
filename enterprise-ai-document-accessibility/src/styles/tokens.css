@@ -1,0 +1,31 @@
+:root {
+  --sig-brand: #ad5c71;
+  --sig-brand-strong: #8f4a5d;
+  --sig-brand-soft: #c47a8d;
+  --sig-brand-muted: #f0dde3;
+  --sig-brand-glow: rgb(173 92 113 / 0.16);
+  --sig-ink: #2a2024;
+  --sig-mute: #7a636b;
+  --sig-rule: #eadde2;
+  --sig-sheet: #ffffff;
+  --sig-canvas: #faf6f7;
+  --sig-sidebar: #ad5c71;
+  --sig-sidebar-ink: #fff7f9;
+  --sig-sidebar-muted: rgb(255 247 249 / 0.74);
+
+  --eds-color-brand-900: #4a2832;
+  --eds-color-brand-800: #6a3845;
+  --eds-color-brand-700: #8f4a5d;
+  --eds-color-brand-600: #ad5c71;
+  --eds-color-brand-500: #c47a8d;
+  --eds-color-brand-400: #d49aa9;
+  --eds-color-brand-300: #e4bac5;
+  --eds-color-brand-200: #f0dde3;
+  --eds-color-brand-100: #f7ebef;
+  --eds-color-brand-50: #fbf4f6;
+  --eds-color-primary: var(--eds-color-brand-600);
+  --eds-color-primary-hover: var(--eds-color-brand-700);
+  --eds-color-primary-active: var(--eds-color-brand-800);
+  --eds-color-focus: var(--eds-color-brand-600);
+  --eds-color-bg: var(--sig-canvas);
+}
